@@ -23,12 +23,12 @@ MODELS = {
     "gemini-flash":      {"provider": "google",    "model_name": "gemini-2.5-flash"},
 
     # OpenAI
-    "gpt-4o-mini":       {"provider": "openai",    "model_name": "gpt-4o-mini"},
-    "gpt-4.1-mini":      {"provider": "openai",    "model_name": "gpt-4.1-mini"},
+    "gpt-4o":       {"provider": "openai",    "model_name": "gpt-4o"},
+    "gpt-5-mini":      {"provider": "openai",    "model_name": "gpt-5-mini"},
 
     # Anthropic
-    "claude-haiku":      {"provider": "anthropic", "model_name": "claude-haiku-4-5-20251001"},
-    "claude-sonnet":     {"provider": "anthropic", "model_name": "claude-sonnet-4-5-20250929"},
+    "claude-haiku":      {"provider": "anthropic", "model_name": "claude-haiku-4-5"},
+    "claude-sonnet":     {"provider": "anthropic", "model_name": "claude-sonnet-4-5"},
 }
 
 # ---------------------------------------------------------------------------
@@ -45,9 +45,9 @@ MODELS = {
 #               but only runs once per page, so a stronger model is justified.
 # ---------------------------------------------------------------------------
 AGENT_ROLES = {
-    "structurer": ["gemini-flash", "claude-haiku", "gpt-4o-mini"],
-    "extractor":  ["gemini-flash", "claude-haiku", "gpt-4.1-mini", "claude-sonnet"],
-    "corrector":  ["claude-sonnet", "gpt-4.1-mini", "gemini-flash"],
+    "structurer": ["gemini-flash"],
+    "extractor":  ["gemini-flash", "gpt-4o", "gpt-5-mini", "claude-sonnet"],
+    "corrector":  ["claude-sonnet", "gpt-5-mini", "gemini-flash"],
 }
 
 # ---------------------------------------------------------------------------
