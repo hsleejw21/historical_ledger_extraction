@@ -1,4 +1,4 @@
-# Ledger Extraction Pipeline
+# Historical Ledger Extraction Pipeline
 
 A multi-agent pipeline for extracting structured data from scans of 18th–19th century English parish ledgers. Three specialised agents work in sequence: a **Structurer** maps the page layout, an **Extractor** reads the numbers, and a **Corrector** audits and fixes errors using chain-of-thought reasoning.
 
@@ -30,7 +30,7 @@ The hardest failure modes on these documents are *structural* (missing rows, wro
 ## Project Layout
 
 ```
-ledger-extraction/
+historical-ledger-extraction/
 ├── src/
 │   ├── config.py                  # Model registry, agent role assignments, paths
 │   ├── clients.py                 # Unified LLM client (OpenAI / Google / Anthropic)
@@ -64,7 +64,7 @@ ledger-extraction/
 ```bash
 # 1. Clone and create a virtual environment
 git clone <your-repo-url>
-cd ledger-extraction
+cd historical-ledger-extraction
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 
