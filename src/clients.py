@@ -97,6 +97,24 @@ def _call_anthropic(model_name: str, system_prompt: str, user_prompt: str, image
     b64 = _encode_base64(image_path)
     mime = _media_type(image_path)
 
+    # Anthropic enforces a 5 MB limit on base64-encoded images.
+    # If the raw file exceeds that, re-save as JPEG at decreasing quality
+    # until it fits.  PNG scans are the usual offenders (10–15 MB typical).
+    MAX_B64_BYTES = 5 * 1024 * 1024   # 5 MB
+
+    if len(b64.encode("utf-8")) > MAX_B64_BYTES:
+        from PIL import Image
+        import io
+
+        img = Image.open(image_path).convert("RGB")   # JPEG doesn't support alpha
+        for quality in (85, 75, 60, 45):
+            buf = io.BytesIO()
+            img.save(buf, format="JPEG", quality=quality)
+            b64 = base64.b64encode(buf.getvalue()).decode("utf-8")
+            mime = "image/jpeg"
+            if len(b64.encode("utf-8")) <= MAX_B64_BYTES:
+                break
+
     response = client.messages.create(
         model=model_name,
         max_tokens=8192,

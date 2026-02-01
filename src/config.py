@@ -21,14 +21,13 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 MODELS = {
     # Google
     "gemini-flash":      {"provider": "google",    "model_name": "gemini-2.5-flash"},
+    "gemini-pro":        {"provider": "google",    "model_name": "gemini-2.5-pro"},
 
     # OpenAI
-    "gpt-4o-mini":       {"provider": "openai",    "model_name": "gpt-4o-mini"},
-    "gpt-4.1-mini":      {"provider": "openai",    "model_name": "gpt-4.1-mini"},
+    "gpt-5-mini":       {"provider": "openai",    "model_name": "gpt-5-mini"},
 
     # Anthropic
-    "claude-haiku":      {"provider": "anthropic", "model_name": "claude-haiku-4-5-20251001"},
-    "claude-sonnet":     {"provider": "anthropic", "model_name": "claude-sonnet-4-5-20250929"},
+    "claude-haiku":      {"provider": "anthropic", "model_name": "claude-haiku-4-5"}
 }
 
 # ---------------------------------------------------------------------------
@@ -45,9 +44,9 @@ MODELS = {
 #               but only runs once per page, so a stronger model is justified.
 # ---------------------------------------------------------------------------
 AGENT_ROLES = {
-    "structurer": ["gemini-flash", "claude-haiku", "gpt-4o-mini"],
-    "extractor":  ["gemini-flash", "claude-haiku", "gpt-4.1-mini", "claude-sonnet"],
-    "corrector":  ["claude-sonnet", "gpt-4.1-mini", "gemini-flash"],
+    "structurer": ["gemini-flash", "claude-haiku", "gpt-5-mini"],
+    "extractor":  ["gemini-flash", "claude-haiku", "gpt-5-mini"],
+    "corrector":  ["gemini-flash", "claude-haiku", "gpt-5-mini"],
 }
 
 # ---------------------------------------------------------------------------
@@ -65,9 +64,9 @@ PIPELINES = {
         "version": "v1",
         "description": "Structurer → Extractor → Corrector (skeleton-based)",
         "stages": ["structurer", "extractor", "corrector"],
-        "structurer": ["gemini-flash", "claude-haiku", "gpt-4o-mini"],
-        "extractor":  ["gemini-flash", "claude-haiku", "gpt-4.1-mini", "claude-sonnet"],
-        "corrector":  ["claude-sonnet", "gpt-4.1-mini", "gemini-flash"],
+        "structurer": ["gemini-flash", "claude-haiku", "gpt-5-mini"],
+        "extractor":  ["gemini-flash", "claude-haiku", "gpt-5-mini"],
+        "corrector":  ["gemini-flash", "claude-haiku", "gpt-5-mini"],
     },
     "v2": {
         "version": "v2",
@@ -75,9 +74,9 @@ PIPELINES = {
         "stages": ["extractors", "supervisor"],
         # Every model here independently extracts the full page (structure + amounts).
         # The supervisor sees all candidates and picks the best row-by-row.
-        "extractors": ["gemini-flash", "gpt-4.1-mini", "claude-sonnet"],
+        "extractors": ["gemini-flash", "gpt-5-mini", "claude-haiku"],
         # Supervisor model — needs strong reasoning; one model is enough.
-        "supervisor": ["claude-sonnet"],
+        "supervisor": ["gemini-flash"],
     },
 }
 
