@@ -27,6 +27,7 @@ experiments/reports/
 
 # Large data files (images are stored in your local data/ or via LFS)
 data/images/
+data/ground_truth/
 
 # OS
 .DS_Store
