@@ -46,7 +46,7 @@ MODELS = {
 #               but only runs once per page, so a stronger model is justified.
 # ---------------------------------------------------------------------------
 AGENT_ROLES = {
-    "structurer": ["gemini-flash"],
+    "structurer": ["gpt-5-mini"],
     "extractor":  ["gemini-pro"],
     "corrector":  ["gpt-5-mini"],
 }
