@@ -21,9 +21,10 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 MODELS = {
     # Google
     "gemini-flash":      {"provider": "google",    "model_name": "gemini-2.5-flash"},
+    "gemini-pro":        {"provider": "google",    "model_name": "gemini-2.5-pro"},
 
     # OpenAI
-    "gpt-4o":       {"provider": "openai",    "model_name": "gpt-4o"},
+    "gpt-4.1-mini":       {"provider": "openai",    "model_name": "gpt-4.1-mini"},
     "gpt-5-mini":      {"provider": "openai",    "model_name": "gpt-5-mini"},
 
     # Anthropic
@@ -46,8 +47,8 @@ MODELS = {
 # ---------------------------------------------------------------------------
 AGENT_ROLES = {
     "structurer": ["gemini-flash"],
-    "extractor":  ["gemini-flash", "gpt-4o", "gpt-5-mini", "claude-sonnet"],
-    "corrector":  ["claude-sonnet", "gpt-5-mini", "gemini-flash"],
+    "extractor":  ["gemini-pro"],
+    "corrector":  ["gpt-5-mini"],
 }
 
 # ---------------------------------------------------------------------------
