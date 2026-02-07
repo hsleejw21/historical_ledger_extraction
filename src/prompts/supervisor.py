@@ -97,6 +97,17 @@ HEADER vs ENTRY DISAGREEMENT:  If extractors disagree on row_type, look at the
 image.  A row with NO visible amounts that acts as a section label → "header".
 A row that is a specific transaction (even if its amount is on a sibling) → "entry".
 
+FRACTION SYMBOL AMBIGUITY:  In historical ledgers, 'ob' (obolus = half-penny)
+is often handwritten loosely and looks EXACTLY like a 'd' or a trailing loop.
+If you see a symbol after the pence digit that could be 'ob', 'd', or a squiggle,
+it is NOT a unit label — it is the fraction 0.5. When candidates disagree on whether
+a fraction exists, look at the image: if there's ANY mark after the pence digit,
+it's almost always a fraction. Specifically:
+  • 'ob' or anything resembling 'd' after pence → 0.5
+  • 'q' or 'qd' → 0.25
+  • '3q' → 0.75
+Err on the side of INCLUDING the fraction if the mark exists, even if ambiguous.
+
 ================================================================================
 OUTPUT FORMAT
 ================================================================================
