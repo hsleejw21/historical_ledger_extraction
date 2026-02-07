@@ -78,6 +78,28 @@ PIPELINES = {
         # Supervisor model — needs strong reasoning; one model is enough.
         "supervisor": ["gemini-flash"],
     },
+    # --- Ablation studies: test if we can maintain accuracy with fewer extractors ---
+    "v2_no_gemini": {
+        "version": "v2",
+        "description": "Ablation: Supervisor sees only GPT + Claude",
+        "stages": ["extractors", "supervisor"],
+        "extractors": ["gpt-5-mini", "claude-haiku"],
+        "supervisor": ["gemini-flash"],
+    },
+    "v2_no_gpt": {
+        "version": "v2",
+        "description": "Ablation: Supervisor sees only Gemini + Claude",
+        "stages": ["extractors", "supervisor"],
+        "extractors": ["gemini-flash", "claude-haiku"],
+        "supervisor": ["gemini-flash"],
+    },
+    "v2_no_claude": {
+        "version": "v2",
+        "description": "Ablation: Supervisor sees only Gemini + GPT",
+        "stages": ["extractors", "supervisor"],
+        "extractors": ["gemini-flash", "gpt-5-mini"],
+        "supervisor": ["gemini-flash"],
+    },
 }
 
 # Legacy alias so old code importing AGENT_ROLES still works.

@@ -477,12 +477,62 @@ def run_comparison():
     print(f"\n[Comparison] → {comp_path}")
 
 
+def run_ablation_comparison():
+    """Compare v2 (full 3-extractor) vs ablations (2-extractor subsets)."""
+    ablation_variants = ["v2", "v2_no_gemini", "v2_no_gpt", "v2_no_claude"]
+    dfs = {}
+    
+    for variant in ablation_variants:
+        path = os.path.join(REPORT_DIR, f"experiment_results_{variant}.csv")
+        if os.path.exists(path):
+            dfs[variant] = pd.read_csv(path)
+        else:
+            print(f"[Warning] Missing report for {variant} — run --pipeline {variant} first")
+    
+    if len(dfs) < 2:
+        print("[Error] Need at least 2 ablation reports to compare.")
+        return
+    
+    # Extract supervisor_combined for each variant, merge on page
+    merged = None
+    for variant, df in dfs.items():
+        page_scores = df.groupby("page")["supervisor_combined"].max().reset_index()
+        page_scores.columns = ["page", variant]
+        if merged is None:
+            merged = page_scores
+        else:
+            merged = merged.merge(page_scores, on="page", how="outer")
+    
+    merged = merged.sort_values("page")
+    
+    # Add deltas vs full v2
+    if "v2" in merged.columns:
+        for variant in ["v2_no_gemini", "v2_no_gpt", "v2_no_claude"]:
+            if variant in merged.columns:
+                merged[f"delta_{variant}"] = (merged[variant] - merged["v2"]).round(4)
+    
+    print("\n--- ABLATION STUDY: v2 vs 2-extractor subsets ---")
+    print(merged.to_string(index=False))
+    
+    # Summary stats
+    print("\n--- Average scores ---")
+    for variant in ablation_variants:
+        if variant in merged.columns:
+            print(f"  {variant:20s}: {merged[variant].mean():.4f}")
+    
+    comp_path = os.path.join(REPORT_DIR, "ablation_comparison.csv")
+    merged.to_csv(comp_path, index=False)
+    print(f"\n[Ablation report] → {comp_path}")
+
+
 # ===========================================================================
 # CLI
 # ===========================================================================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run ledger extraction experiments.")
-    parser.add_argument("--pipeline", choices=["v1", "v2"], default="v2",
+    parser.add_argument("--pipeline", 
+                        choices=["v1", "v2", "v2_no_gemini", "v2_no_gpt", "v2_no_claude"], 
+                        default="v2",
                         help="Which pipeline to run (default: v2).")
     parser.add_argument("--pages", nargs="+", default=None,
                         help="Limit to specific page names.")
@@ -490,10 +540,14 @@ if __name__ == "__main__":
                         help="Skip all API calls. Only load cached results and re-score.")
     parser.add_argument("--compare", action="store_true", default=False,
                         help="Compare v1 and v2 results side by side.")
+    parser.add_argument("--compare-ablations", action="store_true", default=False,
+                        help="Compare v2 (full) vs ablation variants (2-extractor subsets).")
     args = parser.parse_args()
 
     if args.compare:
         run_comparison()
+    elif args.compare_ablations:
+        run_ablation_comparison()
     else:
         run_experiments(
             pipeline_version=args.pipeline,
