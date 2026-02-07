@@ -86,6 +86,11 @@ STEP 6 — FINAL SELECTION
 SPECIAL CASES
 ================================================================================
 
+EMBEDDED VALUES: Check the `description` text for embedded monetary values; 
+if specific £/s/d amounts are mentioned within the written entry but not 
+recorded in the main columns, you must still extract them into the 
+appropriate amount fields.
+
 MISSING ROWS:  If one extractor found a row that others missed, look at the
 image.  If the row genuinely exists on the page, include it.  Note which
 extractor found it.
