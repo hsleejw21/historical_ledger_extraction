@@ -1,194 +1,511 @@
-# Ledger Extraction Pipeline
+# Historical Ledger Extraction Pipeline
 
-A multi-agent system for extracting structured data from scans of 18th–19th century English parish ledgers. Two pipeline architectures are implemented and benchmarked head-to-head against the same ground truth and scoring framework.
+Automated extraction of 18th-19th century English parish ledgers using multi-agent LLM architecture.
 
-**v1** is a sequential skeleton-based pipeline: a Structurer maps the page, an Extractor fills in the numbers, and a Corrector audits the result. **v2** is a competitive pipeline: multiple extractors independently transcribe the full page (structure and amounts together), then a Supervisor agent judges all candidates row-by-row and produces the final merged output.
-
-Both pipelines run across Google Gemini, OpenAI GPT, and Anthropic Claude models. The experiment harness benchmarks every configured combination, caches every intermediate result to disk, and generates side-by-side comparison reports.
-
----
-
-## Architecture
-
-### v1 — Sequential (skeleton-based)
-
-```
-Image
-  │
-  ▼
-┌──────────────┐   skeleton JSON   ┌──────────────┐   filled JSON    ┌──────────────┐
-│  Structurer  │ ────────────────► │  Extractor   │ ────────────────►│  Corrector   │
-└──────────────┘                   └──────────────┘                  └──────────────┘
-  Layout classify                    Column-position OCR               Chain-of-thought audit
-  Row count + type skeleton          £ / s / d + fraction fill         Rule-violation fixes
-  Description transcription          Confidence scoring                Visual re-verification
-```
-
-The Structurer's skeleton is a binding contract — the Extractor can only fill rows that already exist in it. This isolates structural errors from numerical errors, but it also means any row the Structurer misses is permanently lost. The Corrector runs a retry loop: if the combined score after the first correction pass is below 0.7, it receives a concrete report of which rows failed to match and tries again (up to 2 retries).
-
-### v2 — Competitive (no skeleton)
-
-```
-Image
-  │
-  ├──────────────────────────────────────────┐
-  ▼                  ▼                       ▼
-┌────────────┐  ┌────────────┐   ┌────────────┐
-│ Extractor  │  │ Extractor  │   │ Extractor  │   ← each works independently
-│ (gemini)   │  │ (gpt)      │   │ (claude)   │     from the raw image
-└────────────┘  └────────────┘   └────────────┘
-      │                │                │
-      ▼                ▼                ▼
-┌─────────────────────────────────────────────┐
-│              Supervisor                     │   ← sees all candidates + image
-│  row-by-row selection from best candidate   │     decides per-row, not wholesale
-└─────────────────────────────────────────────┘
-```
-
-Each extractor does structure and amounts in one pass. Every row it outputs includes a `confidence_score` and a `notes` field explaining its reasoning — what it saw in the image and why it made each choice. The Supervisor reads all candidates alongside the original image and applies a decision protocol: consensus first, then hard-rule filtering (any candidate row with shillings ≥ 20 or pence ≥ 12 is disqualified), then note-quality assessment, then its own visual reading of the image as a final override. If the Supervisor LLM returns nothing usable, the pipeline falls back to whichever candidate extracted the most rows.
+**Table of Contents:**
+- [Project Overview](#-project-overview)
+- [Project Structure](#-project-structure)
+- [Evolution & Results](#-evolution--results)
+- [Current SOTA](#-current-sota-v2_no_claude)
+- [Evaluation Metrics](#-evaluation-metrics)
+- [Technical Challenges](#-key-technical-challenges-solved)
+- [Quick Start](#-quick-start)
+- [Git Workflow](#-git-workflow)
 
 ---
 
-## Project Layout
+## 📊 Project Overview
 
-```
-ledger-extraction/
-├── src/
-│   ├── config.py                          # Model registry, pipeline configs, paths
-│   ├── clients.py                         # Unified LLM client (OpenAI / Google / Anthropic)
-│   ├── agents/
-│   │   ├── structurer.py                  # v1 — Agent 1: layout skeleton
-│   │   ├── extractor.py                   # v1 — Agent 2: fill skeleton with amounts
-│   │   ├── corrector.py                   # v1 — Agent 3: audit + retry loop
-│   │   ├── standalone_extractor.py        # v2 — full extraction in one pass
-│   │   └── supervisor.py                  # v2 — row-by-row candidate selection
-│   ├── prompts/
-│   │   ├── structurer.py                  # v1 prompts
-│   │   ├── extractor.py                   # v1 prompts
-│   │   ├── corrector.py                   # v1 prompts
-│   │   ├── standalone_extractor.py        # v2 extractor prompt (mandates notes)
-│   │   └── supervisor.py                  # v2 supervisor decision protocol
-│   └── evaluation/
-│       ├── scorer.py                      # Two-axis scoring (structure + numbers)
-│       └── gt_converter.py                # Converts ground_truth.xlsx → per-page JSON
-├── data/
-│   ├── images/                            # Ledger page scans (PNG/JPG)
-│   └── ground_truth/                      # ground_truth.xlsx + exported per-page JSONs
-├── experiments/
-│   ├── run_experiment.py                  # Unified benchmark runner (v1 + v2)
-│   ├── results/
-│   │   ├── v1/                            # Cached v1 stage outputs
-│   │   └── v2/                            # Cached v2 stage outputs
-│   └── reports/                           # Generated CSV reports
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+**Goal:** Extract structured data (£/s/d amounts, descriptions, row types) from scanned historical accounting ledgers.
+
+**Dataset:** 33 pages from 1700-1900, containing:
+- 813 entry rows with amounts
+- 74 amount-less entries (section headers)
+- 26 sheets with totals
+- 127 fractional pence values (¼, ½, ¾)
+
+**Current Best Performance (SOTA):** 
+| Metric | Value |
+|--------|-------|
+| **Pipeline** | v2_no_claude (gemini-flash + gpt-5-mini → Supervisor) |
+| **Combined Score** | 0.8385 |
+| **Axis 1 (Structure)** | 0.8255 |
+| **Axis 2 (Numerical)** | 0.8515 |
+| **Cost Advantage** | 33% cheaper than v2 (no Claude) |
 
 ---
 
-## Setup
+## 🔧 Setup & Installation
+
+### **Prerequisites**
+- Python 3.8+
+- API keys for: OpenAI, Google AI, Anthropic
+
+### **Installation**
 
 ```bash
-# 1. Create a virtual environment
+# Clone repository
+git clone <repository-url>
+cd historical_ledger_extraction
+
+# Create virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/Scripts/activate  # Windows: venv\Scripts\activate
 
-# 2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
+```
 
-# 3. Create .env with your API keys (never committed)
+### **Configuration**
+
+Create a `.env` file in the project root:
+
+```env
 OPENAI_API_KEY=sk-...
-GOOGLE_API_KEY=AIza...
-ANTHROPIC_API_KEY=anthropic-...
+GOOGLE_API_KEY=...
+ANTHROPIC_API_KEY=sk-ant-...
+```
 
-# 4. Place ledger images in data/images/
-# Naming: <sheet_name>_image.png
-# Example: 1889_4_image.png  →  matches ground truth sheet "1889_4"
+The config is automatically loaded by `src/config.py`.
 
-# 5. Export ground truth JSONs (run once; re-run after editing the xlsx)
-python -m src.evaluation.gt_converter
+---
+
+## 🏗️ Project Structure
+
+```
+historical_ledger_extraction/
+├── data/
+│   ├── images/              # 33 ledger page scans (.png)
+│   ├── ground_truth/        # Manual annotations (.json) — ground truth labels
+│   └── results/             # Deprecated (old structure)
+├── src/
+│   ├── agents/
+│   │   ├── standalone_extractor.py   # Individual extractor agent
+│   │   ├── supervisor.py             # Row-by-row arbitration (SOTA)
+│   │   ├── agentic_supervisor.py     # Debate-based orchestration (v4)
+│   │   ├── validator.py              # Final QA check (v5)
+│   │   └── prompt_optimizer.py       # Page-specific guidance (v3)
+│   ├── prompts/
+│   │   ├── standalone_extractor.py   # Extractor system prompts
+│   │   ├── supervisor.py             # Supervisor arbitration logic
+│   │   ├── agentic_supervisor.py     # Debate prompts
+│   │   ├── validator.py              # Validation rules
+│   │   └── prompt_optimizer.py       # Optimizer instructions
+│   ├── agents/evaluation/
+│   │   ├── scorer.py                 # Axis1/Axis2 scoring logic
+│   │   └── gt_converter.py           # Ground truth parser
+│   ├── clients.py           # Unified LLM client (OpenAI, Google, Anthropic)
+│   ├── config.py            # Model registry & pipeline configurations
+│   ├── validation.py        # Currency rule checks (shillings, pence, fractions)
+│   └── __init__.py
+├── experiments/
+│   ├── run_experiment.py    # Main experiment runner (v1-v5)
+│   ├── results/             # Experiment outputs by pipeline version
+│   │   ├── v1/              # Skeleton-based extraction
+│   │   ├── v2/              # Multi-extractor + supervisor
+│   │   ├── v3/              # Prompt optimizer experiments
+│   │   ├── v4/              # Agentic debate experiments
+│   │   └── v5/              # Validator experiments
+│   └── reports/
+│       └── experiment_results_*.csv  # Summary results (ablations, comparisons)
+├── requirements.txt         # Python dependencies
+├── README.md                # This file
+└── .env.example             # Template for environment variables
 ```
 
 ---
 
-## Running Experiments
+## 📈 Evolution & Results
+
+### **Initial Architecture (v1)**
+
+**Pipeline:** Structurer → Extractor → Corrector
+
+**Approach:**
+- Structurer creates skeleton (row types, counts)
+- Extractor fills in amounts
+- Corrector audits and fixes errors
+
+**Results:**
+- Combined: **0.7803**
+- **Bottleneck:** Structurer (axis1 avg 0.7554, binding on 22/33 pages)
+
+**Key Learning:** Skeleton-based approach fails when initial structure is wrong.
+
+---
+
+### **Multi-Agent Architecture (v2)**
+
+**Pipeline:** Multiple Extractors → Supervisor
+
+**Approach:**
+- 3 independent extractors (gemini-flash, gpt-5-mini, claude-haiku)
+- Each extracts from raw image (no skeleton)
+- Supervisor picks best row-by-row using confidence scores
+
+**Results:**
+- v2 (3 extractors): **0.8295**
+- v2_no_gemini (gpt + claude): **0.8394**
+- v2_no_gpt (gemini + claude): **0.8205**
+- **v2_no_claude (gemini + gpt): 0.8385** ← **CURRENT SOTA**
+
+**Key Insight:** Gemini-flash + GPT-5-mini has best axis2 performance (0.8515)
+
+**Ablation Study:**
+- Removing Gemini → worse performance
+- Removing Claude → **best results** (saves 33% cost)
+- Removing GPT → worse performance
+
+---
+
+### **Advanced Experiments**
+
+#### **v3: Prompt Optimizer (Page-Specific Guidance)**
+
+**Pipeline:** Optimizer → Extractors → Supervisor
+
+**Hypothesis:** Page-specific guidance (row count, layout hints, warnings) improves extraction.
+
+**Results:**
+- Combined: **0.8039**
+- Axis 2: **0.8281**
+- **Conclusion:** Optimizer **did not improve** results. Generic prompts work better.
+
+---
+
+#### **v4: Agentic Debate (Collaborative Refinement)**
+
+**Pipeline:** Extractors → Agentic Supervisor (debate + retry)
+
+**Hypothesis:** When extractors disagree, debate and revision improves accuracy.
+
+**Approach:**
+- Supervisor detects disagreements (£/s/d differ by >12 pence)
+- Extractors see each other's reasoning and revise
+- Supervisor arbitrates after debate
+
+**Results:**
+- **No improvement** over v2_no_claude
+- **Conclusion:** Debate adds cost (3-4x) without accuracy gain.
+
+---
+
+#### **v5: Validator (Final Quality Check)**
+
+**Pipeline:** Extractors → Supervisor → Validator
+
+**Hypothesis:** Post-hoc validation fixes currency violations and missed rows.
+
+**Approach:**
+- Validator enforces rules (shillings 0-19, pence 0-11)
+- Checks row count against image
+- Verifies column alignment
+
+**Results:**
+- **No improvement** over v2_no_claude
+- **Conclusion:** Supervisor output is already clean; aggressive validation doesn't help.
+
+---
+
+## 🎯 Current SOTA: v2_no_claude
+
+**Architecture:**
+```
+Image
+  │
+  ├──────────────────────┐
+  ▼                      ▼
+┌─────────────┐    ┌─────────────┐
+│ Extractor A │    │ Extractor B │
+│ gemini-flash│    │ gpt-5-mini  │
+└─────────────┘    └─────────────┘
+       │                  │
+       └──────────┬───────┘
+                  ▼
+         ┌─────────────────┐
+         │ Supervisor      │
+         │ (gemini-flash)  │
+         │                 │
+         │ Row-by-row pick │
+         │ based on:       │
+         │ - Confidence    │
+         │ - Currency rules│
+         │ - Consistency   │
+         └─────────────────┘
+```
+
+**Performance:**
+- **Combined:** 0.8385
+- **Axis 1 (Structure):** 0.8255
+- **Axis 2 (Numbers):** 0.8515
+
+---
+
+## 📊 Evaluation Metrics
+
+### **Two-Axis Scoring**
+
+**Axis 1 (Structural Accuracy):** 40% weight
+- Row count match
+- Row type counts (entry, header, total)
+- Header text fuzzy matching (>80% similarity)
+
+**Axis 2 (Numerical Accuracy):** 60% weight
+- Exact £/s/d match: 50%
+- Amount similarity (within 5%): 30%
+- Fraction match (0.25/0.5/0.75): 20%
+
+**Combined Score:** (axis1 + axis2) / 2
+
+---
+
+## 🔧 Key Technical Challenges Solved
+
+### **1. Currency Column Misalignment**
+
+**Problem:** Models often merge £/s/d columns (e.g., "25" shillings instead of "2" pounds "5" shillings)
+
+**Solution:**
+- Explicit vertical ruling line guidance in prompts
+- Post-extraction validation (shillings must be 0-19, pence 0-11)
+- Supervisor cross-checks candidates for rule violations
+
+### **2. Fraction Ambiguity**
+
+**Problem:** 'ob' (obolus = ½ penny) looks like 'd' in handwriting
+
+**Solution:**
+- Prompt guidance: "If you see 'd' or 'ob' after pence, it's 0.5, not a unit label"
+- Supervisor has explicit fraction rules in prompt
+
+### **3. Section Headers vs Entries**
+
+**Problem:** Models skip rows with no amounts (section headers)
+
+**Solution:**
+- Explicit instruction: "Extract rows with NO amounts as row_type='section_header'"
+- Structural scoring penalizes missing headers
+
+---
+
+## 🌿 Git Workflow
+
+### **Branch Structure**
+
+```
+main                                    ← Production-ready code (v2_no_claude)
+  │
+  └── experiments/supervisor-improvements  ← Ablation studies (v2 variants)
+        │
+        ├── experiments/v3-optimizer-retry    ← v3 experiments (archived)
+        ├── experiments/v4-debate-fixed       ← v4 experiments (archived)
+        └── experiments/v5-validator          ← v5 experiments (archived)
+```
+
+### **Best Practices**
+
+**For new experiments:**
+```bash
+# Always branch from supervisor-improvements (clean base with SOTA)
+git checkout experiments/supervisor-improvements
+git checkout -b experiments/new-feature-name
+
+# Work on feature
+# Test results
+# Commit
+
+# If successful → merge to main
+git checkout main
+git merge experiments/new-feature-name
+
+# If unsuccessful → archive
+git checkout experiments/supervisor-improvements
+# Delete branch locally (keep commits in history)
+git branch -D experiments/new-feature-name
+```
+
+**Merging SOTA to main:**
+```bash
+# When ready to promote v2_no_claude as official SOTA
+git checkout main
+git merge experiments/supervisor-improvements -m "Promote v2_no_claude as SOTA"
+git tag v2-sota
+git push origin main --tags
+```
+
+---
+
+## 🔬 Experiment Checklist
+
+Before running a new experiment:
+
+- [ ] Create new branch from `experiments/supervisor-improvements`
+- [ ] Update `src/config.py` with new pipeline config
+- [ ] Add runner function to `experiments/run_experiment.py`
+- [ ] Test on 1 page: `--pages 1700_7`
+- [ ] Run full experiment
+- [ ] Compare to SOTA using comparison script
+- [ ] Document results in commit message
+- [ ] Merge if improvement ≥0.01, archive if not
+
+---
+
+## 📚 Key Learnings
+
+### **What Works**
+✅ Multi-agent ensemble (2-3 extractors)  
+✅ Row-by-row arbitration (vs. wholesale selection)  
+✅ Explicit currency validation rules in prompts  
+✅ Confidence-based selection  
+✅ Simple, generic prompts (no page-specific optimization)
+
+### **What Doesn't Work**
+❌ Skeleton-based extraction (brittle)  
+❌ Page-specific prompt optimization (v3)  
+❌ Debate and revision loops (v4)  
+❌ Aggressive post-hoc validation (v5)  
+❌ More than 3 extractors (diminishing returns)
+
+### **Open Questions**
+❓ Can we improve axis1 (structural) without hurting axis2?  
+❓ Is there a better supervisor arbitration strategy than confidence-weighted?  
+❓ Would a hybrid approach (v2 for simple pages, v4 for complex) help?
+
+---
+
+## 🏃 Quick Start
+
+### **1. Run SOTA Pipeline (Full)**
 
 ```bash
-# --- v2 (default) ---
-python -m experiments.run_experiment --pipeline v2           # full run, all pages
-python -m experiments.run_experiment --pipeline v2 --pages 1889_4 1873_5   # subset
-python -m experiments.run_experiment --pipeline v2 --eval-only             # re-score cached only
-
-# --- v1 ---
-python -m experiments.run_experiment --pipeline v1           # full run
-python -m experiments.run_experiment --pipeline v1 --eval-only
-
-# --- Head-to-head comparison (both pipelines must have reports already) ---
-python -m experiments.run_experiment --compare
+python -m experiments.run_experiment --pipeline v2_no_claude
 ```
 
-Results are cached under `experiments/results/v1/` and `experiments/results/v2/`. Completed stages are loaded from disk on re-run; delete the folder to force fresh API calls. Each pipeline writes its own report CSV to `experiments/reports/`. The `--compare` flag merges them into a per-page side-by-side table.
+This runs gemini-flash + gpt-5-mini extractors, then supervisor arbitration on all 33 pages.
 
-### API call cost per page
+### **2. Test on Single Page (Quick Validation)**
 
-| Pipeline | Calls per page | Notes |
-|---|---|---|
-| v1 | 3 (+ up to 2 retries) | Structurer + Extractor + Corrector |
-| v2 | 4 | 3 extractors + 1 Supervisor |
+```bash
+python -m experiments.run_experiment --pipeline v2_no_claude --pages 1700_7
+```
 
----
+Useful for rapid testing during development.
 
-## Evaluation: Two-Axis Scoring
+### **3. Run Multiple Pages**
 
-Both pipelines are scored identically. The scorer is pipeline-agnostic — it takes any `{"rows": [...]}` JSON and a ground truth JSON and produces the same metrics.
+```bash
+python -m experiments.run_experiment --pipeline v2_no_claude --pages 1700_7 1873_5 1900_6
+```
 
-### Axis 1 — Structural Accuracy
+### **4. Evaluation Only (Reuse Cached Results)**
 
-| Sub-score | What it measures |
-|---|---|
-| Row count score | `1 - abs(pred_count - gt_count) / gt_count` |
-| Type count score | Per-type (header / entry / total) count accuracy, averaged |
-| Header text score | Greedy fuzzy match on header descriptions (Levenshtein ratio ≥ 0.8) |
+```bash
+python -m experiments.run_experiment --pipeline v2_no_claude --eval-only
+```
 
-Axis 1 = average of the three sub-scores.
+Re-scores previous results without re-running extractors (fast, cost-free).
 
-### Axis 2 — Numerical Accuracy *(entry + total rows only)*
+### **5. Compare Pipelines (Ablation Study)**
 
-Matching is description-aware and greedy: when multiple predicted rows share the same £/s/d triplet and type, the one whose description best fuzzy-matches the ground truth row is consumed first. This prevents cascade failures on pages with duplicate amounts.
+```bash
+python -m experiments.run_experiment --compare-ablations
+```
 
-| Sub-score | Weight | What it measures |
-|---|---|---|
-| Amount match | 50% | Exact £/s/d triplet match. Cross-type entry↔total matches score 0.5 instead of 1.0. |
-| Amount similarity | 30% | Partial credit: `1 - abs_diff_pence / max_pence`. A 1-penny error on a £50 row scores 0.999. |
-| Fraction match | 20% | Exact match on ob/q/3q fractions, scored only on GT rows that have one. |
+Compares v2, v2_no_claude, v2_no_gemini, v2_no_gpt side-by-side.
 
-Axis 2 = `0.5 × match + 0.3 × similarity + 0.2 × fraction`.
+### **6. Check Available Pipelines**
 
-### Combined score
-
-`combined = (axis1 + axis2) / 2`
-
-Entry rows with no amounts (sub-items in braced groups) are excluded from Axis 2 but still counted in Axis 1. Predicted rows the LLM mislabelled (e.g. calling an entry a "section_header") are still eligible to match on amounts — the type mismatch is penalised via the cross-type 0.5 credit rule, but correct numbers are never silently dropped.
-
-### Normalisation rules
-
-`0` and `""` (empty) are treated as equivalent in amount fields. LLMs consistently omit zero-valued columns rather than writing 0; ground truth sometimes stores explicit zeros. Collapsing both to the same value prevents false negatives on every row where only one or two of the three columns carry real data.
+See `src/config.py` for all available pipelines and models.
 
 ---
 
-## Image Size Handling
+## � Troubleshooting
 
-Anthropic enforces a 5 MB limit on base64-encoded images. The client layer handles this transparently: if a scan exceeds the limit, it is re-saved as JPEG at decreasing quality (85 → 75 → 60 → 45) until it fits, then re-encoded. Images that already fit are sent untouched. OpenAI and Google are unaffected.
+### **API Key Errors**
+
+**Problem:** `KeyError: 'OPENAI_API_KEY'`
+
+**Solution:** Ensure `.env` file exists with correct keys. Check that `load_dotenv()` is called in `src/config.py`.
+
+### **Image Not Found**
+
+**Problem:** `FileNotFoundError: data/images/<page>.png`
+
+**Solution:** Verify page identifier matches filename in `data/images/`. Example: `1700_7.png` (not `1700-7.png`).
+
+### **Ground Truth Mismatch**
+
+**Problem:** Scorer reports missing ground truth for a page.
+
+**Solution:** Check `data/ground_truth/<page>.json` exists and is valid JSON.
+
+### **API Rate Limits**
+
+**Problem:** `RateLimitError` from OpenAI/Google/Anthropic
+
+**Solution:** 
+- Reduce concurrent requests (modify batch size in `run_experiment.py`)
+- Add delays between API calls
+- Consider reducing number of pages: `--pages <subset>`
+
+### **Out of Memory**
+
+**Problem:** `MemoryError` when loading images
+
+**Solution:** Process fewer pages at once, or reduce image resolution preprocessing.
 
 ---
 
-## Adding a New Model
+## ❓ FAQ
 
-1. Add it to `MODELS` in `src/config.py` with its provider and model name.
-2. Add the key to the relevant pipeline config in `PIPELINES` — either the `extractors` list (v2), or the `structurer` / `extractor` / `corrector` lists (v1).
-3. Run the experiment. No other changes needed.
+**Q: Why is v2_no_claude the SOTA?**  
+A: It achieves 0.8385 combined score (best axis2: 0.8515) while being 33% cheaper than v2 (which includes Claude). Ablation showed Claude actually hurts performance on this task.
 
-## Adding a New Pipeline
+**Q: Can I use custom models?**  
+A: Yes. Add them to `MODELS` in `src/config.py`, then reference in `AGENT_ROLES`.
 
-Add an entry to `PIPELINES` in `src/config.py` with a unique version key, a description, and whatever stage configuration it needs. Then add a corresponding `run_<version>_pipeline` and `score_<version>` function in `experiments/run_experiment.py` and wire it into the main loop's dispatch. The scorer, clients, and caching infrastructure are all reusable as-is.
+**Q: What does "axis1" vs "axis2" mean?**  
+A: **Axis1** = structural correctness (row count, types, headers). **Axis2** = numerical accuracy (£/s/d amounts). Combined = (axis1 + axis2) / 2.
+
+**Q: Can I run experiments in parallel?**  
+A: Currently sequential per-page. Multi-threading support can be added (see `run_experiment.py` TODOs).
+
+**Q: How do I add a new experiment version?**  
+A: 1. Create agent in `src/agents/`, 2. Create prompts in `src/prompts/`, 3. Add pipeline config in `src/config.py`, 4. Create runner in `experiments/run_experiment.py`.
+
+---
+
+## �📖 References & Resources
+
+### **Model Documentation**
+- [Google Gemini API](https://ai.google.dev/)
+- [OpenAI API](https://platform.openai.com/docs/)
+- [Anthropic Claude API](https://docs.anthropic.com/)
+
+### **Model Versions Used**
+| Alias | Model Name | Provider |
+|-------|-----------|----------|
+| `gemini-flash` | gemini-2.5-flash | Google |
+| `gpt-5-mini` | gpt-5-mini | OpenAI |
+| `claude-haiku` | claude-3-5-haiku | Anthropic |
+
+### **Historical Context**
+- **Project Origin:** HAI Lab
+- **Domain:** 18th-19th century English parish accounting
+- **Currency System:** £ (pounds), s (shillings, 0-19), d (pence, 0-11), ob (½ penny)
+
+---
+
+## 📞 Contact & Contributors
+
+**Lead Researcher:**  
+Jungwoo Hong  
+Email: jwhong21@korea.ac.kr  
+Affiliation: HAI Lab
+
+---
+
+**Repository Info:**  
+**Last Updated:** February 9, 2026  
+**Current SOTA:** v2_no_claude (0.8385 combined, 0.8515 axis2)  
+**Status:** Active development  
