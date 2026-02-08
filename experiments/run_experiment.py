@@ -398,7 +398,7 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
                 record.update(score_v1(pipeline_out, gt))
                 records.append(record)
 
-        elif pipeline_version == "v2":
+        elif cfg["version"] == "v2":  # ← Changed: check version in config, not pipeline_version
             extractor_keys = cfg["extractors"]
             for sup_key in cfg["supervisor"]:
                 print(f"  [extractors: {extractor_keys} → supervisor: {sup_key}]")
@@ -421,7 +421,7 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
         print(f"\n[Report] → {report_path}")
 
         print(f"\n--- {pipeline_version.upper()} SUMMARY ---")
-        if pipeline_version == "v2" and "supervisor_combined" in df.columns:
+        if cfg["version"] == "v2" and "supervisor_combined" in df.columns:  # ← Changed
             print(f"  Avg supervisor_combined : {df['supervisor_combined'].mean():.4f}")
             for e_key in cfg["extractors"]:
                 col = f"ext_{e_key}_combined"
