@@ -1,0 +1,148 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 27,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Computus Dni Rectoris L. Richards"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "a 20 die Nov: AD: 1819"
+      },
+      {
+        "row_index": 3,
+        "row_type": "header",
+        "description": "ad eundem diem resolutum ibnt"
+      },
+      {
+        "row_index": 4,
+        "row_type": "header",
+        "description": "Arrearagia Recepta"
+      },
+      {
+        "row_index": 5,
+        "row_type": "header",
+        "description": "Money Rents fixed"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Gurinear Rectory 1 yr"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Kidlington Do ½ yr"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Do Capons & Brand Do"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Rad Lane Cate Norris ½ yr"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "--- Chaplin 1 yr from"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "--- Pickford 1 yr"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Hedenham 1 yr"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "Little Tew Colman late Ducks 1 yr"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Lymarth - 3 yr"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Booker Tenements 1 yr"
+      },
+      {
+        "row_index": 16,
+        "row_type": "header",
+        "description": "Redeemed Land Tax"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Kidlington Rectory ½ yr"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Long Wittenham Rectory 1 yr"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Yarnton Rectory 1 yr"
+      },
+      {
+        "row_index": 20,
+        "row_type": "header",
+        "description": "Mixed Rents Variable"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Kidlington Augmentation ½ yr"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Long Wittenham Rectory 1 yr"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Stt Nasington Rectory 1 yr"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Do Tenement 3 yrs"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Merton Rectory 1 yr Sd Tax deducted"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Yarnton Rectory 1 yr"
+      },
+      {
+        "row_index": 27,
+        "row_type": "total",
+        "description": "806 17 1½"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

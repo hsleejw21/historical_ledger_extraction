@@ -1,0 +1,163 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 30,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Arrearagia pro 2ᵈº Die Nov: 1825"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Money Rents, fixed."
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "Gwinicar Rectory. 1/2 year"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Menhenriot. 1. Yr."
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Bampton Tenement. 3 Yrs"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Montacute. Do. – 21. Yrs"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Lad Lane. Norris – 1. Yr."
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Donnithorne"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Pickford"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Medinham – 2 Yrs"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Little Tew – Bucks .. 1. Yr."
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Lymouth. 2 Yrs"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "Lennard"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Curnick"
+      },
+      {
+        "row_index": 15,
+        "row_type": "header",
+        "description": "Redeemed Land Tax."
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Whittenham Rectory. 1. Yr."
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Do Vicarage."
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Yarnton Rectory"
+      },
+      {
+        "row_index": 19,
+        "row_type": "header",
+        "description": "Mixed Rents, Variable."
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Whittenham Rectory. 1. Yr."
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Kidlington Mills."
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "S. Newington Rectory"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Do Tenement."
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Merton Rectory. 1. Yr."
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Yarnton Rectory & Tenement. 1. Yr."
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Clifton Ferry. 1. Yr."
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Chase Hill. – 3 Yrs."
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "Bensington. – 3 Yrs."
+      },
+      {
+        "row_index": 29,
+        "row_type": "entry",
+        "description": "Garsington. Crooke. 3. Yrs."
+      },
+      {
+        "row_index": 30,
+        "row_type": "total",
+        "description": "976 15 10½"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

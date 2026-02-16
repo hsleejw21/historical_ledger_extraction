@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "A Recepta & Novris die 2do 1767.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected `gemini-flash` for description as 'A Recepta' and '1767' appear to be more accurate from visual inspection. The '6' in 1767 is consistent with other '6's on the page, contrasting with `claude-haiku`'s '1797'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Kenton ad Fest: annu:",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£4, s4, d4, no fraction) had full consensus between extractors. `gemini-flash`'s description 'Kenton ad Fest: annu:' is visually more accurate than `claude-haiku`'s."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "- ad Fest Mich:",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of both description and amounts (£2, s4, d4). `claude-haiku`'s description and amounts were incorrect."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Chace Hill pro Bien:",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of both description and pounds amount (17, not 19). Shillings and pence had consensus."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Yardington Rect: pro Dim: an: ad Mich:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of both description and pounds amount (5, not 9). Shillings and pence had consensus."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "- Tenem: pro an:",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (£8, s14, d5, ½) had full consensus between extractors. `gemini-flash`'s description '- Tenem: pro an:' is visually more accurate than `claude-haiku`'s."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wilmott pro Bien:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£5, s0, d10, no fraction) had full consensus between extractors. `gemini-flash`'s description 'Wilmott pro Bien:' is visually more accurate than `claude-haiku`'s."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "- Capon pro Ditto",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£0, s6, d3, no fraction) had full consensus between extractors. `gemini-flash`'s description '- Capon pro Ditto' is visually more accurate than `claude-haiku`'s."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Headington Mills pro an:",
+      "amount_pounds": 13,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields, including the fraction '¾'. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garsington Sadler pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£6, s19, d8, no fraction) had full consensus between extractors. `gemini-flash`'s description 'Garsington Sadler pro an:' is visually more accurate than `claude-haiku`'s."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- Molineux Ditto",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku`'s note for fraction was helpful in its approach but its reading of the digits and fraction for this specific row appears incorrect."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tintinhell Napper pro Bien:",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields, including the fraction '¼'. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Holwell pro ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description, and incorrectly identified a fraction."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 26,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields, including the fraction '½'. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "South New: Tenem: pro an:",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description, and incorrectly identified a fraction."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Banyston pro an:",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields, including the fraction '½'. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ledclone Cornyn pro an:",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "- Harforth pro ditto",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and pounds amount (6, not 1). Shillings and pence had consensus."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "- Greenhow pro ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gaylor upper Lost pro an:",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description, and incorrectly identified a fraction."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brynndon olim Calcott pro an:",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all non-fraction amount fields. The fraction had consensus and was clearly visible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Minchin olim Barnett pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields, including the fraction '¼'. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Little Few Quit Rent pro an:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Curnock Weste pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Long Wittenham pro an:",
+      "amount_pounds": 83,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `gemini-flash`'s note correctly identified the '3' in 83, which `claude-haiku` misread as '30'. Shillings was consensus. `claude-haiku` also misread pence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "South Newington Rect: pro Dim: an: ad Mich:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and pounds amount (30, not 25). Shillings and pence had consensus."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gwinwear pro Quadrim: & 4ta part: an:",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all amount fields. `gemini-flash`'s note correctly identified the '5' in 25. Shillings and pence were also clearly zero, misread by `claude-haiku` as 17s 10d."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Thrup & sundry pro Trin: & Bien:",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and all non-pence amount fields. Pence had consensus. `claude-haiku` had multiple errors in amounts and description."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Bampton pro Bien:",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and pounds amount (2, not 1). Shillings and pence had consensus."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Mountacute pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` based on clear visual verification of description and pounds amount (1, not 0). Shillings and pence had consensus. `claude-haiku`'s note about fading was accurate but its reading of the pounds digit was incorrect."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 30,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

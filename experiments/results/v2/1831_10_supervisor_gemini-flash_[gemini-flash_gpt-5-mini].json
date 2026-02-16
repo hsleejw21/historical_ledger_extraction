@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages Brought up",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Arrearages Brought up' as transcribed by gemini-flash. gpt-5-mini's 'Arranagua - Brought up' is a misreading of the faded script, although its note acknowledges the difficulty. No amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Visual confirmation shows clear heading."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gillingham Rectory 1 year",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Gillingham Rectory 1 year' (gemini-flash). gpt-5-mini misread 'Gillingham' as 'Hiddington'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. Vicarage' (gemini-flash). gpt-5-mini incorrectly added a dash. Amounts are ditto marks (quotation marks) in the ledger, extracted as empty strings as per protocol for explicitly written values."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Visual confirmation shows clear description and amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. Vicarage' (gemini-flash). gpt-5-mini incorrectly added a dash. Amounts are ditto marks (quotation marks) in the ledger, extracted as empty strings as per protocol."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsston Rectory 1 year",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Garsston Rectory 1 year'. Both extractors misread the place name ('Garriston' vs 'Yarnton'). Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Mixed Rents Variable' (gpt-5-mini). gemini-flash misread 'Mixed' as 'Fixed' and 'Variable' as 'Receivable'. No amounts present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Gillingham Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Gillingham Augmentation 1 year' (gemini-flash). gpt-5-mini misread 'Gillingham' as 'Hiddington'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do. 2 Mills 1 year",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. 2 Mills 1 year'. gpt-5-mini missed the '2' and incorrectly added a dash. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 113,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms '113' for pounds and '¾' (0.75) for the fraction, aligning with gemini-flash. gpt-5-mini misread pounds as '115' and fraction as '½'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "South Newington Do. 2 years",
+      "amount_pounds": 39,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms pounds as '39' (gpt-5-mini) and fraction as '¾' (0.75) (both extractors). Description format 'Do.' (gemini-flash) is more accurate; gpt-5-mini omitted the period. The leading '3' for pounds appears as a single digit, not part of '391'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Do. Tenement 2 years",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description format 'Do.' (gemini-flash) and fraction '¼' (0.25) (gemini-flash). gpt-5-mini misread the fraction as '½' and omitted the period from 'Do.'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Merton Rectory (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description 'Merton Rectory (Land Tax deducted)' (gpt-5-mini). gemini-flash misread 'Merton' as 'Shipton'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Garsington Do.",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Garsington Do.' (gemini-flash). gpt-5-mini misread 'Garsington' as 'Yarnton'. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Visual confirmation shows clear description and amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Clifton Ferry'. Both extractors had different readings of the place/name ('Clifton Terry' vs 'Pitton Ferry'); I chose 'Clifton Ferry' based on the visible strokes. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bensington 4 years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Bensington 4 years' (gemini-flash). gpt-5-mini misread 'Bensington' as 'Bennington'. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Garsington - Sinkard",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Visual inspection of the surname 'Sinkard' (gemini-flash) is preferred over 'Blinkard' (gpt-5-mini), as the initial letter appears more consistent with an 'S' in this handwriting style. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do. - Brooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. - Brooke 5 years'. gpt-5-mini misread 'Brooke' as 'Crooke' and omitted the period after 'Do.'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tintinhulle - Napier 2 years",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Tintinhulle - Napier 2 years', amount pounds '17', and pence '0' with fraction '½', aligning with gpt-5-mini. gemini-flash misread the place name ('Swinkenhull'), pounds as '19', and pence as '1'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do. - Beaton 2 years",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. - Beaton 2 years'. gpt-5-mini omitted the period after 'Do.'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Trethewin 2 years",
+      "amount_pounds": 37,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Trethewin 2 years' (gpt-5-mini); gemini-flash included an extra dash. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Little Lew - Taylor 2 years",
+      "amount_pounds": 16,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Little Lew - Taylor 2 years' (gpt-5-mini). gemini-flash misread 'Lew' as 'Sene'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "- Hadley 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description '- Hadley 2 years' (gemini-flash). gpt-5-mini misread the initial dash and the name 'Hadley' as 'Worsley'. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "- Kindler 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description '- Kindler 2 years' (gemini-flash). gpt-5-mini misread the initial dash and the name 'Kindler' as 'Rinder'. Amounts and fraction are in consensus and visually clear."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "- Eden 2 years",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description '- Eden 2 years' (gemini-flash). gpt-5-mini missed the initial dash. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "- Hoorns 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description '- Hoorns 2 years' (gemini-flash). gpt-5-mini misread the initial dash and the name 'Hoorns' as 'Simons'. Amounts are in consensus and visually clear."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "- Harley 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description '- Harley 2 years' (gemini-flash). gpt-5-mini misread the initial dash and the name 'Harley' as 'Huxley'. Amounts and fraction are in consensus and visually clear."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 26,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

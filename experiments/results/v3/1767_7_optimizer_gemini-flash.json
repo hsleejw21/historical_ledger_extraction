@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "Slight ink show-through from the reverse side is visible throughout the page, particularly noticeable in the background of rows 10-15, but does not significantly obscure the foreground text.",
+    "The vertical ruling lines defining the £, s, and d columns are faint in the upper-middle section of the page (approximately rows 5-10)."
+  ],
+  "estimated_row_count": 30,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for the £ / s / d columns are present but appear faint in the upper-middle portion of the page. Despite the faintness, the column alignment is consistent and generally clear based on the spacing of the numerical entries.",
+  "prompt_additions": "CRITICAL: Expect and accurately transcribe fractional values in the 'd' (pence) column. Examples of fractions observed include '5 1/2' (row 5), '3/4' (row 9), '1/4' (row 11), '6 1/2' (row 13), '1/2' (row 20), and '3/4' (row 22). Ensure these are captured as their numerical value, not as text. \nAlso, note that zero values in the shillings and pence columns are frequently represented by a dash (-) or a small raised circle (⁰) instead of a numeral '0'. Transcribe these as '0'.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

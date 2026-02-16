@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages Received Novr die 2do 1767",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page title clearly centered at top. Handwriting legible enough to read as 'Arrearages Received Novr die 2do 1767'. Minor uncertainty on exact Latin/abbrev forms but meaning is clear."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Weston ad Test: annum:",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear entry text 'Weston' and amount columns well aligned. Pounds = 4, shillings = 11, pence = 4 are crisply written and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "- ad Test Mech:",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Indented line with same abbreviation; numeric read as 4 pounds, 2 shillings, 4 pence. Vertical alignment clear. Minor ambiguity in reading 'Mech' but numbers are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Chace Hill pro Bien:",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Chace Hill' legible. Pounds 17, shillings 2, pence 9 clearly aligned; no fraction. All values validate."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Yardington Rec: pro ?inn: ad Mech:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name partly ambiguous (read as 'Yardington'). Amount reads 5 pounds exactly (5 0 0). Description handwriting slightly smudged but context (place + recd) supports reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Tenem: pro ann:",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description 'Tenem' (possibly 'Tennen' or similar) legible enough. Amount appears as 8 pounds, 14 shillings, 5½ pence (pence shows a small trailing loop interpreted as halfpenny). Slight smudge on fraction but alignment consistent."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wilmot pro Bien & ?inn:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name uncertain ('Wilnot/Wilmot'); amount read as 5 pounds, 0 shillings, 10 pence. Pence digit slightly narrow and could be 10 or 3, but alignment with column favors 10."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "- Capon pro Ditto",
+      "amount_pounds": 13,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Indented 'Capon pro ditto'. Pounds 13 and shillings 19 clear. Pence looks like '3 3/4' (three and three‑quarters of a penny / 3q) — fractional mark is faint; read as 3 + 3q (0.75). Slight uncertainty on fraction shape."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kidlington Mills pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Kidlington Mills' legible. Amount 6-19-8 clear and within valid ranges. Ink slightly heavier on shillings but unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garrington Lodge pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Similar pattern to previous line; 'Garrington Lodge' reading somewhat unclear on first letter but amount 6-19-8 is clear and aligned with column lines."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- Mohneux ditto",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Sub-item 'Mohneux ditto'. Pounds and shillings readable as 10 and 9. Pence appears '11 1/4' (three figures with a small trailing 'q' style loop) — fraction reading uncertain (could be 1/4 or 1/2); chosen 0.25 because loop resembles 'q' (farthing) more than halfpenny."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tintinhull Nesper pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name reading uncertain ('Tintinhull Nesper' approximate). Amount 1-15-0 is clearly formed in columns. Description letters faint but sufficient to identify as header/entry."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Holwell pro ditto",
+      "amount_pounds": 26,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Sub-item 'Holwell' read; pounds 26 and shillings 14 clear. Pence reads '6 1/2' with a distinct halfpenny loop. Slightly lower confidence due to heavier ink on adjoining lines."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Clifton Gorry",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Clifton Gorry' readable. Amount 2-1-4 is small but clear and within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "South New: Tenem: pro ann:",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Description partly abbreviated ('South New. Tenem'). Amount looks like 5-9-7½ (pence shows halfpenny mark). The halfpenny is somewhat faint, hence reduced confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bennington pro ann:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Place name 'Bennington' legible. Amount 3-6-8 clear in columns. No fraction visible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lodsacre Conway pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place-name uncertain (read as 'Lodlacre Conway' or similar). Numeric 6-13-4 is legible. Slight ambiguity in letters of description but amounts align well."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "- Harforth pro ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Sub-item 'Harforth' read. Amount 1-13-4 clear. Ink consistent with neighboring amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "- Greenhow pro ditto",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name 'Greenhow' plausible. Amount 5-14-3 clearly aligned. Minor uncertainty in first letter of name but numbers are unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Taylor, major (?) pro ann:",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.65,
+      "notes": "Description looks like 'Taylor major' or 'Taylor, major Lot' — uncertain. Amount reads 4-9-3½ (pence shows halfpenny loop). Slight ambiguity in name reduces confidence."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Fardon, olim Calcott pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Name appears 'Fardon olim Calcott' (olim = formerly). Pounds column blank/zero, shillings read as 15, pence as 9¼ (farthing). The fractional farthing mark is faint and could be 1/2, but alignment and small loop suggest q (¼)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Munichin, olim Barnett pro an:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "First name unclear ('Munichin' or 'Munchen'); reads 'olim Barnett'. Amount 3-6-8 visible but somewhat faint; chosen reading based on column alignment."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Little Gen (Quit Rents) pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reads 'Little Gen Quit Rents' (abbreviated). Pounds and shillings blank/zero; pence reads as 6 (small number). Low confidence because zeros/pence are small and faint."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Cumnock Rents pro an:",
+      "amount_pounds": 85,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Looks like a large entry '85 0 1' (pounds 85, shillings 0, pence 1). The '85' is prominent and clear; pence 1 is small but aligned. Description reading 'Cumnock' has some uncertainty."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Longwitton pro an:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Place 'Longwitton' (or similar) and amount 30-0-0 clearly written and unambiguous in the columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Southnewington Recd pro Direc an: ad Mech:",
+      "amount_pounds": 255,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Large amount reads '255 0 0' clearly. Place/description reading 'Southnewington' and abbreviations are somewhat cramped and faint; numbers are aligned and clear."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gremier for (Quadrin? & 1/2 part) an:",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is highly abbreviated/uncertain ('Gremier', 'Grendier' etc.). Amount 17-10-0 visible. Because the description is ambiguous, confidence lowered though numeric reading is clear."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Sharp annuity pro ?ion & ?min:",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short entry, likely 'Sharp annuity'. Amount 2-0-0 is clear. Description abbreviations uncertain; numbers are aligned and unambiguous."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Barnston pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Entry reads 'Barnston pro Bien'. Amount 1-0-0 clearly written. Description letters legible enough to identify place."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Mountcastle pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final visible entry 'Mountcastle' (or 'Mountacute') — reading slightly uncertain but numeric 1-0-0 clear and aligned."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Overseya Recepunda 2 Novr. dei 2d 1797",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Title/date line at top of page. Handwriting clear, though 'Recepunda' and final year '1797' require careful reading. No amounts on this structural header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Weston ad Parl: annual: ——",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting and alignment. Column positions unambiguous. All values in valid range (shillings 4 < 20, pence 4 < 12). Numbers perfectly aligned with ruling lines."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "ad Foot Jilid: ——",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clean, legible writing. Strong vertical column alignment. All values within valid ranges. No ambiguity in digit recognition."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Place Hill pro Erian: ——",
+      "amount_pounds": 19,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly written. Column lines well-defined. Amounts easily readable and within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Yardington Rach pro Erin an: d Much: ——",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Shillings and pence are zero, visible as clearly marked in their respective columns. No ambiguity."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Jeneran: wooan: ——",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Mostly clear. Pounds and shillings unambiguous. Pence digit is 5 with what appears to be 'ob' (half-penny symbol) after it. Fraction interpreted as 0.5. Minor ink variation but confident in reading."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wilsorth pro Erin 7 Erin: ——",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Legible handwriting and strong column alignment. All values clearly positioned and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cajon pro Sitts ——",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clean entry. Pounds column shows zero. Shillings and pence clearly readable. Column alignment perfect."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Wleigten Shills p/n an: ——",
+      "amount_pounds": 13,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear and unambiguous. All three columns strongly aligned with ruling lines. Values all within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gossington Labor p/n an: ——",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Well-formed numerals. Strong column definition. Shillings is 19 (valid; under 20 limit). Pence is 8 (valid; under 12 limit). No ambiguity."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Molbara Sitts ——",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Mostly clear. Pounds and shillings are unambiguous. Pence shows 11 followed by what appears to be 'ob' (half-penny). Fraction interpreted as 0.5. Minor ink variation but overall confident."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Frittsubale Nepper pro Prien: ——",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds is 1, shillings is 15, pence is 0. All values unambiguous and within valid ranges. Clean handwriting and alignment."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Jouelle pro Sitts ——",
+      "amount_pounds": 26,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings clear. Pence digit is 6 with what appears to be 'ob' after it (half-penny symbol). Fraction interpreted as 0.5. Column alignment is strong; minor ink variation in pence area."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Eiffan Berry ——",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clean, unambiguous reading. All three amounts clearly positioned and easily readable. No column alignment issues."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Jodith Glen: Jenson pro an: ——",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds, shillings, and the pence digit (7) are clear. Pence has what appears to be 'ob' symbol after it (half-penny). Fraction interpreted as 0.5. Strong overall alignment."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Berington pro an: ——",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, legible numerals. All three columns aligned with ruling lines. Values all within valid ranges. No ambiguity."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Laidlene Carys p/n an: ——",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Cleanly written. Strong vertical alignment. All values clearly readable and within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Horspath pro Sitts ——",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Unambiguous reading. All amounts clearly positioned within their respective columns. No ambiguity in any digit."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Brererson pro Sitts ——",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear writing and column alignment. All values easily readable and within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Taylor: wager Lord p/n an: ——",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings are clear. Pence digit is 3 with what appears to be 'ob' symbol after it (half-penny). Fraction interpreted as 0.5. Strong column alignment overall."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jocdin adam allott pro an: ——",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds is zero. Shillings and pence are clear. Pence has what appears to be 'ob' symbol (half-penny), so fraction is 0.5. Minor ink variation but overall confident reading."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Junchin, alin Barratt p/n an: ——",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, legible amounts. Strong column alignment. All values within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Jittle Gen Qsit Rech pro an: ——",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings are both zero. Pence is 6, clearly visible. All amounts unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Cormoolt Boots p/n an: ——",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds is 25 (two-digit number). Shillings is 0, pence is 1. All values clearly positioned and unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Loywottlelson p/n an: ——",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clean, clear numerals. Pounds is 30. Shillings and pence are both zero. No ambiguity in any position."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Wotchewington Rech per Erin: an: 2 Much: ——",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly written entry with strong column alignment. Pounds is 25, shillings and pence are zero. All values unambiguous."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Brunner pro Quadrunin & td rest an: ——",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Legible numerals with strong column definition. All three amounts clearly positioned. No ambiguity in reading."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Glorg arildy pro Prien: & Erin: ——",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, unambiguous reading. Pounds is 2, shillings and pence are zero. All amounts properly aligned."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Bangatton pro Prien: ——",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Simple, clear entry. Pounds is 1, shillings and pence are zero. No ambiguity."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Mountainde pro Drin: ——",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "All amounts appear to be zero, though the rightmost column is somewhat faded. Reading confirmed by pattern consistency with clearly zero entries. Minor ink fading but confident interpretation."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Dec: 28 to Francis King his Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini's description 'Dec: 28 to Francis King his Bill' is precisely what is visible on the ledger. The amount £1 9s 6½d is clearly visible and both extractors agree on the amount. claude-haiku incorrectly read the date as 'Dec. 26' and 'by Bill' instead of 'his Bill'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "to ye Dean of Ch. Ch. sent for being Venison",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "gpt-5-mini's description and amount (£0 2s 6d) are accurate and directly match the ledger. claude-haiku provided a completely different, incorrect description ('to 1/2 Dozen of 6d. paid for hay & hanging lanyon') for this same amount, indicating a severe misreading of the text."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Feb. 7 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£0 1s 0d). gpt-5-mini's description is a verbatim match ('Feb. 7 Corn price'), while claude-haiku misread 'Feb.' as 'Fob.'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mar. 13 Lighting Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£1 0s 0d). gpt-5-mini's description is a verbatim match ('Mar. 13 Lighting Lamps'), while claude-haiku incorrectly read the date as 'Mar. 15'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "16 to Mr Munday his Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£8 13s 6d). gpt-5-mini's description ('to Mr Munday his Bill') is accurate. claude-haiku incorrectly read the name as 'Mrs Waundey' and 'by Bill' instead of 'his Bill'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "17 to Mr Weston four years Interest Due at xmas 1743",
+      "amount_pounds": 128,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted both the full description and the amount (£128 0s 0d) for this row. claude-haiku significantly misread the amount as £12 8s 0d and merged this entry with the subsequent row's description, creating a single, incorrect entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "to Mr Weston upon bond by common consent",
+      "amount_pounds": 32,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row, including its full description and amount (£32 0s 0d), is clearly present in the ledger. claude-haiku completely missed this entry, having merged its content into the previous row. This row is added from gpt-5-mini's extraction."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "24 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£0 1s 0d) and description ('24 Corn price')."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "to Mr Blop one Rheam of Imp. Paper",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "gpt-5-mini accurately extracted the description and amount (£2 12s 6d). The 'Rheam' is clearly visible. claude-haiku misread the name as 'Mrs Ralph' and 'Rheam' as 'shilion', and incorrectly extracted the pounds value as 0."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ap. 9 to Teasler his Bill",
+      "amount_pounds": 16,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted the description and amount (£16 5s 2d). claude-haiku incorrectly extracted the pounds value as 1 and 'by Bill' instead of 'his Bill'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "13 to ye Cook for Gardins",
+      "amount_pounds": 13,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£13 17s 0d). gpt-5-mini's description is an accurate transcription ('13 to ye Cook for Gardins'), while claude-haiku misread the description entirely as 'to St. Book for badily'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "16 to Mrs Heritage",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£0 8s 6d) and description ('16 to Mrs Heritage')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "20 to Mr Cozens his Bill",
+      "amount_pounds": 41,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£41 8s 4d). gpt-5-mini's description ('20 to Mr Cozens his Bill') is accurate. claude-haiku misread the name as 'Mrs Beens' and 'by Bill' instead of 'his Bill'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "May 19 to Wine to entertain Mr Wilmot in Ch.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£0 1s 6d). gpt-5-mini's description ('May 19 to wine to entertain Mr Wilmot in Ch.') is an accurate transcription. claude-haiku significantly altered the description, misreading name, date punctuation, and abbreviation."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "June 12 to Mr Boyles Works for ye Library",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£5 5s 0d). gpt-5-mini's description ('June 12 to Mr Boyles Works for ye Library') is accurate. claude-haiku misread 'Mr Boyles' as 'Mrs Bogle's' and 'ye' as 'y'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "July 7 to Mrs Combes her Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £2 4s 0d. gpt-5-mini correctly extracted this. claude-haiku incorrectly read the pounds as 0."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "10 to Mr Will. Talbot his Plate money",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £6 0s 0d. gpt-5-mini correctly extracted this and the description. claude-haiku misread the pounds as 8 and the name as 'Mr. Well Tallet'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Aug 4 to Mr Townsend his Bill",
+      "amount_pounds": 44,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £44 5s 11¾d. The fraction mark is clearly a '¾'. gpt-5-mini accurately identified this. claude-haiku incorrectly identified the fraction as '0.5' and misread the date as 'Aug 1' and 'by Bill'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "10 to Landtax for ye year 1742. & 1743. & Aid",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description and amount (£14 8s 0d). gpt-5-mini is accurate. claude-haiku provided a completely different, incorrect description and misread the pounds as 19."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "20 brought to acct w't was pd Newman for wine to entertain Coll. Ten't",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£0 3s 0d). gpt-5-mini's description is an accurate transcription, noting the length and abbreviations. claude-haiku's description is a significant misreading of the text."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Sept. 20 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount (£0 1s 0d) and description ('Sept. 20 Corn price')."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "25 to Salisbury Carrier for 2 Boxes from Mr Crabb",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£0 9s 4d). gpt-5-mini accurately identified the name as 'Mr Crabb'. claude-haiku misread the name as 'Mr Coade'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Oct. 10 to Mr Horner for Paper Ink &c.",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£0 17s 4d). gpt-5-mini's description ('Mr Horner for Paper Ink &c.') is accurate. claude-haiku misread 'Mr' as 'her' and had different punctuation."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "to Edgley for binding two Buttry Books",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£1 4s 0d). gpt-5-mini's description ('to Edgley for binding two Buttry Books') is accurate, correctly identifying 'Edgley' and the archaic spelling 'Buttry'. claude-haiku misread the name as 'fiddles' and 'Buttry' as 'Battery'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "to Wine Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £0 15s 0d. gpt-5-mini correctly extracted this and the description. claude-haiku incorrectly read the shillings as 16 and misread 'Oct. 5' as '&t. 5'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "20 to Bayliffe for carrying away Rubbish",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors agree on the amount (£2 3s 0d). gpt-5-mini's description ('20 to Bayliffe for carrying away Rubbish') is accurate. claude-haiku misread the name as 'Hay Wife'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "386 12 06¼",
+      "amount_pounds": 386,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the exact numbers and fraction. gpt-5-mini is a direct and accurate transcription. claude-haiku provided an interpretive description and significantly incorrect amounts (356 pounds, 5 pence, 0.75 fraction)."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "179 16 02",
+      "amount_pounds": 179,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount. gpt-5-mini's description is a direct transcription of the numbers, which is preferred for totals. claude-haiku used an interpretive description 'Continuation Subtotal'."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "90 07 05½",
+      "amount_pounds": 90,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £90 7s 5½d. gpt-5-mini is accurate, identifying pence as 5 and fraction as 0.5. claude-haiku incorrectly read the pence as 4 and the fraction as 0.75, and used an interpretive description."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "94 05 05¾",
+      "amount_pounds": 94,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount as £94 5s 5¾d. gpt-5-mini is accurate. claude-haiku failed the hard rule filter with 25 shillings (max 19) and incorrectly read the pence as 8, despite its note acknowledging the issue. gpt-5-mini's values are selected."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "Sum. on. fol. £ 751 01 08¾",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description and amount. gpt-5-mini correctly extracted the amounts, though I've refined its description to be a more direct transcription of 'Sum. on. fol.'. claude-haiku misread the pounds as 757 and used an interpretive description."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Re Soluti quae erant £ 751 01 08¾",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description and amount. gpt-5-mini is accurate. claude-haiku completely misread the description ('Dr blakly qua evrant') and the pounds amount as 51."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Deductis receptis quae erant £ 739 02 09.",
+      "amount_pounds": 739,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description and amount. gpt-5-mini is accurate. claude-haiku misread '739' as '1739', despite noting its own uncertainty about this large value."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "rest debit. Dno Comput. £ 11 18 09¾",
+      "amount_pounds": 11,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description and amount. gpt-5-mini accurately extracted the values, but its description 'Ino Computt' was slightly off; I've corrected it to 'Dno Comput.'. claude-haiku had significant misreadings in the description, pounds (41), and pence (2)."
+    },
+    {
+      "row_index": 35,
+      "row_type": "header",
+      "description": "Jacobus Dogcumbe Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms the description. gpt-5-mini is accurate. claude-haiku misread 'Dogcumbe' as 'December'."
+    },
+    {
+      "row_index": 36,
+      "row_type": "header",
+      "description": "Franciscus Webber SubRector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Both extractors had significant misreadings of this signature. Visual verification confirms the text is 'Franciscus Webber SubRector'. I have overridden both to provide the accurate transcription."
+    },
+    {
+      "row_index": 37,
+      "row_type": "header",
+      "description": "Jacobus Gosford Th.B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms the description. gpt-5-mini is accurate. claude-haiku had significant misreadings of the name and abbreviation ('Jacobus Cogkpley & J/B.')."
+    },
+    {
+      "row_index": 38,
+      "row_type": "header",
+      "description": "Car: Webber A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms the description. gpt-5-mini is accurate. claude-haiku misread 'Car:' as 'Cav.' and 'A.M.' as 'H.M.'."
+    },
+    {
+      "row_index": 39,
+      "row_type": "header",
+      "description": "Geo: Keppel M.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row is clearly visible in the ledger. claude-haiku completely missed this entry. This row is added from gpt-5-mini's accurate extraction."
+    },
+    {
+      "row_index": 40,
+      "row_type": "header",
+      "description": "Tho: Bray Th. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row is clearly visible in the ledger. claude-haiku completely missed this entry. This row is added from gpt-5-mini's accurate extraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 18,
+      "rows_by_note_assessment": 8,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 3,
+      "rows_dropped_extra": 0
+    }
+  }
+}

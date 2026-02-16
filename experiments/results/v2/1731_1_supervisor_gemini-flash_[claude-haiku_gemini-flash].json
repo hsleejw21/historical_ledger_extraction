@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Ioannis Conybeare Rectoris a 2do Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate transcription of the header text. claude-haiku had significant errors in names and terms ('Cary Deare Beckeris', 'Decim seoluutam')."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description. claude-haiku missed an 'r' in 'Arrearagia'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Guinear'. claude-haiku misread it as 'Burwear'. Amounts were agreed upon and are correct."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified amounts and the 'ob' (0.5) fraction. Selected gemini-flash for capitalization of 'Long' as it appears to match the ledger's style more closely."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash as it correctly identified both the description 'Minhinnet' and the amount (£40). claude-haiku had a completely incorrect description ('Cricklade') and amount (£20) for this row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Rect.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate transcription of the description 'South Newington Rect.', which claude-haiku misread as 'South Morningon Lect.'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Cudlington Rect:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate transcription of the description 'Cudlington Rect:', which claude-haiku misread as 'Ceddington Lect.'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across all fields from both extractors. Values are clear in the image."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Lucas Eaton' and correct amounts (£2 0s 0d). claude-haiku misread the description ('Lear Eajon') and presented incorrect amounts (£14 8s 10d), indicating a misalignment or misreading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Due Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Due Quit Rents' and correct amounts (£14 3s 3d). claude-haiku misread the description ('the out Bents') and amounts (£12 0s 0d)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshals Carons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Ralph Marshals Carons' and correct amounts (£0 7s 6d). claude-haiku misread the description ('Ralph Chariots Orens') and presented amounts from the previous row, indicating significant misalignment."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate amounts (£10 9s 11d). claude-haiku misread the monetary values (£0 7s 5d), which appears to be amounts from a prior row, indicating continued misalignment."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Caleb alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Caleb alias Lane' and correct amounts (£2 19s 5d). claude-haiku misread the description ('Calcut alias Tane') and presented amounts from the previous row (£10 9s 11d), indicating severe misalignment."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Bannister' and correct amounts (£0 15s 0d). claude-haiku misread the description ('Bannitster') and presented amounts from the previous row (£2 19s 5d), continuing the misalignment."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Seaden - Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Seaden - Hall' (including the hyphen) and correct amounts (£1 0s 0d). claude-haiku misread the description ('Sealden Hall') and presented amounts from the previous row (£0 15s 0d)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on description. Selected gemini-flash for accurate amounts (£4 12s 11d). claude-haiku presented amounts from the previous row (£1 0s 0d), continuing the misalignment."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Hart Hall' and correct amounts (£1 13s 4d). claude-haiku misread 'Hart' as 'Hast' and presented amounts from the previous row (£4 12s 11d), continuing the misalignment."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Napper' and correct amounts and fraction (£4 1s 8½d). The 'ob' (0.5) fraction is clear in the image. claude-haiku misread 'Napper' as 'Capper', the pence ('6' instead of '8'), and the fraction as 0.75."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Fenny",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate transcription of 'Clifton Fenny'. The 'F' is clear in the image, unlike claude-haiku's 'Terry'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts and fraction (0.5 'ob'). Selected gemini-flash for its accurate description 'Brew-House', as opposed to claude-haiku's 'Brew Harie'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tretherwen",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate transcription of 'Tretherwen'. claude-haiku misread the description as 'Crittenden'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "In & Lane, Sparkes et Merton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate transcription of 'In & Lane, Sparkes et Merton'. claude-haiku had significant errors in the description ('Sad lane, Sparkles of Merston')."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Medenham' and correct amounts (£6 13s 4d). claude-haiku misread the description ('Okedenham') and pounds/shillings values (£5 3s)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Buck Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on amounts. Selected gemini-flash for its accurate capitalization 'Buck Gate', which is clearer in the image compared to claude-haiku's 'Back gate'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 23,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

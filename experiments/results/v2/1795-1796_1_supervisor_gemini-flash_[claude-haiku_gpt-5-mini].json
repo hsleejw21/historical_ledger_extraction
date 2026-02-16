@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomas Stinton Coll. Exon. Rectoris a 2do Nov: 1795 ad eundem diem revolution 1796.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description as it is much more accurate ('Stinton', 'Exon.', 'diem revolution'). Both correctly identified as a header with no monetary values. Confirmed by visual verification."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description as 'recepta' is visually more accurate than 'recepita'. Both correctly identified as a header with no monetary values. Confirmed by visual verification."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Rectory 1 year",
+      "amount_pounds": 152,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description and amounts. Visually verified as correct."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear Rectory half a year to Mich",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. Description is a combination: 'Guinear' from gpt-5-mini and 'Mich' from claude-haiku are visually more accurate than their respective alternatives. Confirmed by visual verification."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kidlington Mills for one year",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. The description 'Kidlington' is accurate. Visually verified pence as '10' and fraction as '¾' (0.75), matching gpt-5-mini's reading. Claude-haiku incorrectly read '11' and '½'. Gpt-5-mini's note specifically identifying the 'superscript/mark interpreted as three farthings (¾)' was more convincing."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Garsington Sadler 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. Description 'Garsington' from gpt-5-mini is more accurate than 'Gorsington'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Puckett one year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. Description 'Garsington Puckett' from gpt-5-mini is more accurate than 'Gorsington Brocket'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Tintonshul Napier 7 years",
+      "amount_pounds": 41,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. Description 'Tintonshul Napier' from gpt-5-mini is much more accurate than 'Stokefield Napiter'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tintonshul Beaton 5 years",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified, including the 'ob' half-penny symbol. Description 'Tintonshul Beaton 5 years' from gpt-5-mini is more accurate than 'Tintonfield Beaton 3 years'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Montacute Alast Smiths 4 years",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. 'Alast' from gpt-5-mini is a slightly better reading of the cramped description than 'Aleah'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Clifton Finy 1 year",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. 'Clifton Finy' from gpt-5-mini is a better reading of the description than 'Clipton Ferry'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "South Newington Tenement Tho: Penn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'South Newington Tenement Tho: Penn' is significantly more accurate than claude-haiku's 'South Havington Torment Fitz Pons'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Menherst Rectory 2 years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Menherst' is more accurate than 'Ulmhuret'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Chase Hill' is more accurate than 'Chace Blake'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Benington 2 years Barrett and Burgess",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Benington 2 years Barrett and Burgess' is more accurate than 'Bemington 2 years Barrett aD Beueys'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Trethewyn a year and ½",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Truttlewyn a year and a 1/2' was closer; adjusted to 'Trethewyn a year and ½' for visual accuracy. Claude-haiku's description was significantly off. Confirmed by visual verification."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Pad Lane Conyers 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. This row was correctly identified by gpt-5-mini, but claude-haiku entirely missed it and replaced it with an invented row ('Lea Lands Comyon') with incorrect amounts. Visually verified 'Pad Lane Conyers 2 years' with amount '1.0.0'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Pad Lane Wilson 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Pad Lane' is more accurate than 'Lad Lane'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Pad Lane Hallifax late Warrel 2 years",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visually verified 'Pad Lane Hallifax late Warrel 2 years' with amount '3.6.8'. Claude-haiku's description and amounts for this row are entirely incorrect, suggesting a significant parsing error. Claude's own note expressing uncertainty ('may contain errors in reading') supported disqualifying its candidate for this row."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "Pad Lane subtotal (bracketed)",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was correctly identified by gpt-5-mini but missed by claude-haiku. Visually verified the bracketed subtotal '17.13.4' in the image, and confirmed it sums correctly from the preceding Pad Lane entries (1.0.0 + 13.6.8 + 3.6.8 = 17.13.4)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bampton 6 years",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Bampton' is more accurate than 'Warnflton'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. G. Page Turner 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'S. G. Page Turner' is more accurate than 'S.G.Page Foreman'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Jesus College 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Jesus College' is significantly more accurate than claude-haiku's 'Aitus Talley'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Back Gate Coppins 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. gpt-5-mini's description 'Back Gate Coppins' is more accurate than 'Back Gate Capins'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Willd Arish 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon and visually verified. Description combined: 'Willd' is visible, and 'Arish' from gpt-5-mini is more accurate than 'Chish'. Confirmed by visual verification."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Summa",
+      "amount_pounds": 392,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Description 'Summa' adopted from claude-haiku as it's directly written above the total. Visually verified pounds and shillings. Visually verified the fraction after 5 pence is clearly '¼' (0.25), matching gpt-5-mini and overriding claude-haiku's '½'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 22,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 2
+    }
+  }
+}

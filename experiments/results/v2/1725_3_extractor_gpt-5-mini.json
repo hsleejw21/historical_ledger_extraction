@@ -1,0 +1,152 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Tretchewin",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount columns (8 · 16 · 8) are well aligned with the right-side pound/shilling/pence rulings and digits are clear. Description is partly uncertain: the hand looks like 'Tretchewin' but some letters are ambiguous (particularly middle consonants); chosen spelling based on visible letter shapes."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Master Severage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "No monetary figures written on this line. Description reading uncertain: looks like 'Master Severage' (the second word could be 'Severage' or 'Sicorage'); ink is lighter and letters ambiguous, so medium-low confidence."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "La Cleve, Smyth, Moreton Annie",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "No amounts. Handwriting lists several names separated by commas; reading of the names ('La Cleve', 'Smyth', 'Moreton Annie') is tentative — letters are readable but uncertain in places (e.g. first name could be 'La Clane' or 'La Cleve')."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mordenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "No amounts. Description looks like 'Mordenham fore' or similar (the place-name is uncertain). The line is darker than some surrounding text but final word is ambiguous, so moderate uncertainty."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate (Bley)",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The brackets and word look like 'Backgate (Bley)'. The amount '4 0 0' is clearly written and aligns with the pounds column; shillings and pence are zero and valid."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short name 'Boyce' clearly written. Amount '4 0 0' is almost identical in ink/style to the previous 4·0·0 and aligns with pound column — high confidence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Porty Ginny p Mordenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "No amount on this line. The phrase looks like 'Porty Ginny p Mordenham' (the 'p' likely short for 'per' or 'paid'). Hand is readable but some letters (Porty/Parry) uncertain."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holsworthy from an unknown hand",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'of Mr. Holsworthy from an unknown hand' reasonably clearly. Amount '5 0 0' is clear and aligned to pounds/shillings/pence columns. Slight uncertainty in 'Holsworthy' spelling but intent is clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increments & Battley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This appears as a sectional label (looks like 'Increments & Battley' or 'Incurments & Battley') and has no amounts. Some letters are faint; treated as a header introducing the following group."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Comd",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short line with abbreviation 'Gent: Comd' (interpreted as 'Gent: Comd' or 'Gent: Comd:' ). No amount present. Ink is lighter but letters are distinguishable as an entry rather than a total."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Support",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line labelled 'Act Support' (clear script) with amount '10 0 0' clearly written and underlined — alignment with pound/shilling/pence columns is unambiguous. Treated as an entry; not explicitly marked as a calculated subtotal on the page."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Cont: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small note at left 'Cont: Library' (or 'Com: Library') with faint adjacent word that may read 'Sum'. No amount on this line. Reading of abbreviation is moderately uncertain due to light ink."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Final right-hand total line reads roughly as '210 02 06' — the pounds and shillings fields (210 and 02) align well and are readable. The trailing characters after the pence are extra/faint (an additional small '9' or flourish) and not interpretable as a valid fraction; therefore pence interpreted as '06' with moderate confidence. Validation: shillings (2) and pence (6) are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

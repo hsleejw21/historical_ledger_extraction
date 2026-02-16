@@ -1,0 +1,329 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title clearly centered at top. No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Novr. 4th Mr. William Harriotts Plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and the 10 0 0 amount are legible; column alignment confirmed against the clear ruling in the Totals rows at the bottom."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bowden's do.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description and the 10 0 0 amount are clear and align with the pounds/shillings/pence columns referenced from the total lines."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Dec. 6. of the Revd Mr. Cooke Dr. Hartidge's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date, description and 110 0 0 amount are legible; vertical column boundaries taken from late-page totals to verify placement."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Dec. 31 Increment due at Mid. cal from the Parson",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings (61 and 5) are clear. Pence column shows a small, unclear mark after '2' (looks like an extra stroke). Interpreted as 2 pence with no fraction; chosen because pence must be 0–11. Alignment used the clear total lines at bottom; uncertainty remains about an extra small mark in the pence area."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "of Mr. Bowles Esq. Rpr Rent for Wittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 175 0 0 is clearly written and aligns with the pounds column. Handwritten description is mostly legible; small uncertainty in name spelling but amount is unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "1789 Jan. 31 John Geo. King & Mrs. Jane Engs Plate money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date, names and 20 0 0 amount are legible; minor ambiguity on surname spelling but numeric columns are clear using bottom-line alignment."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Feb. 24 Mr. John Harriott's Plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and 10 0 0 amount are clearly written and align with pounds column per totals reference."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Mar. 27 of Mr. Cooke Dr. St. Benet's 2d Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 110 0 0 is clear. 'Dr. St. Benet's'/payment wording is legible though abbreviated; alignment checked against clear bottom rulings."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "June 11 of Mr. Parsons 4 years of something exhibited while Wm O'Neill (?)",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 12 0 0 is clear. Description text is faded/abbreviated and partly obscured; I recorded a best-effort reading of the words. Column alignment validated from bottom totals."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles 2d. Request for A. Wittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 175 0 0 is clear. Minor uncertainty in some letters of the description but the transactional nature and amount are legible; alignment confirmed with totals row."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29 of Mr. Demainbray Deans Fees to House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 12 0 0 is clearly aligned in pounds column. Some uncertainty in the proper spelling of the name; description text is readable enough to capture intent."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1 of Mr. Vivian Pors. increm. to Midst. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings (103 and 16) are clear. Pence column shows '5' with a halfpenny symbol (a small loop) — interpreted as 5½d. Alignment of columns was referenced to the clear final totals; fraction interpretation is reasonably clear but handwriting of the fraction mark is slightly stylized."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donithorne's Time for had lane",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 26 0 0 is readable and aligns with the pounds column. Some uncertainty in exact spelling of the name/phrase but the monetary figure is unambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Samuels's? Ours. increm. for year 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings (23 and 17) are clear. Pence reads as '3' with a following halfpenny mark (interpreted as 3½d). Handwriting of the description is slightly unclear (name spelling uncertain) but amounts are consistent with column alignment from totals."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Oct. 30 of Gibbons, farmer, for old iron as by Act",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description and amount 13 14 0 are clear; shillings and pence columns validated against final totals lines."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Wm. Robt. Haskins acct. for Merton Estate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered account header for the following section; no amounts on this line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "from Mid. 1787 & Mid. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Continuation of the account header specifying the period; no monetary amounts on this line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line reads 'Money Rent - 265.0.0.' Pounds clearly 265; columns confirmed by comparison to the clearly ruled Totals rows."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Corn Rent",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Reads 'Corn Rent - 05.12.0.' Amounts align with columns and are unambiguous; leading zero observed for pounds."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total of Years Rent",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Summation line 'Total of Years Rent 270.12.0.' is clearly written and used as an alignment aid for the rest of the page."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header introducing deduction lines; no amounts on this descriptive line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Land Tax",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line reads 'Land Tax - 34-7-0'. Amounts are clearly aligned and legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Levett? Close",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 6 10 10 is clear. The descriptive word before 'Close' is uncertain (handwriting could read 'Levett' or similar); used totals alignment to confirm numeric columns."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Rep. Vicar. House",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads like 'Rep. Vicar House - 7-6-7'. Amounts are legible; abbreviation 'Rep.' and 'Vicar' inferred from context and handwriting."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do. of Chancel",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Reads 'Do. of Chancel - 0-8-9'. Ditto marker and amounts are clear; pence within valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total of Deductions",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This 'Total of Deductions 48-12-4' line is one of the clearest rows on the page and was used as a primary alignment reference for the £/s/d columns on the page."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Remains clear for the years Rent",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Descriptive text ('Remains clear for the years Rent') appears directly to the left of the amount 221 19 8. Per page guidance this descriptive line is captured as the logical entry with that amount. Numeric columns aligned using the clear 'Total of Deductions' and final total lines."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Final grand total at bottom right reads '1094 12 7½' (7½ d). Fractional halfpence is clearly shown as a small loop after the 7; this final total was used as a key alignment reference for the whole page."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

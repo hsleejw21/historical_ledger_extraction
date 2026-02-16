@@ -1,0 +1,350 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia pro 2do Die Novr: 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description 'Arrearagia pro 2do Die Novr: 1825' as it most accurately reflects the script, especially '2do' (superscript 'o') and 'Die'. All extractors agreed on no amounts and row type."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash/gpt-5-mini for description 'Money Rents, fixed.' as visual inspection confirms 'fixed.', not 'paid.'. All extractors agreed on no amounts and row type."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. 1/2 year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection shows 'Gwinear' (not 'Gwmear') and '1/2 year' (literal script representation) for description. Amounts are clearly 90 pounds, 0 shillings, 0 pence, aligning with gpt-5-mini and claude-haiku. Overriding gemini-flash's 9 pounds."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhenriot. ... 1. Yr.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection shows 'Menhenriot. ... 1. Yr.' for description (from gemini-flash, capturing full text). Amounts are clearly 20 pounds, 0 shillings, 0 pence, aligning with gpt-5-mini and claude-haiku. Overriding gemini-flash's 2 pounds."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bampton Tenement. 3 Yrs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Bampton Tenement. 3 Yrs' (gemini-flash/gpt-5-mini) is correct over claude-haiku's 'Rampleton Virement'. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montacute - Do - 21. Yrs",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Montacute - Do - 21. Yrs' (gemini-flash) is correct. Claude-haiku's 'Montaute. 2d. 2½ yrs' is incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane Norris - 1. Yr.",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Lad Lane Norris - 1. Yr.' (gemini-flash) is most accurate, particularly 'Yr.' and the dash. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Donnithorne",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Donnithorne' (gemini-flash/gpt-5-mini) and amounts 6 pounds, 13 shillings, 4 pence. Claude-haiku's 'Dornthorne' and 8 pounds are incorrect."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on description, amounts, and row type. Consensus value used."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Medinham - 2 Yrs",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Medinham - 2 Yrs' (gemini-flash) and 8 pence. Gpt-5-mini and claude-haiku incorrectly read 0 pence. Claude-haiku's 'Widnham' is incorrect."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew - Bucks.. 1. Yr.",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Little Tew - Bucks.. 1. Yr.' (gemini-flash). Claude-haiku's 'Little few. Bulke. 1. ½' is incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymouth. 2 Yrs",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Lymouth. 2 Yrs' (gemini-flash) and 0 pounds, 6 shillings, 0 pence. Gpt-5-mini incorrectly read 6 pounds. Claude-haiku's 'Lymonth' is incorrect."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lennard",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Lennard' (gemini-flash/gpt-5-mini) and 0 pounds, 0 shillings, 8 pence (gemini-flash). Gpt-5-mini reported no amounts, and claude-haiku's 'Kenward' and 0 pence are incorrect."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lurneck",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Lurneck' (gemini-flash) and 0 pounds, 1 shilling, 0 pence. The first letter is clearly an 'L'. Gpt-5-mini and claude-haiku misidentified the name."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on description, amounts, and row type. Consensus value used."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. Yr.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'L. Whittenham Rectory. 1. Yr.' (gemini-flash) for description. Claude-haiku's 'Whilterham' and '1. ½' are incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Do. Vicarage.",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. Vicarage.' (gpt-5-mini/claude-haiku) has the correct punctuation for the description. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Yarnton Rectory",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Yarnton Rectory' (gemini-flash/gpt-5-mini) for description. Claude-haiku's 'Yarnlon' is incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Mixed Rents, Variable.' (gemini-flash/gpt-5-mini) for description. Claude-haiku's 'Mixed Cento Variable.' is incorrect. All extractors agreed on no amounts and row type."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. Yr.",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'L. Whittenham Rectory. 1. Yr.' (gemini-flash) for description. Claude-haiku's 'Whilterham' and '1. ½' are incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Mills.",
+      "amount_pounds": 20,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Kidlington Mills.' (gemini-flash) for description, including the final dot. Claude-haiku's 'Killington' is incorrect. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. Newington Rectory",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on description, amounts, and row type. Consensus value used."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do. Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Do. Tenement' (gpt-5-mini/claude-haiku) for description. The fraction is clearly '¼' (0.25), overriding claude-haiku's '0.5'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Merton Rectory. 1. Yr.",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Merton Rectory. 1. Yr.' (gemini-flash) for description and 16 shillings. Claude-haiku's 'Muton' and 6 shillings are incorrect."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Yarnton Rectory & Tenement. 1. Yr.",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Yarnton Rectory & Tenement. 1. Yr.' (gemini-flash) for description and the fraction as '¾' (0.75). Gpt-5-mini and claude-haiku incorrectly read different fractions."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry - 1. Yr.",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Clifton Ferry - 1. Yr.' (gemini-flash) for description and the fraction as '¾' (0.75). Gpt-5-mini and claude-haiku incorrectly read different fractions and misidentified description elements."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Chase Hill - 3 Yrs.",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Chase Hill - 3 Yrs.' (gemini-flash) for description and the fraction as '¾' (0.75). Gpt-5-mini and claude-haiku incorrectly read different fractions and minor description variations."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bensington - 3 Yrs.",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Bensington - 3 Yrs.' (gemini-flash) for description. All extractors agreed on amounts."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Garsington - Crook. 3. Yrs.",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Garsington - Crook. 3. Yrs.' (gemini-flash) for description and 10 shillings. Claude-haiku's 'Yardlington. Cook.' and 11 shillings are incorrect."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms the description field is blank for this total row. Amounts 976 pounds, 15 shillings, 10 pence, 0.5 fraction were a consensus across all extractors and confirmed visually."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

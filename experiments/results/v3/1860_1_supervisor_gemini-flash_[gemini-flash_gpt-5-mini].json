@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on all values and description from both extractors. Visually clear."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris A.D. 1859",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on gpt-5-mini for splitting the Latin header into two visual lines. Description refined visually ('Rectoris' and 'A.D. 1859' are clear)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum A.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on gpt-5-mini, which correctly identified this as a distinct second line of the Latin header. gemini-flash combined it into one row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on gpt-5-mini, which correctly identified the horizontal rule as a distinct header row. gemini-flash missed this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Recepta' from gemini-flash is visually more accurate than 'Recep ta' from gpt-5-mini. Row type and no amounts are consistent."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Inst. on Loan",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount from gemini-flash (10 shillings) is visually correct. The '10' aligns clearly with the shillings column when referenced against the total row. Description slightly adjusted for conciseness."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Andrews 4.50. on do.",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (30 pounds) from gpt-5-mini was selected because gemini-flash's '30 shillings' violated the 'Shillings ≥ 20' hard rule. Description from gemini-flash ('4.50.') is visually more accurate."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Bushey Divs",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount from gemini-flash (7 pounds, 8 shillings, 6 pence) is visually clear. gpt-5-mini misread the pounds as '1'. Description from gemini-flash is accurate."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Colby Burrows Increm. Domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Colby Burrows Increm: Domus') is visually more accurate than gpt-5-mini's interpretation."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do. Do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Do. Do.') is visually more accurate than gpt-5-mini's ('Do. do. do.')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on all values and description. Visually clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Divs on S. Jones Consols to Mich '58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Divs on S. Jones Consols to Mich 58') is visually more accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "New Building Fund. Aut. Closs",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pence amount (7) from gemini-flash is visually correct; gpt-5-mini misread as '9'. Description 'Aut. Closs' derived from visual verification, combining elements from both extractors."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Late Building Fund - not carried to B.F.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Late Building Fund - not carried to B. F.') is visually more accurate, particularly the 'B.F.' abbreviation."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sr. Richards Divinity Prize",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount from gemini-flash (10 shillings) is visually correct; gpt-5-mini placed it in pounds. Description 'Sr.' from gemini-flash is accurate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ryse Rent Mis Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Ryse Rent Mis Jones Share') is visually more accurate than gpt-5-mini's ('Rope Rent Miss Jones Share')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sixteen per Cent on Rents",
+      "amount_pounds": 733,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds amount (733) from gemini-flash is visually correct; gpt-5-mini misread as '738'. Description is consistent."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Composition to Colleg. by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Colleg.') is visually more accurate than gpt-5-mini's ('Colls')."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rents.",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on all values and description. Visually clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Kater from Caution Fund - Interest £30 Interest £4.5d",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is more complete as it includes 'Interest £30', reflecting the full multi-line text for this entry."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Due Repayment from Choir Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount (9 pence) from gemini-flash is visually correct; gpt-5-mini placed it in pounds. Description 'Due' from gemini-flash is accurate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "2000. Consols Sale of Caution Fund",
+      "amount_pounds": 1010,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount and description from gpt-5-mini are visually correct ('2000 Consols' and '1010 pounds'). gemini-flash misread '2000' as 'Doos.' and '1010' as '1910'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hammond Keys",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount (1 pence) from gemini-flash is visually correct; gpt-5-mini placed it in pounds. Description 'Keys' from gemini-flash is accurate."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Allnutt repayment by Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount (5 shillings) from gemini-flash is visually correct; gpt-5-mini placed it in pounds. Description 'Bursar' from gemini-flash is accurate."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instruction (Choir)",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (30 pounds) from gpt-5-mini was selected as gemini-flash's '30 shillings' violated the 'Shillings ≥ 20' hard rule. Description 'Sub Rector repayment Instruction (Choir)' is a visual merge of elements from both extractors for accuracy."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "TOTAL",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'TOTAL' inferred visually, as is common for ledger totals and as correctly noted by gemini-flash."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 11,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 19,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

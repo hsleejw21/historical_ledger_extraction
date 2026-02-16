@@ -1,0 +1,10 @@
+{
+  "warnings": [],
+  "estimated_row_count": 0,
+  "layout_type": "standard",
+  "layout_hints": "",
+  "prompt_additions": "",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

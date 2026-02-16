@@ -1,0 +1,297 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynser Rectory a secundo die Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput: de remanentib: in Cista",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Item de arreragijs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guanear",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long witnam",
+      "amount_pounds": 76,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "minhinnett",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Southnewington --- pro mic:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chocehill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Due quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph marshally capons",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calcutt",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mountague",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hugheg",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greeneway",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tintinhull { Rapper",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "{ Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bens ington",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Tretnewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Merton vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Summa Annoarvagionum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gemini-2.5-pro"
+  }
+}

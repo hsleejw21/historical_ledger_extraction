@@ -1,0 +1,162 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Poethewin",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Poethewin' as the clear first header. Selected `gemini-flash` which correctly identified this, while `claude-haiku` hallucinated 'Golborne'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Morton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Morton Vicarage' as the second header. Selected `gemini-flash` which correctly identified this. `claude-haiku` completely missed this row and introduced a merged/incorrect entry for its second row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "LaLane, Sparks, Moreton Ann",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'LaLane, Sparks, Moreton Ann' and amounts £8, s16, d8. Selected `gemini-flash` which is accurate. `claude-haiku` presented a significantly incorrect description and amounts for this position."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Modenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Modenham fore' as a header. Selected `gemini-flash` which is accurate. `claude-haiku` again provided an incorrect description for this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { B. Esq.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Backgate { B. Esq.' and amounts £4, s0, d0. Selected `gemini-flash` which is accurate. `claude-haiku` had the correct amounts but an entirely different, incorrect description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors identified 'Boyce' and amounts £4, s0, d0. `gemini-flash`'s description 'Boyce' is more accurate as no brackets are visible in the image, unlike `claude-haiku`'s '[Boyce]'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Porty Fines p Modenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Porty Fines p Modenham' and no amounts on this line, with the description clearly extending to the next line. Selected `gemini-flash` which is accurate. `claude-haiku` provided an incorrect description."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holworthy from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'of Mr. Holworthy from an unknown Land' and amounts £5, s0, d0. Selected `gemini-flash` which is accurate. `claude-haiku` correctly identified the amounts but misread the description as 'Joh. Hallsworth'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increment of Batley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Increment of Batley' as a header. Selected `gemini-flash` which is accurate. `claude-haiku` provided an incorrect description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Com:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification of 'Gent: Com:'. `gemini-flash`'s description is slightly more accurate than `claude-haiku`'s 'Gents: Comi:'. Both correctly noted no amounts. Classified as 'entry' due to indentation, despite lacking an amount."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors identified amounts £10, s0, d0. `gemini-flash`'s description 'Act Suppor' is a more accurate visual reading than `claude-haiku`'s 'Act. Suppon'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "of Com: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'of Com: Library' (with 'of' written above 'Com:') and no amounts directly on this line. `gemini-flash` correctly notes the 'of' and absence of amount. `claude-haiku` incorrectly associated the total from the next line with this description and had incorrect total values."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Summ^a",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows 'Summ^a' as the total line. `gemini-flash` correctly identified the line, the text, and the amounts as £210, s2, d6. The squiggle after the 6 pence clearly indicates 0.5 (obolus/half-penny), as noted by `gemini-flash`. `claude-haiku` completely missed this row as a distinct entry and misread its amounts in its attempt to merge it with the previous line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 13,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

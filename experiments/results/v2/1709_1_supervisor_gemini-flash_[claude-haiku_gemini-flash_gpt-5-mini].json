@@ -1,0 +1,449 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Geo. Paynter Rectoris a secundo die Novembr. 1708 ad eundem diem 1709.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, 'gemini-flash' provided the most accurate transcription of the descriptive text (Geo. Paynter Rectoris a secundo die Novembr.). All extractors agreed on the row type (header) and the absence of monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput. de remanentiis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'gemini-flash' and 'claude-haiku' correctly identified this as a header with no amounts, introducing the following entry. 'gpt-5-mini' incorrectly combined this line with the next, assigning amounts to this descriptive header. Visual inspection confirms this line is a header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "In Cista",
+      "amount_pounds": 44,
+      "amount_shillings": 17,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "'gemini-flash' correctly identified the description 'In Cista'. 'gpt-5-mini' missed this as a distinct row. 'claude-haiku' misread the description as 'Om lista' and the pence as '10'. Visual verification confirms the amounts are 44 pounds, 17 shillings, and 1 pence, with a clear 'd' or 'ob' symbol indicating a 0.5 pence fraction. 'gemini-flash' correctly identified the 1 pence and hinted at the symbol, but missed the fraction. This final value combines visual verification of description, whole pence, and fraction."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Item de Arreragys.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on the row type (header) and the absence of monetary amounts. 'gemini-flash' provided the most accurate transcription of 'Arreragys' from the image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Guineas & anno",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across 'gemini-flash', 'gpt-5-mini', and 'claude-haiku' for monetary amounts. 'gemini-flash' and 'claude-haiku' provided the most accurate description 'Guineas & anno'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Longwiteham & anno",
+      "amount_pounds": 59,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "'gemini-flash' provided the most accurate description 'Longwiteham & anno'. While all extractors agreed on the whole amounts (59 pounds, 19 shillings, 9 pence), only 'gemini-flash' correctly identified the 'ob' symbol as a 0.5 pence fraction, which was confirmed by visual verification."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "min hennet in pt",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across 'gemini-flash', 'gpt-5-mini', and 'claude-haiku' for monetary amounts. 'gemini-flash' provided the most accurate description 'min hennet in pt'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "South newington - & anno",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across 'gemini-flash', 'gpt-5-mini', and 'claude-haiku' for monetary amounts. 'gemini-flash' provided the most accurate description, including the dash before '& anno'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Cudlington Rry pro mich",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across 'gemini-flash', 'gpt-5-mini', and 'claude-haiku' for monetary amounts. 'gemini-flash' provided the most accurate description 'Cudlington Rry pro mich'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "merton Rry & mich.",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'merton Rry & mich.' (most accurately transcribed by 'gemini-flash') and the amounts '03 08 08' (matching 'gpt-5-mini' for values). 'gemini-flash' had 0 pence, and 'claude-haiku' had incorrect pounds and shillings."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Chacell Hill & sesquinno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on the absence of amounts. 'claude-haiku' correctly identified it as a 'header' or 'subheader' (descriptive, no amounts). 'gemini-flash' provided the most accurate description of the text."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Thrup",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on the absence of amounts. 'claude-haiku' correctly identified it as a 'Place name header'. 'gemini-flash' and 'gpt-5-mini' provided the most accurate description 'Thrup'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ralph marshalls capons",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'gemini-flash' and 'gpt-5-mini' correctly identified the description and the associated amounts. The amount '00 02 06' is visually present on the line immediately below the description, implicitly tied to it. 'claude-haiku' incorrectly marked this as a header with no amount."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lord & anno",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "All extractors correctly identified the description. Visual verification confirms amounts '04 05 03' and the presence of a clear 'ob' symbol indicating a 0.5 pence fraction. 'gemini-flash' captured the full amount and fraction correctly. 'gpt-5-mini' missed the fraction, and 'claude-haiku' misread the whole amount."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Calcott pro anno",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms the description 'Calcott pro anno' (most accurately transcribed by 'gemini-flash') and amounts '03 03 03' with a 'qd' symbol for 0.75 pence fraction. 'gemini-flash' provided the most accurate extraction. 'gpt-5-mini' missed the fraction, and 'claude-haiku' misread the description and whole amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Cudlington mills & mich",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms the description 'Cudlington mills & mich' (most accurately transcribed by 'gemini-flash') and amounts '00 12 03' with an 'ob' symbol for 0.5 pence fraction. 'gemini-flash' provided the most accurate extraction. 'gpt-5-mini' misread the pounds, and 'claude-haiku' misread shillings, pence, and description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Bampton & biennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line. The description 'Bampton & biennio' (most accurately transcribed by 'gemini-flash') acts as a header/sub-header. 'claude-haiku' incorrectly assigned amounts that are not present on this line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Mountague & quinguienio et Dimid.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line. The description (a name and a period, 'quinguienio et Dimid.') acts as a header/sub-header. 'gemini-flash' provided the most accurate description. 'claude-haiku' correctly identified the row type."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Hughes & Biennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line. The description 'Hughes & Biennio' acts as a header/sub-header. 'gemini-flash' and 'gpt-5-mini' provided the most accurate description. 'claude-haiku' correctly identified the row type."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Greeneway & Triennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line. The description 'Greeneway & Triennio' acts as a header/sub-header. 'gemini-flash' provided the most accurate description. 'claude-haiku' correctly identified the row type."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Walker & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line (columns are blank, not '00 00 00'). The description 'Walker & anno' acts as a sub-header. 'gemini-flash' and 'gpt-5-mini' correctly identified the absence of amounts. 'claude-haiku' incorrectly extracted zero amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Franklyn & anno",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across all extractors on description, amounts '00 15 0', and row type, confirmed by visual verification."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Minne & Biennio",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Minne & Biennio' (most accurately transcribed by 'gemini-flash' and 'gpt-5-mini') and amounts '01 00 00'. 'gemini-flash' provided the most accurate extraction. 'gpt-5-mini' and 'claude-haiku' incorrectly extracted 1 shilling."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Molineux & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line (columns are blank). The description 'Molineux & anno' acts as a sub-header. 'gemini-flash' provided the most accurate description. 'claude-haiku' incorrectly extracted zero amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Sadler & mich",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows no monetary amounts on this line (columns are blank). The description 'Sadler & mich' acts as a sub-header. Both 'gpt-5-mini' and 'claude-haiku' incorrectly extracted amounts, with 'claude-haiku' violating the hard rule for pence (18 pence)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Tintinhull",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification clearly shows 'Tintinhull' as a header for a braced group of items, with no amounts on this line. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' were severely misaligned, extracting incorrect descriptions and amounts for this row, with 'claude-haiku' also violating hard rules for pence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Napper pro sesquianno",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Napper pro sesquianno' and amounts '04 18 07' with a 'q' symbol for 0.75 pence fraction. 'gemini-flash' provided the only accurate extraction for this specific row. 'gpt-5-mini' missed this row entirely, and 'claude-haiku' was misaligned."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Hopkins & Sesquianno",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Hopkins & Sesquianno' and amounts '02 12 01' with an 'ob' symbol for 0.5 pence fraction. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' were severely misaligned, with 'claude-haiku' violating hard rules for pence."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Clifton Ferry & anno",
+      "amount_pounds": 6,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Clifton Ferry & anno' and amounts '06 07 08' with a 'q' symbol for 0.75 pence fraction. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' were severely misaligned."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Densington & triennio",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Densington & triennio' and amounts '04 17 02'. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' extracted amounts belonging to subsequent rows, indicating significant misalignment in this section."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Brew house & anno",
+      "amount_pounds": 10,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Brew house & anno' and amounts '10 01 09' with a 'q' symbol for 0.75 pence fraction. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' were severely misaligned."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "South newton Tenemts & anno",
+      "amount_pounds": 8,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'South newton Tenemt & anno' (most accurately transcribed by 'gemini-flash') and amounts '08 03 06'. 'gemini-flash' provided the only accurate extraction. Both 'gpt-5-mini' and 'claude-haiku' were misaligned."
+    },
+    {
+      "row_index": 33,
+      "row_type": "header",
+      "description": "Fretherwin & sesqui anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Fretherwin & sesqui anno' (most accurately transcribed by 'gemini-flash') and the absence of amounts. This acts as a header/sub-header. 'claude-haiku' incorrectly extracted zero amounts."
+    },
+    {
+      "row_index": 34,
+      "row_type": "header",
+      "description": "merton Vicarage & quadriennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'merton Vicarage & quadriennio' (most accurately transcribed by 'gemini-flash') and the absence of amounts. This acts as a header/sub-header. Both 'gemini-flash' and 'claude-haiku' incorrectly extracted amounts belonging to other rows."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Backgate Jennings",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Backgate Jennings' (most accurately transcribed by 'gemini-flash' and 'gpt-5-mini') and amounts '04 00 00'. 'gpt-5-mini' provided the most accurate extraction. 'gemini-flash' misread the pounds as 5."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Yardington mich",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Yardington mich' (most accurately transcribed by 'gemini-flash' and 'gpt-5-mini') and amounts '05 00 00'. 'gpt-5-mini' provided the most accurate extraction. 'gemini-flash' misread the amounts from a later row."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Tue entrents & anno",
+      "amount_pounds": 5,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms the amounts '05 07 02'. The description text is ambiguous in the image; 'gpt-5-mini''s transcription 'Tue entrents & anno' is visually closer to the raw characters, despite 'Due quitrents' being a plausible interpretation. Both 'gemini-flash' and 'claude-haiku' were misaligned or misread the amounts significantly."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Warner & Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the description 'Warner & Biennio' (most accurately transcribed by 'gemini-flash' and 'gpt-5-mini') and amounts '00 08 00'. 'gpt-5-mini' provided the most accurate extraction. 'gemini-flash' incorrectly identified no amounts, and 'claude-haiku' missed this row entirely."
+    },
+    {
+      "row_index": 39,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 322,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors correctly identified the main amounts '322 19 9' and row type as 'total'. 'gemini-flash' and 'gpt-5-mini' correctly identified the blank description and the absence of a pence fraction (no 'ob' or other symbol after the 9). 'claude-haiku' incorrectly added 'TOTAL' to the description and a 0.5 pence fraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 7,
+      "rows_by_visual_override": 26,
+      "rows_added_missing": 6,
+      "rows_dropped_extra": 0
+    }
+  }
+}

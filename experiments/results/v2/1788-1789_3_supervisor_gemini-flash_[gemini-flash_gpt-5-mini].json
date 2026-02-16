@@ -1,0 +1,339 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this header row, visually confirmed.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Nov. 4th Mr. William Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus and visually confirmed. Description from gemini-flash is visually more accurate ('Marriott's' and 'Nov. 4th' vs gpt-5-mini's 'Harriott's' and 'Novr.')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bowden's do.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus and visually confirmed. Description from gpt-5-mini ('Mr. Bowden's do.') is visually more accurate than gemini-flash's simple 'do.'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Dec. 6th of the Revd Mr. Cooke Dr. Hartridge's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus and visually confirmed. Description is a merge: 'Dec. 6th' from gemini-flash, and 'Dr. Hartridge's' from gpt-5-mini, both visually verified from the image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "31 Increment due at Midsumr. last from the Bursar",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed, including the 0.5 fraction (small raised '2' mark, consistent with historical 'ob' for half-penny). Description 'Midsumr.' from gemini-flash is visually more accurate. Both extractors correctly identified the fractional notation."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1789 Jan. 31 of Mr. Bowles Esq. Rent for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate, particularly 'H. Bittenham' and 'Rent'. gpt-5-mini noted ambiguity in its reading for this line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Feb. 24 Hon. Geo. King & dor. John Eng's Plate Money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate, particularly 'Hon.', 'dor. (Doctor)', and 'Eng's'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mar. 27 Mr. John Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate ('Marriott's' vs gpt-5-mini's 'Harriott's')."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "June 3rd of Mr. Cooke & Mr. Benedick do. Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate; gpt-5-mini's interpretation of 'Dr. St. Benefac. 2d Payment' is less convincing compared to 'Mr. Benedick do. Payment'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "11th of Mr. Parsons Exer. of Hymes & Exhib. on his acct at Orwill.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more convincing for this complex line, and its note suggests careful examination of high-resolution crops, which aligns with the complexity of this line's handwriting."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles do. Payment for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate, particularly 'do. Payment' and 'H. Bittenham'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29 of Mr. Demainbray Dean's Treasr. & House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate, especially 'Dean's Treasr. & House'. gpt-5-mini's reading for the details was less accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1st of Mr. Vivian Bursr. Increm. to Midsr. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed, including the 0.5 fraction (clear '½' symbol). Description from gemini-flash is visually more accurate, particularly '1st', 'Bursr.', and 'Midsr.'. gpt-5-mini noted slight uncertainty in its description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donnithorne's Fine for a Lease",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate and coherent; gpt-5-mini's note indicates significant uncertainty in its transcription and reading 'Donaldson's Time for the share' was less accurate."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Lamande's Bursr. Increm. for Xmas 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and amounts from gemini-flash. The fraction is clearly '3/4' (0.75) in the image, not 0.5 as gpt-5-mini suggested. gpt-5-mini also had significant description errors and noted uncertainty."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Oct. 30 of Gibbons, Frazier, for old Iron as by Acct.",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate, particularly capitalization of 'Oct.', 'Frazier', and 'Acct.'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr. Robt. Martin's acct. for Merton Estate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed as a distinct header line. Description from gemini-flash is accurate ('Martin's' vs 'Hartin'). gpt-5-mini incorrectly combined this line with the following date range into a single row."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "from Mich. 1787 to Mich. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was correctly identified as a distinct sub-header by gemini-flash. gpt-5-mini incorrectly combined this with the preceding header line, resulting in this row being 'added' from gemini-flash's output."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Money Rent – 265.0.0.",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate (capital 'M' in 'Money' and distinct dash separator)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Loft Rent – 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description 'Loft Rent' from gemini-flash is clearly visible in the image, unlike gpt-5-mini's 'Con Rent', which gpt-5-mini noted as uncertain."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total of Years Rent 270.12.0.",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is visually more accurate (capital 'Y' in 'Years'). gemini-flash also performed an arithmetic check, noting consistency."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this header row, visually confirmed."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Land Tax – 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description separator from gemini-flash (a dash) is visually more accurate."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Leverett's Close – 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description 'Leverett's' from gemini-flash is a better match for the handwriting than gpt-5-mini's 'Leavitth', which noted uncertainty. Dash separator also from gemini-flash."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Repairs &c. House – 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description 'Repairs &c. House' from gemini-flash is a very good match for the script, including the '&c.'. gpt-5-mini's 'Rep. of Vic. House' was less accurate and noted as uncertain."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do. of Chancr. – 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description 'Do. of Chancr.' from gemini-flash is visually more accurate; 'Do.' for ditto is common, and 'Chancr.' matches the abbreviation better than gpt-5-mini's 'Chancel'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total of Deductions 48-12-4",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this total row and amounts, visually confirmed. gemini-flash's note regarding the apparent arithmetic discrepancy (manual sum is 48-13-2, while the ledger states 48-12-4) in the original ledger is valuable, but the extracted values correctly match what is written."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Remains clear for the Year's Rent",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. Description from gemini-flash is preferred as it separates the descriptive text from the columnar amount, which is standard practice when the amount is in its own columns. Visually, the text description is clearly linked to the amount columns via a curly brace. gemini-flash also performed an arithmetic consistency check."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus and visually confirmed. The fraction is clearly '½' (0.5). Description is empty as there is no descriptive text for this final total in the ledger itself. gemini-flash's empty description is more appropriate than gpt-5-mini's inclusion of amounts in the description for a columnar entry."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 25,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

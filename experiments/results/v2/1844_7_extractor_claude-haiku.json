@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computers D^n Rectoris L. Pickards a 2^d die Novemb. A^o 1749 ad Cundem diem Novembris 1750",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Title/header block with date information. Legible handwriting. No monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arreagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clear handwriting. Introduces 'Arrears Received' section. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subsection header. Clear script. Introduces list of rents below. No amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear Rectory 1 yr",
+      "amount_pounds": "",
+      "amount_shillings": 60,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount appears as '60' in right margin. Interpreted as shillings based on column position. Slightly unclear if this is a single-amount entry or part of a group, but format suggests it is a discrete entry. Handwriting is legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kidlington D^o 1s 1 yn",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '10' in right margin. Legible but abbreviations in text require interpretation. Shillings column assignment is clear from alignment."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "D^o Cotsas & Draxla D^o",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clearly readable entry with '1 7 6' aligned to three columns. Text shows abbreviations but amounts are unambiguous. All values within valid range (1£, 7s, 6d)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Led Lane aka Norm 1 yn",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '9 6 8' clearly aligned to three columns. Slight handwriting irregularity in 'Led' but amount columns are clear. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Haslin 1 yr hd^m",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount reads '6 13 4'. Shillings value 13 is within valid range (0-19). Pence digit slightly unclear due to ink quality but appears to be '4'. Column alignment is consistent with surrounding rows."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pishford 1 s",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '1 19 4' aligned to columns. Shillings value 19 is at the upper limit but valid (0-19). Handwriting is legible. All values in acceptable range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rederburn 1 s y",
+      "amount_pounds": 26,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '26 13 4' clearly visible. Handwriting is legible. All values in valid range. Column alignment is consistent."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew Coleman Wick Bucks 1 s",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '1 6 1' in right margin. Text is longer but clearly describes entry. Amounts are aligned and legible. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Aymath 1 s yn",
+      "amount_pounds": "",
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '7 6' appears in right margin (shillings and pence only, no pounds). Legible handwriting. This may be a sub-item in a group with pence-only notation."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Barker Sacramentos 1 s yn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No amounts visible on this row. Appears to be a sub-item or placeholder within a larger grouping. Text is legible but indicates a section separator before 'Redeemed Land Txe'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Redeemed Land Txe",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subsection header. Clear underline and formatting. Introduces new group of redeemed land entries. No amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Kidlington Rectory 1 s yn",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '11 2 9' clearly aligned to columns. Legible handwriting. All values in valid range. Strong column alignment."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Long Witchalam Rectory 1 s yn",
+      "amount_pounds": 28,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Only '28' visible clearly in pounds column. Shillings and pence columns appear blank or may contain very faint ink. Moderately unclear if amounts were omitted intentionally or due to image quality. Assigned to pounds based on position."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Gaunden Rectory 1 s",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Only '14' visible in pounds column. Shillings and pence columns appear blank. Similar to row 16, amount appears incomplete but entry is legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subsection header. Clear formatting. Introduces 'Mixed Rents Variable' category. No amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Annualition 1 s yn",
+      "amount_pounds": 91,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '91 2 6' clearly visible and aligned. Handwriting is legible. All values in valid range. Strong column definition."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Long Witchham Rectory 1 s yn",
+      "amount_pounds": 102,
+      "amount_shillings": 7,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount appears to be '102 7' with pence column unclear. Handwriting shows 's' notation but pence digit is faint or smeared. Likely pence is present but difficult to read. Assigned as empty pence based on illegibility."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jno Newsham Rectory 1 s",
+      "amount_pounds": 11,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Amount '11 11 4½' with half-penny symbol visible after pence. Shillings at 11 is valid. The '½' or 'ob' notation is present and clearly indicates 0.5 fraction. Handwriting is legible overall."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "D^o Testament 1 s yn",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '7 10 2' clearly aligned. Abbreviation 'D^o' is standard. All values in valid range. Handwriting is legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Horton Rectory 1 s ld dedacted",
+      "amount_pounds": 238,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '238 15 10' clearly visible. Text includes 'ld dedacted' (possibly 'deducted' with scribal variation). All amounts in valid range. Column alignment is clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Gaunden Rectory 1 s yn",
+      "amount_pounds": 44,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '44 9 4' clearly aligned and legible. All values in valid range. Strong handwriting quality on both text and numerals."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "[Summa/Total line]",
+      "amount_pounds": 806,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Final total line: '806 17 11½'. Clearly marked with underline. All values in valid range (17 shillings ≤ 19, 11 pence + ½ ≤ 12). The half-penny fraction is clearly visible. This is the calculated sum of all entries above."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

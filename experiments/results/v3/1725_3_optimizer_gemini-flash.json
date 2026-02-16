@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Bottom two-thirds of the page (below row 12) is severely faded, making extraction of any further distinct entries impossible.",
+    "Significant ink bleed from the reverse side is present, particularly in the faded bottom sections, further obscuring any potential content.",
+    "The page is slightly tilted clockwise (approximately 2-3 degrees).",
+    "The vertical ruling lines for the £ / s / d columns are very faint across the entire page."
+  ],
+  "estimated_row_count": 15,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines are extremely faint. The final total row (row 15, '210 02 : 06q') provides the clearest visual separation for the pounds, shillings, and pence columns. Use this row as a reliable reference to establish the precise column boundaries and project them to all preceding rows. The line separating the description from the pounds column is also faint but discernible.",
+  "prompt_additions": "CRITICAL: The bottom two-thirds of the page (below row 12) is unreadable due to severe fading and ink bleed from the reverse. Extractors should consider the visible data effectively ending at row 15 (the Total row), with no further distinct entries to extract below this point. CRITICAL: The vertical ruling lines for the amount columns are very faint. Extractors MUST use row 15 (the '210 02 : 06q' Total row) as the primary reference to accurately determine the exact pixel positions for the pounds, shillings, and pence column boundaries, and apply these positions consistently to all rows above it. Pay close attention to the '4' values in the pounds column for rows 5 ('Backgate {B.Coy -') and 6 ('{Boyce -'). These '4's are struck through with a vertical line, indicating a deletion or correction. Transcribe the value '4' but flag it as a struck-through entry. Rows 5, 6, and 11 ('Act Suppor') have a long dash '-' in place of an amount; interpret this as zero or an empty value. Row 12 ('Con of Library') includes a superscript 'of' that should be transcribed as part of the description. Due to the slight clockwise tilt of the page, text may appear to drift horizontally; rely on the precisely established vertical column boundaries over visual spacing.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "The page has some general fading, making portions of the text and ruling lines less distinct.",
+    "Row 10 ('Chace Hill') has a dark smudge over the word 'Hill' which might affect readability.",
+    "The amount for the first entry ('Recepha Anni presentis', Row 1) is slightly obscured by faint ink bleed from the reverse side.",
+    "Minor physical damage/creasing is present at the bottom-left corner of the page, though it does not obscure text relevant for extraction."
+  ],
+  "estimated_row_count": 36,
+  "layout_type": "standard",
+  "layout_hints": "The three vertical ruling lines separating the £ / s / d columns are faint, particularly in the upper and middle sections of the page. The ruling lines are clearer and more distinct towards the bottom. The 'Total' row (Row 36) provides excellent alignment reference for column boundaries.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for £, s, and d are faint to invisible across the top and middle sections of the page. Use the clear alignment of the 'Total' row (Row 36) (36.7.9) as your primary reference point to establish and project the precise column boundaries for £, s, and d for all rows above. Pay close attention to the pence column, as its left boundary is often the most indistinct.\n\nRow 10 ('Chace Hill') has a dark smudge over 'Hill'. Extract the text as best as possible, noting potential readability issues.\n\nRows 31 ('Pintinhill } Raper') and 32 ('Hopkins') represent a single logical entry spanning two visual lines, indicated by a vertical bracket on the left. The 'Raper' value applies to both 'Pintinhill' and 'Hopkins'. When extracting, combine these into one logical description field, e.g., 'Pintinhill & Hopkins (Raper)'.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 34,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Computus Dni Rectoris a 2do Die Novri 1814"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "ad eundem diem revolutum – 1815"
+      },
+      {
+        "row_index": 3,
+        "row_type": "header",
+        "description": "Arrearagia recepta –"
+      },
+      {
+        "row_index": 4,
+        "row_type": "header",
+        "description": "Money kept fixed."
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Gyncar Rectory 2 Yrs½. P.T.D"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "+ Menherniot 2 Yrs"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Little Lew"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Banwell"
+      },
+      {
+        "row_index": 9,
+        "row_type": "header",
+        "description": "Land Tax Redeemed"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Kidlington Rectory"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Do Vicarage"
+      },
+      {
+        "row_index": 12,
+        "row_type": "header",
+        "description": "Fixed Rents Variable"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "St Newington P.T.D"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Kidlington Mills Do 2 Years"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Garssington Clinkard"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Clifton Forry"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Bensingdon"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Trethenwin"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Taylor Little Lew"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Phase 2 Years"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Gibbons Do"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Hartley Do"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Kimber Do"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Busby Do"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Lad Lane Comyns"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Do Wilson"
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Do Pickford"
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "Medenham"
+      },
+      {
+        "row_index": 29,
+        "row_type": "total",
+        "description": "613.19.1"
+      },
+      {
+        "row_index": 30,
+        "row_type": "header",
+        "description": "Recepta Anni praesentis"
+      },
+      {
+        "row_index": 31,
+        "row_type": "header",
+        "description": "Received of Bankers"
+      },
+      {
+        "row_index": 32,
+        "row_type": "entry",
+        "description": "Dividend on 1421. 1. 0"
+      },
+      {
+        "row_index": 33,
+        "row_type": "entry",
+        "description": "Do"
+      },
+      {
+        "row_index": 34,
+        "row_type": "total",
+        "description": "38.7.4"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

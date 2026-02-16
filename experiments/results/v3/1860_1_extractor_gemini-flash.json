@@ -1,0 +1,274 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts expected for a year header. Layout is standard."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris a. D. 1859 ad eundem diem revolution d. D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of the Latin title. 'revolution' could potentially be 'revolutum' but 'revolution' is a plausible 19th-century spelling or abbreviation. No monetary amounts expected for a page title."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section header. No monetary amounts expected."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Instment on Loan",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description. Amount is 10 shillings, no pounds or pence. Column alignment is clear relative to the total row reference."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Andrews 4.50. on do.",
+      "amount_pounds": "",
+      "amount_shillings": 30,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. Amount is 30 shillings. This value is outside the valid range for shillings (0-19). This indicates a potential misinterpretation of 30 shillings, which should be £1 10s 0d. However, as per instructions, I extract what is *seen*. The value is written clearly as '30' in the shillings column. I am extracting '30' as seen. The instruction implies that if I extract shillings >= 20, I have misread the column boundaries. I have re-checked the column boundaries using the reference row 26, and the '30' falls squarely within the shillings column based on this alignment. Therefore, the ledger entry itself seems to record '30' in shillings, implying it's not converted to pounds at this point. No pounds or pence recorded for this row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushey Divs",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous using the reference row. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Colby Burrows Increm: Domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range. Shillings appear as '0'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Divs on S. Jones Consols to Mich 58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "New Building Fund. Act (Cons)",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. 'Act (Cons)' is a best interpretation of 'Aut Closs'. Amounts are clear. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Late Building Fund - not carried to B. F.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. 'B. F.' is a best interpretation of 'Bt Fr'. Amounts are clear, with no pence. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Sr. Richards Divinity Prize",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount is 10 shillings, no pounds or pence. Column alignment is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ryse Rent Mis Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sixteen per Cent on Rents",
+      "amount_pounds": 733,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Composition to Colleg. by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range. No pence recorded."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rents.",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. 'Do' is an abbreviation for 'ditto'. Amounts are clear, with no pence. Vertical lines and alignment are unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Kater from Caution Fund - Interest £30 Interest £4.5d",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Combined description from visual rows 19 and 20 as per instructions. The brace and sub-details 'Interest £30' and 'Interest £4.5d' are interpreted as part of the description explaining the 'Caution Fund' repayment, not separate monetary values. The main amount '37 4 5' is clearly aligned. Pence digit '5' is clear. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Due Repayment from Choir Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. Amount is 9 pence, no pounds or shillings. The '9' is slightly to the left of the typical pence alignment but definitively not in shillings, suggesting a slightly offset pence entry or it could be a small fraction of a shilling (e.g., 9d). Given column boundaries, 9 pence is the most plausible reading. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Doos. Consols Sale of Caution Fund",
+      "amount_pounds": 1910,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines and alignment are unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hammond keys",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount is 1 pence, no pounds or shillings. Column alignment is clear. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Allnutt repayment by Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount is 5 shillings, no pounds or pence. Column alignment is clear. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instrument (Choir)",
+      "amount_pounds": "",
+      "amount_shillings": 30,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. 'Instrument' is inferred from 'Instructed'. Amount is 30 shillings, no pounds or pence. Similar to row 5, '30' is clearly written in the shillings column. I have re-checked column boundaries using the reference row 26, and the '30' falls squarely within the shillings column based on this alignment. The value is extracted as seen despite being >= 20, as it indicates the ledger's recording style. No pounds or pence recorded for this row."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "TOTAL",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row serves as the definitive column alignment reference as per instructions. All digits are crystal clear. All values in valid range. The word 'TOTAL' is implied by the position and line above the amount."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

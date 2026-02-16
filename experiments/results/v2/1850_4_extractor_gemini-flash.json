@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Pauperiana. Brought over-",
+      "amount_pounds": 280,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Pauperiana' is a best interpretation due to old script; 'Brought over' is clear. Pence value is indicated by a V-like flourish, interpreted as 0 for consistency with ledger amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gas Lights. Due. to Dec. 1850",
+      "amount_pounds": 27,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "By Falconer 12½ Int. on £247.14.2, 3½ Cents to July 1850",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear, including '12½' and '3½' as part of the textual explanation. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Subscriptions &c. Infirmary",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds value '1' is slightly left-aligned compared to subsequent entries but clearly belongs to this row. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Grey Coat School",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "St. Giles Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Newington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Little Tew Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garston Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Merton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Garsington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "L. Wittenham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Gwinicar Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Gwinicar' is a best interpretation due to old script; 'Do' is clear. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Poor of Gwinicar",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Gwinicar' is a best interpretation consistent with the previous row. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Small Livings in Diocese of Oxon",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "University. Marshalls",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bele Ringer & Chapel Clerk",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Bele Ringer' is clear; 'Bele' rather than 'Bell'. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Corn Rents",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No pounds value, shillings and pence are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Easter Offering",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Parish Rates {for rates &c. 20:-:-} {Church Rate 1:13:4}",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main amount is clear. Bracketed text provides explanatory detail for the entry and is included in the description."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Synodals and Procurations",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "College Gardener",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row acts as a header for the subsequent quarterly entries, and has no amount itself."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "1st Quarter",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "4th Do",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Interest on Stubbs Deposit",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Initial letter of 'Stubbs' is ambiguous, could be 'G'. Interpreted as 'S' based on comparison with other letters. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Open Scholarships. Viz. Mr. Kempe.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Mr. Hilgrefs",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Hilgrefs' is a best interpretation; final 's' is slightly faded. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Mr. Coase",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clearly aligned and within valid ranges."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total indicated by large '£' and double underline. Numbers are clearly legible and well-aligned within their columns. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

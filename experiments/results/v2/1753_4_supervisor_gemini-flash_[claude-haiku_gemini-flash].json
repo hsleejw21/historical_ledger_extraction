@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors. Clearly a header with no associated monetary values."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid molineux Braziers Bill",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's reading of 'paid molineux Braziers Bill', 17 shillings, and 10 pence. claude-haiku misread the description and incorrectly placed '17' in pounds, '0' in shillings, and an empty pence column."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid mr Combos Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's reading of 'paid mr Combos Bill', 1 pound, 7 shillings, and 6 pence. claude-haiku misread the description and the monetary values, placing '10' in pounds and leaving shillings/pence empty."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's reading of 'Ladyday Corn Price', 1 shilling, and 0 pence. The pounds column is empty. claude-haiku misread the pence as '6' by incorrectly aligning with the subsequent row's amount."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for Flooring of Room over of new Bursary",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts (10 shillings, 0 pence). The pounds column is empty. claude-haiku significantly misread the description and extracted incorrect amounts (7 shillings, 6 pence)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid mr Collins in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts (21 pounds, 10 shillings, 0 pence). claude-haiku significantly misread the description and missed the pounds value entirely."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Do for lighting of Winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts (1 pound, 3 shillings, 0 pence). claude-haiku misread the description and the pounds value as '21'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook Acct Dinner & xmas Gaudies",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms that no monetary amounts are present for this row. gemini-flash correctly identified this. claude-haiku incorrectly extracted 1 pound and 4 shillings, likely due to misalignment."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury Chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts (210 pounds, 15 shillings, 4 pence). gemini-flash's note regarding the conversion of '200 Guineas' to '£210' adds significant contextual confidence. claude-haiku significantly misread the description and extracted incorrect amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no monetary amounts are present for this row. gemini-flash correctly identified this. claude-haiku incorrectly extracted 1 shilling and 0 pence, likely due to misalignment with the next entry."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid mr Hornor for Battle Books, Ink & Paper",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1 shilling, 0 pence) are consistent across both extractors. Visual verification for the description confirms gemini-flash's 'Hornor' and 'Battle' over claude-haiku's 'Horner' and 'Bottle'. The pounds column is empty."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, Mops &c.",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's reading of 'Mops' in the description and 4 pence. claude-haiku misread 'Mops' as 'money' and the pence as '6'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for amounts and description for this subtotal line."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description 'Ditto' and amounts (73 pounds, 19 shillings, 9 pence). claude-haiku misread the description as 'Deductio' and extracted incorrect pounds (23) and pence (2)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 522,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "claude-haiku was disqualified by the Hard Rule Filter for `amount_pence_whole` (24, exceeding 11). Visual verification confirms gemini-flash's reading of 522 pounds, 10 shillings, 2 pence, and a 0.5 fraction (clearly visible 'ob' symbol after the '2'). The description column is empty for this row."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "claude-haiku was disqualified by the Hard Rule Filter for `amount_pence_whole` (16, exceeding 11). Visual verification confirms gemini-flash's reading of 'Summa totalis solutorum' and amounts (874 pounds, 17 shillings, 10 pence)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ex Receptis que erant a Dno Anni præcedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "claude-haiku was disqualified by the Hard Rule Filter for `amount_pence_whole` (16, exceeding 11) and also incorrectly identified the `row_type` as 'header'. Visual verification confirms gemini-flash's reading of 1043 pounds, 1 shilling, 10 pence, and a 0.5 fraction ('ob' symbol). gemini-flash's description for 'Dno' is also more accurate."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Deductis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description 'Deductis Solutis' and amounts. The amount matches the 'Summa totalis solutorum' (Row 16), which makes contextual sense. claude-haiku misread the pounds value as '824'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Restant Solv. a Dno Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts (168 pounds, 4 shillings, 9 pence). claude-haiku misread the shillings value as '9'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Computus approbatus per præsentes viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and row type. claude-haiku incorrectly merged this header line with several subsequent individual approver names into one long description for this row, failing to segment the distinct entries."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jacobum Coperat Sub. Rectorom",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Thomas Bray Decano",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. Fortescu A. J.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "J. Jonell A. M:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Benj<m> Kennicott A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "H. Mouinsteven A. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractor gemini-flash correctly identified this distinct approver name row from the image. claude-haiku incorrectly merged this line into its prior header description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 6,
+      "rows_dropped_extra": 0
+    }
+  }
+}

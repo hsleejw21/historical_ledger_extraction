@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear title heading. No amounts present. Structural label introducing the section."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Novr. Mr. William Seiriett's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Date, name, and description legible. Amounts perfectly aligned with column boundaries: 10|0|0. All values within valid range."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bawden's Do.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text. 'Do.' = ditto/same as previous (Plate Money). Amount 10|0|0 clearly aligned with column boundaries."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "oft the Revd. Mr. Cale St. K.D. oft Bonfaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 110|0|0 is clear and well-aligned. Description text is somewhat compressed and handwriting is variable in quality, but all key words are readable. 110 pounds is unusually large but within plausible range for clergy collections."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Summen't due at Midspr. Cov. from the Parrott",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Amounts 61|5|2½ are clearly aligned. Shillings 5 and pence 2 are well within valid ranges. Fraction symbol after pence appears to be 'ob' (half-penny), interpreted as 0.5. Minor ink variation on the '6' in pounds but reading is certain."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "of Mr. Oersley Esq. Mrs. East fold. Ketcham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 175|0|0 is clearly aligned and legible. Description text has some abbreviated/compressed handwriting but is readable. All currency values within valid range. High confidence on numerics."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Jno. Geo. King & Mrs. Ben Cogging's Attorney",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 20|0|0 is clear and well-aligned. Description combines multiple names/titles but is fully legible. All values valid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mr. Jno. Lourdes's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 10|0|0 perfectly aligned. Description is straightforward 'Plate Money' entry. All values within valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "of Mr. Clarke, St. H. Bougles 2d. Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 110|0|0 is clearly aligned. Description mentions '2d' (second payment/installment). Text is legible though handwriting is somewhat compressed. Large pound amount is plausible in context."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "of Mr. Browne's Agent of Asquets Stephens's Trowmill",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 12|0|0 is well-aligned. Description is somewhat compressed and 'Trowmill' is unclear, but the numerical amounts are certain. All values valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Browles 2d Payment for Wittencham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 175|0|0 is clear and well-aligned. Text is legible. '2d Payment' matches pattern of installments seen elsewhere. All values within valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "of Mr. Demain Bray, Senr. to be Recd.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 12|0|0 is clear. 'to be Recd.' = to be received (anticipated payment). Description is legible though 'Demain' spelling is uncertain. Amounts well-aligned with boundaries."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "of Mr. Vivian Corrs. Herein. & this'd 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount 103|16|4½ is clearly aligned. Shillings 16 and pence 4 are within valid ranges. Fraction appears to be 'ob' (half-penny = 0.5). Handwriting is slightly compressed on description but numerics are certain. Date 1789 matches document era."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "quarter paid of Mr. Smithcrafte's Rent forfeited sale",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 26|0|0 is clear and well-aligned. Text is legible though 'Smithcrafte's' spelling is reconstructed. Description indicates a quarterly rent payment that was forfeited. All values valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Simonds Corr. herein. for year 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Amount 23|17|4½ is clearly aligned. Shillings 17 and pence 4 are within valid ranges. Fraction symbol appears to be 'ob' (0.5). Text is legible. Year 1788 dates this entry."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "oct.30. of G. Alane, Jameer, for old Iron & Heat",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 13|14|0 is clear and well-aligned. Date 'oct.30' (October 30) is legible. Shillings 14 is within valid range (0-19). Description appears to be for sale of scrap iron and heat-related materials."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr. Ralpth McKboe's Acct for Monton Estate from Mich. 1787 to Mich. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Section header introducing a new account. Text is legible but names are handwritten and may have transcription variations ('McKboe' spelling is uncertain). No amounts present. Dates 1787-1788 establish time period."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Money Rent - 262.0.0.",
+      "amount_pounds": 262,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry with amount written out as '262.0.0.' format. All values within valid range. Description is straightforward 'Money Rent'. This represents annual rent income."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Land Rent - 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry in '05.12.0.' format. Description is straightforward 'Land Rent'. All values within valid range. The '05' is clearly meant to be 5 pounds."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "ttell Affaris Rent - 270.12.0.",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Total/subtotal line marked as 'ttell Affaris Rent' (likely 'total Affairs Rent' with scribal abbreviation). Amount 270|12|0 is the sum of 262+5 = 267 pounds, plus 0+12 = 12 shillings. Clear alignment and format. Shillings within valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Structural section header introducing deductions. No amounts present. Clear text indicating this is a new category of items."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Land Tax - 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry in dash-separated format '34-7-0'. Description 'Land Tax' is straightforward. All values within valid range (shillings 7, pence 0). This is a known governmental tax."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Levescitt Clore - 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount 6|10|10 is in dash-separated format. All values are within valid range (shillings 10, pence 10 both acceptable). Description 'Levescitt Clore' is uncertain—may be a person's name or place, handwriting is compressed. Numerics are certain."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Rep. of Me. Borye - 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 7|6|7 is clear. 'Rep.' likely stands for 'Repair' and 'Me. Borye' is a name or location (spelling uncertain). All currency values within valid range. Numerics well-aligned."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Dd. of Porrcarl - 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount 0|8|9 is in dash-separated format. All values within valid range (shillings 8, pence 9 acceptable). Description 'Dd. of Porrcarl' is uncertain—'Dd.' may be 'Paid' or abbreviated term, 'Porrcarl' spelling is unclear. Numerics are well-aligned and certain."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Total Deduction 48-12-4 Remains clarge? forthears Rent",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This is a total/subtotal row. Amount 48|12|4 is the sum of deductions (34+6+7+0 = 47 pounds, 7+10+6+8 = 31 shillings = 1 pound 11 shillings, adding pence: 0+10+7+9 = 26 pence = 2 shillings 2 pence; total approximately 48-12-4). The phrase 'Remains clarge? forthears Rent' (likely 'Remains charged for years Rent') is partially unclear but overall structure is sound."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "[Final balance carried forward]",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Bottom of page shows final balance/total: 1094|12|7½. This appears to be the net amount or balance carried forward to next account. Large pound value is plausible as final aggregate. Shillings 12 and pence 7 within valid ranges. Fraction symbol appears to be 'ob' (0.5). Amount is clearly visible and aligned."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

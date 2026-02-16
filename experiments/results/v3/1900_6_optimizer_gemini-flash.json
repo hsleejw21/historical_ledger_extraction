@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "The vertical ruling lines for the currency columns (£/s/d) are quite faint across the entire page, especially the shillings and pence separators. This may make precise column boundary detection difficult for some rows.",
+    "A slight, almost imperceptible tilt (~1-2 degrees counter-clockwise) is present, which could cause text to drift minimally across column boundaries if not corrected."
+  ],
+  "estimated_row_count": 25,
+  "layout_type": "standard",
+  "layout_hints": "The page displays a single listing of assets with hierarchical subtotals and a grand total. It uses 'inner' and 'outer' sets of pounds, shillings, and pence columns. The final total row (row 25, '£16002 15 7') and the subtotal rows (row 13, '484 3 7'; row 17, '54 1 7 6') provide the clearest visual alignment for their respective currency columns. Use these as reference points for projecting column boundaries across the entire page.",
+  "prompt_additions": "CRITICAL: The page utilizes two distinct sets of currency columns: an 'inner' set (typically closer to the description) and an 'outer' set (further to the right, used for subtotals and some final values). \n\n1.  For rows 3 ('Cash at Bankers'), 5 ('Furniture'), 8 ('Rent of Lands'), 9 ('Richer'), 10 ('Houses on long Leases'), 11 ('Leaseholds'), 12 ('Senior Common Room'), 15 ('Michell'), and 16 ('Lorcombie Richards Fund'), extract amounts from the 'inner' set of £ s d columns.\n2.  For row 4 ('Liching Account') and row 6 ('Investments'), extract the first set of amounts from the 'inner' columns, and also extract the *second* set of amounts ('5952 . 4' for row 4, '9571 14 2' for row 6) from the 'outer' £ s d columns.\n3.  The subtotals (row 13, '484 3 7' and row 17, '54 1 7 6') and the grand total (row 25, '£16002 15 7') should be extracted from the 'outer' £ s d columns. These subtotal/total amounts appear on lines *below* the items they sum.\n4.  The vertical ruling lines are faint. Rely on consistent visual spacing and the clear alignment in the reference total rows (row 13, 17, and 25) to infer the precise column boundaries for pounds, shillings, and pence, rather than strictly following faint line detections.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

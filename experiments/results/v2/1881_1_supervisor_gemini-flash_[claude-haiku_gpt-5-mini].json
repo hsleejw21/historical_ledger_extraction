@@ -1,0 +1,382 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree and visually confirmed as a clear year header. (Consensus)"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for description 'Domus Receipts' as it matches the image better than claude-haiku's 'Dornies Receipts'. Visually confirmed. (Visual override)"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 percent on Estates. Supp Divd 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini for all values. Visual verification confirms '66.13.6' with a '3q' or similar mark for 0.75. claude-haiku's reading of the amount and part of the description was incorrect. (Visual override)"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do Do. Divd 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini for all values. Visual verification confirms '373.8.6' with a '3q' or similar mark for 0.75. claude-haiku completely misidentified this row's description and values, likely due to row alignment issues. (Visual override)"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per cent on Room Rent",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for all values. Visual verification confirms '234.8.6'. claude-haiku misidentified this row. (Visual override)"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushey Divd.",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for all values. Visual verification confirms '7.4.6'. claude-haiku misidentified this row. (Visual override)"
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Masters Composition",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms this is a header row with no associated amount. claude-haiku incorrectly extracted a total and description from an unrelated part of the page or hallucinated. (Visual override)"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do 1",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Do Do 1' and amounts '22.3.0'. The other annotations (Domus/Local Rate) are not the primary ledger entry for this row. claude-haiku completely misidentified this row's description and values. (Visual override)"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do. Do 2",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Overriding both extractors. Visual verification shows description 'Do Do 2'. The amount aligned with '2' is '9.1.0' (from 'Domus 9.1.0' annotation). gpt-5-mini incorrectly read '11.8.6' and claude-haiku misidentified the description and amount. (Visual override)"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "3. Nil",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and type. Visual confirmation shows '3. Nil' with dashes in the amount columns, indicating no value. claude-haiku misidentified this row. (Visual override)"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms st Helens",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '3.0.0'. claude-haiku incorrectly combined this description with the next row and misread the amount. (Visual override)"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickerson. Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gpt-5-mini. This row is clearly visible in the image with amounts '43.0.0'. claude-haiku missed this as a separate row, incorporating its description into the previous entry. (Added missing row)"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Int on £57.10 at 3 per ct 1:14:4 by Acton",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '1.14.4'. claude-haiku misread the amount. (Visual override)"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Repayment of Capitale",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '2.10.0'. claude-haiku misread the amount and was inconsistent in its interpretation of the embedded amount. (Visual override)"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Int on £100 at 4 per cent Augt 18-1880 by Do",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '4.0.0'. claude-haiku misread the pounds amount. (Visual override)"
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Int on £150 at Do to April 1.1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on the amount '6.0.0'. gpt-5-mini's description 'Int on' is slightly more accurate than claude-haiku's 'Jnt on'. (Consensus on value, Note assessment for description)"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Late Readers Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '13.2.10' with no fraction. claude-haiku misread the amounts and incorrectly added a fraction. (Visual override)"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Int for one yr. to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '15.0.0' are agreed by both. Selected gpt-5-mini's description as 'Domus for £500 by Bursar' is visually more accurate than claude-haiku's. (Note assessment)"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Room Rent mostly &c of",
+      "amount_pounds": 14,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for description and amounts. Visual verification confirms '14.4.3'. claude-haiku misidentified this row's description and values. (Visual override)"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '10.0.0' are identical. Selected gpt-5-mini's description as 'Boase Register' is visually more accurate than claude-haiku's 'House Register'. (Note assessment)"
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "July 14",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gpt-5-mini (adjusted description for full visual match). This is clearly a marginal header. claude-haiku completely missed this row and started extracting the next entry. (Added missing row)"
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortlands",
+      "amount_pounds": 122,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '122.15.0' are identical. Selected gpt-5-mini's description as 'Shortlands' is visually more accurate than claude-haiku's 'Shortrid'. (Note assessment)"
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do Do Richards",
+      "amount_pounds": 93,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '93.3.4' are identical. Selected gpt-5-mini's description as 'Richards' is visually more accurate than claude-haiku's 'Rathaisid'. (Note assessment)"
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do Do Trukell",
+      "amount_pounds": 46,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '46.19.8' are identical. Selected gpt-5-mini's description as 'Trukell' is slightly more visually accurate than claude-haiku's 'Yuckell'. (Note assessment)"
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Stock of the three funds sold",
+      "amount_pounds": 607,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Overriding gpt-5-mini for the pounds amount, which should be '607' not '6067'. The description and other amount parts are from gpt-5-mini. claude-haiku completely misidentified this row's description and values. (Visual override)"
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Canal Shares sold",
+      "amount_pounds": 347,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and amounts. Visual verification confirms '347.4.0'. claude-haiku misidentified this row as a total and provided incorrect values. (Visual override)"
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Subtotal",
+      "amount_pounds": 2277,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Extracted from gpt-5-mini. Visual confirmation of the subtotal '2277.19.4'. claude-haiku missed this row. (Added missing row)"
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "July 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gpt-5-mini. Visual confirmation shows this as a marginal header. claude-haiku missed this row. (Added missing row)"
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "St Johns College for Witham Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '10.0.0' are identical. Overriding both for description. Visual verification reads 'St Johns College for Witham Road'. (Visual override)"
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Hammond. Bursar allowed to Soden",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '25.0.0' are identical. Selected gpt-5-mini's description as 'Hammond. Bursar allowed to Soden' is visually more accurate than claude-haiku's. (Note assessment)"
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for description, type, and amounts. Visual verification confirms 'Boase Register' with amount '2.0.0'. claude-haiku misidentified the description, type, and missed the amount. (Visual override)"
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clutterbuck for Witham Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for description and amounts. Visual verification confirms '10.0.0'. claude-haiku misread the pounds amount. (Visual override)"
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Grand Total",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Overriding both for description. For amounts and fraction, selected gpt-5-mini. Visual verification confirms '3390.0.4' with a clear 'ob' mark (0.5 fraction). claude-haiku misread the pounds amount and missed the fraction. (Visual override)"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 4,
+      "rows_by_visual_override": 23,
+      "rows_added_missing": 4,
+      "rows_dropped_extra": 0
+    }
+  }
+}

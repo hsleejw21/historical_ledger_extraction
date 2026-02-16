@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "Right edge of the page shows signs of wear and minor tears, particularly visible in the middle and bottom sections.",
+    "Top right corner of the page has discoloration which slightly impacts the clarity of the uppermost ruling lines."
+  ],
+  "estimated_row_count": 35,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines separating the £, s, and d columns are present but are very faint and intermittent, especially for the shillings and pence columns in the middle sections of the page (approximately rows 10-25). The outermost (pounds) ruling line is slightly clearer. Horizontal ruling for total lines is clear.",
+  "prompt_additions": "CRITICAL: The vertical alignment of amounts can be challenging due to the very faint ruling lines. Extractors MUST use the distinct vertical alignment of the final total amounts as a primary reference: '613.19.1' (Row 31) and '38.7.4' (Row 35). Precisely identify the column boundaries for pounds, shillings, and pence in these clear total rows and project these positions upwards to guide extraction for all preceding entries. If a value visually appears misaligned, trust the projected column boundaries over superficial visual spacing.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

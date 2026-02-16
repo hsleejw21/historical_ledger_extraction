@@ -1,0 +1,373 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris a 2º Die Novri 1814",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page title header, no monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "ad eundem revolutum - 1815",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Continuation of the page title header, no monetary amounts expected."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header, no monetary amounts expected."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Money Rects fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Sub-section header, no monetary amounts expected."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwincas Rectory 2 Yrs. P.T.J.",
+      "amount_pounds": 135,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds amount '135' is unambiguous. Dashes in shillings and pence columns interpreted as zero."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "+ Menhermot 2 Yrs Go",
+      "amount_pounds": 136,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds amount '136' is unambiguous. Dashes in shillings and pence columns interpreted as zero."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description. No amounts visible for this row; it appears to be an indented sub-item or continuation without its own monetary value."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Banwell",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount '10' is clearly aligned in the shillings column. Dash in pence column interpreted as zero. No pound figure is present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Land Tax Redeemed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header, no monetary amounts expected."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kidlington Rectory",
+      "amount_pounds": 4,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do Vicassage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description. No amounts visible for this row; it appears to be an indented sub-item or continuation without its own monetary value."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Fixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Fixed' is very faint and appears to be crossed out or an error, but still legible. Contextually a header."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "St Newington P.T.J.",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kidlington Hills Do 2 Years",
+      "amount_pounds": 42,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Fraction '½' for half-penny is clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Garsington Linkard",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in shillings column interpreted as zero."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Trehkenin",
+      "amount_pounds": 44,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Taylor Little Tew 3 Years",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Phage Do",
+      "amount_pounds": 18,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Gibbons Do",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hartley Do",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Pence digit is a clear '0' (zero), commonly written as a small circle or oval in historical script."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Kimber Do",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Busby Do",
+      "amount_pounds": 36,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Fraction '½' for half-penny is clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Lad Lane Comyns",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do Wilson",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dashes in shillings and pence columns interpreted as zero."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Do Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dash in pence column interpreted as zero."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Dashes in shillings and pence columns interpreted as zero."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Recepta Anni presentis",
+      "amount_pounds": 613,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Critical reference total as per page-specific guidance. Description and amounts are perfectly clear. Column alignment unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "Received of Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header, no monetary amounts expected."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Dividend for 1421.1.0",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. Description includes a numeric reference that is not the monetary amount for this entry."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Do Do",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts and column alignment are unambiguous. 'Do Do' indicates ditto for the previous entry's description."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Critical reference total as per page-specific guidance. No description text present. Amounts are perfectly clear. Column alignment unambiguous. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

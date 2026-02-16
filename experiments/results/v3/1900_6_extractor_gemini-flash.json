@@ -1,0 +1,285 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1900",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title and year."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 5716,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Liching Account",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "First set of amounts clear from inner columns. Vertical lines unambiguous. All values in valid range. 'L.CS' prefix is clear. Second amount for this row is handled separately based on guidance."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Liching Account (Outer Column Total)",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second amount for Liching Account. Pounds '5952' is clear. '. 4' is interpreted as 0 shillings and 4 pence, with the dot representing an empty shillings position based on column alignment and common ledger practice. The '4' is clearly in the pence column position relative to other outer column amounts. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. '3000 .' indicates zero shillings and pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6011,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "First set of amounts clear from inner columns. Vertical lines unambiguous. All values in valid range. Second amount for this row is handled separately based on guidance."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Investments (Outer Column Total)",
+      "amount_pounds": 9571,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second amount for Investments. Clear reading from outer columns. Vertical lines unambiguous based on overall alignment. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 13,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. '13 4 .' indicates zero pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Richer",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. Vertical lines unambiguous. All values in valid range. Description could be 'Fither' but 'Richer' seems more likely given the script."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Houses on long Leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. '1 15 .' indicates zero pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. '70 .' indicates zero shillings and pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Subtotal",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from outer columns. This row is a subtotal for the preceding items. Vertical lines unambiguous and used as a reference for column alignment. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "How Exhibition Funds",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Michell",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. '16 14 .' indicates zero pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lorcombie Richards Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading from inner columns. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Subtotal",
+      "amount_pounds": 54,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Clear reading for pounds '54', shillings '1', pence '7' from outer columns, aligned with preceding totals. A '6' is clearly present immediately after the '7' in the pence column, but it does not correspond to a standard fraction (0.25, 0.5, 0.75) and cannot be interpreted as part of the whole pence value without exceeding 11. It's not a standard fractional notation for 1/2 or 3/4. The '6' is noted but not assigned to 'amount_pence_fraction'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "I certify that the accounts of the College are duly kept in proper books of account & that the Abstracts and Balance Sheet contain a full & true account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Certification statement. Handwriting is clear but long. No monetary amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "March 8, 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date of certification. No monetary amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "W.C. JACKSON F.C.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Signature or name, appears to be an auditor's name. 'F.C.A.' is clear. No monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "(Jackson, Pixley, Browning & Co.)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Firm name in parentheses. Handwriting is somewhat difficult to read but probable based on common firm structures. No monetary amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "16, King's Road, E.C.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Address line. '16, King's Road' is legible; 'E.C.' is clear. No monetary amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Grand Total",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear grand total from outer columns. '£' symbol is present. Vertical lines unambiguous and used as a reference for column alignment. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

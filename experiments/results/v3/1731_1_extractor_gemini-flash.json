@@ -1,0 +1,285 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybease Rectoris a 2do",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header. No monetary amounts. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are perfectly legible and within valid range. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are perfectly legible and within valid range. '9ob' clearly indicates 9 pence and a half-penny."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are perfectly legible and within valid range. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Newington Rect:",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are perfectly legible and within valid range. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cudlington Rect:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear but slightly affected by ink bleed from the reverse side. Amounts are perfectly legible and within valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chase-hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear but slightly affected by ink bleed from the reverse side. Amounts are perfectly legible and within valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite being covered by the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "The Suit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Suit' is somewhat ambiguous due to ink bleed, but 'The Rents' is clear. Amounts are legible despite the diagonal shadow; the shillings '3' could be a '5' but '3' is more consistent with spacing. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph Marshalls Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Ralph' is slightly faded due to ink bleed, but 'Marshalls Capons' is clear. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcott alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Calcott' is a plausible interpretation given the cursive and ink bleed. 'alias Lane' is clear. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Leaden-Hall' is a plausible reading given the cursive and ink bleed, though 'Saden-Hall' is also a possibility. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; '8ob' clearly indicates 8 pence and a half-penny. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Chilton Ffery",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear but affected by ink bleed. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Clear description. Amounts are legible despite the diagonal shadow; '11ob' clearly indicates 11 pence and a half-penny. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Trethewern",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "ad Lane, Sparkes et Meriton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'ad' is a plausible reading but could also be 'Md' or 'Mr' due to cursive style. 'Lane, Sparkes et Meriton' is clear. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Medingham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Medingham' is a plausible interpretation of the handwriting. Amounts are legible despite the diagonal shadow; all values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Burle Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. Amounts are legible despite the diagonal shadow; all values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

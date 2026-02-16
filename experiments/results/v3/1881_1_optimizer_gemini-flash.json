@@ -1,0 +1,17 @@
+{
+  "warnings": [
+    "The entire page is tilted approximately 3-5 degrees clockwise, which may affect perceived vertical alignment.",
+    "The vertical ruling lines separating the £, s, and d columns are faint, particularly in the middle section (rows 10-20).",
+    "Rows 8 and 9 contain handwritten text ('local Rent 17.3.0' and 'local Rent 13.18.6' respectively) that is clearly struck through/crossed out.",
+    "Margin notes ('July' and 'July 1') are present on the left side of the page near rows 19 and 26.",
+    "The top-right corner of the page is slightly torn.",
+    "The bottom-left corner of the page is partially obscured by fingers holding it, though this does not impact ledger entries."
+  ],
+  "estimated_row_count": 30,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for £, s, d are faint in the middle section but clearer at the very top and at the bottom 'Total' row. The page is tilted clockwise.",
+  "prompt_additions": "CRITICAL: The entire page is tilted approximately 3-5 degrees clockwise. Trust the underlying (faint) vertical ruling lines for column separation over visual spacing. The vertical ruling lines for £, s, and d are faint in rows 10-20. Use the final '3390 0 4' Total row (row 30) as a precise reference for column boundaries and project these positions upwards for all other rows. Rows 8 and 9 contain text that is intentionally struck through; transcribe this text, but mark these entries as 'struck_through'. Extract the margin notes 'July' (near row 19) and 'July 1' (near row 26) as separate annotations, not part of the main entry description. Some handwritten figures in the shillings and pence columns may be ambiguous (e.g., row 5 '8', row 8 '3'); scrutinize these carefully.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

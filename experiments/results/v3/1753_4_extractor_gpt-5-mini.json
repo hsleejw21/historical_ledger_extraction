@@ -1,0 +1,208 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Page title / section heading centered at top. Despite bleed-through across the top of the page the heading is legible and contains no amounts. Vertical ruling lines faint but not needed for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid Molineux Brazier's Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '17' and shillings '10' read clearly in the pounds/shillings columns after projecting column boundaries from lower clear totals. Pence position shows a dash/overlined zero (per page guidance) — interpreted as 0 pence. Moderate bleed-through but digits align well with column rules."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid mr Combs Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwriting and bleed make shillings/pence ambiguous. Pounds column shows a small '1' fairly clearly. The shillings glyph reads like '7' but could possibly be '1' or '0'; pence appears as a small loop resembling '6'. Chosen reading '1 7s 6d' based on alignment with ruling lines; confidence lowered for ambiguity."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Pounds column shows a clear '1'. The shillings column is faint and appears as '0' (or blank); pence looks like '7'. Bleed-through complicates the pence stroke; chosen '1 0s 7d' as best fit with column alignment."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for flooring of Room over ye new Bursary",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds read as '7' and shillings clearly as '10'. Pence shows a dash/overline (page guidance: read as 0). Bleed-through present but column alignment consistent with lower totals."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid Dav. Collin in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large, clear '21' in pounds column and '10' shillings visible; pence is a dash/0. This line is one of the clearest monetary lines on the page and was used to help verify column alignment."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Dod for lighting of Winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '1' readable. Shillings look like '3' though the top of the numeral is slightly faded by bleed-through. Pence shows dash/0. Chosen '1 3s 0d' based on alignment and stroke shapes."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook and Dinner & xmas Gaudies",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings read clearly as '15' and pence as '4'. Pounds appear as a small '1'. Although there is some bleed-through, the '15 4d' is distinct and within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury Chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This is the payment in for '200 Guineas' which conventionally equals 210 pounds; the pounds column clearly shows '210' and shillings '4' is visible. Pence is a dash/0. This row is one of the clearest anchors for column alignment."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Pounds column blank/zero; shillings appear as '1'. Pence column shows a dash/0. Small amount and some bleed makes the pounds column ambiguous (interpreted as 0)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid mr Horner for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Small amount; pounds column blank. Shillings read as '1' and pence faintly as '1' (could be 0 or 1). Chosen '0 1s 1d' as best reading from faint strokes and alignment with columns."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, mops &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '3', shillings '13' and pence '4' are relatively clear and consistent with the style of numerals used elsewhere on the page. Bleed-through minimal here compared with upper rows."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Subtotal labeled 'Soluta' with '278 7s 4d' clearly written in the right-hand columns. This line was used as part of the column alignment reference (rows 15-18 used for final refinement)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Ditto' subtotal line with '73 19s 2d'. Amounts are legible though there is slight bleed; validated to be within currency ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Primary page alignment reference per page guidance. 'Summa totalis solutorum' and the total '874 17s 10d' are very clear and used to fix the pounds/shillings/pence vertical boundaries for the rest of the page."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ex Receptis quae sunt ab Anni precedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Receipts brought forward from previous year. Pounds and shillings read as '1043 1s 10d' — digits are reasonably clear in lower part of page where bleed is minimal. Treated as an entry/receipt rather than a computed sum."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'Deductis Solutis' is a computed deduction and repeats the '874 17s 10d' figure from the 'Summa' line; clearly written and aligned. Classified as a total (deduction)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restant Solv. a Pro Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Balance carried forward / remainder. The figure '168 4s 9d' is readable in the lower-right group; small discrepancy with simple subtraction (see notes) is typical of carried computations in historic ledgers but the written digits themselves are clear. Classified as a total (computed remainder)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

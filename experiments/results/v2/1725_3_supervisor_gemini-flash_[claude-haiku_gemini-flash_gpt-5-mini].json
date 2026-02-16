@@ -1,0 +1,163 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Poethewin",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct description 'Poethewin' and accurate identification as a header with no associated amount, confirmed by visual verification. gpt-5-mini incorrectly associated amounts from a later line, and claude-haiku misread the description."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Morton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct description and identification as a header with no amount, confirmed by visual verification. gpt-5-mini misread the description. claude-haiku entirely missed this row and conflated its Row 2 with the image's Row 3."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "LaLane, Sparks, Moreton Ann",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and correct amount values (8, 16, 8) confirmed by visual inspection. gpt-5-mini correctly identified the presence of names but missed the amounts on this line. claude-haiku had significant errors in both description and amount, effectively misidentifying this entire row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Mordenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Combined best aspects: gpt-5-mini provided the most accurate description 'Mordenham fore'. gemini-flash correctly identified its 'header' row_type. Visual verification confirms both."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { B. Esq.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for exact transcription of description 'Backgate { B. Esq.' including the brace, and accurate amount values (4, 0, 0), confirmed by visual inspection. gpt-5-mini misread the brace and subsequent text. claude-haiku provided an entirely incorrect description for this row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash (and gpt-5-mini) for accurate description 'Boyce' and amount (4, 0, 0), confirmed by visual inspection. claude-haiku incorrectly added brackets to the description. This row showed consensus on amount and core description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Porty Fines p Modenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the most accurate description 'Porty Fines p Modenham' and correctly noting that this row forms part of a multi-line description for an amount on the subsequent row. gpt-5-mini misread 'Fines' as 'Ginny'. claude-haiku was incorrect."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holworthy from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the most accurate description 'of Mr. Holworthy from an unknown Land', confirmed by visual verification. All three extractors correctly identified the amount as 5 0 0. This row showed consensus on the amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increment of Battley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the most accurate description 'Increment of Batley' (corrected to 'Battley' via visual verification, as the original has two 't's). All extractors correctly identified the row_type as 'header' and absence of amount."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Com:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description 'Gent: Com:' and correct row_type 'entry', confirmed by visual verification. gpt-5-mini misread the final colon as a 'd'. claude-haiku made several transcription errors and classified it as a 'header', which is less precise."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate transcription of the abbreviated description 'Act Suppor'. All three extractors correctly identified the amount as 10 0 0 and row_type as 'entry'. gpt-5-mini interpreted the abbreviation, and claude-haiku misread it slightly. This row showed consensus on amount and type."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "of Comm: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the most accurate transcription of 'Comm: Library' and for correctly identifying the small 'of' written above it, leading to a combined description 'of Comm: Library'. Visually confirmed no amount on this line. gpt-5-mini slightly misread 'Comm:' as 'Cont:'. claude-haiku completely missed this row."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Summ^a",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its outstanding accuracy in transcribing 'Summ^a', the exact monetary values (210, 2, 6), and its expert interpretation of the trailing symbol as a 0.5 (half-penny) fraction, confirmed by visual verification and historical context. gpt-5-mini also identified the main values correctly but incorrectly dismissed the fraction. claude-haiku's extraction for the total line was entirely incorrect in description and pounds value."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

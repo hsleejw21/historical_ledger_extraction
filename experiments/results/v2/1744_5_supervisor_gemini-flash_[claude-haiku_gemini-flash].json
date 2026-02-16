@@ -1,0 +1,470 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Dec: 28 to Francis King his Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Dec: 28' and 'his Bill' is more accurate to the image than Claude-haiku's 'Dec. 26' and 'by Bill'. Fraction '½' is clearly visible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "to ye Dean of St. Ch. Lent for being Vension",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct. Claude-haiku's description ('to 1/2 Dozen of 6d. paid for hay & hanging lanyon') and pence amount (6d instead of 0d) are completely inaccurate for this row based on visual verification."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Feb. 7 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Feb.' is correct, Claude-haiku misread as 'Fob.'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mar. 13 Lighting Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Claude-haiku correctly read the '1' in the pounds column. Gemini-flash incorrectly read it as '0'. Date corrected to '13' from image (Claude-haiku had '15')."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "16 to Mr. Munday his Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr. Munday his Bill' is more accurate to the image than Claude-haiku's 'Mrs Waundey by Bill'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "17 to Mr Weston four years Interest Due at xmas 1743",
+      "amount_pounds": 128,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct. Claude-haiku incorrectly merged this row's description with the subsequent row and misread the amounts (£12 8s 0d instead of £128 0s 0d)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "to Mr Weston upon bond by common consent —",
+      "amount_pounds": 32,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash correctly identified this as a distinct row with amounts '32 00 00'. Claude-haiku incorrectly merged its description and amounts with the prior row and therefore missed this distinct entry."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "24 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for both description and amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "to Mr. Blish one Rheam of Imp. Paper",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description and amounts (£2 12s 6d). Claude-haiku misread the description ('Mrs Ralph one shilion') and the pounds amount (0 instead of 2)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ap. 9 to Teaster his Bill",
+      "amount_pounds": 16,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description and amounts (£16 5s 2d). Claude-haiku misread the pounds amount (1 instead of 16) and description ('Teasler by Bill')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "13 to ye Book for Candies",
+      "amount_pounds": 13,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'ye Book for Candies' is more accurate to the image than Claude-haiku's 'St. Book for badily'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "15 to Mr. Heritage",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description '15 to Mr. Heritage' is more accurate to the image than Claude-haiku's '16 to Mrs Heritage'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "20 to Mr. Evens his Bill",
+      "amount_pounds": 41,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr. Evens his Bill' is more accurate to the image than Claude-haiku's 'Mrs Beens by Bill'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "May 19 to Mr Wine to entertain Mr Wilmot &c. P.k.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr Wine to entertain Mr Wilmot &c. P.k.' is more accurate to the image than Claude-haiku's '& 1/4 wine to entertain Mrs Widnot in P.t.'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "June 12 to Mr Boyle's Works for ye Library",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr Boyle's Works for ye Library' is more accurate to the image than Claude-haiku's 'Mrs Bogle's works for y Library'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "July 7 to Mr. Combes her Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description and amounts (£2 4s 0d). Claude-haiku misread the pounds amount (0 instead of 2) and description ('Mrs Combes')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "10 to Mr. Will. Talbot his Plate money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr. Will. Talbot his Plate money' is more accurate to the image than Claude-haiku's 'Mr. Well Tallet by Plate money'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Aug 4 to Mr. Townsend his Bill",
+      "amount_pounds": 44,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description, date (Aug 4), and fraction (¾). Claude-haiku misread the date (Aug 1), 'by Bill' instead of 'his Bill', and the fraction (½ instead of ¾)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "10 to Land tax for ye year 1742. & 1743. 4s. &c.",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description and amounts (£14 8s 0d). Claude-haiku misread the description ('Dr Dexter 2 of year 1742. 1743. 1/2 bid') and pounds amount (19 instead of 14)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "20 brought to Act what was pd Newman for wine",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'brought to Act what was pd Newman for wine' is more accurate; Claude-haiku merged with the next row's description and had inaccuracies within its combined description."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "to entertain Coll. Ten t",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash correctly identified this as a distinct entry with no monetary amounts. Claude-haiku incorrectly merged it with the previous row and therefore missed this distinct entry."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sept. 20 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for both description and amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "28 to Salisbury Carrier for 2 Boxes from Mr Crabb",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description '28' and 'Mr Crabb' is more accurate to the image than Claude-haiku's '25' and 'Mr Coade'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Oct. 10 to Mr Horner for Paper Ink &c.",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Mr Horner' is more accurate to the image than Claude-haiku's 'her Horner'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "to Sedgley for binding two Buttory Books",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Sedgley' and 'Buttory Books' is more accurate to the image than Claude-haiku's 'fiddles' and 'Battery Books'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "to Wine Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for description and amounts (£0 15s 0d). Claude-haiku misread the description ('&t. 5') and shillings amount (16s instead of 15s)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "20 to Baylisse for carrying away Rubbish",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Gemini-flash description 'Baylisse' is more accurate to the image than Claude-haiku's 'Hay Wife'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 386,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for all amounts (£386 12s 6d) and the fraction (¼). Claude-haiku misread pounds (356 instead of 386), pence (5 instead of 6), and fraction (¾ instead of ¼)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 179,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for amounts. Gemini-flash's note regarding the '9' in pounds being written over is accurate."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 90,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for amounts (£90 7s 5d) and the fraction (¼). Claude-haiku misread pence (4 instead of 5) and fraction (¾ instead of ¼)."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 94,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct. Claude-haiku violated the hard rule for shillings (25s) and misread the pence (8 instead of 5) and fraction (¾ instead of ¼). The image clearly shows '05' for shillings, '05' for pence, and '¼' for the fraction."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Sum. om. Total. £",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash is correct for the pounds amount (751) and description ('Total.'). Claude-haiku misread the pounds as 757 and description as 'Totall.'."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Per Soluta qua erant £751.01.08 ¾",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Extracted from Gemini-flash description. Amounts are embedded in the description text and extracted into the amount fields per supervisor protocol. Claude-haiku misread the description ('Dr blakly qua evrant') and misread the embedded amount's pounds (51 instead of 751) while incorrectly placing it in the amount columns."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Deducti recepta qua erant £739.02.09.",
+      "amount_pounds": 739,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from Gemini-flash description. Amounts are embedded in the description text and extracted per supervisor protocol. Claude-haiku misread the description ('Didacly recepit qua evant') and incorrectly extracted a much larger pounds amount (1739 instead of 739), noting its own uncertainty."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "rest debit. Dno Computi £ 11.18.00 ¾",
+      "amount_pounds": 11,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Extracted from Gemini-flash description. Amounts are embedded in the description text and extracted per supervisor protocol. Claude-haiku misread the description ('ne Delt. Dno Comput.') and the embedded amount's pounds (41 instead of 11) and pence (2 instead of 0)."
+    },
+    {
+      "row_index": 36,
+      "row_type": "header",
+      "description": "Jacobus Edcumbe Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash description is accurate ('Edcumbe'). Claude-haiku misread as 'December'. Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 37,
+      "row_type": "header",
+      "description": "Franciscus Webber Sub Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash description is accurate. Claude-haiku misread the name and title ('Jespish Webber Churcharden'). Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 38,
+      "row_type": "header",
+      "description": "Jacobus Gosnell J.H.B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash description is accurate. Claude-haiku misread the name and abbreviation ('Jacobus Cogkpley & J/B.'). Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 39,
+      "row_type": "header",
+      "description": "Car: Webber A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash description is accurate. Claude-haiku misread 'Car:' as 'Cav.' and 'A.M.' as 'H.M.'. Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 40,
+      "row_type": "header",
+      "description": "Gul: Beach J.D.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash description is accurate. Claude-haiku completely hallucinated the description for this signatory ('shr. Shauly s. Sh.B.') for this row index. Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 41,
+      "row_type": "header",
+      "description": "Tho: Bray J.H.B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Gemini-flash correctly identified this row. Claude-haiku missed this row entirely."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 23,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 18,
+      "rows_added_missing": 3,
+      "rows_dropped_extra": 0
+    }
+  }
+}

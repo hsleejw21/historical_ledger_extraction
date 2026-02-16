@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Pauperiana. Brought over-",
+      "amount_pounds": 280,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted `gemini-flash`'s interpretation. The description 'Pauperiana' is more accurate than `gpt-5-mini`'s 'State Ordinances'. The 'V'-like flourish in the pence column is typically interpreted as zero in historical ledgers, as `gemini-flash` correctly notes, rather than '1' as `gpt-5-mini` states, especially as a 'Brought over' total."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gas Lights. Due. to Dec. 1850",
+      "amount_pounds": 27,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All numeric values are clear and agreed upon. `gemini-flash` provided a more accurate transcription of the description ('Dec. 1850' vs `gpt-5-mini`'s 'Feby 1850' and 'Due.' vs '29:')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "D° Mich.",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gpt-5-mini` correctly identified the description 'D° Mich.' and the associated amounts. `gemini-flash` erroneously pulled the description from the subsequent row while retaining the correct amounts for this row, indicating a significant internal misalignment."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "By Falconer 12½ Int. on £247.14.2, 3½ Cents to July 1850",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "`gpt-5-mini` provided the correct monetary amounts. The full description text was manually transcribed from the image due to `gpt-5-mini` having several partial readings ('?') and minor misreads ('Mr.' instead of 'By'). `gemini-flash` did not correctly align the description with its amounts for this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subscriptions &c. Infirmary",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors were aligned and correctly extracted the amounts. `gemini-flash` (its row_index 4) provided a more complete description by including '&c.'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Grey Coat School",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 5) provided the correct description and amounts. `gpt-5-mini` misread 'Coat' as 'Court'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "St. Giles Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 6) provided the correct description and amounts. `gpt-5-mini` misread 'St. Giles' as 'Wellington'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "South Newington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 7) provided the correct description and amounts. `gpt-5-mini` misread 'Newington' as 'Kensington'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Little Tew Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 8) provided the correct description and amounts. `gpt-5-mini` misread 'Tew' as 'Town'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garston Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Merton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 10) provided the correct description and amounts. `gpt-5-mini` misread 'Merton' as 'Morton'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Garsington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 11) provided the correct description and amounts. `gpt-5-mini` misread 'Garsington' as 'Garrington'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Wittenham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gwinicar Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 14) provided the correct description and amounts. `gpt-5-mini` misread 'Gwinicar' as 'Gunkar'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Poor of Gwinicar",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 15) provided the correct description and amounts. `gpt-5-mini` misread 'Gwinicar' as 'Grimcar'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Small Livings in Diocese of Oxon",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 17) provided the correct description and amounts. `gpt-5-mini` had significant errors in the description ('Small Lumps in Diocese of Lon'), though it acknowledged uncertainty."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "University. Marshalls",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 19) provided the correct description and amounts. `gpt-5-mini` misread 'Marshalls' as 'Marshalle'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bele Ringer & Chapel Clerk",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts, including the specific transcription of 'Bele' instead of 'Bell'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Corn Rents",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 21) correctly identified the empty pounds field and the accurate description 'Corn Rents'. `gpt-5-mini` incorrectly added 1 pound and misread 'Rents' as 'Prices'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Easter Offering",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 22) provided the correct description and amounts. `gpt-5-mini` incorrectly used the plural 'Offerings'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Parish Rates {for rates &c. 20:-:-} {Church Rate 1:13:4}",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 23) accurately extracted the full description, including the embedded sub-amounts. `gpt-5-mini` only captured 'Parish Rates'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Synodals and Procurations",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "College Gardener",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 25) correctly identified 'College Gardener' as a header with no associated monetary amount on its line, representing a structural split of a conceptual entry. `gpt-5-mini` incorrectly merged this header with the subsequent entry."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "1st Quarter",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted `gemini-flash`'s (its row_index 26) extraction for '1st Quarter' as a distinct entry following the 'College Gardener' header. Amounts are clear. `gpt-5-mini` merged this with the header."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "4th Do",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors for description and amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Interest on Stubbs Deposit",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 30) provided the correct description and amounts, accurately noting the potential ambiguity of 'Stubbs' initial letter. `gpt-5-mini` misread 'Stubbs' as 'Church'."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Open Scholarships. Viz. Mr. Kempe.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 31) provided the correct description and amounts. `gpt-5-mini` misread 'Kempe' as 'Hemper'."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Mr. Hilgrefs",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 32) provided the correct description and amounts, and its note explained the slight ambiguity of the 's'. `gpt-5-mini` misread the name significantly as 'Wilzeefs'."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Mr. Coase",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash` (its row_index 33) provided the correct description and amounts. `gpt-5-mini` misread the name significantly as 'Roase', though it acknowledged it was indistinct."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on the total amounts. `gemini-flash`'s (its row_index 34) empty description for the final sum line is preferred over `gpt-5-mini`'s (its row_index 34) redundant description ('L 619 3 7')."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 11,
+      "rows_by_note_assessment": 22,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

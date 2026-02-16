@@ -1,0 +1,142 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia, continued - Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title spans across the main text area and slightly into the first amount column; very legible and matches page-specific guidance."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Bensington - 1/2",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Clear alignment to the three ruling lines. Pounds '8' and shillings '12' clearly read; pence shows '0' with a trailing '3/4' fraction (interpreted as 0.75). All currency fields validate."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description legible. Amount columns well aligned. Pounds '3', shillings '0', pence '5' with a clear halfpenny symbol (interpreted as 0.5). Values within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Tackwin - Hodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '22' and shillings '1' align well and are clear. The pence digit is faint/small and could be read as '1' or '7'; chosen '7' based on alignment with the pence column center. No fractional mark visible. Description reading (Hodge/Lodge) is moderately uncertain from handwriting."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Little Ew.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This line contains the description 'Little Ew.' with no monetary amounts recorded on the same line. Page-specific guidance confirms this is intentionally blank; text is legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Taylor.",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Taylor.' readable though the trailing text (if any) is faint. Amounts align clearly: 20 pounds, 10 shillings, 3 pence; no fraction visible. All values valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 10,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description reads as 'Judge' (handwriting clear enough). Amounts read as 10|14|1 with a halfpenny mark after the pence (interpreted as 0.5). Alignment with ruling lines is consistent."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Stones.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description likely 'Stones.' Amount columns clearly show 0 pounds, 10 shillings, 10 pence; no fraction. All numerals are legible and validate correctly."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hartley.",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Description readable. Amounts aligned: 2|0|2 with a clear '3/4' mark after pence (interpreted as 0.75). Values are consistent and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimber.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and numbers are clear. Pounds '23', shillings '12', pence '5' are well-aligned with the ruling lines and validate correctly."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Busby. (Worby)",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Amounts read as 25 pounds, 16 shillings, 0 pence with a small '1/4' fraction mark (interpreted as 0.25). The parenthetical name is somewhat uncertain (handwriting ambiguous between Worby/Worley); amounts alignment is clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit-Rent for Kidlington Vicarage. vid. Ann: Pro 29th Dec. 1818. Memd. # _ _ _ }",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Two physical lines on the page form a single described item (curly brace '}' spans them). No monetary amounts are visible on either line. Description text combined exactly as it appears; line-break and brace interpreted per page-specific guidance."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet. 1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Gpt-5-mini's description 'Sheet. 1900.' matches the image more closely (period included)."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Gpt-5-mini's description 'Assets.' matches the image more closely (period included)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 5715,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description and amounts are correct. Claude-haiku incorrectly read both the description ('Bank at Aberdeen') and the pounds amount ('57')."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's shillings value '15'. Claude-haiku incorrectly read shillings as '16'. Both extractors correctly identified the description and other amounts. Claude-haiku also misidentified the subsequent subtotal as a secondary marking on this line."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row added based on visual verification. Gpt-5-mini correctly identified this as a subtotal and transcribed the values (5715 4s 6d + 236 15s 10d = 5952 0s 4d). Claude-haiku missed this row, misinterpreting its value as a secondary marking on the preceding line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and amounts. Visual verification confirms '3000.' in the pounds column with no shillings or pence. Gpt-5-mini explicitly provided '0' for shillings/pence, which is clearer than an empty string."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6511,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's pounds value '6511'. Claude-haiku misread the pounds as '6071'. Both extractors correctly identified the description, shillings, and pence. Claude-haiku also partially misread the subsequent subtotal as a secondary notation."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 9571,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Row identified as a subtotal from the image. The written amount is '9571 14 2'. This value is extracted directly from the image, overriding gpt-5-mini's arithmetically derived value of '9511 14s 2d'. Note: The written total (9571 14s 2d) differs from the sum of Furniture (3000 0s 0d) and Investments (6511 14s 2d), which would be 9511 14s 2d. Claude-haiku missed this row entirely."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Due to the College:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for description, type, and empty amounts. Visually confirmed as a clear header."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 134,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'Rent of Lands' and amounts. Claude-haiku misread the description as 'Bank of Lands'. Gpt-5-mini explicitly provided '0' for shillings/pence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'Tithes'. Both extractors correctly read the amounts. Claude-haiku misread the description as 'Leither'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Houses on long Leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'Houses on long Leases'. Both extractors correctly read the amounts. Claude-haiku's note indicated uncertainty, but its reading ('Houses on Long Lanes [or] Reversible') was less accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row included based on visual verification and gpt-5-mini's correct extraction. Claude-haiku missed this row entirely, and misaligned its subsequent rows accordingly."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description and amounts. Claude-haiku misaligned its descriptions and amounts for this and the preceding row, incorrectly matching amounts for 'Senior Common Room' to a 'Junior Common Room' description, and misreading 'Senior' as 'Junior'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for type and amounts. Arithmetic verification confirms the sum of preceding entries (£134 0s 0d + £224 15s 3d + £53 13s 4d + £1 15s 0d + £70 0s 0d = £484 3s 7d). Description kept empty as per gpt-5-mini for consistency with other subtotals."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "How Exhibition Fund",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description and amounts. Gpt-5-mini's note for description ambiguity ('How'/'Haw'/'Howe') was excellent. Claude-haiku had a significantly incorrect description ('New Endowment (Isabel)') and pounds amount ('181'), though shillings and pence were correct."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mitchell",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'Mitchell'. Both extractors correctly read the amounts. Claude-haiku's note indicated uncertainty, but its reading ('[Isabel or continuation]') was incorrect."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Loscombe Richards Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'Loscombe Richards Fund'. Both extractors correctly read the amounts. Gpt-5-mini's note correctly identified ambiguity in the cursive description and provided a well-reasoned choice; claude-haiku's reading ('Locombe Reduction Fund') was less accurate."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for type and amounts. Arithmetic verification confirms the sum of preceding entries (£18 10s 11d + £16 14s 0d + £19 12s 7d = £54 17s 6d). Description kept empty as per gpt-5-mini for consistency with other subtotals."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "I certify that the accounts of the College are duly",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's transcription of the first line of the attestation paragraph. Claude-haiku merged multiple attestation lines into one and had a minor transcription error ('Certify' instead of 'I certify')."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "kept in proper books of account & that the Abstracts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row added based on visual verification. Gpt-5-mini correctly transcribed this second line of the attestation paragraph. Claude-haiku merged this line into a larger block, missing its distinct presentation."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "and Balance Sheet contain a full & true account",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row added based on visual verification. Gpt-5-mini correctly transcribed this third line of the attestation paragraph. Claude-haiku merged this line into a larger block and had a transcription error ('Balances' instead of 'Abstracts')."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row added based on visual verification. Gpt-5-mini correctly transcribed this fourth line of the attestation paragraph. Claude-haiku merged this line into a larger block."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "March 8th 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's transcription 'March 8th 1901' (including 'th') and 'header' type. Claude-haiku missed the 'th' and incorrectly classified it as an 'entry'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "W.C. Tackstad F.C.O.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Visual verification, acknowledging the highly stylized handwriting, leans towards gpt-5-mini's transcription 'W.C. Tackstad F.C.O.' as more plausible than claude-haiku's 'W. C. Huxford'. Gpt-5-mini's note accurately reflects the low confidence due to ambiguity. Type 'header' is appropriate for a signature line."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Jackson Ridley Browning (illegible suffix)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Visual verification confirms this is an extremely difficult and faded signature. Gpt-5-mini's reading 'Jackson Ridley Browning' is a more plausible interpretation of the cursive than claude-haiku's '[Watson-Picky?, Proving Auditors?]'. Gpt-5-mini's note accurately describes the high uncertainty and illegible suffix. Type 'header' is appropriate."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's amounts and description, including the '£' symbol. Claude-haiku significantly misread the pounds amount as '1602' (missing two zeros). Note: the grand total written on the page (£16002 15s 7d) does not arithmetically reconcile with the sum of the preceding subtotals (£16062 15s 7d) by a difference of £60, but the instruction is to extract what is written."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 14,
+      "rows_added_missing": 5,
+      "rows_dropped_extra": 1
+    }
+  }
+}

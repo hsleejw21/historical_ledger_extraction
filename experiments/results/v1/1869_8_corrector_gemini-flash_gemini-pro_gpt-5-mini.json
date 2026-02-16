@@ -1,0 +1,389 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund payment on aut",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "Brought forward",
+      "amount_pounds": 2045,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Candy from Dec 21st to Jan 31",
+      "amount_pounds": 17,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Colby from Feb 1 to March 25. 1.8",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest on £200 to March 25. 1869 -",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "College Garden",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Reading Room",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Friege Farm. Outlet for Water",
+      "amount_pounds": 21,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kidlington Vic & Glob repairs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- Osborne on aut",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "- Hill do",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Robey do",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Salvacate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rector",
+      "amount_pounds": 3,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Lewis. Merton Channel",
+      "amount_pounds": 73,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Domus Wine Billetts",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "do. do",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Warre & Woolgrove Cheque",
+      "amount_pounds": 25,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "By value of Timber",
+      "amount_pounds": 42,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hot closet outside the Hall",
+      "amount_pounds": 22,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sheppard private Bills",
+      "amount_pounds": 7,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Braine Osborne",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Robey",
+      "amount_pounds": 9,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Osborne",
+      "amount_pounds": 12,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": 10,
+      "amount_shillings": 3,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "do",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Brown",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Painting",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Kidlington Cottages Comn",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Robey",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Chancel Wittenham",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Local Rate fund. (Casual book)",
+      "amount_pounds": 29,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Stamps",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Strippee Comm on Tithe",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Room Rent overpaid in Sust.",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "Carried forward",
+      "amount_pounds": 2774,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 1: No change — Header \"1869\" has no amounts in image.\nRow 2: No change — Header \"Domus Fund payment on aut of\" has no amounts in image.\nRow 3: No change — \"Brought forward\" 2045/2/2 reads clearly in image.\nRow 4: amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\",amount_pence_fraction=\"\" → amount_pounds=17,amount_shillings=3,amount_pence_whole=1,amount_pence_fraction=0.5 | Reason: The image shows \"17 3 1/2\" next to \"Candy from Dec 21st to Jan 31\".\nRow 5: amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\",amount_pence_fraction=\"\" → amount_pounds=1,amount_shillings=1,amount_pence_whole=8,amount_pence_fraction=\"\" | Reason: The image shows \"1 1 8\" next to \"Colby from Feb 1 to March 25\".\nRow 6: No change — \"Interest on £200 to March 25.1869\" clearly reads 1/18/11½ in image (draft matches).\nRow 7: amount_pounds=\"\",amount_shillings=14,amount_pence_whole=1,amount_pence_fraction=\"\" → amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\",amount_pence_fraction=\"\" | Reason: Row is marked header (\"College Garden\"); header rows must have empty amount fields. Values in the draft are removed.\nRow 8: amount_pounds=\"\",amount_shillings=3,amount_pence_whole=3,amount_pence_fraction=\"\" → amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\",amount_pence_fraction=\"\" | Reason: Row is a header (\"Reading Room\"); header rows must have empty amount fields.\nRow 9: No change — \"Friege Farm. Outlet for Water\" reads 21/2/9 in image.\nRow 10: No change — \"Kidlington Vic & Glob repairs\" shows no single-line amount in image (subentries follow); draft blank is appropriate.\nRow 11: No change — \"- Osborne on aut\" reads consistent with draft (no clear contradiction in image).\nRow 12: No change — \"- Hill do\" reads consistent with draft.\nRow 13: No change — \"- Robey do\" reads consistent with draft.\nRow 14: No change — Header \"Salvacate\" has no amounts in image.\nRow 15: No change — \"Rector\" 3/11/3 (draft) is consistent with image interpretation.\nRow 16: No change — \"Lewis. Merton Channel\" 73/8/9 reads clearly in image.\nRow 17: No change — \"Domus Wine Billetts\" 3/16/6 reads clearly in image.\nRow 18: No change — \"do. do\" 15/2/6 reads clearly in image.\nRow 19: No change — \"Warre & Woolgrove Cheque\" 25 (pounds) reads clearly in image.\nRow 20: No change — \"By value of Timber\" 42/7/7 reads clearly in image.\nRow 21: No change — \"Hot closet outside the Hall\" 22/10 reads clearly in image (no pence shown).\nRow 22: No change — \"Sheppard private Bills\" 7/17/4 reads clearly in image.\nRow 23: amount_pounds=\"\",amount_shillings=14,amount_pence_whole=9,amount_pence_fraction=\"\" → amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\",amount_pence_fraction=\"\" | Reason: Row is a header (\"Braine Osborne\"); header rows must have empty amount fields.\nRow 24: No change — \"Hill\" 18/18/3 reads clearly in image.\nRow 25: No change — \"Robey\" 9/13/2 reads clearly in image.\nRow 26: No change — \"Osborne\" 12/6 (draft) — image is not unambiguous enough to justify changing the draft value.\nRow 27: No change — \"Hill\" 10/3 (draft) — image alignment does not irrefutably contradict this.\nRow 28: No change — \"do\" 10/9 (draft) — image alignment does not irrefutably contradict this.\nRow 29: amount_pounds=\"\",amount_shillings=\"\",amount_pence_whole=\"\" → amount_pounds=10,amount_shillings=9,amount_pence_whole=\"\",amount_pence_fraction=\"\" | Reason: The image clearly shows \"10 9\" next to \"Brown\"; draft left this blank.\nRow 30: No change — \"Painting\" in image is ambiguous; draft left amounts blank, conservatively kept.\nRow 31: No change — \"Kidlington Cottages Comn\" 6/6 is visible in image and matches draft.\nRow 32: No change — \"Robey\" 2/0/11 reads clearly in image and matches draft.\nRow 33: No change — \"Chancel Wittenham\" shows \"5\" in image (draft records 5 shillings); kept as-is.\nRow 34: No change — \"Local Rate fund. (Casual book)\" 29/14/6 reads clearly in image.\nRow 35: No change — \"Stamps\" 15 (shillings) reads clearly in image.\nRow 36: No change — \"Strippee Comm on Tithe\" 9/1/6 reads clearly in image.\nRow 37: No change — \"Room Rent overpaid in Sust.\" 6/6 reads clearly in image.\nRow 38: No change — Total \"Carried forward\" 2774/7/4½ reads clearly in image.",
+    "changes_made": true
+  }
+}

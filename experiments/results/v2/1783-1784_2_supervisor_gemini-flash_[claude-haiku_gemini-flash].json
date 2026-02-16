@@ -1,0 +1,437 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta anni Presentis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Recepta anni Presentis.'. Gemini-flash (row 1) is correct. Claude-haiku (row 1) misread 'Presentis' as 'Penultis'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "South Nevington, Rich.",
+      "amount_pounds": 68,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'South Nevington, Rich.' and amounts 68 pounds, 10 shillings, 0 pence. Gemini-flash (row 2) is correct. Claude-haiku (row 2) misread the description ('Joth.' instead of 'South') and misaligned columns, reporting only 8 shillings."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Govinear. Rect.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Govinear. Rect.' and amount 60 pounds. Gemini-flash (row 3) is correct. Claude-haiku (row 3) misread the description and misaligned columns, reporting only 6 shillings."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kidlington, Candemas Aug.",
+      "amount_pounds": 119,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Kidlington, Candemas Aug.' and amounts 119 pounds, 5 shillings. Gemini-flash (row 4) is correct. Claude-haiku (row 4) misidentified the row entirely and reported incorrect description and amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Dº Brown & Copons.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Dº Brown & Copons.' and amounts 2 pounds, 15 shillings. Gemini-flash (row 5) is correct. Claude-haiku (row 5) misidentified the row entirely and reported incorrect description and amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Monkennet Vic.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Monkennet Vic.' and amount 20 pounds. Gemini-flash (row 6) is correct. Claude-haiku (row 6) misidentified the row and failed the hard rule filter with 20 shillings."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kidlington Vic.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Kidlington Vic.' and amount 4 pounds. Gemini-flash (row 7) is correct. Claude-haiku (row 7) misidentified the row and misaligned columns, reporting 4 shillings instead of 4 pounds."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dº Mills. pro Dim. An.",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Dº Mills. pro Dim. An.' and amounts 7 pounds, 5 shillings, 9 pence. Gemini-flash (row 8) is correct. Claude-haiku (row 8) misidentified the row and misaligned columns, reporting 7 shillings and 5 pence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Fothernar pro Dimid: an: ad Fest. Prana",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Fothernar pro Dimid: an: ad Fest. Prana' and amount 3 pounds. Gemini-flash (row 9) is correct. Claude-haiku (row 9) misidentified this row and instead provided a misread of the previous entry's description with only 3 shillings."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Taylor & wife pro ann:",
+      "amount_pounds": 5,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Taylor & wife pro ann:' and amounts 5 pounds, 10 shillings, 8 pence with no fraction. Gemini-flash (row 10) is correct. Claude-haiku (row 10) misidentified the row and failed the hard rule filter with 19 pence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Brewer Gardener pro ann:",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Brewer Gardener pro ann:' and amounts 4 pounds, 11 shillings, 8 pence, and a clear '3/4' fraction. Gemini-flash (row 11) is correct. Claude-haiku (row 11) misidentified the row, used the description for the prior entry, and reported 4 shillings and 11 pence with 0.75 fraction."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Isaac Arundel / Prichius pro ann:",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Isaac Arundel / Prichius pro ann:' and amounts 0 pounds, 16 shillings, 1 pence. Gemini-flash (row 12) is correct. Claude-haiku (row 12) misidentified the row and failed the hard rule filter with 16 pence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Richard Stives pro ann:",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Richard Stives pro ann:' and amounts 2 pounds, 14 shillings, 0 pence. Gemini-flash (row 13) is correct. Claude-haiku (row 13) misidentified the row and failed the hard rule filter with 14 pence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Richard Judy pro ann:",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Richard Judy pro ann:' and amounts 2 pounds, 14 shillings, 0 pence. Gemini-flash (row 14) is correct. Claude-haiku (row 14) misidentified the row and failed the hard rule filter with 14 pence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 301,
+      "amount_shillings": 11,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between gemini-flash (row 15) and claude-haiku (row 16, matching visually) on all values for this subtotal line. Visual verification confirms the '3/4' fraction. Claude-haiku's row 15 ('Richd Judge pro Cant.') was an invented row with no amounts and was dropped."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Exchequer Annuity",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Exchequer Annuity' and amounts 50 pounds. Gemini-flash (row 16) is correct. Claude-haiku (row 17, matching visually) misread the description ('Colleges Arrearty') and reported 40 pounds."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Interest of Stock in Funds.",
+      "amount_pounds": 63,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between gemini-flash (row 17) and claude-haiku (row 18, matching visually) on description and all amounts. Visual verification confirms."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 113,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts are 113 pounds, 8 shillings, 4 pence. Claude-haiku (row 19, matching visually) correctly read the shillings as 8, while gemini-flash (row 18) misread shillings as 0. Description is visually blank."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Recepta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Recepta Varia' as the header. Gemini-flash (row 19) is correct. Claude-haiku (row 20, matching visually) incorrectly included subsequent marginal notes and entry text in its description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "1784 Sept 12 of Mr Wm Bowler 3 years Rent for Longworth.",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts. Gemini-flash (row 20) is correct. Claude-haiku (row 21, matching visually) completely misread the description and reported 110 pounds."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Apl. 2 of Mr— Knowles payment of D. Shotridge Benefit",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts. Gemini-flash (row 21) is correct. Claude-haiku (row 22, matching visually) completely misread the description and reported 10 pounds."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr Martin's Plea to Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Mr Martin's Plea to Money' and amounts 10 pounds. The '7' is a marginal notation, not part of the description. Gemini-flash (row 22) is correct. Claude-haiku (row 23, matching visually) completely misread the description and reported 175 pounds."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "of Mr Bowles 2 years Rent for Longworth to Bricklett",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts. The marginal notation is '30'. Gemini-flash (row 23) is correct. Claude-haiku (row 24, matching visually) completely misread the description and reported 100 pounds."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "of Mr J.C. Knowles 2 years Rent of Shotridge Benefit",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts. Gemini-flash (row 24) is correct. Claude-haiku (row 25, matching visually) completely misread the description and had no amounts, effectively missing the row."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "of Mr Richard Deen Fees to the Horse –",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'of Mr Richard Deen Fees to the Horse –' and amounts 17 pounds. Gemini-flash (row 25) is correct. Claude-haiku (row 26, matching visually) misread the description as 'of M⁰ Ullards, Beer &en & the Anne'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Norton Estate from Mich. 1782 to Mich 1783.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Norton Estate from Mich. 1782 to Mich 1783.' as the header. Gemini-flash (row 26) is correct. Claude-haiku (row 27, matching visually) misread the description and dates as 'Master Accdt from Mich: Apr to Mich 1732.'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gross Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Gross Rent' and the embedded amount '265-0-0'. Gemini-flash (row 27) is correct. Claude-haiku (row 28, matching visually) misread the description as 'Henry Asbyt'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Ch. Dº.",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between gemini-flash (row 28) and claude-haiku (row 29, matching visually) on description and all amounts. Visual verification confirms the embedded amount."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 271,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on amounts and row_type. Description is visually blank, as extracted by gemini-flash (row 29). Claude-haiku (row 30, matching visually) used '[Subtotal]' for description. Visual verification confirms the embedded amount."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Allowed Dilaps.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a description-only line with no amount. The associated amount appears on the next line. Gemini-flash (row 30) is correct. Claude-haiku (row 31, matching visually) misread the description and incorrectly merged the amount from the subsequent line."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 33,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this as an amount-only row ('33-3-0') for the preceding 'Allowed Dilaps.' entry. Gemini-flash (row 31) correctly identified it. Claude-haiku (row 31's visual match) missed this distinct row, merging its amount into its misread prior row's description."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Land Tax at 4.pr.hd.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a description-only line. Gemini-flash (row 32) is correct. Claude-haiku (row 32, matching visually) misread the description and incorrectly assigned the amount from the previous entry."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this as an amount-only row '10 ½' (10 shillings, 0 pence, 0.5 fraction) for the preceding 'Land Tax' entry. Gemini-flash (row 33) is correct. Claude-haiku (row 33, matching visually) completely misidentified this row and confused it with the subsequent entry's description."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Rent for 3 Houses",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Rent for 3 Houses' and the embedded amount '16-7-10 ½' (0.5 fraction). Gemini-flash (row 34) is correct. Claude-haiku (row 33, matching visually) misread 'Houses' as 'Roses' and the fraction '½' as '¾'."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 49,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the embedded total amount '49-10-10 ½' (0.5 fraction). Gemini-flash (row 35) is correct. Claude-haiku (row 34, matching visually) misread the fraction as '¾'. Description is visually blank."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "Rem: to Land",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Rem: to Land' and the embedded amount '222-9-0'. Gemini-flash (row 36) is correct and classifies this as a 'total' (remainder). Claude-haiku (row 35, matching visually) misread part of the description and classified it as an 'entry'."
+    },
+    {
+      "row_index": 37,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between gemini-flash (row 37) and claude-haiku (row 36, matching visually) on amounts and row_type. Description is visually blank, as extracted by gemini-flash. Visual verification confirms amounts in dedicated columns."
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 829,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this grand total row '829 9 0' in dedicated columns. Gemini-flash (row 38) correctly extracted it. Claude-haiku completely missed this final row."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 31,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 1
+    }
+  }
+}

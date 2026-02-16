@@ -1,0 +1,318 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header at the top of the page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per cent on Estate. Supp. Divn 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines (projected from the total row). All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do. Do. Divn 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pence digit '6' followed by a distinct loop, interpreted as 0.5 half-penny. Amounts align well. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per Cent on Room Rent Bushey Divn.",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds and pence are clear. Shillings digit '8' is slightly ambiguous, looking somewhat like a '0' or '6', but '8' is the most plausible reading given the general handwriting style. Values are in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Master Composition",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "1 Domus £500, Lost Recd 7.3.82",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description includes 'Lost Recd 7.3.82' which is struck-through. The current amount (22 pounds, 3 shillings, 0 pence) is clearly legible and aligns well. Values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do. 2 Domus £10.0 Lost Recd 13.18.6",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description includes 'Lost Recd 13.18.6' which is struck-through. The shillings digit in the struck-through portion (`13.18.6`) looks like '3' but could be '5'. The actual ledger amount (11 pounds, 8 shillings, 6 pence) is clear. Amounts align well. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "3. 3 Sets of Rooms St Helens. Dic.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entire entry description is struck-through. No monetary amounts recorded in the ledger columns for this row, which is typical for a struck-through or cancelled item."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Dickeson. Balance of Rent",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '3' clearly in shillings column, '0' in pence column, indicating 0 pounds. Amounts align well. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Int on £57.10-at 3 per Ct. 1.1.4 by Platon",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Repayment of Capital 2.10.0",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Int on £100 at 4 per Cent Augt 18.1881 by Do",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Int on £150 at Do to April 1.1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Late Recess Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Int for one yr to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Room Rent Moiety & Cap of",
+      "amount_pounds": 114,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortridge 122.15.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description includes an internal monetary figure '122.15.0', but no amounts are recorded in the main ledger columns for this specific row. The margin note 'July' is adjacent to this entry."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do Do Richards 93.3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description includes an internal monetary figure '93.3.4', but no amounts are recorded in the main ledger columns for this specific row."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do Do Juckell 46.19.8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description includes an internal monetary figure '46.19.8', but no amounts are recorded in the main ledger columns for this specific row."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Stock of the three funds Sold 607.17.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description includes an internal monetary figure '607.17.4', but no amounts are recorded in the main ledger columns for this specific row."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Canal Shares sold 347.4.0",
+      "amount_pounds": 221,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description includes an internal monetary figure '347.4.0'. The main ledger columns show 221 pounds, 7 shillings, and 9 pence with a trailing loop, interpreted as 0.5 half-penny. The pence digit '9' is clear, but the fraction loop is slightly faint. Values in valid range. The margin note 'July 1' is adjacent to this entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "St Johns College for Witham Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Hammond. Bursar. allowed to Loden",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Clutterbuck for Witham Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align well with column lines. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "3390 0 4",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear total amount, used as the primary reference for column alignment. The pence digit '4' has a slightly extended tail, but it is not a distinct fraction symbol (like 'ob' or 'q'). Therefore, no fraction is assigned."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

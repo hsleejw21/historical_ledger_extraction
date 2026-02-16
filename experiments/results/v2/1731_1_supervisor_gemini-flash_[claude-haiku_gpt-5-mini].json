@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybeare Rectoris a 2do Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's transcription of the header. Visual verification against the image confirmed its accuracy for names, dates, and spelling. claude-haiku had multiple transcription errors in the Latin text."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's transcription. Visual verification confirmed 'Arrearagia' (with 'ar' ligature) and the absence of a period. claude-haiku missed an 'r' and added a period."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10 0 0) were in agreement between extractors. Selected gpt-5-mini's description 'Guinear' as visually more accurate than claude-haiku's 'Burwear'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (26 12 9 0.5) were in agreement, with both models correctly identifying the 'ob' half-penny mark. Selected gpt-5-mini's description for correctly capitalizing 'Long'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minhinsett",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Minhinsett' and the amounts (40 0 0). claude-haiku misread the description as 'Cricklade' and amounts as '20 0 0'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Recd.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (145 0 0) were in agreement. Selected gpt-5-mini's description 'South Newington Recd.' as visually more accurate than claude-haiku's 'South Morningon Lect.'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Cuddington Recd.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (20 0 0) were in agreement. Selected gpt-5-mini's description 'Cuddington Recd.' as visually more accurate than claude-haiku's 'Ceddington Lect.'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase-hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (14 8 10) were in agreement. Selected gpt-5-mini's description 'Chase-hill' for correctly including the hyphen. claude-haiku rendered it as 'Chase Hill'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Lucas Eaton' and the amounts (2 0 0). claude-haiku misread the description as 'Lear Eajon' and amounts as '14 8 10'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tue Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's entry. Amounts (14 3 3) are clearly visible. The description 'Tue Quit Rents' is the most plausible reading; 'Tue' is slightly ambiguous but 'Quit Rents' is clear. claude-haiku had significant errors in both description and amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshals Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Ralph Marshals Capons' and the amounts (0 7 6). claude-haiku had significant errors in both description and amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bigg' was in agreement. Selected gpt-5-mini for accurate amounts (10 9 11). claude-haiku misread amounts as '0 7 5'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calicot alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Calicot alias Lane' and the amounts (2 19 5). claude-haiku had significant errors in both description and amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Bannister' and the amounts (0 15 0). claude-haiku misread the name slightly ('Bannitster') and had significant errors in amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Leaden-Hall' and the amounts (1 0 0). claude-haiku misread the description as 'Sealden Hall' and amounts as '0 15 0'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Sadler' was in agreement. Selected gpt-5-mini for accurate amounts (4 12 11). claude-haiku misread amounts as '1 0 0'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Hart Hall' and the amounts (1 13 4). claude-haiku misread the description as 'Hast Hall' and amounts as '4 12 11'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed the description 'Napper' and the amounts (4 1 8) with the 'ob' half-penny mark (0.5). claude-haiku misread the name as 'Capper' and pence/fraction as '6 0.75'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Penny",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4 10 4) were in agreement. Selected gpt-5-mini's description 'Clifton Penny' as visually more accurate than claude-haiku's 'Clifton Terry'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (7 9 11 0.5) were in agreement, with both models correctly interpreting the 'ob' half-penny mark. Selected gpt-5-mini's description 'Brew-House' as visually more accurate than claude-haiku's 'Brew Harie'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Trethewen",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (6 0 0) were in agreement. Upon direct visual inspection, 'Trethewen' appears to be the most accurate transcription of the ambiguous description, overriding both models (gpt-5-mini: 'Prittcheven', claude-haiku: 'Crittenden')."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Ladlane, Sparkes et Meriton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (26 10 0) were in agreement. Selected gpt-5-mini's description 'Ladlane, Sparkes et Meriton' as visually more accurate, especially 'et' and 'Meriton', compared to claude-haiku's 'Sad lane, Sparkles of Merston'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry. Visual verification confirmed 'Medenham' (starting with a clear 'M') and the amounts (6 13 4). claude-haiku misread the description as 'Okedenham' and amounts as '5 3 4'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Back Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4 0 0) were in agreement. Selected gpt-5-mini's description 'Back Gate, Boyse' for correctly capitalizing 'Gate'. claude-haiku had 'Back gate, Boyse'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 24,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

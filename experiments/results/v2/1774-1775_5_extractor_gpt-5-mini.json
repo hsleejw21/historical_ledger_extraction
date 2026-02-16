@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred page title at top of page, no monetary columns present on the same line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Dr. Shortridge's Benef: half a year to Midr.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible. Pounds '100' is well-aligned under the pounds column; shillings and pence columns are blank/zero and alignment is unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr Bloomfields Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads as '08 0 0' in the pounds/shillings/pence columns. The leading zero on pounds visible; interpreted as 8 pounds. Text slightly cramped but digits are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers '50 0 0' clearly aligned in their columns; handwriting neat and unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mids. & Xmas Div. in stock, 3 pr: cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description partly abbreviated but readable. Amount '15 8 4' clearly placed in the three narrow right-hand columns; pence '4' legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Increment, of Mr. Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '05 5 9' is well aligned; leading zero on pounds visible. Text of name 'Richards' readable; small flourish on digits but unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large clear '200 0 0' in the pounds/shillings/pence columns; description legible. Alignment with vertical rules unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Two Sconces for Bac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads '01 1 0' clearly. The word 'Sconces' and abbreviation 'Disp:' are a bit uncertain (could be 'Sources' vs 'Sconces' or 'Diss.'), but the monetary columns are clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr. Shortridge's Benef: half a year to Xmas",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very similar to earlier Shortridge entry; '100 0 0' clearly aligned and unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "June",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short left-hand month label marking the start of the June section; no monetary amount on this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Mr. Oswald Jackson's Acct for the Merton estate for the year from Mic: 1773 to Mic: 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered account heading spanning several following lines. Handwriting readable though long; no amounts on this header line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 205,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'205 - 0 - 0' is clearly written and perfectly aligned under the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Gork Rent",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount reads '007 2 0' clearly, but the description word is less certain: the first letter looks like a 'G' or 'C' and I have transcribed it as 'Gork' to match the visible strokes. If a transcription of the name is required, this line should be rechecked against the original text."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "272 - 2 - 0",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Subtotal line (sum of Money Rent and Gork Rent) '272 2 0' is clearly written and aligned; recognized as a subtotal by its position and underline."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Line reads '24 - 17 - 3' and is clearly aligned in the three small columns; text 'Allowed Land Tax' is legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Rent for 3 closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The main numeric triplet looks like '16 - 7 - 10'. There is a small extra mark after the pence that could be a notation (possibly a farthing or a ledger mark). Because that trailing symbol is unclear, I recorded pence as 10 with moderate confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line shows 'Deduct - 41 - 5 - 1' but there is a small additional mark after the pence (similar to the previous line). The main values 41, 5, 1 are legible; the extra trailing mark is ambiguous so pence fraction left blank."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Recd. Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Rightmost printed repetition shows '230 16 10½' clearly. The halfpenny symbol (loop like 'ob') after the pence is visible; interpreted as 0.5. Alignment and repetition increase confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Increment from Mr. Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Amount appears as '55 10 2 3/4' (the pence column shows '2' followed by a '3q' or '3/4' style mark). The three-quarters symbol is visible and interpreted as 0.75; description reading 'Newbery' is legible though handwriting slightly flourished."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '27 11 6' in the amount columns; description is unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "House Fees from Mr. Savande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numeric '13 10 0' is clear. The surname 'Savande' (or similar) is moderately uncertain due to handwriting; 'Dean' is clear. Transcribed the name as it appears."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "827 - 3 - 8 3/4",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Bottom-of-section subtotal reads '827 3 8 3/4' with a clear three-quarters mark after pence. Numeric alignment and underline indicate a subtotal; fraction is legible as 3/4."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Recepta pro hoc anno & pro debitis anni præcedentis",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final Latin summary line with amount '1575 6 00' clearly written in the pounds/shillings/pence columns. Description is readable in Latin; amount alignment is unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

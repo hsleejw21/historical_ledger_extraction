@@ -1,0 +1,163 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 30,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Arrearages"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Brought up"
+      },
+      {
+        "row_index": 3,
+        "row_type": "header",
+        "description": "Redeemed Land Tax"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Kidlington Rectory 1 year"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Do. Vicarage"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Long Wittenham Rectory 1 year"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Do. Vicarage"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Garsington Rectory 1 year"
+      },
+      {
+        "row_index": 9,
+        "row_type": "header",
+        "description": "Fixed Rents payable"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Kidlington Augmentation 1 year"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Do. L Mills 1 year"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Long Wittenham Rectory 1 year"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "South Newington Do. 2 years"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Do. Tenement 2 years"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Preston Rectory (Land Tax deducted)"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Garsington Do."
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Chase Hill 2 years"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Clifton Ferry"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Bensington 4 years"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Garsington - Pinkard"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Do. Brooke 5 years"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Tintinhull - Napier 2 years"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Do. Beaton 2 years"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Tretbewin 2 years"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Little Tew - Saylor 2 years"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Hartley 2 years"
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Kurdler 2 years"
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "Eden 2 years"
+      },
+      {
+        "row_index": 29,
+        "row_type": "entry",
+        "description": "Horne 2 years"
+      },
+      {
+        "row_index": 30,
+        "row_type": "entry",
+        "description": "Hartley 2 years"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

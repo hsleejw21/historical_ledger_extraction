@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomas Stinton Coll. Sas. Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of page title. No monetary amounts expected for a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do Nov'is 1795 ad eundem diem revolutum 1796.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of date range. No monetary amounts expected for a header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of section header. No monetary amounts expected for a header."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South Newington Rectory 1 year",
+      "amount_pounds": 152,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwineas Rectory half a year to Mich.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kidlington Mills for One Year",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Fraction symbol '¾' is distinct. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Padex 1 Year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Padex' is slightly faded and could be interpreted as 'Pader' or similar, but context suggests a place name/sub-account. Amounts are clear and in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Pockett one year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tinternhul Napier 7 Years",
+      "amount_pounds": 41,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The initial 'T' in 'Tinternhul' is slightly faded, but the full word is legible from context. Amounts are clear and in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tinternhul Beaton 5 Years",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Fraction symbol '½' is distinct. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Montacute Alast Smith 4 Years",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The name 'Alast' is slightly ambiguous due to handwriting, could be 'Alist' or 'Abel'. Amounts are clear and in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Clifton Fiery 1 year",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Tenement. Tho: Penn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Menhent Rectory 2 Years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bensington 2 years Barrett and Burger",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tretrewyn a year and ½",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lod Lane, Comyns 2 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear. This is a sub-item in a braced group. Its individual amount (18.13.4) is noted next to the description but not in the main amount columns. The total for the group is on a separate line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lod Lane Wilson 2 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear. This is a sub-item in a braced group. Its individual amount (13.6.8) is noted next to the description but not in the main amount columns. The total for the group is on a separate line."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lod Lane Hallifax, Late Warrals 3 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear. This is a sub-item in a braced group. Its individual amount (3.6.8) is noted next to the description but not in the main amount columns. The total for the group is on a separate line."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 35,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This row represents the sum of the three preceding 'Lod Lane' entries (18.13.4 + 13.6.8 + 3.6.8 = 35.6.8). The '£' symbol appears on the line as part of the label, followed by the sum amount. Amounts are clear and valid."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This row contains an amount but no preceding description is visible on the page. It's listed immediately after the braced group's total. Amounts are clear and valid."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Bampton 6 years",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "S. G. Page Turner 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The initials 'S. G.' are somewhat faded, but the rest of the name 'Page Turner' and amounts are clear. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Jesus College 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Back Gate Coppie 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Wild Irish 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 392,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total. No description is provided on the line. Fraction '½' is clear. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

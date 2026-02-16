@@ -1,0 +1,327 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this clear header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Novr. 4th Mr. William Harriott's Plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Selected `gpt-5-mini`'s description as '4th' is clearly visible and the name is 'Harriott's' upon visual verification, not 'Seiriett's' as in `claude-haiku`."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bowden's do.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Selected `gpt-5-mini`'s description as 'Bowden's' is a more accurate reading of the script upon visual verification."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Dec. 6. of the Revd Mr. Cooke Dr. Hartridge's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Selected `gpt-5-mini`'s description due to superior reading of the abbreviated and slightly complex phrase 'Dr. Hartridge's Benefaction' upon visual verification."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "31 Increment due at Midst last from the Bursar",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensus and clearly visible, including the 0.5 fraction (an 'ob' mark after the '2'). `gpt-5-mini`'s description is more accurate, particularly 'Bursar', compared to `claude-haiku`'s 'Parrott'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1789 Jan. 31. of Mr. Bowles Esq. R/up Rent for A. Witchenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is much more accurate upon visual verification, specifically the name 'Bowles' and 'Witchenham', compared to `claude-haiku`'s 'Oersley' and 'Ketcham'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Feb. 24. Geo. King & Mr. John King's Plate money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is a much more accurate reading of the names and 'Plate money' phrase upon visual verification, compared to `claude-haiku`'s 'Mrs. Ben Cogging's Attorney'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mar. 27. Mr. John Harriott's Plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is more accurate, particularly the name 'Harriott's' which matches a prior entry, unlike `claude-haiku`'s 'Lourdes's'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "June 3. of Mr. Cooke Dr. St. Benefac. 2d Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is a much more accurate reading of the names and abbreviations 'Mr. Cooke' and 'Benefac.' upon visual verification, compared to `claude-haiku`'s 'Mr. Clarke, St. H. Bougles'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "11. of Mr. Parsons 4 years of pews & exhibn which Wm. O'Neill",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is a more accurate reading of the names 'Mr. Parsons' and 'Wm. O'Neill', and the phrase '4 years of pews & exhibn', upon visual verification."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles 2d Payment for A. Witchenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description ('Bowles' and 'A. Witchenham') is more accurate and consistent with the earlier entry from the same person/place (Row 6)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29. of Mr. Demainbray Devis fees to House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description, specifically 'Devis fees to House', is a more accurate interpretation of the handwriting than `claude-haiku`'s 'Senr. to be Recd.'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1. of Mr. Vivian Parson. increm. to Midst. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms pence amount is '5' with a half-penny fraction (0.5), matching `gpt-5-mini`'s amount. `gpt-5-mini`'s description ('Parson. increm. to Midst. 1789') is also more accurate than `claude-haiku`'s 'Corrs. Herein. & this'd 1789'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donaldson's Time for the share",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is much more accurate upon visual verification, especially the name 'Donaldson's' and the phrase 'Time for the share', compared to `claude-haiku`'s 'Mr. Smithcrafte's Rent forfeited sale'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Samonds? Annu. increm. for year 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms pence amount is '3' with a half-penny fraction (0.5), matching `gpt-5-mini`'s amount. The name is ambiguous; 'Samonds' is a blend of plausible readings. `gpt-5-mini`'s phrase 'Annu. increm. for year 1788' is a better interpretation of the script."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "oct. 30. of Gibbons, Farmer, for old Iron as by Act.",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description is much more accurate upon visual verification, particularly 'Gibbons, Farmer' and 'as by Act', compared to `claude-haiku`'s 'G. Alane, Jameer, for old Iron & Heat'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr Robt. Hartin Acct. for Merton Estate from Mid. 1787 & Mid. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and empty amounts. `gpt-5-mini`'s description is a much more accurate reading of the header, especially names and key terms ('Hartin', 'Merton Estate'), upon visual verification."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "money Rent - 265.0.0.",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the pounds amount is '265', matching `gpt-5-mini`. `gpt-5-mini`'s description also includes the full amount as written on the line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Low Rent - 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Visual verification indicates the description is 'Low Rent - 05.12.0.'. `gpt-5-mini` considered 'Low Rent' as an alternative, which is the most accurate reading from the image."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "Total of years Rent 270.12.0.",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description 'Total of years Rent' is much more accurate upon visual verification. The amounts also correctly sum the preceding two entries (265+5)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this clear header."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Land Tax - 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across extractors for this clear entry."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Leverett Close - 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Visual verification confirms the description is 'Leverett Close', correcting both extractors' interpretations ('Leavitth'/'Levescitt')."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Rep. of Vic. House - 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description ('Rep. of Vic. House') is a much more accurate reading upon visual verification compared to `claude-haiku`'s 'Rep. of Me. Borye'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Dr. of Chancel - 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description ('Dr. of Chancel') is a much more accurate reading upon visual verification compared to `claude-haiku`'s 'Dd. of Porrcarl'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Total of Deductions 48-12-4",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. `gpt-5-mini`'s description accurately reflects the distinct line for 'Total of Deductions' as shown in the image. `claude-haiku` incorrectly merged this line with the subsequent balance statement, leading to a structural error."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Remains clear for the Year's Rent 221 19 8",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gpt-5-mini` correctly identified this as a distinct row. `claude-haiku` incorrectly merged part of this description into the previous row and completely missed the associated amount. Visual verification confirms this row and its amount are clearly present and separate."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "1094 12 7 1/2",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensus and clearly visible. The description for this grand total is simply the figures themselves, as captured by `gpt-5-mini`, including the 0.5 fraction (a 'd'-like loop after the 7). `claude-haiku` provided a generic placeholder description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 24,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Trehaven",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top-line entry with clear numeric alignment (8 16 8) using the total row as column guide. The description handwriting is partially ambiguous (letters read as 'Trehaven'); chosen reading is plausible but uncertain due to cursive flourishes."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Morton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads clearly as 'Morton Vicarage'. No aligned numbers in the pounds/shillings/pence columns for this row (blank). Vertical column boundaries established from total row confirm emptiness."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Le Blanc, Smyth, Moreton Annie",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwritten list of names; reading 'Le Blanc, Smyth, Moreton Annie' is the best fit to the cursive on the page but some letters are indistinct. No amounts present in the aligned columns."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mordenham force",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description interpreted as 'Mordenham force' (handwriting slightly unclear). No monetary values aligned to this line when using the total row's column positions."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate {B.Coy -",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column shows a '4' which is struck through with a vertical stroke (visible). Transcribed the '4' but flagged strike-through in the notes; shillings and pence clearly read as 0 and 0. Column alignment confirmed using the total row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "{Boyce -",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds shows a struck-through '4' (vertical cancel) — transcribed as '4' and noted as struck-through. Shillings/pence read as 0/0. Column positions taken from the total row; strike-through is visually evident."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Port & Fairy & Modernham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is somewhat ambiguous in the cursive; read as 'Port & Fairy & Modernham' as best fit. No amounts visible in the aligned columns. Slight page tilt and faded ink reduce confidence."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr Holsworthy from an unknown hand",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description legible as 'of Mr Holsworthy from an unknown hand'. Numeric columns clearly show 5 pounds, 0 shillings, 0 pence when aligned to the total row boundaries. Very clear compared to other lines."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Quercworth & Battley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This appears to be a section heading (different handwriting and spacing). Text reads approximately 'Quercworth & Battley' though letters are faded; no amounts in the aligned columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Gent. Comd?",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short label beneath the section heading; read as 'Gent. Comd?' (the abbreviation is unclear). No monetary values aligned to this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This row shows a long dash in the pounds column instead of figures (visible horizontal dash across the numeric area). Per page guidance this dash is interpreted as an empty/zero monetary value; columns checked against the total-row alignment to confirm there are no hidden digits."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Con of Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description includes a superscript 'of' (transcribed here as 'Con of Library' per page guidance). No amounts visible when aligned to the total-row column boundaries; there is a small central scribble but no aligned monetary figures."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Sum?",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small centered pencilled/cursive note adjacent to the Con/Library line reads like 'Sum?' or 'Sund' — taken as a centered header/annotation. Fading and smudge reduce confidence; no amounts adjacent except the final total below."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Blank/underline row preceding the final total. The underline is visible but contains no description text. Included to preserve ordering before the total row; heavy fading here reduces legibility."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Final total clearly written as '210 02 : 06q' (q interpreted as a farthing = 0.25). Column boundaries for pounds/shillings/pence were established from this row and applied to all above. Very clear and used as the primary reference per page-specific guidance."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

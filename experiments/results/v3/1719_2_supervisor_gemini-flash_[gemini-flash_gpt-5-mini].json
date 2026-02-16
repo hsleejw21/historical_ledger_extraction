@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recapta Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Recapta'. Both agreed on header type and no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Extracta & Thesaurus",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Thesaurus'. Visual verification confirmed '&' as a common ligature/abbreviation. Both agreed on header type and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description is clear and no amounts are present."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwittam:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Longwittam:'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Pinbrock. pro Annunc.",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description and precise monetary extraction. Visual verification confirmed '10 13 11q' (farthing/0.25). `gpt-5-mini`'s description and amounts were incorrect."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southwovington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Southwovington.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Endlington Vicar",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description and correct monetary amounts. Visual verification confirmed '12 0 0'. `gemini-flash`'s note correctly observed the faint dot after pence but determined it was not a fraction. `gpt-5-mini` misidentified the description and missed the amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Garrington.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Morton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Morton.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and no amounts. Both notes acknowledge the smudge obscuring 'Hill', but the reading is consistent."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Thrup.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Endlington Vicar",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description and monetary amounts. Visual verification confirmed the 'dot 4 0 0' indicating 0 pounds, 4 shillings, 0 pence. `gemini-flash`'s note correctly interpreted the dot. `gpt-5-mini` misread the pounds amount."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lucas Eaton by W. Broadwater",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts reached by consensus. Selected `gemini-flash` for accurate description ('W.' instead of 'Mr.'), confirmed by visual inspection."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "The quite Rent Annun.",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts reached by consensus. Selected `gemini-flash` for accurate description ('The quite Rent Annun.')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Warner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description is clear and no amounts are present."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ralph Marthalls. Capons.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Ralph Marthalls. Capons.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lord Annun.",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description and monetary amounts. Visual verification confirmed '2 12 0'. `gpt-5-mini` misread the shillings and pence values."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Caleot.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Caleot.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cudlington Miller",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Cudlington Miller'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description is clear and no amounts are present."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Moantacute.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Moantacute.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Aug Rep",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Aug Rep'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Greenway",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Greenway' (no trailing period visible). Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Dauiter",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts reached by consensus. Selected `gemini-flash` for accurate description ('Dauiter')."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Braddton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Braddton.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Prym.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Prym.'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini` for accurate monetary amounts, confirmed by visual verification ('1 13 4'). `gemini-flash` misread shillings as 3 instead of 13. Description 'Hart Hall' was consistent."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "London Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description and amounts are clear and accurate."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sadler.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description is clear and no amounts are present."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Molineaux.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Molineaux.' (including the period). Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Pintinhill & Hopkins (Raper)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Both extractors correctly identified this as a single logical entry spanning two physical lines, indicated by the brace, and confirmed no amounts. The description is accurate."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clifton ferry.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached. Description is clear and no amounts are present."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Bonfrington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description 'Bonfrington'. Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Brew house.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for accurate description ('Brew house.' with a space, not a hyphen, confirmed visually). Both agreed on entry type and no amounts."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 36,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts reached by consensus. Selected `gemini-flash` for including the visible 'Total' description. Confirmed values by visual verification. `gpt-5-mini` had a blank total description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 12,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 5,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

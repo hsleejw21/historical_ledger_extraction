@@ -1,0 +1,217 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree. Clearly a header with no amounts. Visually centered on the page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid Molineux Brazier's Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Values for Pounds and Shillings are agreed by both extractors. Visual inspection confirms pence is a distinct '6', as identified by gemini-flash. gpt-5-mini's interpretation of a dash/overlined zero was incorrect."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid Mr Combos Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '1' and shillings '7' are clear. Visual inspection of the pence column shows a '0' with a horizontal stroke, correctly interpreted as 0 pence by gemini-flash. gpt-5-mini misidentified it as '6' despite noting ambiguity. Description corrected to 'Mr Combos' based on image."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual inspection reveals '0' in Pounds, '1' in Shillings, and a dash (0) in Pence. gemini-flash was correct on shillings and pence. Both extractors had inaccuracies in their full readings, requiring a visual override."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for flooring of Room over ye new Bursary",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual inspection confirms '0' in Pounds, '10' in Shillings, and '0' in Pence. gemini-flash was accurate for all values and its note on pence interpretation is consistent. gpt-5-mini incorrectly read '7' for pounds."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid Mr Collins in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '21' and pence '0' (dash) are clear. Visual inspection confirms shillings is a single digit '3', as read by gemini-flash. gpt-5-mini incorrectly read '10' for shillings. Description corrected to 'Mr Collins' based on image."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Dod for lighting of Winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '1' and pence '0' (dash) are clear. Visual inspection confirms shillings is '3', as identified by gpt-5-mini, despite gemini-flash interpreting it as empty/0."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook Acc: Dinner & Xtmas Gaudies",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '15' and pence '4' are clear. Visual inspection confirms the shillings column is empty, hence 0 shillings, as read by gemini-flash. gpt-5-mini incorrectly read '15' in the shillings column. Description corrected to 'Cook Acc: Dinner & Xtmas Gaudies' based on image."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '210' is clear and correctly calculated from '200 Guineas'. Visual inspection confirms shillings and pence columns are visibly empty, consistent with 0s 0d. gemini-flash accurately identified empty columns, while gpt-5-mini incorrectly read '4' shillings and a dash for pence where none exists."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual inspection confirms '0' in Pounds, '1' in Shillings, and a dash (0) in Pence. gpt-5-mini was accurate for shillings and pence. gemini-flash misread shillings as '0' and identified pounds as empty rather than '0'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid Mr Horner for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual inspection confirms '0' in Pounds, '17' in Shillings, and '6' in Pence. gemini-flash accurately extracted these values. gpt-5-mini's readings for shillings and pence were incorrect despite acknowledging faintness."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, Mops &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on values and type. Visual inspection confirms '3£ 13s 4d'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Soluta' is a header, but also clearly includes a total amount '278£ 7s 4d' to its right. Therefore, it is classified as 'total'. gpt-5-mini correctly extracted the values and type, gemini-flash classified it as a header without amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Ditto' acts as a continuation header, but clearly includes a total amount '73£ 19s 2d' to its right. Therefore, it is classified as 'total'. gpt-5-mini correctly extracted the values and type, gemini-flash classified it as a header without amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on Pounds, Shillings, and Pence. Visual inspection confirms a 'ob' symbol after '10' pence, indicating a half-penny (0.5). gemini-flash correctly identified and interpreted this fraction; gpt-5-mini missed it."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ex Receptis quae erant A. Dob. Anno praecedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on Pounds, Shillings, and Pence. Visual inspection confirms a 'ob' symbol after '10' pence, indicating a half-penny (0.5). gemini-flash correctly identified and interpreted this fraction. Description corrected based on image, as gpt-5-mini had 'sunt ab Anni'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on Pounds, Shillings, and Pence. Visual inspection confirms a 'ob' symbol after '10' pence, indicating a half-penny (0.5). gemini-flash correctly identified and interpreted this fraction."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restant Solv. a Dno Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on values and type. Visual inspection confirms '168£ 4s 9d'. Description corrected based on image, as gpt-5-mini had 'Pro Computante'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 12,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

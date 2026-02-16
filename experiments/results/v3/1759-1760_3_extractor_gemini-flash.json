@@ -1,0 +1,329 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title. No monetary amounts expected for a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitat. Qrx",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll. Adis. qt",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll. Adis. X.h",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll. Omn. Anno",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Ball",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. S.J.B.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Curia Hushgs",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procur. Kidley: S. Newington & M.sh.",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Clear reading for description, pounds, and shillings. Pence value is '11' followed by a superscript 'd' or trailing loop, which is a common historical notation for a half-penny (0.5)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Synodals Ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coqus",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lotria",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Scull. & Lundray.",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical column boundaries established using the total row are unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleansing Chep. Oct. 5",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. Amounts are readable despite moderate ink bleed, but are slightly less crisp than previous rows. Vertical column boundaries derived from the total row remain clear for these amounts. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Carbonibs ad Fest. Annu?",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is somewhat faded, especially the last word which is an educated guess 'Annu?'. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "& ad Fest. Mic.",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. This row is a continuation of the previous description but has its own distinct amounts. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Jones",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Japerstori Slif.",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is heavily faded, 'Slif.' is an educated guess based on letter shapes and common words. Amounts are somewhat readable despite moderate ink bleed, and column alignment helps clarify digits. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliotheca",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bibl. lect. Oct. 5",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Consecration",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is heavily faded but readable with context. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southrewington Vicar ad Fest. Annu?",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is heavily faded, especially the last word 'Annu?'. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "ad Fest: Mic",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. This row is a continuation of the previous description but has its own distinct amounts. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedel of Beggars",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is moderately faded. Amounts are readable despite moderate ink bleed. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excipit due Lady Day Last",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description is clear. No monetary amounts are visible for this row; a distinct horizontal line extends from the description across the amount columns, indicating no value was entered."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a horizontal rule above it. Amounts are perfectly clear and provide the reference for column alignment. Pence value '11 1/2' is clearly written, interpreted as 11 whole pence and 0.5 fraction. All values are within valid currency ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

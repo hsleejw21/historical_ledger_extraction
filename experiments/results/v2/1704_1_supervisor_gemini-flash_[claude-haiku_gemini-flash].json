@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynser Rectory a secundo die Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description, visually verified against image. Claude-haiku had several transcription errors in the Latin text. Both extractors correctly identified the row type and absence of monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput. de remanentib' in Cista",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description. Claude-haiku merged this row with the subsequent header ('Item de arreragijs') and had transcription errors. Visually verified from the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Item de arreragijs.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash as claude-haiku incorrectly merged this row into its previous entry. Visually verified this as a distinct header row with no amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guanear",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash's description ('Guanear' is correct over 'Ivanear'). For amounts, pounds (11), shillings (9), and pence (4) are clear. The mark after '4' is clearly an 'ob' (or similar 'b' shape), which, per special instructions, denotes 0.5 (half-penny). Claude-haiku correctly interpreted the fraction, while gemini-flash noted it but dismissed it as a flourish. Visually verified."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was missed by both extractors. The ledger clearly shows a blank description line with the amount £60 s0 d0. Added as a missing row based on visual verification."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Longwitnam",
+      "amount_pounds": 76,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors based on visual verification. Gemini-flash incorrectly assigned the amount from the previous (missing) row (£60 s0 d0). Claude-haiku completely misread all amount digits. The image clearly shows 'Longwitnam' with £76 s0 d0."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "minhinnett",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors based on visual verification. Gemini-flash incorrectly assigned the amount from 'Longwitnam' (£76 s0 d0). Claude-haiku completely misread all amount digits. The image clearly shows 'minhinnett' with £20 s13 d4. Used gemini-flash's description as it's more accurate."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Southnewington pro mici",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash's description ('pro mici' is more accurate than claude-haiku's 'pno mi:'). Overrode both extractors for amounts based on visual verification. Gemini-flash incorrectly assigned the amount from 'minhinnett' (£20 s13 d4). Claude-haiku misread the pounds digit. The image clearly shows £30 s0 d0."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected claude-haiku for correctly identifying the absence of amounts for this row; its notes specifically highlight 'no visible amounts'. Gemini-flash incorrectly assigned the amount from 'Southnewington' (£30 s0 d0). Visually verified from the image that only dashes are present."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chockhill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for its more accurate description ('Chockhill' is clearer than 'Chacehill'). Both extractors correctly identified the absence of amounts for this row, which was visually verified."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash as it correctly read the amounts as £3 s0 d8 and the fraction as 0.25 ('q'). Claude-haiku misread pounds and shillings, and interpreted the fraction as 0.5 ('ob'). Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Tue quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct row type (header) and absence of amounts. Claude-haiku attempted to extract amounts, but its pence value (15) violated a hard rule, indicating a fundamental misreading of the ledger structure for this line. Visually verified as a header with no amounts."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ralph marshalls capons",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and amounts. Claude-haiku's pence value (15) violated a hard rule and it noted significant column alignment uncertainty. Visually verified gemini-flash's reading as correct: £2 s15 d7."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcott",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and correctly identifying no amounts for this row. Claude-haiku had transcription errors in the description ('Lalcott') and incorrectly attempted to extract amounts, noting 'impossible' values, which constitutes a hard rule violation. Visually verified as no amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate amounts (£3 s8 d11). Claude-haiku misread the pence value and noted systematic misalignment, which was not visually confirmed for this line. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mountaoue",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Mountaoue') and amounts (£4 s0 d0). Claude-haiku had a transcription error ('Mountsouee') and misread pounds and shillings. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for its accurate description ('Hughes'). Both extractors correctly identified the absence of amounts for this row, which was visually verified."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Greeneuay",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and amounts (£1 s12 d0). Claude-haiku's pence value (12) violated a hard rule, and it noted high uncertainty. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate amounts (£0 s10 d0). Claude-haiku misread shillings and pence columns. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate amounts (£0 s15 d0). Claude-haiku's pence value (15) violated a hard rule and it admitted to fundamental misalignment. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for description and absence of monetary amounts. Visually verified."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for description and absence of monetary amounts. Visually verified."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Tintinhull Nopper",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and amounts. Claude-haiku had a transcription error in the description ('Tinterkill') and misread pounds, shillings, and fraction type. Visually verified amounts as £2 s5 d5 and a 'q' (0.25) fraction."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate amounts (£1 s18 d7). Claude-haiku's pence value (18) violated a hard rule and it noted an impossible pence base value. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for its accurate description ('Clifton Ferry' is clearer than 'Clifton Corry'). Both extractors correctly identified the absence of amounts for this row, which was visually verified."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and amounts (£3 s19 d8). Claude-haiku's pence value (19) violated a hard rule and its notes acknowledged severe column misalignment. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description and amounts (£1 s15 d6). Claude-haiku's pence value (15) violated a hard rule and its notes acknowledged suspect column structure. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Tretbewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Tretbewin') and amounts (£6 s9 d7). Claude-haiku had a transcription error ('Tretlewinn'), misread pounds and shillings, and incorrectly identified a fraction. Visually verified gemini-flash's reading."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for description and absence of monetary amounts. Visually verified."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "Summa Annosragionum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the total amounts (£230 s13 d8). Selected gemini-flash for its more accurate transcription of the faded description text ('Summa Annosragionum' is clearer than 'Suma Arraragarum'). Visually verified."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 9,
+      "rows_by_visual_override": 16,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

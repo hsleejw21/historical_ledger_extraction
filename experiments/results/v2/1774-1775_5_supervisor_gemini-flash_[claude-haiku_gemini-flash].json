@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus from both extractors. Clearly a header with no associated monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Novr. 10. 1774. Dr Shortridge's Benefx half a year to Mids:",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Dr Shortridge's Benefx' and integrates the marginal date 'Novr. 10. 1774.' after visual verification."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Novr. 22. Mr Bloomfields Plate Money",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description (including marginal date) taken from gemini-flash. Amounts from claude-haiku, which correctly identified '08' in the shillings column and '0' in the pounds column after visual verification. Gemini-flash incorrectly placed '8' in pounds."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Janr. 30. 1775. Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description is a combination of both extractors, integrating the marginal date 'Janr. 30. 1775.'. Clear reading from image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Midsr. & Xmas Div: in Stock, 3 p.Cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes '3 p.Cent:' after visual verification of the image. Claude-haiku incorrectly read '3d Rat:'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mart: 20 Increment. of Mr Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Bursar' and the marginal date 'Mart: 20' after visual verification. Claude-haiku incorrectly read 'Barrator'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr: 3 Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Chest' and the marginal date 'Apr: 3' after visual verification. Claude-haiku incorrectly read 'Plate'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jun: 5. Two Sconces for Sac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Sconces for Sac: Disp:' and the marginal date 'Jun: 5.' after visual verification. Claude-haiku's description was inaccurate."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr Shortridge's Benefs half a year to Xmas-",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Dr Shortridge's Benefs' after visual verification. Claude-haiku incorrectly read 'Sr Partridge's Benefit'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "June Mr. Oswald Jackson's Acct. for the Rector estate for the Year from Midsr 1773 to Midsr 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both agree this is a header with no amounts. Description taken from gemini-flash, which accurately transcribes 'Acct. for the Rector estate' and the marginal date 'June' after visual verification. Claude-haiku incorrectly read 'dett for the Vicarage state'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description in consensus. Amounts taken from gemini-flash after visual verification, as '265' is clearly written in the pounds column. Claude-haiku incorrectly read '263'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Corn Rent",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description in consensus. Amounts taken from gemini-flash after visual verification, as '007' (7) is clearly written in the pounds column. Claude-haiku incorrectly read '9'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Subtotal of Money Rent and Corn Rent",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and row type. Verified arithmetic sum from corrected preceding entries (265-0-0 + 7-2-0 = 272-2-0). Description was inferred from context."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Allowed Land Tax' after visual verification. Claude-haiku incorrectly read 'Allotmd'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description in consensus. Pounds amount (16) and pence fraction (0.5) taken from gemini-flash after visual verification; the symbol after '10' is clearly a half-penny. Claude-haiku incorrectly read '10' for pounds and '0.25' for the fraction."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description taken from gemini-flash (Deduct). Amounts are clear in the image. The fraction symbol after '1' is clearly a half-penny (0.5), as noted by gemini-flash. Verified arithmetic sum of preceding deduction entries (24-17-3 + 16-7-10.5 = 41-5-1.5)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "July 22? Recd Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description based on visual verification ('July 22? - Recd Balance'). Amounts are clear in the primary columns. The fraction symbol after '10' is clearly a half-penny (0.5), as noted by gemini-flash. Verified arithmetic sum (272-2-0 minus 41-5-1.5 = 230-16-10.5)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "July 26. Increment from Mr Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Bursar' and the marginal date 'July 26.' after visual verification. The 3/4 fraction symbol is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Aug. 17. Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Chest' and the marginal date 'Aug. 17.' after visual verification. Claude-haiku incorrectly read 'Glebe'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Jul. 22. House Fees from Mr Sarrande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, which accurately transcribes 'Sarrande' and the marginal date 'Jul. 22.' after visual verification. Claude-haiku incorrectly read 'Terrance'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Grand Total",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Consensus on amounts and fraction (827-3-8.25), which are clearly written. The fraction symbol after '8' is a clear 1/4 (farthing). This is a grand total indicated by the double underline. Note that the written value does not arithmetically sum from visible preceding entries if taken as a simple cumulative total, similar to gemini-flash's observation. However, the task is to extract what is written."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Recepta pro hoc anno 9 (et pro debitis anni praecedentis)",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description merged from both extractors to include '9' and 'et pro debitis', based on visual verification. The text is clearly linked by a curly brace to the amount (1575-6-0), making it a single conceptual entry of type 'header' with an associated total, as correctly identified by gemini-flash. Claude-haiku incorrectly split this into two separate rows and initially omitted the amount from its header."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 21,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "warnings": [],
+  "estimated_row_count": 13,
+  "layout_type": "standard",
+  "layout_hints": "The three vertical ruling lines separating the £ / s / d columns are present but appear faint. The leftmost line (separating £ from s) is the most discernible. Despite the faint lines, the numerical alignment of values within these columns is generally consistent and clear.",
+  "prompt_additions": "The initial text 'Arrearagia, continued - Mixed Rents variable' should be extracted as a single page header, as it spans across the main text area and slightly into the first amount column. Row 5, labeled 'Little Ew.', is a ledger entry description but has no monetary amount recorded on its line; extract the description and leave amount fields blank. Rows 12 and 13, ('Stipend or Quit Rent for Kidlington Vicarage' and 'vid. Ann: Pro 29th Dec. 1818. Memd. # _ _ _ }'), describe a single item and should be treated as a combined description. There are no monetary amounts visible for this item; extract the combined text for the description and leave amount fields blank. Note the curly brace '}' visually spanning these two lines. Be careful to correctly extract the fractional values (e.g., '3/4', '5/4', '1/2') which are explicitly part of the pence column values.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

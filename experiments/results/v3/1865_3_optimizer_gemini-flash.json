@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Significant ink bleed from the reverse side primarily affects the left-hand description column, particularly for rows 1-22.",
+    "The page is scanned with a slight clockwise tilt.",
+    "Some numbers appear very close to the vertical ruling lines, requiring careful parsing to avoid merging columns.",
+    "Faint, illegible text from bleed-through is present on the far left margin and should be ignored."
+  ],
+  "estimated_row_count": 42,
+  "layout_type": "standard",
+  "layout_hints": "The ledger contains a single vertical table with a description column on the left and three numerical columns (£ s d) on the right. Entries often have a main heading followed by indented sub-entries.",
+  "prompt_additions": "CRITICAL: Heavy ink bleed from the reverse side severely impacts readability of the description text for rows 1-22 ('1865' to 'Wolgrove'). If description text is unreadable, leave blank and set confidence below 0.3. The three vertical ruling lines separating the £, s, d columns are visible but slightly faint in the top third of the page (rows 1-10). The final total row (row 42: '263 8 9') provides excellent reference for precise column alignment; project these column boundaries upwards. The page has a slight clockwise tilt, which may cause text to drift; rely on the vertical ruling lines for column separation rather than perceived visual spacing. Identify and group sub-entries with their corresponding main entries (e.g., 'Postage and Stamps', 'Inn Bill', 'Comm^n' are sub-entries under 'Gwynnear').",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

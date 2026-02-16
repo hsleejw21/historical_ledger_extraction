@@ -1,0 +1,284 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybeare Rectoris a 2do Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected the description from gemini-flash and gpt-5-mini as it perfectly matches the image. claude-haiku's description contains significant transcription errors."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description as it perfectly matches the image, including the double 'r' in 'Arrearagia' and the trailing period. claude-haiku missed an 'r'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10, 0, 0) agreed by all extractors. Description 'Guinear' chosen based on visual verification, matching gemini-flash and gpt-5-mini. claude-haiku incorrectly read 'Burwear'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on the monetary values, including the 0.5 pence fraction (indicated by 'ob'). Visual verification confirms these values and the uppercase 'L' in 'Long Wittenham' which was correctly captured by gemini-flash and gpt-5-mini."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (40, 0, 0) confirmed by visual inspection and consensus between gemini-flash and gpt-5-mini. claude-haiku's entry for this row is entirely incorrect. For the description, 'Minhinnet' from gemini-flash appears most accurate upon visual verification, with 't' being the final letter."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Rect:",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (145, 0, 0) agreed by all and visually confirmed. Description 'South Newington Rect:' matches the image, including the colon, which gemini-flash was closest to. claude-haiku made significant errors in the description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Cudlington Rect:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (20, 0, 0) agreed by all and visually confirmed. Description 'Cudlington Rect:' from gemini-flash is the most accurate visual transcription."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on amounts. Description 'Chase Hill' confirmed visually, matching gemini-flash and claude-haiku. Gpt-5-mini included an incorrect hyphen."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Agreed values (2, 0, 0) and description 'Lucas Eaton' from gemini-flash and gpt-5-mini are visually confirmed. claude-haiku's reading was incorrect for both text and amounts for this row."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Due Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (14, 3, 3) confirmed visually and agreed by gemini-flash and gpt-5-mini. Description 'Due Quit Rents' from gemini-flash is visually correct; the initial letter is a clear 'D'. claude-haiku was incorrect."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshals Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0, 7, 6) confirmed visually and agreed by gemini-flash and gpt-5-mini. Description 'Ralph Marshals Capons' from gpt-5-mini is visually more accurate; the letter is clearly a 'p', not 'c' as in 'Carons' (gemini-flash)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bigg' is universally agreed and visually correct. Amounts (10, 9, 11) confirmed visually, matching gemini-flash and gpt-5-mini. claude-haiku provided incorrect amounts."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Caleb alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (2, 19, 5) confirmed visually and agreed by gemini-flash and gpt-5-mini. Description 'Caleb alias Lane' from gemini-flash is visually more accurate than 'Calicot alias Lane' (gpt-5-mini); the final letter of the first word is clearly 'b'. claude-haiku was incorrect on both description and amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bannister' and amounts (0, 15, 0) are agreed by gemini-flash and gpt-5-mini, and visually confirmed. claude-haiku had errors in both description spelling ('Bannitster') and amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Seaden-Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1, 0, 0) confirmed visually and agreed by gemini-flash and gpt-5-mini. Description 'Seaden-Hall' is derived from gemini-flash, with hyphenation adjusted to match visual inspection. The initial letter is 'S', not 'L' as suggested by gpt-5-mini. claude-haiku was incorrect on both description and amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Sadler' universally agreed and visually correct. Amounts (4, 12, 11) confirmed visually, matching gemini-flash and gpt-5-mini. claude-haiku provided incorrect amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Hart Hall' and amounts (1, 13, 4) are agreed by gemini-flash and gpt-5-mini, and visually confirmed. claude-haiku had errors in both description and amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description 'Napper' (gemini-flash, gpt-5-mini) and amounts (4, 1, 8, 0.5) visually confirmed. The 'ob' symbol for half-penny is clearly present after the '8'. claude-haiku made errors in both description ('Capper') and pence value/fraction."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Fenny",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4, 10, 4) agreed by all and visually confirmed. Description 'Clifton Fenny' from gemini-flash is visually correct; the initial letter of the second word is a stylized 'F'. Gpt-5-mini read 'Penny' and claude-haiku read 'Terry'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (7, 9, 11, 0.5) agreed by all and visually confirmed. The 'ob' symbol for half-penny is clearly visible. Description 'Brew-House' matches visual inspection and gemini-flash/gpt-5-mini. claude-haiku incorrectly read 'Brew Harie'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tretherwen",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (6, 0, 0) agreed by all and visually confirmed. Description 'Tretherwen' from gemini-flash is the most accurate visual transcription, recognizing the stylized 'T' and subsequent letters correctly. The other extractors made significant errors in the description."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "In & Lane, Sparkes et Merton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (26, 10, 0) agreed by all and visually confirmed. Description 'In & Lane, Sparkes et Merton' from gemini-flash is the most accurate visual transcription, capturing the '&' and the correct spelling of 'Merton'. Other extractors had multiple discrepancies in the description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Medenham' and amounts (6, 13, 4) are agreed by gemini-flash and gpt-5-mini, and visually confirmed. claude-haiku had errors in both description and amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Buck Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4, 0, 0) agreed by all and visually confirmed. Description 'Buck Gate, Boyse' from gemini-flash is the most accurate visual transcription, specifically the 'u' in 'Buck' and correct capitalization of 'Gate' and 'Boyse'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 24,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

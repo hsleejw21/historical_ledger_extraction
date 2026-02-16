@@ -1,0 +1,16 @@
+{
+  "warnings": [
+    "Moderate ink bleed is present throughout the page, potentially obscuring digits, especially in amount columns.",
+    "The vertical ruling lines separating Pounds, Shillings, and Pence are very faint to almost invisible in many sections.",
+    "The page has a slight clockwise tilt (approximately 1-2 degrees).",
+    "Fractional pence values (e.g., '2 3/4') are present and require accurate extraction.",
+    "Margin annotations (dates, numbers) are present and should not be confused with ledger entry data."
+  ],
+  "estimated_row_count": 35,
+  "layout_type": "standard",
+  "layout_hints": "The ledger contains two main sections of 'Recepta' followed by calculations. The column alignment for Pounds, Shillings, and Pence is difficult to discern due to faint ruling lines, especially in the top half. The final total rows provide the clearest visual separation for these columns.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for the Pounds, Shillings, and Pence columns are extremely faint or invisible across most of the page. Use rows 34 ('222 9 0') and 35 ('829 9 0') as your primary reference for establishing and projecting precise column boundaries upwards for all other rows. The page is also slightly tilted clockwise; trust the projected vertical column lines over apparent visual spacing of text. Moderate ink bleed is present throughout the image; for amounts in rows 1-14 and 19-24, if digits are unreadable due to bleed, leave the amount field blank and set confidence < 0.3. Be prepared to accurately extract fractional pence, as seen in row 15 ('2 3/4'). Ignore all margin annotations, such as '7088' next to row 1 and the numbered entries ('12', 'Ah. 2', '7', '30') next to rows 20-24, as these are not part of the primary ledger data.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

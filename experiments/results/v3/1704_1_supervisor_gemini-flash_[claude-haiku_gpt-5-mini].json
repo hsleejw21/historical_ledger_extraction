@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynter Rectory a secundo die",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. It correctly identifies this as a distinct header line. Claude-haiku incorrectly merged this line with the next, misrepresenting the visible structure."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. It correctly identifies this as a distinct header line. Claude-haiku incorrectly merged this line with the previous, misrepresenting the visible structure."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput: de remanentib: in lista 11 9 46",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Its description is more accurate ('Imprimis' not 'Impumis'). It correctly identified the numbers '11 9 46' as embedded in the header text, not as separate monetary amounts. Claude-haiku incorrectly parsed these as amounts and also merged this line with the next one, misrepresenting the visible structure."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Item de arreragijs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. It correctly identifies this as a distinct header line. Claude-haiku incorrectly merged this line with the previous, misrepresenting the visible structure."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Correct description and accurate amount reading of '60 0 0' from the image. Claude-haiku misread the description ('Guanaear') and the pounds amount (6 instead of 60)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Longwitnam",
+      "amount_pounds": 76,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description taken from claude-haiku ('Longwitnam' is more accurate than gpt-5-mini's 'Longwitham'). Amounts taken from gpt-5-mini, which correctly reads '76 13 4' from the image; claude-haiku misread pounds (7 instead of 76) and pence (1 instead of 4), and categorized as 'header' instead of 'entry'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Minhinnett",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Minhinnett') and amount reading ('20 0 0'). Claude-haiku misread the description ('Minhinett') and the pounds amount (2 instead of 20)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Southnewington pro mici",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts selected from gpt-5-mini, which correctly reads '30 0 0'. Claude-haiku misread the pounds amount (3 instead of 30). Description text modified slightly from gpt-5-mini to match the visual layout of 'pro mici' as a phrase on the same line without parentheses, as presented by claude-haiku."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description and the absence of amounts for this row, visually confirmed."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chacehill",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Description visually verified as 'Chacehill' (neither extractor fully accurate). Amounts (03 00 8) from gpt-5-mini, which correctly identified the main digits. However, gpt-5-mini missed the fraction. Visually verified that there is a clear trailing mark after '8' in pence column, resembling 'ob' or 'd' loop, which per guidance is interpreted as 0.5 fraction. Claude-haiku incorrectly reported no amounts for this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visually confirmed that 'Thrup' has no associated amount on its line. Claude-haiku incorrectly assigned the amount intended for 'Chacehill' to 'Thrup' due to misalignment."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Jue quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Correct description ('Jue' not 'Sue' as in claude-haiku) and `row_type` 'header'. Both extractors correctly identified no amounts for this line, visually confirmed."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ralph marshall capons",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from claude-haiku ('marshall' is more accurate than gpt-5-mini's 'marshally'). Amounts selected from gpt-5-mini as claude-haiku's pence value (15) was invalid and failed the hard rule filter. gpt-5-mini's reading of '02 15 7' is visually confirmed."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcott",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gpt-5-mini ('Calcott' is more accurate than claude-haiku's 'Lalcott'). Both extractors agree on the absence of amounts for this row, visually confirmed."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate amount reading of '03 8 11'. Claude-haiku showed significant column misalignment, reading '0 3 8' instead."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mountague",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Mountague' is clearer than claude-haiku's 'Mourtaoge') and amount reading ('04 0 0'). Claude-haiku misread description and showed column misalignment."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Hughes' is clearer than claude-haiku's 'Heighes') and amount reading ('01 12 0'). Claude-haiku incorrectly reported no amounts for this line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Greeneway",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Greeneway' is clearer than claude-haiku's 'Greenerage') and amount reading ('00 10 0'). Claude-haiku's pence value (12) was invalid, failing the hard rule filter."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate amount reading ('00 15 0'). Claude-haiku showed incorrect column alignment, reading '0 0 10'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visually confirmed no amounts for this row. Claude-haiku incorrectly assigned an invalid pence value (15), failing the hard rule filter."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description and the absence of amounts for this row, visually confirmed."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description and the absence of amounts for this row, visually confirmed."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Tintinhull { Napper",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Description from gpt-5-mini, accurately including the brace. Amounts visually verified as '02 5 5'. Claude-haiku incorrectly had column misalignment ('0 2 5'). Claude-haiku correctly identified the presence of a fraction but misread it as 0.5. The trailing mark after '5' in pence column is clearly a 'q', which per guidance is interpreted as 0.25 fraction. Gpt-5-mini missed the fraction entirely."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "         { Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Description accurately reflects the brace and indentation (claude-haiku incorrectly prepended 'Tintinhull'). Amounts are visually confirmed as '01 18 7'. Claude-haiku's pence value (18) was invalid, failing the hard rule filter."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Clifton Ferry' is clearer than claude-haiku's 'Clifton Gerry') and amount reading ('03 19 8'). Claude-haiku incorrectly reported no amounts for this line."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate amount reading ('01 15 6'). Claude-haiku's pence value (19) was invalid, failing the hard rule filter."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Brew house",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified that 'Brew house' has no associated amount on its line. Claude-haiku incorrectly assigned an invalid pence value (15), failing the hard rule filter. Gpt-5-mini incorrectly assigned the amount '01 15 6', which belongs to the 'Bensington' row above."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Trethewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description ('Trethewin' is clearer than claude-haiku's 'Trethewrin') and amount reading ('06 9 7'). Claude-haiku showed incorrect column alignment, reading '0 6 9'."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description and the absence of amounts for this row, visually confirmed."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "Summa Arrearaginum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description, row type, and amounts ('230 13 8'), visually confirmed. This final total also serves as the master alignment reference for column positions."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

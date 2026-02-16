@@ -1,0 +1,279 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2º die Novembris a.D. 1859",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum d.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Inst.ment on Loan",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Andrews. N. 30 on So.",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bushey Divds",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Colby Bursar Increm. domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do. Do. So.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Divd on Sr. Jones Consols, to Michs. 58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "New Building Fund. Aut. Cloan",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Late Building Fund. not carried to Acct.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Sr. Richards. Divinity Prize",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ryse Rent Miss Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sixteen per cent on Rents",
+      "amount_pounds": 738,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Composition to Colly. by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rector",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Rector from",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Caution Fund – Amount £30",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Interest £4.5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Due Repayment from Choir Fund",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do.do. Consols, sale of Caution Fund",
+      "amount_pounds": 1010,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hammond Keys",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Allnutt repayment by Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instructed (Choir",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "6726 11 7",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 1: No change — Header \"1860\" has no amounts.\nRow 2: No change — Header line reads clearly and has no amounts.\nRow 3: No change — Header line reads clearly and has no amounts.\nRow 4: No change — \"Recepta\" header has no amounts.\nRow 5: No change — \"Clutterbuck ...\" shows 10 in the pounds column.\nRow 6: No change — \"Andrews ...\" shows 30 in the pounds column.\nRow 7: No change — \"Bushey Divds\" reads 7.8.6 clearly in the columns.\nRow 8: No change — \"Colby Bursar Increm. domus\" reads 1308.6.7 in the columns.\nRow 9: No change — \"Do. Do. So.\" reads 1986.0.7.\nRow 10: No change — \"Deans Fees\" reads 77.13.4.\nRow 11: No change — \"Divd on Sr. Jones Consols\" reads 17.2.9.\nRow 12: No change — \"New Building Fund\" reads 154.13.7.\nRow 13: No change — \"Late Building Fund\" reads 47.1 (no pence).\nRow 14: No change — \"Sr. Richards Divinity Prize\" reads 10 (pounds only).\nRow 15: No change — \"Ryse Rent Miss Jones Share\" reads 11.8.6.\nRow 16: amount_pounds=733 → amount_pounds=738 | Reason: The pounds column for \"Sixteen per cent on Rents\" is clearly \"738\" in the image (the middle digit is an '8' with the characteristic double-loop, not a '3'). I set confidence_score to 0.9 for this corrected value.\nRow 17: No change — \"Composition to Colly. by Masters\" reads 332.10.\nRow 18: No change — \"Overplus Room Rent Xmas...\" reads 7.11.\nRow 19: No change — \"Repayment of money borrowed...\" reads 37.4.5.\nRow 20: No change — \"Caution Fund – Amount £30\" is a note; no amounts in the main columns.\nRow 21: No change — \"Interest £4.5\" appears as a note associated with the Caution Fund; no separate column amounts.\nRow 22: No change — \"Due Repayment from Choir Fund\" shows 9 in the shillings column (no pounds/pence).\nRow 23: No change — \"Do.do. Consols, sale of Caution Fund\" reads 1010.19.8.\nRow 24: No change — \"Hammond Keys\" reads 1 shilling.\nRow 25: No change — \"Allnutt repayment by Bursar\" reads 5 shillings.\nRow 26: No change — \"Sub Rector repayment Instructed (Choir\" reads 30 in pounds.\nRow 27: No change — Total \"6726 11 7\" matches the image.",
+    "changes_made": true
+  }
+}

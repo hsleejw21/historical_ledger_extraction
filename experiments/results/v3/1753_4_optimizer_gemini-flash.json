@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "Heavy ink bleed-through from the reverse side of the page significantly reduces contrast, especially noticeable across rows 1-14. This may cause difficulty in discerning some characters.",
+    "The vertical ruling lines separating £ / s / d columns are faint, particularly the line between shillings and pence."
+  ],
+  "estimated_row_count": 25,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for Pounds, Shillings, and Pence are faint but mostly discernible. Rows 15-18, particularly the 'Summa totalis solutorum' line (row 15), provide a clear alignment reference. Project these column boundaries to rows above, trusting the visual vertical alignment over potential faintness of lines.",
+  "prompt_additions": "CRITICAL: There is heavy ink bleed-through from the reverse side of the page, particularly noticeable across rows 1-14. This reduces contrast and may obscure characters. Extractors should pay close attention to ensure digits are not misidentified due to ghosting. The vertical ruling lines for Pounds, Shillings, and Pence are faint. Use rows 15-18 as a clear alignment reference, specifically the 'Summa totalis solutorum' line (row 15), where the column separation is distinct. Project these column boundaries to all rows above. Some pence values (e.g., in rows 5, 6, 7, 8) are represented by a dash or a '0' with a line above it, signifying 0 pence. Extract these as '0'. Be aware that the page content changes significantly after row 18. Rows 19-25 are a list of names/signatures and do not contain ledger entries with associated monetary values in the main table format; focus extraction on the ledger table from row 1 to 18.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

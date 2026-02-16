@@ -1,0 +1,329 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arranagia - Brought up",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top title on page; handwriting faint and a little stylized. Interpreted as 'Arranagia' though letters are not crystal clear; no monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear centered section heading. No amounts on the line; lettering reasonably legible compared with page."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Hidlington Rectory 1 year",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts aligned at right and clearly read as '22 5 6'. Used positional alignment from deeper totals (rows 9 & 14) to set column boundaries; digits are distinct."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hidlington Vicarage 1 year",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads 'Do - Vicarage' (ditto). Per page guidance expanded ditto to 'Hidlington Vicarage'. No amount visible on this line (appears blank or quoted marks). Handwriting faint."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Right-hand numerals read clearly as '28 0 0'. Alignment confirmed using row 14 reference; digits are unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Long Whittenham Vicarage 1 year",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads 'Do - Vicarage' (ditto). Expanded to 'Long Whittenham Vicarage' per page guidance. No monetary figures visible on the line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 year",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Right-hand numerals read clearly as '14 0 0'. Column alignment cross-checked against row 14; digits are distinct."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered section heading, clearly legible. No amounts on this line."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hidlington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numerals used as primary column alignment reference. Read as '210 18 9' (shillings 18 within 0–19). Ink faint but digits are reasonably distinct; used this row (and row 14) to infer column boundaries for the page."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Hidlington Mills 1 year",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Original line reads 'Do - Mills 1 year'; expanded to 'Hidlington Mills 1 year'. Right-hand numerals read as '18 18 11'. The last digit is slightly cramped but still legible; alignment consistent with row 9/14."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.55,
+      "notes": "Amount appears as '115 2 3' with a small fractional mark after the pence that looks like three-quarters (3/4). Handwriting faint and fraction tiny; chosen 0.75 as best fit. Column alignment taken from rows 9 & 14."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "South Newington Do 2 years",
+      "amount_pounds": 39,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Line reads 'South Newington Do 2 years'. Numerals read as '39 0 10' with a faint fractional mark after pence that appears like 3/4. Fraction is faint; selected 0.75 with moderate confidence. Column alignment consistent with reference rows."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Tenement 2 years",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Line reads 'Do - Tenement 2 years' (expanded to 'South Newington Tenement 2 years'). Right-hand figure appears '5 17 5' with a small loop after the pence interpreted as a halfpenny (0.5). Fraction faint but shape consistent with 'ob' symbol for half-penny."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Merton Rectory (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear numeric reading '240 2 5'. This row was used as a primary alignment reference (per page guidance); digits are distinct and validate (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Yarnton Do",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Original reads 'Yarnton Do' (ditto). Expanded to 'Yarnton Do' (i.e., Yarnton parish continuation). Right-hand numerals read as '50 5 5' with a small halfpenny loop after the pence; interpreted as 5 1/2d (0.5)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numerals read clearly as '25 10 7'. Alignment consistent with previous reference rows; digits are legible though handwriting faint."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Alton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Place read as 'Alton Ferry' (handwriting could also be 'Aifton' but 'Alton' is most likely). Amount read as '9 7 0' with a small quarter-penny mark after the pence; interpreted as 0 1/4d (0.25). Fraction tiny and faint, so moderate confidence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Densington 4 years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Parish name read as 'Densington' (handwritten name slightly unclear). Amount reads '30 0 9' with a small loop after pence interpreted as halfpenny (0.5). Digits otherwise clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Garsington - Blinkard",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Line reads 'Garssington - Blinkard' (interpreted as 'Garsington - Blinkard'). Amount appears as '9 10 3' with a small halfpenny sign after pence; fraction assigned as 0.5. Handwriting for name and fraction faint."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garsington - Crooke 5 years",
+      "amount_pounds": 44,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads 'Do - Crooke 5 years' expanded to 'Garsington - Crooke 5 years'. Amount '44 5 2' is relatively clear and aligns with column boundaries established by rows 9 & 14."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tinstinhulle - Napier 2 years",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Place read as 'Tinstinhulle' (handwriting uncertain but consistent form) with tenant 'Napier'. Amount read '17 0 1' with a small halfpenny loop after the pence; interpreted as 1 1/2d. Fraction faint but recognizable."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tinstinhulle - Beaton 2 years",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Do - Beaton 2 years' (expanded to Tinstinhulle). Numeric reading '2 16 1' is clear; alignment used row 14 as reference."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Trethewin 2 years",
+      "amount_pounds": 37,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Name read as 'Trethewin' (handwriting ambiguous). Amount appears '37 10 4' with a faint halfpenny mark after the pence; taken as 4 1/2d. Fraction is faint; moderate confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Little Tew - Taylor 2 years",
+      "amount_pounds": 16,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Little Tew - Taylor 2 years'. Amount '16 9 8' is relatively clear; digits legible and consistent with inferred column boundaries."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Warley 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Place name reads 'Warley' (could be another similar name but likely Warley). Amount looks like '20 17 5' with a tiny fractional mark after the pence that resembles three-quarters (3/4). Fraction is small and faint; moderate confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Rinder 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Name transcribed as 'Rinder' (handwriting ambiguous; could be 'Rinder'/'Ringler'). Amount reads '19 4 8' with a faint halfpenny mark; interpreted as 8 1/2d (0.5)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Eden 2 years",
+      "amount_pounds": 4,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line reads 'Eden 2 years'. Amount '4 7 8' is reasonably clear though ink is light; alignment consistent with reference."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Priors 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten place looks like 'Pivors' or 'Priors'; chosen 'Priors' as most plausible. Amount read '6 19 3' clearly within valid ranges; alignment validated against rows 9 & 14."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Hartley 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Line reads 'Hartley 2 years'. Amount appears '1 19 2' with a small fractional mark (interpreted as 3/4). Fraction faint; chosen 0.75 with moderate confidence. Column alignment inferred from row 14 reference."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

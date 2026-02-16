@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "The page is slightly tilted clockwise by approximately 1-2 degrees.",
+    "Minor dark discoloration and edge tearing on the right side of the page, primarily in the middle-bottom section, but it does not obscure any critical text or numeric data within the main ledger columns."
+  ],
+  "estimated_row_count": 41,
+  "layout_type": "standard",
+  "layout_hints": "The three vertical ruling lines separating the £ / s / d columns are visible but the line for pence (d) is faint, especially between rows 15-25. The lines for pounds and shillings are generally clear. The page has a minor clockwise tilt (~1-2 degrees).",
+  "prompt_additions": "CRITICAL: Row 3, 'Brought up 690 3 0', is a carried-forward balance. It must be extracted as a full entry, including its monetary amount. Rows 4 ('Braine') and 28 ('Kidlington Estate purchase of.') are category headers and should be extracted as distinct descriptive entries, even though they lack direct monetary values on their lines. The subsequent indented rows are sub-entries under these categories. Row 41 (the 'Total' row) has very clear and distinct ruling lines; use this as a strong reference for establishing accurate column boundaries across the entire page, particularly where the pence column line is faint. Extractors should trust the vertical ruling lines for column separation over any perceived horizontal drift due to the page tilt. Note the fractional pence '1/2' in Row 41; ensure this is captured accurately.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

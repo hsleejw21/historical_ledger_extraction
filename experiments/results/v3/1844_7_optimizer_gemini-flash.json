@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "The page is scanned with a noticeable tilt (~5 degrees clockwise), causing vertical lines and text to appear slightly slanted or wobbly.",
+    "The vertical ruling lines, while present, are somewhat faint and may appear irregular due to the page tilt."
+  ],
+  "estimated_row_count": 27,
+  "layout_type": "standard",
+  "layout_hints": "The page presents a single column of financial entries. The vertical ruling lines for £ / s / d are visible but faint and appear curved due to the tilted scan. The final total row (row 27) clearly defines the pounds, shillings, and pence column alignments.",
+  "prompt_additions": "CRITICAL: The page is tilted approximately 5 degrees clockwise. This will make the vertical ruling lines appear curved or wobbly. Do not rely solely on visual alignment of numbers; use the visible ruling lines as a primary guide, understanding they are physically straight on the page. Use row 27 (the final total '806 17 1/2') as your definitive reference for the £ s d column boundaries, then project these boundaries upwards. Note that the pence column in row 27 includes a fraction '1/2'.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

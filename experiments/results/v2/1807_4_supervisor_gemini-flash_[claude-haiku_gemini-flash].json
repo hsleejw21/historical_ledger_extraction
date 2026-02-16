@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this row's content and type. Visual verification confirms the text is clear and no monetary amounts are present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1800 Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification clearly shows the year '1800' (not '1808') and the name 'Ridge' (not 'Pleydge'). claude-haiku made errors in transcribing both the date and the name. The row is a clear header with no associated monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421.1.0 (Cons. Q.D)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms gemini-flash's accurate transcription of both the description text ('1421.1.0 (Cons. Q.D)') and the monetary amount '19.3.8'. claude-haiku incorrectly transcribed the description and the pence amount as '0'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 – 9 4/prCt. Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Both extractors agreed on the monetary amounts '9.16.6'. Visual verification shows gemini-flash provided a more complete and accurate transcription of the description text, including '4/prCt. Do', which claude-haiku omitted."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421.1.0 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Both extractors agreed on the monetary amounts '19.3.8'. Visual verification shows gemini-flash provided a more accurate transcription of the embedded number in the description ('1.0' versus claude-haiku's '1.8')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 – 9 Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Both extractors agreed on the monetary amounts '9.16.6'. Visual verification shows gemini-flash provided a more complete and accurate transcription of the description text, including the final 'Do', which claude-haiku omitted."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "—",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for amounts and description. The amount '58-4' is clearly visible in the image; the dash indicates 0 shillings, which is also confirmed by arithmetically summing the preceding entries (Rows 3-6: £19.3.8 + £9.16.6 + £19.3.8 + £9.16.6 = £58.0.4). claude-haiku misread the amount as '50.15.4' and incorrectly added 'Subtotal line' as a description for the simple dash."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "State of the Fund for Advowsons in the 3 pr Cent. reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash. Visual verification confirms gemini-flash's transcription is largely accurate. claude-haiku misread 'State' as 'Vale', 'Advowsons' as 'Adorozion', and 'pr' as 'd'. Some words like 'Advowsons' are slightly faded, as noted by gemini-flash, but its reading is superior."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of Stock Plan Account 2576.10.7",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. This row was added as claude-haiku entirely missed it as a distinct entry, instead merging its text with the subsequent line. Visual verification confirms this is a standalone entry. The value '2576.10.7' is embedded in the description and represents a stock amount for the account, not a monetary transaction for the main ledger columns, so the amount fields are correctly left blank."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "extra year in Dw. 66.17.6 - bought making",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Both extractors correctly read the main monetary amount '99.8.10'. However, gemini-flash provided a precise and accurate description for this specific row, correctly identifying '66.17.6' as an embedded amount within the text. claude-haiku's description was a significantly inaccurate, garbled merge of this and the preceding row's text."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms this row consists solely of a numeric amount '2576.7.5.' in the ledger columns, likely a balance or total, with no associated description text. claude-haiku misread the amount as '25.17.5' and incorrectly invented the description 'maund'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "N.B. Dividend – viz 34.15.7 not yet invested.",
+      "amount_pounds": 34,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification clearly shows 'N.B.' (not 'N.D.') and 'viz' (not 'on') in the description. The amount '34.15.7' is visibly present both embedded in the description and clearly written in the ledger's amount columns. claude-haiku incorrectly stated that no amount was visible for this row and made several errors in the description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

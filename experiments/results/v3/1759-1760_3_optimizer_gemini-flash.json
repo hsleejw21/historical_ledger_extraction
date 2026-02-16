@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "Significant ink bleed and shadowing from the reverse side is visible, particularly affecting the clarity of text and numerical values in rows 15-28.",
+    "The vertical ruling lines separating the Pounds, Shillings, and Pence columns are extremely faint or nearly invisible, especially in the upper and middle sections of the page.",
+    "Light brown stains (foxing) are scattered across the page, lightly obscuring some characters but generally not preventing readability."
+  ],
+  "estimated_row_count": 29,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for the amount columns (£ s d) are mostly invisible. The final total row (row 29) clearly shows the column separation for '100', '2', and '11 1/2'. Use this row as your primary reference for projecting the column boundaries upwards. Pay close attention to the visual spacing in other rows to maintain alignment.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for the money columns (£ s d) are virtually non-existent for most of the page. Use row 29 (the Total row: '100', '2', '11 1/2') to establish precise vertical column boundaries. Project these boundaries upwards for all other rows. Rows 15-28 are moderately obscured by ink bleed from the reverse; if an amount is unreadable, leave it blank and set confidence < 0.3. Row 17 and row 26 are continuations of the description from the previous line but contain their own amounts; treat these as distinct rows. The pence value in the total row (row 29) is '11 1/2'; ensure this fraction is extracted accurately.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

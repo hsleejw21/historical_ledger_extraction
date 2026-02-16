@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued - Mixed Rents variable-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description taken from `gpt-5-mini` as 'Arrearagia' and the full trailing dash match the image more accurately than `claude-haiku`'s 'Arrerages' and missing dash. Both extractors correctly identified it as a header with no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Bensington - 1/2.",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts (£8, 12s, 0d, 0.75 fraction) are in full consensus between both extractors and are clearly visible in the image. The description 'Bensington - 1/2.' from `gpt-5-mini` is visually accurate, including the ' - 1/2.' which `claude-haiku` missed and misread the location name as 'Borington'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (£3, 0s, 5d, 0.5 fraction) are in full consensus between both extractors and are clearly visible in the image. The description 'South Newington Tenement' from `gpt-5-mini` is visually accurate. `claude-haiku`'s description 'Croft Gazing — Covenants' is a hallucination."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Trerhewsin - Lodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (£22, 1s, 7d, no fraction) are in full consensus and visually clear. The description 'Trerhewsin - Lodge' is a visual override, as `gpt-5-mini`'s 'Treshwin - Lodge' was closer to the image than `claude-haiku`'s 'Folkstone — Lodge'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Little Cow.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between both extractors for description, row type, and absence of amounts. Visually confirmed as a clear header."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Taylor - 2 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "The description 'Taylor - 2 yrs' and the shillings value '10' are accurate from `gpt-5-mini` and visually confirmed. `claude-haiku` had an incorrect description ('lay for. Shed') and an incorrect shillings value ('11'). Pounds '20' and pence '3' were in consensus."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Judge -",
+      "amount_pounds": 10,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "The description 'Judge -' and the pounds value '10' are accurate from `gpt-5-mini` and visually confirmed. `claude-haiku` had an incorrect description ('Lodge') and an incorrect pounds value ('12'). Shillings '14', pence '1', and fraction '0.5' were in consensus."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Storns.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£0, 10s, 10d, no fraction) are in full consensus between both extractors and visually clear. The description 'Storns.' from `gpt-5-mini` is visually accurate. `claude-haiku`'s description 'Morne.' is a hallucination."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hartley.",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Full consensus between both extractors for description and all amount fields. Visually confirmed as accurate."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimber.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£23, 12s, 5d, no fraction) are in full consensus between both extractors and visually clear. The description 'Kimber.' from `gpt-5-mini` is visually accurate. `claude-haiku` had a slight spelling error ('Kimbier.')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Busby (Worby).",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "The description 'Busby (Worby).' and the pence fraction '0.25' (a single 'q' or loop for farthing) are accurate from `gpt-5-mini` and visually confirmed. `claude-haiku` had an incorrect description ('Bushy, Warley') and misread the fraction as '0.75'. Pounds '25' and shillings '16' were in consensus."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit-Rent for Kidlington Vicarage vid. am. pro 2nd Dec. Nov. 1810 mem †",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Both extractors correctly identified this as an entry with no amounts. The description from `gpt-5-mini` is visually confirmed as significantly more accurate for the location ('Kidlington' vs 'Hillingston'), date ('2nd Dec. Nov. 1810' vs '20th die Nov 1808'), and trailing mark ('†' vs '+'). Minor adjustments for hyphenation ('Quit-Rent') made based on visual inspection."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 10,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

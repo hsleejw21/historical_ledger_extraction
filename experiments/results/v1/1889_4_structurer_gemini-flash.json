@@ -1,0 +1,391 @@
+{
+  "layout_type": "complex",
+  "skeleton": {
+    "layout_type": "complex",
+    "estimated_total_rows": 63,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Special Funds",
+        "side": "center"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Library Account",
+        "side": "center"
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "From Shortridge Trust.",
+        "side": "left"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Rates, Taxes & Insurance",
+        "side": "right"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Librarians Salary",
+        "side": "right"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Wages, Coals, &c.",
+        "side": "right"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Purchase of Books, Subscriptions &c.",
+        "side": "right"
+      },
+      {
+        "row_index": 8,
+        "row_type": "total",
+        "description": "364 2",
+        "side": "left"
+      },
+      {
+        "row_index": 9,
+        "row_type": "total",
+        "description": "364 2 0",
+        "side": "right"
+      },
+      {
+        "row_index": 10,
+        "row_type": "header",
+        "description": "Pension Fund",
+        "side": "center"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Dividends & Interest",
+        "side": "left"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Sale of Shillingstone Living",
+        "side": "left"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "From Tuition Funds.",
+        "side": "left"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Purchase of Cambridge 4% Deb.",
+        "side": "right"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Agency &c",
+        "side": "right"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Purchase of Consols",
+        "side": "right"
+      },
+      {
+        "row_index": 17,
+        "row_type": "total",
+        "description": "3024 11 9",
+        "side": "left"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Balance at close of acct.",
+        "side": "right"
+      },
+      {
+        "row_index": 19,
+        "row_type": "total",
+        "description": "3024 11 9",
+        "side": "right"
+      },
+      {
+        "row_index": 20,
+        "row_type": "header",
+        "description": "Local Rates",
+        "side": "center"
+      },
+      {
+        "row_index": 21,
+        "row_type": "header",
+        "description": "Composition Fund",
+        "side": "center"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Transfer from Compositions (General Acct II)",
+        "side": "left"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Rent",
+        "side": "left"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Dividends",
+        "side": "left"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Balance at beginning of acct.",
+        "side": "left"
+      },
+      {
+        "row_index": 26,
+        "row_type": "total",
+        "description": "152 18 0",
+        "side": "left"
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Balance at close of acct",
+        "side": "right"
+      },
+      {
+        "row_index": 28,
+        "row_type": "total",
+        "description": "152 18",
+        "side": "right"
+      },
+      {
+        "row_index": 29,
+        "row_type": "header",
+        "description": "Tuition Fund",
+        "side": "center"
+      },
+      {
+        "row_index": 30,
+        "row_type": "entry",
+        "description": "Tuition Fees",
+        "side": "left"
+      },
+      {
+        "row_index": 31,
+        "row_type": "entry",
+        "description": "Dividends & Interest",
+        "side": "left"
+      },
+      {
+        "row_index": 32,
+        "row_type": "entry",
+        "description": "Tutors & Fellows (being Fellows)",
+        "side": "right"
+      },
+      {
+        "row_index": 33,
+        "row_type": "entry",
+        "description": "— do — (not being Fellows)",
+        "side": "right"
+      },
+      {
+        "row_index": 34,
+        "row_type": "entry",
+        "description": "Fees to Professors & others",
+        "side": "right"
+      },
+      {
+        "row_index": 35,
+        "row_type": "entry",
+        "description": "Prizes",
+        "side": "right"
+      },
+      {
+        "row_index": 36,
+        "row_type": "entry",
+        "description": "Sub-Rector.",
+        "side": "right"
+      },
+      {
+        "row_index": 37,
+        "row_type": "entry",
+        "description": "Stationery &c.",
+        "side": "right"
+      },
+      {
+        "row_index": 38,
+        "row_type": "entry",
+        "description": "Transfer to Pension Funds.",
+        "side": "right"
+      },
+      {
+        "row_index": 39,
+        "row_type": "entry",
+        "description": "Investment",
+        "side": "right"
+      },
+      {
+        "row_index": 40,
+        "row_type": "entry",
+        "description": "Total Receipts.",
+        "side": "left"
+      },
+      {
+        "row_index": 41,
+        "row_type": "total",
+        "description": "2737 9 5",
+        "side": "left"
+      },
+      {
+        "row_index": 42,
+        "row_type": "entry",
+        "description": "Balance at beginning of acct",
+        "side": "left"
+      },
+      {
+        "row_index": 43,
+        "row_type": "total",
+        "description": "706 16 2",
+        "side": "left"
+      },
+      {
+        "row_index": 44,
+        "row_type": "total",
+        "description": "3444 5 7",
+        "side": "left"
+      },
+      {
+        "row_index": 45,
+        "row_type": "entry",
+        "description": "Total Payments.",
+        "side": "right"
+      },
+      {
+        "row_index": 46,
+        "row_type": "total",
+        "description": "3339 8 7",
+        "side": "right"
+      },
+      {
+        "row_index": 47,
+        "row_type": "entry",
+        "description": "Balance at close of acct.",
+        "side": "right"
+      },
+      {
+        "row_index": 48,
+        "row_type": "total",
+        "description": "104 17",
+        "side": "right"
+      },
+      {
+        "row_index": 49,
+        "row_type": "total",
+        "description": "3444 5 7",
+        "side": "right"
+      },
+      {
+        "row_index": 50,
+        "row_type": "header",
+        "description": "Exhibition Fund",
+        "side": "center"
+      },
+      {
+        "row_index": 51,
+        "row_type": "entry",
+        "description": "From Corporate Revenues.",
+        "side": "left"
+      },
+      {
+        "row_index": 52,
+        "row_type": "entry",
+        "description": "Balance at beginning of acct.",
+        "side": "left"
+      },
+      {
+        "row_index": 53,
+        "row_type": "entry",
+        "description": "Paid to Exhibitioners.",
+        "side": "right"
+      },
+      {
+        "row_index": 54,
+        "row_type": "total",
+        "description": "257 13 4",
+        "side": "left"
+      },
+      {
+        "row_index": 55,
+        "row_type": "entry",
+        "description": "Balance at close of acct.",
+        "side": "right"
+      },
+      {
+        "row_index": 56,
+        "row_type": "total",
+        "description": "257 13 4",
+        "side": "right"
+      },
+      {
+        "row_index": 57,
+        "row_type": "header",
+        "description": "Undergraduates Reading Room Fund",
+        "side": "center"
+      },
+      {
+        "row_index": 58,
+        "row_type": "entry",
+        "description": "By Subscriptions",
+        "side": "left"
+      },
+      {
+        "row_index": 59,
+        "row_type": "entry",
+        "description": "Balance at beginning of acct.",
+        "side": "left"
+      },
+      {
+        "row_index": 60,
+        "row_type": "entry",
+        "description": "Sundry Bills to",
+        "side": "right"
+      },
+      {
+        "row_index": 61,
+        "row_type": "total",
+        "description": "41 8",
+        "side": "left"
+      },
+      {
+        "row_index": 62,
+        "row_type": "entry",
+        "description": "Balance at close of acct.",
+        "side": "right"
+      },
+      {
+        "row_index": 63,
+        "row_type": "total",
+        "description": "41 8",
+        "side": "right"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

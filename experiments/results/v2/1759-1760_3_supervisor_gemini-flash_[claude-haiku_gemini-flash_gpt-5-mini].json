@@ -1,0 +1,339 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amount fields. Description 'Soluta Ordinaria' visually confirmed, matching gemini-flash and gpt-5-mini."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitat Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (3, 16, 8) agreed by all extractors and visually confirmed. Description confirmed visually as 'Civitat Oxon' (matching gemini-flash)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll Addis xli",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (0, 0, 8) agreed by all extractors and visually confirmed. Description confirmed visually as 'Coll Addis xli', overriding extractor variations."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll Addis xli",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings (0, 18) agreed by all extractors and visually confirmed. Pence (0) visually confirmed, matching gpt-5-mini. Description confirmed visually as 'Coll Addis xli'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll Omn: Anima",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both description ('Coll Omn: Anima') and monetary values (4, 12, 4) visually confirmed and matched with gpt-5-mini. gemini-flash had incorrect amounts. claude-haiku had a significantly different description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Ball",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (0, 12, 4) agreed by gpt-5-mini and claude-haiku, visually confirmed. Description 'Coll Ball' visually confirmed from gemini-flash and gpt-5-mini."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll S.J.B.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (0, 8, 2) visually confirmed from gpt-5-mini. Description 'Coll S.J.B.' visually confirmed, overriding other readings."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (0, 14, 0) and description ('Mayors Capons') visually confirmed, matching gpt-5-mini."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Curia Archings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (0, 1, 8) confirmed visually from gpt-5-mini and claude-haiku. Description 'Curia Archings' visually confirmed, overriding other readings."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procur: Kidley: S:Newington & Merth.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku misaligned these amounts with the subsequent row's description."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Synods ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description, monetary values, and fraction. gemini-flash correctly extracted all elements for this row, including the 'ob' symbol as 0.5 fraction. gpt-5-mini extracted the correct amounts and fraction but misaligned it with the previous description."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini had correct amounts but an incorrect description. claude-haiku had a slightly off description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lobicra",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Scull: & Ladroz",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini had correct amounts but incorrect description. claude-haiku had correct amounts but a slightly off description."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleansing Chap. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Carbonibs ad fest. Annun.",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash, with 'Annun' including superscript 'e' (contracted form), visually confirmed. Monetary values (28, 0, 0) visually confirmed, matching gpt-5-mini and claude-haiku for amounts, overriding gemini-flash's pounds value (23)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash visually confirmed. Monetary values (28, 0, 0) visually confirmed, matching gpt-5-mini and claude-haiku for amounts, overriding gemini-flash's pounds value (23)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Jonson",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini had correct amounts but incorrect description. claude-haiku was off on description and shillings."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Reparationibus Cif.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bibl: Lect. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and monetary values are in consensus between gemini-flash and claude-haiku, and visually confirmed."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "— Consecration",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. claude-haiku had correct amounts and a close description. gpt-5-mini had correct amounts but incorrect description."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southenevington Vicar ad fest. Annun.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini was completely misaligned for this row. claude-haiku had correct amounts but an incorrect description."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. gpt-5-mini and claude-haiku had correct amounts but incorrect descriptions."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedel of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. claude-haiku had correct amounts and a very similar description. gpt-5-mini was misaligned."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excize due Lady Day Cast",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and monetary values matching gemini-flash. claude-haiku had correct amounts and a very similar description, differing only in the last word ('next' vs 'Cast'). gpt-5-mini was misaligned."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Monetary values (pounds 100, shillings 2, pence 11, fraction 0.5) visually confirmed, matching gpt-5-mini. The half-penny 'ob' symbol is clearly visible. gemini-flash was disqualified for violating pence hard rule (119). claude-haiku missed the fraction. Description is empty as per image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

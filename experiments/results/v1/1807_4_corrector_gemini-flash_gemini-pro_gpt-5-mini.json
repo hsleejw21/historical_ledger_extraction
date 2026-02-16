@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1800 Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421.1.0 (cons: Q.D)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do - on 546 - 9 4/prCt Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421.1.0 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 - 9 Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "----------",
+      "amount_pounds": 58,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Rate of the Fund for Advowsons in the 3 pr Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of Stock / Play account 2576.10.7 with one years Div: 66.17.6 – bought",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "making",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "2576.7.5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "N.B Dividend - viz 34.15.7 not yet invested.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 3: 19.3.8 → 19.3.0 | Reason: The right-hand pence digit for the first \"Dividend on 1421.1.0\" entry is a clear round \"0\" in the image (not an \"8\"); pounds and shillings (19 and 3) match. I therefore correct amount_pence_whole from 8 to 0 and set confidence_score to 0.9.\n\nRow 1: No change — header \"1800 Received by Bankers\" has no amounts.\nRow 2: No change — header \"Messrs Biddulph, Cocks & Ridge\" has no amounts.\nRow 4: No change — 9.16.6 reads clearly in the image.\nRow 5: No change — 19.3.8 (the second \"on 1421.1.0 as before\") reads clearly as 19.3.8.\nRow 6: No change — 9.16.6 reads clearly.\nRow 7: No change — total \"58. - 4\" corresponds to 58 pounds 4 shillings, no pence.\nRow 8: No change — header text, no amounts.\nRow 9: No change — 99.8.10 (underlined) reads clearly.\nRow 10: No change — \"making\" total row left blank for numeric fields as in image.\nRow 11: No change — \"2576.7.5\" appears as a written total in the text (kept in description).\nRow 12: No change — note \"N.B Dividend ... 34.15.7 not yet invested\" is textual.",
+    "changes_made": true
+  }
+}

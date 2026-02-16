@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1. (Revenue) Payments.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'claude-haiku's' description, which includes the trailing period seen in the image. Both extractors correctly identified it as a header with no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "A. External",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between both extractors for description, type, and empty amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Quit Rents",
+      "amount_pounds": 7,
+      "amount_shillings": 18,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description and all amount values (7£ 18s 2d). 'claude-haiku' misread the description as 'Dried Rents' and the pounds (29) and shillings (7)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 377,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds (377) and shillings (13) values. 'claude-haiku' misread pounds (72) and shillings (19)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Agency & Management",
+      "amount_pounds": 54,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds (54) and shillings (1) values. 'claude-haiku' misread pounds (15) and shillings (4)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Law Charges.",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (3). 'claude-haiku' misread pounds (9). Both correctly interpreted the pence dot as 0."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Repairs & Improvements",
+      "amount_pounds": 321,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (321). 'claude-haiku' misread pounds (100)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Payments to Vicars",
+      "amount_pounds": 97,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds (97) and shillings (6) values. 'claude-haiku' misread pounds (110) and shillings (9)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Donations to Churches &c",
+      "amount_pounds": 55,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description (including '&c') and pounds value (55). 'claude-haiku' truncated the description ('&') and misread pounds (122)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Other expenses",
+      "amount_pounds": 51,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description ('Other expenses') and all amount values (51£ 5s 10d). 'claude-haiku' misread description ('Misc. expenses'), pounds (133), and shillings (7). Its note about pence validity was confused."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 968,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row, the subtotal for 'A. External', was correctly identified by 'gemini-flash' (R11). 'claude-haiku' missed this total. Visual verification confirms the amounts (968£ 8s 11d) and that there is no written description, so the description field is blank."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "B. Internal.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'claude-haiku's' description, which includes the trailing period seen in the image. Both extractors correctly identified it as a header with no amounts."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 530,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (530). 'claude-haiku' misread pounds (14)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Maintenance & Repairs",
+      "amount_pounds": 652,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (652). 'claude-haiku' misread pounds (55)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chapel Services &c",
+      "amount_pounds": 199,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description (including '&c') and pounds value (199). 'claude-haiku' truncated the description ('&') and misread pounds (46)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Library",
+      "amount_pounds": 348,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (348). 'claude-haiku' misread pounds (50). 'gemini-flash' also correctly noted the faint page reference '76'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "College Servants",
+      "amount_pounds": 1256,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (1256). 'claude-haiku' misread pounds (50)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Table Allowances",
+      "amount_pounds": 1357,
+      "amount_shillings": 4,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description ('Allowances') and pounds (1357) and pence (7) values. 'claude-haiku' omitted 's' from 'Allowances', misread pounds (95), and pence (9)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "College Entertainments",
+      "amount_pounds": 58,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (58). 'claude-haiku' misread pounds (105)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Maintenance of Est:",
+      "amount_pounds": 909,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description ('Est:') and pounds value (909). 'claude-haiku' misread 'Est' as 'Lost' and pounds (118)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "The Head of the College.",
+      "amount_pounds": 1100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (1100). 'claude-haiku' misread pounds (130). Both correctly interpreted the pence and shillings dots as 0."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Fellows",
+      "amount_pounds": 1170,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' pounds value (1170). 'claude-haiku' misread pounds (155). Both correctly interpreted the pence and shillings dots as 0."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Scholars:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a header. 'gemini-flash' correctly identified the 'row_type'. 'claude-haiku' identified it as an 'entry' but its notes describe it as a 'label row' with 'no amounts visible', which contradicts its 'entry' classification."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Foundation",
+      "amount_pounds": 1346,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is an entry with description 'Foundation' and amounts (1346£ 19s 11d). 'gemini-flash' is correct. 'claude-haiku' miscategorized it as a 'header', misread the description as 'Founders of Trust', and misread pounds (146)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Trust",
+      "amount_pounds": 826,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is an entry with description 'Trust' and amounts (826£ 1s 6d). 'gemini-flash' is correct. 'claude-haiku' put the amount in the description, misread shillings (16), and pence (0, due to misinterpreting a period)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "College Officers",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is an entry with amount (100£ 0s 0d). 'claude-haiku' correctly identified the 'row_type' as entry, but misread pounds (159). 'gemini-flash' incorrectly identified it as a header."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "The sd Exp.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description ('The sd Exp.'). 'claude-haiku' misread it as 'The Sundrie Fence'. Both correctly identified the amounts as 100£ 0s 0d."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "The Tuition Fund",
+      "amount_pounds": 3394,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is an entry with description 'The Tuition Fund' and amounts (3394£ 7s 11d). 'gemini-flash' incorrectly classified it as a header and then listed the amount in a subsequent blank-description row. 'claude-haiku' completely misread the description as 'The Exhibition Fund.' and misread pounds (5)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "The Exhibition Fund.",
+      "amount_pounds": 308,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is an entry with description 'The Exhibition Fund.' and amounts (308£ 14s 2d). 'gemini-flash' incorrectly classified it as a header and then listed the amount in a subsequent blank-description row. 'claude-haiku' completely misread the description as 'Misc. expenses.' and misread pounds (155) and shillings (4)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Other expenses.",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description and amounts (1£ 2s 0d). 'claude-haiku' had lost row alignment by this point."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12339,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row, the subtotal for 'B. Internal', was correctly identified by 'gemini-flash' (R33). 'claude-haiku' missed this total. Visual verification confirms the amounts (12339£ 9s 1d) and that there is no written description, so the description field is blank."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "C. University purposes:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between both extractors for description, type, and empty amounts."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Common University Fund",
+      "amount_pounds": 95,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description ('University') and all amount values (95£ 10s 6d). 'claude-haiku' misread 'University' as 'Utility' and misread all amount values (pounds as 205, shillings as 0, pence as 0)."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "Total payments",
+      "amount_pounds": 13403,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a total row ('total payments') with amounts (13403£ 8s 6d). 'gemini-flash' is correct. 'claude-haiku' miscategorized as an 'entry' and misread all amount values (pounds as 9570, shillings as 6, pence as 0)."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "Balance to Gen Acct.II.",
+      "amount_pounds": 897,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gemini-flash's' description and all amount values (897£ 6s 8d). 'claude-haiku' misread the description as 'Balance to New Account' and misread all amount values (pounds as 13608, shillings as 8, pence as 6)."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 14300,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amounts (14300£ 15s 2d). There is no written description, so the description field is blank. 'gemini-flash' correctly handled the blank description, while 'claude-haiku' incorrectly placed the amount values into the description field."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 32,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 2
+    }
+  }
+}

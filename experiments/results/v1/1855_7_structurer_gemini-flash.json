@@ -1,0 +1,198 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 37,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "1855"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Soluta Varia"
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "Kimber. Poler."
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Turrill Hatchmig x"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Faulkner Hatchmig Barn. new Doors x"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Willisden - Repairs"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Harrington 2% Int on £200. P.J.D. to Midr. 1855. at 4%"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Harrington 2% Int on £200. P.J.D. to XMas 1854"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Merton. Procurational Stip: by Rev. Daly."
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Lady Day 55"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Midr"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Michr"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "Garsington Repairs"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Croxop Dinner 1854 Little Ten"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Collins. New Room on Manor Farm on acct."
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Jackson. gratuity"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Bantnig. Repairs House Xkeen"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Same. Work at Ferry"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Coroner Little Ten"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Certificates of death of late Butler"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Andrew Copy of Truro Trust Deed"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Agries. Sickhams Farm"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Extors late Rector Legacy Duty Dwnig. C. Oxon"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Garsington Subscription towards Cholera Expense,"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Caution Fund Repayment to"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "& Statule Copying of Rev. Price"
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Mr. Walsh. his bill 1854"
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "Hill. Repairs Kidlington"
+      },
+      {
+        "row_index": 29,
+        "row_type": "entry",
+        "description": "Osborne. Bill to Dec 1854"
+      },
+      {
+        "row_index": 30,
+        "row_type": "entry",
+        "description": "Prop. Tax to Mich mas 1854"
+      },
+      {
+        "row_index": 31,
+        "row_type": "entry",
+        "description": "Grove Denison"
+      },
+      {
+        "row_index": 32,
+        "row_type": "entry",
+        "description": "Hill. Kidlington on Acct."
+      },
+      {
+        "row_index": 33,
+        "row_type": "entry",
+        "description": "Capell. Do Do"
+      },
+      {
+        "row_index": 34,
+        "row_type": "entry",
+        "description": "Collins. Manor Farm"
+      },
+      {
+        "row_index": 35,
+        "row_type": "entry",
+        "description": "Dickesons. Indentures at"
+      },
+      {
+        "row_index": 36,
+        "row_type": "entry",
+        "description": "Shrubb. Granary at Long Wittenham"
+      },
+      {
+        "row_index": 37,
+        "row_type": "total",
+        "description": "650 7 0"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

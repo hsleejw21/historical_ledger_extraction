@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors for header type, description, and lack of monetary values. Visually confirmed as a clear page title."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitat Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£3 s16 d8) are consistent between extractors and visually confirmed. Gemini-flash's description 'Civitat Oxon' is visually more accurate than gpt-5-mini's 'Circuit Oxon'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll Adis xti",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (£0 s0 d8) are consistent between extractors and visually confirmed. Chosen gpt-5-mini's description 'Coll Adis xti' as 'xti' is a common abbreviation for Christi and matches the visual more closely than gemini-flash's 'Rtt'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll Adis xti",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description chosen as 'Coll Adis xti' consistent with the previous related entry. Visually confirmed amounts to be £0 s18 d0, matching gpt-5-mini's pence value. Gemini-flash incorrectly read pence as '4'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll Omn: Anima",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Coll Omn: Anima' and amounts as £4 s12 d4, matching gpt-5-mini. Gemini-flash had incorrect amounts (£0 s0 d0) and a less accurate description ('Coll Orm: Anno')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Ball",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description, shillings, and pence values are consistent across extractors. Visually confirmed pounds to be '0', matching gpt-5-mini. Gemini-flash incorrectly read pounds as '4'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll S.J.B.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Coll S.J.B.' and amounts as £0 s12 d6, matching gemini-flash. Gpt-5-mini provided a less accurate description and incorrect amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Mayors Capons' (without an apostrophe) and amounts as £0 s8 d2, matching gemini-flash. Gpt-5-mini had incorrect amounts (£0 s14 d0) for this entry."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Curia Archings",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row ('Curia Archings' with amounts £0 s14 d0) is clearly present in the image and was extracted by gemini-flash. It was missed by gpt-5-mini, which produced a different, incorrect description and amounts for this position."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procur: Kidley: S:Newington & Merth.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Procur: Kidley: S:Newington & Merth.' and amounts as £0 s1 d8, matching gemini-flash. Gpt-5-mini had the correct amounts but an inaccurate description ('Annia Hastings') for this line item."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Synods ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Easter Synods ditto' (from gemini-flash). Amounts and fraction (£1 s18 d11.5) match for the corresponding line item from both extractors. Both correctly identified the 'ob' as a 0.5 fraction after '11'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Coquo' is consistent. Visually confirmed amounts to be £1 s10 d4, matching gemini-flash. Gpt-5-mini's amounts (£2 s0 d0) were incorrect."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lobicra",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Lobicra' and amounts as £2 s0 d0, matching gemini-flash. Gpt-5-mini provided a less accurate description ('Lomia') and incorrect amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Scull: & Ladroz",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Scull: & Ladroz' (with a stylized 'z') and amounts as £1 s6 d8, matching gemini-flash. Gpt-5-mini's description ('Scull. & Laundry') and amounts were incorrect."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleansing Chap. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Cleansing Chap. Oct. 5' (gemini-flash's 'Cleansing' over gpt-5-mini's 'Cleaning') and amounts as £0 s2 d0, matching gemini-flash. Gpt-5-mini incorrectly extracted amounts (£23 s0 d0) from a subsequent entry."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Carbonibs ad fest. Annun.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and amounts (£23 s0 d0) match gemini-flash. Gemini-flash also correctly identified the superscript mark in 'Annun.'. Gpt-5-mini had incorrect amounts (£28 s0 d0) and a less accurate description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as '— ad fest. Mic' and amounts as £23 s0 d0, matching gemini-flash. The dash indicates a continuation of the previous entry's amount. Gpt-5-mini had incorrect amounts (£0 s13 d4)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Jonson",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description starts with 'J', matching gemini-flash's 'Jonson'. Amounts £0 s13 d4 also match gemini-flash. Gpt-5-mini's description ('Insor') and amounts (£4 s0 d0) were incorrect."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Reparationibus Cif.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as 'Reparationibus Cif.' and amounts as £4 s0 d0, matching gemini-flash. Gpt-5-mini's description ('Supervisor Adj.') and amounts were incorrect."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Janitor' is consistent. Visually confirmed amounts to be £1 s14 d8, matching gemini-flash. Gpt-5-mini's amounts (£0 s13 d4) were incorrect."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bibliothecario' is consistent. Visually confirmed amounts to be £0 s13 d4, matching gemini-flash. Gpt-5-mini's amounts (£0 s2 d0) were incorrect."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bibl. Lect. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description 'Bibl. Lect. Oct. 5' (gemini-flash's 'Bibl.' over gpt-5-mini's 'Bib:') and amounts £0 s2 d0, matching gemini-flash. Gpt-5-mini's amounts (£1 s0 d0) were incorrect."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors for this entry's type, description, and monetary values. Visually confirmed."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "— Consecration",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description as '— Consecration' and amounts as £1 s0 d0, matching gemini-flash. The dash indicates it's a continuation of the previous entry. Gpt-5-mini incorrectly identified this as a 'header' with 'Concession' as description and no amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southenevington Vicar ad fest. Annun.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£10 s0 d0) are consistent. Gemini-flash's description 'Southenevington Vicar ad fest. Annun.' is visually more accurate for the initial word and the abbreviation 'Annun.' than gpt-5-mini's 'Southwarkington Vicars ad Sept Annual'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£10 s0 d0) are consistent. Gemini-flash's description '— ad fest. Mic' is visually more accurate, including the initial dash indicating a continuation, compared to gpt-5-mini's 'ad Sept. Mice'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedel of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£1 s3 d0) are consistent. Visually confirmed description 'Bedel of Beggars', matching gemini-flash, as 'of' is clearly visible rather than '&' from gpt-5-mini."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excise due Lady Day Cast",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£5 s15 d0) are consistent. Combined best parts of descriptions: 'excise' (gpt-5-mini) is the standard spelling and visually accurate, while 'Cast' (gemini-flash) is visually more accurate for the last word than 'Last' (gpt-5-mini)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "None",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed total amounts as £100 s2 d11.5, matching gpt-5-mini. The mark after '11' is clearly a half-penny (0.5) symbol, not a '9'. Gemini-flash incorrectly read this as '119', which violates the pence rule (max 11 pence), though it correctly noted the rule violation. Gpt-5-mini's reading adheres to rules and visual evidence."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 1
+    }
+  }
+}

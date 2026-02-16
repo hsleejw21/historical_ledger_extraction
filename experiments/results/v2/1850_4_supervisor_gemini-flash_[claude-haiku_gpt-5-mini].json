@@ -1,0 +1,393 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Obenda Ordinances. - Brought over -",
+      "amount_pounds": 280,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini's values and row_type as amounts (280/0/1) are clearly visible in the image, unlike claude-haiku's assertion that there were no amounts. Visually corrected first word of description from 'State Ordinances' to 'Obenda Ordinances', which better matches the script."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gas Lights 29: to Feby 1850",
+      "amount_pounds": 27,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified description ('Gas Lights 29: to Feby 1850') and pounds amount (27) are correct. claude-haiku incorrectly read the description ('Gas lights 1st & 2do 1850') and pounds amount (2)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Do — Mich",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini. Visually verified the pounds amount (8) is present and correct. claude-haiku incorrectly left pounds empty. Description 'Do — Mich' matches the image."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr. Falconer 19th Feb. on 24? 14? 2? 3? Costs to Feby 1850",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (6/8/6) are clear and agreed upon. Selected gpt-5-mini's description as it is a more accurate visual representation, especially 'Mr. Falconer' and '19th Feb.', compared to claude-haiku's 'Mr Kilsomer 18th Augt'. Maintained gpt-5-mini's explicit '?' for ambiguous parts of the description text."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subscriptions Viz. Infirmary",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified both description ('Subscriptions Viz. Infirmary') and amounts (1/1/0) are correct and present. claude-haiku incorrectly identified this as a header without amounts and misread the description ('Subscriptions Sixpence')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Grey Court School",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (20/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Grey Court School' as it is visually correct, unlike claude-haiku's reading ('Green Good School')."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wellington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (5/5/0) are clear and agreed upon. Selected gpt-5-mini's description 'Wellington Do' as it is visually correct, unlike claude-haiku's reading ('Maddoxston Do.')."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "South Kensington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (5/5/0) are clear and agreed upon. Selected gpt-5-mini's description 'South Kensington Do' as it is visually correct, unlike claude-haiku's reading ('Southmoon Do.')."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Little Town Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts (6/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Little Town Do' as it is visually correct and a far better match to the handwriting than claude-haiku's reading ('Shill S[?] go')."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garston Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified pounds amount (3) and description 'Garston Do' are correct. claude-haiku incorrectly read pounds as 5 and description as 'Gavelton'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Morton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified shillings amount (5) and description 'Morton Do' are correct. claude-haiku incorrectly read shillings as 3 and description as 'Merdoen'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Garrington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (3/3/0) are clear and agreed upon. Selected gpt-5-mini's description 'Garrington Do' as it is visually correct and a better match to the handwriting than claude-haiku's reading ('Gorngleton Do.')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Wittenham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (5/5/0) are clear and agreed upon. Selected gpt-5-mini's description 'L. Wittenham Do' as it is a more accurate visual match for the spelling than claude-haiku's 'L Wittlehams Do.'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (2/2/0) are clear and agreed upon. Selected gpt-5-mini's description 'Bensington Do' as it is visually correct and a better match to the handwriting than claude-haiku's reading ('Berryngton Do.')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gunkar Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (5/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Gunkar Do' as it is visually a much better match than claude-haiku's 'Emmekar Do.', especially the initial 'G'. The name 'Grimcar' is also used in a subsequent entry, suggesting this family of names."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Poor of Grimcar",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (10/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Poor of Grimcar' as it is visually correct and a better match to the handwriting than claude-haiku's reading ('Door of Guenear'), despite claude-haiku noting the 'Poor of...' possibility."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (10/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Diocesan Board of Education' as it is visually correct and a better match to the handwriting than claude-haiku's reading ('Overseers Board of Oversatin')."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Small Lumgs in Diocese of Lon",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts (5/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Small Lumgs in Diocese of Lon' as it is a visually correct and contextually plausible reading, unlike claude-haiku's ('Small Simmps in Streets of Bian')."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (5/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Widows & Orphans of Clergy Do' as it is visually correct and a much better match to the handwriting than claude-haiku's reading ('Prisoner & Ordinary of Clowpy Ds')."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "University Marshalle",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified amounts (2/0/0) are present and description 'University Marshalle' is correct. claude-haiku incorrectly identified this as a header without amounts and misread the description ('University — Market Hall')."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bele Ringer & Chapel Clerk",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (10/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Bele Ringer & Chapel Clerk' as it is visually correct and a better match to the handwriting than claude-haiku's 'Bale Bringer'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for description and amounts, visually verified as correct."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (1/1/0) are clear and agreed upon. Selected gpt-5-mini's description 'Easter Offerings' as it is visually correct and a better match to the handwriting than claude-haiku's reading ('Easter [?] Returns')."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (21/13/4) are clear and agreed upon. Selected gpt-5-mini's description as it accurately reflects the primary text. gpt-5-mini's note correctly identifies the additional marginal/struck-through text which is ignored for the main description, unlike claude-haiku which includes it in the description."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Synodals and Procurations",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (2/16/8) are clear and agreed upon. Selected gpt-5-mini's description 'Synodals and Procurations' as it is visually correct and a much better match to the handwriting than claude-haiku's reading ('Haywoods and Overseers [or Wardenings]')."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "College Gardener - 1st Quarter",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified pounds amount (7) and description 'College Gardener - 1st Quarter' are correct. claude-haiku incorrectly read pounds as 4 and misread the description ('Collage Gardiner — for [?] Quarter')."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified pounds amount (7) and pence amount (9) are correct, and description '2nd Do' is correct. claude-haiku incorrectly read pounds as 1 and pence as 0 and description as '2d'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified pounds (12), shillings (15), and pence (11) amounts are correct, and description '3rd Do' is correct. claude-haiku incorrectly read all numerical amounts and description."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "4th Do",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gpt-5-mini. Visually verified pounds amount (7) and shillings amount (12) are correct. claude-haiku incorrectly read pounds as 1 and shillings as 13. Description '4th Do' is consistent between both."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Interest on Church Deposit",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (6/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Interest on Church Deposit' as it is a visually better match to the handwriting, particularly the word 'Church', than claude-haiku's 'Interest on Trustee's Deposit'."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Open Scholarships - Viz. Mr Hemper",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (40/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Open Scholarships - Viz. Mr Hemper' as it is a visually better match to the handwriting for both 'Viz.' and 'Mr Hemper' compared to claude-haiku's 'Open Scholarships Ezgl. Mr Semke'."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Mr Wilzeefs",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amounts (40/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Mr Wilzeefs' as it is a slightly better visual match for the first initial 'W' than claude-haiku's 'Mr Silvowels'. Acknowledged name is challenging to read definitively."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Mr Roase",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts (40/0/0) are clear and agreed upon. Selected gpt-5-mini's description 'Mr Roase' as it is a visually better match to the handwriting than claude-haiku's 'Mr Roades', particularly the ending. Acknowledged name is somewhat indistinct."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "L 619 3 7",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for row_type and amounts, visually verified as correct. Using gpt-5-mini's cleaner description, moving the flourish detail to notes, as it is a visual characteristic rather than part of the core transcription."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 32,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

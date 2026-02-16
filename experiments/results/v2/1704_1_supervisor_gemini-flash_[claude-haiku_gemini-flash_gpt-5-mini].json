@@ -1,0 +1,339 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynser Rectory a secundo die Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a single logical header spanning two lines, with no monetary amounts. Description chosen from gemini-flash for best transcription. gpt-5-mini split this into two rows, claude-haiku had minor transcription errors."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput. de remanentib' in Cista",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a header with no amounts. Extracted from gemini-flash which is correct. gpt-5-mini incorrectly assigned an amount, claude-haiku merged it with the next header description."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Item de arreragijs.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a header with no amounts. Extracted from gemini-flash which is correct. gpt-5-mini incorrectly assigned an amount, claude-haiku completely missed it as a separate header."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guanear",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Guanear' taken from gemini-flash. Amounts £11 9s 4d confirmed by all extractors. The 'b' character after '4' is not a standard fraction (0.25, 0.5, 0.75) and is interpreted as a flourish or non-monetary mark, aligning with gemini-flash's and gpt-5-mini's notes. Claude-haiku incorrectly identified 'b' as 'ob' (0.5)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Longwitnam",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Longwitnam' from gemini-flash. Amounts £60 0s 0d are clear in the image and extracted correctly by gemini-flash and gpt-5-mini. Claude-haiku misread pounds as 6."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "minhinnett",
+      "amount_pounds": 76,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'minhinnett' from gemini-flash. Amounts £76 13s 4d visually confirmed from the image and extracted correctly by gpt-5-mini (though gpt-5-mini misaligned the description). Gemini-flash incorrectly read shillings and pence as 0 0, and claude-haiku misread all amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Southnewington pro mici",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Southnewington pro mici' (from gemini-flash, best transcription of 'pro mici'). Visual verification confirms amounts are £20 0s 0d, matching gpt-5-mini's numerical reading (though it misaligned description). Gemini-flash incorrectly assigned shillings/pence from the previous entry."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Merton' from gemini-flash. Amounts £30 0s 0d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini. Claude-haiku misread pounds as 3."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chockhill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description 'Chockhill' from gemini-flash. Gemini-flash and gpt-5-mini correctly identified the lack of amounts for the corresponding description (gpt-5-mini had minor transcription error, claude-haiku was misaligned)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Description 'Thrup' and amounts £3 0s 8 1/4d visually confirmed. Extracted from gemini-flash which correctly identified the 'q' as 0.25 (farthing). Gpt-5-mini missed the fraction. Claude-haiku was misaligned and missed amounts for this row."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Sue quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a header with no amounts. Description 'Sue quitrents' read from image (gemini-flash had 'Tue'). Gpt-5-mini misidentified as an entry with amounts, claude-haiku was misaligned and missed it entirely."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph marshally capons",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Ralph marshally capons' read from image (gemini-flash had 'marshall's'). Amounts £2 15s 7d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini. Claude-haiku was misaligned and had invalid pence (15d)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calcott",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description from gemini-flash. Gpt-5-mini and claude-haiku were misaligned, incorrectly extracting amounts or invalid amounts for this row."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bampton' from gemini-flash. Amounts £3 8s 11d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini. Claude-haiku was misaligned and missed the pence value."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mountaoue",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Mountaoue' from gemini-flash. Amounts £4 0s 0d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini. Claude-haiku was misaligned and had incorrect amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description from gemini-flash. Gpt-5-mini and claude-haiku were misaligned, incorrectly extracting amounts for this row."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greeneuay",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Greeneuay' from gemini-flash. Amounts £1 12s 0d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (though gpt-5-mini had a misaligned description). Claude-haiku was misaligned and missed amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Walker' from gemini-flash. Amounts 0s 10d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (though gpt-5-mini had a misaligned description). Claude-haiku was misaligned and had invalid pence (12d)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Minne' from gemini-flash. Amounts 0s 15d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (though gpt-5-mini had a misaligned description). Claude-haiku was misaligned and had incorrect amounts (10d or 15d invalid)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description from gemini-flash. Gpt-5-mini also correctly identified no amounts for its corresponding (misaligned) row. Claude-haiku was misaligned and incorrectly extracted an amount."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description from gemini-flash. Claude-haiku also correctly identified no amounts for its corresponding (misaligned) row. Gpt-5-mini was misaligned and incorrectly extracted an amount."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tintinhull Napper",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Description 'Tintinhull Napper' visually read. Amounts £2 5s 5 1/4d visually confirmed. Extracted from gemini-flash's R22 (description 'Tintinhull Nopper', correct amounts and fraction). Gpt-5-mini was confused by the bracketed entry, extracting multiple rows with inconsistent readings. Claude-haiku misread 'Tintinhull' and the fraction."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Hopkins' from gemini-flash. Amounts £1 18s 7d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini. The dot after 18 is a separator, not part of a fraction. Claude-haiku had invalid pence (18d) and misread pounds."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this row. Description from gemini-flash. Claude-haiku also correctly identified no amounts for its corresponding row (minor typo). Gpt-5-mini misidentified as having amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Bensington' from gemini-flash. Amounts £3 19s 8d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (though gpt-5-mini had a misaligned description). Claude-haiku had invalid pence (19d) and misread pounds."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Brewhouse' from gemini-flash. Amounts £1 15s 6d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (though gpt-5-mini had a misaligned description). Claude-haiku had invalid pence (15d) and misread pounds."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Tretbewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Tretbewin' from gemini-flash. Amounts £6 9s 7d visually confirmed and extracted correctly by gemini-flash and gpt-5-mini (gpt-5-mini had minor typo 'Trelhewin'). Claude-haiku misread pounds, pence (as 9), and added an incorrect fraction."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus among all extractors on description, row type (entry with no amounts), and lack of monetary values. Visually confirmed."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Summa Annosragionum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on total amounts £230 13s 8d, and row type. Description 'Summa Annosragionum' chosen from gemini-flash as the best interpretation of the faded text compared to gpt-5-mini's over-interpretation and claude-haiku's typos."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 13,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 14,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

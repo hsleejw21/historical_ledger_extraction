@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "The page is slightly tilted clockwise, impacting the visual perception of vertical alignment for columns.",
+    "Vertical ruling lines for Pounds, Shillings, and Pence are faint and inconsistent, making precise column boundary identification challenging.",
+    "General ink feathering and spread is present, but no severe ink bleed or critical fading that obscures text.",
+    "The left binding edge shows some minor damage and discoloration, but it does not obscure ledger content."
+  ],
+  "estimated_row_count": 30,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for £/s/d are faint. The 'Summa Arrearaginum' row (Row 30) provides the clearest example of column alignment due to its explicit numbers and horizontal sum line. Use this row as the primary reference for column boundaries.",
+  "prompt_additions": "CRITICAL: The page is tilted approximately 5-7 degrees clockwise. When determining column boundaries for Pounds, Shillings, and Pence, prioritize the faint ruling lines and the alignment established by the 'Summa Arrearaginum' (Row 30) over the visual alignment of text, which may appear to drift.\n\nLines 1 and 2 ('Computus gu: Paynter Rectory...' and 'Novembris 1703...') are the overall page title/date. Lines 3 ('Impumis reddidit comput: de remanentib: in lista 11 9 46'), 4 ('Item de arreragijs'), and 12 ('Jue quitrents') function as section headers. Note that Line 3 contains numerical values, which should be transcribed as part of the header text rather than as a transactional amount for a specific entry.\n\nFor rows 23 ('Tintinhull { Napper') and 24 ('         { Hopkins'), these are two distinct transaction entries, each with its own amount, despite being visually grouped by a brace. Extract them as separate rows.\n\nRow 8 ('Southnewington') includes a small handwritten annotation 'pro mici' to its right. Ensure this is handled as an annotation or secondary detail and not merged with the main entry description or value.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

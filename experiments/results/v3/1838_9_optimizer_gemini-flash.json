@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "The page is slightly tilted clockwise by approximately 2-3 degrees.",
+    "The vertical ruling lines for pounds, shillings, and pence are very faint across the entire page, making accurate column separation difficult visually.",
+    "Minor ink bleed-through is present throughout the page, especially noticeable in the upper right quadrant, but does not significantly obscure text.",
+    "Small smudge/ink mark in the bottom left margin."
+  ],
+  "estimated_row_count": 32,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines are extremely faint. The amounts are right-aligned. The '£' symbol in the final row indicates the leftmost column for currency. Fractional pence values are present and sometimes small.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines separating pounds, shillings, and pence are barely visible. Use Row 32 ('£034 7 3/4') as your primary alignment reference for the currency columns. Trust the alignment of this row and project those column boundaries consistently to all rows above it. Be aware that the page is slightly tilted, so vertical alignment will need to account for this. Pay close attention to fractional pence values, such as in Rows 14, 28, 29, 30, and 31, as they are very small and might be overlooked or misread.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

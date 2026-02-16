@@ -1,0 +1,448 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this header row and its content. Confirmed with image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Domus Fund Payments'. claude-haiku misread 'Domus' as 'Dorset'. Visual verification confirms 'Domus'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Braine Robey Brought up",
+      "amount_pounds": 690,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash provided the correct combined description and accurate amounts (£690 3s 0d). claude-haiku split this into two rows ('Braine' as header, 'Robey' as entry) and misread the amounts for 'Robey' significantly (£6 0s 0d)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hodor",
+      "amount_pounds": 15,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Hodor' and its amounts (£15 1s 0d). claude-haiku completely missed this entry."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bates",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Bates' and its amounts (£16 1s 0d). claude-haiku completely missed this entry."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Thatching",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Thatching' and its amounts (£17 0s 6d). claude-haiku completely missed this entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kid Cottage. Comm:",
+      "amount_pounds": "",
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and amounts (14s 6d). claude-haiku split this into two rows ('Red Cottage' as header, 'Comm:' with no amount) and misread 'Kid' as 'Red'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Whitehead Repair of Wall, Moor Lane",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£3 3s 0d). claude-haiku split this into two rows ('Whitehead' as header, and a misread description 'Chair of Oats, Wooden' with no amount)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Gardner Quit Rent Warboro",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£2 3s 0d). claude-haiku split this, misread 'Quit Rent Warboro' as 'Debt Rent Walston', and had incorrect shillings (5s)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Faulkner repairs",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£1 7s 0d). claude-haiku split this and had incorrect shillings (2s)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hughes Straw for thatchery Barn",
+      "amount_pounds": 5,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£5 2s 0d). claude-haiku split this, misread 'thatchery' as 'Matching', and provided incorrect amounts for both split parts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Timber Valuation of",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£20 0s 0d). claude-haiku split this, misread 'Timber' as 'Timbler', and had incorrect pounds (£1)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Penny Pipes",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£1 0s 0d). claude-haiku split this, misread 'Penny' as 'Penne', and provided incorrect amounts for 'Penne' (£5 8s 0d)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Gwynnear Inn Bill",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£5 8s 0d). claude-haiku split this and provided two completely different sets of incorrect amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Comm:",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "gemini-flash correctly captured the amounts (£4 18s 10d). I've slightly adjusted the description from 'Common.' to 'Comm:' as visually more accurate. claude-haiku identified this as a header with no amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stamps &",
+      "amount_pounds": 12,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Stamps &' and its amounts (£12 18s 4d). claude-haiku misread 'Stamps' as 'Tramps' and provided incorrect amounts (£1 6s 0d)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Kimber Poles",
+      "amount_pounds": "",
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Kimber Poles' and its amounts (7s 0d). claude-haiku split this, misread 'Kimber' as 'Omiller', and provided incorrect amounts (£13 0s 0d)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Stone repairs Bampton",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Stone repairs Bampton' and its amounts (16s 0d). claude-haiku split this and misread 'repairs Bampton' as 'Upears Pampleton' with incorrect amounts (£13 6s 0d)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Elinkard Wheeler",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Elinkard Wheeler' and its amounts (15s 6d). claude-haiku split this, misread 'Elinkard' completely, and had incorrect amounts (£3 13s 6d)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Waterman Cottage",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Waterman Cottage' and its amounts (£3 13s 5d). claude-haiku had incorrect pounds and shillings (£4 12s 6d)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Waterman Farm House",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Waterman Farm House' and its amounts (£4 12s 6d). claude-haiku had incorrect pounds and shillings (£2 2s 6d)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Lovell Thatching Cottages",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the full description and amounts (£2 2s 6d). claude-haiku split this, misread 'Thatching' as 'Matching', and had incorrect amounts (£4 0s 4d)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Straw for",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the amounts (£4 0s 4d) and the '1/2' fraction. claude-haiku had completely incorrect amounts (£5 5s 0d) and missed the fraction."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pipes",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Pipes' and its amounts (£5 5s 0d). claude-haiku misread 'Pipes' as 'Doves' and had incorrect amounts (£12 6s 0d)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Receiving Cottage Rent",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and amounts (12s 6d, with empty pounds column). claude-haiku had incorrect pounds and shillings (£13 0s 0d)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Kidlington Estate purchase of.",
+      "amount_pounds": "",
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and amounts (13s 0d, with empty pounds column). claude-haiku misspelled 'Kidlington' and missed the amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "By sale at L Jaws. 8000",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified '8000' as part of the description. gemini-flash correctly recognized no amounts in the columns. claude-haiku incorrectly extracted '8000' into the pounds column."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do. Rd 3 per cent 256.5.8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified '256.5.8' as part of the description and no amounts in columns. claude-haiku incorrectly extracted the amount into columns and misread 'Rd 3 per cent' as 'Dr. Upstairs'."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Assumed by Domus 858.12.4",
+      "amount_pounds": 911,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and column amounts (£911 18s 0d). claude-haiku wildly misread the description, extracted incorrect amounts (£858 12s 4d), and incorrectly added a 0.75 fraction."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "E. Jones - Legacy £97. P.T.D. Int 4",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and column amounts (£10 10s 0d). claude-haiku split this entry across multiple rows, significantly misread the description, and incorrectly extracted an embedded amount into the columns."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "H Jones children Legacy £97. P.T.D Int 4",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and column amounts (£10 10s 0d). claude-haiku misread 'H Jones' as 'by Drees' and provided incorrect shillings (0s)."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Geo. Jennison Legacy £180. Int 7.1.0",
+      "amount_pounds": 184,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "gemini-flash correctly identified the description and column amounts (£184 16s 0d), noting the '4' was faded. claude-haiku misread the name and provided completely incorrect amounts (£10 0s 0d)."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Thomas. & C. Glos & Johnston & C. Legacy 180. Int 11.0.10",
+      "amount_pounds": 191,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the description and column amounts (£191 0s 10d). claude-haiku struggled significantly with the long description and had incorrect pounds (£19)."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Bracher. Fame - 3.10.4 - 1.10.0",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors found the correct amounts (£5 0s 4d). I used gemini-flash's description as it correctly identified 'Bracher. Fame' (claude-haiku misread as 'Preacher - Time')."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Winter",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified 'Winter' as an entry with amounts (£1 5s 0d). claude-haiku incorrectly classified 'Winter' as a header and missed the amounts."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Walsh Stone pit Kidlington",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors found the correct amounts (£70 0s 0d). I used gemini-flash's description which correctly identified 'Walsh' (claude-haiku misread as 'Wash') and 'Kidlington' (claude-haiku misspelled as 'Keddington')."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Day man grant for Schools",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors found the correct amounts (£5 0s 0d). I used gemini-flash's description ('Day man grant') as it visually appears more accurate than 'Dayman Grant' from claude-haiku."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "William Special grant for Do.",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors found the correct amounts (£2 2s 0d). I used gemini-flash's description which correctly identified 'William' (claude-haiku misread as 'Willan') and the period after 'Do'."
+    },
+    {
+      "row_index": 39,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 10546,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified the total amounts (£10546 0s 0.5d) and an empty description field. claude-haiku added 'Final Total' to the description (which is not in the image) and incorrectly read the pence as '1' instead of '0' with a '1/2' fraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 38,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 15
+    }
+  }
+}

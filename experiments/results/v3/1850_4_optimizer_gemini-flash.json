@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "Page is scanned with a slight clockwise tilt (approx. 1-2 degrees).",
+    "Small, faint brown stain/smudge present near Row 25 (above 'University Marshal'). It does not obscure text.",
+    "The right edge of the page shows minor unevenness, possibly light physical damage or scan artifact."
+  ],
+  "estimated_row_count": 35,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines separating Pounds, Shillings, and Pence are clearly visible throughout the page, despite the slight clockwise tilt. Rely on these lines for column separation.",
+  "prompt_additions": "The page exhibits a slight clockwise tilt. Extractors should compensate for this tilt to maintain accurate vertical column alignment based on the ruling lines.\nRow 28, 'Parish Rates', contains additional descriptive text 'for rates £0:—' and 'Church Rate 1:13:4' which should be included as part of the description for this specific entry.\nThe final row (Row 35) represents the total amount '£619 3 7'. This should be extracted as a standard row, with 'Total' or equivalent as its description.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

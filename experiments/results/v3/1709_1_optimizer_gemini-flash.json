@@ -1,0 +1,16 @@
+{
+  "warnings": [
+    "Rows 36 ('Yardington mich') and 37 ('Jue exstrents & anno') are struck through with an intentional line, indicating deletion.",
+    "The vertical ruling lines separating the £ / s / d columns are faint, particularly in the upper and middle sections of the page.",
+    "There are complex entry patterns where descriptions (rows 13-14) do not have direct, adjacent amounts.",
+    "Row 4 ('in Cista') has an unusual '-AA' notation in the pounds column.",
+    "Row 27 ('Tintinhull') serves as a main heading with bracketed sub-entries (rows 27 and 28)."
+  ],
+  "estimated_row_count": 40,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for the £ / s / d columns are faint but generally visible. The horizontal ruling line above the Total row (row 40) is very clear. The Total row itself ('322 19 9') provides excellent alignment for all three monetary columns.",
+  "prompt_additions": "CRITICAL: Rows 36 ('Yardington mich') and 37 ('Jue exstrents & anno') are intentionally struck through. Transcribe their full text and any associated amounts, but clearly flag them in the output as 'deleted' or 'struck-through' entries.\n\nThe vertical ruling lines separating the £ / s / d columns are faint. Use row 40 (the Total row: '322 19 9') as your primary reference for precise column boundary detection and alignment across the entire page.\n\nFor rows 6-12, the pounds column is indicated by '---'. Extract these as '0' (zero) pounds.\n\nRow 4 ('in Cista') has an unusual pound notation of '-AA 17 1d'. Extract '-AA' literally as the pound value for this entry.\n\nRows 13 ('Thrup') and 14 ('Ralph marshalls capons') are purely descriptive lines and do not have amounts immediately next to them. The next block of amounts begins with row 15 ('Lord & anno'). Do not attempt to associate financial values directly with rows 13 and 14.\n\nRow 27 ('Tintinhull') acts as a main heading, with 'Napper pro sesquianno' (also on row 27, aligned with 'Tintinhull') and 'Hopkins & Sesquianno' (row 28) as sub-entries grouped by a large brace. Amounts are associated directly with these sub-entries.\n\nPence values may include 'd' (e.g., '1d' on row 4, '9d' on row 7) or 'q' (e.g., '8q' on row 28) suffixes. Extract these suffixes as part of the pence value.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

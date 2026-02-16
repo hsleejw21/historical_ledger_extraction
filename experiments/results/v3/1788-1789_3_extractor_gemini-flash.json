@@ -1,0 +1,329 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title. No monetary amounts associated with this structural label."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Nov. 4th Mr. William Harriotts Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines are unambiguously discernible in this section. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bawden's do",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. 'do' is a common abbreviation for 'ditto', referring to 'Plate Money'. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Sept. 6. of the Revd. Mr. Cooke Dr. Hoptondge's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "31 Increment due at Midsr. last from The Bursar",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading for description. The pence value '2' is followed by a clear '½' symbol, interpreted as a half-penny. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1789 Jan. 31. of Mr. Bowles Esq. Lyon Rent for H. Hokenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Feb. 24. Hon. Geo. King & Hon. John Engs's Plate Money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mar. 27. Mr. John Harriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "June 3. of Mr. Cooke D. Hoptondge's Benefact.",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "11. of Mr. Parsons Lyon of Symes Exhibit. at Maidwell.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles Dr. Payment for H. Hokenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29 of Mr. Demainbray Dean's Treas. H. S. & House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1. of Mr. Vivian Bursr. Increm. to Midsr. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading for description. The pence value '5' is followed by a clear '½' symbol, interpreted as a half-penny. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donnithorne's Fine for St. Lane",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Samands Bursr. Increm. for James 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Clear reading for description. The pence value '3' is followed by a '¾' symbol (appears as a '3' with a small 'q' or a distinctive loop), interpreted as three farthings. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Oct. 30. of Gibbons, Fenwick, for old Iron as by Acct.",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr. Robt. Haskins Acct. for Merton Estate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header introducing a new account. No monetary amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "from Mich. 1787 to Mich. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear sub-header providing a date range for the account. No monetary amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Money Rent - 265.0.0.",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. The values are presented in P.S.D. format. Vertical lines are faint in this section, but alignment is clear based on the consistent formatting and surrounding entries. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lom Rent - 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. The '05' for pounds is clearly '5'. Values are in P.S.D. format. Vertical lines faint, but alignment is clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total of Years Rent",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for the description and amounts. The horizontal line above indicates a total. Sum of preceding entries (rows 19 and 20) is accurate (265+5=270, 0+12=12, 0+0=0). Vertical lines faint, but alignment clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header introducing a list of deductions. No monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Land Tax - 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Values are presented in P-S-D format. Vertical lines are faint, but alignment is clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Leveretts Close - 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. Values are presented in P-S-D format. Vertical lines are faint, but alignment is clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Rep. Mr. House - 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading for amounts. Description 'Mr. House' is legible, although 'House' could be misread as 'Hove' or similar; 'House' is most contextually probable for repairs. Values are presented in P-S-D format. Vertical lines faint, but alignment clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Dr. of Chancey - 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for description and amounts. 'Dr.' is likely an abbreviation for a name or 'debtor'. Values are presented in P-S-D format. Vertical lines faint, but alignment clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total of Deductions",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading for the description and amounts. This total row has particularly clear vertical ruling lines, used as a primary alignment reference. The sum of preceding entries (rows 23-26) (34+6+7+0=47£, 7+10+6+8=31s=1£ 11s, 0+10+7+9=26d=2s 2d, totalling 48£ 13s 2d) does not match the written ledger entry of 48£ 12s 4d. The extracted values reflect the written ledger entry exactly, despite the arithmetic discrepancy. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Remains clear for the Years Rent",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row combines descriptive text from two visual lines into one logical total entry, as per guidance. The amount is derived from 'Total of Years Rent' (row 21) minus 'Total of Deductions' (row 27) (270£ 12s 0d - 48£ 12s 4d), which accurately calculates to 221£ 19s 8d. Vertical ruling lines clear. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Grand Total",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading for the total amount. The pence digit '7' is followed by a clear '½' symbol, interpreted as a half-penny. This final total line has very clear vertical ruling lines, used as a primary alignment reference. Independent calculation of the sum of 'Recepta varia' (rows 2-16 total 892£ 12s 11.75d) and 'Remains clear for the Years Rent' (row 28 totals 221£ 19s 8d) yields 1114£ 12s 7.75d, which does not match the ledger's written grand total of 1094£ 12s 7½d. The extracted values reflect the written ledger entry exactly despite the arithmetic discrepancy. All monetary values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

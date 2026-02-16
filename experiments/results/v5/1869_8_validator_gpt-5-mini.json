@@ -1,0 +1,431 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund payment on aut of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "Brought forward",
+      "amount_pounds": 2045,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Candy from Dec 21 to Jan 31",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Colby from Feb. 1 to March 25",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest on £200 to March 25. 1869",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Colley Garden",
+      "amount_pounds": "",
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: original pence=13 (>11). Converted 13d -> +1s and 1d (shillings 13->14, pence 1)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Reading Room",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Freeze farm. Outlet for Water",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violations: shillings=21 (>=20) → moved tens digit to pounds (21 -> +2 pounds, 1s). Then pence=29 (>=12) → converted 29d = +2s and 5d. Final: 2 pounds, 3s, 5d."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Kidlington Vic & c. Repairs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- Osborne on aut",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=25 (>=20). Moved tens digit to pounds: 25 -> +2 pounds and 5s."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "- Hill do",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=30 (>=20). Moved tens digit to pounds: 30 -> +3 pounds and 0s."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Roby do",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=30 (>=20). Moved tens digit to pounds: 30 -> +3 pounds and 0s."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Salvatici",
+      "amount_pounds": 3,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: pence=15 (>11). Converted 15d -> +1s and 3d (shillings 10->11, pence 3)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rector",
+      "amount_pounds": 73,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Lewis Merton Channel",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Domus Wine Bottles",
+      "amount_pounds": 15,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "do do",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Warre & Woolgrove Cheque",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=25 (>=20). Moved tens digit to pounds: 25 -> +2 pounds and 5s."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "By value of Timber",
+      "amount_pounds": 42,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hot closet outside the Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=22 (>=20). Moved tens digit to pounds: 22 -> +2 pounds and 2s."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sheppard private Bills",
+      "amount_pounds": 9,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Braine Osborne",
+      "amount_pounds": "",
+      "amount_shillings": 14,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Roby",
+      "amount_pounds": 9,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Osborne",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Brown",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Painting",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Kidlington Cottages Commr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Roby",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: shillings=20 (>=20). Moved tens digit to pounds: 20 -> +2 pounds and 0s."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Chancel Wittham",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "local Rate fund. Caster book",
+      "amount_pounds": 29,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Stamps",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Strimper Comm. on Tithes",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Fixed currency violation: pence=16 (>11). Converted 16d -> +1s and 4d (shillings 9->10, pence 4)."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Room Rent overpaid in Sust.",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "Carried forward",
+      "amount_pounds": 2774,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "validated - no changes"
+    }
+  ],
+  "_meta": {
+    "validator_model": "gpt-5-mini",
+    "validation_stats": {
+      "currency_violations_fixed": 10,
+      "rows_added": 0,
+      "rows_removed": 0,
+      "fractions_corrected": 0
+    }
+  }
+}

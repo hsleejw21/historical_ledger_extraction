@@ -1,0 +1,162 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued - Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description text, confirmed by visual verification that there is no trailing hyphen (as in gpt-5-mini) and 'Arrearagia' is clearly read. Both extractors correctly identified it as a header with no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Bensington - 1 1/2 yr",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus and visually correct. Selected gemini-flash for the more accurate and complete description 'Bensington - 1 1/2 yr' compared to gpt-5-mini's 'Bensington - 1/2.'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus across all fields, confirmed by visual verification. The notes for gpt-5-mini specifically identifying the 'ob' mark for the fraction are excellent."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "In Hewin Lodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus and visually confirmed. Selected gemini-flash for the accurate description 'In Hewin Lodge', as gpt-5-mini's 'Treshwin' is incorrect. gpt-5-mini's note on the faint pence digit was a good observation but the reading '7' is clear upon visual inspection."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Little Ews.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually identified description as 'Little Ews.' (correcting both extractors: gemini-flash had 'Ew.', gpt-5-mini had 'Cow.'). gpt-5-mini's classification as 'header' is more appropriate for its functional role as a subsection label without monetary amounts, despite being physically nested."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Taylor. 2 1/2 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus and visually correct. Selected gemini-flash for the accurate and complete description 'Taylor. 2 1/2 yrs' (gpt-5-mini missed '1/2')."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 10,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus and visually correct. Selected gemini-flash for the accurate description 'Judge' without a trailing hyphen (as in gpt-5-mini). gpt-5-mini's note on the halfpenny stroke shows good attention to detail."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Aitoms",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus and visually correct. Visually, 'Aitoms' from gemini-flash is a better reading of the description, particularly the initial 'A' and the distinct 't' character, though script is somewhat ambiguous (as noted by gemini-flash). A confidence of 0.9 reflects this slight ambiguity in the description."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hartley.",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus and visually correct. Visually, 'Hartley.' from gpt-5-mini is a slightly better reading for the description, especially the 't' and 'ley' compared to 'Hardy' from gemini-flash. Both extractors correctly identified the 0.75 fraction, and gpt-5-mini noted an ink smudge near it."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimber.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus across all fields, confirmed by visual verification."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Busby. (Worley)",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus and visually correct. Selected gemini-flash's 'Worley' as a better reading of the parenthetical text. The punctuation for 'Busby. (Worley)' is also more accurately captured by gemini-flash, having a period after 'Busby' and no period after the closing parenthesis, as seen in the image (gpt-5-mini had 'Worby')."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit Rent for Kidlington Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's output. Visually, this is the first of two lines that are vertically braced together, and gemini-flash correctly extracted it as a distinct row. gpt-5-mini incorrectly merged this line with the subsequent line."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "vid. an: pro 24 Dec. Nov. 1818. Mem. +",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was exclusively identified by gemini-flash. It visually appears as a distinct line on the ledger page, part of a two-line braced entry. gpt-5-mini incorrectly merged this with the previous row, leading to a missing row in its output. The reading of the text, including 'Nov.', is accurate upon visual inspection."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 10,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

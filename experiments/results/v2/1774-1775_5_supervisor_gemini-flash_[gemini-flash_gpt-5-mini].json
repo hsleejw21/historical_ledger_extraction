@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors. Clear header with no associated monetary values."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Novr. 10. 1774. Dr Shortridge's Benefx half a year to Mids:",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description, including the date and 'Benefx'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Novr. 22. Mr Bloomfields Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description, including the date."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Janr. 30. 1775. Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description, including the date."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Midsr. & Xmas Div: in Stock, 3 p.Cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the slightly more accurate description (e.g., 'Midsr.' vs 'Mids.')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mart: 20 Increment. of Mr Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description, including the date."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr: 3 Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description, including the date."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jun: 5. Two Sconces for Sac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description (including date and 'Sac:'). 'gpt-5-mini' noted uncertainty and misread 'Sac:' as 'Bac:'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr Shortridge's Benefs half a year to Xmas-",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the slightly more accurate description ('Benefs' and trailing hyphen)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "June",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This 'June' entry was correctly identified as a header/date marker by 'gpt-5-mini', but missed entirely by 'gemini-flash'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Mr. Oswald Jackson's Acct for the Merton estate for the year from Mic: 1773 to Mic: 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chose 'gpt-5-mini' as its description accurately transcribed 'Merton' and 'Mic:', whereas 'gemini-flash' misread them and incorrectly prefixed the description with 'June'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors disagreed on pounds amount (265 vs 205). Visual verification confirmed the value '265' in the image. Chose 'gemini-flash' for the amount, and its description was also correct."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Corn Rent",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the correct description 'Corn Rent'. 'gpt-5-mini' noted uncertainty and transcribed 'Gork Rent'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row type were consistent. Chose 'gemini-flash' for correctly leaving the description blank, as this is a purely numeric sub-total line, not containing descriptive text."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between both extractors. Clear text and amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Extractors disagreed on the pence fraction. 'gemini-flash' correctly identified the '½' mark as 0.5, with a good note explaining the visual interpretation. 'gpt-5-mini' missed the fraction due to uncertainty. Confirmed visually."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Extractors disagreed on the pence fraction. 'gemini-flash' correctly identified the '½' mark as 0.5, and its note included an arithmetic check. 'gpt-5-mini' missed the fraction. Confirmed visually."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "July 22? Recd Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction were consistent. Chose 'gemini-flash' for the more complete description, including 'July 22?'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "July 26. Increment from Mr Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction were consistent. Chose 'gemini-flash' for the more complete description, including the date."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Aug. 17. Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete description, including the date."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jul. 22. House Fees from Mr Sarrande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent between extractors. Chose 'gemini-flash' for the more complete and accurate description (including date and 'Sarrande' vs 'Savande')."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Extractors disagreed on pence fraction and description. Visually confirmed the fraction is '¾' (0.75), aligning with 'gpt-5-mini'. Chose 'gemini-flash' for the empty description, as this is a purely numeric grand total. Note: 'gemini-flash' identified an arithmetic discrepancy (calculated 807 pounds, extracted 827 pounds). The extracted value 827 is taken as it appears on the page."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Recepta pro hoc anno & pro debitis anni præcedentis",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consistent. Chose 'gpt-5-mini' for the more accurate description ('&' and 'præcedentis') and row type 'total', which is appropriate for a concluding summary with an associated amount linked by a curly brace."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 18,
+      "rows_by_visual_override": 2,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

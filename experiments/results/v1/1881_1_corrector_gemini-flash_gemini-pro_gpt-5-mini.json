@@ -1,0 +1,309 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per cent on Estates, Supp. Div^d 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do Do. Div^d 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per cent on Room Rent",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Buskey Div^d",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Master's Composition",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do.",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "3 Sets of Rooms st Helens",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Dickerson. Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Int^t on £57.10-at 3 p.c.",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Repayment of Capital",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Int^t on £100 at 4 per cent Aug^t 18-1881",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Int^t on £150 at Do to April 1.1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Late Tutors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Int^t for one yr to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Room Rent Moiety & cap of",
+      "amount_pounds": 114,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "July",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortridge",
+      "amount_pounds": 122,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do Do Richards",
+      "amount_pounds": 93,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Do Tuckell",
+      "amount_pounds": 46,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Stock of the three funds Sold",
+      "amount_pounds": 607,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Canal Shares Sold",
+      "amount_pounds": 347,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "July 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "St Johns College for Witnam Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "H. Hammond. Bursar. allowed to Loden",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "(Clutterbuck for Witnam Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "3390 0 4",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 3: amount_pence_whole=7 → amount_pence_whole=6 (amount_pence_fraction remains 0.5) | Reason: the image reads \"66 13 6½\" (pence is clearly 6½, not 7½).\nRow 6: amount_pence_whole=0 → amount_pence_whole=6 | Reason: the pence digit next to \"Buskey Div^d\" is a clear \"6\" in the image (reads \"7 4 6\").\nRow 10: amount_pounds=\"\" , amount_shillings=3 → amount_pounds=43, amount_shillings=0, amount_pence_whole=0 | Reason: the line \"Dickerson. Balance of Rent\" shows \"43 0 0\" in the pounds/shillings/pence columns, so pounds were missed in the draft.\nRow 20: all amounts \"\" → amount_pounds=122, amount_shillings=15, amount_pence_whole=0 | Reason: the image shows \"Cash in Bank Shortridge 122.15.0\".\nRow 21: all amounts \"\" → amount_pounds=93, amount_shillings=3, amount_pence_whole=4 | Reason: the image shows \"Do Do Richards 93.3.4\".\nRow 22: all amounts \"\" → amount_pounds=46, amount_shillings=19, amount_pence_whole=8 | Reason: the image shows \"Do Do Tuckell 46.19.8\".\nRow 23: all amounts \"\" → amount_pounds=607, amount_shillings=17, amount_pence_whole=4 | Reason: the image next to \"Stock of the three funds Sold\" reads \"607.17.4\" in the mid column.\nRow 24: amount_pounds=2217, amount_shillings=19, amount_pence_whole=4 → amount_pounds=347, amount_shillings=4, amount_pence_whole=0 | Reason: the mid-column value beside \"Canal Shares Sold\" is \"347.4.0\"; the 2217.19.4 in the draft is the running/aggregate figure in the far-right column mis-assigned to this entry.\n\nAll other rows: No change — values verified against the image.",
+    "changes_made": true
+  }
+}

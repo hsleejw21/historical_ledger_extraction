@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Faint strike-through on the '4' in amount '229 8 4' in the 'Library Account' (right side).",
+    "Clear strike-through on amount '15 0 .' in the 'Tuition Fund' (right side).",
+    "Faint strike-through on the '1' in amount '12 1 10' in the 'Tuition Fund' (right side).",
+    "Heavy water stain/burn mark in the bottom right corner, obscuring parts of the final entries and total for the 'Undergraduates Reading Room Fund' on the right side."
+  ],
+  "estimated_row_count": 43,
+  "layout_type": "complex",
+  "layout_hints": "This page features a complex, multi-fund balance sheet layout with distinct left (receipts) and right (payments) columns for each fund. The vertical ruling lines separating £, s, d are generally faint across the page but are consistently discernible. The horizontal lines beneath total amounts clearly delineate the end of each fund's summary.",
+  "prompt_additions": "The ledger is divided into multiple fund sections, each with a left (receipts) and right (payments) side. Extract both sides as separate columns if possible. The vertical ruling lines for £/s/d, while faint, should be followed for column alignment; use the major total rows (e.g., Library Account totals on row 7, Pension Fund totals on row 14, Tuition Fund totals on row 31, Exhibition Fund total on row 37, and Undergraduates Reading Room Fund total on row 43) as primary alignment references to confirm column boundaries. CRITICAL: The bottom right corner has a severe water stain/burn mark that obscures the total amount '41 8 .' for the 'Undergraduates Reading Room Fund' on the right side; extract any discernible digits and flag with low confidence if uncertain. Transcribe the following struck-through entries as they appear, but note their struck-through status: '229 8 4' (right side, Library Account, faint strike on '4'), '15 0 .' (right side, Tuition Fund, clearly struck through), and '12 1 10' (right side, Tuition Fund, faint strike on '1').",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

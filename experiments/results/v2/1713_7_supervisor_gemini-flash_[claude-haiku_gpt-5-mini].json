@@ -1,0 +1,371 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts and header type. Corrected description to 'Arrearagia.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Guinear pro anno.",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The figures at the extreme top-right (above the main columns) clearly show '2s 2d'. claude-haiku significantly misread these values. Corrected description to 'Guinear pro anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Longwittenham pro Anno.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Longwittenham pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Michinnet pro Quadriennio.",
+      "amount_pounds": 60,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '60 16 1'. claude-haiku significantly misread all values for this row. Corrected description to 'Michinnet pro Quadriennio.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Southnowington pro sesquianno.",
+      "amount_pounds": 80,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '80 0 0'. claude-haiku misread the pounds as '88'. Corrected description to 'Southnowington pro sesquianno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yavington pro Mic.",
+      "amount_pounds": 88,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '88 0 0'. claude-haiku misread the pounds as '5'. Corrected description to 'Yavington pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton pro Biennio",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '5 0 0'. claude-haiku significantly misread all values for this row, appearing to be one row off. Corrected description to 'Merton pro Biennio' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chace-hill pro Mic.",
+      "amount_pounds": 12,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '12 6 8' with no fraction. claude-haiku significantly misread all values for this row, appearing to be one row off, and incorrectly added a fraction. Corrected description to 'Chace-hill pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Thrup pro Anno.",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted gpt-5-mini's base values ('3 15 2') but added a 0.5 fraction based on visual verification and the 'FRACTION SYMBOL AMBIGUITY' rule. The pence digit '2' is clearly followed by a mark resembling 'd' (obolus). claude-haiku misread all values. Corrected description to 'Thrup pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tue-Quitrouts pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Tue-Quitrouts pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Warner pro Quadriennio.",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '2 11 1' with a distinct 'd' (obolus) symbol for 0.5 fraction. Corrected description to 'Warner pro Quadriennio.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph Martials Capons pro Quinquennio.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '0 12 6'. Corrected description to 'Ralph Martials Capons pro Quinquennio.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Eld pro sesquianno.",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '6 3 3' with a distinct 'd' (obolus) symbol for 0.5 fraction. Corrected description to 'Eld pro sesquianno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcot pro biennio.",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '6 10 2'. Corrected description to 'Calcot pro biennio.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cuddington Mills pro Mic.",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '5 8 10' with a clear 'd' (obolus) symbol for 0.5 fraction. Corrected description to 'Cuddington Mills pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Bampton pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Montacute pro Anno.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's values after visual verification. The image clearly shows '0 10 0'. claude-haiku misread the pence as '9'. Corrected description to 'Montacute pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Greenway pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Walker pro Anno.",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Walker pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Franklin pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Franklin pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mynne",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sadler pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '2 11 5' with a clear 'd' (obolus) symbol for 0.5 fraction. Corrected description to 'Sadler pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Molindaux pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '2 14 5' with a clear 'd' (obolus) symbol for 0.5 fraction. Corrected description to 'Molindaux pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Napper pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Adopted claude-haiku's value for the fraction after visual verification. The pence value '3' is clearly followed by a 'd' (obolus) symbol, indicating a halfpenny fraction. gpt-5-mini missed this fraction. Corrected description to 'Napper pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Tintinhul Hopkins pro sexennio & dimid.",
+      "amount_pounds": 5,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Adopted claude-haiku's value for the fraction after visual verification. The pence value '6' is followed by a 'd' (obolus) symbol, and the description includes '& dimid' (half), strongly supporting a 0.5 fraction. gpt-5-mini missed this fraction. Corrected description to 'Tintinhul Hopkins pro sexennio & dimid.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton - Ferry pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Clifton - Ferry pro Mic.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bensington pro Anno.",
+      "amount_pounds": 3,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '3 18 3'. The faint marks noted by gpt-5-mini do not form a fraction."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Broxhouse pro Anno.",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '6 19 0'. The faint extra mark noted by gpt-5-mini appears to be a page blemish, not a fraction. Corrected description to 'Broxhouse pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "South-Nowington TenemP pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'South-Nowington TenemP pro Anno.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Trethowin pro Quadriennio.",
+      "amount_pounds": 24,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Visual verification confirms '24 0 0'. Corrected description to 'Trethowin pro Quadriennio.' from image (gpt-5-mini was more accurate)."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Merton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted claude-haiku's row_type ('header') after visual verification, as this line functions as a section label with no associated amounts. gpt-5-mini incorrectly classified it as an 'entry'."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Lad-Lane Sparkes, Meriton, pro Anno.",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on values and type. Corrected description to 'Lad-Lane Sparkes, Meriton, pro Anno.' from image (gpt-5-mini was more accurate)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 21,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

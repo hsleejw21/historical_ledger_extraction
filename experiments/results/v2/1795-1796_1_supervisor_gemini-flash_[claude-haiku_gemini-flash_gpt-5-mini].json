@@ -1,0 +1,328 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomas Stinton Coll. Exon. Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was visually confirmed as the first part of a two-line header. The description combines structural correctness from gemini-flash's split with gpt-5-mini's more accurate reading of 'Exon.'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do Nov'is 1795 ad eundem diem revolutum 1796.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was visually confirmed as the second part of a two-line header. Description from gemini-flash, which correctly separated this line and read 'revolutum' accurately."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, row type, and absence of monetary amounts from gemini-flash and gpt-5-mini. Visually confirmed."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South Newington Rectory 1 year",
+      "amount_pounds": 152,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and monetary amounts. Visually confirmed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwinear Rectory half a year to Mich.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description was visually verified to be 'Gwinear Rectory half a year to Mich.', reconciling minor variations between extractors."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kidlington Mills for One Year",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts, including the 0.75 (¾) fraction, are correctly identified by gemini-flash and gpt-5-mini and confirmed visually. Description taken from gemini-flash for capitalization."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Sadler 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Garsington Sadler 1 year' from gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Puckett one year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Garsington Puckett one year' from gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tinternhul Napier 7 Years",
+      "amount_pounds": 41,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Tinternhul Napier 7 Years' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tinternhul Beaton 5 Years",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts, including the 0.5 (½) fraction, and year '5' are consensus from gemini-flash and gpt-5-mini. Description 'Tinternhul Beaton 5 Years' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Montacute Alast Smith 4 Years",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Montacute Alast Smith 4 Years' from gemini-flash, confirmed visually (no 's' on Smiths)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Clifton Fiery 1 year",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Clifton Fiery 1 year' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Tenement. Tho: Penn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'South Newington Tenement. Tho: Penn 1 year' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Menhenst Rectory 2 Years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Menhenst Rectory 2 Years' was visually verified to correct minor spelling discrepancies among extractors."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Chase Hill 1 year' from gemini-flash and gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bensington 2 years Barrett and Burger",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Bensington 2 years Barrett and Burger' from gemini-flash, confirmed visually ('Burger' is clear)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tretrewyn a year and ½",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Tretrewyn a year and ½' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lod Lane, Comyns 2 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash, visually confirmed. The amount for this item (18.13.4) is written *inline* in the description column in the ledger, not in the main monetary columns. Therefore, main amount fields are left empty."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lod Lane Wilson 2 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash, visually confirmed. The amount for this item (13.6.8) is written *inline* in the description column in the ledger, not in the main monetary columns. Therefore, main amount fields are left empty."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lod Lane Hallifax, Late Warrals 3 years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash ('3 years' confirmed visually), visually confirmed. The amount for this item (3.6.8) is written *inline* in the description column in the ledger, not in the main monetary columns. Therefore, main amount fields are left empty."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Lod Lane Group Subtotal (bracketed)",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row represents the bracketed subtotal in the main amount columns. Amount (17.13.4) is visually confirmed. gpt-5-mini correctly identified this as a total and its position. Description created to reflect its visual context as a bracketed sum."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 35,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This total row was identified only by gemini-flash. The '£' symbol and the amount (35.6.8) are clearly visible in the image. This amount corresponds to the sum of the *inline* amounts from the three preceding 'Lod Lane' entries (18.13.4 + 13.6.8 + 3.6.8 = 35.6.8)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Bampton 6 years",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Bampton 6 years' from gemini-flash and gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "S. G. Page Turner 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'S. G. Page Turner 1 year' from gemini-flash and gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Jesus College 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Jesus College 1 year' from gemini-flash and gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Back Gate Coppin 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Back Gate Coppin 1 year' was visually verified to be 'Coppin', correcting minor variations among extractors."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Wild Irish 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary amounts are consensus. Description 'Wild Irish 1 year' from gemini-flash, confirmed visually."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 392,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Final total row. The amount (392.3.5) is consensus. The fraction (¼ or 0.25) was correctly identified by gpt-5-mini and visually confirmed. No description is present on this line in the ledger."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 16,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

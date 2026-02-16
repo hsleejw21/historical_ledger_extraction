@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris A.D. 1859 ad eundem diem revolutum A.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows 'Rectoris', '2do', 'eundem', 'revolutum' and 'A.D. 1860'. Correcting minor transcription errors from both candidates. Claude-haiku was closer."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Recepta' as in claude-haiku's extraction."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Inst on Loan",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Claude-haiku disqualified due to 'amount_shillings': 30, which violates the shillings >= 20 hard rule. Gpt-5-mini's description and values are visually confirmed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Andrews 4 do. on do.",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Claude-haiku effectively missed this distinct row, conflating parts of its description with the previous entry. Gpt-5-mini's extraction is accurate based on visual verification. The description 'Andrews 4 do. on do.' is clear with '30' in the pounds column."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushey Divd.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms 'Divd.' over 'Dic'd' for the description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Colby. Burrar Interm. Domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description and all amounts (1308/6/7). Claude-haiku significantly misread the pounds (13 instead of 1308), shillings (8 instead of 6) and description ('Cotty. Burrar [payment] Sorer forms')."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. do. do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description ('Do. do. do.') and all amounts (1986/0/7). Claude-haiku misread the description ('8v. N. [?] 8d'), pounds (19), shillings (8), pence (6), and incorrectly added a fraction."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description ('Deans Fees') and pounds value (77). Claude-haiku misread description ('Deano Peed') and pounds (17)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Divd. on Mr Jones consols recd Mint '58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms gpt-5-mini's description ('Divd. on Mr Jones consols recd Mint '58') over claude-haiku's ('Die in 8d Jones consid in paid 5S')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "New Building Fund. Aut. (Closed)",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description ('New Building Fund. Aut (Closed)') and all amounts (154/13/9). Claude-haiku misread the description ('New Ruilding Fund. tint Clear'), pounds (15), and pence (7)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Late Building Fund. not carried to a/c etc",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description ('Late Building Fund not carried to a/c etc') and all amounts (47/1/-). Claude-haiku misread the description ('Late Building Fund. Mortgage [?]'), pounds (4), shillings (7), and incorrectly added a pence value (1)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dr. Richards Divinity Prize",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms gpt-5-mini's description ('Dr. Richards Divinity Prize') over claude-haiku's ('S: Beckand. Decently Prize')."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Hope Rent Miss Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms gpt-5-mini's description ('Hope Rent Miss Jones Share') over claude-haiku's ('Kipto Rent: Maq. Jones Share')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sixteen per cent on Rents",
+      "amount_pounds": 738,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description ('Sixteen per cent on Rents') and pounds value (738). Claude-haiku misread description ('Sylteen he [/] ent on Rents') and pounds (7)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Composition to Colby by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's amounts (332/10/-). Corrected 'Master' to 'Masters' in gpt-5-mini's description based on visual, and 'Colby' is accurate. Claude-haiku misread the description ('Composition to Cotes by Masters'), pounds (3), shillings (3), and incorrectly added pence (2)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859. Rates",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms gpt-5-mini's description ('Overplus Room Rent Xmas 1858 & do 1859 Rates') over claude-haiku's ('Disposer Room Rent & Klines 1858 & Do 1859. hate')."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Rath from Cantion Fund (Principal £30 Interest £7.4.5)",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description and values. It correctly identified and summed the embedded principal and interest amounts. Claude-haiku misread the description ('Repayment of Monies Borrowed by hater from Churchek Fund') and pounds value (39), and did not explicitly note embedded amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "True Repayment from Choir Fund",
+      "amount_pounds": 9,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms 'True' over 'Free' in the description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "2000. Consols. sale of Lantern Fund",
+      "amount_pounds": 1910,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's amounts (1910/19/8) and interpretation of 'Consols'. Corrected 'Lanthr' to 'Lantern' in gpt-5-mini's description based on image. Claude-haiku misread 'Consols' as 'Carrots' and had significantly incorrect pounds (19) and shillings (10) values."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hammond Keys",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's amount (1 pound). Corrected description from 'Key' to 'Keys'. Claude-haiku misread the description ('4 am mend Keys') and placed the '1' in shillings instead of pounds."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Allnutt. repayment by Burrar",
+      "amount_pounds": 5,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms 'Allnutt' (gpt-5-mini) over 'Allnnett' (claude-haiku). Corrected gpt-5-mini's 'Barrow' to 'Burrar' based on image."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instructed (choir)",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms 'Sub Rector repayment Instructed (choir)'. Corrected gpt-5-mini's 'Instruction Choir' for better accuracy. Claude-haiku misread 'Sub' as 'het' and truncated 'choir' to 'hoi'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agree between candidates. Visual verification confirms there is no descriptive text next to the total, hence an empty string for description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 21,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title clearly written at the top centre of the page, no amounts on the same line; handwriting is unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Messrs Briddulph, Cochrs & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear structural label naming the banking firm. Minor ambiguity in the exact spelling of the middle name (Cochr. / Coches / Cochr's) but clearly a firm name and no amounts on the line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421 1.0 - (cons. Q.T.D.)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount at right clearly reads 19.3.0 and aligns well with the vertical ruling lines. Description wording is legible though some abbreviation in the parenthesis is slightly unclear — amount reading is unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 - 9 4 pr (1/2?)",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Right-hand amount clearly reads 9.16.6 and is well aligned. Description uses 'Do' (ditto). There is uncertainty in the small manuscript notes after the '9' (looks like '4 pr' or '4 pr 1/2'), so description's finer wording is uncertain."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421 1.1.8 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount in the pounds/shillings/pence columns reads 19.3.8 and aligns with the ruling lines. Description is mostly clear; 'as before' written to the right of the line is legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 - 9",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right-hand amount again reads 9.16.6 and is consistent with the earlier 'Do on 546' entry. The short description is legible; minor uncertainty only in abbreviated trailing marks."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "-",
+      "amount_pounds": 58,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A horizontal subtotal line with an amount to the right that reads '58 - 4' (interpreted as £58 4s 0d). Column alignment is clear but this printed subtotal does not arithmetically match the four item amounts if added strictly (those sum to £57 19s 8d), so reading of the page subtotal is taken as written while noting the arithmetic discrepancy."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "State of the Fund for Advowsons in the 3 pr Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Section heading is centered and introduces the following accounting lines. Some letters (eg. 'Advowsons' and '3 pr Cent') are old-style abbreviations but overall readable as a header with no right-hand amounts on that line."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of Stock & Cash account 2476.18.7",
+      "amount_pounds": 2476,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The rightmost amount clearly reads 2476.18.7 and aligns with the ruling lines. Description text up to the amount is legible and matches conventional phrasing 'Amount of Stock & Cash account'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "with one years Div: 66.17.6",
+      "amount_pounds": 66,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "There is a small line reading 'with one years Div.' and a right-hand figure that reads 66.17.6. The digits are well aligned; slight ink faintness on the word 'years' but the amount is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "bought",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The short descriptor 'bought' (written to the right of the previous line) corresponds to a prominent right-hand amount 99.8.10 which is underlined. Amount alignment is clear; descriptor is minimal but legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "making",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final total for the section reads 'making 2576.7.5' on the right; underlining indicates a calculated total. Alignment with the pounds/shillings/pence columns is clear and the digits are legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "N.B. Dividend viz 34.15.7 not yet invested.",
+      "amount_pounds": 34,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Bottom note reads 'N.B Dividend viz 34.15.7 not yet invested.' The numeric amount 34.15.7 is clearly written to the right of 'viz' and aligns with the column; wording is legible though abbreviated (viz = namely)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

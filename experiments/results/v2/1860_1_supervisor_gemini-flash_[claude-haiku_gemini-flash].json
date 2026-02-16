@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for description and no monetary amounts. Clear reading from image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris A.D. 1859 ad eundem diem revolutum A.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override. `gemini-flash` incorrectly split this header into two lines and misread 'Rectoris' as 'Baloris'. `claude-haiku` correctly identified it as a single line but misread 'eundem' as 'cundem'. The final description is a correction based on careful visual inspection of the image. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Included based on `gemini-flash` and visual verification. This is a clear horizontal rule indicating a section break. `claude-haiku` omitted this structural element."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for description and no monetary amounts. Clear reading from image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Included based on `gemini-flash` and visual verification. This is a clear horizontal rule indicating a section break. `claude-haiku` omitted this structural element."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Inst. on Loan",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. `claude-haiku` was disqualified by the hard rule (shillings value 30) and had a substantially incorrect description and amount parsing. Visual verification confirms `gemini-flash`'s description and the '10' in the pounds column, with no shillings or pence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Andrews. Do So. on Do.",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. `claude-haiku` appears to have entirely missed this entry. Visual verification confirms the description and '30' in the pounds column."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Bushey Do.",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values. `claude-haiku` missed the '7' in the pounds column and misread 'Do.' as 'Dic'd'. Visual inspection confirms '7 8 6'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Colby. Bursar Income Domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` had significant misreadings for description and amounts (pounds '13', shillings '8'). Visual inspection clearly shows '1308 6 7'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do. Do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` had significant misreadings for description and amounts (pounds '19', shillings '8', pence '6' with a fraction). Visual inspection clearly shows '1986 0 7' with a distinct '0' for shillings and no fraction."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread description as 'Deano Peed' and pounds as '17'. Visual inspection clearly shows '77 13 4'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Divd. on St. Jones Consols, to Mich. 58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override for description, selecting `gemini-flash`. Monetary amounts (17 2 9) were in consensus. `claude-haiku` had a significantly different and incorrect description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "New Building Fund. Act. Cloos",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread description and pounds as '15'. Visual inspection clearly shows '154 13 7'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Late Building Fund. not carried to Ent. Do.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` had significant misreadings for description and all amounts (pounds '4', shillings '7', pence '1'). Visual inspection clearly shows '47 1' with a blank pence column."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sr. Richards, Divinity Prize",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override for description, selecting `gemini-flash`. Monetary amounts (10, blank, blank, blank) were in consensus. `claude-haiku` had a significantly different and incorrect description."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ryse Rent Miss Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override for description, selecting `gemini-flash`. Monetary amounts (11 8 6) were in consensus. `claude-haiku` had minor misreadings in the description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sixteen per Cent on Rents",
+      "amount_pounds": 733,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread description and pounds as '7'. Visual inspection clearly shows '733 11 8'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Composition to Colly. by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` had significant misreadings for description and all amounts (pounds '3', shillings '3', pence '2'). Visual inspection clearly shows '332 10' with a blank pence column."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rate",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override for description, selecting `gemini-flash`. Monetary amounts (7 11, blank pence) were in consensus. `claude-haiku` had minor misreadings in the description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Kater from",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. This is a descriptive parent line for a braced amount, with no monetary value directly in the columns. `claude-haiku` combined this with the next line and incorrectly extracted a total amount here."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Cautor's Fund – Principal £30",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override. `gemini-flash` correctly read the description but incorrectly placed the *total* braced amount (37 4 5) in the columns for this specific line. This line clearly contains an embedded '£30' which is extracted. `claude-haiku` did not identify this distinct line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "– Interest £7.4.5",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override. `gemini-flash` correctly identified no column amounts but did not extract the embedded amount '£7.4.5'. This embedded amount is extracted. `claude-haiku` misread description and extracted incorrect column amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Total for Kater Loan Repayment",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added based on visual verification. This is the sum of the braced entries 'Principal £30' and 'Interest £7.4.5'. Neither extractor correctly isolated this total amount to its own logical row, though `gemini-flash` placed it on an incorrect line."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Due Repayment from Choir Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread 'Due' as 'Free' and incorrectly placed the '9' in the pounds column instead of pence. Visual inspection confirms '9' in pence column."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Dovv. Consols sale of Cantor Fund",
+      "amount_pounds": 1010,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` had significant misreadings for description and amounts (pounds '19', shillings '10'). Visual inspection clearly shows '1010 19 8'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Hammond keys",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread description and incorrectly placed the '1' in the shillings column instead of pence. Visual inspection confirms '1' in pence column."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Allmitt repayment by Bursar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override, selecting `gemini-flash` values and description. `claude-haiku` misread description and incorrectly placed the '5' in the pounds column instead of pence. Visual inspection confirms '5' in pence column."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Sub Recto repayment Instructed (Choir)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 30,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Visual override. Both candidates technically violated the hard rule for pence (>=12) for this row, but `gemini-flash` correctly identified the value '30' and its placement in the pence column, noting the irregularity. `claude-haiku` misread description and incorrectly placed '30' in the pounds column. Transcribed '30' as it appears in the pence column, acknowledging it exceeds the standard range for pence."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override for description, selecting `gemini-flash`. Monetary amounts (6726 11 7) were in consensus. `gemini-flash` correctly identified no descriptive text on the total line, while `claude-haiku` added 'Summa / Total'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 1
+    }
+  }
+}

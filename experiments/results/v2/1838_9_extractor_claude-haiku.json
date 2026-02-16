@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1839 Computus D™ Rectoris L£ Richardā a 2 de dic Novembris 1838 ad uen dim d™ vevolutum 1839",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page header / title block. Latin text indicating a rector's account for 1839, running from 2 December 1838 to end of November 1839. No amounts expected. Text is largely legible despite period handwriting."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia Recta Money rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section header introducing arrearages and fixed money rents. No amounts. Clear legible text."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Unyon Rectory 1912 Killingdone 3 yr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwriting is cursive and compressed. Reading 'Unyon Rectory 1912' with uncertainty on 'Unyon' spelling. Amount shows '6o' in right margin — interpreted as 6 shillings. No pence visible. Moderate uncertainty due to ink clarity."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "S£ Capent & Bruen ½ yr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place name reads 'S£ Capent & Bruen' (St. Capent & Bruen?) with half-year notation. Amount '10' visible in shillings column. Text compressed; modest uncertainty on place name spelling."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "dark Lane, Norris 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry for 'dark Lane, Norris' for 1 year. Amount clearly shows '9 6' (9 shillings, 6 pence). Alignment with column lines is clear. Minor uncertainty on first word spelling ('dark' or 'dark')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Dunthorne 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 13,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "VALIDATION WARNING: Pence value reads as 13, which exceeds valid range (0–11). This indicates a column misalignment. Re-examination suggests this may be '6 1 3' split incorrectly, or the pence column is misidentified. Marked low confidence pending verification. Possible reading: 6 shillings, but pence unclear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Rickford 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 13,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "VALIDATION WARNING: Pence reads as 13 again, exceeding valid range. Column alignment suspect. Amount may be '1 1 3' misread, or represents different currency notation. Low confidence — requires re-examination of column boundaries."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Modenham 1 yr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 13,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "VALIDATION WARNING: Pence reads as 13 (invalid). Third occurrence of this pattern suggests systematic column misalignment. Marked very low confidence. Actual amount structure unclear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Little Tew Becks 1yr & ½",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 19,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "CRITICAL VALIDATION ERROR: Pence reads as 19 (far exceeds 11-pence limit). Column structure fundamentally misaligned. Do not trust this extraction. The amount may actually span pounds/shillings/pence differently."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Eymark 3yrs",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount visible as '17 6' in right margin. Shillings (17) valid. Pence (6) valid. However, the pattern of prior rows suggests column misalignment may still affect this reading. Moderate uncertainty."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Leonard 3yr",
+      "amount_pounds": "",
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount '7' visible in shillings position. No pence shown. Text legible. Moderate confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bushey Tenements 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear entry. Amount '10' in shillings column. Text legible. High confidence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section header. No amounts. Clear legible text introducing redeemed land tax section."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kidlington Rectory ½ yr",
+      "amount_pounds": "",
+      "amount_shillings": 11,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '11 2' visible. Shillings (11) and pence (2) both valid. Alignment clear. Minor handwriting compression in place name."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "£ Wittenham Rectory 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '2 8' (2 shillings, 8 pence). Both values valid. Text legible with '£' symbol at start of description."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mo Vicarage 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '4 4' (4 shillings, 4 pence). Both values valid and properly aligned. Text legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Yarndon Rectory 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '11' in shillings column. Valid. Text legible. High confidence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Mixed rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section header. No amounts. Clear text introducing section of variable mixed rents."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation ½ yr",
+      "amount_pounds": "",
+      "amount_shillings": 84,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "VALIDATION WARNING: Shillings read as 84, which vastly exceeds valid range (0–19). This is a major misalignment error. The amount is likely in pounds/shillings/pence format but not correctly parsed. Marked very low confidence. May represent £84 0 0 or similar, but column structure unclear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Yo Mills 2 yr",
+      "amount_pounds": "",
+      "amount_shillings": 34,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "VALIDATION WARNING: Shillings read as 34 (invalid, exceeds 19). Pence (8) valid but shillings error indicates column misalignment. Do not trust this extraction. Likely represents different structure."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 107,
+      "amount_pence_whole": 14,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "CRITICAL VALIDATION ERROR: Shillings reads as 107 (wildly invalid) and pence as 14 (exceeds 11). This row and prior entries suggest a fundamental structural issue with the page. Columns may be in pounds/shillings/pence with different spacing, or amounts may span multiple lines. Marked critically low confidence. Requires complete re-examination."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Stt Savington Rectory 1yr & Dey 1838 Do Tenements 1yr",
+      "amount_pounds": "",
+      "amount_shillings": 181,
+      "amount_pence_whole": 19,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.25,
+      "notes": "CRITICAL ERROR: Shillings 181 and pence 19 both invalid. This row combines multiple entries compressed together, making parsing extremely uncertain. Marked critically low confidence. Entire section of page appears to have column misalignment."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mortone Rectory (Land tax deducted) & 239",
+      "amount_pounds": "",
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Severely corrupted row. Text references deduction and number 239 but amounts are unclear. Compressed formatting and poor legibility. Critical confidence failure."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Fintonhall — Beaton 2yr to Mick 1838 — Penny for Do",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.35,
+      "notes": "Multiple compressed entries. Amounts show '2 10 1h' with fraction notation. Shillings (2) valid, pence (10) valid, but fraction unclear — may be '1h' or similar. Overall legibility poor due to compression and ink quality."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "£ 834 [total line]",
+      "amount_pounds": 834,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final total row showing £834. Large number is readable but context of prior rows' column misalignment raises doubt. Given systematic errors in shillings/pence columns above, this total may represent pounds only, with shillings/pence in separate positions not clearly visible. Moderate confidence on the £834 figure itself, but relationship to rows above is uncertain."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

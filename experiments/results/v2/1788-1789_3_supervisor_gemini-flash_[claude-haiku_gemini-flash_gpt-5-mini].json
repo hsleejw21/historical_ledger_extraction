@@ -1,0 +1,339 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus among all extractors. Clearly a header with no monetary amounts. Selected based on Step 2."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Novr. 4th Mr. William Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description refined via visual verification (Step 5): 'Novr.' from gpt-5-mini is more accurate than 'Nov.' from gemini-flash, and 'Marriott's' from gemini-flash is correct while other extractors had errors. Selected based on Step 5."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mr. Bawden's Do.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Mr. Bawden's Do.' from claude-haiku is confirmed by visual inspection. Selected based on Step 5."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Dec. 6th of the Revd Mr. Cooke Dr. Hartridge's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description refined via visual verification (Step 5): 'Dr. Hartridge's Benefaction' from gpt-5-mini is the most accurate reading of the handwritten text. Selected based on Step 5."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "31 Increment due at Midsumr. last from the Bursar",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (61/5/2/0.5) are in consensus, with notes clarifying the 'half-penny' interpretation. Description from gemini-flash is the most accurate visual match for 'Midsumr.' and 'Bursar'. Selected based on Step 5."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1789 Jan. 31 of Mr. Bowles Esq. Rent for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Feb. 24 Hon. Geo. King & Dr. John Eng's Plate Money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description refined via visual verification (Step 5): 'Dr. John Eng's' appears most accurate, combining insights from gemini-flash and gpt-5-mini. Selected based on Step 5."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mar. 27 Mr. John Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "June 3rd of Mr. Cooke & Mr. Benedick do. Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "11th of Mr. Parsons Exer. of Hymes & Exhib. on his acct at Orwill.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate and comprehensive reading of the abbreviated text. Selected based on Step 5."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles do. Payment for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match, especially 'do. Payment' and 'H. Bittenham'. Selected based on Step 5."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29 of Mr. Demainbray Dean's Treasr. & House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match, particularly for 'Dean's Treasr. & House'. Selected based on Step 5."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1st of Mr. Vivian Bursr. Increm. to Midsr. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings are in consensus. Pence is clearly '5' followed by a half-penny symbol (0.5), as noted by gemini-flash and gpt-5-mini and confirmed visually. claude-haiku misread the pence as '4'. Description from gemini-flash is the most accurate. Selected based on Step 5."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donnithorne's Fine for a Lease",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match for 'Donnithorne's Fine for a Lease'. Selected based on Step 5."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Lamande's Bursr. Increm. for Xmas 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings are in consensus. Pence is clearly '3' followed by a '3/4' symbol (0.75), as noted by gemini-flash and confirmed visually. Other extractors misread the fraction. Description from gemini-flash is the most accurate. Selected based on Step 5."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Oct. 30 of Gibbons, Frazier, for old Iron as by Acct.",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match for 'Frazier' and 'Acct.'. Selected based on Step 5."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr. Robt. Martin's acct. for Merton Estate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row is correctly identified as a distinct header by gemini-flash. gpt-5-mini and claude-haiku incorrectly merged this with the following date range into a single header. Confirmed by visual inspection (Step 5). Selected based on Step 5."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "from Mich. 1787 to Mich. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row is correctly identified as a distinct header (date range) by gemini-flash. gpt-5-mini and claude-haiku incorrectly merged this with the previous header. Confirmed by visual inspection (Step 5). This row was added relative to the merged extractions. Selected based on Step 5 and 'MISSING ROWS' protocol."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Money Rent – 265.0.0.",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds amount is clearly '265' as extracted by gemini-flash and gpt-5-mini and confirmed visually. claude-haiku misread it as '262'. Description from gemini-flash. Selected based on Step 5."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Loft Rent – 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Loft Rent' from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total of Years Rent 270.12.0.",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus among all extractors. Clearly a header with no monetary amounts. Selected based on Step 2."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Land Tax – 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus among all extractors. All amounts are clear and descriptions match. Selected based on Step 2."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Leverett's Close – 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Leverett's Close' from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Repairs &c. House – 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Repairs &c. House' from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do. of Chancr. – 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Do. of Chancr.' from gemini-flash is the most accurate visual match. Selected based on Step 5."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total of Deductions 48-12-4",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description 'Total of Deductions' from gemini-flash and gpt-5-mini is accurate. claude-haiku incorrectly merged this line with the subsequent 'Remains clear' line. Selected based on Step 5."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Remains clear for the Year's Rent",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row is correctly identified as a distinct total by gemini-flash and gpt-5-mini. claude-haiku incorrectly merged this line with the 'Total of Deductions'. Amounts are in consensus. Description from gemini-flash is most accurate. Selected based on Step 5 and 'MISSING ROWS' protocol."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus, with notes clarifying the 'half-penny' interpretation, confirmed visually. There is no descriptive text for this final grand total line on the page, so the description field is left blank as per gemini-flash's output. Selected based on Step 5."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 24,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

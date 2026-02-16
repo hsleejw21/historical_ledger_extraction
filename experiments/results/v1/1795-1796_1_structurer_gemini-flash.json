@@ -1,0 +1,143 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 26,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Computus Thoma Stinton Coll. Exon. Rectoris"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "a 2do Nov'is 1795 ad eundem diem revolutum 1796."
+      },
+      {
+        "row_index": 3,
+        "row_type": "header",
+        "description": "Arrearagia recepta"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "South Newington Rectory 1 year"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Guinea Rectory half a year to Mich."
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Kidlington Mills for one Year"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Garsington Sadler 1 year"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Garsington Puckett one year"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Tintinhul Napier 7 Years"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Tintinhul Beaton 5 Years"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Montacute Allet Smith 4 Years"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Clifton Fiery 1 year"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "South Newington Tenement Tho: Penn 1 year"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Menhert Rectory 2 Years"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Chase Hill 1 year"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Bensington 2 Years Barret and Burgin"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Trethewyn a year and ½"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Lad Lane, Comyns 2 Years"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Lad Lane Wilson 2 Years"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Lad Lane Hellifax, late Warral Legg 3 Yrs"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Bampton 6 Years"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "St. G. Page Turner 1 Year"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Jesus College 1 year"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Back Gate Coppins 1 year"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Mild Irish 1 year"
+      },
+      {
+        "row_index": 26,
+        "row_type": "total",
+        "description": "392 3 5¼"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

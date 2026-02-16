@@ -1,0 +1,73 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 12,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "1800 Received by Bankers"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Messrs Biddulph, Cocks & Ridge"
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "Dividend on 1421.1.0 (cons: Q.D)"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Do - on 546 - 9 4/prCt Do"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Do on 1421.1.0 - as before"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Do on 546 - 9 Do"
+      },
+      {
+        "row_index": 7,
+        "row_type": "total",
+        "description": "----------"
+      },
+      {
+        "row_index": 8,
+        "row_type": "header",
+        "description": "Rate of the Fund for Advowsons in the 3 pr Cent reduced"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Amount of Stock / Play account 2576.10.7 with one years Div: 66.17.6 – bought"
+      },
+      {
+        "row_index": 10,
+        "row_type": "total",
+        "description": "making"
+      },
+      {
+        "row_index": 11,
+        "row_type": "total",
+        "description": "2576.7.5"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "N.B Dividend - viz 34.15.7 not yet invested."
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

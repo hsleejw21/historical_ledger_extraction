@@ -1,0 +1,130 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Golborne",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page header. Section title in distinctive handwriting at top left."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Miss Parsonage Lamb, Sparks, Inspector Armorer",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting, unambiguous column alignment. All values pass validation (shillings 15 ≤ 19, pence 8 ≤ 11). Numbers sit cleanly in their columns."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mrs Ushelane Hope",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is legible but no amounts visible for this row. Appears to be a sub-item or introductory line for entries that follow."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Jack Gale S. D. Clog",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric entry. All columns clearly visible and legible. Shillings and pence both zero — typical for round pound amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "[Boyce]",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description in brackets/parentheses, slightly faded but readable. Amounts are clear. Appears to be a variant name or alternate reference for the preceding entry."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Ant. Frying & Widdenlane",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is legible but ink is slightly faded. No amounts visible on this row. Likely a header or sub-item within a braced group."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Joh. Hallsworth from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description moderately legible (some handwriting ambiguity in 'unknown'). Amounts are clear and unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Overseership & Baliffs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section header introducing next group of entries. No amounts present. Text is clear and positioned as a structural label."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Gents: Comi:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Abbreviated text ('Comi:' possibly 'Committee' or similar). Treated as a sub-section header. No amounts. Handwriting is somewhat abbreviated/unclear but appears structural."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Act. Suppon",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description slightly unclear ('Suppon' may be abbreviation or variant spelling). Amounts are clear and unambiguous. Columns well-aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "Comt. Library",
+      "amount_pounds": 230,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Heavy underline present below this row, suggesting this is a subtotal or section total. Description 'Comt. Library' is abbreviated but readable. Amounts show 'Sum' notation to left. All values in valid range. Minor handwriting ambiguity in '2' shillings but context confirms reading."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia pro 2d die Novr: 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for more accurate transcription of '2d' (with implied 'o' as superscript) and 'die' (lowercase) based on visual inspection. Gemini-flash had '2do' and 'Die'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. 1½ year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual inspection confirms 90 pounds and '1½ year' in description. Gemini-flash misread '90' as '9' and '½' as '1/2'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhenriot. ... 1. Yr.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted amount from gpt-5-mini (visual confirms 20 pounds). Adopted description from gemini-flash, which more accurately includes the '... 1. Yr.' part of the description, rather than truncating it."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bampton Tenement. 3 yrs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and general description. Normalized 'Yrs' to 'yrs'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montacute. Do. 21 yrs",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, normalizing 'Yrs' to 'yrs' and using 'Do.' for punctuation."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris - 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, normalizing punctuation and case for 'yr'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Donnithorne",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Medinham - 2 Yrs",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual inspection confirms 8 pence and 'Medinham'. Gpt-5-mini misread pence as 0 and the spelling as 'Medenham'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew - Bucks. 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, correcting 'Tev' to 'Tew' based on visual inspection and normalizing punctuation/case."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymouth. 2 yrs",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual inspection clearly shows 6 pounds, 0 shillings, 0 pence. Gemini-flash misread positions as 0 pounds, 6 shillings."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lennard",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual inspection confirms 8 pence. Gpt-5-mini incorrectly stated no amounts were visible for this row."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lurneck",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual inspection confirms 'Lurneck' (the first letter is clearly an 'L') and 0 pounds, 1 shilling, 0 pence. Both noted ambiguity in description, but 'L' is more accurate than gpt-5-mini's 'C'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1 yr",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, normalizing punctuation/case."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Do. Vicarage.",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, using 'Do.' for punctuation consistency."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Yarnton Rectory",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1 yr",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description corrected to include 'L.' based on visual inspection and normalized punctuation/case."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Mills",
+      "amount_pounds": 20,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, dropping trailing period as per image."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. Newington Rectory",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do. Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description derived from both, using 'Do.' for punctuation consistency and dropping trailing period."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Merton Rectory. 1 yr",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description derived from both, normalizing punctuation/case."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Yarnton Rectory & Tenement. 1 yr",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the fraction. Visual inspection clearly shows '¾' after 10 pence. Normalized description based on both."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry - 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the fraction. Visual inspection clearly shows '¾' after 7 pence. Normalized description based on both."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Chase Hill - 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the fraction. Visual inspection clearly shows '¾' after 10 pence. Normalized description based on both."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bensington - 3 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description derived from both, normalizing punctuation/case."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Garsington Crook. 3 yrs",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description derived from both, normalizing punctuation/case."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts, fraction, and row type. Adopted empty description from gemini-flash as the total line on the image is only the numeric sum, not a descriptive text. A line visibly separates this from the previous entry amounts."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 18,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 12,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

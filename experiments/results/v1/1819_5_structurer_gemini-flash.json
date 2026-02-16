@@ -1,0 +1,78 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 13,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Arrearagia continued - Mixed Rents variable"
+      },
+      {
+        "row_index": 2,
+        "row_type": "entry",
+        "description": "Bensington - 1 1/2 Yr."
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "South Newington Tenement"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Jn Hewin & Hodgs"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Lillies & Ew."
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Taylor. 2 yrs"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Judge"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Acorns."
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Hartley"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Kimber."
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Busby. (Worley)"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Stipend or Quit Rent for Kidlington Vicarage."
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "vid. An: pro 29 Dic. Nov. 1818. Mem. +"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

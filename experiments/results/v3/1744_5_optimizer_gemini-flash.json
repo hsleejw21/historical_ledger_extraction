@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Row 14 contains the word 'set' which is struck through, indicating a correction or deletion.",
+    "Row 29 shows a correction in the pounds column, where '9' is crossed out and '7' is written above it, changing the amount from 179 to 177.",
+    "Row 35 shows a correction where '00' in the pence column appears to be crossed out and '18' is written over it, changing the amount from 11.00.00¾ to 11.18.00¾.",
+    "Faint ink bleed (show-through from the reverse side) is visible in several areas of the page, but does not heavily obscure any critical text or numbers."
+  ],
+  "estimated_row_count": 41,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for the pounds, shillings, and pence columns are clearly visible and well-defined across the entire page.",
+  "prompt_additions": "CRITICAL: Row 14 has 'set' struck through. Extract the full description including 'set' and note it as a struck-through word.\nCRITICAL: Row 29 has '9' crossed out and '7' written over it in the pounds column. Extract the final intended value as 177 and note the original value and the correction.\nCRITICAL: Row 35 has '00' crossed out and '18' written over it in the pence column. Extract the final intended value as 11.18.00¾ and note the original value and the correction.\nThe lower section of the page (rows 32-41) consists of summary calculations and signatures, not standard transaction entries. Treat these rows as distinct data points but do not attempt to fit them into a standard transaction schema unless specifically instructed for these types of summary rows. The ruling lines remain clear for the calculation rows.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

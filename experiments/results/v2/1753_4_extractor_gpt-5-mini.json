@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title at top, very clear and centered. No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid Molineux Brazier's Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds (17) and shillings (10) are clearly aligned in the right-hand £ and s columns; pence column appears blank. Vertical ruling lines are unambiguous for this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid mr Combs Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings readable; pence digit (6) slightly cramped/inked but consistent with column. There is minor ambiguity in a middle stroke of the pence digit, but 6 is the most plausible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '1' and shillings '0' are aligned; pence looks like '7' though the terminal stroke is faint (could be 7 or 9). Chosen 7 based on alignment with pence column."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for flooring of Room over ye new Bursary",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small amount; pounds column blank (interpreted as 0), shillings '1' clear, pence appears blank. Vertical alignment consistent but ink is lighter here."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid Dan. Collin in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear, large numerals '21' in pounds column and '10' in shillings; pence blank. Very legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Dodd for lighting of winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings read as '1' and '3'. Pence column appears blank; ink of the description slightly overlaps the ruling but numbers align with columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook and Dinner & xmas Gaudies",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numerals '1', '15', '4' are well-formed and sit cleanly in the £/s/d columns. The description is slightly abbreviated but legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury Chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "200 guineas is equal to £210; the pounds column shows '210' clearly. Shillings and pence blank. This conversion matches the expected historical value, reinforcing the reading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds blank (0), shillings digit appears to be '1' but is small; pence blank. Ink faint on this line, so reading of '1s' is moderately uncertain."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid mr. Horner for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small amount in shillings column (appears as '1'). Pounds and pence blank. Minor smearing in the area makes exactness moderate rather than high."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, mens &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear figures '3', '13', '4' in the £ s d columns. The description is slightly abbreviated but the numbers are unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Label 'Soluta' with a clear subtotal '278 7 4' in the right columns. Vertical alignment matches other numbered rows; digits are legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Label 'Ditto' and subtotal '73 19 10' clearly visible. Pence '10' is valid (≤11). Ink in the '19' shillings is slightly darker but readable."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 522,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "There is a third line of numbers (pound 522, shillings 10, pence 2) with no distinct textual label at left (only a short rule). The digits are readable but the left description is effectively blank or a dash; reading of the pence '2' is somewhat faint."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final sum printed below the three subtotals; reads as '874 17 4' when the three preceding subtotals (278 7 4, 73 19 10, 522 10 2) are added arithmetically. The final pence digit is slightly less crisp than the pounds and shillings."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ex Receptis quæ sunt &c Anni præcedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Latin line with amount visible as '1043 1 10' in the £ s d columns. The hundreds-digit in the pounds is clear; some flourishes in the text make the reading of the Latin words moderately uncertain but the numbers are clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Deducitis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "This deduction line repeats the 'deducted (soluta)' amount. The numbers match the earlier 'Summa totalis solutorum' reading (874 17 4). Ink is slightly heavier on the pounds figure but alignment is consistent."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Restant solv. a Dno Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Remainder line reads approximately '168 4 9' on the page. Note: this visible remainder (168 4 9) does not arithmetically match exactly 1043 1 10 minus 874 17 4 (which would be 168 4 6); the pence digit on this line is faint and could be a 6 or a 9—I have recorded '9' as that is the clearer reading in the scanned image, but there is a moderate ambiguity."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Computus approbatus per præsentes viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered approval heading; no amounts. Text is legible Latin/heading. Vertical ruling does not intersect this heading."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Iacobum Cofsorat Sub. Rectoria m",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Signature/name line immediately below the approval heading. Handwriting is highly stylized/cursive; I transcribed as it appears but specific spelling is uncertain (letters ambiguous). No amounts present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Thomas Bray Decanus",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and title fairly clear in the cursive signature block. No amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "J. Fortescue V. P.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single-line signature with initials and abbreviated title. Some flourishes make specific letters uncertain (V.P. interpretation is most plausible)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "J. Powle A. M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Name with academic post-nominal (A.M.). Handwriting fairly legible though the surname could plausibly be 'Powell' or 'Powle'; chosen reading matches the visible letters."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Benj: Henricott A. M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Signature reads 'Benj: Henricott A.M.' with moderate clarity. No amounts. The surname is legible though archaic spelling may vary."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "H. Mountsteven A. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Final signature line; letters are ornate and somewhat unclear. 'Mountsteven' is my best reading of the surname; the academic post-nominal appears to be 'A.B.' but this is somewhat uncertain due to flourishes."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

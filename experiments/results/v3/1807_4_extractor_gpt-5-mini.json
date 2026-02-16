@@ -1,0 +1,175 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1800 Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, large heading at top-left. No monetary amounts in the £/s/d columns. Vertical column alignment not required for header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second line of the multi-line header. Handwriting legible (surname spelled 'Biddulph, Cocks & Ridge' as shown). No amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421 1.0 - (cons. O.T.D.)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount clearly aligned in the £/s/d columns as 19.3.8. This row was listed as a strong alignment reference in the page guidance; digits are crisp and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 - 9 4 pr lt da",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads 9.16.6 in the £/s/d columns and matches the guidance reference. Column boundaries were set using reference rows; all currency fields validate (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421 1.1.8 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads 19.3.8 and aligns with the same column positions as Row 3 (used as an alignment anchor). Clear digits, all currency rules satisfied."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 - -9",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads 9.16.6 in the £/s/d columns. Matches the other 'Do on 546' line (Row 4) and the page guidance reference; digits and alignment are clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "-",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This row on the page is shown as '58-4' (58 shillings, 4 pence) — a non-standard shillings value. Per page guidance I converted 58s 4d to the normalized amount 2 pounds 18 shillings 4 pence for the £/s/d fields. The original written form was clear ('58-4') but required conversion to fit currency columns; vertical alignment is slightly uncertain due to faint ruling lines, hence less than perfect confidence."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Rate of the Fund for Advowsons",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Top line of a multi-line section header. Handwriting legible; no amounts in the right-hand columns. Used as section label introducing the following entries."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "in the 3 pr Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Continuation of the section header (multi-line). Text reads 'in the 3 pr Cent reduced' as shown. No monetary amounts; handwriting clear enough to be confident."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Amount of Stock Plan account 2576.10.7",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary value (2576.10.7) appears embedded in the descriptive text rather than in the right-hand £/s/d columns. I preserved the value inside the description and did not extract it into the columns. Handwriting for the embedded number is legible but slightly cramped, so moderate confidence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "with one years Div: 66.17.6 - bought",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Embedded monetary value (66.17.6) occurs inside the line of description (not in the £/s/d columns). The wording 'with one years Div' is legible but slightly abbreviated; value retained in description per page guidance."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "making",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Single-word descriptive prefix that links to the amount on the next line (Row 13). No amount in the columns on this line; placement and relation to Row 13 are clear from handwriting and layout."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "99.8.10",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount 99.8.10 is clearly written in the £/s/d columns and was explicitly called out in the page guidance as a strong alignment reference. Treated as a calculated subtotal (the 'making' amount). All currency fields validate."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "2576.7.5",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Standalone final amount on the page (2576.7.5). Page guidance flagged this as a strong reference row; digits and column alignment are clear. Treated as a total/final balance."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "N.B. Dividend viz 34.15.7 not yet invested.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Descriptive note with embedded monetary value (34.15.7) contained within the text rather than in the £/s/d columns. Handwriting for the embedded number is legible; the phrase 'not yet invested' is readable. Value left in description per instructions."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

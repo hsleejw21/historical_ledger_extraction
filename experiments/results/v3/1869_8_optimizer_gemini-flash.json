@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "The page is visibly tilted approximately 2-3 degrees clockwise, which affects the perceived vertical alignment of text.",
+    "The '£' symbol for the final total (row 39) exhibits minor ink bleed, though the numerical values are clear."
+  ],
+  "estimated_row_count": 39,
+  "layout_type": "standard",
+  "layout_hints": "The main vertical line separating descriptions from amounts is generally visible. The three vertical ruling lines that delineate Pounds, Shillings, and Pence are extremely faint or absent for most rows. The 'Carried forward' row (row 38) and the total amount (row 39) show clear horizontal spacing for £ s d.",
+  "prompt_additions": "The page is tilted ~2-3 degrees clockwise. Extractors must account for this global slant when determining column boundaries and trust the overall vertical flow rather than strict perpendicularity to the image edge.\nCRITICAL: The vertical ruling lines separating Pounds, Shillings, and Pence columns are almost entirely invisible throughout the page. Use the 'Carried forward' row (row 38) and the total amount '2774 7 4½' (row 39) as your definitive reference points to establish and project the precise column boundaries for £, s, and d to all rows above.\nRow 16 contains a diagonal slash through the '7' in the amount '73 8 9'. Extract the value as '73 8 9' as the numbers are still legible.\nMany rows contain a dash (-) in the Pounds column when no pounds value is present (e.g., rows 6-9, 11-13, 20-30, 32-33, 35-37). These dashes should be interpreted as zero pounds. Similarly, 'do' (ditto) marks (e.g., rows 12, 13, 18, 28) indicate repetition of previous text or context.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

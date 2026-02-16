@@ -1,0 +1,271 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from 'gpt-5-mini' is visually more accurate ('Mixed' instead of 'Alixe'). Row type and empty amounts are consistent between models and visually verified as a header.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long. Wittenham Rectory",
+      "amount_pounds": 172,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Wittenham' for description and '1/2' (0.5) for the pence fraction, aligning with 'gpt-5-mini'. Amounts 172/7/11 are clear.",
+      "side": "left"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South. Kewington D°",
+      "amount_pounds": 255,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'South. Kewington D°' for description, aligning with 'gpt-5-mini' for 'South' and actual 'D°' rather than 'Rectory'. Pounds '255' is clear. Shillings and pence columns are blank, so empty strings are used for their values.",
+      "side": "left"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Merton D°",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Merton D°' for description (the ledger shows a dash and D°, similar to 'gpt-5-mini''s 'Merton - Do', but 'D°' is more exact). Pounds '15' is clear. Shillings and pence columns are blank, so empty strings are used.",
+      "side": "left"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yardington D°. & Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Yardington D°. & Tent' for description, aligning with 'gpt-5-mini'. Amounts 65/19/1 1/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chase. Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Chase. Hill' for description, aligning with 'gemini-flash'. Amounts 19/7/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kiddington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Kiddington Mills' for description (double 'd'), aligning with 'gemini-flash'. Amounts 28/6/10 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garsington, Sadler three Years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Garsington, Sadler three Years' (capital 'Y') for description, aligning with 'gemini-flash'. Amounts 35/1/11 3/4 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "— D° Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms '— D° Prickett' for description, aligning with 'gpt-5-mini''s use of the dash and 'Do' (corrected to 'D°'). Amounts 14/2/5 1/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhull, Napier, three Years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Tintinhull, Napier, three Years' (capital 'Y') for description, aligning with 'gemini-flash'. Amounts 29/6/1 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "— D° Beaton, Six Years",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description is '— D° Beaton, Six Years'. Both models had issues, so the supervisor constructed the most accurate reading. Amounts 8/10/1 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Clifton Terry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors.",
+      "side": "left"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors. The pence column visually shows a dash followed by a 1/4 mark, consistently interpreted as 0 whole pence and 0.25 fraction.",
+      "side": "left"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "So. Kewington Tent",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'So. Kewington Tent' for description (starts with 'S'), aligning with 'gpt-5-mini'. Amounts 4/5/1 3/4 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Little Sew Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between all extractors.",
+      "side": "center"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Taylor, — two Years",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description as 'Taylor, — two Years', combining the dash from 'gpt-5-mini' and capitalization from 'gemini-flash'. Amounts 22/5/2 1/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Judge D°",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description as 'Judge D°'. Both models had issues with the description. Amounts 10/18/9 1/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Hirons D°",
+      "amount_pounds": 10,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description as 'Hirons D°'. Both models had issues with the description. Amounts 10/5/11 1/2 are clear and agreed upon.",
+      "side": "left"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gardiner, Burdons D°",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description as 'Gardiner, Burdons D°'. The pence column clearly has a dash, interpreted as 0 whole pence. Amounts 17/1/0 are clear, aligning with 'gemini-flash' for pence.",
+      "side": "left"
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hartley, D°",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows the description as 'Hartley, D°'. The pence fraction is clearly '1/4' (0.25), aligning with 'gpt-5-mini'. Pounds 2, shillings 18, whole pence 6 are clear.",
+      "side": "left"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 17,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

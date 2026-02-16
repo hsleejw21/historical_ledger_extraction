@@ -1,0 +1,208 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid Molineux Brazier's Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 17£ 10s 6d are clear."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid Mr Combos Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 1£ 7s 0d are clear, pence is a distinct '0'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 0£ 1s 0d are clear. Pence value is represented by a dash, which is interpreted as 0 per page-specific guidance."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for flooring of Room over ye new Bursary",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 0£ 10s 0d are clear. Pence value is represented by a dash, which is interpreted as 0 per page-specific guidance."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid Mr Collins in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 21£ 3s 0d are clear. Pence value is represented by a dash, which is interpreted as 0 per page-specific guidance."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Dod for lighting of Winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Shillings column appears empty, so interpreted as 0. Pence value is represented by a dash, which is interpreted as 0 per page-specific guidance. Amounts 1£ 0s 0d are clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook Acc: Dinner & Xtmas Gaudies",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Shillings column appears empty, so interpreted as 0. Pence value is 4. Amounts 15£ 0s 4d are clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description clearly states '200 Guineas', which converts to 210 Pounds (1 Guinea = 1£ 1s). The extracted pound amount matches this calculation. Shillings and pence columns are visibly empty, consistent with 210£ 0s 0d."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": "",
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is empty. Shillings '0' and pence '0' (dash) are legible despite bleed-through. Column alignment derived from clearer rows below."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid Mr Horner for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 0£ 17s 6d are clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, Mops &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text is legible despite ink bleed-through. Column alignment derived from clearer rows below. Amounts 3£ 13s 4d are clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Ditto",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated with this row. Acts as a continuation label for the 'Soluta' section."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Crystal clear reading. This row was used as the primary reference for column alignment. The pence value '10' is followed by a distinct 'ob' or a loop/d-like symbol, accurately interpreted as a half-penny (0.5). All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ex Receptis quae erant A. Dob. Anno praecedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Crystal clear reading. Column alignment unambiguous. The pence value '10' is followed by a distinct 'ob' or a loop/d-like symbol, accurately interpreted as a half-penny (0.5). All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Crystal clear reading. Column alignment unambiguous. The pence value '10' is followed by a distinct 'ob' or a loop/d-like symbol, accurately interpreted as a half-penny (0.5). All values in valid range. This appears to be a total representing a deduction."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restant Solv. a Dno Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Crystal clear reading. Column alignment unambiguous. No fraction symbol detected. All values in valid range. This appears to be a final balance carried forward."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

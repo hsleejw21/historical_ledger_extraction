@@ -1,0 +1,285 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybeare Rectoris a",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top title line is fully legible; no amounts on this line. Handwriting clear and not affected by bleed or shadow."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "die Novembris 1730 ad eundem diem revolutionum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second title line clearly readable; no ambiguity in text; no amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading clearly visible. Slight uncertainty in the second vowel of first word (looks like 'Arrearagia') but overall unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible though older script; amounts columns (10 0 0) are crisp and well aligned. Pounds/shillings/pence values all within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place name 'Long Wittenham' is clear. Amount appears as '26 12 9'. There is a small trailing flourish after the pence that could be a decorative 'd' — interpreted as no fraction. All numeric columns validate (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is somewhat uncertain (transcribed as 'Minhinnet'); heavy-script letters ambiguous but context (a place name) suggests this reading. Amount '40 0 0' is clear and unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Newington rect.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description 'South Newington rect.' and amount '145 0 0' are very clear. Vertical alignment of numbers is unambiguous and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cuddington Rect.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description letters are affected by ink bleed from reverse (per page guidance) making some letters uncertain ('Cuddington' read with moderate confidence). Amount '20 0 0' is clear and aligns with the amount columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chase-hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description legible though within bleed-affected band (reduced confidence). Amount seen as '14 8 10' and numbers align horizontally; pence (10) is within valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description partially legible but within the heavy-bleed zone (rows 8–20) so characters uncertain. The diagonal shadow covers the amount columns for rows 10–25: amounts are not readable here and therefore left blank."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "The Quit Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Text is faint due to heavy ink bleed (row in 8–20 band). Amount columns fall in the prominent diagonal shadow (rows 10–25) so values are unreadable and intentionally left blank."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph Marshals Capons",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description mostly readable but affected by reverse-side bleed; given row is inside the bleed band (8–20) confidence reduced. Amounts are obscured by diagonal shadow (rows 10–25) so left blank."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Short surname 'Bigg' visible though neighboring ink bleed slightly affects stroke clarity. Amount column is within diagonal shadow (10–25) and not legible; left blank."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Caleb alias Lane",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description read as 'Caleb alias Lane' but pen-strokes softened by bleed (row in 8–20). Amounts obscured by diagonal shadow; left blank per page guidance."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Barnister",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description likely 'Barnister' though letters are affected by bleed — moderate uncertainty. Amounts fall in the shadowed zone (rows 10–25) so blanked."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Reading 'Leaden-Hall' chosen; ink bleed reduces certainty. The diagonal shadow obscures the numeric columns for this and subsequent rows; amounts are therefore left blank."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Short name 'Sadler' visible but within bleed-affected band; amount columns under diagonal shadow (10–25) and unreadable, so blank."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description 'Hart Hall' readable but faint from bleed; amounts are in the shaded area and not legible, left blank per instructions."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Name reads as 'Napper' though strokes are faint from reverse-side bleed. Amounts are obscured by the diagonal shadow covering rows 10–25 and therefore omitted."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Clifton Penny",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description appears as 'Clifton Penny' but is within the heavy-bleed region (rows 8–20) making letters uncertain. Amounts fall under the prominent diagonal shadow (10–25); left blank."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Entry 'Brew-House' visible though some fainting occurs. Per page guidance, amounts for rows 10–25 are in the diagonal shadow and unreadable; left blank and confidence set <0.3."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tretchew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Description uncertain (transcribed as 'Tretchew') because of ink bleed and stylized letters. Amount cells are within the shadowed zone (rows 10–25) and are unreadable; left blank."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sadtane, Spukes et Meriton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Multi-name entry is heavily affected by reverse-side bleed; reading 'Sadtane, Spukes et Meriton' chosen but uncertain. Amounts in diagonal shadow (rows 10–25) are not legible and left blank."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Entry looks like 'Medenham' though some letters faded from bleed. Amount columns are in the shadowed band (rows 10–25); unreadable and intentionally blank."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Back Gate, Boyse",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.2,
+      "notes": "Final line 'Back Gate, Boyse' visible but amount column area lies in the diagonal shadow (rows 10–25) so numbers cannot be reliably read and are left blank."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

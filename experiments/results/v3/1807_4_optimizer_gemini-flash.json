@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "The page is scanned with a slight clockwise tilt (~2-3 degrees).",
+    "The vertical ruling lines defining the £ / s / d columns are quite faint, particularly the line between shillings and pence, which is almost invisible in places.",
+    "Row 7 ('58-4') contains a non-standard shillings value (58 shillings) which should be handled carefully.",
+    "Rows 10, 11, and 15 contain monetary values embedded within their descriptive text, not in the dedicated £ s d columns."
+  ],
+  "estimated_row_count": 16,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines are faint, especially between shillings and pence. Trust the visual spacing of the numbers. Use rows with clear monetary values, such as row 3 ('19.3.8'), row 4 ('9.16.6'), row 7 ('58-4'), row 13 ('99.8.10'), and row 14 ('2576.7.5') as reference points for column alignment. The page has a slight clockwise tilt, which affects vertical alignment.",
+  "prompt_additions": "CRITICAL: The page is scanned with a slight clockwise tilt (~2-3 degrees), requiring careful alignment of vertical columns. The vertical ruling lines defining the £ / s / d columns are very faint, especially the line between shillings and pence which is almost invisible in parts. Trust the visual spacing of the numbers themselves for column separation. Use Row 3 ('19.3.8'), Row 4 ('9.16.6'), Row 7 ('58-4'), Row 13 ('99.8.10'), and Row 14 ('2576.7.5') as strong references for column alignment.\n\nRow 7 contains the subtotal '58-4'. This signifies 58 shillings and 4 pence. Do not normalize this to pounds automatically; capture it as written or explicitly note its non-standard shillings value. If your output schema requires conversion to pounds, convert 58s 4d to 2£ 18s 4d.\n\nRows 1-2 ('1800 Received by Bankers Messrs Biddulph, Cocks & Ridge') are a multi-line header. Rows 8-9 ('Rate of the Fund for Advowsons in the 3 pr Cent reduced') are a multi-line section header.\n\nRows 10, 11, and 15 ('Amount of Stock Plan account 2576.10.7', 'extra year due 66.17.6-bought', 'N.B. Dividend viz 34.15.7') contain monetary values embedded directly within their descriptive text, not in the dedicated £ s d columns. Extract these values as part of the description and ensure they are not mistakenly extracted as ledger amounts.\n\nRow 12 ('making') is a descriptive prefix for the amount in Row 13 ('99.8.10'). These should be treated as one logical entry where '99.8.10' is the associated amount. Row 14 ('2576.7.5') is a standalone amount with no explicit description on the left; capture it as a total or final amount if applicable in your schema.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

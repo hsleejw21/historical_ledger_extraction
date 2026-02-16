@@ -1,0 +1,399 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "Braine Robey Brought up",
+      "amount_pounds": 690,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hohor",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bates",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Thatching",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kid Cottage. Comm:n",
+      "amount_pounds": "",
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Whitehead Repair of Wall, Moor Lane",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Gardner Quit Rent Warboro",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Faulkner repairs",
+      "amount_pounds": 5,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hughes Straw for Hatching Barn",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Timber Valuation of",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Penny Pipes",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Greynpear Inn Bill",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Comm:n",
+      "amount_pounds": 12,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stamps &",
+      "amount_pounds": "",
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Timber Poles",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Stone repairs Bampton",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clinkard Wheeler",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Waterman Cottages",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Waterman Farm House",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Lovell. Thatching Cottages",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Straw for",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pipes",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Receiving Cottage Rent",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Kidlington Estate purchase of.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "By sale at LJew. 8000",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do. Red 3 per cent 256.5.8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Assumed by Domus 858.12.4",
+      "amount_pounds": 9114,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "E. Jones - Legacy L 97. P.T.D. Inty 4",
+      "amount_pounds": 101,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "H. Jones children legacy L 97. P.T.D. Inty 4",
+      "amount_pounds": 101,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Tho. Jennison legacy L 180. Inty 16.0",
+      "amount_pounds": 187,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Thomas. By Glynn Johnston & & Legacy 180. Int 11.0.10",
+      "amount_pounds": 191,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Bracher. Tame - 3.10.4 - 1.10.0",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Winter",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Walsh Stone pit Kidlington",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Day man grant for Schools",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "William Special grant for Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 39,
+      "row_type": "total",
+      "description": "10546 0 1/2",
+      "amount_pounds": 10546,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 5: Bates — amount_pence_whole=1 → amount_pence_whole=0 | Reason: the pence column for \"Bates\" clearly reads \"16 0\" (zero pence) in the image, not \"16 1\".\nRow 22: Lovell. Thatching Cottages — amount_pounds=40, amount_shillings=4, amount_pence_whole=0, amount_pence_fraction=0.5 → amount_pounds=4, amount_shillings=0, amount_pence_whole=4, amount_pence_fraction=0.5 | Reason: the image shows the Lovell line amounts as \"4 0 4½\" (4 pounds, 0 shillings, 4 and a half pence). The draft had an extra leading \"0\" in pounds (40) and the shilling/pence were shifted; I corrected to match the aligned columns on the image.\nOther rows: No change — amounts read clearly in the image or no irrefutable contradiction found.",
+    "changes_made": true
+  }
+}

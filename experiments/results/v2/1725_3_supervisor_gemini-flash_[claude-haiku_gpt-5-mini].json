@@ -1,0 +1,162 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Tretchewin",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted both the description and the monetary amounts (8 pounds, 16 shillings, 8 pence). Visual verification confirms these values. claude-haiku completely missed this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Mr. Secorage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini correctly identified the absence of monetary amounts. Visual inspection confirms the description reads 'Mr. Secorage' (the 'Master' interpretation from gpt-5-mini is plausible, but 'Mr.' is more visually accurate here, and 'Secorage' is clearer than 'Severage' or 'Sicorage'). claude-haiku completely missed this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "LaLane, Sparks, Moreton Annie",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini correctly identified the absence of monetary amounts. Visual inspection clearly shows the description as 'LaLane, Sparks, Moreton Annie'. claude-haiku completely missed this row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mordenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini accurately extracted the description and identified the absence of monetary amounts. Visual verification confirms these. claude-haiku completely missed this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { Bley",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted the monetary amounts (4 pounds, 0 shillings, 0 pence) and the core description. Visual inspection confirms the amounts and the description, noting the brace symbol. claude-haiku's corresponding row was completely incorrect for the description and thus discarded."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts (4 pounds, 0 shillings, 0 pence) and the description 'Boyce', confirming a high-confidence consensus. Visual inspection confirms these values. The brace from the previous line visually applies to this entry as well."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Porty Ginny p Mordenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini accurately extracted the description and identified the absence of monetary amounts. Visual verification confirms the description 'Porty Ginny p Mordenham'. claude-haiku provided an entirely incorrect description for this row."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holsworthy from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts (5 pounds, 0 shillings, 0 pence). For the description, visual inspection confirms 'of Mr. Holsworthy from an unknown Land'. gpt-5-mini was closer with 'Holsworthy' but had 'hand', while claude-haiku had 'Hallsworth' but 'Land'. The final description is a merge for accuracy based on visual reading."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increments & Battley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini accurately extracted the description 'Increments & Battley' and correctly identified this as a header with no amounts. Visual verification confirms this. claude-haiku provided an entirely incorrect description ('Overseership & Baliffs') for this row."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Comd",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Both extractors identified empty amounts. Visual inspection confirms the description 'Gent: Comd' (without a final colon) and that it functions as an 'entry' within the section, rather than a separate 'header' as claude-haiku suggested. gpt-5-mini's description and row_type are preferred."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts (10 pounds, 0 shillings, 0 pence) and the row type 'entry'. Visual inspection confirms the description 'Act Suppor' (without a period after 'Act' and ending in 'r' not 'n'). The final description is based on visual verification."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "of Cont: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini correctly identified this as an entry with no amounts on this line, recognizing that the amounts belong to the subsequent 'Sum' line. Visual inspection clarifies the presence of 'of' above 'Cont: Library'. claude-haiku incorrectly attributed the total amounts to this line and misidentified it as a 'total'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified this as the 'total' row with 'Sum' description. Visual inspection confirms the pounds as 210 and shillings as 2. For pence, it's clearly '06'. The trailing 'g' or flourish after the '6' is interpreted as a 0.5 fraction (obolus) according to the special instructions for fraction symbol ambiguity ('d' or squiggle). claude-haiku failed to extract this distinct row and attributed incorrect total amounts to the previous line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 4
+    }
+  }
+}

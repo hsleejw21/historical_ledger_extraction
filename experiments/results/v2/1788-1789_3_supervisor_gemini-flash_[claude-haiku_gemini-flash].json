@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and claude-haiku. Clear heading with no associated monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1788 Nov. 4th Mr. William Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon by both extractors. The description from gemini-flash ('Marriott's', 'Nov. 4th') is a more accurate transcription of the handwriting than claude-haiku ('Seiriett's', 'Novr.')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "do",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, the description is simply 'do' (ditto). gemini-flash correctly transcribed this, while claude-haiku invented 'Mr. Bawden's', which is not present on the page."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Dec. 6th of the Revd Mr. Cooke Sr Hotridg's Benefaction",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash is a more accurate transcription ('Cooke Sr Hotridg's Benefaction') compared to claude-haiku ('Cale St. K.D. oft Bonfaction')."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "31 Increment due at Midsumr. last from the Bursar",
+      "amount_pounds": 61,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon, including the 0.5 fraction (two and a half pence, denoted by a small raised '2' or 'ob' symbol). The description from gemini-flash ('Increment... from the Bursar') is a more accurate transcription compared to claude-haiku ('Summen't... from the Parrott')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1789 Jan. 31 of Mr. Bowles Esq. Rent for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash is a highly accurate transcription, while claude-haiku's version ('Mr. Oersley Esq. Mrs. East fold. Ketcham') is significantly incorrect."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Feb. 24 Hon. Geo. King & dor. John Eng's Plate Money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Hon. Geo. King & dor. John Eng's Plate Money') is a more accurate transcription than claude-haiku's ('Jno. Geo. King & Mrs. Ben Cogging's Attorney')."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mar. 27 Mr. John Marriott's Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Mr. John Marriott's Plate Money') is accurate, consistent with a previous 'Marriott' entry, whereas claude-haiku had 'Mr. Jno. Lourdes's Plate Money'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "June 3rd of Mr. Cooke & Mr. Benedick do. Payment",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Cooke & Mr. Benedick do. Payment') is a better transcription of names and the 'do. Payment' context than claude-haiku ('Clarke, St. H. Bougles 2d. Payment')."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "11th of Mr. Parsons Exer. of Hymes & Exhib. on his acct at Orwill.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash is an accurate, complete transcription of the line. claude-haiku's description ('of Mr. Browne's Agent of Asquets Stephens's Trowmill') is significantly different and incorrect."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "of Mr. Bowles do. Payment for H. Bittenham",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Mr. Bowles do. Payment for H. Bittenham') is more accurate than claude-haiku's ('Mr. Browles 2d Payment for Wittencham'), consistent with earlier entries for 'Mr. Bowles' and 'H. Bittenham'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "29 of Mr. Demainbray Dean's Treasr. & House",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Mr. Demainbray Dean's Treasr. & House') is a more accurate and complete transcription than claude-haiku's ('Mr. Demain Bray, Senr. to be Recd.')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "July 1st of Mr. Vivian Bursr. Increm. to Midsr. 1789",
+      "amount_pounds": 103,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings are clear and agreed upon. Visually, the pence amount is '5' followed by a clear half-penny symbol. gemini-flash correctly transcribed '5' and '0.5', while claude-haiku transcribed '4' and '0.5'. The description from gemini-flash ('Mr. Vivian Bursr. Increm. to Midsr. 1789') is also significantly more accurate than claude-haiku's ('Mr. Vivian Corrs. Herein. & this'd 1789')."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Quarter Part of Mr. Donnithorne's Fine for a Lease",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Mr. Donnithorne's Fine for a Lease') is a more accurate transcription than claude-haiku's ('Mr. Smithcrafte's Rent forfeited sale')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr. Lamande's Bursr. Increm. for Xmas 1788",
+      "amount_pounds": 23,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Pounds and shillings are clear and agreed upon. Visually, the pence amount is '3' followed by a clear '3/4' notation. gemini-flash correctly transcribed '3' and '0.75', while claude-haiku transcribed '4' and '0.5'. The description from gemini-flash ('Mr. Lamande's Bursr. Increm. for Xmas 1788') is also more accurate than claude-haiku's ('Mr. Simonds Corr. herein. for year 1788')."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Oct. 30 of Gibbons, Frazier, for old Iron as by Acct.",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Gibbons, Frazier, for old Iron as by Acct.') is a more accurate transcription than claude-haiku's ('G. Alane, Jameer, for old Iron & Heat')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Mr. Robt. Martin's acct. for Merton Estate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This is clearly a distinct header line from the image. gemini-flash correctly extracted it as such. claude-haiku merged this description with the following date range into a single row and had transcription errors in names ('Ralpth McKboe's Acct for Monton Estate'). gemini-flash's 'Robt. Martin's acct. for Merton Estate' is accurate."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "from Mich. 1787 to Mich. 1788",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This is a distinct header line with a date range, separate from the previous account name, as extracted by gemini-flash. claude-haiku merged this into its row 17. Extracted from gemini-flash."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Money Rent – 265.0.0.",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually, the amount is clearly 265 pounds. gemini-flash correctly extracted 265, while claude-haiku incorrectly read it as 262. The description matches gemini-flash."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Loft Rent – 05.12.0.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, the description is 'Loft Rent', as extracted by gemini-flash. claude-haiku incorrectly read it as 'Land Rent'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total of Years Rent 270.12.0.",
+      "amount_pounds": 270,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description from gemini-flash ('Total of Years Rent') is accurate. claude-haiku's 'ttell Affaris Rent' is a misinterpretation. The arithmetic (265.0.0 + 5.12.0 = 270.12.0) is consistent with the extracted amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Deductions allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and claude-haiku. Clear heading with no associated monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Land Tax – 34-7-0",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and claude-haiku. Clear entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Leverett's Close – 6-10-10",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, the description is 'Leverett's Close', as extracted by gemini-flash. claude-haiku incorrectly read it as 'Levescitt Clore'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Repairs &c. House – 7-6-7",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, the description is 'Repairs &c. House', as extracted by gemini-flash. claude-haiku incorrectly read it as 'Rep. of Me. Borye'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do. of Chancr. – 0-8-9",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, the description is 'Do. of Chancr.', as extracted by gemini-flash. claude-haiku incorrectly read it as 'Dd. of Porrcarl'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total of Deductions 48-12-4",
+      "amount_pounds": 48,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. The description 'Total of Deductions 48-12-4' is clearly visible as a distinct line. gemini-flash correctly extracted this. claude-haiku merged this description with the following line, leading to an inaccurate description. gemini-flash's note regarding the arithmetic discrepancy in the ledger itself is accurate and demonstrates careful reasoning."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Remains clear for the Year's Rent",
+      "amount_pounds": 221,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This is a distinct total line following the 'Total of Deductions'. gemini-flash correctly extracted this as a separate row. claude-haiku merged this text into its previous total row and did not extract this amount separately. The description and amounts are clearly visible, and the arithmetic (270.12.0 - 48.12.4 = 221.19.8) is verified consistent with the ledger's values."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1094,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed upon. Visually, there is no descriptive text for this final grand total line on the page; it is simply the underlined amount. gemini-flash correctly left the description field empty, while claude-haiku provided an interpretive description '[Final balance carried forward]', which is not an extraction of the text on the page. The fraction is a clear half-penny mark."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 18,
+      "rows_by_visual_override": 6,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

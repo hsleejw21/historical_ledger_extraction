@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Verula Ordinaria. Brought over —",
+      "amount_pounds": 280,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for the clearer description 'Verula Ordinaria. Brought over —'. For the pence amount, visually confirmed a small '1' rather than a '0' upon close inspection, aligning with gpt-5-mini's interpretation."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gas Lights 1/4 to Dec 1850",
+      "amount_pounds": 27,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus between both extractors. Chose gemini-flash's description 'Gas Lights 1/4 to Dec 1850' as a more accurate reading of the handwritten '1/4' abbreviation."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Do. Mich.",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Chose gpt-5-mini's description 'Do. Mich.' as it better represents the visual '..' preceding 'Mich.', which commonly denotes 'Ditto' in ledgers."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr. Falconer 1/2 Sel. on £247.14.2, 3/4 C.E. to July 1850",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Chose gemini-flash's description as it is a much more complete and accurate transcription of the verbose entry, especially the name and details of the transaction."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Subscriptions, &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added as a header row based on visual inspection. The text 'Subscriptions, &c.' appears as a clear section label with no associated amount on its line. gemini-flash did not separate this into a header. gpt-5-mini correctly identified a header but included 'Viz. Infirmary' in its description, which belongs to the subsequent entry."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Viz. Infirmary",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually identified as the first entry under the 'Subscriptions, &c.' header. Used gpt-5-mini's amount and type, but refined description to accurately include 'Viz.' which is clearly present. gemini-flash misread this description entirely as 'Sir Grenan'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Grey Coat School",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kidlington Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Kidlington' is a more accurate reading of the description than 'Malinton' (gemini-flash), by examining the initial letter which is a clear stylized 'K', agreeing with gpt-5-mini."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "South Newington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Newington' (gemini-flash) is a more accurate reading of the description than 'Kensington' (gpt-5-mini) based on the letter shapes."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Little Few Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus. Chose gemini-flash's description 'Little Few Do'. Visually, 'Few' is a plausible reading, though 'Tew' as suggested by gemini-flash is also possible, indicating a degree of ambiguity."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Garsington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Garsington' (gemini-flash) is a more accurate reading than 'Garston' (gpt-5-mini) due to the clearly visible 'ing' formation."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Merton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Merton' (gemini-flash) is a more accurate reading than 'Morton' (gpt-5-mini), as the second letter is clearly an 'e'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Garsington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Garsington' (gemini-flash) is a more accurate reading than 'Carrington' (gpt-5-mini), as the initial letter is clearly a 'G'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "L. Withenham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Withenham' (gemini-flash) is a more accurate spelling than 'Wittenham' (gpt-5-mini), due to the clear 'h' formation."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts. gpt-5-mini noted a slight ambiguity in spelling ('Bennington' vs 'Bensington') which is not strongly apparent on visual inspection; 'Bensington' is clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Gwinker Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus. 'Gwinker' (gemini-flash) appears slightly more accurate than 'Gurnker' (gpt-5-mini) upon close visual inspection of the 'w' formation, though the word remains ambiguous as noted by both extractors."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Poor of Gwinker",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus. 'Poor of Gwinker' chosen for consistency with the previous entry's place name, which upon re-evaluation is the more plausible reading here as well, despite some fading in the script as noted by gpt-5-mini. Aligns with gemini-flash's reading."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Small Livings in Diocese of Oxford",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually combining the best parts of both descriptions: 'Livings' (from gpt-5-mini, as the plural 's' is visible) and 'of Oxford' (from gemini-flash) provides the most accurate full description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy. Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts and substantial description. Selected gemini-flash's punctuation for 'Do' (with a period), which appears more consistent with the ledger's style."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "University Marshalls",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed the plural 's' for 'Marshalls', aligning with gemini-flash."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bele Ringer & Chapel Clerk",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in full consensus. 'Bele Ringer' from gemini-flash is a better visual fit than 'Pole Ringer' from gpt-5-mini. The note from gemini-flash ('Bele' is likely 'Bell') shows careful consideration of the script."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed that the pounds column is blank for 'Corn Prices', aligning with gemini-flash's explicit note of 'No pounds amount given'. gpt-5-mini erroneously included '1' for pounds."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed the plural 's' for 'Offerings', aligning with gpt-5-mini."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Parish Rates (for rates £0:—; Church Rate 1:13:4)",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts. Chose gpt-5-mini's description style (using parentheses and a semicolon) as a clearer representation of the parenthetical text in the original manuscript."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Synodals and Procurations",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "College Gardener — 1st Quarter",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed the pounds amount is '7', aligning with gpt-5-mini. gemini-flash misread this as '4'. Chose gemini-flash's em-dash style for the description."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed the pounds amount is '7', aligning with gpt-5-mini. gemini-flash misread this as '4'. Chose gemini-flash's concise '2nd Do' description as it accurately represents the 'ditto' style of the ledger."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts. Chose gemini-flash's concise '3rd Do' description, which is consistent with the ledger's 'ditto' notation."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "4th Do",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts. Chose gemini-flash's concise '4th Do' description, consistent with the ledger's 'ditto' notation."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Interest on Trustees' Deposit",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Trustees'' is a more accurate reading of the description than 'Stubbs' (gemini-flash), aligning with gpt-5-mini, whose note also accurately describes the script's ornateness."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Open Scholarships – Viz. Mr. Kempe",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Mr. Kempe' is the correct name (aligning with gpt-5-mini) rather than 'Mr. Hempton' (gemini-flash). Adopted gemini-flash's em-dash style and capitalization of 'Viz.' for the description."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Mr. Pilgrims",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. Visually confirmed 'Mr. Pilgrims' is the correct name, aligning with gemini-flash, and omitting the repeated 'Open Scholarships' as this is an indented sub-entry. gpt-5-mini's reading of 'Wilges' is incorrect."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Mr. Roase",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus. 'Mr. Roase' is confirmed visually, aligning with gemini-flash, and omitting the repeated 'Open Scholarships' for this indented sub-entry."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, type, and amounts. The double-ruled line visually confirms this as a total."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 12,
+      "rows_by_note_assessment": 4,
+      "rows_by_visual_override": 18,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description 'Soluta Ordinaria' which is a clear reading from the image. claude-haiku misread the header text. No monetary amounts are present in the image for this header row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitat Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (3£ 16s 8d) are in full consensus. Selected gemini-flash for description 'Civitat Oxon' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll Addis Rtt",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 0s 8d) are in full consensus. Selected gemini-flash for description 'Coll Addis Rtt' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll Addis Rtt",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for both description and amounts. Visual verification confirms 'Coll Addis Rtt' and 0£ 18s 4d. claude-haiku misread the description and pence value (stated 9d instead of 4d)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll Orm: Anno",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Coll Orm: Anno' and that no monetary amounts are associated with this line (indicated by dashes in the ledger), correctly represented as 0/0/0. claude-haiku misread the description and captured amounts belonging to the subsequent row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Ball",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Coll Ball' and amounts 4£ 12s 4d. claude-haiku misread the description and pounds value (stated 0£ instead of 4£)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll S.J.B.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Coll S.J.B.' and amounts 0£ 12s 6d. claude-haiku misread the description and shillings value (stated 8s instead of 12s)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Mayors Capons' and amounts 0£ 8s 2d. claude-haiku misread the description and captured amounts belonging to the subsequent row, indicating an offset."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Curia Archings",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Curia Archings' and amounts 0£ 14s 0d. claude-haiku misread the description and captured amounts belonging to the subsequent row, indicating an offset."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procur: Kidley: S:Newington & Merth.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Procur: Kidley: S:Newington & Merth.' and amounts 0£ 1s 8d. claude-haiku misread the description and captured amounts belonging to the subsequent row, indicating an offset."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Synods ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Easter Synods ditto' and amounts 1£ 18s 11d. A clear 'ob' symbol is present after the '11' in the pence column, correctly interpreted as a 0.5 fraction by gemini-flash. claude-haiku misread the description, pounds value, and missed the fraction."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1£ 10s 4d) are in full consensus. Selected gemini-flash for description 'Coquo' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lobicra",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (2£ 0s 0d) are in full consensus. Selected gemini-flash for description 'Lobicra' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Scull: & Ladroz",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1£ 6s 8d) are in full consensus. Selected gemini-flash for description 'Scull: & Ladroz' which is a clearer reading from the image than claude-haiku's 'Scall: & Readings'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleansing Chap. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 2s 0d) are in full consensus. Selected gemini-flash for description 'Cleansing Chap. Oct. 5' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Carbonibs ad fest. Annun.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Pro Carbonibs ad fest. Annun.' with the superscript contraction, and amounts 23£ 0s 0d. claude-haiku misread the description and pounds value (stated 28£ instead of 23£)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description '— ad fest. Mic', indicating a continuation, and amounts 23£ 0s 0d. claude-haiku misread the description and pounds value (stated 28£, repeating its error from the previous row)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Jonson",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Jonson' and amounts 0£ 13s 4d. claude-haiku misread the description and shillings value (stated 18s instead of 13s)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Reparationibus Cif.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4£ 0s 0d) are in full consensus. Selected gemini-flash for description 'Reparationibus Cif.' which is a clear reading from the image. claude-haiku provided a highly uncertain and incorrect description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1£ 14s 8d) are in full consensus. Selected gemini-flash for description 'Janitor' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 13s 4d) are in full consensus. Selected gemini-flash for description 'Bibliothecario' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bibl. Lect. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 2s 0d) are in full consensus. Selected gemini-flash for description 'Bibl. Lect. Oct. 5' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between all extractors for description and all monetary amounts. Visual verification confirms correctness."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "— Consecration",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1£ 0s 0d) are in full consensus. Selected gemini-flash for description '— Consecration' which is a clear reading from the image, including the dash indicating continuation. claude-haiku misread the description."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southenevington Vicar ad fest. Annun.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10£ 0s 0d) are in full consensus. Selected gemini-flash for description 'Southenevington Vicar ad fest. Annun.' which is a clear reading from the image, including the contraction. claude-haiku misread the description."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "— ad fest. Mic",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10£ 0s 0d) are in full consensus. Selected gemini-flash for description '— ad fest. Mic' which is a clear reading from the image, including the dash indicating continuation. claude-haiku misread the description."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedel of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1£ 3s 0d) are in full consensus. Selected gemini-flash for description 'Bedel of Beggars' which is a clear reading from the image. claude-haiku misread the description."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excize due Lady Day Cast",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (5£ 15s 0d) are in full consensus. Selected gemini-flash for description 'Plate excize due Lady Day Cast' which is a clearer reading from the image. claude-haiku misread 'Cast' as 'next'."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds (100) and shillings (2) are in full consensus. The description is empty as per the image (only a horizontal line, no text). For pence, gemini-flash extracted '119' which violates the 'Pence ≥ 12' hard rule. Therefore, claude-haiku's '11' pence is selected, as it is the only candidate that survives the hard rule filter for the pence value, implying a correction from the raw '119' visible on the page."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 28,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia pro 2d Die Novr. 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and no amounts. Description adjusted via visual verification: '2d' (with superscript d) and 'Novr.' are from gpt-5-mini, 'Die' capitalized as per image, and punctuation of 'Novr.' ending with a period is from gemini-flash."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. 1/2 year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description corrected via visual verification; 'Gwinear Rectory' from gpt-5-mini and '1/2 year' from gemini-flash, as per image. Amounts '90 0 0' are clearly legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhenriot. ... 1. yr.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Menhenriot. ... 1. yr.' is taken from gemini-flash, which accurately transcribed 'Menhenriot' and the ellipsis. Amounts '20 0 0' are clearly legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bampton Tenement. 3 Yrs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Bampton Tenement. 3 Yrs' is taken from gemini-flash, which accurately captured the capitalization of 'Yrs'. Amounts '3 0 0' are clearly legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montacute -- Do -- 21. Yrs",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Montacute -- Do -- 21. Yrs' combines the best elements: 'Yrs' capitalization from gemini-flash and corrected hyphenation ('--') via visual verification. Amounts '10 10 0' are clearly legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris - 1. yr.",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Lad Lane. Norris - 1. yr.' is taken from gpt-5-mini, which accurately captured the punctuation. Amounts '9 6 0' are clearly legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Donnithorne",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '6 13 4' are clearly legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '1 13 4' are clearly legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Medinham. 2 yrs",
+      "amount_pounds": 13,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and type. Amounts '13 8 0' derived from gemini-flash, as visual verification confirms '8' in the shillings column, not '6'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew -- Bucks. 1. yr.",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Little Tew -- Bucks. 1. yr.' refined via visual verification to include the double hyphen between 'Tew' and 'Bucks'. Amounts '1 6 1' are clearly legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymouth. 2 yrs",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and type. Amounts from gemini-flash, confirmed by visual verification that '6' is in the shillings column and no value in pounds."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lennard",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and type. Amounts from gemini-flash, confirmed by visual verification that '8' is clearly in the pence column and other columns are blank."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Currieck",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts from gemini-flash, confirmed by visual verification. The name is 'Currieck', and the amounts are '1 shilling 0 pence', with no value in pounds."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and no amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ch. Whittenham Rectory. 1. yr.",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts from gemini-flash. Visual verification confirms 'Ch.' is present and the pounds amount is '28', not '20'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "-- Do Vicarage.",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts from gemini-flash, confirmed by visual verification. Description includes leading hyphens, and the amounts are '4 shillings 0 pence', with no value in pounds."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Yarnton Rectory",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '14 0 0' are clearly legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and no amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Ch. Whittenham Rectory. 1. yr.",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description 'Ch. Whittenham Rectory. 1. yr.' is taken from gemini-flash, as 'Ch.' is present in the image. Amounts '122 6 11 1/2' are clearly legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Mills",
+      "amount_pounds": 20,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '20 2 8' are clearly legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. Newington Rectory",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '207 1 7 1/2' are clearly legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "-- Do Tenement.",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description '-- Do Tenement.' is taken from gemini-flash, confirmed by visual verification that leading hyphens are present. Amounts '3 2 1 1/4' are clearly legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Merton Rectory. 1. yr.",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '275 16 4 1/2' are clearly legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Yarnton Rectory & Tenement. 1. yr.",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Description and amounts from gemini-flash, confirmed by visual verification. Description '1. yr.' is accurate, and the fraction is clearly '3/4' (0.75), not '1/4'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry. 1. yr.",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and type. Amounts from gemini-flash, confirmed by visual verification that the fraction is clearly '3/4' (0.75), not '1/4'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Chase Hill -- 3 yrs.",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Full consensus for description, type, and amounts. Amounts '35 10 10 1/4' are clearly legible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bensington -- 3 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus on amounts and type. Description corrected by visual verification (no final period). Amounts '20 13 1' are confirmed, with the '1' pence being faint but discernible, hence slightly reduced confidence."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Garsington. Crook. 3. yrs",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Description corrected via visual verification (no final period). Amounts '26 10 3 1/2' are clearly legible."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus for type, amounts, and blank description. This final total row's values '976 15 10 1/2' are exceptionally clear and were used as a reference for column alignment."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 11,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 19,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

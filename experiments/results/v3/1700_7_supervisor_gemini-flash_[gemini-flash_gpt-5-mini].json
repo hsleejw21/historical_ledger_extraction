@@ -1,0 +1,503 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Jue quitrens Ann.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. The description is clearly a page title/section header with no associated monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Ralph marshalls capons",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini on description and absence of amounts. The dashes in the amount columns confirm no amounts are explicitly listed for this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Lord Ann. 2t 0.10 mich. 1.18.1.",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. The amount '1.18.1' is clearly embedded in the description text and aligns with the amount columns."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Calcett Ann",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms faint '03 19 10' in the amount columns for this row. gpt-5-mini marked it blank, but the figures are discernible with careful reading and column alignment."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Cudlington Mills Ann. 4.14.11.",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. The amount '4.14.11' is clearly embedded in the description text and visible in the amount columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms the very faint '04 14 10' in the amount columns for this row. gpt-5-mini marked it blank, but the figures are discernible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Mountague",
+      "amount_pounds": 4,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms the faded '04 19 11' in the amount columns for this row. gpt-5-mini marked it blank."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '00 10' in amount columns (pounds and shillings are implied zeros or dashes). gpt-5-mini marked amounts blank due to fading, but '10' is discernible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Greenway Ann. 10s",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. The description '10s' aligns with the '10' in the shillings column and implied zeros for pounds and pence. gpt-5-mini marked amounts blank due to fading and perceived misalignment."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Walker Ann. 6s6d",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. The description '6s6d' aligns with '06 06' in the amount columns. gpt-5-mini misread the description as '6:8' and failed to extract amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Franklyn Ann and mich",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '07' in the pounds column and implied zeros for shillings and pence. gpt-5-mini marked amounts blank due to fading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Minne Ann",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '00 11 08' in amount columns (pounds is implied zero). gpt-5-mini marked amounts blank."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Harthall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '01 13 04' in amount columns. gpt-5-mini marked amounts blank."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '00 10 00' in amount columns (pounds implied zero). gpt-5-mini marked amounts blank."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Brome Ann. 2.7.5d",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading, including the 0.5 pence fraction. gemini-flash explicitly noted the 'd' as indicating a half-penny, which is confirmed by visual inspection of '5d' in description and column values. gpt-5-mini missed the fraction."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler Ann. 2.4.5d",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading, including the 0.5 pence fraction. gemini-flash explicitly noted the 'd' as indicating a half-penny, which is confirmed by visual inspection of '5d' in description and column values. gpt-5-mini missed the fraction."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tintinhull { Rush Hopkins }",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's amounts, which are clearly visible as '02 09 08'. Corrected description 'Rugh' from gemini-flash to 'Rush' based on clear visual verification. gpt-5-mini did not extract amounts for this row due to perceived illegibility."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Clifton-Ferry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini on description and absence of amounts. Visual verification confirms no amounts are explicitly listed for this line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bensington Ann. 1.16.11d",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading, including the 0.5 pence fraction. gemini-flash explicitly noted the 'd' as indicating a half-penny, which is confirmed by visual inspection of '11d' in description and column values. gpt-5-mini missed the fraction."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini on description and absence of amounts. Visual verification confirms no amounts are explicitly listed for this line."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Southnewington Tenemt",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gpt-5-mini's description 'Tenemt' as visually more accurate than 'Jenem' from gemini-flash. Both extractors agreed on the absence of amounts. Visual verification confirms no amounts are explicitly listed for this line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Cudlington Augm. Red. ad Fest. Purificatonis",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's detailed reading and reinterpretation. Visual verification confirms the original figures '6.8.12.1'. gemini-flash correctly interpreted '12' pence as '1 shilling and 2 pence' (summing to 9s 2d) and '1' as a farthing (0.25 pence), adhering to currency rules. gpt-5-mini left amounts blank due to ambiguity."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Trethewin before ye Lease",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Corrected description 'Frethewin' from gpt-5-mini to 'Trethewin' based on visual verification. Both extractors agreed on the absence of amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Trethewin since ye Lease",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Corrected description 'Frethewin' from gpt-5-mini to 'Trethewin' based on visual verification. Both extractors agreed on the absence of amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Merton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's description ('Vicarage' capitalized) as visually more accurate. Both extractors agreed on the absence of amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Ladlane, mr Sparks and merit on Ann. 17.13.4",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts from both extractors. Description from gemini-flash as 'mr Sparks' is lowercased in the image. Amounts '17.13.4' are clearly embedded in text and visible in the amount columns."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Medenham Bapt. and St Thomas",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms '06 13 04' in the amount columns. Corrected 'medenham' capitalization based on image. gpt-5-mini left amounts blank due to perceived faintness."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "Backgate",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's interpretation of 'Backgate' as a header row. Visual structure (indentation, brace for sub-items below it) supports this. gpt-5-mini merged this header with its sub-items into a single entry, which is structurally inaccurate for ledger context."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "{ George Ann 2t mich 2t",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. This is a distinct sub-item of 'Backgate'. Visual verification confirms '04 00 00' in amount columns. gpt-5-mini merged this into a larger description and extracted no amounts."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "{ Jennings Ann 2t mich 2t",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. This is a distinct sub-item of 'Backgate'. Visual verification confirms '04 00 00' in amount columns. gpt-5-mini merged this into a larger description and extracted no amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 125,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on total amounts and row type from both extractors. Adopted gemini-flash's empty description as visually accurate for this total line. Values are clearly legible."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Reed of mr verman for Batts due to ye Coll.",
+      "amount_pounds": 13,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's reading for this distinct entry. Visual verification confirms the amount '13 17 10' is associated with this line. gpt-5-mini merged this line with the subsequent one, which is structurally inaccurate."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "and for so much pd to mr Berry ye Brewer",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading for this distinct entry. Visual verification confirms no amount is associated with this line. gpt-5-mini merged this into the description of the previous row."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Reed of mr Hutchins Bursar for Increments",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading, including the 0.25 pence fraction. gemini-flash explicitly noted the 'qd' symbol for farthing, which is clearly visible after '09'. gpt-5-mini missed the fraction."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Reed for Genl Comoners of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms this is a lead-in line to a braced group and has no amount of its own. gpt-5-mini merged this line with subsequent sub-items and attributed the combined amount."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "mr Vincent 8t mr. Treby 8t mr Davis 8t?",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms this is a distinct line with the amount '40 00 00'. gpt-5-mini merged this into a larger description."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "mr Arscott 8t mr. Baber 8t",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms this is a distinct line with the amount '04 00 00'. gpt-5-mini merged this into a larger description."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "mrs for Act supper with mr Lane 2t mr marker 2t",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms no amount is associated with this line; the '04 00 00' amount clearly aligns with the subsequent line ('Ballys for Eggh...'). gpt-5-mini incorrectly attributed this amount to the current row."
+    },
+    {
+      "row_index": 39,
+      "row_type": "entry",
+      "description": "Ballys for Eggh Saturday and Ashwednesday",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms both the description and the amount '08 00 00'. gpt-5-mini misread the description and extracted an incorrect amount '02 08 00'."
+    },
+    {
+      "row_index": 40,
+      "row_type": "entry",
+      "description": "sr Potbury 2t sr Orchard 2t sr Gee 2t sr Pennington 2t",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms the amount '08 00 00', though the pence zeros are very faded. gpt-5-mini left amounts blank due to perceived ambiguity."
+    },
+    {
+      "row_index": 41,
+      "row_type": "entry",
+      "description": "Reed of mr Hutchins for ye Comoners Library",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms the amount '08 08 0 qd'. gpt-5-mini misread pounds as '0' and missed the farthing fraction."
+    },
+    {
+      "row_index": 42,
+      "row_type": "entry",
+      "description": "Reed of mr Hutchins for increms for ½ year July 16th 1701",
+      "amount_pounds": 27,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading, including the 0.25 pence fraction. Visual verification confirms '27 02 0' with a faint 'qd' for farthing. gpt-5-mini missed the fraction."
+    },
+    {
+      "row_index": 43,
+      "row_type": "entry",
+      "description": "Reed of mr Hutchins for ye Comoners Library",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted gemini-flash's reading. Visual verification confirms the amount '19 00 10'. gpt-5-mini misread pence as '0'."
+    },
+    {
+      "row_index": 44,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 115,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on total amounts and row type from both extractors. Adopted gemini-flash's empty description as visually accurate for this final total line. Values are clearly legible."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 6,
+      "rows_by_visual_override": 29,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

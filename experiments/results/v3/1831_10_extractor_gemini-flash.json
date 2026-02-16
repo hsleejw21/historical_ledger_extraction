@@ -1,0 +1,340 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arcaragia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Main page title or heading. Handwriting is highly stylized and somewhat faded; 'Arcaragia' is the most plausible interpretation."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Brought up",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Sub-heading. Text is legible despite faintness."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section header. Text is clear and well-formed."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Giddington Rectory 1 year",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible. Amounts are clear and used to establish column alignment. All values within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Giddington of Vicarrage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Do' at the start of the row refers to 'Giddington' from the previous entry. 'Vicarrage' is clear. No amounts are given, indicated by ditto marks under the currency columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Long Whittenham Vicarrage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Do' at the start of the row refers to 'Long Whittenham' from the previous entry. 'Vicarrage' is clear. No amounts are given, indicated by ditto marks under the currency columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 year",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Fixed Rents Payable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section header. Text is clearly legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Giddington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text and amounts are crystal clear. This row was used as a primary reference for establishing the precise column boundaries for £, s, and d. All values within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Giddington J. Sells 1 year",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Do' at the start of the row refers to 'Giddington' from the previous entry. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 113,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Text is legible, though 'Whittenham' is slightly faded. Amounts are clear. Pence fraction '3/4' is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Rectory 2 years",
+      "amount_pounds": 391,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "'Do.' after 'South Newington' is interpreted as 'Rectory' based on the common ledger shorthand and the preceding 'Rectory' entries. Amounts are clear, though faint. Pence fraction '3/4' is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "South Newington Tenement 2 years",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "'Do' at the start of the row refers to 'South Newington' from the previous entry. 'Tenement' is clear. Amounts are clear. Pence fraction '1/4' is visible. All values within valid ranges. This row was used as a secondary reference for column alignment."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Horton Rectory (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text and amounts are crystal clear. This row was used as a primary reference for establishing the precise column boundaries for £, s, and d. All values within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Yarnton Rectory",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "'Do.' after 'Yarnton' is interpreted as 'Rectory' based on the common ledger shorthand and the preceding 'Horton Rectory' entry. Amounts are clear. Pence fraction '1/2' ('ob') is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "'Ferry' is a plausible reading, though 'Fury' is also possible, 'Ferry' makes more sense contextually. Amounts are clear. Pence fraction '1/4' is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bensington 4 years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "'Bensington' is plausible but somewhat faint. Amounts are clear. Pence fraction '1/2' ('ob') is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garsington - Plankard",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Garsington is clear. 'Plankard' is a plausible reading for the surname, though 'Blinkard' or 'Pritchard' are also possibilities given the script's ambiguity. Amounts are somewhat faded but discernible. Pence fraction '1/2' ('ob') is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Garsington - Brooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Do' at the start of the row refers to 'Garsington' from the previous entry. 'Brooke' is legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tinlinhult - Napier 2 years",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "'Tinlinhult' is very difficult to read; it is highly stylized and faded, 'Tintinhull' is a possible place name. 'Napier' is clearer. Amounts are faded but discernible. Only a pence fraction '1/2' ('ob') is present, no whole pence. All values within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Tinlinhult - Beaton 2 years",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "'Do' at the start of the row refers to 'Tinlinhult' from the previous entry, carrying forward the uncertainty of its reading. 'Beaton' is legible. Amounts are clear. All values within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Trethewin 2 years",
+      "amount_pounds": 37,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "'Trethewin' is legible. Amounts are clear. Pence fraction '1/2' ('ob') is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Little Tew - Taylor 2 years",
+      "amount_pounds": 16,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is clearly legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "- Plasby 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Indented sub-item indicated by leading dash. 'Plasby' is faded, 'Prasby' is also a possibility. Amounts are somewhat faded but discernible. Pence fraction '3/4' is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "- Kinder 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Indented sub-item indicated by leading dash. 'Kinder' is legible. Amounts are somewhat faded but discernible. Pence fraction '1/2' ('ob') is visible. All values within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "- Eden 2 years",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Indented sub-item indicated by leading dash. 'Eden' is legible. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "- Horns 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Indented sub-item indicated by leading dash. 'Horns' is legible, though 'Hooms' is a faint alternative. Amounts are clear and well-aligned. All values within valid ranges."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "- Hasley 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Indented sub-item indicated by leading dash. 'Hasley' is plausible, but faint. Amounts are somewhat faded but discernible. Pence fraction '3/4' is visible. All values within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

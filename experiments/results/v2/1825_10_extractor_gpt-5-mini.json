@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia pro 2d die Novr: 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page title in Latin script at top. Script legible though old-fashioned; no amounts on this line and ruling lines do not intersect the text."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header immediately below the title; no monetary figures associated."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. 1½ year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts align clearly in the three right-hand columns: 90 pounds, 0s, 0d. Description is legible: 'Gwinear Rectory. 1½ year'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhenriot",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric columns show 20 pounds, 0s, 0d. The place name is slightly abbreviated but unambiguous in context."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bampton Tenement. 3 yrs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Columns clearly read as 3 pounds, 0s, 0d. Description text 'Bampton Tenement. 3 yrs' is legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montacute. Do. 21 yrs",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns clearly read 10 pounds, 10s, 0d. The description is less certain: the manuscript appears to say 'Montacute. Do. 21 yrs' but the middle characters (looks like '2l' or '21') are ambiguous; chosen reading '21 yrs' based on visible stroke shapes."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris - 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount clearly aligned as 9 pounds, 6s, 0d. 'Lad Lane. Norris - 1 yr' is legible though the surname has a flourish; chosen reading matches the letter shapes."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Donnithorne",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts read unambiguously as 6 pounds, 13s, 4d. Place name 'Donnithorne' matches the script clearly."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Columns show 1 pound, 13s, 4d exactly aligned. 'Pickford' is clearly written."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Medenham. 2 yrs",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric columns read 13 pounds, 6s, 0d clearly. The place name appears as 'Medenham' (spelling uncertain due to handwriting); chosen spelling approximates the script."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tev - Bucks. 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns show 1 pound, 6s, 1d. The place name reads 'Little Tev' (could be 'Tew' or 'Tes'); appended 'Bucks' (Buckinghamshire) is visible but the exact village spelling is slightly ambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymouth. 2 yrs",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount clearly 6 pounds, 0s, 0d. The place name appears as 'Lymouth' (legible in manuscript)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lennard",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Name 'Lennard' legible but no monetary figures visible on this line. Appears to be a sub-item or entry with no separate amount (possibly grouped under nearby entries)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Curneck",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A small '1' is visible in the shillings column with a '0' in the pence column area; no clear pound figure in the pounds column. Interpreted as 0 pounds, 1s, 0d. The place name reading 'Curneck' is uncertain (handwriting ambiguous)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header clearly written and separated from previous entries by space; no amounts on this header line."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "L Whittenham Rectory. 1 yr",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clearly read as 20 pounds, 0s, 0d. The initial 'L' before 'Whittenham' is visible on the manuscript (possibly indicating 'Lower' or similar)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Do. Vicarage.",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numeric columns read 4 pounds, 4s, 0d. 'Do.' (ditto) and 'Vicarage' are legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Yarnton Rectory",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear alignment shows 14 pounds, 0s, 0d. Description legible as 'Yarnton Rectory'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header clearly written; separates following variable rents list."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Whittenham Rectory. 1 yr",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Columns align to 122 pounds, 6s, 11½d. The halfpenny symbol (a loop after the pence) is visible and interpreted as 0.5; vertical ruling and subtotal alignment are clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Mills",
+      "amount_pounds": 20,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clearly read as 20 pounds, 2s, 8d. Text 'Kidlington Mills' legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. Newington Rectory",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Aligned as 207 pounds, 1s, 7½d. The halfpenny symbol after the pence is visible; 'S. Newington Rectory' reading is clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do. Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Monetary columns show 3 pounds, 2s, 1¼d — the pence has a small quarter/farthing-like mark interpreted as 0.25. The 'Do.' (ditto) and 'Tenement' are legible; fraction mark is fainter than halfpenny but has a distinctive 'q' style indicating a farthing."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Merton Rectory. 1 yr",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Clear numeric columns of 275 pounds, 16s, 4½d. The halfpenny loop after the pence is visible; description 'Merton Rectory. 1 yr' readable."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Yarnton Rectory & Tenement. 1 yr",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Amount columns read 53 pounds, 4s, 10¼d; the quarter-penny/farthing mark is present but faint. The descriptive line is somewhat compressed but legible."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry. 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Columns read as 9 pounds, 10s, 7¼d. The farthing mark after the pence is visible but light; description 'Clifton Ferry. 1 yr' legible."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Chase Hill - 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Amount reads 35 pounds, 10s, 10¼d. Numerals and the farthing mark are fairly clear; the place name 'Chase Hill' is readable."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bensington - 3 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numeric columns read 20 pounds, 13s, 1d clearly. The place name looks like 'Bensington' (could be 'Bensing ton' split by pen stroke) but is confidently interpreted."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Garsington Crook. 3 yrs",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Columns show 26 pounds, 10s, 3½d; halfpenny loop visible after the pence. 'Garsington Crook. 3 yrs' is legible."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "976 15 10½",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Final total is underlined and aligns perfectly with the three currency columns: 976 pounds, 15s, 10½d (halfpenny loop clear). This row used as alignment reference for column positions."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

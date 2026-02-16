@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Ioannis Cary Deare Beckeris a 2do 9o Novembris 1730 ad cundem Decim seoluutam 1731",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title/heading with date range. No amounts present. Text is clear and legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arreagia recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header 'Arreagia recepta' (Arrears received). Structural label introducing a group of entries below. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Burwear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '10' in pounds column, '0' in shillings, '0' in pence. Vertical column lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Reading: 26-12-9½d. The '9' is clear, and a small 'ob' abbreviation (half-penny marker) follows. Shillings = 12 is within valid range (0-19). Pence = 9 is within valid range (0-11). Column alignment is clean."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Cricklade",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '20' in pounds column, '0' in shillings, '0' in pence. Columns well-aligned, all valid values."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Morningon Lect.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '145' in pounds column, '0' in shillings, '0' in pence. Handwriting is legible, column positioning unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Ceddington Lect.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '20' in pounds column, '0' in shillings, '0' in pence. Standard entry format."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '14' in pounds, '8' in shillings, '10' in pence. All values within valid ranges. Column lines sharp and unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lear Eajon",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reading: 14-8-10. Description 'Lear Eajon' (or similar) is slightly unclear due to handwriting, but amounts are clear. Pence column shows '10' (valid). Shillings and pence are unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "the out Bents",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '12' in pounds, '0' in shillings, '0' in pence. Standard format, all valid values."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Chariots Orens",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reading: 14-3-3. Description slightly unclear ('Ralph Chariots Orens' or similar), but the amounts are legible. Shillings = 3 and pence = 3 both within valid ranges. Columns well-aligned."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reading: 0-7-5. Pounds column appears empty/zero. Shillings = 7 and pence = 5 are clear and valid. Slight ambiguity in determining whether pounds is 0 or blank, but context suggests 0."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calcut alias Tane",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '10' in pounds, '9' in shillings, '11' in pence. All values in valid ranges. Column alignment is sharp and unambiguous."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannitster",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reading: 2-19-5. Shillings = 19 is within valid range (0-19). Pence = 5 is valid. Pounds = 2 is clear. Minor note: '19' shillings is at the maximum valid value, but is clearly written."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sealden Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reading: 0-15-0. Pounds column is blank/zero. Shillings = 15 is clear and valid. Pence = 0 is clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '1' in pounds, '0' in shillings, '0' in pence. Simple amounts, unambiguous column alignment."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hast Hall",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '4' in pounds, '12' in shillings, '11' in pence. All values within valid ranges. Clean column alignment."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Capper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Reading: 4-1-6¾d. The '6' is followed by what appears to be '3q' or a three-farthings symbol. Pence whole = 6 is valid. Fraction = 0.75 (three farthings) is plausible given the mark. Slight uncertainty in the fraction symbol, but best reading."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Terry",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '4' in pounds, '10' in shillings, '4' in pence. All values within valid ranges. Handwriting is legible, columns well-aligned."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew Harie",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Reading: 7-9-11½d. Pence = 11 with a small 'ob' (half-penny) marker following. All values valid. Description 'Brew Harie' is fairly clear; amounts are legible, though the 'ob' abbreviation is slightly condensed."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Crittenden",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '6' in pounds, '0' in shillings, '0' in pence. Simple, unambiguous amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sad lane, Sparkles of Merston",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reading: 26-10-0. Description includes place name 'Merston'. Amounts are clear: '26' in pounds, '10' in shillings, '0' in pence. All values valid. Slight uncertainty in parsing the full description, but monetary amounts are unambiguous."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Okedenham",
+      "amount_pounds": 5,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reading: 5-3-4. Description 'Okedenham' (or similar) is fairly clear. Amounts: '5' in pounds, '3' in shillings, '4' in pence, all within valid ranges. Minor uncertainty in first letter of description (could be O or Q), but amounts are unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Back gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. '4' in pounds, '0' in shillings, '0' in pence. Description and amounts both legible. Standard format."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

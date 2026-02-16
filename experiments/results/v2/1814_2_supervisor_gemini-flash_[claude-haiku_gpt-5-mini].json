@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris a 2do Dec Novr 1814 ad eundem diem revolution - 1815",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description and type as it accurately matches the image. claude-haiku misread the text significantly."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku misidentified as an entry and had a minor description difference."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Money Rents fixed -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku misidentified as an entry and had a minor description difference."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Glyncar Rectory 2½ P.T.D",
+      "amount_pounds": 135,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both for description, reading 'Glyncar Rectory 2½ P.T.D' from the image. Selected gpt-5-mini for the amount (135.0.0), which is clearly visible. claude-haiku misread the amount columns entirely."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Menhenniot 2 qrs",
+      "amount_pounds": 136,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both for description, reading 'Menhenniot 2 qrs' from the image. Selected gpt-5-mini for the amount (136.0.0), which is clearly visible. claude-haiku misread the amount completely."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Little Dew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was visually identified in the image and missed by both extractors. It is a description line without an associated monetary amount."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bansett",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode gpt-5-mini for description, reading 'Bansett' from the image. gpt-5-mini correctly extracted the amount of 10 shillings, though it misread the description as 'Akte Ten'. claude-haiku missed this row."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Land Tax Redeemed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku misread the description and type."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kidlington Rectory",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. claude-haiku completely missed this entry, merging it into another description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. claude-haiku completely missed this entry."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Fixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate type and description. claude-haiku misidentified as an entry and incorrectly made 'Variable' plural."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "St. Newington P.T.D",
+      "amount_pounds": 171,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku merged the description with the next line and misread the pounds amount."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Kidlington Mills Do 2 Years",
+      "amount_pounds": 42,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount, including the 0.5 fraction (4½d). claude-haiku misread the description entirely but got the amount correct."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Gornington (Linkard)",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread the description and the pence amount (4 instead of 11)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both for description, visually reading 'Clifton Ferry'. Both extractors correctly extracted the amount 9.11.0. gpt-5-mini read 'Upton Ferry', claude-haiku read 'Boatlinghan'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both for description, visually reading 'Bensington'. Selected claude-haiku for the correct interpretation of the amount '8.-1' as 8 pounds, 0 shillings, 1 pence. gpt-5-mini incorrectly read it as 8 pounds, 1 shilling, 0 pence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Trethewin",
+      "amount_pounds": 44,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both for description, visually reading 'Trethewin'. Both extractors correctly extracted the amount 44.2.0. gpt-5-mini read 'Frothwin', claude-haiku misread entirely."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Little Ten",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku missed this header, incorporating it into a previous description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Taylor 3 Years",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread the description and pence amount."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Judge Do",
+      "amount_pounds": 13,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread the description, pounds, and shillings."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Attens Do",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode gpt-5-mini for description, reading 'Attens Do' from the image instead of 'Atkins Do'. Selected gpt-5-mini for the accurate amount. claude-haiku misread description and shillings."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hartley Do",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread description, pounds, and shillings."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Kimber Do",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku had a minor description difference but correct amount."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Busby Do",
+      "amount_pounds": 36,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount, including the 0.5 fraction (1½d). claude-haiku misread description, pounds, and pence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Lad Lane",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku misread the description."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Conyers",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread description and shillings."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Wilson",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount, correctly interpreting '6.-' as 6 pounds, 0 shillings, 0 pence. claude-haiku misread description and omitted shillings/pence values."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku misread the description but got the amount correct."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and amount. claude-haiku missed this entry (having already misattributed 'Medenham' to a prior row)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "613.19.1",
+      "amount_pounds": 613,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description, type, and amount. gpt-5-mini's note correctly identified the arithmetic discrepancy visible in the ledger. claude-haiku misidentified this line as the 'Recepta Anni presentes' header and extracted incorrect amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Recepta Anni presentes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku misidentified this header as a total line with incorrect values."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "Received of Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description and type. claude-haiku merged the description with part of the following entry."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Dividend or 1421.1.0",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description. Overrode amounts based on visual verification, reading '19.3.8'. gpt-5-mini misread pounds as 9; claude-haiku misread shillings as 2 and used a generic description."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode gpt-5-mini description for exact match 'Do' (gpt-5-mini had 'Do Do'). Both extractors accurately extracted the amount 19.3.8."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "38.7.4",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for accurate description, type, and amount. gpt-5-mini's note correctly identified the arithmetic discrepancy visible in the ledger. claude-haiku used a generic description 'Total'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 25,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

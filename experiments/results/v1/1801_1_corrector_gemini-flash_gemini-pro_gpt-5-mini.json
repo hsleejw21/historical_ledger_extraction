@@ -1,0 +1,219 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long Willenham Rectory",
+      "amount_pounds": 172,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Smith. Kewington Do",
+      "amount_pounds": 255,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Merton Do",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yardington Do. d Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chase. Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kiddington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garrington, Sadler Three Years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhull, Napier, Three Years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do Beaton, Six Years",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Clifton. Terry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "So. Kewington Tent.",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Little Sew Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Taylor. two Years",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Judge Do",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Hison's Do",
+      "amount_pounds": 10,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gardiner, Burdon's Do",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hartley, Do",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 1: No change — Header \"Arrearagia continued\" has no amounts in the image.\nRow 2: description=\"Alixe d Rents, variable\" → description=\"Mixed Rents, variable\" | Reason: The image header clearly reads \"Mixed Rents, variable\" (OCR/draft misread). I updated the description to match the image and lowered confidence to 0.9.\nRow 3: No change — \"Long. Wittenham Rectory\" reads as 172 / 7 / 1 1/2 in the image.\nRow 4: No change — \"South. Kewington Do\" reads as 255 (pounds) only in the image.\nRow 5: No change — \"Merton Do\" reads as 15 (pounds) only.\nRow 6: No change — \"Yardington Do. & Tent\" reads as 65 / 19 / 1 1/2.\nRow 7: No change — \"Chase. Hill\" reads as 19 / 7 / 2.\nRow 8: No change — \"Kiddington Mills\" reads as 28 / 6 / 10.\nRow 9: No change — \"Garrington, Sadler Three Years\" reads as 35 / 1 / 11 3/4.\nRow 10: No change — \"Do Prickett\" reads as 14 / 2 / 5 1/2.\nRow 11: No change — \"Tintinhull, Napier, Three Years\" reads as 29 / 6 / 1.\nRow 12: No change — \"Do Beaton, Six Years\" reads as 8 / 10 / 1.\nRow 13: No change — \"Clifton. Terry\" reads as 12 / 19 / 11 1/2.\nRow 14: No change — \"Bensington\" reads as 11 / 2 / (¼ pence) in the image; recorded as fraction 0.25.\nRow 15: No change — \"So. Kewington Tent.\" reads as 4 / 5 / 1 3/4.\nRow 16: No change — Header \"Little Sew Rents\" has no amounts in the image.\nRow 17: No change — \"Taylor. two Years\" reads as 22 / 5 / 2 1/2.\nRow 18: No change — \"Judge Do\" reads as 10 / 18 / 9 1/2.\nRow 19: No change — \"Hison's Do\" reads as 10 / 5 / 11 1/2.\nRow 20: No change — \"Gardiner, Burdon's Do\" reads as 17 / 1 / (no pence).\nRow 21: No change — \"Hartley, Do\" reads as 2 / 18 / 6 1/4.",
+    "changes_made": true
+  }
+}

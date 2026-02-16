@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear header text."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1800 Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Chose gemini-flash's description, which is more accurate. gpt-5-mini noted ambiguity but misread 'Cocks' as 'Cochrs' and missed '1800'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421.1.0 (Cons. Q.T.D)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed pence amount is 8 (gemini-flash correct, gpt-5-mini incorrect 0). Adopted '1421.1.0' from gemini-flash. Adopted 'Q.T.D' from gpt-5-mini for the parenthetical abbreviation as it appears to be a better reading than 'Q.D' or 'Q.T.D.' from gemini-flash."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 – 9 4/prCt. Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consistent between extractors. Chose gemini-flash's description as a more accurate reading of the trailing abbreviation '4/prCt. Do', despite gpt-5-mini's note about uncertainty in the description."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421.1.0 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors. Chose gemini-flash for description which accurately reads '1421.1.0'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 – 9 Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors. Chose gemini-flash's description for including the faint but visible trailing 'Do'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "—",
+      "amount_pounds": 58,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visually, the amount is '58 - 4', with '4' clearly in the shillings column and pence blank. gpt-5-mini correctly extracts this as £58 4s 0d. gemini-flash incorrectly assigned '4' to pence. Description is a clear dash."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "State of the Fund for Advowsons in the 3 pr Cent. reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Chose gemini-flash for description accuracy ('Cent.' includes the trailing dot). Both identified it as a clear header and noted minor ambiguities in the text."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of Stock Plan Account 2576.10.7",
+      "amount_pounds": 2576,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually, the amount '2576.10.7' is embedded in the description text, not in the main amount columns. Both extractors incorrectly inferred column placement in their notes. As per protocol, the embedded amount has been extracted to the amount fields. Chose gemini-flash's description as it accurately reads 'Plan Account' and the embedded amount '2576.10.7'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "extra year in Dw. 66.17.6 - bought",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Chose gemini-flash for its correct identification of 99.8.10 as the column amount for this line and its note distinguishing it from the embedded amount. Corrected description from image by removing 'making', which belongs to the next line. gpt-5-mini incorrectly split this single logical entry into two rows and confused the embedded amount (66.17.6) with the column amount."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "making",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and type. Chose gpt-5-mini's description 'making' which is clearly visible on the line. gemini-flash left the description blank but extracted the correct amount."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "N.B. Dividend – viz 34.15.7 not yet invested.",
+      "amount_pounds": 34,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually, the amount '34.15.7' is embedded in the description text, not in the main amount columns. Both extractors incorrectly inferred column placement in their notes. As per protocol, the embedded amount has been extracted to the amount fields. Chose gemini-flash's description for minor formatting preference (inclusion of a dash)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 5,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

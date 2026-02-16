@@ -1,0 +1,373 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1. (Revenue) Payments.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title header. Clear text, no monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "A. External",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clear text, no monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Quit Rents",
+      "amount_pounds": 7,
+      "amount_shillings": 18,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 7 pounds, 18 shillings, 2 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 377,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 377 pounds, 13 shillings, 9 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Agency & Management",
+      "amount_pounds": 54,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 54 pounds, 1 shilling, 11 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Law Charges.",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are 3 pounds, 3 shillings, 0 pence. Pence value indicated by a dot '.' which signifies zero per page guidance. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Repairs & Improvements",
+      "amount_pounds": 321,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 321 pounds, 1 shilling, 3 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Payments to Vicars",
+      "amount_pounds": 97,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 97 pounds, 6 shillings, 8 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Donations to Churches &",
+      "amount_pounds": 55,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 55 pounds, 18 shillings, 4 pence. Description is truncated by an ampersand as per guidance. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Other expenses",
+      "amount_pounds": 51,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Row contains two sets of amounts as noted in page guidance. The primary amount (51 5 10) is visible but has faint diagonal strike-throughs. The 'Section Total' amount (968 8 11) is clear and captured in custom fields `section_total_pounds`, `section_total_shillings`, `section_total_pence_whole` as explicitly requested by page guidance. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "B. Internal",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clear text, no monetary amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 530,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 530 pounds, 13 shillings, 2 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Maintenance & Repairs",
+      "amount_pounds": 652,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 652 pounds, 17 shillings, 9 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Chapel Services &",
+      "amount_pounds": 199,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 199 pounds, 5 shillings, 3 pence. Description is truncated by an ampersand as per guidance. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Library",
+      "amount_pounds": 348,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 348 pounds, 8 shillings, 3 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "College Servants",
+      "amount_pounds": 1256,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 1256 pounds, 12 shillings, 1 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Table Allowances",
+      "amount_pounds": 1357,
+      "amount_shillings": 14,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 1357 pounds, 14 shillings, 7 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "College Entertainments",
+      "amount_pounds": 58,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 58 pounds, 13 shillings, 11 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Maintenance of Est:",
+      "amount_pounds": 909,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 909 pounds, 4 shillings, 1 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "The Head of the College.",
+      "amount_pounds": 1100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are 1100 pounds, 0 shillings, 0 pence. Shillings and pence values indicated by dots '.' per page guidance. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Fellows",
+      "amount_pounds": 1170,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are 1170 pounds, 0 shillings, 0 pence. Shillings and pence values indicated by dots '.' per page guidance. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Scholars:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Sub-section header, indicated by colon and subsequent indented entries. Clear text, no monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Foundation",
+      "amount_pounds": 1346,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 1346 pounds, 19 shillings, 11 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Trust",
+      "amount_pounds": 826,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are 826 pounds, 16 shillings, 0 pence. Pence value indicated by a dot '.' which signifies zero per page guidance. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "College Officers",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are 100 pounds, 0 shillings, 0 pence. Shillings and pence values indicated by dots '.' per page guidance. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "The 7th.",
+      "amount_pounds": 3394,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'The 7th.' is slightly ambiguous; the character could be interpreted as '4' but '7' seems more accurate on closer inspection. Amounts (3394 7 11) are clear. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "The Exhibition Funds.",
+      "amount_pounds": 308,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 308 pounds, 14 shillings, 2 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Other expenses",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Row contains two sets of amounts as noted in page guidance. The primary amount (1 2 .) is clear; pence indicated by a dot '.'. The 'Section Total' amount (12339 9 1) is clear and captured in custom fields `section_total_pounds`, `section_total_shillings`, `section_total_pence_whole` as explicitly requested by page guidance. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "C. University purposes:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clear text, no monetary amounts."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Common University Fund",
+      "amount_pounds": 957,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are 957 pounds, 10 shillings, 6 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "Total payments",
+      "amount_pounds": 13403,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of total. Amounts are 13403 pounds, 8 shillings, 6 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Balance to Gen. Acct.",
+      "amount_pounds": 897,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of balance. Amounts are 897 pounds, 6 shillings, 8 pence. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 14300,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total amount. Clear reading, includes the '£' symbol. Amounts are 14300 pounds, 15 shillings, 2 pence. Used as a primary alignment reference. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

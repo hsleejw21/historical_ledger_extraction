@@ -1,0 +1,10 @@
+{
+  "warnings": [],
+  "estimated_row_count": 21,
+  "layout_type": "standard",
+  "layout_hints": "The three vertical ruling lines separating the Pounds, Shillings, and Pence columns are consistently clear and well-defined across the entire page, providing excellent guidance for column alignment. No specific reference row is needed as the lines are clear throughout.",
+  "prompt_additions": "The vertical ruling lines separating the Pounds, Shillings, and Pence columns are consistently clear and provide excellent visual guidance for column alignment. Extractors should carefully interpret 'Do' (ditto) marks in the description column as repetitions of the preceding entry's main descriptive text. Be precise when extracting amounts, particularly noting the frequent presence of fractions (1/4, 1/2, 3/4) within the Pence column. Rows 1 ('Arrearagia continued') and 2 ('Alixe d Rents, variable') serve as page/section headers for the first block of entries. Row 16 ('Little Sew Rents') is a section header for the second block. These header rows do not contain transactional amounts in the £ s d columns.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

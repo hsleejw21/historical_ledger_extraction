@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title clearly centered at top of page, ink darker and fully legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Circuit Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (3 | 16 | 8) are crisply aligned in the three right-hand columns and well-formed. Description legible as 'Circuit Oxon'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll Adis xti",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings clearly zeros; pence looks like an 8. Description reads as 'Coll Adis xti' but minor handwriting ambiguity on letters 'Adis/Adif'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll Adis xti",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Shillings '18' is well-formed and aligned; pence '0' is clear. Description repeats 'Coll Adis xti' — letters readable."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll Omn: Anima",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (4 | 12 | 4) align well with the three vertical rules. Description read as 'Coll Omn: Anima' with good legibility."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Ball",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings and pence read as '12 | 4' but ink is slightly lighter than above rows; description 'Coll Ball' is probable though letters a little unclear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll D. D. B.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts '0 | 8 | 2' are legible. Description interpreted as 'Coll D. D. B.'; some abbreviation dots make exact expansion uncertain."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayor's Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Shillings '14' clear; pence '0' clear. Description reads as 'Mayors Capons' (possessive apostrophe not certain but text matches that reading)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Annia Hastings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small shilling '1' and pence '8' visible but faint. Description appears to be a personal name 'Annia/Anna Hastings' — letters indistinct; chosen reading based on likely name form."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Boxer: Kidding: S. Newington x Merst.",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Pounds and shillings align as '1 | 18'. Pence appears to be '11' with a small loop after it interpreted as the halfpenny symbol (ob). Handwriting of description is crowded and abbreviations ('Kidding', place names) uncertain; fraction interpretation made because of a small loop after the pence figure."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Tyndals Hto",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '1 | 10 | 4' are readable though the pence '4' is slightly faint. Description looks like 'Easter Tyndals Hto' (spelling uncertain due to abbreviation/handwriting)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '2' clearly aligned; shillings and pence zeros clear. Short description 'Coquo' legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lomia",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '1 | 6 | 8' visible but slightly compressed; description likely 'Lomia' or similar — letters not fully certain."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Scull. & Laundry",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings '2' and pence '0' are readable. Description appears abbreviated as 'Scull. & Laundry' (scullery/laundry); abbreviation is evident in the script."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleaning Chap. Oct. 5",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Large pounds amount '23' is clear and well-aligned. Description 'Cleaning Chap. Oct. 5' legible though abbreviated."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Carboris ad Sept Annue",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Pounds '28' clear and in valid range; description reads 'Pro Carboris ad Sept Annue' with Latin abbreviation shape evident and reasonably legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "ad Sept Mice",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings '13' and pence '4' visible but slightly faint. The description 'ad Sept Mice' is an interpretation of abbreviated Latin; letters are unclear so confidence lowered."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Insor",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '4' clear. The description is short and ambiguous — read as 'Imson' or 'Insor'; chosen 'Insor' because of the visible letters but with moderate uncertainty."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Supervisor Adj.",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '1 | 14 | 8' are readable. Description appears as an abbreviated official title 'Supervisor Adj.' (letters slightly cramped)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings '13' and pence '4' clear. Description 'Janitor' is legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings '2' clear. Description reads as Latin/Italianate 'Bibliothecario' and is fairly legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bib: lect. Oct. 5",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '1' clear. Description 'Bib: lect. Oct. 5' is abbreviated but readable; likely a clerical/fees line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '1 | 0 | 0' are clear. Description 'Sermon Easter' plainly written and legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Concession",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "A short structural label separated by a horizontal rule; no amounts on the same line — clearly a header for the following group."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southwarkington Vicars ad Sept Annual",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '10' clearly visible. Description is a long, abbreviated place/title line ('Southwarkington Vicars ad Sept Annual') — letters and abbreviations are faint in places, so moderate confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "ad Sept. Mice",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '10' clear. The description 'ad Sept. Mice' is abbreviated/unclear; chosen reading based on adjacent related lines and visible letters."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedels & Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '1 | 3 | 0' clearly aligned. Description 'Bedels & Beggars' is legible and conventional for parish ledgers."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excise due Lady Day Last",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '5 | 15 | 0' clearly visible. Description 'Plate excise due Lady Day Last' reads well and is consistent with terminology on such pages."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final total at bottom right reads '100 | 2 | 11½'. The halfpenny symbol is visible; alignment with ruling lines is clear and values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

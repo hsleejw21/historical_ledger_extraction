@@ -1,0 +1,294 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris S. L. Richards\n2d die Norbn: AD 1819\nad eundem diem resolution Bunt",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for description, which is a much more accurate transcription of the header text and dates than 'claude-haiku'. Both extractors correctly identified this as a header with no monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for description, as it correctly transcribed 'Arrearagia' where 'claude-haiku' missed an 'r'. Both correctly identified as a header with no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors fully agreed on this row's description, type, and amounts. Visual verification confirms this is a header with no monetary values."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear Rectory 1 yr",
+      "amount_pounds": 60,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for both description and amounts. 'gemini-flash' correctly identified '60' as belonging to the pounds column, which is visually clear. 'claude-haiku' incorrectly placed it in the shillings column. Description matches image exactly."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kidlington Do ½ yr",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for both description and amounts. 'gemini-flash' correctly identified '10' as belonging to the pounds column. 'claude-haiku' incorrectly placed it in the shillings column and had an inaccurate description. Description matches image exactly."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do Capons & Branch Do.",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, as it is a more accurate transcription of 'Capons & Branch Do.' compared to 'claude-haiku's 'Cotsas & Draxla D^o'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Rad Lane late Norris 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Rad Lane late Norris 1 yr' compared to 'claude-haiku's 'Led Lane aka Norm 1 yn'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chaplin 1 yr. Widow",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Chaplin 1 yr. Widow' compared to 'claude-haiku's 'Haslin 1 yr hd^m'. The pounds digit '6' is slightly ambiguous in handwriting but '6' is the most plausible reading."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for both description and shillings amount. 'gemini-flash' accurately read the shillings as '13', while 'claude-haiku' read '19'. Visual inspection confirms '13'. Description 'Pickford 1 yr' from 'gemini-flash' is accurate."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fredesham 1 yr",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected 'gemini-flash' for both description and pounds amount. 'gemini-flash' accurately read the pounds as '6', while 'claude-haiku' read '26'. Visual inspection confirms '6'. The '6' is stylized but clearly a single digit. Description 'Fredesham 1 yr' from 'gemini-flash' is accurate."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew Colman late Ducks 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Both extractors agreed on the monetary amounts. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Little Tew Colman late Ducks 1 yr'. The pence digit '1' is faint but discernible on the page, as noted by 'gemini-flash'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymarth 3 yr",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for both description and shillings amount. 'gemini-flash' accurately read the shillings as '17', while 'claude-haiku' read '7'. Visual inspection confirms '17'. Description 'Lymarth 3 yr' from 'gemini-flash' is accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Buckley Tenements 1 yr",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified no monetary amounts. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Buckley Tenements 1 yr'. The dash in the amount columns indicates no specific amount for this entry."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified this as a header with no amounts. Selected 'gemini-flash' for the description, which correctly spells 'Tax' instead of 'Txe' from 'claude-haiku'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Kidlington Rectory ½ yr",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Kidlington Rectory ½ yr'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Long Wickham Rectory 1 yr",
+      "amount_pounds": 28,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Long Wickham Rectory 1 yr'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 yr",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Yarnton Rectory 1 yr'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors fully agreed on this row's description, type, and amounts. Visual verification confirms this is a header with no monetary values."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1 yr",
+      "amount_pounds": 91,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Kidlington Augmentation 1 yr'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Long Withenham Rectory 1 yr",
+      "amount_pounds": 102,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for description and pence value. 'gemini-flash' correctly read the pence as '5', while 'claude-haiku' left it blank due to perceived illegibility. Visual inspection clearly shows a '5'. Description 'Long Withenham Rectory 1 yr' is accurate from 'gemini-flash'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "St. Nisington Rectory 1 yr",
+      "amount_pounds": 171,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for description and pounds amount. 'gemini-flash' accurately read the pounds as '171', while 'claude-haiku' read '11'. Visual inspection confirms '171'. Both correctly identified the shillings, pence, and the '½' fraction. Description 'St. Nisington Rectory 1 yr' from 'gemini-flash' is accurate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Tenement 3 yrs",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Do Tenement 3 yrs'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Norton Rectory 1 yr Ad. Tax deducted",
+      "amount_pounds": 238,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Norton Rectory 1 yr Ad. Tax deducted'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 yr",
+      "amount_pounds": 44,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary amounts and row type. Selected 'gemini-flash' for the description, which is an accurate transcription of 'Yarnton Rectory 1 yr'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 806,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "The row is a total, indicated by the double underline. No description text is present, so an empty string is correct. 'claude-haiku' correctly read the pence as '11', while 'gemini-flash' read '1'. Visual inspection clearly shows '11' followed by a '½' fraction. Pounds and shillings match between both and are visually correct."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 23,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

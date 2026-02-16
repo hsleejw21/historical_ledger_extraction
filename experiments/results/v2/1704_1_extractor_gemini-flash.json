@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynser Rectory a secundo die Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput. de remanentib' in Cista",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Item de arreragijs.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts associated."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guanear",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numbers are clear. Pence value '4' is followed by a distinct 'b' character. Interpreted as a flourish or an unclear character, and not a standard fraction like 'ob' or 'q'. The 'b' is not part of the standard fraction symbols provided in the instructions. It could also be a local notation for halfpenny, but without further context, I am not assuming that."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Longwitnam",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "minhinnett",
+      "amount_pounds": 76,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Southnewington pro mici",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. 'pro mici' is handwritten next to the name and included in description."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chockhill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value, indicated by a dash in the amount columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The 'q' symbol after pence is clearly for farthing (0.25)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Tue quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text for a new section of entries. No monetary amounts associated."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph marshall's capons",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calcott",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mountaoue",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greeneuay",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tintinhull Nopper",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "The pence value '5.' and fraction 'q' are clear. Interpreted as 5 pence and one farthing (0.25), following standard notation for 'q'. The brace is a visual grouping for these two entries."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The dot after 18 is interpreted as a separator, not part of a fraction. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Tretbewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible for this row; it appears to be an entry without a specific monetary value."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Summa Annosragionum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is partially faded, 'Annosragionum' is the best interpretation. Numbers are clearly legible and underlined, indicating a total. Faint text below 'Summa' is too illegible to extract reliably."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

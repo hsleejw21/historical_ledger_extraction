@@ -1,0 +1,294 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybeare Rectoris a 2do",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description merged from both extractors and visually verified. 'Conybeare' from gpt-5-mini, 'a 2do' from gemini-flash, both are clearly legible on the image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted description from gemini-flash, which correctly identified 'Diem revolutum' and proper capitalization, visually confirmed as clear in the image. gpt-5-mini had 'diem revolutionum'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields, visually confirmed as clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields, visually confirmed as clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Adopted fraction (0.5) from gemini-flash, which correctly interpreted '9ob' as 9 and a half pence. gpt-5-mini incorrectly dismissed it as a decorative flourish. All other fields were in consensus and visually confirmed."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields, visually confirmed as clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Newington Rect:",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted description from gemini-flash for correct punctuation (Rect: vs Rect.), amounts were in consensus and visually confirmed as clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cudlington Rect:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted description from gemini-flash, visually confirming 'Cudlington' over gpt-5-mini's 'Cuddington', and correct punctuation. Amounts were in consensus and visually confirmed as clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chase-hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Consensus across both extractors for all fields, visually confirmed. Despite notes mentioning ink bleed, description and amounts are clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted amounts from gemini-flash. While there is a diagonal shadow, the numbers '2 0 0' are clearly discernible upon close inspection. gpt-5-mini incorrectly deemed them unreadable and left blank."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "The Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'The Quit Rents' from gpt-5-mini, visually more accurate than gemini-flash's 'The Suit Rents'. Adopted amounts '14 3 3' from gemini-flash, as they are clearly legible despite the diagonal shadow, contrary to gpt-5-mini's assessment."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph Marshalls Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Ralph Marshalls Capons' and amounts '0 7 6' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts and had 'Marshals'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted amounts '10 9 11' from gemini-flash, visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts. Description was in consensus and clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcott alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Calcott alias Lane' from gemini-flash, visually confirmed 'Calcott' over gpt-5-mini's 'Caleb'. Adopted amounts '2 19 5' from gemini-flash, visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Bannister' from gemini-flash, visually confirmed over gpt-5-mini's 'Barnister'. Adopted amounts '0 15 0' from gemini-flash, visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Leaden-Hall' and amounts '1 0 0' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts. The description is clear, not 'Saden-Hall' as noted as a possibility by gemini-flash."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted amounts '4 12 11' from gemini-flash, visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts. Description was in consensus and clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted amounts '1 13 4' from gemini-flash, visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini incorrectly omitted amounts. Description was in consensus and clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted amounts and fraction from gemini-flash, visually confirmed '8ob' as 8 and a half pence. gpt-5-mini incorrectly omitted amounts. Description was in consensus and clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Chilton Ffery",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Chilton Ffery' and amounts '4 10 4' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini had an incorrect description ('Clifton Penny') and omitted amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Adopted amounts and fraction from gemini-flash, visually confirmed '11ob' as 11 and a half pence. gpt-5-mini incorrectly omitted amounts. Description was in consensus and clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Trethewern",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Trethewern' and amounts '6 0 0' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini had an incorrect description ('Tretchew') and omitted amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "ad Lane, Sparkes et Meriton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Adopted description 'ad Lane, Sparkes et Meriton' and amounts '26 10 0' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini had a significantly incorrect description ('Sadtane, Spukes et Meriton') and omitted amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Medingham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Medingham' and amounts '6 13 4' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini had an incorrect description ('Medenham') and omitted amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Burle Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Adopted description 'Burle Gate, Boyse' and amounts '4 0 0' from gemini-flash, both visually confirmed as clearly legible despite the diagonal shadow. gpt-5-mini had an incorrect description ('Back Gate, Boyse') and omitted amounts."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 20,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

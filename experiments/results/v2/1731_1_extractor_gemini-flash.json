@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Conybeare Rectoris a 2do Die Novembris 1730 ad eundem Diem revolutum 1731.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the page title. No monetary amounts expected for a header row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section header. No monetary amounts expected for a header row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. The fraction symbol 'ob' for half-penny is clear. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minhinnet",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Minhinnet' has a slightly ambiguous 'h' in the middle, but reading is plausible. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Rect.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Cudlington Rect:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Due Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshals Carons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Carons' in the description is legible but somewhat unusual; could be 'Canons' or similar. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Caleb alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Seaden - Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The initial 'S' in 'Seaden' is somewhat stylized but clearly legible. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. The fraction symbol 'ob' for half-penny is clear. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Fenny",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The initial 'F' in 'Fenny' is somewhat stylized and could be mistaken for 'P' or 'K', but 'F' is the most plausible reading in context. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. The fraction symbol 'ob' for half-penny is clear. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tretherwen",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The initial 'T' in 'Tretherwen' is stylized, resembling a 'J' or 'I', but 'T' is the most likely reading. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "In & Lane, Sparkes et Merton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The initial part of the description 'In & Lane' has slight ambiguity, with 'In &' potentially being 'Ind' or similar. The rest of the description is clear. Numbers are clear and well-aligned. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Buck Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Numbers are perfectly legible and well-aligned within their columns. All currency values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

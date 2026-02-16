@@ -1,0 +1,153 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrerages, continued — Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear header text describing continuation of arrerages section. Standard title format. No amounts expected.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Borington",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Place name with amount. Pounds 8, shillings 12, pence 0 with what appears to be '3q' (three farthings = 0.75). Shillings value 12 is within valid range. Fraction symbol slightly faint but consistent with three-farthing notation.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Croft Gazing — Covenants",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.88,
+      "notes": "Transaction description with clear amount 3 £ 0 s 5½d. The 'd' symbol shows a trailing loop/curve consistent with obole (half-penny). Pence value 5 is valid. Clear vertical column alignment.",
+      "side": "center"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Folkstone — Lodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Clear entry with unambiguous amount 22 £ 1 s 7d. All column positions clear, all values within valid ranges. Handwriting is legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Little Cow.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section header introducing a new place/group. No amounts on this structural label line.",
+      "side": "center"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "lay for. Shed",
+      "amount_pounds": 20,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Entry with clear amount 20 £ 11 s 3d. All values valid and well-aligned with column markers. Handwriting legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lodge",
+      "amount_pounds": 12,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.87,
+      "notes": "Single word entry with amount 12 £ 14 s 1½d. Pence digit is 1 with clear 'ob' half-penny symbol. Shillings 14 is valid. Column alignment slightly compressed but readable.",
+      "side": "center"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Morne.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Entry with amount 0 £ 10 s 10d. Pounds column shows no entry (treated as 0). Shillings and pence values both clear and valid. Clean handwriting.",
+      "side": "center"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hartley.",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Entry with amount 2 £ 0 s 2¾d. Pence digit 2 followed by what appears to be '3q' (three farthings). Fraction symbol is faint but consistent with farthing notation common in period documents.",
+      "side": "center"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimbier.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.91,
+      "notes": "Clear entry with unambiguous amount 23 £ 12 s 5d. All values in valid ranges, column alignment is precise, handwriting is clean.",
+      "side": "center"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Bushy, Warley",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.86,
+      "notes": "Place names with amount 25 £ 16 s 0¾d. Pence digit is 0 with three-farthing symbol '3q' appended. Shillings 16 is valid. Column positions are clear.",
+      "side": "center"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit Rent for Hillingston Vicarage, by Lord pro 20th die Nov 1808. ment +",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.82,
+      "notes": "Long descriptive entry with no monetary amounts shown on this line. The entry references a stipend or quit rent transaction with specific date (20 Nov 1808) and location. Marked with '+' symbol suggesting continuation or notation. Text is somewhat cursive and compressed but legible. This appears to be a structural note rather than a transaction with its own amount.",
+      "side": "center"
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Trethenvin",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Morton Biccarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "LaDlane, Sparks, Moreton Annu",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mindenham fore",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { BLaz –",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce –",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Part of Thryp of Mindenham",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of H. Holfworthy from an unknown Land",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increment of Batley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Gents Comr",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "Sum?",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Conf: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 1: No change — header \"Trethenvin\" has no amounts in the image.\nRow 2: No change — header \"Morton Biccarage\" has no amounts in the image.\nRow 3: No change — \"LaDlane, Sparks, Moreton Annu\" reads clearly as 8 pounds, 16 shillings, 8 pence.\nRow 4: No change — \"Mindenham fore\" reads clearly as 4 pounds, 0 shillings, 0 pence.\nRow 5: No change — \"Backgate { BLaz –\" reads clearly as 4 pounds, 0 shillings, 0 pence.\nRow 6: amount_pounds=\"\" → amount_pounds=4, amount_shillings=0, amount_pence_whole=0 | Reason: the image shows a \"4 0 0\" in the amount columns aligned with the \"Boyce –\" line (the second \"4\" in the pounds column).\nRow 7: No change — \"Part of Thryp of Mindenham\" reads as 5 pounds, 0 shillings, 0 pence in the image (description may wrap to the next line).\nRow 8: No change — the line \"of H. Holfworthy from an unknown Land\" is a continuation/wrap and the visible 5 in the image is already represented by row 7; leaving row 8 blank is consistent with the draft and the image alignment.\nRow 9: No change — header \"Increment of Batley\" has no amounts.\nRow 10: No change — header \"Gents Comr\" has no amounts.\nRow 11: No change — \"Act Suppor\" reads clearly as 10 pounds, 0 shillings, 0 pence.\nRow 12: No change — total reads as 210 pounds, 2 shillings, 6 pence with the small trailing mark that the extractor rendered as fraction=0.25; I do not have clear, irrefutable evidence to change it.\nRow 13: No change — \"Conf: Library\" (or \"Com: Library\") has no amounts.",
+    "changes_made": true
+  }
+}

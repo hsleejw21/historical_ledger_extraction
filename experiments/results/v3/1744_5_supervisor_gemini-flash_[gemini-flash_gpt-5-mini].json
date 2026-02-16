@@ -1,0 +1,459 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Dec. 28 to Francis King his Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for all values and fraction interpretation. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "to ye Dean of Ch. Ch. Lent for being Venison",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear and agreed. Description 'Ch. Ch.' and 'Venison' adopted from gpt-5-mini, and 'Lent for being' from gemini-flash, as verified against image for accuracy. Gemini-flash had 'St. Ch.' and 'Venue'; gpt-5-mini had 'sent' instead of 'Lent for being'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Feb. 7 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mar. 13 Lighting Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "16 to Mr Munday his Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "17 to Mr Weston four years Interest Due at Xmas 1743",
+      "amount_pounds": 128,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "to Mr Weston upon bond by common consent",
+      "amount_pounds": 32,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "24 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "to Mr Bloh one Rheam of Imp. Paper",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description 'Bloh' from gemini-flash chosen over 'Blos' from gpt-5-mini, verified against image handwriting."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ap. 9 to Teasler his Bill",
+      "amount_pounds": 15,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Teasler' and pounds '15' from gemini-flash chosen over 'Teasles' and '16' from gpt-5-mini, both verified against the image. Shillings and pence agreed."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "13 to ye Cook for Gardies",
+      "amount_pounds": 13,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description synthesized from both extractors: 'ye Cook' from gpt-5-mini and 'Gardies' from gemini-flash, as verified against the image."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "15 to Mrs Heritage",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed. Date '15' from gemini-flash confirmed against image, differing from gpt-5-mini's '16'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "20 to Mr Everis his Bill",
+      "amount_pounds": 41,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed. Description 'Everis' from gemini-flash confirmed against image, differing from gpt-5-mini's 'Cozens'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "May 19 to set Wine to entertain Mr Wilmot in L.k.",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description 'L.k.' from gemini-flash chosen over 'Ck' from gpt-5-mini, verified against image. Both extractors correctly identified 'set' as struck-through."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "June 12 to Mr Boyle's Works for ye Library",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed. Description 'Boyle's' from gemini-flash chosen over 'Boylis' from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "July 7 to Mrs Combes her Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "10 to Mr Will. Tallot his Plate money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Tallot' and pounds '8' from gemini-flash chosen over 'Talbot' and '5' from gpt-5-mini, both verified against the image. Shillings and pence agreed."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Aug 4 to Mr Townsend his Bill",
+      "amount_pounds": 44,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for all values and fraction interpretation. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "10 to Landtax for ye year 1742. & 1743. 4s. paid",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description '4s. paid' from gemini-flash chosen over '4l. Aid' from gpt-5-mini, verified against image. Both extractors correctly understood '4s. paid' as descriptive text, not an amount to be parsed into columns."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "20 brought to Rect. wch was pd Newman for wine to entertain Coll. Ten't",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts clear and agreed. Description synthesized after gpt-5-mini's incorrect row split was corrected. Based on image, 'Rect. wch' and 'Ten't' are clearer than gemini-flash's 'Rect. w' and 'Ten?', and gpt-5-mini's 'acct wch'. Gemini-flash had correct amount for the combined logical row."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Sept. 25 Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed. Date '25' from gemini-flash confirmed against image, differing from gpt-5-mini's '26'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "28 to Salisbury Carrier for 2 Boxes from Mr Crabbe",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed. Description 'Crabbe' from gemini-flash confirmed against image, differing from gpt-5-mini's 'Crabb'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Oct. 10 to Mr Horner for Paper Ink &c.",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "to Sedgley for binding two Buttory Books",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description 'Buttory' from gemini-flash chosen over 'Buttry' from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "to Wine Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description agreed. Shillings '15' from gemini-flash chosen over '18' from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "20 to Baylis for carrying away Rubbish",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clear and agreed. Description 'Baylis' from gemini-flash chosen over 'Bayliffe' from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 386,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Description agreed. Pounds, shillings, and fraction agreed. Pence '6' from gpt-5-mini chosen over '5' from gemini-flash, verified against image."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 177,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds '177' selected, agreeing with gpt-5-mini's interpretation of the crossed-out '9' and written '7'. Shillings '16' selected, verified against image and differing from gpt-5-mini's '15'. Pence agreed. Row type agreed."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 90,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Description agreed. Pounds '90' from gpt-5-mini chosen over '70' from gemini-flash, verified against image (no correction evident as implied by gemini-flash). Shillings, pence, and fraction agreed."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 94,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors for all values and fraction interpretation. Used gemini-flash's output as representative."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "Sum. om. folut. £",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Pounds, shillings, and fraction agreed. Pence '8' from gemini-flash chosen over '6' from gpt-5-mini, verified against image. Description 'Sum. om. folut. £' derived from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "So soluti qua erant £751.01.08 ¾",
+      "amount_pounds": 751,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Description and amounts (extracted from description text) from gemini-flash selected over gpt-5-mini, verified against image. Gemini-flash correctly identified the amount as being part of the description text."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Deducti recepti qua erant £739.02.09.",
+      "amount_pounds": 739,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts (extracted from description text) from gemini-flash selected over gpt-5-mini, verified against image. Gemini-flash correctly identified the amount as being part of the description text."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "rest debit. Ono Comput £ 11.18.00 ¾",
+      "amount_pounds": 11,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts clear and agreed by both extractors, including the correct interpretation of '18' as shillings due to a crossed-out '00' in the amount string '£ 11.18.00 ¾', as detailed in both notes. Description 'rest debit. Ono Comput £ 11.18.00 ¾' synthesized from image for full accuracy."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Jacobus Edgcombe Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected, as these are administrative signatures, not headers. Description from gemini-flash 'Edgcombe' verified against image over gpt-5-mini's 'Dogcumbe'."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Franciscus Webber Sub Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected. Description from gemini-flash 'Franciscus Webber Sub Rector' verified against image and aligns with gpt-5-mini's alternative interpretation ('Sub Rector')."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Jacobus Goffard J.Th.B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected. Description 'Jacobus Goffard J.Th.B.' taken from direct image reading, differing from both extractors for surname and initials ('Goffard' over 'Gosnold'/'J.N.B.'/'Th. B.')."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Car: Webber A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected. Description agreed by both extractors and verified against image."
+    },
+    {
+      "row_index": 39,
+      "row_type": "entry",
+      "description": "Gul: Chism.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected. Description 'Gul: Chism.' from gemini-flash chosen over 'Gul: Keffner M?' from gpt-5-mini, verified against image."
+    },
+    {
+      "row_index": 40,
+      "row_type": "entry",
+      "description": "Tho Bray S.P.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row type 'entry' selected. Description 'Tho Bray S.P.' from gemini-flash chosen over 'Tho: Bray Th. B.' from gpt-5-mini, verified against image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 30,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

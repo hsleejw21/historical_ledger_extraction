@@ -1,0 +1,184 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1800 Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, type, and absence of monetary values. Clear header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on description, type, and absence of monetary values. gemini-flash's confidence score was higher, and the text is clearly legible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421.1.8 (cons. Q.D)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on monetary amounts (19.3.8). gemini-flash's description '1421.1.8 (cons. Q.D)' is a more accurate visual match to the ledger text than gpt-5-mini's '1421 1.0 - (cons. O.T.D.)'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do - on 546 - 9 4/pr.Ct Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on monetary amounts (9.16.6). gemini-flash's description 'Do - on 546 - 9 4/pr.Ct Do' is a more accurate visual match to the ledger text than gpt-5-mini's 'Do on 546 - 9 4 pr lt da'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do - on 1421.1.8 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on monetary amounts (19.3.8). gemini-flash's description 'Do - on 1421.1.8 - as before' is a more accurate visual match to the ledger text (especially the '1.8') than gpt-5-mini's 'Do on 1421 1.1.8 - as before'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do - on 546 - -9 Das",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no monetary amount in the dedicated columns for this row; a horizontal line appears below the description, indicating a total on the next line. gemini-flash correctly identified no amount, while gpt-5-mini hallucinated an amount. The full description 'Do - on 546 - -9 Das' was visually verified from the ledger, correcting minor omissions from both candidates."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on the normalized monetary amount (2.18.4) derived from the written '58-4' (58 shillings, 4 pence). The image shows no descriptive text on the left for this total line, so gemini-flash's empty description is chosen over gpt-5-mini's '-'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Rate of the Fund for Advowsons",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, type, and absence of monetary values. Clear header for a new section."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "in the 3 pr Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, type, and absence of monetary values. Clear header, continuation of the previous line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Amount of Stock Plan account 2576.10.7",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on description, type, and embedded monetary value. gemini-flash had higher confidence, and the reading is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "with one years Div: 66.17.6 - bought",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gpt-5-mini's description 'with one years Div: 66.17.6 - bought' is accurate, whereas gemini-flash misread 'with one years Div:' as 'extra year due'. Both correctly identified the embedded monetary value and absence of column amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "making",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, type, and absence of monetary values. This row functions as a descriptive prefix for the amount on the subsequent line."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on monetary amounts (99.8.10). Visual verification shows no descriptive text on the left for this total line; the word 'making' belongs to the previous line. Description set to empty string."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on monetary amounts (2576.7.5). Visual verification shows no descriptive text on the left for this standalone total line. Description set to empty string, matching gemini-flash and correcting gpt-5-mini's choice to place the amount in the description."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "N.B. Dividend viz 34.15.7 not yet invested.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extractors agree on description, type, and embedded monetary value. gemini-flash had higher confidence, and the reading is clear."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 8,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 7,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

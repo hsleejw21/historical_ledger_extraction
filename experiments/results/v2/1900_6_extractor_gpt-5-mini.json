@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet. 1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top-of-page title. Very clear printed/inked script for the page heading; no monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading directly under the page title, clearly underlined; no amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 5715,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads as 5715 pounds, 4 shillings, 6 pence. Individual digits are legible and align with the pounds/shillings/pence ruling; value also confirmed by subtraction from the combined cash total (see row 5)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads clearly as 236 pounds, 15 shillings, 10 pence. Alignment with the three vertical ruling lines is unambiguous; used with row 3 to confirm combined cash total."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal line for cash/library (no text label, only a rule and a figure). Arithmetic check: 5715 4s 6d + 236 15s 10d = 5952 0s 4d (carries handled). Column alignment for the total is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Single round figure '3000' clearly written in the pounds column; no shillings or pence indicated. Alignment is unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6511,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clearly reads 6511 pounds, 14 shillings, 2 pence. Vertical column boundaries are clear and values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 9511,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal (Furniture + Investments) shown to the right. Arithmetic check: 3000 + 6511 14s 2d = 9511 14s 2d. Line and figures are well aligned and clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Due to the College:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Section heading (underlined). No monetary amount on the heading line itself."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 134,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Shows '134' in the pounds column with no shillings/pence indicated (written as '134.'). Alignment with ruling lines is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads as 224 pounds, 15 shillings, 3 pence; characters are legible and column alignment is clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Houses on long Leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clearly written as 53 pounds, 13 shillings, 4 pence; ink and alignment are clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads '1 15 .' (1 pound 15 shillings). Pence column blank. Alignment with shillings column is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Shown as '70.' in the pounds column; shillings/pence blank. Clear and unambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal for the 'Due to the College' group shown on the same ruled line to the right. Arithmetic and alignment clear: sum matches the individual items above."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "How Exhibition Fund",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads clearly as 18 pounds, 10 shillings, 11 pence. The descriptive text is less certain — the first word looks like 'How' or possibly 'Haw'/'Howe'; chosen as 'How' with moderate confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mitchell",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 16 pounds, 14 shillings (no pence). The surname 'Mitchell' is legible; amount aligns well with columns."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Loscombe Richards Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 19 pounds, 12 shillings, 7 pence is clear. The fund name is in cursive and somewhat uncertain; appears as 'Loscombe Richards Fund' (the first word might be 'Loscombe'/'Loxcombe'/'Coscombe'); chosen reading reflects the most likely letters but is given moderate confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal for the small funds group. Clear alignment and arithmetic: 18 10 11 + 16 14 0 + 19 12 7 = 54 17 6 (checked with column addition and carry)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "I certify that the accounts of the College are duly",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "First line of the attestation paragraph. Handwriting is legible though slightly slanted; no monetary amounts present."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "kept in proper books of account & that the Abstracts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Continuation of the attestation paragraph; text readable, no amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "and Balance Sheet contain a full & true account",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Third line of attestation paragraph; wording clear though slightly compressed; no amounts present."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final line of the attestation paragraph; sentence completion clearly legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "March 8th 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date is clearly written 'March 8th 1901' and well legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "W.C. Tacktad F.C.O.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Signature line — the letters are highly stylized. Reads approximately as 'W.C. Tacktad F.C.O.' but the surname and post-nominal letters are uncertain (signature form). Low confidence because of stylized handwriting."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Jackson Ridley Browning (illegible suffix)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Second signature block is cursive and difficult to read. Interpreted as 'Jackson Ridley Browning' with an illegible suffix; included as header because no monetary amount is present. Very low confidence due to heavy stylization and overlap with flourishes."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final grand total at bottom right of page, clearly written as '£16002 15 7'. Alignment with the right-hand columns and clear digits give high confidence. This total also reconciles with the sum of the grouped subtotals (checked)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

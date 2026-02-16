@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepte Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gpt-5-mini for description 'Recepte' as visually more accurate. Amounts are empty, and row type is header, which both extractors agreed on."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Extracta E thefaure",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gpt-5-mini for description 'thefaure' as visually confirmed, specifically the long 's' form. gpt-5-mini's note identified ambiguity which was helpful. Amounts are empty, and row type is header, which both extractors agreed on."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear.",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for amounts as they are visually clear and correct on the image (£10 13s 11¼d, with the 'q' for farthing). gpt-5-mini incorrectly stated no amounts. Description 'Guinear.' is visually confirmed."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwitnam.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Longwitnam.' as visually confirmed, specifically the single 't' stroke. Both agreed on no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hinckley pro Annunc.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Hinckley pro Annunc.' and amounts (£12 0s 0d) as both are visually clear and correct. gpt-5-mini incorrectly stated no amounts and had a less accurate description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southnewington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Used gpt-5-mini for description 'Southnewington.' as it appears to capture the 'n' and 'e' better in the middle of the ambiguous word. Both agreed on no amounts and noted the description's difficulty."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Eatington Vicar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Eatington Vicar' as visually confirmed; 'Eatington' is more accurate than 'Eddington' and 'Vicar' is clearer than 'Pri'. Both agreed on no amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Norton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gpt-5-mini for description 'Norton.' as the initial 'N' is visually clear. Both agreed on no amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. gpt-5-mini's note about the ink blot is a good observation. Visually confirmed."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrupp.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Thrupp.' as the initial 'T' with its cross-bar is clearly visible. Both agreed on no amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eddington Vicar",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual and visually confirmed (£4 0s 0d). Used gpt-5-mini's description 'Eddington Vicar' as the double 'd' in 'Eddington' is more accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lucas Eaton by Mr Broadwater",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and amounts. Visually confirmed."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Pre quite Rents Annui",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensual and visually confirmed (£2 13s 7d). Used gemini-flash's description 'Pre quite Rents Annui' as 'Rents' is a plausible interpretation for the faded middle word, and 'Annui' (with an 'i') is more accurate than 'Annu'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Warner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ralph Marshalls. Capon.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Synthesized description based on visual confirmation: 'Marshalls.' (from gpt-5-mini, including 's' and period) and 'Capon.' (from gpt-5-mini, more accurate than 'Caponi'). Both agreed on no amounts and noted ambiguity."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lord Annun.",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual and visually confirmed (£2 1s 2d). Used gemini-flash's description 'Lord Annun.' as the double 'n' is visibly present. Both agreed on no amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Calect.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Used gpt-5-mini for description 'Calect.' as the final letter appears to be a 't' rather than an 'h'. Both agreed on no amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cuddington Mille",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Cuddington Mille' as visually confirmed, specifically the initial 'C' and the final 'e' in 'Mille'. Both agreed on no amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mountacute",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Used gpt-5-mini for description 'Mountacute' as it appears more accurate for the letters 'ount'. Both agreed on no amounts and noted ambiguity."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Used gpt-5-mini for description 'Hughes' as visually confirmed despite some fading. gemini-flash's 'Aug. Rop' was incorrect. Both agreed on no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Greenway",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Banfter",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual and visually confirmed (£0 15s 0d). Used gpt-5-mini's description 'Banfter' as the 't' in the final syllable is clearer than an 's'. Both agreed on no amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Brandley.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Brandley.' as visually confirmed, specifically the initial 'B' and the 'd'. Both agreed on no amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mynn.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Used gpt-5-mini for description 'Mynn.' as it appears a more plausible reading of the faded letters, specifically the initial 'M' and the double 'n'. Both agreed on no amounts and noted fading."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and row type are consensual. Used gpt-5-mini for amounts, as the shillings are clearly '13' upon visual inspection, not '3'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "London Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual and visually confirmed (£0 10s 0d). Used gemini-flash's description 'London Hall' as the letters 'o' and 'd' are clearly visible, making 'London' more accurate than 'Louden'. gpt-5-mini's note about ambiguity was helpful."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sadler.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Molineaux { Wapor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Used gemini-flash's description as it correctly identified and transcribed the braced text 'Wapor', which is visibly present and a plausible reading. gpt-5-mini missed the braced text. Both agreed on no amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Tintinhull } Naper Hopkins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Synthesized description from both extractors and visual confirmation. 'Tintinhull' (from gpt-5-mini) on the left side of the brace, followed by 'Naper Hopkins' on the right side. 'Naper' was visually confirmed in addition to 'Hopkins'. Both agreed on no amounts and noted the difficulty."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clifton ferry.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on description, row type, and no amounts. Visually confirmed."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Bonnington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gpt-5-mini for description 'Bonnington' as visually confirmed, specifically the double 'n'. Both agreed on no amounts and gpt-5-mini noted initial letter ambiguity."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Brew-house.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Used gemini-flash for description 'Brew-house.' as a period is visibly present at the end of the word. Both agreed on no amounts."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 36,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and row type are consensual. Used gemini-flash for amounts, as the pence is clearly '9' upon visual inspection, not '8'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 8,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

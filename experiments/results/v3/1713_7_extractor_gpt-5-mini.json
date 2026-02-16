@@ -1,0 +1,362 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title at top. No monetary figures present; clear header inscription."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Guinear pro Anno.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numerals '60 0 0' are crisply aligned in the pounds/shillings/pence columns with no ambiguity."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Longwittenham pro Anno.",
+      "amount_pounds": 60,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading '60 16 1' aligned with column positions; all values within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Michinnet pro Quadriennio.",
+      "amount_pounds": 80,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds '80' and '0 0' for s/d clearly written and well aligned."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Southnowington pro sesquianno.",
+      "amount_pounds": 88,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '88 0 0' in the monetary columns; vertical alignment with neighboring totals confirms columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yavington pro Mic.",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Simple '5 0 0' reading is unambiguous and aligns with the column grid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton pro Biennio",
+      "amount_pounds": 12,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Digits read as '12 6 8' with clear separation; pence (8) is well-formed and valid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chace-hill pro Mic.",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds/shillings '3 15' clear. Pence shows '2' with a faint looping mark immediately after (looks like the common 'ob' halfpenny sign). Fraction interpreted as 0.5; loop is faint so uncertainty moderate."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Thrup pro Anno.",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '5 0 0'; digits are crisply written and aligned."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tue-Quitrents pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Distinct '2 13 5' in the columns; alignment confirms correct column splits."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Warner pro Quadriennio.",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads '2 11 1'. There is a very small trailing mark after the '1' (looks like a short 'd' abbreviation). Chosen as 1d whole; trailing mark is likely abbreviation rather than another fraction."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph Martials Capons pro Quinquennio.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds column shows a dash/zero and '12 6' for s/d clearly visible and aligned."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lord pro sesquianno.",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings '6 3' are clear. Pence appears as '3' but has a small flourish after it that could be decorative; chosen as 3d with moderate confidence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcot pro biennio.",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Numbers read '6 10 2' with clear column alignment; small ink blemish nearby does not affect digits."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cudlington Mills pro Mic.",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds/shillings '5 8' clear. Pence read as '10' with an evident halfpenny loop (ob) after it; interpreted as 10½d."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Simple and unambiguous '1 0 0' reading."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Montacute pro Anno.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds shown as 0 (blank/dash) and '10 0' for s/d clear and properly aligned."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Greenway pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '1 0 0' record; vertical alignment with other lines confirms column positions."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Walker pro Anno.",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Reads '0 15 0' (pounds blank/zero). There is an 'X' marked near the description (visual flag) but it does not affect numeric reading."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Franklin pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '1 0 0' with good alignment; small 'X' next to description present but separate from numeric columns."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mynne",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers '6 3 4' are legible and align to the columns. Minor ink shading below but digits are unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sadler pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Reads '2 11 5' with a small halfpenny loop after the '5' similar to other halfpenny marks on the page. The loop is fairly clear but slightly fainter than other examples."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Molindux pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Alignment shows '2 14 5' and a halfpenny loop after the 5 like the previous row; loop is readable though a little blotched."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Napper pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Digits '2 3 3' are clear; small ink spot nearby does not interfere with interpretation."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Tintinhul { Hopkins pro Sexennio & dimid.",
+      "amount_pounds": 5,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line is a braced group (two names) and is to be treated as a single logical entry (per page guidance). Monetary figures read '5 4 6'. The pence digit is clear though there is a faint adjacent mark; chosen as 6d."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton - Ferry pro Mic.",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers read '2 7 10' with good alignment; no fraction mark present."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bensington pro Anno.",
+      "amount_pounds": 3,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings '3 18' are clear. The pence column reads '3' but there is an extra small stray digit/ink mark immediately to the right (appears as a '9' or stray annotation). Interpreted as 3d; stray mark lowers confidence."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Broadhouse pro Anno",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Reads '6 19 0' in the three main columns. There is a small stray ink element to the right of the pence column (looks like a '9' or ledger mark) that could be marginal notation; chosen pence=0 with moderate confidence due to that stray mark."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "South-Norrington Tenemt pro Anno.",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Digits read as '1 9 8' and align well with the column guides; minor ink smudge nearby does not obscure the pence."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Trethowin pro Quadriennio.",
+      "amount_pounds": 24,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large '24 0 0' entry very clear and serves as a good alignment reference for the columns."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Merton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No amounts are present on this line; appears to be an internal heading/label for the next entry."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Lad-lane Sparkes, Meriton, pro Anno.",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final line reads '17 13 4' clearly. Slight ink wear at page edge but numerals are legible and properly aligned."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

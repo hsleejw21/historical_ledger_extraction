@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description matching the image. claude-haiku misread the Latin text. Both correctly identified no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Extracta E Thesaurio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description matching the image. claude-haiku misread the Latin text. Both correctly identified no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guniear.",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash, which accurately extracted the amounts 10, 13, 11q from the image. Visual verification confirms the values and the 'q' symbol for 0.25 fraction. claude-haiku incorrectly identified no amounts for this row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwitnam.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for a more accurate description. Visual verification confirms 'Longwitnam' over 'Longstraham'. Both agreed on no amounts present, which is correct."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hinckley pro Annunc.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Hinckley pro Annunc.' over 'Henkinset. pro Annuance'. Both extractors agreed on the amounts, which are clearly visible in the image."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southwrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for a more accurate reading of the description. Visual verification confirms 'Southwrington' over 'Southeastshire'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Eatington Vicar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for a more accurate reading of 'Vicar' over 'Kitt'. Visual verification confirms 'Eatington Vicar'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for a more accurate reading of the description. Visual verification confirms 'Garrington' over 'Jarrigation'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Morton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Morton' over 'Parton'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chase Hill.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected claude-haiku for a slightly better description reading ('Chase' vs 'Chace') and for noting the ink blot. Visual verification confirms 'Chase Hill.' is more plausible. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrupp.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Thrupp.' over 'Primp.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Endlington Vicar",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for a more accurate description reading ('Vicar' is clearer than 'Decor') and for noting the faint dot before the pounds amount. Visual verification confirms 'Endlington Vicar'. Both agreed on the amounts, which are correct."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lucas Eaton by Mr Broadwater",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for a more accurate description reading ('Eaton' vs 'Caton' and no period after 'Mr'). Visual verification confirms 'Lucas Eaton by Mr Broadwater'. Both agreed on the amounts, which are correct."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Pre quite Rents Annui",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for a significantly more accurate description. Visual verification confirms 'Pre quite Rents Annui'. Both agreed on the amounts, which are clearly visible. gemini-flash's note regarding description fade is accurate."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Warner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Both extractors are correct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ralph Marshals Caponi.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for a more accurate reading of the description, especially 'Marshals' and 'Caponi'. Visual verification confirms 'Ralph Marshals Caponi.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lord Annun.",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual inspection confirms its amounts (2 pounds, 1 shilling, 2 pence) and description ('Lord Annun.') are correct. claude-haiku misread the shillings and pence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Calech",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for a more accurate reading of the description. Visual verification confirms 'Calech' over 'calcuft.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cuddington Mille",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for more accurately transcribing 'Mille' rather than 'Miller'. Visual verification confirms 'Mille'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Bampton' over 'Hampton'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Monstacute.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for a more accurate description reading ('Monstacute' captures the 's' better) and for its note regarding the ambiguity with 'Montacute'. Visual verification confirms 'Monstacute.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Aug. Rop",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Aug. Rop' over 'Huckle'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Greenway",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for more accurate description ('Greenway' as one word, no period). Visual verification confirms this. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Banister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Banister' over 'Stanfter'. Both extractors agreed on the amounts (0 pounds, 15 shillings, 0 pence), which are clearly visible in the image."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Brandley.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Brandley.' over 'Froulton.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Prym.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for accurate description. Visual verification confirms 'Prym.' over 'Wynn.'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected claude-haiku. Visual inspection confirms its amounts (1 pound, 13 shillings, 4 pence) are correct. gemini-flash misread the shillings as 3 instead of 13. Both agreed on the description."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "London Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description ('Hall' vs 'Road' and no period). Visual verification confirms 'London Hall'. Both extractors agreed on the amounts, which are clearly visible in the image."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sadler.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Both extractors are correct."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Molineaux { Wapor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for accurate transcription of 'Molineaux' and correctly including the brace and the second word 'Wapor'. Visual verification confirms the brace and 'Wapor'. claude-haiku misread the description and missed the brace structure. gemini-flash's note on 'Wapor' being faint is accurate."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Pintenbull } Hopkins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash for accurately transcribing 'Pintenbull' and 'Hopkins' and correctly including the closing brace. Visual verification confirms this. claude-haiku misread both names and used a slash instead of a brace. gemini-flash's note on 'Pintenbull' ambiguity is accurate."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clifton ferry.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Both extractors are correct."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Bovington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for more accurate description ('v' is clear, not 'n'). Visual verification confirms 'Bovington'. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Brew-house.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Selected gemini-flash for a slightly more precise description ('Brew-house' with hyphen). Visual verification confirms a faint dash. Both agreed on no amounts, which is correct."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 36,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual inspection confirms its amounts (36 pounds, 7 shillings, 9 pence) are correct, especially the pounds value which claude-haiku misread as 35. gemini-flash also correctly left the description field empty as there is no text for this row, whereas claude-haiku added a placeholder."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 32,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

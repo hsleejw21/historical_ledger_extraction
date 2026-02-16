@@ -1,0 +1,175 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gpt-5-mini and claude-haiku. Both agree on text and no amounts.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1808 Messrs Biddulph, Cocks & Ridge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description required visual verification due to discrepancies. '1808' and 'Biddulph, Cocks' from claude-haiku were correct. '& Ridge' from gpt-5-mini was correct. gpt-5-mini's note about specific ambiguity was helpful, but claude-haiku captured more accurately.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1421 1.0 - (cons. Q.T.D.)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (19.3.0) is a consensus. Description taken from gpt-5-mini as visual verification confirmed '1421' and '1.0' were correct, unlike claude-haiku's '1821' and '18'.",
+      "side": "right"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 - 9 4/pr Do",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (9.16.6) is a consensus. Description taken from gpt-5-mini, which correctly identified the additional text '4 pr' and 'Do' after the '9', which claude-haiku missed. gpt-5-mini's note about uncertainty was helpful.",
+      "side": "right"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421 1.1.8 - as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (19.3.8) is a consensus. Description taken from gpt-5-mini as it reflects the original formatting slightly better (1.1.8 vs . 1. 8). Both extractors agree on the core details.",
+      "side": "right"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 - 9",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gpt-5-mini and claude-haiku for description and amount.",
+      "side": "right"
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "Subtotal",
+      "amount_pounds": 58,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount visually verified as '58 - 4' (interpreted as 58 pounds, 4 shillings, 0 pence), matching gpt-5-mini. claude-haiku's reading of the amount (50.15.4) was incorrect. gpt-5-mini's note about the arithmetic discrepancy was a good observation, but the goal is to extract what is written.",
+      "side": "right"
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "State of the Fund for Advowsons in the 3 pr Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini's description is more accurate after visual verification, particularly 'State' (vs 'Vale'), 'Advowsons' (more plausible), and '3 pr Cent' (vs '3d Cent'). Both models acknowledged the difficulty in reading this archaic text.",
+      "side": "center"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of Stock & Cash account",
+      "amount_pounds": 2476,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted the description and the embedded amount '2476.18.7'. claude-haiku severely misunderstood this section, attempting to combine multiple lines into one garbled description and extracting an amount from a later line, making its output for this row entirely incorrect. Visual verification confirmed gpt-5-mini's reading.",
+      "side": "right"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "with one years Div:",
+      "amount_pounds": 66,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was correctly identified and extracted by gpt-5-mini. claude-haiku failed to recognize this as a separate entry, embedding it incorrectly into a previous row. Visual verification confirms the description and the embedded amount '66.17.6'. This row was added as missing from claude-haiku.",
+      "side": "right"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "bought",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was correctly identified and extracted by gpt-5-mini. claude-haiku failed to recognize this as a separate entry, embedding its amount incorrectly within a previous, garbled row. Visual verification confirms the description 'bought' and the amount '99.8.10'. This row was added as missing from claude-haiku.",
+      "side": "right"
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "making",
+      "amount_pounds": 2576,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately extracted the description 'making' and the amount '2576.7.5'. claude-haiku significantly misread both the description ('maund') and the amount ('25.17.5'). Visual verification confirmed gpt-5-mini's reading.",
+      "side": "right"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "N.B. Dividend viz not yet invested.",
+      "amount_pounds": 34,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini accurately identified the description and extracted the embedded amount '34.15.7'. claude-haiku misread 'N.B.' as 'N.D.' and incorrectly stated 'No amount visible' despite the amount being clearly embedded within the text. Visual verification confirmed gpt-5-mini's reading and the presence of the embedded amount.",
+      "side": "right"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 8,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

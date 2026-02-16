@@ -1,0 +1,148 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 27,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "1860"
+      },
+      {
+        "row_index": 2,
+        "row_type": "header",
+        "description": "Computus Rectoris a 2º die Novembris a.D. 1859"
+      },
+      {
+        "row_index": 3,
+        "row_type": "header",
+        "description": "ad eundem diem revolutum d.D. 1860"
+      },
+      {
+        "row_index": 4,
+        "row_type": "header",
+        "description": "Recepta"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Clutterbuck 8th Inst.ment on Loan"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Andrews. N. 30 on So."
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Bushey Divds"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Colby Bursar Increm. domus"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Do. Do. So."
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Deans Fees"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Divd on Sr. Jones Consols, to Michs. 58"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "New Building Fund. Aut. Cloan"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "Late Building Fund. not carried to Acct."
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Sr. Richards. Divinity Prize"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Ryse Rent Miss Jones Share"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Sixteen per cent on Rents"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Composition to Colly. by Masters"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rector"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Repayment of money borrowed by Rector from"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Caution Fund – Amount £30"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Interest £4.5"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Due Repayment from Choir Fund"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Do.do. Consols, sale of Caution Fund"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Hammond Keys"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Allnutt repayment by Bursar"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Sub Rector repayment Instructed (Choir"
+      },
+      {
+        "row_index": 27,
+        "row_type": "total",
+        "description": "6726 11 7"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

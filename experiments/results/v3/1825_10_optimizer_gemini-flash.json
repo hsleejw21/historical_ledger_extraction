@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Page has a slight clockwise tilt (approx. 3-5 degrees).",
+    "Vertical ruling lines for £/s/d columns are faint across the entire page.",
+    "Minor discoloration/damage present on the top right corner and bottom left edge of the page, but it does not obscure ledger entries.",
+    "Several entries in the pence column, particularly in the lower half of the page, include fractional values (e.g., 1/2, 1/4, 3/4)."
+  ],
+  "estimated_row_count": 30,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines are present but faint and follow the slight clockwise tilt of the page. The bottommost Total row (row 30) provides the clearest alignment for column boundaries.",
+  "prompt_additions": "CRITICAL: The entire page is tilted approximately 3-5 degrees clockwise. The vertical ruling lines defining the Pounds, Shillings, and Pence columns are faint and also follow this tilt. To ensure accurate column separation, use row 30 (the Total row '976 15 10 1/2') as the ground truth for establishing vertical column boundaries and project these boundaries across all other rows. Be particularly diligent in extracting the pence column, as many entries, especially in the 'Mixed Rents, Variable' section (rows 19-30), contain fractional values like 1/2, 1/4, and 3/4. These fractions must be transcribed precisely as they appear.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

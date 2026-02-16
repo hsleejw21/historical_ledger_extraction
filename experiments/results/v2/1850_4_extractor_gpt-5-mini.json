@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "State Ordinances. - Brought over -",
+      "amount_pounds": 280,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-line description and numbers are clear and well aligned to the three ruling lines on the right. Pounds (280), shillings (0) and pence (1) are unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gas Lights 29: to Feby 1850",
+      "amount_pounds": 27,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible as 'Gas Lights' with date; numeric columns are clear (27 5 10) and validate correctly."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Do — Mich",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Abbreviated 'Do' (ditto) and 'Mich' visible. Amount 8/11/0 aligned beneath previous amounts; handwriting of description a bit faint, but numbers are clear and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr. Falconer 19th Feb. on 24? 14? 2? 3? Costs to Feby 1850",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Surname 'Falconer' legible; the rest of the descriptive text contains cramped numerals and abbreviations that are hard to decipher (marked with '?'). The monetary figures (6/8/6) are reasonably clear and align with the pounds/shillings/pence columns, but the description text is uncertain."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subscriptions Viz. Infirmary",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Text reads 'Subscriptions Viz. Infirmary'. There is an amount printed on the same line (1/1/0); this could be a header line in other contexts, but here the amount is present and aligned, so it has been classified as an entry. Description is legible; amount alignment is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Grey Court School",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Place name 'Grey Court School' clear and amount 20/0/0 sharply written and aligned in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wellington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Second item in the subscriptions list reads as 'Wellington Do' (Do = ditto). Amount 5/5/0 is legible and aligns well."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "South Kensington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'South Kensington Do' readable; amount 5/5/0 clear and in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Little Town Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The place name is somewhat ambiguous in the handwriting (interpreted as 'Little Town Do'); the numeric amount 6/0/0 is clear and well aligned. Description reading could plausibly be another similar name."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garston Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten place name reads as 'Garston Do' (legible enough); amount 3/3/0 is clear and properly aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Morton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "'Morton Do' is legible in the list. Amount 5/5/0 is clear and aligns with the shilling column."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Garrington Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry reads 'Garrington Do' (script clear enough). Amount 3/3/0 aligns with the column guides and is unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Wittenham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Abbreviated placename beginning with 'L.' followed by 'Wittenham Do' (handwriting moderately clear). Amount 5/5/0 is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads as 'Bensington Do'; amount 2/2/0 is distinct and positioned correctly under the pounds/shillings/pence guides."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gunkar Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name is a bit unclear (interpreted as 'Gunkar Do'); amount 5/0/0 is clear. Description could be another similar parish name."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Poor of Grimcar",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Text reads as 'Poor of Grimcar' (poor relief entry). Amount 10/0/0 is bold and clear in the pounds column."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Formal body name 'Diocesan Board of Education' is legible; amount 10/0/0 clearly written and aligned."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Small Lumps in Diocese of Lon",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is difficult to read; interpreted as something like 'Small Lump(s) in Diocese of ...'. Amount 5/0/0 is clear, but the exact wording of the description is uncertain due to faded/looped letters."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Widows & Orphans of Clergy Do'. The amount 5/0/0 is clearly aligned; description is fairly legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "University Marshalle",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Text appears as 'University Marshalle' (final letters slightly flourishy). Amount 2/0/0 is small but clear. Slight uncertainty in exact spelling of the office title."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bele Ringer & Chapel Clerk",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads 'Bele Ringer & Chapel Clerk' (interpreted as 'Bell Ringer' but original spells 'Bele'); amount 10/0/0 is clear and bold."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Corn Prices' clear. Amount 1/19/6 is legible and validates (shillings < 20, pence < 12)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Easter Offerings' is readable; amount 1/1/0 clearly aligned and unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Entry 'Parish Rates' is legible. There is additional marginal scribble referencing pro-rata / church rate, but the main amount 21/13/4 is clearly written and aligns with the columns."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Synodals and Procurations",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Synodals and Procurations' legible; amount 2/16/8 is clear and valid. Slight ink thinning but reading is unambiguous."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "College Gardener - 1st Quarter",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Label indicates 'College Gardener - 1st Quarter'. Amount 7/12/0 is well aligned and legible."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second-quarter entry abbreviated as '2nd Do'. Amount 7/13/9 is visible though the pence digit has slight flourish; still within valid pence range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Third-quarter line '3rd Do' with amount 12/15/11. Pence '11' is clear though the ink is slightly heavier; still unambiguous."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "4th Do",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Fourth-quarter '4th Do' visible; amount 7/12/0 aligned neatly under the columns."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Interest on Church Deposit",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is slightly uncertain due to script (interpreted as 'Interest on Church Deposit' or similar). Amount 6/0/0 is clear. Chosen wording reflects the most likely reading."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Open Scholarships - Viz. Mr Hemper",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Heading 'Open Scholarships' followed by an individual name (read as 'Mr Hemper'). The amount 40/0/0 is large and clearly written."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Mr Wilzeefs",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name is faint/looped; interpreted as 'Mr Wilzeefs' or similar. The amount 40/0/0 is clear and consistent with the two sibling scholarship lines."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Mr Roase",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final scholarship name is uncertain (read as 'Mr Roase' / 'Mr Hoase' / 'Mr Gouse'); handwriting of the name is indistinct, but the numeric amount 40/0/0 is clear and aligned."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "L 619 3 7",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Bottom-right grand total denoted by the pound symbol 'L' and boxed. Numerals 619/3/7 are large and clear; alignment confirms column boundaries. High confidence."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

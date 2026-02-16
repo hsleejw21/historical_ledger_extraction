@@ -1,0 +1,426 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu. Payster Rectoris a secunde die Novemb. 1708 ad eundem diem 1709.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. gpt-5-mini's description text is more accurate visually, particularly 'Gu.', 'Payster', 'secunde', and 'Novemb.'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Imprimis reddidit comput. de remanentib in Cista",
+      "amount_pounds": 44,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "gpt-5-mini correctly identified this as an entry with amounts. claude-haiku misclassified it as a header and incorrectly associated the amount with an invented row 'Om lista'. Visual verification confirms £44 17s 10d. gpt-5-mini's detailed notes on pence ambiguity (interpreting as '10' from a smudge) align with visual reading."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Item de Arreagijs.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on header with no amounts. Refined description to 'Arreagijs' based on clearer visual reading of the last letter."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Guineas & anno",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and row type. claude-haiku's description 'Guineas' is more accurate visually than gpt-5-mini's 'Guineser'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Longwitham & anno",
+      "amount_pounds": 59,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Both extractors agreed on whole amounts for £59 19s 9d. Visual inspection, however, confirms a clear 'ob' (half-penny) mark after the pence digit '9'. gpt-5-mini's description 'Longwitham' is more accurate than claude-haiku's 'Longwicham'. Overriding fraction based on visual verification."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "min hinnet in pt",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and row type. gpt-5-mini's description 'pt' is more accurate visually than claude-haiku's 'p.'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Southnewington & anno",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, type, and amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cudlington Ry pro mich",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and row type. claude-haiku's description 'Cudlington Ry pro mich' is more accurate visually than gpt-5-mini's 'Luddington R?y pro mich'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "merton Ry & mich.",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts disagreed. Visual verification confirms £3 8s 8d. claude-haiku misread the pounds column as zero and shifted the shillings amount. claude-haiku's 'Ry' is slightly clearer for the description abbreviation."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chacehill & Sesquianno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus on no amounts. Visual inspection confirms 'Chacehill & Sesquianno'. It is an entry, not a header as claude-haiku suggested, as it follows a pattern of named accounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus on no amounts. Visual confirms 'Thrup'. Keeping as 'entry' as it follows a similar pattern to other named items without explicit amounts on the line. gpt-5-mini's transcription is more accurate."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ralph marshall's capons",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts £0 2s 6d. claude-haiku incorrectly identified this as a header with no amounts. Refined description to 'Ralph marshall's capons' (from claude-haiku) as the apostrophe is visible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lord & anno",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms amounts as £4 5s 3d 0.5. gpt-5-mini correctly identified pounds and shillings, but missed the half-penny fraction and was unsure about the pence digit (3 or 8). claude-haiku misread all numeric positions but correctly identified a fraction ('ob')."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Culcatt pro anno",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms description 'Culcatt pro anno' and amounts £3 3s 3d. gpt-5-mini was largely correct except for 'Culcott'. claude-haiku invented a description ('Catcaft pro anno') and misread amounts, leading to its row being dropped."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Luddington mills & mich",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms description 'Luddington mills & mich' and amounts £2 12s 3d 0.5. gpt-5-mini's detailed notes on the pence/fraction ambiguity (interpreting '6' as '3' pence and a 0.5 fraction) are accurate. claude-haiku invented a description ('Cudlington mich & mich') and misread amounts, leading to its row being dropped."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton & biennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this line. gpt-5-mini is correct. claude-haiku incorrectly invented amounts for this row, leading to it being overridden by visual inspection."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mountague & f quinquiesnio et Dimid.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. gpt-5-mini's description 'quinquiesnio' is more accurate than claude-haiku's 'quincquennio'. Keeping as 'entry' consistent with other name entries."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Hughes & Biennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. gpt-5-mini's description 'Biennio' is more accurate than claude-haiku's 'Biennie'. Keeping as 'entry'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Greenway & Triennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. gpt-5-mini's description 'Greenway' and 'Triennio' are more accurate than claude-haiku's 'Greeneway' and 'Triennie'. Keeping as 'entry'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Walker & anne",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this line. gpt-5-mini is correct. claude-haiku incorrectly invented all-zero amounts. The word appears to be 'anne' rather than 'anno'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Franklyn & anno",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, type, and amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Minne & Biennio",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts £1 1s 0d. claude-haiku misread the pounds column as zero. gpt-5-mini's description 'Biennio' is more accurate than claude-haiku's 'Dissenio'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Moffineux & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this line. gpt-5-mini is correct. claude-haiku incorrectly invented all-zero amounts. gpt-5-mini's description 'Moffineux' is more accurate."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Sadler & mich",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms amounts £4 18s 7d 0.75 fraction. gpt-5-mini correctly extracted pounds, shillings, and the whole pence digit '7', but identified the fraction as 0.5. claude-haiku's initial reading had a hard rule violation (18d) and its subsequent 'reinterpretation' was highly speculative, although it correctly identified 0.75 as a possible fraction type."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Tintinhall { Napper pro sesquianno",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts £2 12s 10d. gpt-5-mini is accurate. claude-haiku invented a description ('Swithhell { Pepper pro sesquianno') and had a hard rule violation for pence (12d), leading to its row being dropped."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Hopkins & sesquianno",
+      "amount_pounds": 6,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms £6 7s 8d 0.75 fraction. gpt-5-mini extracted the correct whole numbers for pounds, shillings, and pence '8', but missed the fraction. claude-haiku misread pounds and shillings but did correctly identify the 0.75 fraction."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Llifton Ferry & anno",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Llifton Ferry & anno' (double 'll') and amounts £4 17s 2d. gpt-5-mini is accurate. claude-haiku had a hard rule violation for pence (17d) and significant reading errors."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Densington & triennio",
+      "amount_pounds": 10,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms description 'Densington & triennio' and amounts £10 1s 9d 0.75 fraction. gpt-5-mini extracted correct whole numbers and description. claude-haiku misread the description ('Bensington & trienno') and identified the fraction as 0.5 instead of 0.75."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Brewheuse & anno",
+      "amount_pounds": 8,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Brewheuse & anno' and amounts £8 3s 6d. gpt-5-mini extracted correct amounts. claude-haiku had significant reading errors and incorrectly added a fraction."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "South newton Tenent & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. Visual confirms 'South newton Tenent & anno'. Keeping as 'entry' consistent with other name entries."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Trethevorn & sesqui anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. gpt-5-mini's description 'Trethevorn & sesqui anno' is more accurate visually than claude-haiku's 'Frehewm & sessqui anno'. Keeping as 'entry'."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "merton Villagge & quadriennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms no amounts for this line. gpt-5-mini is correct. claude-haiku incorrectly invented all-zero amounts. gpt-5-mini's description 'quadriennio' is more accurate than claude-haiku's 'guadyrennio'."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Backgate Jennings",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Backgate Jennings' and amounts £4 0s 0d. gpt-5-mini is accurate. claude-haiku misread amounts and description ('Backgate denning')."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Yardington mich",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts £5 0s 0d. gpt-5-mini is accurate. claude-haiku misread amounts and incorrectly added a fraction."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Tue entrents & anno",
+      "amount_pounds": 5,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Tue entrents & anno' and amounts £5 7s 2d. gpt-5-mini is accurate. claude-haiku had significant reading errors and incorrectly added a fraction."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Warner & Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Warner & Biennio' and amounts £0 8s 0d. gpt-5-mini is accurate. claude-haiku misread the shillings amount as zero."
+    },
+    {
+      "row_index": 37,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 322,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts £322 19s 9d. gpt-5-mini is accurate and correctly omitted description text for this total line. claude-haiku incorrectly added a 0.5 fraction and 'TOTAL' text; the mark after '9' is not a clear fraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 14,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 21,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 4
+    }
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gpt-5-mini and claude-haiku. Both extractors accurately identified the year header with no associated amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund payment on acct of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description as it accurately matches the image ('Domus' and 'acct'), correcting claude-haiku's typos ('Dormus', 'act'). Both agreed on row type and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Brought forward",
+      "amount_pounds": 2045,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Only gpt-5-mini extracted this row. Visual verification confirms description and amounts: £2045 7s 2d. claude-haiku completely missed this row, leading to a subsequent misalignment of its entries."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Candy from Dec 21 to Jan 31",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Candy from Dec 21 to Jan 31' and amount '17s 3.5d'. claude-haiku misread the description (date wrong) and provided an entirely incorrect amount, suggesting severe misalignment or hallucination for this entry."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Colby from Feb. 1 to March 25",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description and amount: £1 1s 8d. claude-haiku provided an irrelevant description and incorrect amount ('Coals from Feb 16 March 25 1 7 8')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest on £200 to March 25. 1869",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description and amount: £1 8s 11.5d. claude-haiku misread the shillings and pence values and missed the halfpenny fraction, despite matching the description text."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "College Garden",
+      "amount_pounds": 13,
+      "amount_shillings": 13,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'College Garden' and amount £13 13s 0d. claude-haiku misread 'College' as 'Colley's' and incorrectly placed '13' in the pence column, which is invalid (disqualified by hard rule)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Reading Room",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description and amount: £3 3s 0d. claude-haiku incorrectly placed the values in shillings and pence columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Freige farm outlet for Water",
+      "amount_pounds": 21,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Freige farm outlet for Water' and amount: £21 2s 9d. claude-haiku misread 'Frieze' for 'Freige' and incorrectly extracted the monetary values, inventing a fraction not present."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Kidlington vic & repairs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Kidlington vic & repairs' as a header with no amounts. claude-haiku failed to identify this header and instead hallucinated an unrelated entry ('Eddington Lic...') with an invalid pence value."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Osborne on acct",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Osborne on acct' and amount £25 0s 0d. claude-haiku misread 'acct' as 'or Act' and provided an invalid pence value of 30, failing the hard rule filter."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Hill do",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Hill do' and amount £30 0s 0d. claude-haiku misread the description ('Hell or') and provided an invalid pence value of 30."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Roby do",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Roby do' and amount £30 0s 0d. claude-haiku misread the description ('Robey or') and provided an invalid pence value of 30."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Salvatici",
+      "amount_pounds": 3,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Overrode both extractors. Visual verification shows description 'Salvatici'. The ledger shows '3' in pounds, '10' in shillings, and '15' in pence. claude-haiku was disqualified for outputting invalid pence (15). gpt-5-mini made an implausible reinterpretation of the numbers (£310 15s 0d). Applying standard currency conversion for the invalid pence value, 15 pence is 1 shilling and 3 pence. Therefore, the correct amount is £3 11s 3d."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rector",
+      "amount_pounds": 73,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Rector' and amount £73 8s 9d. claude-haiku severely misread all monetary values and incorrectly identified a fraction."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Lewis. Menton Channel",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Lewis. Menton Channel' and amount £3 16s 6d. claude-haiku misread the description ('dews. Multon Chancel') and provided an invalid pence value (16)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Domus Wine Bottles",
+      "amount_pounds": 15,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Domus Wine Bottles' and amount £15 6s 6d. claude-haiku had minor typos in the description ('Dormus Wine Ballot') but correctly extracted the amount."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Do. do do",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Do. do do' and amount £15 2s 6d. claude-haiku provided an incorrect description ('br. to do') but correctly extracted the amount."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Warre & Woolgrove Cheque",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Warre & Woolgrove Cheque' and amount £25 0s 0d. claude-haiku had multiple typos in description and misread the amount significantly."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "By value of Timber",
+      "amount_pounds": 42,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'By value of Timber' and amount £42 7s 7d. claude-haiku misread the shillings value as '4'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hot closet outside the Hall",
+      "amount_pounds": 22,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Hot closet outside the Hall' and amount £22 10s 0d. claude-haiku had multiple errors in description ('Not closed outside be Hall') and misread the pounds and shillings values."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sheppard private Bills",
+      "amount_pounds": 7,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Sheppard private Bills' and amount £7 17s 4d. claude-haiku misread the description ('Stephane Private Bells') and all monetary values."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Braine Osborne",
+      "amount_pounds": 14,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Braine Osborne' and amount £14 9s 0d. claude-haiku had a typo in description ('Braime Osborne') and misread pounds and shillings."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": 18,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Hill' and amount £18 9s 0d. claude-haiku misread 'Hill' as 'Hell' and missed the pounds value, placing the '18' in shillings."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Roby",
+      "amount_pounds": 3,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Roby' and amount £3 18s 3d. claude-haiku misread the amounts and incorrectly identified a fraction."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Osborne",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Osborne' and amount £13 2s 0d. claude-haiku misread the pounds and shillings values."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hill",
+      "amount_pounds": 12,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Hill' and amount £12 6s 0d. claude-haiku misread 'Hill' as 'Hell' and misidentified the pounds value as shillings."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "do",
+      "amount_pounds": 10,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'do' and amount £10 3s 0d. claude-haiku misread 'do' as 'by' and misidentified the pounds value as shillings."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Brown",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Brown' and amount £10 9s 0d. claude-haiku misidentified the pounds value as shillings."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Painting",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Painting' and amount £1 0s 0d, with a faint '1' clearly in the pounds column. claude-haiku misread 'Painting' as 'Dancing' and incorrectly placed the amount in shillings."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Kidlington Cottages Commr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Kidlington Cottages Commr' and amount 6s 6d. claude-haiku had minor typos in the description ('kEdington Cottage Com't') but correctly extracted the amount."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Roby",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Roby' and amount £2 0s 11d. claude-haiku had a minor typo in description ('Robey'). Monetary amounts were identical between both candidates."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Chancel Wiliams",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Chancel Wiliams' and amount £5 0s 0d, with '5' clearly in the pounds column. claude-haiku had a typo in description ('Wittram') and misidentified the amount as shillings."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "local Rate fund (auction book)",
+      "amount_pounds": 29,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'local Rate fund (auction book)' and amount £29 14s 6d. claude-haiku had inaccuracies in the description ('Castle book', missing parentheses) but correctly extracted the amount."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Stamps",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Stamps' and amount 15s 0d. The '15' is clearly aligned under the shillings column. claude-haiku had a minor typo in the description ('Stamped') but correctly identified the amount."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Stringer Comm'n on Pitt?",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Stringer Comm'n on Pitt?' and amount £9 1s 6d. claude-haiku had errors in the description ('Pike') and completely misread the monetary values."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Room Rent overpaid in Invt",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Room Rent overpaid in Invt' and amount 6s 6d. claude-haiku had severe errors in the description ('Aom Rant Overpaid to Swet') but correctly extracted the amount."
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "Carried forward",
+      "amount_pounds": 2774,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. Visual verification confirms description 'Carried forward' and amount £2774 7s 4.5d. The amount '2774' is clearly legible in the pounds column. claude-haiku misread the pounds value as '277'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 35,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 1
+    }
+  }
+}

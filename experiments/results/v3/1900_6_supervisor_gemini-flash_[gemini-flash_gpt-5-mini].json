@@ -1,0 +1,294 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini; it correctly included the period in the description. Both extractors agreed on type and absence of amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini; it correctly included the period in the description. Both extractors agreed on type and absence of amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 5716,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's description 'Library Account' as it better matches the handwriting and the 'L.CS.' abbreviation. Amounts were in consensus."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's description 'Library Account' (consistent with previous row). Amounts were in consensus: £5952, 0 shillings, 4 pence. The '. 4' notation in the ledger's outer column is interpreted as 0 shillings and 4 pence, as explained by gemini-flash, due to column alignment."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6011,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's pounds value (£6011) after visual verification. The digit in question is clearly a '0', not a '5'. Description, shillings, and pence were in consensus."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 9571,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted 'Investments' for description. Amounts (£9571, s14, d2) were in consensus, read from the outer columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 13,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's amounts (£13, s4, d0) after visual verification. The numbers '13 4 .' are clearly separated into pounds, shillings, and pence by the ledger's vertical lines. gpt-5-mini incorrectly read '134' as pounds."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's description 'Tithes' after visual verification. The initial letter is a stylized 'T', and 'Tithes' fits the context of college income better than 'Richer' or 'Fither'. Amounts were in consensus."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Houses on long Leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's blank description as there is no text in the description column for this subtotal. Amounts (£484, s3, d7) were in consensus."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "How Exhibition Funds",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's description 'How Exhibition Funds' as the 's' is visible. Amounts were in consensus."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Michell",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values and description."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lorcombe Richards Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's description 'Lorcombe Richards Fund' after visual verification; 'Lorcombie' is incorrect. Amounts were in consensus."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's amounts (£54, s1, d7) and its note regarding the extra '6' digit. Visual verification confirms '54' in pounds, '1' in shillings, and '7' in pence, with a '6' following the '7' that does not represent a standard fraction. gpt-5-mini incorrectly interpreted column alignment."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "I certify that the Accounts of the College are duly kept in proper books of account & that the Abstracts and Balance Sheet contain a full & true account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's transcription for its accurate capitalization of key nouns and the ampersand. Overrode row_type to 'entry' as it's a specific statement/record, not a general section header."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "March 8th 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's row segmentation. Visually verified description to include 'th'. gpt-5-mini incorrectly combined this line with the auditor's name."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "W.C. JACKSON F.C.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's extraction. Visual verification confirms the name and qualification 'F.C.A.'. gpt-5-mini failed to extract this as a distinct row."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "(Jackson, Pixley, Browning & Co.)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's extraction. Visual verification confirms the firm name. gpt-5-mini failed to extract this row."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "16, King's Road, E.C.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's extraction. Visual verification confirms the address. gpt-5-mini failed to extract this row."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gpt-5-mini's blank description, as no text appears in the description column next to the grand total. Amounts were in consensus."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 7,
+      "rows_by_note_assessment": 6,
+      "rows_by_visual_override": 12,
+      "rows_added_missing": 3,
+      "rows_dropped_extra": 0
+    }
+  }
+}

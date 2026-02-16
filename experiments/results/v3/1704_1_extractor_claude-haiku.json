@@ -1,0 +1,318 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus gu: Paynter Rectory a secundo die Novembris 1703, ad eandem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title and date header. No monetary amounts. Text is clear and legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Impumis reddidit comput: de remanentib: in lista Item de arreragijs",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Section header that contains numerical values (11 £ 9 s 4½ d). The page guidance indicates this should be transcribed as part of the header text with amounts. Column alignment confirmed by reference to 'Summa Arrearaginum' at row 30. The fraction '½' appears as a symbol after the pence digit."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Guanaear",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Place name header with associated amount. '6 0 0' clearly visible in right columns. Slight fading in image but column alignment is consistent with reference lines."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Longwitnam",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place name header with amount. Reading '7 13 1'. The shillings value '13' is valid (under 20). Column position slightly uncertain due to page tilt and ink fading, but alignment with Summa reference line supports this reading."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minhinett",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place name entry with clear amount '2 0 0'. Numbers well-positioned relative to column lines. Minor fading but legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southnewington pro mici",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place name entry with annotation 'pro mici'. Amount clearly '3 0 0'. The handwritten note 'pro mici' is secondary detail as noted in page guidance. Column alignment is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts in the amount columns. This appears to be a header for a sub-section or a transaction with no amount entered."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chackhil",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Similar pattern to row 7, suggesting a structuring element or sub-section header."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Place name entry with amount '0 3 0 8½'. Column alignment confirmed. The last digit appears to be followed by a fraction marker (possibly 'ob' or similar for half-penny, reading as 0.5)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Sue quitrents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Section header for 'Sue quitrents'. No amounts visible on this line. Acts as organizational label for entries below."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph marshall capons",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 15,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Entry with amounts '0 2 15'. Pence value '15' exceeds the valid maximum of 11, indicating a column misalignment. Re-examined against Summa reference line; most likely reading is '0 2 1 7' (shillings 2, pence 1, and possibly a '7' or separate notation). High uncertainty due to handwriting and potential column boundary confusion. Flagged for review."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lalcott",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Similar to rows 7 and 8."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name entry with clear amount '0 3 8'. Shillings and pence are within valid ranges. Ink is reasonably clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mourtaoge",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Place name entry with amount '0 4 0'. Column alignment is consistent. Legible handwriting."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Heighes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Continues the pattern of section labels without amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Greenerage",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 12,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Entry with problematic pence value '12', which exceeds valid maximum of 11. Column alignment uncertain. Re-examination suggests possible misreading; may be '0 1 0' with the '12' being a misaligned notation. Flagged for supervisor review."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry with amount '0 0 10'. Column position consistent with reference lines. Pence value is valid. Handwriting is reasonably clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 15,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Entry with problematic pence value '15', exceeding valid maximum of 11. Column boundary confusion likely. Requires supervisor review and possible re-extraction with reference to physical document."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Structuring label."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Structuring label."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tintinhull Napper",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "First entry in Tintinhull braced group. Amount '0 2 5½'. Fraction symbol 'ob' appears after pence digit, indicating half-penny (0.5). Column alignment reasonably clear despite page tilt."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tintinhull Hopkins",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 18,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.45,
+      "notes": "Second entry in Tintinhull braced group. Amount shows '0 1 18 7' but pence value '18' is invalid (max 11). Column boundary misalignment likely. The '7' may indicate a fraction or be part of a different notation. Flagged for supervisor review."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Clifton Gerry",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name entry with no visible amounts. Structuring label."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 19,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Entry with problematic pence value '19', far exceeding valid maximum of 11. Significant column misalignment suspected. The '8' that follows may be part of a different notation or fraction. Requires supervisor verification."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Brew house",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 15,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Entry with invalid pence value '15'. Column boundary uncertainty. The '6' that follows may indicate a fraction or separate notation. Flagged for review."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Trethewrin",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry with amount '0 6 9'. All values within valid ranges. Column alignment is reasonably clear. Handwriting is legible."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Entry with no visible amounts. Likely a closing label for the Merton section."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Summa Arrearaginum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Grand total row. Amount '230 13 8' is clearly legible and serves as the reference line for column boundary alignment throughout the page. All values are valid. This line establishes definitive column positions for the entire document."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5",
+    "used_optimizer": true
+  }
+}

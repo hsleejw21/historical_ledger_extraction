@@ -1,0 +1,183 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 34,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "total",
+        "description": "Summa Præcedentia — Brought over —"
+      },
+      {
+        "row_index": 2,
+        "row_type": "entry",
+        "description": "Gas lights 9br to Decr 1850"
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "Mich."
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Dr Falconer 12½ Int. on £247.14.2, 3/p Ct to 1 July 1850"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Subscriptions. Viz. Infrimary."
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Grey Coat School"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Shillington Do"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "South Newington Do"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Little Tew Do"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Garsington Do"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Merton Do"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Garsington Do"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "L. Withcham Do"
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Bensington Do"
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Cwinker Do"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Poor of Cwinker"
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Diocesan Board of Education"
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Small Livings in Diocese of Oxon"
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Widows & Orphans of Clergy – Do"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "University Marshall"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Bell Ringer & Chapel Clerk"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Corn Prices"
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Easter Offerings"
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Parish Rates {For rates £0:—:} {Church Rate 1:13:4}"
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Synodals and Procurations"
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "College Gardener – 1st Quarter"
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "2nd Do"
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "3rd Do"
+      },
+      {
+        "row_index": 29,
+        "row_type": "entry",
+        "description": "4th Do"
+      },
+      {
+        "row_index": 30,
+        "row_type": "entry",
+        "description": "Interest on Stubbs Deposit"
+      },
+      {
+        "row_index": 31,
+        "row_type": "entry",
+        "description": "Open Scholarships – Viz. Mr Strempfre"
+      },
+      {
+        "row_index": 32,
+        "row_type": "entry",
+        "description": "Mr. Wilgress"
+      },
+      {
+        "row_index": 33,
+        "row_type": "entry",
+        "description": "Mr. Poase"
+      },
+      {
+        "row_index": 34,
+        "row_type": "total",
+        "description": "£"
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Gu: Paynter Rectory a secundo die",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top-most line of the page title; clear handwriting and no monetary columns present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Novembris 1703, ad eundem diem 1704.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Second line of the page title/dating; clearly a header with no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Imprimis reddit comput: de remanentib: in cista",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings clearly aligned. Pence looks like '4' with a small trailing loop that might be a halfpenny mark; chosen plain 4d because the fraction mark is faint and ambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Item de arrearijs",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear three-column numbers '60 0 0' aligned with ruling lines; unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 76,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "All three figures (76, 13, 4) are legible and well aligned to the vertical £ / s / d lines."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Longwitham",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '20' and '0 0' for s and d are clear and aligned. Description legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "minhinnett",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Pounds '30' and zeros visible. The place-name spelling is slightly uncertain (double n), but the amounts are clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Southneuvington  pro mi:",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description includes a small marginal note 'pro mi' (interpreted as 'pro mi:'). Numeric group reads as '03 00 8' but the pounds value is comparatively small and the handwriting is slightly shakier here; alignment to the columns is moderately clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Figures '02 15 7' are clearly visible and aligned. Description is clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chacchill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "The place-name appears as 'Chacchill' but there is no obvious numerical entry on the same line; the dashed rule continues across the page. Amount column at this row appears blank or omitted."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers read as '03 8 11' (pence 11 is clearly a two-stroke '11'). Alignment consistent with £/s/d lines; ink slightly heavier but digits legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tree quitrents",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Figures '04 0 0' clearly visible and aligned; description 'Tree quitrents' legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ralph marshally capons",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Figures '01 12 0' are clear; description handwriting is legible (\"Ralph marshally capons\")."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Calcott",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads '00 10 0' clearly (10 shillings). Description is clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads '00 15 0' clearly (15 shillings). Description is legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mountague",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "There is a numeric group '04 0 0' below Bampton in the numeric column; exact textual alignment with 'Mountague' is moderately uncertain because of spacing. Chose to attribute 04 0 0 to 'Mountague' since subsequent rows align with smaller sums."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hugheys",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "A '01 12 0' group appears in the vertical sequence; due to tight spacing among Mountague / Hugheys / Greenesay lines the exact mapping is uncertain. Assigned 01 12 0 here; the digits themselves are legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Greenesay",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "A '00 10 0' appears in the vertical numeric list; mapping to Greenesay is somewhat ambiguous because of cramped lines. The numbers themselves are clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Walker",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Next numeric group in the column reads '00 15 0' which I have attributed to 'Walker' though the page spacing makes the exact row-to-number assignment moderately uncertain."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Minne",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "No clear number on the same horizontal line for 'Minne'; appears to be left blank in the numeric columns or very faint. Description is legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Leaden-hall",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "There is a two-part numeric group around here read as '02 5 5' with a small trailing mark after the pence that resembles a farthing symbol (q). Interpreted pence fraction as 0.25 (one farthing). The alignment to 'Leaden-hall' is moderately uncertain because of cramped text, but the numeric pattern is present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Molineux",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numeric group '01 18 7' is clear and sits next to the bracketed pair on the left (Tintinhull block). Attribution to Molineux is likely due to vertical spacing; digits are legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Tintinhull { Napper  / Hopkins }",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The entry is a bracketed pair of names 'Tintinhull { Napper / Hopkins }' with two numeric lines following; the bracket indicates two split amounts on the next two lines rather than a single amount on this descriptive line itself."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "  Napper",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Under the bracket 'Tintinhull', the first sub-line (Napper) appears to have '02 5 9' (pence '9' is slightly cramped). The bracketed layout implies these are sub-amounts for the two names."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "  Hopkins",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second sub-line under Tintinhull clearly shows '01 18 7'. Handwriting and alignment good here."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear numeric group '03 19 8' aligned with the line for 'Clifton Ferry'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numeric group '01 15 6' is visible and well aligned with 'Bensington'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Brewhouse",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "There is a visible '01 15 6' around this area as well; cramped spacing between Bensington / Brewhouse / Trethewin makes precise assignment between these three lines moderately uncertain. The digits themselves are readable."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Trelhewin",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "The numeric group '06 9 7' is clear and appears on the last set of itemized lines before the final total; matched to 'Trelhewin' (spelling varies) by vertical position."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Merton Vicar.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Final descriptive line 'Merton Vicar.' present with no clear numeric entry immediately to its right; may be a non-monetary note or omitted amount. There is some faint ink below but not legible as a number."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "Summa Arrearagiorum receptorum",
+      "amount_pounds": 230,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final boxed/underlined total at bottom-right reads clearly as '230 13 8' and is used as alignment reference for the £ / s / d column lines. Text preceding it (abbreviated Latin) is legible enough to identify as a total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

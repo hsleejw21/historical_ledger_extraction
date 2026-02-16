@@ -1,0 +1,470 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Ger. Paynter Rec. foris a secundo die",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Directly read from image. The initial header text spans two physical lines. `gemini-flash` was close on description, but `gpt-5-mini` combined this line with the next."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Novemb. 1708 ad eundem diem 1709.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Directly read from image, completing the first logical header. `gemini-flash`'s description was an exact match. `gpt-5-mini` combined this line with the previous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Imprimis reddidit comput. de remanentiis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on header type and no amounts. `gemini-flash`'s description 'remanentiis' is visually more accurate than `gpt-5-mini`'s 'remanentib?'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "In Cista",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, amounts, and fraction. Pound notation '-AA' is a visual mark, not a numerical value, and is represented by an empty string per output format. Pence '1d' interpreted as 1 pence and 0.5 fraction per page guidance."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Item de Arreragiis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. `gemini-flash`'s description 'Arreragiis' is an exact visual match over `gpt-5-mini`'s 'Arrearagijs'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Guineas & anno",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description 'Guineas & anno' taken from `gemini-flash`. Monetary values (60 pounds, 0 shillings, 0 pence) taken from `gpt-5-mini` based on clear visual alignment of '60' under the pounds column and '00' under shillings and pence, consistent with the total line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Longwitnam & anno",
+      "amount_pounds": 59,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Description 'Longwitnam & anno' and pence fraction (0.5 for 'd') taken from `gemini-flash`. Monetary values (59 pounds, 19 shillings, 9 pence) based on visual verification supporting `gpt-5-mini` for pounds/shillings."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "min hennet in pt",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'min hennet in pt' taken from `gemini-flash`. Monetary values (20 pounds, 0 shillings, 0 pence) taken from `gpt-5-mini` based on clear visual alignment of '20' under the pounds column."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Southnewington – & anno",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Southnewington – & anno' taken from `gemini-flash`. Monetary values (58 pounds, 0 shillings, 0 pence) taken from `gpt-5-mini` based on clear visual alignment of '58' under the pounds column."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Cudlington Rry pro mich",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Cudlington Rry pro mich' taken from `gemini-flash`. Monetary values (10 pounds, 0 shillings, 0 pence) taken from `gpt-5-mini` based on clear visual alignment of '10' under the pounds column."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Merton Rry & mich.",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Merton Rry & mich.' taken from `gemini-flash`. Monetary values (3 pounds, 8 shillings, 8 pence) taken from `gpt-5-mini` based on clear visual alignment of '03 08 08' in respective columns."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Chacehill & sesquianno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Chacehill & sesquianno' taken from `gemini-flash`. Visual verification confirms no monetary amounts are present for this row, supporting `gpt-5-mini`."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Thrup",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and no amounts. `gpt-5-mini`'s `row_type` of 'header' is more appropriate for this descriptive sub-label."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ralph marshalls capons",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and no amounts. `gemini-flash`'s `row_type` of 'entry' is more appropriate for this descriptive item."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Lord & anno",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, amounts, and fraction. Clear reading from image."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Culcott pro anno",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Culcott pro anno' taken from `gemini-flash`. Consensus on monetary values. The 'b' after pence is not a standard fraction and is not extracted as one, per hard rule filter (supporting `gemini-flash`)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Cudlington mills & mich",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and fraction. Description 'Cudlington mills & mich' taken from `gemini-flash` as it is an exact visual match. '3d' correctly interpreted as 3 pence and 0.5 fraction per page guidance."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bampton & biennio",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus on description, shillings, and pence. Pounds value is '8' after visual verification, as suggested by `gpt-5-mini`. The character after pence is a 'b', not a standard fraction, so no fraction is extracted (supporting `gemini-flash`)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mountague & quinguienio et Dinied.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. Description 'Mountague & quinguienio et Dinied.' taken from `gemini-flash` as it is an exact visual match. `gpt-5-mini`'s '4 quinquiennio et dimid' is less accurate."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Hughes & Biennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, row type, and no amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Greeneway & Triennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. Description 'Greeneway & Triennio' taken from `gemini-flash` as it is an exact visual match."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Walker & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, row type, and no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Franklyn & anno",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, amounts, and fraction. Clear reading from image."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Minne & Biennio",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, amounts, and fraction. Clear reading from image."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Molineux & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, row type, and no amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sadler & mich",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on description and monetary values. `gemini-flash` correctly identified the 'q' character as a 0.25 (farthing) fraction as per page guidance. `gpt-5-mini` missed the fraction."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Tintinhull {",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. Description 'Tintinhull {' taken from `gpt-5-mini` as it visually includes the brace indicating grouping. `gemini-flash` missed the brace."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Napper pro sesquianno",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, pounds, and shillings. Pence value is '11' and fraction is 0.25 ('q'), taken from `gemini-flash` based on clear visual reading. `gpt-5-mini` misread pence as '10' and missed the fraction."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Hopkins & Sesquianno",
+      "amount_pounds": 6,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, amounts, and fraction. Clear reading from image. 'q' correctly interpreted as 0.25 fraction per page guidance."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Clifton Ferry & anno",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and fraction. Description 'Clifton Ferry & anno' taken from `gemini-flash` as it is an exact visual match; `gpt-5-mini` misread 'Clifton' as 'Llifton'."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Bensington & triennio",
+      "amount_pounds": 10,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values. Description 'Bensington & triennio' and correct fraction (0.25 for 'q') taken from `gemini-flash` based on clear visual reading and page guidance. `gpt-5-mini` misread 'Bensington' as 'Densington' and missed the fraction."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Brew house & anno",
+      "amount_pounds": 8,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and fraction. Description 'Brew house & anno' taken from `gemini-flash` as it is an exact visual match; `gpt-5-mini` misread the description."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "South newton Jenem & anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. Description 'South newton Jenem & anno' taken from `gemini-flash` as it is an exact visual match."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Trethewin & sesqui anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and no amounts. Description 'Trethewin & sesqui anno' taken from `gemini-flash` as it is an exact visual match."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "merton Vicarge & quadriennio",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'merton Vicarge & quadriennio' taken from `gemini-flash`. Visual verification confirms no monetary amounts are present for this row, supporting `gpt-5-mini`. `gemini-flash` incorrectly hallucinated amounts."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Backgate Jennings",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on description, shillings, and pence. Pounds value is '4', visually verified from the image, supporting `gpt-5-mini`. `gemini-flash` incorrectly read pounds as '5'."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Yardington mich",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and monetary values taken from `gpt-5-mini`. The row is visually struck-through, but the values 5 pounds, 0 shillings, 0 pence are legible. `gemini-flash`'s amounts were incorrect."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Jure exstrentis & anno",
+      "amount_pounds": 5,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Jure exstrentis & anno' taken from `gemini-flash`. Monetary values (5 pounds, 7 shillings, 2 pence) taken from `gpt-5-mini` based on visual verification. The row is visually struck-through. `gemini-flash`'s amounts were incorrect."
+    },
+    {
+      "row_index": 39,
+      "row_type": "entry",
+      "description": "Warner & Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description taken from consensus. Monetary values (0 pounds, 8 shillings, 0 pence) are visually verified from the image. `gemini-flash` incorrectly reported no amounts. `gpt-5-mini` incorrectly read pence as '2' instead of '0'."
+    },
+    {
+      "row_index": 40,
+      "row_type": "header",
+      "description": "——— (horizontal rule above total)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually observed horizontal rule acting as a separator before the final total. Included based on `gpt-5-mini`. `gemini-flash` missed this row."
+    },
+    {
+      "row_index": 41,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 322,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and row type. Description is empty as per visual verification, supporting `gemini-flash` (who provided an empty description) over `gpt-5-mini` (who put numbers in description)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 8,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 32,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

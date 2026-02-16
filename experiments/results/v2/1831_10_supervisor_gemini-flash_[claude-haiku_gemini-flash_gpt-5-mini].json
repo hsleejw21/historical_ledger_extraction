@@ -1,0 +1,339 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages Brought up",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Based on visual verification, gemini-flash's transcription of 'Arrearages Brought up' is most accurate. The initial word 'Arrearages' is clear upon close inspection."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors correctly identified this as a header. gemini-flash and gpt-5-mini accurately transcribed 'Redeemed Land Tax', which is visually clear. Claude-haiku's 'Tet' is incorrect."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kiddington Rectory 1 year",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in full consensus across all extractors and are visually clear. For the description, 'Kiddington Rectory 1 year' (from claude-haiku) is the most accurate transcription based on visual inspection, correcting gemini-flash's 'Gillingham' and gpt-5-mini's 'Hiddington'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on the description, row type, and that amounts are indicated by ditto marks and should be empty. Minor punctuation difference ('-' vs '.') unified to '.' for consistency with 'Do.' entries."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Long Whittenham Rectory 1 year' (from gemini-flash and gpt-5-mini) is a slightly more accurate transcription than claude-haiku's 'Wittenham' as the 'h' is visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on the description, row type, and that amounts are indicated by ditto marks and should be empty. Minor punctuation difference ('-' vs '.') unified to '.' for consistency with 'Do.' entries."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 year",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Yarnton Rectory 1 year' from gpt-5-mini is the most accurate transcription based on visual inspection, correcting gemini-flash's 'Garriston' and claude-haiku's 'Garmston'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Hired Rents Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "All agree on row type. Based on visual verification, the description should be 'Hired Rents Variable', combining 'Hired' (closest to claude-haiku) and 'Variable' (closest to gpt-5-mini). Gemini-flash and claude-haiku had 'Receivable'/'Payable' as the last word, which is incorrect."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kiddington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, the description is 'Kiddington Augmentation 1 year' (gpt-5-mini and claude-haiku were closer on 'Kiddington'/'Hiddington' than gemini-flash's 'Gillingham'). Amounts are £210 s18 d9, agreeing with gemini-flash and gpt-5-mini for shillings; claude-haiku's 10 shillings is incorrect."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do. 2 Mills 1 year",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description 'Do. 2 Mills 1 year' and amounts (£18 s18 d11). Claude-haiku's 'Vicar' in the description and 10 shillings are incorrect."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Long Whittenham Rectory 1 year",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, the description 'Long Whittenham Rectory 1 year' is accurate (gemini-flash/gpt-5-mini were better). The amounts are £115 s2 d3 with a 0.5 (half-penny) fraction, agreeing with gpt-5-mini and claude-haiku for numerical values (correcting gemini-flash's pounds and fraction)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "South Newington Do. 2 years",
+      "amount_pounds": 391,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, the description 'South Newington Do. 2 years' is accurate (gemini-flash/gpt-5-mini were better than claude-haiku's 'Stoke'). The amounts are £391 s0 d10 with a 0.75 (three-quarter) fraction, agreeing with gemini-flash and claude-haiku for pounds (correcting gpt-5-mini's £39)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Do. Tenement 2 years",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the shillings and fraction. Gpt-5-mini had an incorrect half-penny fraction, and claude-haiku had incorrect shillings (19) and a three-quarter fraction."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Merton Rectory (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Merton Rectory (Land Tax deducted)' from gpt-5-mini is the most accurate transcription. Gemini-flash had 'Shipton' and claude-haiku had 'Horton' and 'Tet'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Garsington Do.",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description 'Garsington Do.' and amounts. Gpt-5-mini had 'Yarnton', and claude-haiku had 'Garrison' and incorrect shillings (8)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash and gpt-5-mini accurately transcribed the description and amounts. Claude-haiku had 'Chase Allis 2 year' with incorrect pounds and pence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Based on visual verification, the description 'Clifton Ferry' is most accurate (claude-haiku for description, corrected 'Terry' from gemini-flash). The amounts (£9 s7 d0 with 0.25 fraction) were accurately transcribed by gemini-flash and gpt-5-mini. Claude-haiku had incorrect shillings (9) and an incorrect half-penny fraction."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bensington 4 years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description 'Bensington 4 years' and amounts. Gpt-5-mini had 'Bennington', and claude-haiku had 'Poultrysgaot' and an incorrect three-quarter fraction."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Garsington - Blinkard",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Garsington - Blinkard' from gpt-5-mini is the most accurate transcription. Gemini-flash had 'Sinkard' and claude-haiku had 'Garruaigton - Aunkead'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do. - Brooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description 'Do. - Brooke 5 years' and amounts. Gpt-5-mini had 'Crooke', and claude-haiku had 'Brookes 5 year' with incorrect pounds (49) and shillings (8)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Swinkenhull - Napier 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Claude-haiku was disqualified for an invalid pence value (15). Based on visual verification, gemini-flash accurately transcribed all values for description ('Swinkenhull - Napier 2 years') and amounts (£19 s0 d1, fraction 0.5). Gpt-5-mini had 'Tintinhulle' and incorrect pounds (17) and pence (0)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do. - Beaton 2 years",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Do. - Beaton 2 years' (from gemini-flash and gpt-5-mini) is the most accurate transcription. Claude-haiku had 'Deaton'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Trethewin 2 years",
+      "amount_pounds": 37,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Trethewin 2 years' from gpt-5-mini is the most accurate transcription, as there is no hyphen before '2 years' (as in gemini-flash) and 'Sucklewine' (claude-haiku) is incorrect."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Little Lew - Taylor 2 years",
+      "amount_pounds": 16,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, 'Little Lew - Taylor 2 years' from gpt-5-mini is the most accurate transcription. Gemini-flash had 'Little Sene' and claude-haiku had 'Sibble Fen'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "- Hadley 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description ('- Hadley 2 years'), shillings, and fraction. Gpt-5-mini had 'Worsley', and claude-haiku had 'Wasley' with incorrect shillings (14) and fraction (0.5)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "- Kindler 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description ('- Kindler 2 years') and the pounds value. Gpt-5-mini had 'Rinder', and claude-haiku had 'Ramsbor' with incorrect pounds (10)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "- Eden 2 years",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agree on amounts, which are visually clear. For the description, '- Eden 2 years' from gemini-flash is the most accurate transcription, including the leading dash. Gpt-5-mini omitted the dash and claude-haiku had 'Elden'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "- Hoorns 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description ('- Hoorns 2 years') and pence value. Gpt-5-mini had 'Simons', and claude-haiku had 'Clemina' and incorrect pence (9)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "- Harley 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification, gemini-flash accurately transcribed the description ('- Harley 2 years') and fraction. Gpt-5-mini had 'Huxley', and claude-haiku had 'Halley' and an incorrect half-penny fraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

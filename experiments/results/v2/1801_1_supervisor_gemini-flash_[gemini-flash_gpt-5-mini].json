@@ -1,0 +1,271 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consensual (empty). Selected gemini-flash for accurate description spelling 'Arrearagia' based on visual verification ('Arrearages' from gpt-5-mini was incorrect).",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Alixe d Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consensual (empty). Selected gemini-flash for accurate description text 'Alixe d Rents, variable' based on visual verification ('Mixed Rents, variable' from gpt-5-mini was incorrect).",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long. Willenham Rectory",
+      "amount_pounds": 172,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (172/7/11½). Selected gemini-flash's description 'Willenham Rectory' over gpt-5-mini's 'Wittenham Rectory' based on visual check of the 'll' vs 'tt', though handwriting is ambiguous.",
+      "side": "left"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South. Kewington D'o",
+      "amount_pounds": 255,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (255/-/—). Selected gpt-5-mini's description 'South. Kewington D'o' as more accurate visually; 'Smith.' from gemini-flash is incorrect. The 'D'o' representation is also more accurate.",
+      "side": "left"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Merton - Do",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (15/-/—). Selected gpt-5-mini's description 'Merton - Do' for including the dash before 'Do' which is visible in the image.",
+      "side": "left"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yardington D'o & Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (65/19/1½). Selected gpt-5-mini's description 'Yardington D'o & Tent' for representing the ditto mark as 'D'o' which is visually more accurate.",
+      "side": "left"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chase. Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (19/7/2). Selected gemini-flash's description 'Chase. Hill' for including the period after 'Chase' visible in the image.",
+      "side": "left"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kiddington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (28/6/10). Selected gemini-flash's description 'Kiddington Mills' for correct spelling of 'Kiddington' with double 'd' as seen in the image.",
+      "side": "left"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garsington, Sadler Three years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (35/1/11¾). Selected gpt-5-mini's description 'Garsington, Sadler Three years' for more accurate spelling 'Garsington' and lowercase 'years'.",
+      "side": "left"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "— D'o Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (14/2/5½). Selected gpt-5-mini's description '— D'o Prickett' for including the leading dash and better ditto mark representation 'D'o'.",
+      "side": "left"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhull, Napier, Three years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (29/6/1). Selected gpt-5-mini's description for using lowercase 'years'.",
+      "side": "left"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "— Do Beaton Six years",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (8/10/1). Selected gpt-5-mini's description '— Do Beaton Six years' for including the leading dash and correctly omitting the comma before 'Six years'.",
+      "side": "left"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Clifton Terry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description and all monetary values (12/19/11½). Values are visually confirmed and valid.",
+      "side": "left"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington Do",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Pounds (11) and Shillings (2) are clear and consistent. The pence column shows a dash followed by a '¼' symbol. Selected description 'Bensington Do' from gemini-flash. Overrode gemini-flash's empty string for `amount_pence_whole` with `0` (as per gpt-5-mini and visual interpretation of a dash) for the 0.25 fraction. All values are valid.",
+      "side": "left"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "So. Kewington Tent",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description and all monetary values (4/5/1¾). Values are visually confirmed and valid.",
+      "side": "left"
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Little Few Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts were consensual (empty). Selected gemini-flash for accurate description text 'Little Few Rents' based on visual verification ('Little Two Rents' from gpt-5-mini was incorrect; the character is clearly an 'F').",
+      "side": "center"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Taylor, — two years",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (22/5/2½). Selected gpt-5-mini's description 'Taylor, — two years' for accurately including the dash and using lowercase 'years'.",
+      "side": "left"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Judge — do",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (10/18/9½). Selected gpt-5-mini's description 'Judge — do' for accurately including the dash and using lowercase 'do'.",
+      "side": "left"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Hirons — do",
+      "amount_pounds": 10,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (10/5/11½). Selected gpt-5-mini's description 'Hirons — do' for accurately transcribing the name 'Hirons' (gemini-flash had 'Atsons') and including the dash before 'do'.",
+      "side": "left"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gardiner, Burdon's Do",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (17/1/—). Selected gemini-flash's description 'Gardiner, Burdon's Do' for including the apostrophe 's' visible in the image. Both extractors correctly interpreted the dash in the pence column as zero pence and no fraction.",
+      "side": "left"
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hartley Do",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and valid across both extractors (2/18/6¼). Selected gemini-flash's description 'Hartley Do' for correctly omitting the comma after 'Hartley' which is not present in the image.",
+      "side": "left"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 20,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

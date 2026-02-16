@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus from gemini-flash and claude-haiku. Both correctly identified the header and no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus from gemini-flash and claude-haiku. Both correctly identified the header and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kimber. Poles.",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash. The amount '16' is clearly aligned under the shillings column. claude-haiku incorrectly placed '16' in the pounds column."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Turville Hatching",
+      "amount_pounds": 10,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consistent between extractors. gemini-flash provides a more accurate reading of the description 'Turville Hatching' over claude-haiku's 'Yarrell. Watching'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Faulkner Hatching Barn. new doors",
+      "amount_pounds": 6,
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consistent between extractors. gemini-flash provides a more accurate reading of the description 'Faulkner Hatching Barn. new doors' over claude-haiku's 'Yarrell. Watching Barn. new Doors'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Willsden - Repairs",
+      "amount_pounds": 4,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent. Visual verification confirms gemini-flash provides the correct description. claude-haiku incorrectly repeated a previous description, indicating a misalignment from this point onwards."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Harrington 2% Int. on £200. P.I.D. to Mid. 1855. at 4%",
+      "amount_pounds": 15,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Loreham. (Repairs)') and an incorrect pounds amount (18)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Merlin. Provisional Till by Mr. Daly - to Xmas 1854",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Harrington. 24 Yd Md on Land...') and an incorrect pounds amount (19). The 'Daly' reading is clear in the image."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lady Day 55",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and amounts. claude-haiku had a completely incorrect description ('Merlen. Procurances...') while coincidentally having the correct amounts, likely due to a systematic offset in its extraction starting around this point."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mid",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and amounts. claude-haiku had an incorrect description ('Lady Day. 53') but coincidentally correct amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mich",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description 'Mich'. claude-haiku misread the description as 'Mids' but had correct amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Garsington Repairs",
+      "amount_pounds": 9,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Mich.') and incorrect amounts (£12 10s)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Croxop Dinner 1854 Little Jen",
+      "amount_pounds": 5,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Garsington. Repairs') and incorrect amounts (£9 19s 11d). The interpretation of 'Jen' at the end of the description is reasonable."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Collins. New Room on Manor Farm on Act.",
+      "amount_pounds": 45,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Dropp. Dinner 1854. Little Tew') and incorrect amounts (£5 6s 0d)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Jackson. Gratuity",
+      "amount_pounds": 20,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Cottina. New Room on Manor Farm & rest.') and completely missed the amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bantry. Repairs House Where it",
+      "amount_pounds": 11,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Buckion. Valuety') and incorrect amounts (£20). The interpretation of 'Bantry' and the faint 'it' at the end of the description are plausible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Same work at Jerry",
+      "amount_pounds": 39,
+      "amount_shillings": 8,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Bantling. Repairs. New Church') and incorrect amounts (£11 9s 0d)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Corona Little Jen",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Lame. Work at Derry') and incorrect amounts (£39 8s). The '1's are clearly visible as vertical strokes."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Certificate of death of late Bates",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Corna. Little Tew') and incorrect amounts (£9 1s)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Andrew Copy of Truro Trust Deed",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Certificates & death & date. Renter') and incorrect amounts (£7)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Agries Seckhams Farm",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and no amounts. claude-haiku had an incorrect description ('Linden. Copy of Tithe Stamp Deed') and incorrectly extracted an amount (£10)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Exors late Rector Legacy Duty Diving 9. Oze",
+      "amount_pounds": 35,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Ayrles. Tuckham. Legacy Duty. Diarc. Price') and incorrect amounts (£1 5s). The note about 'Diving 9. Oze' being ambiguous is fair, but gemini-flash's reading is superior."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Garsington Subscription toward Cholera Expenses",
+      "amount_pounds": 3,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('et les. Late Renter. Legacy Duty. Diarc Price') and incorrect amounts (£35)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Caution Bond Repayment b",
+      "amount_pounds": 100,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Garsington. Interdict. towards Vicar's Glance') and incorrect amounts (£3). The trailing 'b' is clearly visible in the manuscript."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "2 Statutes Copying of Rev. Price",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Caulton. Fence. Repayment &') and incorrect amounts (£100)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mr Walsh. His bill 1854",
+      "amount_pounds": 38,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('2 Statutes. Copy of – Rec. Price') and incorrect amounts (£5 5s)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hill. Repairs Kidlington",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Bro Watch. his bill. 1854') and incorrect amounts (£38 9s 2d)."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Osborne. Bill to Dec 1854",
+      "amount_pounds": 42,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Hile. Library. Led Lantern') and incorrect amounts (£6 3s 3d)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Prop. Tax to Michmas 1854",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Oborne. Bill to Dec 1854') and incorrect amounts (£42 7s 4d)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Grove Benson",
+      "amount_pounds": 5,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Oxb. Par. to Mich Mar 1854') and incorrect amounts (£53 4s 5d)."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Hill Kidlington on Act",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Grove. Tenement') and incorrect amounts (£5 11s)."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Capell. Do- Do-",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent. Visual verification confirms gemini-flash description 'Capell. Do- Do-'. claude-haiku misread the description ('Hile. Koulampton on Acc')."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Collins. Manor Farm",
+      "amount_pounds": 35,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Carell. Do – Do') and incorrect amounts (£15)."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Dickeson. Intures at",
+      "amount_pounds": 34,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Collins. Manor. Farm') and incorrect amounts (£35). The note about 'Intures' likely being 'Interest' is a good observation."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Thrustt. Granary at Long Wittenham",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for both description and amounts. claude-haiku had an incorrect description ('Dukeoins. Quarters at') and incorrect amounts (£34 1s 7d). The note about 'Thrustt' being ambiguous but plausible is good."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 650,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash for row type, empty description, and amounts. claude-haiku misidentified this as a regular entry with incorrect description ('Shrubb. Banery at some Wittingham') and amounts (£40)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 31,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

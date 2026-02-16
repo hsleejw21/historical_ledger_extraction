@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Minor ink bleed is visible in some areas, but does not significantly obscure text.",
+    "A few small stains/spots are present on the page, but do not impact readability.",
+    "The page has a very slight clockwise tilt.",
+    "The bottom right corner of the page appears slightly creased/damaged, though no text is affected."
+  ],
+  "estimated_row_count": 30,
+  "layout_type": "standard",
+  "layout_hints": "The ledger contains multiple distinct sections: 'Recepta varia' (receipts), 'Mr. Robt. Martins Acct.' (an account section), and 'Deductions allowed'. All amounts are in a single Pounds, Shillings, Pence format. Horizontal lines are used to denote sums/totals within sections.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines separating Pounds, Shillings, and Pence are faint across the page, especially in the middle and bottom sections. Use the clearly visible lines in the 'Total of Deductions' row (row 27) and the final Grand Total row (row 30) as primary alignment references to accurately determine column boundaries for all entries. Note that the final total (row 30) contains a fractional pence value (7½). Row 28 ('Remains clear for the years Rent') is descriptive text for the amount in row 29 ('221 19 8') and should be captured as one logical entry.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

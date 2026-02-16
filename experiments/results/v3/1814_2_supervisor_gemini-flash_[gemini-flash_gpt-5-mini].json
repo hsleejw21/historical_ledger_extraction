@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris a 2º Die Novri 1814",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` as its description '2º Die Novri' is a more accurate visual reading than `gpt-5-mini`'s '2do De Novr'. Both correctly identified as a header with no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "ad eundem revolutum - 1815",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for its more accurate description 'revolutum' matching the image, compared to `gpt-5-mini`'s 'diem revolution'. Both correctly identified as a header with no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for its more accurate description without the trailing dash seen in `gpt-5-mini`. Both correctly identified as a header with no amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Money Rents fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Combined readings: 'Rents' from `gpt-5-mini` is more accurate than 'Rects' from `gemini-flash`, and `gemini-flash`'s period is more accurate than `gpt-5-mini`'s dash. Both correctly identified as a header with no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwincas Rectory 2 Yrs. P.T.J.",
+      "amount_pounds": 135,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description and monetary values. The description is a clear visual match. The amounts are clearly 135 pounds, with dashes indicating zero shillings and pence, which `gemini-flash` correctly interpreted. `gpt-5-mini`'s description was inaccurate and it missed the zero shillings/pence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "+ Menhermot 2 Yrs Go",
+      "amount_pounds": 136,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description and monetary values. The description is a clear visual match. The amounts are clearly 136 pounds, with dashes indicating zero shillings and pence, which `gemini-flash` correctly interpreted. `gpt-5-mini`'s description was inaccurate and it missed the zero shillings/pence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode extractor classifications. Visual inspection confirms 'Little Tew' acts as an indented header/sub-category label with no associated monetary value. `gemini-flash` marked it as an 'entry' and `gpt-5-mini` had a wrong description ('Able New') for this line. My selection uses the correct description and row type."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Banwell",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description and complete monetary interpretation (0.10.0). The description is a clear visual match. `gpt-5-mini` misread the description ('Banwoke') and had incomplete amount fields."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Land Tax Redeemed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, row type, and absence of amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Kidlington Rectory",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini`'s interpretation of 'Kidlington Rectory' as a header with no associated amounts, which visually matches the ledger. `gemini-flash` incorrectly assigned the amount from the subsequent line to this row and classified it as an entry."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do Vicassage",
+      "amount_pounds": 4,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors. `gemini-flash` correctly read the description but incorrectly stated no amounts for this line. `gpt-5-mini` misread the description as 'Vicarage' but correctly extracted the amounts as 4 pounds and 19 shillings (with a dash indicating 0 pence). My reading combines the correct description with the correct amount interpretation."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Fixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, row type, and absence of amounts. `gemini-flash` correctly noted 'Fixed' as faint, which is visually accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "St Newington P.T.J.",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for the correct pounds amount (17, visually clearer than `gpt-5-mini`'s 171) and more accurate description ('P.T.J.' vs 'P.T.D'). Both correctly identified 11 shillings and 0 pence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kidlington Hills Do 2 Years",
+      "amount_pounds": 42,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Hills' is clearer than `gpt-5-mini`'s 'Mills'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Garsington Linkard",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description as it accurately reflects the text without additional punctuation (as seen in `gpt-5-mini`). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Clifton' is clearly visible compared to `gpt-5-mini`'s 'Ufton'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Bensington' is clearer than `gpt-5-mini`'s 'Bessington'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Trehkenin",
+      "amount_pounds": 44,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Trehkenin' is a closer visual match than `gpt-5-mini`'s 'Frothewin'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode extractor classifications. Visual inspection confirms this second instance of 'Little Tew' acts as an indented header/sub-category label with no associated monetary value. `gpt-5-mini` correctly identified this as a header (row 19), while `gemini-flash` (row 19) incorrectly combined it with the 'Taylor' entry."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Taylor 3 Years",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini`'s description ('Taylor 3 Years') as it is more precise for this specific entry under the 'Little Tew' header. `gemini-flash` combined 'Taylor' with the parent 'Little Tew' in its description. Amounts are in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Phage Do",
+      "amount_pounds": 18,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for correct description ('Phage' is a clear visual match compared to `gpt-5-mini`'s 'Judge') and correct pounds amount (18 vs `gpt-5-mini`'s 13). Shillings and pence were consistent between extractors."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Gibbons Do",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Gibbons' is a clearer visual match than `gpt-5-mini`'s 'Habons'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hartley Do",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, amounts, and row type."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Kimber Do",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, amounts, and row type."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Busby Do",
+      "amount_pounds": 36,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini` for the correct pence whole amount (visually 1, not `gemini-flash`'s 11). Description, pounds, shillings, and pence fraction were otherwise in consensus and visually verified."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Lad Lane",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode extractor classifications. Visual inspection confirms 'Lad Lane' acts as an indented header/sub-category label with no associated monetary value. `gpt-5-mini` correctly identified this as a header (row 26), while `gemini-flash` (row 25) incorrectly combined it with the 'Comyns' entry."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Comyns",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Comyns' is a clearer visual match than `gpt-5-mini`'s 'Conyers'). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do Wilson",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Do Wilson' is a clearer visual match). `gpt-5-mini` omitted 'Do'. Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Do Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Do Pickford' is a clearer visual match). `gpt-5-mini` omitted 'Do'. Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, amounts, and row type."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "Recepta Anni presentis",
+      "amount_pounds": 613,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode `gpt-5-mini`'s structure. The description 'Recepta Anni presentis' is clearly associated with the total amount 613.19.1 on the same line. `gemini-flash` correctly captured this as a single 'total' row with its description. `gpt-5-mini` incorrectly split this into two rows, one with an empty description and one with the description but no amount."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "Received of Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode `gpt-5-mini`'s structure. Visual inspection confirms 'Received of Bankers' is a distinct header row without amounts, preceding the individual dividend entries. `gemini-flash` correctly identified this as a header. `gpt-5-mini` incorrectly combined this with the first dividend entry's description."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Dividend for 1421.1.0",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for the correct pounds amount (19, visually clearer than `gpt-5-mini`'s 9) and accurate description. `gpt-5-mini`'s description also incorrectly included the 'Received of Bankers' header. Shillings and pence were consistent."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Do Do",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`'s description ('Do Do' is a clearer visual match without the dash present in `gpt-5-mini`). Amounts were in full consensus and visually verified as correct."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description (empty), amounts, and row type. Visually verified as correct."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 21,
+      "rows_by_visual_override": 8,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

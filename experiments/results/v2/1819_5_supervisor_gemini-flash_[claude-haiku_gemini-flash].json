@@ -1,0 +1,162 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued - Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description as it accurately reads 'Arrearagia'. claude-haiku had 'Arrerages'. Both extractors correctly identified the row as a header with no monetary amounts, which was visually confirmed."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Bensington - 1 1/2 yr",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('Bensington - 1 1/2 yr') for accuracy, as claude-haiku had 'Borington'. Both extractors agreed on and correctly identified all monetary values: 8 pounds, 12 shillings, 0 pence, and the 0.75 fraction (3/4), which was visually confirmed."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('South Newington Tenement') for accuracy, as claude-haiku had 'Croft Gazing — Covenants'. Both extractors agreed on and correctly identified all monetary values: 3 pounds, 0 shillings, 5 pence, and the 0.5 fraction (1/2), visually confirmed. claude-haiku's note on 'obole' for half-penny is a good detail."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "In Hewin Lodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('In Hewin Lodge') for accuracy, as claude-haiku had 'Folkstone — Lodge'. Both extractors agreed on and correctly identified all monetary values: 22 pounds, 1 shilling, 7 pence, and no fraction, visually confirmed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Little Ew.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('Little Ew.') and row_type ('entry') for accuracy and contextual fit. claude-haiku had 'Little Cow.' and marked it as 'header'. Visually confirmed no monetary amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Taylor. 2 1/2 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Taylor. 2 1/2 yrs') and correct shillings value (10). claude-haiku had 'lay for. Shed' and misread shillings as 11. Visually confirmed amounts as 20 pounds, 10 shillings, 3 pence, and no fraction."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 10,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Judge') and correct pounds value (10). claude-haiku had 'Lodge' and misread pounds as 12. Both extractors agreed on and correctly identified shillings (14), pence (1), and the 0.5 fraction (1/2), visually confirmed."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Aitoms",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash's description ('Aitoms') as it is a more plausible reading than claude-haiku's 'Morne.', though the script has slight ambiguity for 'i'/'o' as gemini-flash noted. Both extractors agreed on and correctly identified all monetary values: 0 pounds (blank), 10 shillings, 10 pence, and no fraction, visually confirmed."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hardy",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash's description ('Hardy'), acknowledging the visual ambiguity with 'Hartley' noted by both extractors. Both extractors agreed on and correctly identified all monetary values: 2 pounds, 0 shillings, 2 pence, and the 0.75 fraction (3/4), visually confirmed."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimber.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('Kimber.') for accuracy, as claude-haiku had 'Kimbier.'. Both extractors agreed on and correctly identified all monetary values: 23 pounds, 12 shillings, 5 pence, and no fraction, visually confirmed."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Busby. (Worley)",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Busby. (Worley)') and correct identification of the fraction as 0.25 (1/4). claude-haiku had 'Bushy, Warley' and misread the fraction as 0.75. Other monetary values (25 pounds, 16 shillings, 0 pence) were agreed upon and visually confirmed."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit Rent for Kidlington Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate description ('Stipend or Quit Rent for Kidlington Vicarage'). claude-haiku incorrectly merged this line with the subsequent line, misread 'Kidlington' as 'Hillingston', and added text belonging to the next line. Both extractors correctly identified no monetary amounts on this line. This is the first line of a two-line braced entry."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "vid. an: pro 24 Dec. Nov. 1818. Mem. +",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This distinct row was only identified by gemini-flash. claude-haiku incorrectly merged it with the previous row (visual row 12). gemini-flash accurately transcribed the description, identified it as an entry, and correctly noted the absence of monetary amounts and the presence of a reference number '3' to the side (associated with the braced entry), which was visually confirmed. This is the second line of a two-line braced entry."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 13,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

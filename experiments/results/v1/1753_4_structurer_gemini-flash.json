@@ -1,0 +1,138 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 25,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Soluta varia."
+      },
+      {
+        "row_index": 2,
+        "row_type": "entry",
+        "description": "paid Molinoux Brazions Bill"
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "paid mr Combos Bill"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Ladyday Corn Price"
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "paid for flooring of Room over y^e now Bursary"
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "paid mr Collins in full of his first Bill of Candlos"
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "paid D^o for lighting of Winter Lamps"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "paid Cook And Dinner & xmas Gaudies"
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "paid into y^e Treasury chest 200 Guineas"
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Michaelmas Corn Price"
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "paid mr Hornor for Battle Books, Ink & Paper"
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "paid the Cooks Bill for washing of Hall, Mops &c."
+      },
+      {
+        "row_index": 13,
+        "row_type": "total",
+        "description": "Soluta"
+      },
+      {
+        "row_index": 14,
+        "row_type": "total",
+        "description": "Ditto"
+      },
+      {
+        "row_index": 15,
+        "row_type": "total",
+        "description": "Summa totalis Solutorum"
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Ex Receptis quæ erant & deb. Annis præcedentibus"
+      },
+      {
+        "row_index": 17,
+        "row_type": "total",
+        "description": "Deduct Solutis"
+      },
+      {
+        "row_index": 18,
+        "row_type": "total",
+        "description": "Restant Solv. a D^no Computante"
+      },
+      {
+        "row_index": 19,
+        "row_type": "header",
+        "description": "Computus approbatus per presentes viz"
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Jacobum Corporat Sub. Rectorom"
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Thomas Bray Decano"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "J. Fortescue S.T.P."
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "J. Tonville A.M."
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Benj: Kennicott A.M."
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "H. Mounsteven A. B."
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

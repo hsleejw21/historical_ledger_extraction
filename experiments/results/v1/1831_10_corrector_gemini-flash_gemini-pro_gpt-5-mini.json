@@ -1,0 +1,309 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Brought up",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kidlington Rectory 1 year",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1 year",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do. Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Rectory 1 year",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Fixed Rents payable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do. L Mills 1 year",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1 year",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Do. 2 years",
+      "amount_pounds": 391,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do. Tenement 2 years",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Preston Rectory (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Garsington Do.",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bensington 4 years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garsington - Pinkard",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do. Brooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tintinhull - Napier 2 years",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do. Beaton 2 years",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Tretbewin 2 years",
+      "amount_pounds": 37,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Little Tew - Saylor 2 years",
+      "amount_pounds": 16,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Hartley 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Kurdler 2 years",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Eden 2 years",
+      "amount_pounds": 4,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Horne 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Hartley 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 12: pounds=113 → pounds=115 | Reason: the image clearly reads \"115 2 3 3/4\" in the £ s d columns (the hundreds/tens digit is '115', not '113'); updated pounds and set confidence_score=0.9.\nRow 22: pounds=19 → pounds=14 | Reason: the image reads \"14 0 1/2\" for Tintinhull - Napier 2 years (the tens digit is '1' and the units '4'); updated pounds and set confidence_score=0.9.\nRow 28: pounds=7 → pounds=4 | Reason: the image reads \"4 7 8\" for Eden 2 years (the pounds place is a clear '4'); updated pounds and set confidence_score=0.9.\n\nRow 1: No change — header row \"Arrearages\" has no amounts.\nRow 2: No change — header row \"Brought up\" has no amounts.\nRow 3: No change — header row \"Redeemed Land Tax\" has no amounts.\nRow 4: No change — \"Kidlington Rectory 1 year\" reads 22 5 6 clearly.\nRow 5: No change — \"Do. Vicarage\" line is blank in amounts on image.\nRow 6: No change — \"Long Wittenham Rectory 1 year\" reads 28 0 0.\nRow 7: No change — \"Do. Vicarage\" line is blank in amounts on image.\nRow 8: No change — \"Garsington Rectory 1 year\" reads 14 0 0.\nRow 9: No change — header \"Fixed Rents payable\" has no amounts.\nRow 10: No change — \"Kidlington Augmentation 1 year\" reads 210 18 9.\nRow 11: No change — \"Do. L Mills 1 year\" reads 18 18 11.\nRow 13: No change — \"South Newington Do. 2 years\" reads 391 0 10 3/4.\nRow 14: No change — \"Do. Tenement 2 years\" reads 5 17 5 1/4.\nRow 15: No change — \"Preston Rectory (Land Tax deducted)\" reads 240 2 5.\nRow 16: No change — \"Garsington Do.\" reads 50 5 5 1/2.\nRow 17: No change — \"Chase Hill 2 years\" reads 25 10 7.\nRow 18: No change — \"Clifton Ferry\" reads 9 7 0 1/4.\nRow 19: No change — \"Bensington 4 years\" reads 30 0 9 1/2.\nRow 20: No change — \"Garsington - Pinkard\" reads 9 10 3 1/2.\nRow 21: No change — \"Do. Brooke 5 years\" reads 47 5 2.\nRow 23: No change — \"Do. Beaton 2 years\" reads 2 16 1.\nRow 24: No change — \"Tretbewin 2 years\" reads 37 10 4 1/2.\nRow 25: No change — \"Little Tew - Saylor 2 years\" reads 16 9 8.\nRow 26: No change — \"Hartley 2 years\" reads 20 17 5 3/4.\nRow 27: No change — \"Kurdler 2 years\" reads 19 4 8 1/2.\nRow 29: No change — \"Horne 2 years\" reads 6 19 3.\nRow 30: No change — \"Hartley 2 years\" (final line) reads 1 19 2 3/4.",
+    "changes_made": true
+  }
+}

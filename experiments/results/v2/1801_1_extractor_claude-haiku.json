@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrangia continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No amounts present. Continuation marker indicating this is a section continuation."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Structural label introducing variable rent entries below. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long Willenham Rectory",
+      "amount_pounds": 172,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear handwriting. Amounts well-aligned: 172 in pounds column, 7 in shillings. No pence visible. All values valid."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South Kewington Do",
+      "amount_pounds": 255,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading. 255 pounds, no shillings or pence visible. 'Do' is abbreviation for ditto."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Shelton Do",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading. 15 pounds only. No shillings or pence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yardington D. & Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reading: 65 pounds, 19 shillings. Shillings = 19 is valid (just under 20). Handwriting reasonably clear but 19 could theoretically be 18; context and alignment support 19."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chapel Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading. 19 pounds, 5 shillings. No pence visible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hiddington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reading: 28 pounds, 6 shillings. Numbers well-formed. No pence visible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garrington Sadler since 11 years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reading: 35 pounds, 1 shilling. Description text is complete but slightly faded. Amount column alignment is clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "So. Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Reading: 14 pounds, 2 shillings, 5½ pence. The fraction symbol after 5 appears to be 'ob' (half-penny), indicating 0.5. All values valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhoe, Napier, three years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. 29 pounds, 6 shillings. No pence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do Boston, six years",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading. 8 pounds, 10 shillings. 'Do Boston' continues the entry description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reading: 12 pounds, 19 shillings. The shillings value of 19 is valid but close to upper limit; handwriting suggests this reading."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Reading: 11 pounds, 2 shillings, with a fraction symbol after pence. Symbol appears to be 'q' (farthing = 0.25). Pence whole digit unclear due to spacing; interpreted as 0."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "No. Kewington Tent",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Reading: 4 pounds, 5 shillings, with fraction 0.5. Pence column shows what appears to be a fraction symbol 'ob' or similar. Pence whole digit unclear; likely 0."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Little Few Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Structural label introducing new section. No amounts. Clear text."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Taylor, two years",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Reading: 22 pounds, 5 shillings, with fraction 0.5 (ob). Pence column shows fraction marker. Handwriting clear overall."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.75,
+      "notes": "Reading: 10 pounds, 18 shillings, with fraction marker. Symbol after pence appears to be '3q' (three farthings = 0.75). Slightly ambiguous due to ink quality."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Ilfson's Do",
+      "amount_pounds": 10,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Reading: 10 pounds, 5 shillings, fraction 0.5. Pence shows fraction symbol 'ob'. 'Do' abbreviates 'ditto'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gardiner, Burdens Do",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading. 17 pounds, 1 shilling. No pence or fraction."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hartley, Do",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.75,
+      "notes": "Reading: 2 pounds, 18 shillings, with fraction marker '3q' (0.75). Handwriting slightly unclear on pounds digit (could be 2 or 3); context and alignment suggest 2. Pence fraction clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

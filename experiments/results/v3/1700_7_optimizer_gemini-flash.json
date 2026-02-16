@@ -1,0 +1,16 @@
+{
+  "warnings": [
+    "The page is significantly tilted clockwise by approximately 3-5 degrees, causing the text to appear slanted relative to the page edges and column boundaries to drift.",
+    "Heavy ink bleed from the reverse side and general fading are present in the top-right quarter of the page, particularly affecting the amount columns for rows 1-5, 8-11, and 15-16.",
+    "The bottom-most rows (39-41) show some fading, especially in the pence column, which may obscure the last digit.",
+    "Significant binding damage and dark smudges are visible along the left margin and in the top-left corner.",
+    "Handwritten numerical annotations and notes are present in the right margin ('02 15', '19.2', '10', '14', '11', '0', '19. 10') and should be ignored as they are not part of the main tabular data."
+  ],
+  "estimated_row_count": 42,
+  "layout_type": "standard",
+  "layout_hints": "The ledger features a standard single-column description with three amount columns (£ s d). The vertical ruling lines for these columns are very faint or completely invisible throughout most of the page. The first total row (row 29) and the second total row (row 42) have clearer column separation and should be used as alignment references.",
+  "prompt_additions": "CRITICAL: The page is tilted approximately 3-5 degrees clockwise. Column boundaries will appear to drift; extractors must rely on the vertical ruling lines for alignment, even where faint. CRITICAL: The vertical ruling lines separating the £ / s / d columns are very faint or invisible for the majority of the page. Use the first total row (row 29, '125 18 10') and the second total row (row 42, '115 00 10') as clear, primary references for column alignment. Project these column positions to all rows above them. Rows 1-5, 8-11, and 15-16 have noticeable ink bleed or fading in the amount columns. Expect lower confidence for shillings and pence in these areas, and if values are unreadable, leave them blank and set confidence < 0.3. The bottom-most rows (rows 39-41) show fading, particularly affecting the pence column, which may obscure the last digit; ensure careful transcription here. Ignore any handwritten text or numbers in the right margin (e.g., '02 15', '19.2', '10', '14', '11', '0', '19. 10') as these are external annotations, not part of the main table data. Rows 17 ('Tintinhull') and 28 ('Backgate') represent single logical ledger entries that contain nested sub-items (indicated by a bracket); treat these as single entries, with all bracketed text included in the description field, and extract only one total amount for the main entry. 'Jue quitren' (row 1) is a header/title. 'Ralph marshalls capons' (row 2) is the first transaction entry.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

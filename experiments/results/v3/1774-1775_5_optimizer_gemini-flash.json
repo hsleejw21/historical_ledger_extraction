@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "Page is slightly tilted clockwise, which may affect perceived vertical alignment.",
+    "The vertical ruling lines separating the £, s, d columns are faint and somewhat inconsistent, making precise column alignment challenging.",
+    "The rightmost column (pence) occasionally includes fractional values like '2/4' (row 18) or a superscript '4' (row 22), representing farthings."
+  ],
+  "estimated_row_count": 25,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines for the £, s, d columns are faint but discernible. The page has a slight clockwise tilt. Use the clearer numerical alignments in rows 2-9 and the total rows (14, 17, 22, 25) as primary references for column boundaries. Expect the text to drift slightly from top to bottom due to the tilt.",
+  "prompt_additions": "CRITICAL: The page is tilted ~5 degrees clockwise. Rely on the estimated vertical column boundaries rather than perceived horizontal alignment, especially for the main entries (rows 2-9). The vertical ruling lines for £, s, d are faint; use the strong numerical alignment of the total rows (row 22: '827 3 8 4' and row 25: '1575 6 00') as your ground truth for column positions. NOTE: Row 18 has a fractional pence '2/4'. Row 22 has a superscript '4' after the pence value. Treat these as a 'farthings' component or incorporate them into the pence value as fractions if a separate farthing field is not available. Margin dates (e.g., 'Nov^r 10', 'June', 'July 26') should be extracted as the date for their respective entries. Rows 10-11 ('Mr. Oswald Jackson's Acct. for the Rector estate for the Year from Micr. 1773 to Mids. 1774') represent a multi-line header that should be combined into a single description for the subsequent sub-entries (rows 12-13) and their subtotal (row 14). Similarly, rows 23-24 are descriptive text for the final total (row 25) and should be combined.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Received by Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No amounts expected for structural label.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1808 Messrs Biddulph, Cocks & Pleydge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear institutional name and date. No amounts; structural introductory text.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dividend on 1821 — 18 — (Drs. 0.9.D)",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount visible on right margin as '19.3.0'. Handwriting is cursive and somewhat faded. The entry description contains strike-throughs and annotations (Drs. 0.9.D) making it moderately difficult to parse, but the amount itself is legible. Shillings value of 3 is within valid range (0–19).",
+      "side": "right"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do on 546 — 9",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount shown as '9.16.6' on right margin. Handwriting is clear. Abbreviation 'Do' (ditto) indicates repetition of dividend transaction. All currency values within valid range (shillings 16, pence 6).",
+      "side": "right"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do on 1421 . 1. 8 — as before",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount shown as '19.3.8' on right margin. Entry text is somewhat cramped and contains annotations. The amount is legible but pence digit '8' is in the mid-range of normal values (0–11). Column alignment verified against surrounding rows.",
+      "side": "right"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do on 546 — 9",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount shown as '9.16.6' on right margin. Duplicate entry (same as row 4). Clear handwriting and valid currency values. Consistent alignment with previous entries.",
+      "side": "right"
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "Subtotal line",
+      "amount_pounds": 50,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount shown as '50.15.4' on right margin, preceded by underline indicating a subtotal. Handwriting is relatively clear. Currency values are valid (shillings 15, pence 4). Verification: summing rows 3–6 would produce a subtotal row; this aligns with standard ledger structure.",
+      "side": "right"
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Vale of the Fund for Adorozion in the 3d Cent reduced",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Structural heading text. Handwriting is cursive and archaic; 'Adorozion' and 'Cent' are difficult to read with certainty, but appear to be account descriptions. No amounts present. This introduces a new account section.",
+      "side": "center"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Amount of worth Wos Account 276. 18. 7 with reared Dw: 66. 17. 6 [split]",
+      "amount_pounds": 99,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount shown as '99.8.10' on right margin. Entry text is dense, archaic, and heavily abbreviated. Multiple inscriptions and annotations ('with reared Dw: 66.17.6') make parsing difficult. The figure shown as '99.8.10' is legible but context is unclear. Pence value of 10 is valid (0–11). This row appears to combine multiple monetary references.",
+      "side": "right"
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "maund / [calculation/subtotal line]",
+      "amount_pounds": 25,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount shown as '25.17.5' on right margin. Text appears to read 'maund' (possibly French 'main' or an abbreviation), suggesting a subtotal or intermediate balance. Handwriting is faded and cursive. Currency values are valid. Row structure suggests a calculation result.",
+      "side": "right"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "N.D Dividend on 34. 15. 7 not yet invested.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "No amount visible on right margin for this row. Text is legible (N.D = Not Dividend; note details an account reference '34.15.7'). This appears to be a sub-item or explanatory entry without its own monetary amount. Ink is somewhat faded but readable.",
+      "side": "right"
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

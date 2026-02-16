@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages Recipunda e Novr die 2do 1767",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are empty by consensus. Description required visual override due to significant discrepancies. 'Arrearages' is clear from the image. 'Recipunda' is a more accurate Latin interpretation matching the context (as suggested by claude-haiku's 'Recepunda' being closer than gpt-5-mini's 'Received'). The date 'e Novr die 2do 1767' is taken from gpt-5-mini, with visual verification confirming the '6' in '1767' (claude-haiku had '1797')."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Weston ad Test: annum:",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 4-11-4 for amounts. Gpt-5-mini's reading for amounts and description ('Weston ad Test: annum:') is accurate. Claude-haiku had an incorrect shillings amount ('4') and a significantly incorrect description ('Weston ad Parl: annual: ——')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "- ad Test Mech:",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 4-2-4 for amounts. Gpt-5-mini's reading for amounts and description ('- ad Test Mech:') is accurate. Claude-haiku had incorrect pounds ('3'), pence ('9'), and a completely incorrect description ('ad Foot Jilid: ——')."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Chace Hill pro Bien:",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 17-2-9 for amounts. Gpt-5-mini's reading for amounts and description ('Chace Hill pro Bien:') is accurate. Claude-haiku had an incorrect pounds amount ('19') and a significantly incorrect description ('Place Hill pro Erian: ——')."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Yardington Rec: pro Dim: an: ad Mech:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 5-0-0 for amounts. Gpt-5-mini's pounds ('5') is correct; claude-haiku's was incorrect ('9'). Refined gpt-5-mini's description to 'Yardington Rec: pro Dim: an: ad Mech:' based on clearer visual reading of 'Dim:' and 'an:' after 'pro'. Claude-haiku's description ('Yardington Rach pro Erin an: d Much: ——') was significantly incorrect."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "- Tenem: pro ann:",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts are agreed upon by both extractors and visually verified as 8-14-5½. Gpt-5-mini's description ('- Tenem: pro ann:') is accurate. Claude-haiku's description ('Jeneran: wooan: ——') is completely incorrect."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wilmot pro Bien & Dim:",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 5-0-10. Refined gpt-5-mini's description slightly to 'Wilmot pro Bien & Dim:' based on clearer visual reading of 'Dim'. Claude-haiku's description ('Wilsorth pro Erin 7 Erin: ——') is incorrect."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "- Capon pro Ditto",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows 0-6-3¾. Pounds ('0') and shillings ('6') match claude-haiku's reading. Pence ('3') and fraction ('0.75') match gpt-5-mini's reading. Both extractors had major errors in some amount fields (gpt-5-mini had 13-19). Selected gpt-5-mini's description ('- Capon pro Ditto') as accurate; claude-haiku's description ('Cajon pro Sitts ——') is incorrect."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kidlington Mills pro an:",
+      "amount_pounds": 13,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 13-19-8 for amounts. Pounds ('13') matches claude-haiku, but shillings ('19') matches gpt-5-mini. Pence ('8') matches both. Both extractors had errors in different amount fields. Gpt-5-mini's description ('Kidlington Mills pro an:') is correct; claude-haiku's description ('Wleigten Shills p/n an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garrington Lodge pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 6-19-8. Gpt-5-mini's description ('Garrington Lodge pro an:') is accurate. Claude-haiku's description ('Gossington Labor p/n an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- Mohneux ditto",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 10-9-11 with a 0.5 fraction, following the special case rule for 'ob' or 'd' like symbols. Claude-haiku correctly identified the fraction as 0.5, while gpt-5-mini read it as 0.25. Selected gpt-5-mini's description ('- Mohneux ditto') as accurate; claude-haiku's description ('Molbara Sitts ——') is incorrect."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tintinhull Nesper pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 1-15-0. Gpt-5-mini's description ('Tintinhull Nesper pro Bien:') is more accurate. Claude-haiku's description ('Frittsubale Nepper pro Prien: ——') is less accurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Holwell pro ditto",
+      "amount_pounds": 26,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 26-14-6½. Gpt-5-mini's description ('- Holwell pro ditto') is accurate. Claude-haiku's description ('Jouelle pro Sitts ——') is incorrect."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Clifton Gorry",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 2-1-4. Gpt-5-mini's description ('Clifton Gorry') is accurate. Claude-haiku's description ('Eiffan Berry ——') is incorrect."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "South New: Tenem: pro ann:",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 5-9-7½ for amounts. Shillings ('9') matches gpt-5-mini, while claude-haiku had incorrect shillings ('5'). Gpt-5-mini's description ('South New: Tenem: pro ann:') is accurate. Claude-haiku's description ('Jodith Glen: Jenson pro an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bennington pro ann:",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 9-8-8 for amounts. Pounds ('9') and shillings ('8') match claude-haiku, while gpt-5-mini had incorrect pounds ('3') and shillings ('6'). Gpt-5-mini's description ('Bennington pro ann:') is more accurate than claude-haiku's ('Berington pro an: ——')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lodsacre Conway pro an:",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 6-13-4. Gpt-5-mini's description ('Lodsacre Conway pro an:') is accurate. Claude-haiku's description ('Laidlene Carys p/n an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "- Harforth pro ditto",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 1-13-4. Gpt-5-mini's description ('- Harforth pro ditto') is accurate. Claude-haiku's description ('Horspath pro Sitts ——') is incorrect."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "- Greenhow pro ditto",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 5-14-3. Gpt-5-mini's description ('- Greenhow pro ditto') is accurate. Claude-haiku's description ('Brererson pro Sitts ——') is completely incorrect."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Taylor, major Lot pro ann:",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 4-9-3½. Refined gpt-5-mini's description ('Taylor, major Lot pro ann:') as visually more accurate ('Lot' is clearer than '?' or 'Lord')."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Fardon, olim Calcott pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 0-15-9 with a 0.25 fraction (distinct 'q' symbol, per special case rule). Gpt-5-mini correctly identified the fraction. Claude-haiku incorrectly identified the fraction as 0.5. Selected gpt-5-mini's description ('Fardon, olim Calcott pro an:') as accurate; claude-haiku's description ('Jocdin adam allott pro an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Minchin, olim Barnett pro an:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 3-6-8 for amounts. Gpt-5-mini correctly identified all amounts. Claude-haiku had incorrect pounds ('5') and shillings ('8'). Selected gpt-5-mini's description ('Minchin, olim Barnett pro an:') as more accurate; claude-haiku's description ('Junchin, alin Barratt p/n an: ——') is less accurate."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Little Gen (Quit Rents) pro an:",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 0-0-6. Gpt-5-mini's description ('Little Gen (Quit Rents) pro an:') is more accurate. Claude-haiku's description ('Jittle Gen Qsit Rech pro an: ——') is less accurate."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Cumnock Rents pro an:",
+      "amount_pounds": 85,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 85-0-1 for amounts. Pounds ('85') matches gpt-5-mini, while claude-haiku had incorrect pounds ('25'). Gpt-5-mini's description ('Cumnock Rents pro an:') is accurate. Claude-haiku's description ('Cormoolt Boots p/n an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Longwitton pro an:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 30-0-0. Gpt-5-mini's description ('Longwitton pro an:') is accurate. Claude-haiku's description ('Loywottlelson p/n an: ——') is completely incorrect."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Southnewington Recd pro Direc an: ad Mech:",
+      "amount_pounds": 255,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 255-0-0 for amounts. Pounds ('255') matches gpt-5-mini, while claude-haiku had incorrect pounds ('25'). Gpt-5-mini's description ('Southnewington Recd pro Direc an: ad Mech:') is accurate. Claude-haiku's description ('Wotchewington Rech per Erin: an: 2 Much: ——') is completely incorrect."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gremier for (Quadrin? & 1/2 part) an:",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 17-10-0. Gpt-5-mini's description ('Gremier for (Quadrin? & 1/2 part) an:') is more accurate despite its own note acknowledging uncertainty. Claude-haiku's description ('Brunner pro Quadrunin & td rest an: ——') is less accurate."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Sharp annuity pro ?ion & ?min:",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 2-0-0. Gpt-5-mini's description ('Sharp annuity pro ?ion & ?min:') is accurate. Claude-haiku's description ('Glorg arildy pro Prien: & Erin: ——') is completely incorrect."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Barnston pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors and visually verified as 1-0-0. Gpt-5-mini's description ('Barnston pro Bien:') is accurate. Claude-haiku's description ('Bangatton pro Prien: ——') is incorrect."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Mountcastle pro Bien:",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 1-0-0 for amounts. Pounds ('1') matches gpt-5-mini, while claude-haiku incorrectly read pounds as zero ('0'). Gpt-5-mini's description ('Mountcastle pro Bien:') is more accurate. Claude-haiku's description ('Mountainde pro Drin: ——') is incorrect."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 15,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomas Stinton Coll. Sas. Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description is accurate and matches the image exactly. claude-haiku significantly misread and incorrectly combined this line with the subsequent date header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do Nov'is 1795 ad eundem diem revolutum 1796.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. This row was missing from claude-haiku's output, having been incorrectly merged and misread into its first header row. The row is clearly visible in the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description accuracy ('recepta' vs claude-haiku's 'recepita'). Both correctly identified the row as a header."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South Newington Rectory 1 year",
+      "amount_pounds": 152,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on all fields between both extractors."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwineas Rectory half a year to Mich.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Gwineas' instead of 'Guymean' and 'Mich.' with the period, as shown in the image)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kidlington Mills for One Year",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description ('Wadlington' instead of 'Kidlington') and the pence amount/fraction (11.5 instead of 10.75). The image clearly shows '10¾'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Padex 1 Year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts agreed. Selected gemini-flash for 'Garsington' (vs 'Gorsington') and 'Padex' (vs 'Sadler'), which is a more plausible reading based on the image, consistent with gemini-flash's specific note regarding ambiguity."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Pockett one year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for 'Garsington' (vs 'Gorsington') and 'Pockett' (vs 'Brocket') which better matches the handwriting in the image."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tinternhul Napier 7 Years",
+      "amount_pounds": 41,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed. Selected gemini-flash for description, as 'Tinternhul Napier' is a more accurate reading than 'Stokefield Napiter'. gemini-flash's note acknowledging the ambiguity of the initial 'T' is a sign of careful assessment."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tinternhul Beaton 5 Years",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction agreed. Selected gemini-flash for accurate description 'Tinternhul Beaton 5 Years' (claude-haiku had 'Tintonfield Beaton 3 years'). The '½' fraction is clear in the image."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Montacute Alast Smith 4 Years",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed. Selected gemini-flash for description 'Alast Smith' which is a slightly better fit than 'Aleah Smiths'. gemini-flash's note identifying the ambiguity in the name 'Alast' shows a careful reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Clifton Fiery 1 year",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Clifton Fiery' vs 'Clipton Ferry')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Tenement. Tho: Penn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for highly accurate description ('South Newington Tenement. Tho: Penn' vs claude-haiku's significant misreading 'South Havington Torment Fitz Pons')."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Menhent Rectory 2 Years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Menhent' vs 'Ulmhuret')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Chase Hill' vs 'Chace Blake')."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bensington 2 years Barrett and Burger",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Bensington ... Burger' vs 'Bemington ... Beueys')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tretrewyn a year and ½",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Tretrewyn a year and ½' vs 'Teslburngn 2 year and ±'). The amounts in the main columns are 9.0.0."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lod Lane, Comyns 2 years",
+      "amount_pounds": 18,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description. The amount 18.13.4 is clearly embedded next to the description in the image. Overrode gemini-flash's empty amount fields to extract this embedded value per protocol. claude-haiku completely misidentified this group of rows."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lod Lane Wilson 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description. The amount 13.6.8 is clearly embedded next to the description in the image. Overrode gemini-flash's empty amount fields to extract this embedded value per protocol."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lod Lane Hallifax, Late Warrals 3 years",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description. The amount 3.6.8 is clearly embedded next to the description in the image. Overrode gemini-flash's empty amount fields to extract this embedded value per protocol."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 35,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. This row is the calculated total for the preceding 'Lod Lane' entries (18.13.4 + 13.6.8 + 3.6.8 = 35.6.8), clearly marked with '£' and the sum in the image. claude-haiku did not correctly identify this total or the preceding embedded values."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's structure and amounts. The description field is empty on the ledger for this row, which holds the amount 17.13.4. claude-haiku completely misread the description for this row and had the incorrect shillings value of 18."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Bampton 6 years",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Bampton' vs 'Warnflton')."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "S. G. Page Turner 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Page Turner' vs 'Page Foreman'). gemini-flash's note regarding the faded initials 'S. G.' is also helpful."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Jesus College 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for highly accurate description ('Jesus College' vs 'Aitus Talley')."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Back Gate Coppie 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Coppie' vs 'Capins')."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Wild Irish 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Selected gemini-flash for more accurate description ('Wild Irish' vs 'Willd Chish')."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 392,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction agreed. Selected gemini-flash for accurately identifying the description as empty for this total line. claude-haiku added 'Summa' which is not present in the image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 23,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for header type and text."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid molineux Braziers Bill",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's amounts (£ blank, 17s, 10d) and description. gpt-5-mini and claude-haiku misread column alignment for pounds/shillings."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid mr Combs Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms amounts are £1 7s 6d, matching gemini-flash and gpt-5-mini. gpt-5-mini's description 'Combs' is marginally better, and its note acknowledging slight ambiguity in pence digit is good, leading to this selection."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £0 1s 0d. gemini-flash is correct. gpt-5-mini misread pounds and pence. claude-haiku misread pence and description."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for Flooring of Room over of new Bursary",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £0 10s 0d. gemini-flash is correct. gpt-5-mini misread shillings as '1'. claude-haiku misread shillings as '7' and pence as '6', and also misread the description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid mr Collins in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £21 10s 0d. gemini-flash is correct. gpt-5-mini has a minor name transcription error. claude-haiku completely misread pounds and description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Do for lighting of Winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £1 3s 0d. gemini-flash is correct. gpt-5-mini has a minor description error ('Dodd'). claude-haiku misread pounds as '21' and description significantly."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook Acct Dinner & xmas Gaudies",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts: £1 15s 4d, as extracted by gpt-5-mini. gemini-flash missed the amounts. claude-haiku misread shillings and pence. The description is a merge of gemini-flash ('Acct') and gpt-5-mini ('xmas')."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury Chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £210 0s 0d, which is the correct conversion for 200 Guineas. gpt-5-mini is correct and its note provides excellent reasoning. gemini-flash incorrectly parsed shillings and pence, and claude-haiku had significant errors."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts: £0 1s 0d. gpt-5-mini and claude-haiku correctly extracted amounts, with gpt-5-mini having slightly better description capitalization. gemini-flash completely missed the amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid mr Hornor for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (£0 1s 0d) are consistent across gemini-flash, gpt-5-mini, and claude-haiku. Description from gemini-flash ('Hornor', 'Battle') appears most accurate visually, overriding minor textual differences from other extractors."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, Mops &c.",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £3 13s 4d. gemini-flash and gpt-5-mini correctly extracted amounts, with gemini-flash's description 'Mops' being more accurate. claude-haiku misread pence as '6'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, type, and amounts (£278 7s 4d)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Ditto' and amounts (£73 19s 9d). gemini-flash is correct. gpt-5-mini misread pence as '10'. claude-haiku misread pounds as '23' and description significantly."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 522,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms amounts: £522 10s 2½d. claude-haiku was disqualified (pence 24). gemini-flash correctly identified the 'ob' symbol as a 0.5 fraction and its note explains this clearly, leading to its selection over gpt-5-mini which missed the fraction."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description. Amounts are £874 17s 10½d. claude-haiku was disqualified for an invalid pence value. Both gemini-flash and gpt-5-mini missed the half-penny fraction (ob), and gpt-5-mini misread the pence as '4'. This is a visual override to correct the fraction based on image analysis."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ex Receptis que erant a D<o> Anni præcedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £1043 1s 10½d. claude-haiku was disqualified for an invalid pence value and incorrect row type. gemini-flash correctly identified the 'ob' symbol as a 0.5 fraction and accurately transcribed the Latin description, leading to its selection over gpt-5-mini which missed the fraction."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Deductis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £874 17s 10d. gemini-flash is accurate on text, type, and amounts which match the 'Summa totalis solutorum' as extracted (ignoring the fraction for this deduction). gpt-5-mini misread the description and pence, and claude-haiku misread pounds and description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Restant Solv. a D<no> Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description and amounts: £168 4s 9d. gemini-flash is accurate on text, type, and amounts. gpt-5-mini also correctly identified amounts and provided an excellent note on arithmetic discrepancy and pence ambiguity (6 vs 9), which aligns with my own visual check confirming '9'. claude-haiku misread shillings as '9'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Computus approbatus per præsentes viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct header line with no amounts. gemini-flash and gpt-5-mini are correct. claude-haiku incorrectly merged subsequent signature lines into this header's description."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jacobum Coperat Sub. Rectorom",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription and row type. gpt-5-mini's description has minor differences. claude-haiku missed this distinct row."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Thomas Bray Decan<o>",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription, capturing the superscript 'o'. gpt-5-mini simplified 'Decan<o>' to 'Decanus'. claude-haiku missed this distinct row."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. Fortescu A. J.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription ('Fortescu A. J.'). gpt-5-mini's description 'Fortescue V. P.' is less accurate. claude-haiku missed this distinct row."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "J. Jonell A. M:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription ('Jonell A. M:'). gpt-5-mini suggested 'Powle' but 'Jonell' is a better visual match. claude-haiku missed this distinct row."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Benj<m> Kennicott A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription, including the superscript 'm' and surname 'Kennicott'. gpt-5-mini's transcription 'Henricott' is less accurate. claude-haiku missed this distinct row."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "H. Mouinsteven A. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms this is a distinct name entry with no amounts. gemini-flash provides the most accurate transcription ('Mouinsteven'). gpt-5-mini's transcription 'Mountsteven' is a plausible alternative. claude-haiku missed this distinct row."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 5,
+      "rows_by_visual_override": 19,
+      "rows_added_missing": 6,
+      "rows_dropped_extra": 0
+    }
+  }
+}

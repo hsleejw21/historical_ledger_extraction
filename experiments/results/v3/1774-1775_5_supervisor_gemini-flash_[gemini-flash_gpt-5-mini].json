@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Nov^r 10, 1774 Dr. Shortridge's Benef. half a year to Mids^r",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash for better rendering of abbreviations ('^r')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Nov: 22- Mr. Bloomfield's Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash, which is a more faithful transcription of the visible text and punctuation."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Jan: 30, 1775 Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash for more accurate integration of date and punctuation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mids^r. & Xmas Div: in Stock, 3 p^r cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash as it more accurately transcribes the abbreviations ('^r' and 'p^r')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mart: 20 Increment. of Mr. Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash for closer visual match of 'Mart:'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr: 3 Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash for slightly more compact transcription."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jun. 5. Two Sconces for Bac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual. Chose gemini-flash's description as visual verification confirms 'Jun. 5.' in the margin, overriding gpt-5-mini's 'Jan. 5'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr. Shortridge's Benef. half a year to Xmas-",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual. Chose gemini-flash's description as visual verification confirms no specific marginal date for this line, overriding gpt-5-mini's inferred 'Jan. 5'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "June Mr. Oswald Jackson's Acct. for the Rector estate for the Year from Micr. 1773 to Mids. 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on empty amounts. Chose gemini-flash's description as visual verification confirms inclusion of marginal 'June' and 'Rector' estate, overriding gpt-5-mini's omissions/misinterpretations."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Money Rent -",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chose gemini-flash's amounts as visual verification clearly shows £265, overriding gpt-5-mini's £205. Description from gemini-flash (includes dash)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Corn Rent -",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensual. Chose gemini-flash's description ('Corn Rent') because gpt-5-mini's notes indicated uncertainty, and visual verification clearly shows 'Corn Rent', overriding gpt-5-mini's 'Goth Rent'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Chose gemini-flash's empty description as the ledger line itself has no descriptive text for this total. Verified amount visually and confirmed it's the correct sum of the preceding two entries (265 + 7 = 272)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Allowed Land Tax -",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Description from gemini-flash (includes dash)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes -",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description from gemini-flash (includes dash). Both correctly interpret '2/4' as 0.5 pence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Deduct -",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts and fraction. Description from gemini-flash (includes dash). Summation of preceding entries confirmed correct."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "July 22? - Reed Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Pounds, shillings, pence_whole are consensual. Overrode fraction to 0.25 based on clear '¼' in the far-right summary column, which clarifies the ambiguous '2' in the main pence column. Description from gemini-flash for 'Reed Balance'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "July 26. Increment from Mr. Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus on all amounts and fraction. Description from gemini-flash, as it is a direct transcription of the visible text."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Aug. 17. Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on all amounts. Description from gemini-flash."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Jul. 22. House Fees from Mr. Sarrande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Chose gemini-flash's description as visual verification indicates 'Sarrande' rather than 'Savande'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on pounds, shillings, pence_whole. Overrode fraction to 0.25 based on visual interpretation of the superscript '4' as one farthing (1/4d), consistent with common ledger notation. gpt-5-mini had this fraction value correct. Description is empty as there is no text on the ledger for this subtotal line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Recepta pro hoc anno et pro debitis anni praecedentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chose gemini-flash's extraction. Visual verification confirms this is a distinct Latin header text (multi-line) with no associated monetary amounts. gpt-5-mini incorrectly combined this header with the final total row and assigned it amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chose gemini-flash's extraction. Visual verification confirms this final total amount. gpt-5-mini incorrectly merged this total with the preceding Latin header."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 13,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

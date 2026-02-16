@@ -1,0 +1,263 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, row type, and empty amounts. Visually confirmed as a centered page title.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Novr. 10. 1774. Dr Shortridge's Benefx half a year to Mids:",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (100-0-0) were consistent across all extractors and are clearly legible in the image. The description is selected from 'gemini-flash' as it most accurately includes the marginal date 'Novr. 10. 1774' and the exact wording 'Benefx' and 'Mids:' as seen in the ledger. 'claude-haiku' misread 'Dr Shortridge's' as 'Sr Partridge's' and 'Mids:' as 'Midsummer'. 'gpt-5-mini' missed the date."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Novr. 22. Mr Bloomfields Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection clearly shows '08 0 0' for the amounts, meaning 8 pounds. 'claude-haiku' incorrectly extracted this as 8 shillings (0-8-0). The description is selected from 'gemini-flash' as it includes the marginal date 'Novr. 22.' and 'Bloomfields' without an apostrophe, matching the ledger."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Janr. 30. 1775. Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (50-0-0) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'Janr. 30. 1775', which 'gpt-5-mini' and 'claude-haiku' omitted."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Midsr. & Xmas Div: in Stock, 3 p.Cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (15-8-4) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it is the most accurate visual match, especially '3 p.Cent:', which 'gpt-5-mini' rendered as '3 pr: cent:' and 'claude-haiku' as '3d Rat:'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mart: 20 Increment. of Mr Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (5-5-9) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'Mart: 20' and correctly reads 'Bursar', which 'claude-haiku' misread as 'Barrator'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr: 3 Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (200-0-0) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'Apr: 3' and correctly reads 'Chest', which 'claude-haiku' misread as 'Plate'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jun: 5. Two Sconces for Sac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1-1-0) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it is the most accurate visual match, including the marginal date 'Jun: 5.' and correctly reading 'Sconces' and 'Sac: Disp:'. 'gpt-5-mini' had 'Bac: Disp:' and 'claude-haiku' significantly misread as 'Two Terrier for Occ: Disp:'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr Shortridge's Benefs half a year to Xmas-",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (100-0-0) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it is the most accurate visual match ('Benefs' and 'Xmas-'). 'claude-haiku' misread 'Dr Shortridge's Benefs' as 'Sr Partridge's Benefit'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "June Mr. Oswald Jackson's Acct. for the Rector estate for the Year from Midsr 1773 to Midsr 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'gemini-flash' for representing this as a single logical header, combining the marginal 'June' with the main header text, which accurately reflects its function on the page. 'gpt-5-mini' split this into two header rows. The description from 'gemini-flash' is the most accurate visual match. 'claude-haiku' missed 'June' and had several inaccuracies ('dett' for 'Acct.', 'Vicarage' for 'Rector')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 263,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection clearly shows '263' for the pounds value. Both 'gemini-flash' (265) and 'gpt-5-mini' (205) were incorrect, while 'claude-haiku' correctly read '263'. All agreed on shillings and pence, and the description."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Corn Rent",
+      "amount_pounds": 9,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection clearly shows 'Corn Rent' for the description and '9' pounds, '2' shillings. 'claude-haiku' provided the most accurate reading for both description and amounts. 'gemini-flash' and 'gpt-5-mini' misread pounds as '7'. 'gpt-5-mini' also misread 'Corn' as 'Gork'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts (272-2-0) across all extractors and clearly legible. Visual inspection confirms there is no explicit description text on this subtotal line, so an empty string is most accurate for the description. The row type 'total' is consistent with its position and underlining."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (24-17-3) were consistent across all extractors and are clearly legible. The description 'Allowed Land Tax' (from 'gemini-flash' and 'gpt-5-mini') is more accurate than 'Allotmd Land Tax' (from 'claude-haiku')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms '16' pounds and '10' pence followed by a clear half-penny symbol (0.5). 'gemini-flash' correctly identified the half-penny fraction and pounds. 'claude-haiku' incorrectly read pounds as '10' and the fraction as 0.25 (farthing). 'gpt-5-mini' missed the fraction entirely."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Deduct' for the description and amounts '41-5-1' with a clear half-penny fraction (0.5), matching the symbol from the previous row. 'gemini-flash' correctly identified the fraction and description. 'claude-haiku' used 'Deducted' and an incorrect 0.25 fraction. 'gpt-5-mini' missed the fraction."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "July 22? Recd Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms the date 'July 22?' and description 'Recd Balance'. The amounts are '230-16-10' with a clear half-penny fraction (0.5), explicitly confirmed by the '½' notation in the right margin. 'gemini-flash' and 'gpt-5-mini' correctly identified the fraction; 'claude-haiku' incorrectly read 0.25. 'gemini-flash' provided the most accurate description and date."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "July 26. Increment from Mr Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts (55-10-2) and the three-quarters fraction (0.75) were consistent across all extractors and are clearly legible in the image, also explicitly confirmed by the '¾' notation in the right margin. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'July 26.' and correctly reads 'Bursar', which 'claude-haiku' misread as 'Barrator'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Aug. 17. Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (27-11-6) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'Aug. 17.' and correctly reads 'Chest', which 'claude-haiku' misread as 'Glebe'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Jul. 22. House Fees from Mr Sarrande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (13-10-0) were consistent across all extractors and are clearly legible. The description is selected from 'gemini-flash' as it accurately includes the marginal date 'Jul. 22.' and correctly reads the name 'Sarrande'. 'gpt-5-mini' read 'Savande' and 'claude-haiku' read 'Terrance'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms the amounts '827-3-8' with a clear three-quarters (0.75) fraction, explicitly confirmed by the '¾' notation in the right margin. 'gpt-5-mini' correctly identified the fraction. 'gemini-flash' and 'claude-haiku' incorrectly identified it as 0.25 (farthing). There is no explicit description text for this total line, so an empty string is used."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Recepta pro hoc anno & pro debitis anni præcedentis",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection clearly shows this as a final total line with descriptive Latin text linked by a curly brace to the amount. 'gpt-5-mini' correctly identified the row type as 'total' and provided the most accurate Latin description ('præcedentis' with 'æ'). 'gemini-flash' called it a 'header' but included amounts, and used 'et' instead of '&'. 'claude-haiku' incorrectly split this into two rows (a header with no amounts and a separate total) and had inaccuracies in its Latin text ('9 (at'). All extractors correctly identified the monetary amounts where applicable."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 3,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 20,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 2
+    }
+  }
+}

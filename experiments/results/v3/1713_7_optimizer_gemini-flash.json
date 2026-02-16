@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "Page is slightly tilted clockwise, approximately 2-3 degrees.",
+    "The right edge of the page is curled and shows some minor damage/wear.",
+    "Several entries have a small 'X' mark to the right of the description, but before the amount columns. These 'X' marks are not part of the numerical data; they likely indicate a posting or verification and should be extracted as a separate flag/field if required, or simply noted as present."
+  ],
+  "estimated_row_count": 32,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines separating the Pounds, Shillings, and Pence columns are very faint across the entire page, but they are consistently present. The numerical values within the columns are well-aligned visually.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for the £ / s / d columns are consistently faint. Rely heavily on the visual alignment of the numbers themselves, which are very regular and clearly separated into their respective columns. Do not assume the absence of a strong line means columns are merged. Row 25 ('Tintinhul { Hopkins pro Sexennio & dimid.') contains two names grouped by a brace; treat this as a single logical entry. Note the small 'X' marks next to many entries; these are not part of the description or value and should be handled as an independent flag if relevant.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

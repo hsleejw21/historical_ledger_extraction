@@ -1,0 +1,437 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Anni Presentis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash, corrected capitalization for 'Anni' based on image. gpt-5-mini had 'Recepte'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "South Nevington, Rich.",
+      "amount_pounds": 68,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description and amounts, visually verified. gpt-5-mini misread 'Nevington' and the pounds value as 60."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Govinear. Rect.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Govinear' and 'Rect.'. gpt-5-mini misread 'Gavincar' and 'Rec t'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kidlington, Candlemass Aug.",
+      "amount_pounds": 119,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gpt-5-mini, visually verified spelling of 'Candlemass'. gemini-flash had 'Candemas'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Dº Brown & Copons.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Dº' and 'Copons'. gpt-5-mini had 'do' and 'Capon'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Monkennet Vic.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Monkennet'. gpt-5-mini had 'Monhinnet' and noted uncertainty."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kidlington Vic.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dº Mills. pro Dim. An.",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Dº' and 'An.'. gpt-5-mini had 'do' and 'Ann.'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Fothernar pro Dimid: an: ad Fest. Prana",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, which provided a more plausible reading than gpt-5-mini's 'Sothewas for Divid. Ann. ad Test: Arund.', visually verified."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Taylor & wife pro ann:",
+      "amount_pounds": 5,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visually verified pounds as 5 and shillings as 10 (from gemini-flash), pence as 8 (both agreed), and added 0.75 fraction (from gpt-5-mini, which correctly identified the fraction). Description punctuation adjusted to 'ann:'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Brewer Gardener pro ann:",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visually verified all amounts and fraction from gemini-flash. gpt-5-mini misread all numeric values (pounds as 0, shillings as 16, pence as 1)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Isaac Arundel / Prichius pro ann:",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified all amounts and description from gemini-flash. gpt-5-mini misread both names as 'Fran Arundel / Marchin' and numeric values (pounds as 2, shillings as 14, pence as 0)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Richard Stives pro ann:",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Stives'. gpt-5-mini had 'Hairs' and noted uncertainty."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Richard Judy pro ann:",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Judy'. gpt-5-mini had 'Judge'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 301,
+      "amount_shillings": 11,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description taken from gemini-flash (empty string for a blank total line), visually verified fraction. gpt-5-mini had a '—' description."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Exchequer Annuity",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Interest of Stock in Funds.",
+      "amount_pounds": 63,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Funds.' including the period. gpt-5-mini had 'Fund'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 113,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description agreed (blank). Amounts based on gemini-flash, visually verified shillings as 0, not 8 as in gpt-5-mini."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Recepta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "of Mr Wm Bowler 3 years Rent for Longworth.",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description manually corrected to match image, excluding marginal date '1784 Sept 12'. gemini-flash incorrectly included the marginal date, gpt-5-mini misread parts of the description."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "of Mr— Knowles payment of D. Shotridge Benefit",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description manually corrected to match image, excluding marginal note '12' and 'Apl. 2' (from next line). Both extractors included incorrect marginal text or misread the main description."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr Martin's Plea to Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Plea to Money' and correctly excluded marginal notes '7' and 'Apl. 2'. gpt-5-mini included 'Apr. 2' and misread as 'Plate money'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "of Mr Bowles 2 years Rent for Longworth to Bricklett",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified to be accurate, correctly excluding marginal notes '7' and '30'. gpt-5-mini had significant misreadings."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "of Mr J.C. Knowles 2 years Rent of Shotridge Benefit",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified. gpt-5-mini misread the name and context as 'of Mr J. C. Healey Exr. of Bequest'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "of Mr Richard Deen Fees to the Horse –",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified. gpt-5-mini misread the description due to fading as 'of Mr Richards Deed recd to the Parish'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Norton Estate from Mich. 1782 to Mich 1783.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash, visually verified 'Norton' and dates '1782'/'1783'. gpt-5-mini misread name and dates as 'Morton Estate from Mich. 1702 to Mich. 1703'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gross Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Gross Rent'. gemini-flash correctly noted the amount is embedded in the description column, unlike gpt-5-mini which misread 'Money Rent' and stated the amount was in right-hand columns."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Ch. Dº.",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Ch. Dº.'. gemini-flash correctly noted the amount is embedded. gpt-5-mini misread 'Cera De' and noted uncertainty."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 271,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash (empty string for a blank total line), visually verified. gpt-5-mini incorrectly added 'Allowd Ditto' as a description for this total line and combined rows."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Allowed Dilaps.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row taken from gemini-flash, visually verified. gpt-5-mini incorrectly combined this description with a subsequent amount and misread the description."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 33,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row taken from gemini-flash, visually verified. This line contains only the amount '33-3-0' embedded for the preceding 'Allowed Dilaps.' entry. gpt-5-mini incorrectly combined this amount with a preceding description and misidentified it as 'Land Tax'."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Land Tax at 4.pr.hd.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row taken from gemini-flash, visually verified. gpt-5-mini incorrectly combined this description with a subsequent amount."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Row taken from gemini-flash, visually verified. This line contains only the embedded amount '10 ½' for the preceding 'Land Tax' entry. gpt-5-mini missed this row by collapsing multiple lines."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Rent for 3 Houses",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction agreed by consensus. Description from gemini-flash, visually verified 'Houses'. gpt-5-mini misread 'Closes'."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 49,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "Rem: to Land",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by consensus. Description from gemini-flash, visually verified 'Rem: to Land'. gemini-flash also correctly noted the amount is embedded. gpt-5-mini misread 'Amt. to be levied'."
+    },
+    {
+      "row_index": 37,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 829,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for all fields."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 7,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 28,
+      "rows_added_missing": 3,
+      "rows_dropped_extra": 0
+    }
+  }
+}

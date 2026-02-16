@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1900",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this clear page header. Confirmed by visual verification."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this clear section header. Confirmed by visual verification."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers c/s.",
+      "amount_pounds": 5716,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Bank at Aberdeen' and the pounds as '57'. Visual verification clearly shows 'Cash at Bankers c/s.' and '5716' for pounds, '4' for shillings, '6' for pence."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Litigacy Account L.G.",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Library Account' and shillings as '16'. Visual verification confirms 'Litigacy Account L.G.' and '15' shillings. Pounds and pence agreed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku completely missed this total line, instead creating a combined header for the next section. Visual verification shows a horizontal line followed by '5952 . 4', confirming it as a total with zero shillings."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Furniture",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly grouped this with 'Investments' as a single header. Visual verification clearly shows 'Furniture' as a distinct sub-header."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Investments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly grouped this with 'Furniture' as a single header. Visual verification clearly shows 'Investments' as a distinct sub-header below 'Furniture'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "II.229.",
+      "amount_pounds": 3000,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly used 'Furniture' as the description for this entry. Visual verification confirms 'II.229.' as the correct description for the £3000 amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "I.250.",
+      "amount_pounds": 6011,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly used 'Investments' as the description and misread pounds as '6071'. Visual verification confirms 'I.250.' as the description and '6011' for pounds."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 9571,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku completely missed this total line. Visual verification shows a horizontal line followed by '9571 14 2', confirming it as a total."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Due to the college: -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its precise description (including the dash). Both identified it as a header. Visual verification confirms the full text."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Rent of Lands I.5.",
+      "amount_pounds": 13,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Bank of Lands' and the pounds as '134'. Visual verification confirms 'Rent of Lands I.5.' and '13' pounds, '4' shillings, with zero pence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Tithes I.29.",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Leither'. Visual verification confirms 'Tithes I.29.'. Amounts agreed by both."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Houses on long Leases I.17.",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku's description was ambiguous ('Long Lanes [or] Reversible'). Visual verification confirms 'Houses on long Leases I.17.'. Amounts agreed by both."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leaseholds I.22.",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Senior Common Room' and shillings as '18'. Visual verification confirms 'Leaseholds I.22.' and '15' shillings."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Senior Common Room II.199.",
+      "amount_pounds": 70,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'Junior Common Room' and the reference as 'II.99'. Visual verification confirms 'Senior Common Room II.199.' and £70."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the amounts and identified this as a total. Visual verification confirms the amounts and the presence of a horizontal rule and bracket indicating a total."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "How Exhibition Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku completely missed this header line. Visual verification clearly shows 'How Exhibition Fund' as an underlined header."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Michell I.147.",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread the description as 'New Endowment (Isabel)' and the pounds as '181'. Visual verification confirms 'Michell I.147.' and '18' pounds."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "\" \" \" I.155.",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate representation of ditto marks and the correct reference 'I.155.'. claude-haiku's description was vague ('[Isabel or continuation]') and its reference was 'I.152'. Amounts agreed."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Lorcombe Richards Fund I.166.",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku misread 'Richards' as 'Reduction' and omitted the reference 'I.166.'. Visual verification confirms gemini-flash's reading. Amounts agreed."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the amounts and identified this as a total. Visual verification confirms the amounts and the presence of a horizontal rule and bracket indicating a total."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "I certify that the Accounts of the College are duly",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly merged this line with several subsequent lines into a single, long description. Visual verification confirms this as a distinct line of text."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "kept in proper books of account & that the Abstracts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly merged this line. Visual verification confirms this as a distinct line of text."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "and Balance Sheet contain a full & true account",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly merged this line. Visual verification confirms this as a distinct line of text."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly merged this line. Visual verification confirms this as a distinct line of text."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "March 8.th 1901 W. C. Jackson F.C.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku incorrectly split this into two rows and misread the name ('Huxford') and title ('F.C.O.'). Visual verification confirms gemini-flash's transcription of the full line, name, and title."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "(Fades, Piggs, Browning Street, Birm.)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku's reading was highly uncertain and incorrect. Visual verification confirms gemini-flash's transcription of this address line."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. claude-haiku made a significant error in the pounds amount ('1602' instead of '16002'). Visual verification clearly shows '£16002 15 7' as the final grand total."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 25,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Significant ink bleed/shadowing is visible from the reverse side of the page, especially on the left description column, potentially obscuring text for rows 8-20.",
+    "A large diagonal shadow diagonally crosses the bottom half of the page (roughly affecting rows 10-25), making the amount columns (Pounds, Shillings, Pence) less distinct in this area.",
+    "The page scan exhibits a slight clockwise tilt, which causes the vertical ruling lines and text to appear non-vertical relative to the image frame.",
+    "The top right corner of the page (title and first few rows of amounts) appears slightly out of focus or blurred."
+  ],
+  "estimated_row_count": 25,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines separating the Pounds, Shillings, and Pence columns are generally visible but are somewhat faint, especially in the upper section of the page (rows 1-7). The lines are clearer from row 8 downwards. Due to the page tilt, trust the relative alignment of the numbers within each column rather than expecting perfectly vertical lines aligned with the image frame.",
+  "prompt_additions": "CRITICAL: The left description column is affected by heavy ink bleed/shadowing from the reverse side, particularly for entries between rows 8 and 20. Expect lower confidence on these description extractions. Additionally, a prominent diagonal shadow covers the amount columns for rows 10-25, making some figures harder to distinguish. The vertical ruling lines for the amount columns are faint, and the page is tilted clockwise; therefore, rely on the horizontal alignment of digits (e.g., the right-most digit of shillings aligning with the left-most digit of pence) rather than strict vertical line adherence for column separation. If amounts in the shaded area (rows 10-25) are unreadable, leave blank and set confidence < 0.3.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

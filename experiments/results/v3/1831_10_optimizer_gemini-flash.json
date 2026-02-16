@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "The entire page is faintly written, particularly for numerical values in the shillings and pence columns.",
+    "The vertical ruling lines separating the £ / s / d columns are extremely faint, almost invisible in most sections.",
+    "Pence values frequently include small and faint fractions (1/4, 1/2, 3/4) which are challenging to read."
+  ],
+  "estimated_row_count": 29,
+  "layout_type": "standard",
+  "layout_hints": "This is a single-column ledger. The column separation for Pounds, Shillings, and Pence is not visually defined by ruling lines. Column boundaries must be inferred from the typical alignment of the numbers themselves. There are no struck-through rows or margin notes.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for the £ / s / d columns are almost entirely invisible throughout the page. Extractors MUST infer column boundaries by examining the alignment of the numerical values themselves. Use row 9 ('Giddington Augmentation: 210 18 9') or row 14 ('Horton Rectory: 240 2 5') as your primary reference for establishing the precise pixel positions of the Pounds, Shillings, and Pence columns, and project these boundaries to all other rows.\n\nThe overall quality of handwriting is faint. Expect lower confidence scores for many extracted text and numerical values, especially in the shillings and pence. Do not aggressively normalize or autocorrect values if they are highly uncertain.\n\nMany pence values include fractions (1/4, 1/2, 3/4). These are often very small and faint. Ensure these fractions are included in the pence value when present, even if difficult to read.\n\nSeveral description fields use 'Do' (ditto) to repeat the entry above it (e.g., rows 4, 6, 10, 13, 15, 20, 22). Ensure the full descriptive text from the preceding row is correctly propagated for these 'Do' entries.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

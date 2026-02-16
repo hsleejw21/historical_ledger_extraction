@@ -1,0 +1,294 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris I L Richards a 2die Novbr AD 1824 ad eundem diem revolut^n 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "GPT's description and date reading are much more accurate (e.g., '1824' vs Claude's '1749'). Claude's high confidence for an incorrect reading lowered its trustworthiness for this row. Adjusted 'revolution' to 'revolut^n' based on visual inspection."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "GPT's description 'Arrearagia' is more accurate, the 'rr' is clear in the image. GPT's note about spelling uncertainty for 'Arrearagia/Arreagia' correctly identified the ambiguity, which was resolved by visual inspection favoring GPT."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. The reading is clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Gwinear Rectory 1 yr",
+      "amount_pounds": 60,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed '60' is in the pounds column, aligning with subsequent multi-column entries (e.g., '1' in '1 7 6'). GPT's description 'Gwinear' is also more accurate than Claude's 'Guinear'. Claude incorrectly placed 60 in shillings."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Killington Do 1 yr",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed '10' is in the pounds column, aligning directly below the '60' in Row 4. GPT's description 'Killington' and '1 yr' are more accurate than Claude's 'Kidlington' and '1s 1 yn'. Claude incorrectly placed 10 in shillings."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do Capras & Broad Do",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Capras & Broad' is visually more accurate than Claude's 'Cotsas & Draxla'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane late Norris 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Lad Lane late Norris 1 yr' is visually more accurate than Claude's 'Led Lane aka Norm 1 yn'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chaplin 15. Midn",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Chaplin 15. Midn' is visually more accurate than Claude's 'Haslin 1 yr hd^m'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pitchford 13 ?",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed shillings is '13', not '19'. GPT's description 'Pitchford 13 ?' is also more accurate. Claude's reading of 19s is incorrect."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mederham 1 yr",
+      "amount_pounds": 16,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Visually confirmed description 'Mederham 1 yr', pounds '16', pence '9'. Claude incorrectly read pounds as '26' and pence as '4'. The trailing mark after the 9 is consistent with a 0.75 fraction (3 farthings), as noted by GPT."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Ton Colman late Bucks 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Little Ton Colman late Bucks 1 yr' is visually more accurate than Claude's 'Little Tew Coleman Wick Bucks 1 s'. GPT's note on spacing/compound name uncertainty was also more specific."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymath - 3 yr",
+      "amount_pounds": 17,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed '17' in pounds, '6' in shillings, and the pence column is clearly blank. GPT's description 'Lymath - 3 yr' is also more accurate. Claude's reading of '7s 6d' with no pounds is incorrect and misaligned."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Beokey Fromeaster (crossed out)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Visually confirmed the line is heavily struck through. GPT's description includes '(crossed out)', which is a critical observation Claude missed. The transcription 'Beokey Fromeaster' is a reasonable attempt given the obscurity of the text."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed 'Tax' is more accurate than Claude's 'Txe'. Both extractors correctly identified it as a header."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Killington Rectory 1/2 yr",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Killington Rectory 1/2 yr' is visually more accurate than Claude's 'Kidlington Rectory 1 s yn'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Long Witherham Rectory 1 yr",
+      "amount_pounds": 28,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Long Witherham Rectory 1 yr' is visually more accurate than Claude's 'Long Witchalam Rectory 1 s yn'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Garston Rectory 13 ?",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Garston Rectory 13 ?' is visually more accurate than Claude's 'Gaunden Rectory 1 s'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. The reading is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Killington Augmentation 1/3",
+      "amount_pounds": 91,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Killington Augmentation 1/3' is visually more accurate than Claude's 'Kidlington Annualition 1 s yn'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Long Witherham Rectory 1 ? yr",
+      "amount_pounds": 102,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visually confirmed pence value '5' is present, though slightly faint, favoring GPT. Claude's note on pence unclarity was correct, but GPT correctly interpreted the digit. GPT's description 'Long Witherham Rectory 1 ? yr' is also more accurate than Claude's 'Long Witchham Rectory 1 s yn'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "St Newington (?) Rectory 18 ?",
+      "amount_pounds": 171,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed pounds '171', not '11'. Shillings, pence, and fraction match both extractors and image. GPT's description 'St Newington (?) Rectory 18 ?' is more accurate. Claude's reading for pounds is significantly incorrect despite high confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Tenement 3 yr",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Do Tenement 3 yr' is visually more accurate than Claude's 'D^o Testament 1 s yn'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Merton Rectory 15s. Ld. Tax deducted",
+      "amount_pounds": 238,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Merton Rectory 15s. Ld. Tax deducted' is visually more accurate than Claude's 'Horton Rectory 1 s ld dedacted'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Garston Rectory 15 yr",
+      "amount_pounds": 44,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus. GPT's description 'Garston Rectory 15 yr' is visually more accurate than Claude's 'Gaunden Rectory 1 s yn'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Summa (Total)",
+      "amount_pounds": 806,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Visually confirmed 'Summa' in the description area. For amounts, pounds '806', shillings '17', pence '11', and a clear half-penny (0.5) symbol. Claude's reading of '11' pence is correct; GPT missed the '1' for pence, interpreting it as 0 pence + 0.5."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 12,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 10,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

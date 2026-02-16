@@ -1,0 +1,199 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Prethewin",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms no amounts are present on the first line; amounts '8 16 8' are clearly on the second line 'Morton Vicarage'. `gpt-5-mini` incorrectly associated amounts with this first line and misread the description. This was a visual override for amounts and description.",
+      "side": "left"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Morton Vicarage",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for amounts. Visual inspection confirms '8 16 8' are clearly aligned with 'Morton Vicarage'. `gpt-5-mini` incorrectly identified this row as having no amounts, indicating a severe vertical alignment error in its processing. This was a visual override for amounts.",
+      "side": "left"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Ladlane, Spark, Moreton Annui",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms long dashes indicating zero amounts. `gpt-5-mini`'s interpretation of 'no amounts' is less accurate than 'zero amounts' for the dashes, and its description reading was less accurate. This was a visual override for amounts and description.",
+      "side": "left"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Midenham fore",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms long dashes indicating zero amounts. `gpt-5-mini`'s interpretation of 'no amounts' is less accurate for the dashes, and its description reading was less accurate. This was a visual override for amounts and description.",
+      "side": "left"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { B.Coy -",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts (4 0 0) and general description. Selected `gemini-flash` for minor spacing preference in description. Both correctly noted the struck-through '4' in the pounds column.",
+      "side": "left"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "{Boyce -",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts. Both correctly noted the struck-through '4' in the pounds column.",
+      "side": "left"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Part of Fring of Middenham",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms long dashes indicating zero amounts. `gpt-5-mini`'s description reading is significantly less accurate, and its interpretation of 'no amounts' for dashes is less precise. This was a visual override for amounts and description.",
+      "side": "left"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holworthy from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts (5 0 0). Selected `gemini-flash` for description as 'Holworthy' and 'Land' appear more accurate visually.",
+      "side": "left"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Increment of Battop",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms a long dash indicating zero amounts. `gemini-flash`'s description is more accurate, and 'entry' row_type is more fitting for a line with an amount (even if zero) and specific descriptive text, despite a change in handwriting style. This was a visual override for amounts, description, and row_type.",
+      "side": "left"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Comb",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection confirms a long dash indicating zero amounts. `gemini-flash`'s description is more accurate, and 'entry' row_type is more fitting for a line with an amount (even if zero). This was a visual override for amounts, description, and row_type.",
+      "side": "left"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor -",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for description and amounts. Visual inspection clearly shows '10 0 0' as amounts, not dashes or empty values. `gemini-flash` correctly transcribed the trailing dash in the description. `gpt-5-mini` was incorrect on amounts. This was a visual override for amounts.",
+      "side": "left"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Con of Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description and amounts. Both correctly identified the superscript 'of'.",
+      "side": "left"
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for description and row_type. Visual inspection confirms 'Sum' is a label for the final total below, and does not have a question mark. 'total' is a more accurate row_type for this label than 'header'. No amounts are present on this line. This was a visual override for description and row_type.",
+      "side": "center"
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on empty description and amounts. Selected `gpt-5-mini`'s row_type 'header' as this line (a visible horizontal bar) functions as a visual separator or section break before the final total, rather than an 'entry'.",
+      "side": "left"
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Full consensus. The final total is clearly visible and both extractors correctly identified the values and the 'q' as 0.25 farthing.",
+      "side": "right"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

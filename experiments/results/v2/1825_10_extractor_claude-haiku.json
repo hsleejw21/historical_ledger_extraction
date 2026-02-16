@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia for 2d Vie Novr 1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear title/header at top of page. No amounts associated with this structural label."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents paid.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Structural subheading introducing a group of money rent entries. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwmear Rectory. 1½ year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 90·0·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Minheniot. 1. ½ year",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 20·0·0 is well-aligned with column lines."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Rampleton Virement. 3 yrs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 3·0·0 is well-aligned with column lines."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montaute. 2d. 2½ yrs",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 10·10·0 is well-aligned with column lines. Shillings value 10 is valid (< 20)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris. 1. ½",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 9·6·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dornthorne",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 8·13·4 is clear but shillings digit 13 appears to have faint ink. Confirms to valid range (< 20). Pence 4 is clear and valid (< 12)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 1·13·4 is legible. Shillings 13 is at upper end of valid range but clearly intended. Pence 4 is clear and valid."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Widnham. 2 yrs",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 13·6·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little few. Bulke. 1. ½",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 1·6·1 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lymonth. 2 yrs",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No pounds digit visible — appears to be omitted (implying 0 pounds). Shillings 6 and pence 0 are clear. Likely represents 0·6·0."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Kenward",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Only pence 0 is visible in the amount columns. Pounds and shillings appear absent or extremely faint. Likely represents 0·0·0 or is a sub-item with no independent amount."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Turneck",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No clear pounds digit visible. Shillings 1 and pence 0 are visible. Likely represents 0·1·0. Handwriting is legible in shillings column."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear subheading introducing a new section. No amounts associated with this structural label."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Whilterham Rectory. 1. ½",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 20·0·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Do. Vicarage.",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 4·4·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Yarnlon Rectory",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 14·0·0 is well-aligned with column lines. All values valid."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Mixed Cento Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Structural subheading. Handwriting is slightly slanted but legible. No amounts associated with this label."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Whilterham Rectory. 1. ½",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 122·6·11½ is legible. Pounds 122 is clear. Shillings 6 is valid. Pence 11 is valid (< 12). Fraction symbol after pence appears to be 'ob' (half-penny = 0.5). All validation rules met."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Killington Mills",
+      "amount_pounds": 20,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting. Amount 20·2·8 is well-aligned with column lines. All values valid (shillings 2 < 20, pence 8 < 12)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "S. Newington Rectory",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 207·1·7½ is legible. Pounds 207 is clear. Shillings 1 is valid. Pence 7 is valid (< 12). Fraction symbol after pence appears to be 'ob' (half-penny = 0.5). All validation rules met."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do. Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 3·2·1½ is legible. Pounds 3, shillings 2, pence 1 are all clear and valid. Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Muton Rectory. 1. ½",
+      "amount_pounds": 275,
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 275·6·4½ is legible. Pounds 275 is clear. Shillings 6 is valid. Pence 4 is valid (< 12). Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Yarnlon Rectory ½ Tenement. 1. ½",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 53·4·10½ is legible. Pounds 53, shillings 4, pence 10 are all clear and valid. Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clypton Ferrid. 1. ½",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 9·10·7½ is legible. Pounds 9, shillings 10, pence 7 are all clear and valid. Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Chase Hill. 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 35·10·10½ is legible. Pounds 35, shillings 10, pence 10 are all clear and valid. Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bensington. 3 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 20·13·1 is legible. Pounds 20, shillings 13 (at upper end but valid, < 20), pence 1 are all clear. No fraction symbol present."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Yardlington. Cook. 3. yrs",
+      "amount_pounds": 26,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Amount 26·11·3½ is legible. Pounds 26, shillings 11, pence 3 are all clear and valid. Fraction symbol after pence appears to be 'ob' (half-penny = 0.5)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "[Subtotal/Total line]",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final total line at bottom of page. Amount 976·15·10½ is legible. Pounds 976, shillings 15 (valid, < 20), pence 10 (valid, < 12). Fraction symbol 'ob' = 0.5. All validation rules met. Position and formatting indicate this is a cumulative total."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

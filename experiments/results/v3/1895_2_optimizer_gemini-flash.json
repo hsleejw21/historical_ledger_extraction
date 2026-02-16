@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "Page is slightly tilted clockwise, which may cause text to appear misaligned if not compensating for the tilt.",
+    "The right edge of the page shows minor damage and discoloration, consistent with binding wear.",
+    "Row 10 ('Other expenses') shows faint diagonal lines over the individual '£ s d' entry (51 5 10), possibly indicating a cancelled or adjusted item, although the subtotal (968 8 11) on the same line is clear.",
+    "The vertical ruling lines separating £, s, and d columns are faint throughout the page, especially in the middle sections."
+  ],
+  "estimated_row_count": 33,
+  "layout_type": "standard",
+  "layout_hints": "The ledger follows a standard single-column layout, but incorporates wider right-aligned subtotal and grand total amounts. Small numeric references (e.g., '39', '72') are present in a narrow column between the description and the £ s d amounts. The grand total is marked with an '£' sign.",
+  "prompt_additions": "CRITICAL: The page is tilted approximately 5 degrees clockwise. Extractors must prioritize the (faint) vertical ruling lines for accurate column boundary detection over the overall image frame. Use row 33 (the final total '£14300 15 2') and row 10 (the subtotal '968 8 11') as primary alignment references for the pounds, shillings, and pence columns. Rows 10 ('Other expenses') and 28 ('Other expenses') each contain two distinct amount sets on the same line: a standard '£ s d' entry and a wider section subtotal (968 8 11 and 12339 9 1 respectively) appearing further to the right. Ensure both sets of amounts are captured, treating the wider amounts as a 'Section Total' column. Note that the '£ s d' entry for 'Other expenses' (row 10) has faint diagonal strike-throughs; transcribe it as visible. Rows 9 ('Donations to Churches &') and 14 ('Chapel Services &') have truncated descriptions ending with an ampersand. For monetary values, a single dot ('.') indicates a zero value for shillings or pence (e.g., '3 . 3 .' means 3 pounds, 0 shillings, 3 pence; '100 . .' means 100 pounds, 0 shillings, 0 pence).",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

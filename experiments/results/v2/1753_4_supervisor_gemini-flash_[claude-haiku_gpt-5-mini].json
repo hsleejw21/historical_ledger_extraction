@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on this header line and its lack of amounts. Visually confirmed."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "paid Molineux Brazier's Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 17 pounds, 10 shillings, 0 pence. 'claude-haiku' misread shillings as 0 and had a slight description discrepancy ('Melineux Browsier')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "paid mr Combs Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 1 pound, 7 shillings, 6 pence. 'claude-haiku' misread all values as 10 pounds and 0 shillings and had a description discrepancy ('Gombos')."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Ladyday Corn Price",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms pounds 1 and shillings 0 (from 'gpt-5-mini'). Pence is clearly '6', which 'claude-haiku' correctly identified. 'claude-haiku' misread pounds/shillings and description ('Ladyley Corn Bill')."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "paid for flooring of Room over ye new Bursary",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 0 pounds, 1 shilling, 0 pence. 'claude-haiku' misread the shillings and pence as 7 and 6, and had a very different description ('paving of new doorway in new Nursery')."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "paid Dan. Collin in full of his first Bill of Candles",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 21 pounds, 10 shillings, 0 pence. 'claude-haiku' missed the pounds amount (read as 0) and had a very different description ('Dav Gelatine in full of his foot Bill of Candels')."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "paid Dodd for lighting of winter Lamps",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 1 pound, 3 shillings, 0 pence. 'claude-haiku' misread pounds as 21 and had description differences ('Dad for lighting of window dampers')."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "paid Cook and Dinner & xmas Gaudies",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 1 pound, 15 shillings, 4 pence, and its accurate description. 'claude-haiku' significantly under-read the shillings (as 4) and missed the pence, and had a slight description difference ('accs.')."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "paid into ye Treasury Chest 200 Guineas",
+      "amount_pounds": 210,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 210 pounds, 0 shillings, 0 pence, and its accurate description and note regarding the 200 guineas conversion. 'claude-haiku' had a very poor reading for both description and amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Michaelmas Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on this row's values. Visually confirmed."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "paid mr. Horner for Battle Books, Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on the monetary values for this row. Visual verification confirmed 'Battle Books' as per 'gpt-5-mini's description over 'claude-haiku's 'Bottle Books'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "paid the Cooks Bill for washing of Hall, mens &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 3 pounds, 13 shillings, 4 pence, and its description ('mens &c'). 'claude-haiku' misread pence as 6 and description slightly ('money &c.')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 278,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on this total line and its values. Visually confirmed."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ditto",
+      "amount_pounds": 73,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'gpt-5-mini' reading of 73 pounds, 19 shillings, 10 pence, and its description 'Ditto'. 'claude-haiku' misread pounds (as 23) and pence (as 2), and provided an incorrect description ('Deductio')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 522,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' was disqualified due to pence value (24) exceeding the valid range (Hard Rule Filter). 'gpt-5-mini' provided the correct values (522 pounds, 10 shillings, 2 pence) and description (empty/dash), which was confirmed by visual inspection."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Summa totalis solutorum",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' was disqualified due to pence value (16) exceeding the valid range (Hard Rule Filter). 'gpt-5-mini' provided the correct values (874 pounds, 17 shillings, 4 pence) and description, confirmed by visual inspection and arithmetic calculation of preceding subtotals."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ex Receptis quæ sunt &c Anni præcedentis",
+      "amount_pounds": 1043,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' was disqualified due to pence value (16) exceeding the valid range (Hard Rule Filter). 'gpt-5-mini' provided the correct values (1043 pounds, 1 shilling, 10 pence) and description. Row type is 'entry' as it holds a significant amount. Visually confirmed."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Deducitis Solutis",
+      "amount_pounds": 874,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms pounds 874 and shillings 17 (agreed by both). Pence is clearly 10, which 'claude-haiku' read correctly, while 'gpt-5-mini' misread it as 4. 'gpt-5-mini' had the more accurate description ('Deducitis Solutis' vs 'Deficits Soluta') and row_type ('total' for a deduction line is appropriate)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Restant solv. a Dno Computante",
+      "amount_pounds": 168,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms pounds 168, shillings 4, and pence 9. 'gpt-5-mini' correctly identified the shillings (as 4), while 'claude-haiku' misread it as 9. Both agreed on pounds and pence. 'gpt-5-mini' also had the more accurate description and row_type for a remainder."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Computus approbatus per præsentes viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' incorrectly merged this and subsequent signature lines into one long, misspelled header. 'gpt-5-mini' correctly identified this as a distinct header line, confirmed by visual inspection. Description accurate."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Iacobum Cofsorat Sub. Rectoria m",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element. Visual inspection confirms this line as 'Iacobum Cofsorat Sub. Rectoria m'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Thomas Bray Decanus",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element and description, confirmed by visual inspection."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "J. Fortescue V. P.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element and description, confirmed by visual inspection."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "J. Powle A. M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element and description, confirmed by visual inspection."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Benj: Henricott A. M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element and description, confirmed by visual inspection."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "H. Mountsteven A. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "'claude-haiku' failed to identify this as a distinct row. 'gpt-5-mini' correctly identified the structural element and description, confirmed by visual inspection."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 13,
+      "rows_added_missing": 7,
+      "rows_dropped_extra": 0
+    }
+  }
+}

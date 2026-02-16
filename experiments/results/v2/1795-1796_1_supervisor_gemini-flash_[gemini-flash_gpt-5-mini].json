@@ -1,0 +1,316 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomas Stinton Coll. Exon. Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash's row segmentation for the top header as it matches the physical line break in the image. Corrected 'Sas.' to 'Exon.' based on gpt-5-mini's reading and visual verification from the image. No monetary amounts are expected for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do Nov'is 1795 ad eundem diem revolutum 1796.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash as it correctly segments this as a separate header line, matching the physical layout. gpt-5-mini merged this line with the previous one. The transcription is accurate, and no monetary amounts are present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors on description, row type, and empty amounts. This is clearly a section header."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South Newington Rectory 1 year",
+      "amount_pounds": 152,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. Amounts are clearly legible in the image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwineas Rectory half a year to Mich.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Gwineas' and 'Mich.' are more accurate transcriptions than gpt-5-mini's 'Guinear' and 'mid' based on visual inspection."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kidlington Mills for One Year",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. The '¾' fraction symbol is distinct and correctly interpreted by both extractors."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Sadler 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gpt-5-mini as 'Sadler' is clearly visible in the image, correcting gemini-flash's 'Padex'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Puckett one year",
+      "amount_pounds": 8,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gpt-5-mini as 'Puckett' is a better transcription than gemini-flash's 'Pockett' based on visual inspection."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tinternhul Napier 7 Years",
+      "amount_pounds": 41,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Tinternhul' appears more accurate than gpt-5-mini's 'Tintonshul' visually. Both notes indicate careful reading of the place name."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tinternhul Beaton 5 Years",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts, including the 0.5 fraction (obolus). Description chosen from gemini-flash for consistency with the previous entry (Row 9). Both notes are insightful on the fraction symbol ('½' or 'ob' style loop)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Montacute Alast Smith 4 Years",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description chosen from gemini-flash, as 'Smith' without an 's' seems more accurate visually than gpt-5-mini's 'Smiths'. Both notes acknowledge the ambiguity of the name 'Alast'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Clifton Fiery 1 year",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Fiery' is a better visual match than gpt-5-mini's 'Finy'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "South Newington Tenement. Tho: Penn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on amounts and description. The punctuation after 'Tho' is visible in the image, matching gemini-flash."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Menhent Rectory 2 Years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Menhent' is a better visual match than gpt-5-mini's 'Menherst'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. Amounts and description are clearly legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bensington 2 years Barrett and Burger",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description chosen from gemini-flash, as 'Bensington' and 'Burger' are better visual matches for the handwritten text than gpt-5-mini's 'Benington' and 'Burgess'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tretrewyn a year and ½",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Tretrewyn' is a better visual match than gpt-5-mini's 'Truttlewyn'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Lod Lane, Conyers 2 years",
+      "amount_pounds": 18,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Both extractors struggled with this row. Overrode both: The amount (18.13.4) is explicitly written within the description column, not in the main amount columns. As per protocol, it is an embedded value and is extracted into the amount fields. 'Lod Lane' and 'Conyers' are visually more accurate than gpt-5-mini's 'Pad Lane' and 'Comyns' (gemini-flash)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lod Lane Wilson 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Overrode both extractors. The amount (13.6.8) is an embedded value written within the description column, extracted into the amount fields as per protocol. 'Lod Lane' is visually more accurate than 'Pad Lane' (gpt-5-mini)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lod Lane Hallifax, Late Warrals 3 years",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Overrode both extractors. The amount (3.6.8) is an embedded value written within the description column, extracted into the amount fields as per protocol. Description taken from gemini-flash, as it is more accurate ('Warrals' and '3 years')."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Lod Lane subtotal (bracketed)",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's extraction (its row 20) for this row. It correctly identifies the 'total' row type and the ledger amount (17.13.4) for the bracketed subtotal, which is physically present in the main amount columns. gemini-flash's equivalent (its row 21) was an *incorrect calculated sum* (35.6.8) not present in the ledger, and its row 22 correctly found the amount (17.13.4) but with an incorrect type and empty description."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bampton 6 years",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. Clearly legible entry."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "S. G. Page Turner 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. Clearly legible entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Jesus College 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on all fields. Clearly legible entry."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Back Gate Coppie 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Coppie' is a better visual match than gpt-5-mini's 'Coppins'. 'Coppie' is also a known historical term."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Wild Irish 1 year",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash, as 'Irish' is a better visual match than gpt-5-mini's 'Arish'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Total (bottom of page)",
+      "amount_pounds": 392,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini. It correctly identifies the amount and the 0.25 fraction, which is clearly visible as '¼' in the image. gemini-flash misread the fraction as 0.5. gpt-5-mini's description provides useful context for the total."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 13,
+      "rows_by_visual_override": 5,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

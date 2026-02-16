@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris a 2do Die Novm 1814",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's transcription, which accurately reflects the first header line. Claude-haiku merged this line with the next and heavily misread the text. (Visual Override)"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "ad eumdem diem revolutum – 1815",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's transcription for this distinct header line. Claude-haiku incorrectly merged this text into its first row. (Added missing row)"
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arreagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's `row_type` and `description` as it is a more accurate visual transcription and classification as a header. (Visual Override)"
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's `row_type` (header) for correct classification. Corrected `description` to 'Money Rents fixed' based on visual inspection, aligning with claude-haiku's reading for 'Rents' and removing gemini-flash's erroneous final dot. (Visual Override)"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwincas Rectory 2 Yrs 1/2. P.I.D",
+      "amount_pounds": 135,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku significantly misread the description and incorrectly parsed the single pound amount (135) into pounds, shillings, and a half-penny fraction. (Visual Override)"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "+ Menhernios. 2 Yrs",
+      "amount_pounds": 136,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku significantly misread the description and incorrectly parsed the single pound amount (136) into only shillings. (Visual Override)"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which accurately extracts this distinct row with its shilling amount. Claude-haiku missed this row. (Added missing row)"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Banwell",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which accurately extracts this distinct row with no amount. Claude-haiku missed this row and presented an invented/misread row 'Late Lot Baruh' instead, which was dropped. (Added missing row, Dropped extra row)"
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Land Tax Redeemed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry. Claude-haiku heavily misread this header and incorrectly merged it with subsequent rows. (Visual Override)"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kidlington Rectory",
+      "amount_pounds": 4,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry. Claude-haiku missed this distinct entry, having merged its text into a prior header. The dash in the pence column clearly indicates zero pence. (Added missing row)"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do 2 Yrs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry. Claude-haiku missed this distinct entry, having merged its text into a prior header. (Added missing row)"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Vicassage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry. Claude-haiku missed this distinct entry, having merged its text into a prior header. (Added missing row)"
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Fixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's `row_type` and `description`, which matches the visual text. Claude-haiku had 'Variables' for the description and classified it as 'entry'. (Visual Override)"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "St. Newington P. I. D",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku merged this description with the next line's text and correctly identified pounds and shillings but missed inferring zero pence from the dash. (Visual Override)"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Middleton Stills Do / 2 Years",
+      "amount_pounds": 42,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's amounts, as they are accurately read. Corrected description to 'Middleton Stills Do / 2 Years' based on visual inspection for completeness. Claude-haiku correctly read the amounts but completely misread the description. (Visual Override)"
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Wm Hutton (Inhard)",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and pence value. (Visual Override)"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and did not infer zero pence. (Visual Override)"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Benington",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts selected by consensus as both extractors correctly read 8.0.1 (interpreting the dash as zero shillings). Selected gemini-flash's description as it is visually accurate. (Consensus, Visual Override)"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Tretkewin",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and the pound amount (44 instead of 4). (Visual Override)"
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which accurately extracts this distinct header. Claude-haiku missed this row. (Added missing row)"
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Taylor 3 Years",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and the pence value. (Visual Override)"
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "P. Fidge Do",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which accurately extracts this distinct row. Claude-haiku completely misread this entry and seemed to replace it with an unrelated/invented row 'Aldons & d' 18.10.6, which was dropped. (Added missing row, Dropped extra row)"
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "A. Gibbins Do",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and the shillings amount. (Visual Override)"
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hartley Do",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and all monetary amounts. (Visual Override)"
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Kimber Do",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts selected by consensus with claude-haiku. Selected gemini-flash's description for accuracy and its specific note regarding the '2' vs '3' pound digit, indicating careful visual verification. (Consensus, Note Assessment)"
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Busby Do",
+      "amount_pounds": 36,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description, pounds, and pence. Both extractors correctly identified the shillings and fraction. Claude-haiku misread the description, pounds, and pence values. (Visual Override)"
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Lad Lane Comyns",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry. Claude-haiku heavily misread this header line. (Visual Override)"
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do Wilson",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely, including the correct interpretation of 0 pounds. Claude-haiku misread the amounts significantly (pounds, shillings, pence) and the description. (Visual Override)"
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Do Pickford",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely, including the correct interpretation of 0 pounds and 0 pence from the dash. Claude-haiku misread the amounts significantly (pounds, shillings) and the description. (Visual Override)"
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which correctly infers zero pence from the dash. Claude-haiku did not infer pence. (Visual Override)"
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry, which accurately extracts this distinct row with amounts. Claude-haiku missed this row. (Added missing row)"
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": 613,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely, including accurate description and all monetary amounts. Claude-haiku misread the description, pounds, and pence values. (Visual Override)"
+    },
+    {
+      "row_index": 33,
+      "row_type": "header",
+      "description": "Received of Bankers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku incorrectly merged this header with the next line's description. (Visual Override)"
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Dividend on New 1. O.",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's entry entirely. Claude-haiku misread the description and the shillings amount. (Visual Override)"
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Do Do",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts selected by consensus with claude-haiku. Selected gemini-flash's description for accuracy and its helpful note identifying the duplicate entry. (Consensus, Note Assessment)"
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row_type selected by consensus with claude-haiku. Selected gemini-flash's empty description as it accurately reflects the absence of text on the page for this final total line. (Consensus, Visual Override)"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 20,
+      "rows_added_missing": 8,
+      "rows_dropped_extra": 2
+    }
+  }
+}

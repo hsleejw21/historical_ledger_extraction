@@ -1,0 +1,252 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title, fully legible, no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Novr 10 1774 - Dr. Shortridge's Benef: half a year to Midsr.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date in left margin 'Novr 10 1774' clearly adjacent. Amount columns aligned with totals; reads as £100 0s 0d unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Novr 22 1774 - Mr. Bloomfields Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Margin date 'Novr 22' clear. Amount reads 08 0 0; vertical alignment unambiguous and values in valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Janr. 30 1775 - Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Left margin '1775 Janr: 30' adjacent to this line. Amount 50 0 0 is clearly aligned to the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Midsr. & Xmas Div. in Stock, 3 pr Cent: consol:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description legible. Numeric columns align to totals; reads as £15 8s 4d. No visible fractional farthing on this line (the final '4' sits in the pence column and is within 0–11)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mar. 20 - Increment, of Mr. Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Margin date 'Mar. 20' visible. Amount reads 05 5 9; alignment clear and all values within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr. 3 - Took out of the Chest for L. Wittenham Div:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date 'Apr. 3' legible. Amount 200 0 0 clearly in pounds/shillings/pence columns; alignment confirmed using total rows."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jan. 5 - Two Sconces for Bac: Disp:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date 'Jan. 5' visible at left. Amount reads 01 1 0; small ink but columns align well and values valid."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Jan. 5 - Dr. Shortridge's Benef: half a year to Xmas",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Likely same margin-date region 'Jan. 5'. Amount clearly 100 0 0; vertical alignment strong."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Mr. Oswald Jackson's Acct. for the Merton estate for the Year from Micr. 1773 to Mids. 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Two-line centered account heading combined into one description per page instructions. Handwriting legible; treated as header introducing the next block."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 205,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Label 'Money Rent' clearly followed by amounts in the pounds/shillings/pence columns: 205 0 0 (alignment checked against nearby totals)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Goth Rent",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description word uncertain (handwriting ambiguous). Amount columns read '007 2 0' clearly. Chose 'Goth Rent' as closest visual match to the inked word; please review description transcription."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Subtotal (Money Rent + Goth Rent)",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal line reads 272 2 0 directly under the two rent lines; numerals are strongly aligned and match expected sum of 205 and 7 -> 212? (page shows 272 so taken as-is). Vertical ruling and totals used as ground truth per page guidance."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line reads '24 - 17 - 3' clearly; alignment with column guides confirmed using strong totals at bottom."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount shows '16 - 7 - 10 - 2' where final '2' is written as '2/4' (two farthings) in the manuscript; interpreted as 10d and 2/4 = 0.5d. Column positions verified against subtotal/totals."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Line reads '41 - 5 - 1 - 2' with final '2' representing 2/4 (halfpenny). Alignment checked; values within expected ranges. Treated as a deduction (calculation line)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "July 22? - Recd. Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Balance line reads '230 - 16 - 10 - 2' with final '2' = 2/4 = 0.5d; right-side numeric summary also shows '230 16 10 1/2'. Date 'July 22?' is faint (question mark) but adjacent; numeric alignment clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "July 26 - Increment from Mr. Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Date 'July 26' legible at left. Amount appears as '55 10 2 3' where the trailing '3' is handwritten as three farthings (3/4 = 0.75d); interpreted accordingly. Alignment verified using main totals."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Aug. 17 - Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date 'Aug. 17' visible. Amount 27 11 6 is clear and aligns with pounds/shillings/pence columns; digits are legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Jul. 22 - House Fees from Mr. Savande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Margin date 'Jul. 22' adjacent to this entry; amount 13 10 0 clearly in columns. Description 'Savande' read from handwriting and is legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total (below House Fees block)",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Bottom-of-block total clearly written as '827 3 8 4' where the small superscript '4' denotes a farthing (1/4d). Used this strong total row to validate column alignment as instructed."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Recepta pro hoc anno et pro debitis anni praecedentis",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Two-line Latin descriptive heading combined into the single description for this final total (per page guidance). Final grand total at right reads '1575 6 00' and is clearly aligned with the pounds/shillings/pence columns."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

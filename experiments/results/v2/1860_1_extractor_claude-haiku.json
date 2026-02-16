@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year header clearly visible at top of page in large numerals."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris A.D. 1859 ad cundem diem revolutum A.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Latin header establishing the accounting period. Handwriting is legible Latin ecclesiastical text. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header 'Recepta' (Receipts) in clear handwriting. Structural label introducing the receipts section below."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Clutterbucke 8 & ½ [payment] on Corn Underwood 4 & 9 on 8d",
+      "amount_pounds": 10,
+      "amount_shillings": 30,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "First receipt entry. Pounds column shows '10', shillings shows '30' (exceeds valid range of 0–19). This suggests column misalignment. Re-examining: the layout may have the shillings bleeding into adjacent space. The rightmost visible amount appears to be '8 6' which could indicate 8 shillings 6 pence for part of the entry. High uncertainty due to complex entry structure and apparent multiple amounts on one line. Interpreting as primary amounts on right margin: 10 pounds. Secondary amounts uncertain."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bushey Dic'd",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short entry, likely sub-item. Shows amount in right margin as '8 6'. Clear alignment with shillings and pence columns. No pounds visible for this specific line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Cotty. Burrar [payment] Sorer forms",
+      "amount_pounds": 13,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount visible on right: '13 8 7'. Pounds clearly '13', shillings '8' (valid), pence '7' (valid). Handwriting legible but entry description is abbreviated/unclear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "8v. N. [?] 8d",
+      "amount_pounds": 19,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Partially legible entry text. Amount shows '19 8 6' with what appears to be a fraction mark. Shillings and pence are valid; pounds appear to be 19 (high but plausible). Pence fraction may indicate half-penny but symbol is faint."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Deano Peed",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings shows '13' which is valid (0–19 range). Entry name is unclear handwriting. Amount '17 13 4' appears to be read from right margin. All values in valid currency ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Die in 8d Jones consid in paid 5S",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Legible entry text but handwriting is connected/flowing. Amount '17 2 9' clearly within valid ranges. Pence '9' is valid (0–11)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "New Ruilding Fund. tint Clear",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Legible institutional entry. Amount '15 13 7' is clear in right margin. All currency values valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Late Building Fund. Mortgage [?]",
+      "amount_pounds": 4,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Building fund entry. Amount '4 7 1' visible in margin. One digit uncertain in entry description but amount is clear and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "S: Beckand. Decently Prize",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount shows '10' only visible in pounds column. Shillings and pence columns appear blank for this entry. Could indicate a round pound figure or sub-item allocation."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Kipto Rent: Maq. Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Rent receipt entry. Amount '11 8 6' clearly aligned. All values in valid ranges. Handwriting legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Sylteen he [/] ent on Rents",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Entry text partially unclear (abbreviated/cursive). Amount '7 11 8' is clear in columns and valid. Pence '8' is within range 0–11."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Composition to Cotes by Masters",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Legible entry. Amount '3 3 2' is clear and all values valid. Simple three-digit reading with no ambiguity."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Disposer Room Rent & Klines 1858 & Do 1859. hate",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Multi-year room rent entry. Amount shows '7 11' visible; pence column appears blank or unaligned. Partial reading due to layout complexity."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Repayment of Monies Borrowed by hater from Churchek Fund",
+      "amount_pounds": 39,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Loan repayment entry. Amount '39 4 5' clearly visible in right margin. All currency values in valid ranges. Entry text is legible institutional description."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Interest [?] [unclear]",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Interest entry. Amount shows '4 2' with what appears to be 'ob' (half-penny) fraction. Handwriting for description is faint/unclear. Confidence lowered due to illegible text."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Free Repayment from Choir Fund",
+      "amount_pounds": 9,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Choir fund repayment. Amount shows '9' in pounds column only. Shillings and pence appear blank. Could indicate round pound figure."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "2000. Carrots. Sale of Lantern Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Sale proceeds entry for lantern fund. Amount '19 10 8' visible in right margin. All values in valid ranges. '2000' may refer to quantity or account code, not the amount."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "4 am mend Keys",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Minor entry for keys repair/amendment. Amount shows '1' in shillings only. Pounds and pence columns appear blank. Small maintenance cost."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Allnnett Repayment by Barrow",
+      "amount_pounds": 5,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Personal loan repayment. Amount shows '5' in pounds only. Entry name partially unclear (Allnnett or similar) but amount is clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "het Rector Repayment Instructed (hoi",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Rector repayment entry. Amount shows '30' in what may be pounds or shillings column. Entry text appears cut off or incomplete (ends with 'hoi'). Interpretation of column assignment uncertain."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Summa / Total",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final total line at bottom of receipts section. Amount '6726 11 7' is clearly visible and well-aligned in columns. This is the sum of all receipts above. High confidence due to clear spacing and alignment of total figures."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1830",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris S. L. Richards",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "a 2do die Novembris 1838",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum 1839",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Money rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Gwiner Rectory 1 qr",
+      "amount_pounds": 60,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kidlington Do 1/2 yr",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do C. P. Brawn 1/2 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Laid Lane, Norris 1 qr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "------ Donnithorne 1 qr",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "------ Pickford 1 qr",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Medenham 1 yr",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Little Tew Becks 1yr & 1/2",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "------ Symatte 3 yrs",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "------ Lennard 3 yrs",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bushey Tenements 1 qr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Rectory 1/2 yr",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "S. Wittenham Rectory 1yr",
+      "amount_pounds": 28,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do Vicarage 1yr",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 yr",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Mixed rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1/2 yr",
+      "amount_pounds": 84,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do Mills 2 yrs",
+      "amount_pounds": 34,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1 yr",
+      "amount_pounds": 107,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Stth Newington Rectory 1 yr to L. Day 1838",
+      "amount_pounds": 181,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do Tenements 1 yr",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Merton Rectory (Land Tax deducted) 1/4 239 7 5/4",
+      "amount_pounds": 239,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Tintinhull ------ Beaton - 2 yrs to Michs 1838",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "------ Penny Do Do",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "£ 034 7 3/4",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9
+    }
+  ],
+  "_meta": {
+    "model": "gpt-5-mini",
+    "thinking_block": "Row 1: No change — header \"1830\" has no amounts.\nRow 2: No change — header \"Computus Dni Rectoris S. L. Richards\" has no amounts.\nRow 3: No change — header \"a 2do die Novembris 1838\" has no amounts.\nRow 4: No change — header \"ad eundem diem revolutum 1839\" has no amounts.\nRow 5: No change — header \"Arrearagia Recepta\" has no amounts.\nRow 6: No change — header \"Money rents fixed\" has no amounts.\nRow 7: No change — \"Gwiner Rectory 1 qr\" clearly shows 60 (pounds) on image.\nRow 8: No change — \"Kidlington Do 1/2 yr\" clearly shows 10 (pounds).\nRow 9: No change — \"Do Capons & Brawn 1/2 yr\" reads 1.7.6 on image.\nRow 10: No change — \"Laid Lane, Norris 1 qr\" reads 9.6.8 on image.\nRow 11: No change — \"Donnithorne 1 qr\" reads 6.13.4 on image.\nRow 12: No change — \"Pickford 1 qr\" reads 1.13.4 on image.\nRow 13: No change — \"Medenham 1 yr\" reads 6.13.4 on image.\nRow 14: No change — \"Little Tew Becks 1yr & 1/2\" reads 1.19.1½ on image (pence fraction 1/2).\nRow 15: No change — \"Symatte 3 yrs\" reads 17.6 (shillings and pence) with no pounds.\nRow 16: No change — \"Lennard 3 yrs\" reads 17.6 (shillings and pence) with no pounds.\nRow 17: No change — \"Bushey Tenements 1 qr\" reads 10 (shillings) with no pounds.\nRow 18: No change — header \"Redeemed Land Tax\" has no amounts.\nRow 19: No change — \"Kidlington Rectory ½ yr\" reads 11.2.9 on image.\nRow 20: No change — \"S. Wittenham Rectory 1 yr\" reads 28 (pounds).\nRow 21: No change — \"Do Vicarage 1 yr\" reads 4.4 on image.\nRow 22: No change — \"Yarnton Rectory 1 yr\" reads 14 (pounds).\nRow 23: No change — header \"Mixed rents variable\" has no amounts.\nRow 24: No change — \"Kidlington Augmentation ½ yr\" reads 84.0.6 on image.\nRow 25: No change — \"Do Mills 2 yrs\" reads 34.8.4 on image.\nRow 26: No change — \"Long Wittenham Rectory 1 yr\" reads 107.14.3 on image.\nRow 27: No change — \"Stth Newington Rectory 1 yr ...\" reads 181.19.9 on image.\nRow 28: No change — \"Do Tenements 1 yr\" reads 2.14.8¼ on image.\nRow 29: No change — \"Merton Rectory (Land Tax deducted) 1/4\" reads 239.7.5¼ on image.\nRow 30: No change — \"Tintinhull — Beaton - 2 yrs to Michs 1838\" reads 2.10.10½ on image.\nRow 31: No change — \"Penny Do Do\" reads 15.13.3¾ on image.\nRow 32: amount_pence_whole=7 → amount_pence_whole=\"\" | Reason: The bottom total on the image reads \"£ 034 7 3/4\" where \"7\" is the shillings and \"3/4\" is the pence fraction (no whole pence shown). The draft mistakenly duplicated \"7\" into the pence_whole field. I removed the erroneous pence_whole. Confidence set to 0.9 for this correction.",
+    "changes_made": true
+  }
+}

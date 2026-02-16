@@ -1,0 +1,340 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered page title. No amounts present. Vertical rulings not needed for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section heading under the title. No monetary amounts on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 percent on Estates. Supp Div'd 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds/shillings/pence columns located by projecting final total line; reading 66 13 6 is well aligned. Minor uncertainty in tiny pence flourish but digits are legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do Do. Div'd 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear pounds (three-digit), shillings and pence align with ruling lines. Handwritten 'Do' phrase above is unambiguous. Minor slant of page but numbers conform to column boundaries."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per cent on Room Rent",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds read as 234, shillings '8' and pence '6' align with projected ruling lines. There is slight ambiguity on the shillings digit shape (noted in page guidance); chosen '8' because its alignment with column and comparison with similar digit shapes on page favors 8."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushy Div'd",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds clearly '7'. The shillings digit is small and the pence stroke is slightly smudged — read as 4s 6d based on alignment with ruling and nearby similar digits. Moderate ambiguity due to faint ink."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Masters Composition",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section label introducing numbered subitems (1, 2, 3). No direct amounts in heading itself."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "1 Domus 1050 Local Rate 17.3.0",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "This line is intentionally struck-through on the original page (faint but visible stroke across text). Amount read as 22 3 0 from projected columns; struck-through marking reduces confidence. Chose pounds/shillings/pence by alignment with the prominent total line and nearby numeric format."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do Do 2 Domus 91:10:0 Local Rate 13:18:6",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Also struck-through (visible ink line through text). The descriptive text is partially obscured by the strike. Amount aligned to columns reads 11 8 6; some ambiguity from strike-through and cramped handwriting in this block, lowering confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "3 Nil",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Legible '3' and word 'Nil' indicating no amount for this sub-item. Column projection confirms no figures present."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms St Helens",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is legible; no monetary figures appear on this line. Alignment with ruling lines confirms blank amount fields."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickenson. Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear numeric '43 0 0' aligned under pounds/shillings/pence. Description legible; columns unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Int on £57.10 at 3 per ct",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount reads '1 14 4' with a small trailing loop after the pence that resembles 'ob' (halfpenny). Projected columns place these digits firmly in pounds/shillings/pence; fraction interpreted as 0.5 (halfpenny). Minor ambiguity in tiny fraction symbol but loop matches 'ob' elsewhere on page."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Repayment of Capitale",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear '2 10 0' aligned to ruling lines. 'Capitale' spelling as written; digits unambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Int on £100 at 4 per cent Augt 18 1880 by Do",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numeric 4 0 0 clear and aligned. Text has common abbreviations 'Do' referring to earlier cognate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Int on £150 at Do to April 1 1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading '6 0 0' in the pounds/shillings/pence columns. Alignment strong."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "late Auditors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '13 2 10' is legible though the '2' shillings digit has a slight flourish. Column alignment supports chosen digits."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Int for one yr to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear '15 0 0' in the monetary columns; description legible. No ambiguity."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "July",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Margin annotation 'July' extracted as a separate header/annotation (per page guidance). Clearly in the left margin and not part of the main description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Room Rent mostly exceptd",
+      "amount_pounds": 114,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '114', shillings '4', pence '3' read from columns projected upward from total. Slight ink blotting near pence but digits remain within valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bourse Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear line reading '10 0 0' at right. This is the earlier 'Bourse Register' entry (distinct from a later small register entry)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortridge",
+      "amount_pounds": 122,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Monetary style '122.15.0' written in the main text; alignment confirms 122 pounds, 15 shillings, 0 pence. Slight dot between groups but standard format."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do Do Richards",
+      "amount_pounds": 93,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads '93.3.4' under the Bank/Cash group; digits align with ruling lines and are clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do Do Trisell",
+      "amount_pounds": 46,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads '46.19.8'. The middle shillings '19' is close to the column separator and slightly cramped; validated against allowed range (0-19). Good alignment."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Stock of the three funds sold",
+      "amount_pounds": 606,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads '606.17.4'. Pounds are three digits and clearly in the pound column. Slight ink fade but digits fall squarely into columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Canal Shares sold",
+      "amount_pounds": 347,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads '347.4.0' and a check-mark adjacent. Well aligned to the pounds/shillings/pence rulings. This entry appears to be the last of the left-hand block."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "July 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Margin annotation 'July 1' extracted separately as instructed. Clearly in left margin near the following small items."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Subscriptions calling for Witnam Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear small entry '10 0 0' under July 1. Description handwritten but legible; amount columns unambiguous."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Hammond. Bursar allowed to Poter",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads '25 0 0'. Surname in text is a little unclear (interpreted as 'Hammond'); chosen reading based on letter shapes. Amount unambiguous."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "3390 0 4",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total at bottom right used as the alignment reference for the page. Pounds/shillings/pence are clear and served to project column boundaries upward for all rows."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "used_optimizer": true
+  }
+}

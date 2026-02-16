@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia, continued - Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields. Visually verified as accurate."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Bensington - 1½",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts (8, 12, 0, 0.75) are consistent and visually clear across both extractors. The description 'Bensington - 1½' from gemini-flash is visually more accurate compared to gpt-5-mini's 'Bensington - 1/2'. The pence value '0 3/4' is clearly visible in the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "South Newington Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields. Visually verified as accurate."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "In Hewin Lodge",
+      "amount_pounds": 22,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (22, 1, 7, '') are consistent and visually clear across both extractors. The description 'In Hewin Lodge' from gemini-flash is visually more accurate than gpt-5-mini's 'Tackwin - Hodge'. gpt-5-mini's note about ambiguity for the pence digit being '1' or '7' was considered, but the digit clearly reads as '7' in the image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Little Ewe.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (all blank) are consistent and visually verified across both extractors. The description 'Little Ewe.' from gemini-flash is visually more accurate, as the final 'e' is clearly present in the image, unlike gpt-5-mini's 'Little Ew.'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Taylor. 2 yrs",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (20, 10, 3, '') are consistent and visually clear across both extractors. The description 'Taylor. 2 yrs' from gemini-flash is visually more accurate. gpt-5-mini noted faint trailing text, but '2 yrs' is legible in the image."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 10,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields. Visually verified as accurate."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Aitoms.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0, 10, 10, '') are consistent and visually clear across both extractors. The description 'Aitoms.' from gemini-flash is visually more accurate than gpt-5-mini's 'Stones.' based on the initial character and overall handwriting style."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Hartley.",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts (2, 0, 2, 0.75) are consistent and visually clear across both extractors. The description 'Hartley.' from gpt-5-mini is visually more accurate than gemini-flash's 'Hardy.', particularly the presence of the 'l' in the image."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kimber.",
+      "amount_pounds": 23,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields. Visually verified as accurate."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Busby (Worley)",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Amounts (25, 16, 0, 0.25) are consistent and visually clear across both extractors. The description 'Busby (Worley)' from gemini-flash is visually more accurate, specifically the 'l' in 'Worley' and the lack of a period after 'Busby'. gpt-5-mini correctly identified ambiguity between 'Worby'/'Worley'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend or Quit Rent for Kidlington Vicarage vid. Ann: pro 29th Dec. 1818. Memd. # _ _ _ }",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This conceptual row combines two physical lines on the page that are explicitly joined by a curly brace, indicating a single logical entry. gpt-5-mini correctly identified this structural combination, whereas gemini-flash split it into two separate rows (its rows 12 and 13). The description text for this combined entry is composed from the accurate readings of gemini-flash's individual parts, as gpt-5-mini's combined description had minor textual inaccuracies (e.g., 'Quit-Rent' vs 'Quit Rent', 'Pro' vs 'pro'). No monetary amounts are visible for this entry."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 7,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

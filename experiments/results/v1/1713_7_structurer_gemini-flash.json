@@ -1,0 +1,173 @@
+{
+  "layout_type": "standard",
+  "skeleton": {
+    "layout_type": "standard",
+    "estimated_total_rows": 32,
+    "rows": [
+      {
+        "row_index": 1,
+        "row_type": "header",
+        "description": "Arrearagia."
+      },
+      {
+        "row_index": 2,
+        "row_type": "entry",
+        "description": "Guinear pro anno."
+      },
+      {
+        "row_index": 3,
+        "row_type": "entry",
+        "description": "Longwittenham pro Anno"
+      },
+      {
+        "row_index": 4,
+        "row_type": "entry",
+        "description": "Minhinnet pro Quadriennio."
+      },
+      {
+        "row_index": 5,
+        "row_type": "entry",
+        "description": "Southrowington pro sesquianno."
+      },
+      {
+        "row_index": 6,
+        "row_type": "entry",
+        "description": "Yarvington pro Mic."
+      },
+      {
+        "row_index": 7,
+        "row_type": "entry",
+        "description": "Merton pro Bionnio"
+      },
+      {
+        "row_index": 8,
+        "row_type": "entry",
+        "description": "Chace-hill pro Mic."
+      },
+      {
+        "row_index": 9,
+        "row_type": "entry",
+        "description": "Thrup pro Anno."
+      },
+      {
+        "row_index": 10,
+        "row_type": "entry",
+        "description": "Jue. Quitwonts pro Mic."
+      },
+      {
+        "row_index": 11,
+        "row_type": "entry",
+        "description": "Warner pro Quadriennio."
+      },
+      {
+        "row_index": 12,
+        "row_type": "entry",
+        "description": "Ralph Martials Capons pro Quinquennio"
+      },
+      {
+        "row_index": 13,
+        "row_type": "entry",
+        "description": "Lord pro sesquianno."
+      },
+      {
+        "row_index": 14,
+        "row_type": "entry",
+        "description": "Calcot pro bionnio."
+      },
+      {
+        "row_index": 15,
+        "row_type": "entry",
+        "description": "Cudlington Mills pro Mic."
+      },
+      {
+        "row_index": 16,
+        "row_type": "entry",
+        "description": "Bampton pro Anno."
+      },
+      {
+        "row_index": 17,
+        "row_type": "entry",
+        "description": "Montacute pro Anno."
+      },
+      {
+        "row_index": 18,
+        "row_type": "entry",
+        "description": "Greenway pro Anno."
+      },
+      {
+        "row_index": 19,
+        "row_type": "entry",
+        "description": "Walker pro Anno."
+      },
+      {
+        "row_index": 20,
+        "row_type": "entry",
+        "description": "Franklin pro Anno."
+      },
+      {
+        "row_index": 21,
+        "row_type": "entry",
+        "description": "Mynne"
+      },
+      {
+        "row_index": 22,
+        "row_type": "entry",
+        "description": "Sadler pro Mic."
+      },
+      {
+        "row_index": 23,
+        "row_type": "entry",
+        "description": "Molinoux pro Mic."
+      },
+      {
+        "row_index": 24,
+        "row_type": "entry",
+        "description": "Napper pro Mic."
+      },
+      {
+        "row_index": 25,
+        "row_type": "entry",
+        "description": "Tintinhul { Hopkins pro Sexennio & dimid."
+      },
+      {
+        "row_index": 26,
+        "row_type": "entry",
+        "description": "Clifton - Perry pro Mic."
+      },
+      {
+        "row_index": 27,
+        "row_type": "entry",
+        "description": "Bensington pro Anno."
+      },
+      {
+        "row_index": 28,
+        "row_type": "entry",
+        "description": "Bronhouse pro Anno."
+      },
+      {
+        "row_index": 29,
+        "row_type": "entry",
+        "description": "South-Nowington Tenem^t pro Anno."
+      },
+      {
+        "row_index": 30,
+        "row_type": "entry",
+        "description": "Trethowin pro Quadriennio."
+      },
+      {
+        "row_index": 31,
+        "row_type": "entry",
+        "description": "Merton Vicarage"
+      },
+      {
+        "row_index": 32,
+        "row_type": "entry",
+        "description": "Lad - Lane Sparkes, Merton, pro Anno."
+      }
+    ]
+  },
+  "_meta": {
+    "classifier_model": "gemini-2.5-flash",
+    "structurer_model": "gemini-2.5-flash"
+  }
+}

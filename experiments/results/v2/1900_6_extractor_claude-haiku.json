@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1900",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page header with year designation. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading clearly underlined. Structural label introducing assets section. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bank at Aberdeen",
+      "amount_pounds": 57,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear handwriting. Amounts well-aligned with vertical ruling lines. £57 16s 4d. All values within valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 236,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Amount shown as £236 16s 10d with a secondary marking 'L9932 4' noted to the right. Main amount is clear; right-side notation appears to be a reference or cross-check. All currency values valid."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Furniture & Investments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Sub-section label within Assets. Handwriting clear but structure suggests this introduces grouped items below. No monetary amount on this line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Amount shown as £3000 with no shillings or pence recorded. Large round number is consistent with furniture valuation. Only pounds column populated."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6071,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.93,
+      "notes": "Amount £6071 14s 2d clearly aligned. A secondary notation '9271 1/4 2' appears to right, likely cross-reference. Main amount passes all validation checks."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Due to the College:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section heading with colon. Underlined. Introduces liability/debt section. No amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Bank of Lands",
+      "amount_pounds": 134,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount shows £134 with no shillings or pence. Column alignment suggests only pounds column is populated. Handwriting slightly loose but readable."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Leither",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount £224 15s 3d. Clear alignment with column lines. All values valid. Possibly 'Leither' is a place name or account holder."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Houses on Long Lanes [or] Reversible",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.82,
+      "notes": "Handwriting becomes looser and script harder to parse. Amount £53 13s 4d is well-aligned. Currency values all valid. Description text is somewhat ambiguous — could be 'Houses on Long Lanes' or similar property reference."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Amount £1 18s with no pence recorded. Clear handwriting. Shillings value is at upper limit (18) but valid (max 19). Positioned in the series of College liabilities."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Junior Common Room [partially visible]",
+      "amount_pounds": 70,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.78,
+      "notes": "Amount shows £70 with no shillings/pence. Text at far left is partially obscured; appears to read 'Junior Common Room' but handwriting is condensed. Amount well-aligned. The marker 'II.99' appears to left of amount."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "[Subtotal for Due to College section]",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.87,
+      "notes": "Line placed after Junior Common Room entry with horizontal rule above. Amount £484 3s 7d appears to be sum of College liabilities. Clear alignment. All values valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "New Endowment (Isabel)",
+      "amount_pounds": 181,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount £181 10s 11d. Clear handwriting. The marker 'I.147' visible to left. Name in parentheses may indicate fund beneficiary or account holder. All currency values valid."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "[Isabel or continuation]",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.72,
+      "notes": "Amount £16 14s with no pence. Marker 'I.152' at left. Line appears to be sub-item or related entry to row 15. Handwriting looser. Description text is faded/unclear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Locombe Reduction Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.86,
+      "notes": "Amount £19 12s 7d. Clear text and well-aligned amounts. Marker 'I.166' at left. All values pass validation. Named fund, likely endowment or restricted account."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "[Subtotal for New Endowment section]",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Line with horizontal rule above. Amount £54 17s 6d. Well-positioned and clearly aligned with column lines. Appears to be sum of endowment entries (rows 15–17). All values valid."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Certify that the Accounts of the College are duly kept in proper books of account; that the Balances and Balance Sheet contain a full & true account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large block of certification text spanning multiple lines. This is a formal attestation statement, not a ledger entry. No monetary amounts. Clear handwriting."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "March 8, 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Date of certification. Clear handwriting. No monetary amount associated."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "W. C. Huxford, F.C.O. [signature/title]",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Signatory name and credentials. Clear handwriting. No monetary amount. Right-aligned as typical for signature blocks."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "[Watson-Picky?, Proving Auditors? - partially legible]",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.58,
+      "notes": "Additional signature or secondary attestation. Handwriting is quite faded and cursive; very difficult to parse with confidence. Appears to reference auditors or additional certifiers. No monetary amount."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "[Final Total / Balance Sheet Total]",
+      "amount_pounds": 1602,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.89,
+      "notes": "Amount £1602 15s 7d appears at bottom right, preceded by a long horizontal rule spanning the columns. This is the final balance sheet total or reconciliation amount. Clear alignment and values all valid. May be underlined or marked to emphasize finality."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

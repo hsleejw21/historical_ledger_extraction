@@ -1,0 +1,152 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Poethewin",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Morton Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "LaLane, Sparks, Moreton Ann",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear. 'Ann' is a plausible reading, possibly 'Anne'. Amount digits are clearly legible (8, 16, 8) and align well with faint column lines. Values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Modenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. This row appears to be a sub-header or grouping label, introducing the following entries."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate { B. Esq.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and brace. Amount digits are clearly legible (4, 0, 0) and align well. Values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Boyce",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. Amount digits are clearly legible (4, 0, 0) and align well. Values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Porty Fines p Modenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear. 'Porty' could potentially be 'Party', but 'Porty' is a common old spelling. This row starts a multi-line description whose amount is on the following line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holworthy from an unknown Land",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row continues the description from the previous line. The amount (5, 0, 0) is clearly legible and aligned with this line, representing the total for the combined description."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increment of Batley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. This row appears to be a sub-header or grouping label."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent: Com:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text. No explicit amount is visible for this specific entry. It may be a sub-item or a description without a direct value."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Suppor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of 'Act Suppor'. This is likely an abbreviation for 'Act Support'. Amount digits are clearly legible (10, 0, 0) and align well. Values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Comm: Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of 'Comm: Library'. There is a small 'of' written above 'Comm:'. No explicit amount is visible for this entry; it may be a sub-item contributing to a later total or have a zero value."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Summ^a",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "The 'Summ^a' (Summa) label is clear, indicating a total. Pounds (210) and shillings (02) are clear. Pence (06) is clear. The fraction symbol after the pence looks like a small loop, which typically denotes 'd' or 'ob' for a half-penny (0.5). The faint colon before the pence is also observed."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

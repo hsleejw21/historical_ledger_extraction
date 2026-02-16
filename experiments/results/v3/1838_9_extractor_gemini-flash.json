@@ -1,0 +1,362 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1830",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the year. This is a page title/header with no monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris S. L. Richards",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the account title. This is a header with no monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "a 2do die Novembris 1838",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the date range part. This is a header with no monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "ad un dem diem revolutum 1839",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the date range part. This is a header with no monetary amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the main section header, which is underlined. No monetary amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Money rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a sub-header indicating a category of entries. No monetary amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Gwinear Rectory 1 qr",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and '60' in the amount columns. Interpreted as 6 shillings, 0 pence, with no pounds, based on consistent column alignment established from row 32."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kidlington Do 1/2 qr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and '10' in the amount columns. Interpreted as 10 shillings, 0 pence, with no pounds, based on consistent column alignment established from row 32."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do Capons & Braun 1/2 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '1 7 6' are distinctly aligned in the Pounds, Shillings, and Pence columns respectively, as defined by row 32. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Lach Lane, Norris 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '9 6 8' are distinctly aligned in the Pounds, Shillings, and Pence columns respectively, as defined by row 32. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do Dinnithorne 1 yr",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '6 13 4' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do Pickford 1 yr",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '1 13 4' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Medeham 1 yr",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '6 13 4' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Little Few Becks 1yr & 1/2",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '1 19' align to Pounds and Shillings. The '1/2' fraction is clearly visible in the pence column, implying 0 whole pence. Shillings (19) is valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Dymatte 3 yrs",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '1 7 6' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do Lennard 3 yrs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. No monetary amounts are visible for this transaction entry."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bushey Tenements 1 qr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and '10' in the amount columns. Interpreted as 10 shillings, 0 pence, with no pounds, based on consistent column alignment established from row 32."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Redeemed Land Tax",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a sub-header. No monetary amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Rectory 1/2 yr",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '11 2 9' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do Wittenham Rectory 1 yr",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. '28' is clearly in the Pounds column. Interpreted as £28, with 0 shillings and 0 pence, based on consistent column alignment and context of similar entries. Shillings and pence columns are blank."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do Vicarage 1 yr",
+      "amount_pounds": 44,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. '44' is clearly in the Pounds column. Interpreted as £44, with 0 shillings and 0 pence, based on consistent column alignment and context of similar entries. Shillings and pence columns are blank."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 qr",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. '14' is clearly in the Pounds column. Interpreted as £14, with 0 shillings and 0 pence, based on consistent column alignment and context of similar entries. Shillings and pence columns are blank."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Mixed rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a sub-header. No monetary amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1/2 yr",
+      "amount_pounds": 84,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '84 0 6' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do Mills 2 yrs",
+      "amount_pounds": 34,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '34 8 4' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1 yr",
+      "amount_pounds": 107,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '107 14 3' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Sth Newington Rectory 1yr to X Day 1838",
+      "amount_pounds": 181,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Values '181 19 9' are distinctly aligned in the Pounds, Shillings, and Pence columns. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do Tenements 1 yr",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of main values '2 14 8'. A tiny '1/4' fraction is visible after the pence, aligning with the pence column. Shillings (14) and Pence (8) are valid."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Merton Rectory (Land Tax deducted) 1/2 yr",
+      "amount_pounds": 239,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of main values '239 7 5'. A tiny '1/4' fraction is visible after the pence, aligning with the pence column. Shillings (7) and Pence (5) are valid."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Tintinhull Beatm -2 yrs to Mich 1838",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of main values '2 10 10'. A '1/2' fraction is visible after the pence, aligning with the pence column. Shillings (10) and Pence (10) are valid."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Do Penny Do Do",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of main values '15 13 3'. A '3/4' fraction is visible after the pence, aligning with the pence column. Shillings (13) and Pence (3) are valid."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "This row, '£034 7 3/4', is crystal clear and serves as the anchor for column alignment as per instructions. The '£' symbol indicates a total amount. Pounds are '34' (ignoring leading '0'), shillings '7', and the '3/4' is a clear fraction, with 0 whole pence implied. All values are valid."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash",
+    "used_optimizer": true
+  }
+}

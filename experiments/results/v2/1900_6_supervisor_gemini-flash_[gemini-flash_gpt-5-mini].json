@@ -1,0 +1,349 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Description refined based on visual inspection of the image, including the period after '1900'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Description refined based on visual inspection of the image, including the period after 'Assets'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers c/s.",
+      "amount_pounds": 5716,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for the correct description 'Cash at Bankers c/s.' and the accurate reading of the pounds value as 5716 (digit '6' is clear in the image). `gpt-5-mini` misread the pounds as 5715 and omitted 'c/s.'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Litigacy Account L.G.",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for the correct description 'Litigacy Account L.G.'. Amounts were in consensus."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Values extracted are in consensus. `gemini-flash`'s note correctly identifies a discrepancy between the calculated sum of its entries (5953.0.4) and the ledger's written total (5952.0.4), indicating a potential ledger error. `gpt-5-mini`'s note claims a match, but its prior entry for pounds was incorrect (5715 instead of 5716)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Furniture",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Furniture' is a section header with no associated monetary amount on that line. `gemini-flash` is correct. `gpt-5-mini` incorrectly extracted a monetary amount and classified it as an entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Investments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Investments' is a section header with no associated monetary amount on that line. `gemini-flash` is correct. `gpt-5-mini` incorrectly extracted a monetary amount and classified it as an entry."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "II.229.",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was present in `gemini-flash` but was entirely missing from `gpt-5-mini` as a distinct entry. Visual verification confirms its existence and the correct extraction by `gemini-flash` (3000 pounds, zero shillings, zero pence)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "I.250.",
+      "amount_pounds": 6011,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. `gpt-5-mini` did not extract this specific line as a distinct entry; it incorrectly merged an amount into the 'Investments' header and misread the pounds value (6511 vs 6011)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 9571,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` as it accurately reads the ledger's written total of 9571 pounds. `gpt-5-mini` misread the pounds digit as '1' instead of '7' (9511 vs 9571) and its arithmetic check was based on its own incorrect previous extractions."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Due to the college: -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Selected `gemini-flash`'s description for exact match to the trailing hyphen as seen in the image."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Rent of Lands I.5.",
+      "amount_pounds": 13,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. `gpt-5-mini` incorrectly parsed 'I.5.' as part of the pounds amount, leading to an incorrect pounds value (134 vs 13) and incorrect shillings/pence. Visual verification confirms `gemini-flash`'s reading (13 pounds, 4 shillings, 0 pence) and description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Tithes I.29.",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gemini-flash` for the more complete description including 'I.29.' as seen in the image."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Houses on long Leases I.17.",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gemini-flash` for the more complete description including 'I.17.' as seen in the image."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leaseholds I.22.",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gemini-flash` for the more complete description including 'I.22.' as seen in the image."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Senior Common Room II.199.",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gemini-flash` for the more complete description including 'II.199.' as seen in the image."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Values extracted are in consensus. `gemini-flash`'s note correctly identifies a significant discrepancy between the calculated sum of its entries (363.7.7) and the ledger's written total (484.3.7), indicating a potential ledger error. `gpt-5-mini`'s note incorrectly claims a match, despite its own prior extraction errors."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "How Exhibition Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'How Exhibition Fund' is a section header (underlined) with no associated monetary amount on that line. `gemini-flash` is correct. `gpt-5-mini` incorrectly extracted a monetary amount and classified it as an entry."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Michell I.147.",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was present in `gemini-flash` but was entirely missing from `gpt-5-mini` as a distinct entry. Visual verification confirms its existence and the correct extraction by `gemini-flash`."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "\" \" \" I.155.",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row, indicated by ditto marks for 'Michell', was present in `gemini-flash` but was entirely missing from `gpt-5-mini` as a distinct entry. Visual verification confirms its existence and the correct extraction by `gemini-flash` (16 pounds, 14 shillings, 0 pence)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Lorcombe Richards Fund I.166.",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gemini-flash` for the more complete and visually accurate description, including 'Lorcombe' (vs `gpt-5-mini`'s 'Loscombe') and 'I.166.'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Values extracted are in consensus. Both extractors correctly calculated the sum of their preceding entries. `gemini-flash`'s note is more reliable as its preceding entries were correctly extracted."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "I certify that the Accounts of the College are duly",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. Selected `gemini-flash` for more accurate casing ('Accounts' is capitalized in the ledger)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "kept in proper books of account & that the Abstracts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, row type, and empty amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "and Balance Sheet contain a full & true account",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, row type, and empty amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors on description, row type, and empty amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "March 8.th 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection shows the date 'March 8.th 1901' on its own line. `gpt-5-mini` correctly isolated the date, while `gemini-flash` incorrectly merged the auditor's name onto this line. Refined description for exact match to '8.th' from the image."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "W.C. Jackson F.C.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This line, 'W.C. Jackson F.C.A.', is distinctly separate in the image, following the date. `gemini-flash` correctly read the text content but incorrectly merged it into the date line. `gpt-5-mini` made a separate row (row 25) but misread the text entirely ('W.C. Tacktad F.C.O.'). This row is added as a new distinct row based on visual verification and the correct text from `gemini-flash`."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "(Fades, Piggs, Browning Street, Birm.)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` (row 28) for the accurate reading of the firm's address. `gpt-5-mini` (row 26) misread this line entirely ('Jackson Ridley Browning'). Visual verification confirms `gemini-flash`'s reading."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Selected `gpt-5-mini` for correctly including the '£' symbol in the description, as seen preceding the total amount in the ledger. `gemini-flash` left the description empty."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 22,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

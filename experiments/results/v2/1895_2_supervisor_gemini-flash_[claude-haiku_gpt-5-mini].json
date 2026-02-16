@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1. (Revenue) Payments.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and amounts. claude-haiku's description includes the final period, which is visually accurate."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "A. External",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Quit Rents",
+      "amount_pounds": 7,
+      "amount_shillings": 18,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified 'Quit Rents' and the amounts as 7.18.2. claude-haiku misread the description as 'Dried Rents' and the amounts as 29.7.2, likely confusing the marginal number '39' with the pounds amount."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 377,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified the amounts as 377.13.9. claude-haiku confused the marginal number '72' for the pounds value and also misread the shillings as '19' instead of '13'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Agency & Management",
+      "amount_pounds": 54,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 54.1.11. claude-haiku misread the pounds and shillings values."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Law Charges.",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Law Charges.' (claude-haiku's description, with period and capitalization). gpt-5-mini's amounts 3.3.0 are correct. claude-haiku misread pounds as '9', likely confusing it with the marginal number '98'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Repairs & Improvements",
+      "amount_pounds": 321,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 321.1.3. claude-haiku misread the pounds as '100'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Payments to Vicars",
+      "amount_pounds": 97,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 97.6.8. claude-haiku misread the pounds as '110' (likely the marginal number) and shillings as '9'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Donations to Churches &c",
+      "amount_pounds": 55,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Donations to Churches &c' and amounts 55.18.4. claude-haiku misread the pounds as '122' (the marginal number) and omitted '&c' from description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Other expenses",
+      "amount_pounds": 51,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Other expenses' and amounts 51.5.10. claude-haiku misread the description, pounds, and shillings."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 968,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified the empty description for this subtotal and extracted the amounts as 968.8.11. claude-haiku incorrectly used the amount as the description and misread shillings as '5'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "B. Internal",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and amounts. gpt-5-mini's description is visually more accurate (no trailing period)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rates, Taxes & Insurance",
+      "amount_pounds": 530,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 530.13.2. claude-haiku misread the pounds as '14'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Maintenance & Repairs",
+      "amount_pounds": 652,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 652.17.9. claude-haiku misread the pounds as '55' (the marginal number)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chapel Services &c",
+      "amount_pounds": 199,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Chapel Services &c' and amounts 199.5.3. claude-haiku misread the pounds as '46' and omitted '&c'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Library",
+      "amount_pounds": 348,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 348.8.3. claude-haiku misread the pounds as '50'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "College Servants",
+      "amount_pounds": 1256,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 1256.12.1. claude-haiku misread the pounds as '50'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Table Allowances",
+      "amount_pounds": 135,
+      "amount_shillings": 14,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Table Allowances' and amounts 135.14.7. claude-haiku misread the description and all monetary values."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "College Entertainments",
+      "amount_pounds": 58,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the amounts as 58.13.11. claude-haiku misread the pounds as '105' (the marginal number)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Maintenance of Est:",
+      "amount_pounds": 909,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Maintenance of Est:' and amounts 909.4.1. claude-haiku misread the description as 'Maintenance of Lost:' and pounds as '118' (the marginal number)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "The Head of the College.",
+      "amount_pounds": 1100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the pounds as 1100. claude-haiku accurately included the trailing period in the description. Both correctly identified 0s 0d. claude-haiku misread pounds as '130' (the marginal number)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Fellows",
+      "amount_pounds": 1170,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the pounds as 1170. Both correctly identified 0s 0d. claude-haiku misread pounds as '155' (the marginal number)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Scholars:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description 'Scholars:-' (claude-haiku). The row is a section label with no amounts, so `header` type is correct (gpt-5-mini)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Foundation",
+      "amount_pounds": 1346,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted `entry` type, description 'Foundation', and amounts 1346.19.11. claude-haiku misidentified it as a `header`, misread the description as 'Founders of Trust', and misread the pounds as '146' (the marginal number)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Trust",
+      "amount_pounds": 826,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified the description as 'Trust'. Amounts 826.16.0 are agreed upon; the pence column shows a clear dot indicating zero."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "College Officers",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted pounds as 100. Both correctly identified 0s 0d. claude-haiku misread pounds as '159'."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "The Tuition Fund",
+      "amount_pounds": 3394,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'The Tuition Fund' and amounts 3394.7.11. claude-haiku severely misread the description as 'The Sundrie Fence' and all monetary values."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "The Exhibition Funds.",
+      "amount_pounds": 308,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini's values 308.14.2 are correct. Description 'The Exhibition Funds.' is visually confirmed (plural 'Funds' and trailing period). claude-haiku severely misread the amounts and description."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Other Expenses.",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini's amounts 1.2.0 are correct. Description 'Other Expenses.' is visually confirmed (with trailing period). claude-haiku severely misread the description and all monetary values."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12339,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified this subtotal for B. Internal. It is missing from claude-haiku's extraction. No description text on the line, amounts 12339.9.1 visually confirmed."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "C. University purposes:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and amounts. claude-haiku's description 'C. University purposes:-' is visually more accurate."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Common University Fund",
+      "amount_pounds": 95,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted description 'Common University Fund' and amounts 95.10.6. claude-haiku misread the description as 'Common Utility Fund' and all monetary values, likely confusing the marginal '205' with the pounds amount."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Total payments",
+      "amount_pounds": 13403,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the `total` type, description 'Total payments', and amounts 13403.8.6. claude-haiku misidentified pounds, shillings, and pence."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "Balance to Gen Acct II",
+      "amount_pounds": 897,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly extracted the description 'Balance to Gen Acct II' and amounts 897.6.8. claude-haiku's corresponding row was either an invented row or a mis-parsed combination of other elements, and its row 34 incorrectly used the amount as the description."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 14300,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gpt-5-mini correctly identified the empty description for this final total. Amounts 14300.15.2 are visually confirmed and agreed upon by both extractors."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 5,
+      "rows_by_visual_override": 28,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 1
+    }
+  }
+}

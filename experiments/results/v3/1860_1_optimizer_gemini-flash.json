@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    "The page is scanned with a slight clockwise tilt (~3-5 degrees).",
+    "The vertical ruling lines separating the £ / s / d columns are very faint, especially the line between pounds and shillings. They are not consistently clear across the page."
+  ],
+  "estimated_row_count": 26,
+  "layout_type": "standard",
+  "layout_hints": "The three vertical ruling lines for £ / s / d are faint. The clear horizontal line separating the ledger entries from the 'Total' sum and the well-aligned numbers of the 'Total' row provide excellent column definition. This total row should serve as the primary reference.",
+  "prompt_additions": "CRITICAL: The page is tilted approximately 3-5 degrees clockwise. Extractors must compensate for this tilt; text will appear to drift visually across columns. The vertical ruling lines separating the £ / s / d columns are very faint. Use row 26 (the Total row with the value '6726 11 7') as your definitive alignment reference to establish precise column boundaries for all entries. Project these boundaries upwards consistently. Row 19, 'Repayment of money borrowed by Kater from', is associated with the amount '37 4 5'. Its full description continues on the subsequent visual line (row 20), 'Caution Fund - Interest £4.5d'. Extract these two visual lines as a single logical description for the transaction entry that includes '37 4 5' as its amount.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}

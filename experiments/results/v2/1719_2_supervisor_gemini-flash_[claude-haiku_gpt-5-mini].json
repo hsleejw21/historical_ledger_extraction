@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepte Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's transcription for description. Visually confirmed as a clear header with no associated amounts. Claude-haiku's description was an interpretation, not a direct transcription."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Extracta E thefaure",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini's description 'Extracta E thefaure' is visually confirmed (initial 'E' for 'E' and 'thefaure' with long 's' as 'f'). Both models failed to extract the monetary values for this row: 10£ 13s 11.25d. The small mark after 11 pence is a 'q', indicating 0.25. Changed row_type to 'entry' because it has explicit amounts aligned with it, despite its header-like text."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear.",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's transcription 'Guinear.'. Visual inspection confirms the 'u' is clear. Both models missed the amounts 12s 0d for this row, which are clearly visible in the columns."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwitham.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's transcription 'Longwitham.'. Visual inspection confirms the 'w' and 'th' ligature. Claude-haiku's 'Longstraham' is incorrect. Both models correctly identified no amounts for this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Pinkinst. pro Annuce.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's reading for description (corrected 'Annue' to 'Annuce' based on visual inspection). Visually confirmed no amounts are present for this row. Claude-haiku's description ('Henkinset. pro Annuance') was incorrect, and it incorrectly extracted amounts (12£ 0s 0d) for this line which do not exist here."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southnewington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description, which is visually confirmed. Claude-haiku's 'Southeastshire' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Eddington Pri",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description, which is visually confirmed ('Pri' ending is clear). Claude-haiku's 'Kitt' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description, which is visually confirmed. The initial letter is a clear 'G'. Claude-haiku's 'Jarrigation' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Norton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description, which is visually confirmed. The initial letter is 'N'. Claude-haiku's 'Parton' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description. 'Chace Hill' is visually confirmed ('c' is clear). Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Overrode both extractors. Visual inspection reveals the description is 'Thrup.', not 'Phrup' (gpt-5-mini) or 'Primp' (claude-haiku). The initial 'Th' ligature is evident. No amounts present."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eddington vicar",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4£ 0s 0d) are consistent between both extractors and visually confirmed as accurate. Selected gpt-5-mini's description 'Eddington vicar' which is visually accurate. Claude-haiku's 'Decor' is incorrect."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lucas Eaton by Mr Broadwater",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (2£ 0s 0d) are consistent between both extractors and visually confirmed as accurate. Selected gpt-5-mini's description 'Lucas Eaton by Mr Broadwater' which is visually accurate. Claude-haiku's 'Caton' is incorrect."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Pre quite Rooke Annu",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (2£ 13s 7d) are consistent between both extractors and visually confirmed as accurate. Selected gpt-5-mini's description 'Pre quite Rooke Annu' as it appears to be a more accurate transcription of the ambiguous handwriting, compared to claude-haiku's 'Pic glute Roof, Annor'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Warner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Confirmed visually as accurate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ralph Marshalls. Capont.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description as a closer transcription (corrected 'Capon' to 'Capont' based on visual inspection). Claude-haiku's reading of 'Barthols, caport' is inaccurate. Visually confirmed no amounts are present."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lord Annu.",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini for both description and amounts. Visually confirmed amounts as 2£ 1s 2d. Claude-haiku's amounts for shillings and pence (12s 0d) were incorrect."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Calect.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description 'Calect.', visually confirmed. Claude-haiku's reading 'calcuft' is less accurate. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cuddington Mille",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Overrode both extractors. Visual inspection shows the description as 'Cuddington Mille' (the initial 'C' and singular 'Mille' are clear). Gpt-5-mini read 'Eddington Mills' and claude-haiku 'Cuddington Miller'. No amounts are present."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description 'Bampton', visually confirmed. The initial 'B' is clear. Claude-haiku's 'Hampton' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mountacute.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts (minor punctuation difference resolved by visual confirming the period). Confirmed visually as accurate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hughes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description 'Hughes', visually confirmed. Claude-haiku's 'Huckle' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Greenway",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description 'Greenway', visually confirmed as one word without trailing punctuation. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Banfter",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 15s 0d) are consistent between both extractors and visually confirmed as accurate. Selected gpt-5-mini's description 'Banfter', which is visually accurate. The initial 'B' is clear. Claude-haiku's 'Stanfter' is incorrect."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Prandlyn.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Selected gpt-5-mini's description 'Prandlyn.', visually confirmed. Claude-haiku's 'Froulton' is less accurate. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mynn.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's description 'Mynn.', visually confirmed. The initial 'M' is clear. Claude-haiku's 'Wynn' is incorrect. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and amounts. Confirmed visually as accurate: 1£ 13s 4d."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Louden Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (0£ 10s 0d) are consistent between both extractors and visually confirmed as accurate. Selected gpt-5-mini's description 'Louden Hall', which is visually accurate ('u' and 'Hall' are clear). Claude-haiku's 'London Road' is incorrect."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sadler.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Confirmed visually as accurate."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Molineaux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Selected gpt-5-mini's description 'Molineaux', visually confirmed as more accurate ('x' is fairly clear). Claude-haiku's 'Moleacaue' is less accurate. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Tintinhull / Naper / Hopkins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Overrode both extractors to provide a more accurate representation of the multiple, stacked names. Visual inspection shows 'Tintinhull', followed by a curly bracket indicating association, then 'Naper' and 'Hopkins' vertically aligned. Represented as a slash-separated list for simplicity. No amounts are present."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clifton ferry.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on description and absence of amounts. Confirmed visually as accurate."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Bonnington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's spelling 'Bonnington', visually confirmed with two 'n's. Claude-haiku had 'Bonington'. Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Brew-house",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's description 'Brew-house', visually confirmed as hyphenated and without trailing punctuation. Claude-haiku had 'Brew house.' (two words with period). Both models correctly identified no amounts."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 36,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Overrode both extractors. Visually confirmed amounts as 36£ 7s 9.25d. The small mark after 9 pence is a 'q', indicating 0.25. The description field is empty as there is no text, only a horizontal line indicating a summation total. Claude-haiku incorrectly read 35 pounds and 9 pence without fraction. Gpt-5-mini correctly read 36 pounds and 7 shillings but missed the fraction and misread pence as 8."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 31,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

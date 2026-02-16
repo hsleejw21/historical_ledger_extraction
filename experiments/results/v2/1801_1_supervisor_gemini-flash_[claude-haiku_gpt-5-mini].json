@@ -1,0 +1,250 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors' descriptions to 'Arrearagia continued' based on the image. Both agreed on header type and empty amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Alixe & Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors' descriptions to 'Alixe & Rents, variable' based on the image. Both agreed on header type and empty amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long. Willenham Rectory",
+      "amount_pounds": 172,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected 'gpt-5-mini' as it accurately identified the full description and the '11½' pence, clearly visible in the image. 'claude-haiku' missed the pence and fraction, stating 'No pence visible'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Smith. Kewington Do",
+      "amount_pounds": 255,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Smith. Kewington Do' based on the image ('Smith.' not 'South.'). Adopted 'gpt-5-mini's empty string representation for blank shillings and pence fields, which accurately reflects the dashes/empty space in the ledger, rather than '0'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Merton Do",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Merton Do' based on the image ('Merton' not 'Shelton', and no dash). Adopted 'gpt-5-mini's empty string representation for blank shillings and pence fields."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Yardington D. & Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Adopted description from 'claude-haiku' as it correctly renders 'D.' (not 'D'o'). Adopted amounts and fraction (65/19/1½) from 'gpt-5-mini' as it correctly identified the whole pence and half-penny mark, which 'claude-haiku' missed."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chase. Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Chase. Hill' based on the image ('Chase.' not 'Chase' or 'Chapel'). 'gpt-5-mini' correctly identified the amounts (19/7/2), while 'claude-haiku' misread shillings as 5 and missed the pence."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kiddington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Kiddington Mills' based on the image. 'gpt-5-mini' correctly identified 10 pence, which 'claude-haiku' missed, stating 'No pence visible'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garsington, Sadler Three Years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Garsington, Sadler Three Years' based on the image. 'gpt-5-mini' correctly identified '11¾' pence, including the fraction, which 'claude-haiku' missed entirely."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "The amounts (14/2/5½) were consistent between extractors. Overrode description to 'Do Prickett' based on the image, combining the best parts of both descriptions (removing extra dash from 'gpt-5-mini', correcting 'So.' from 'claude-haiku')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhull, Napier, Three Years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Tintinhull, Napier, Three Years' based on the image ('Tintinhull' not 'Tintinhoe'). 'gpt-5-mini' correctly identified the '1' pence, which 'claude-haiku' missed."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do Beaton Six Years",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Do Beaton Six Years' based on the image ('Beaton' not 'Boston', and consistent capitalization/spacing). 'gpt-5-mini' correctly identified the '1' pence, which 'claude-haiku' missed."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Clifton Terry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "'gpt-5-mini' correctly identified the description ('Clifton Terry') and the amounts (12/19/11½) including the half-penny. 'claude-haiku' misread 'Terry' as 'Ferry' and missed the pence/fraction."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Full consensus between both extractors on the description, amounts, and fraction (11/2/0¼). Visually confirmed from the image."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "So. Kewington Tent",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "'gpt-5-mini' correctly identified the description ('So. Kewington Tent') and the amounts (4/5/1¾) including the specific whole pence and fraction. 'claude-haiku' misread 'So.' as 'No.' and incorrectly identified the fraction as 0.5 with 0 whole pence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Little Few Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected 'claude-haiku' for the correct description 'Little Few Rents', matching the image. 'gpt-5-mini' misread 'Few' as 'Two'. Both agreed on header type and empty amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Taylor, two Years",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Taylor, two Years' based on image (removing extra dash). 'gpt-5-mini' correctly identified '2½' pence, while 'claude-haiku' misread it as '0.5' fraction with 0 whole pence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Judge do",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Judge do' based on image (removing extra dash). 'gpt-5-mini' correctly identified '9½' pence, while 'claude-haiku' misread the fraction as '0.75' and missed the whole pence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Hirons do",
+      "amount_pounds": 10,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Hirons do' based on image (correcting name and removing dash). 'gpt-5-mini' correctly identified '11½' pence, while 'claude-haiku' misread the name and missed the whole pence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gardiner, Burdon's Do",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode description to 'Gardiner, Burdon's Do' based on image. Adopted 'gpt-5-mini's empty string representation for the blank pence field (due to a dash in the image), rather than '0' as in 'claude-haiku'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hartley, Do",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified the description. Adopted 'gpt-5-mini's values (2/18/6¼) as they precisely match the image, including the '6' whole pence and '0.25' fraction. 'claude-haiku' incorrectly identified the fraction as '0.75' and missed the whole pence."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gpt-5-mini",
+      "claude-haiku"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 18,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

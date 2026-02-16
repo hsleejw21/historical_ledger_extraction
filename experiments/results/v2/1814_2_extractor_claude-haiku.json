@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computers Apel Rectors u 2d the Nov 1814 collected in dem woodhm - 1815",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Opening title line, heavily abbreviated handwriting. Text is faded and difficult to parse with certainty. Appears to be a ledger header for 1814-1815. No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Arrearage receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Brief label with unclear handwriting. Appears to introduce a section. No amounts visible on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Entry label, handwriting is cursive and faded. No amounts visible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Glyncar Rectory 2 q u ½",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Handwriting is unclear but pattern shows '2' for pounds, '9' for shillings, and what appears to be '½' fraction symbol. Column alignment used reference from amounts on right margin (135, 136). Shillings and pence values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Menhornol 2 q/d",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Heavily abbreviated, cursive handwriting is difficult to parse. Appears to show '2' for shillings only, but the full amount structure is unclear due to faded ink."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Late Lot Baruh",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Text is faded and handwriting is cursive. Appears to be a place name or account label. No amounts visible on this line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Land of Redeemed Erington Rectory & Vicavage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Section header introducing a new account group. Handwriting is faded and difficult to read with certainty. No amounts on this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Fixed Rents Variables",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Subsection label. Handwriting is cursive and somewhat unclear. No amounts visible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "St Newington P.T.S Haslington Mills 2d 2 Years",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Multiple items listed on one line with associated amount on right margin (17.11). Reading from right-side amounts: 17 pounds, 11 shillings inferred. Column alignment is challenging due to dense handwriting but reference numbers on margin support this reading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gosgeton Unchard",
+      "amount_pounds": 42,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount visible on right margin (42.9.4½). Reading is clear from the annotated margin figure. All values within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Taylon Terry",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (10.4.4). Handwriting is cursive. All currency values within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Boatlinghan",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (9.11). Handwriting is faded but readable. Shillings value of 11 is within valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Folkestone",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (8.-1). Handwriting is faded. The dash suggests zero shillings. All values within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ayle Low Taylor 3 Lots",
+      "amount_pounds": 44,
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount from right margin (44.2). Clear reading from margin annotation. All values within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Judge & ld",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (28.7.4). Handwriting is very cursive and abbreviated. Values extracted from margin annotation are clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Aldons & d",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (18.10.6). Handwriting is cursive and faded. All values within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sibring & d",
+      "amount_pounds": 12,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (12.4.10). Handwriting is cursive. All values within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Farsley & d",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amount from right margin (2.12.0). Shillings value of 12 is at the boundary of valid range (should be 0-19). This appears to be correctly 12 shillings, but warrants verification."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kimber & d",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (24.3.10). Handwriting is cursive. All values within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bawley & d",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Amount from right margin (26.12.6½). Shillings value of 12 is at boundary. The fraction symbol after pence appears to be 'ob' or similar mark for half-penny, interpreted as 0.5."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Land Lane Tenprere Gorman",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Section header introducing new account group. Handwriting is heavily abbreviated and faded. Text is difficult to parse with certainty. No amounts on this line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "& d Willan",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (8.0). Dash represents zero shillings. Handwriting is abbreviated."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "& d Pickford",
+      "amount_pounds": 6,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount from right margin (6.-). Dash suggests zero or absent shillings and pence. Handwriting is abbreviated and faded."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (1.10). Handwriting is cursive but readable from margin annotation."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Receptha Anne presentes",
+      "amount_pounds": 612,
+      "amount_shillings": 19,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Appears to be a subtotal or section total line labeled 'Receptha Anne presentes' (Receipt Anne presents). Amount from right margin (612.19.7). All values within valid ranges. Shillings of 19 is valid (max 19)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Received of Bankers Dividend on Half & d",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Section header for banking/dividend section. Handwriting is faded and abbreviated. No amounts on this line."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "& d",
+      "amount_pounds": 19,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (19.2.8). Brief entry with amounts. All values within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "& d",
+      "amount_pounds": 19,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount from right margin (19.3.8). Similar brief entry. All values within valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Final total line from right margin (38.7.4). Clear reading from underlined total at bottom of section. All values within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "claude-haiku",
+    "model_name": "claude-haiku-4-5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "warnings": [
+    "The page is slightly tilted (~3-5 degrees clockwise). Expect a slight drift in vertical alignment across the page.",
+    "The right edge of the page shows some discoloration/staining, but it does not obscure data.",
+    "The '1855' year at the top is somewhat faded compared to the rest of the text.",
+    "The final Total row (row 36, '650 18 0') has a diagonal line drawn through the shillings and pence values, which may indicate a correction or voiding. Transcribe as written."
+  ],
+  "estimated_row_count": 36,
+  "layout_type": "standard",
+  "layout_hints": "The vertical ruling lines separating Pounds (£), Shillings (s), and Pence (d) are extremely faint or invisible for most rows. The alignment must be inferred from the numerical values themselves.",
+  "prompt_additions": "CRITICAL: The vertical ruling lines for the £ / s / d columns are virtually invisible. Use row 36 (the final total '650 18 0') as the primary reference for precise column alignment. Observe how the '18' is clearly shillings and '0' is pence. Project these inferred column positions to all other rows. Rows with 3-part amounts (e.g., rows 6, 7, 12, 13, 26, 27, 28, 29) can serve as secondary alignment references. The page is slightly tilted clockwise; account for this visual drift when determining vertical column boundaries.",
+  "_meta": {
+    "optimizer_model": "gemini-flash"
+  }
+}
