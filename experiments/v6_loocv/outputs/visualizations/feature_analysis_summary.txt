@@ -1,0 +1,37 @@
+============================================================
+VISUAL FEATURES ANALYSIS SUMMARY
+============================================================
+
+Dataset:
+  Total pages: 33
+  Features extracted: 38
+
+Oracle performance range:
+  Min: 0.6650
+  Max: 1.0000
+  Mean: 0.8822
+  Std: 0.0909
+
+Top 10 features correlated with oracle performance:
+   1. avg_edge_strength                  : +0.421
+   2. sharpness                          : +0.421
+   3. noise_estimate                     : +0.326
+   4. edge_density                       : +0.302
+   5. width                              : +0.288
+   6. total_pixels                       : +0.257
+   7. megapixels                         : +0.257
+   8. block_area_ratio                   : +0.248
+   9. histogram_entropy                  : +0.233
+  10. height                             : +0.228
+
+Feature importance insights:
+  - Features with |correlation| > 0.3 may be useful predictors
+  - Features with |correlation| < 0.1 may be noise
+  - Highly correlated feature pairs (|r| > 0.9) indicate redundancy
+
+Next steps:
+  1. Review visualizations in experiments/v6_loocv/outputs/visualizations/
+  2. Consider feature selection based on correlation analysis
+  3. Proceed to Phase 3: LOOCV prediction
+
+============================================================
