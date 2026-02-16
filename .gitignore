@@ -21,9 +21,8 @@ env/
 .vscode/
 *.swp
 
-# Experiment artifacts (cached API results — regenerable)
-experiments/results/
-experiments/reports/
+# Claude Code
+.claude/
 
 # Large data files (images are stored in your local data/ or via LFS)
 data/images/

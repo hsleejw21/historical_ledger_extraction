@@ -289,7 +289,7 @@ Image
 ---
 
 ## 🌿 Git Workflow
-
+=
 ### **Branch Structure**
 
 ```

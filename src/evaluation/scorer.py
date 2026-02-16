@@ -1,6 +1,6 @@
 """
 src/evaluation/scorer.py
-Two-axis evaluation framework.
+Two-axis evaluation framework with EXPANDED AXIS 2 METRICS.
 
 AXIS 1 — Structural Accuracy
   • Row count match
@@ -20,7 +20,11 @@ AXIS 2 — Numerical Accuracy  (only on entry + total rows)
     that is off by 1 penny on a L50 amount scores ~0.99 instead of 0.
   • Fraction match (exact, on rows that have fractions in GT).
 
-Both axes return a score in [0, 1].  combined_score = (axis1 + axis2) / 2.
+CHANGES IN THIS VERSION:
+  - All axis2 sub-components now returned with consistent naming:
+    axis2_match, axis2_similarity, axis2_fraction
+  - Legacy aliases preserved for backward compatibility
+  - Combined score uses the same formula: 0.5*match + 0.3*similarity + 0.2*fraction
 """
 import json
 
@@ -247,10 +251,15 @@ def score_numbers(pred: dict, gt: dict) -> dict:
 
     Returns:
         {
-            "amount_match_score":      float,   # exact-match fraction (with 0.5 for cross-type)
-            "amount_similarity_score": float,   # partial-credit avg across all GT rows
-            "fraction_match_score":    float,   # exact fraction match on rows that have fractions
-            "axis2_score":             float,   # composite: 0.5*match + 0.3*similarity + 0.2*fraction
+            "axis2_match":      float,   # exact-match fraction (with 0.5 for cross-type)
+            "axis2_similarity": float,   # partial-credit avg across all GT rows
+            "axis2_fraction":   float,   # exact fraction match on rows that have fractions
+            "axis2_score":      float,   # composite: 0.5*match + 0.3*similarity + 0.2*fraction
+            
+            # Legacy aliases (for backward compatibility with v1-v5 reports)
+            "amount_match_score":      float,
+            "amount_similarity_score": float,
+            "fraction_match_score":    float,
         }
     """
     pred_rows = pred.get("rows", [])
@@ -267,10 +276,14 @@ def score_numbers(pred: dict, gt: dict) -> dict:
 
     if not gt_scoreable:
         return {
+            "axis2_match": 1.0,
+            "axis2_similarity": 1.0,
+            "axis2_fraction": 1.0,
+            "axis2_score": 1.0,
+            # Legacy aliases
             "amount_match_score": 1.0,
             "amount_similarity_score": 1.0,
             "fraction_match_score": 1.0,
-            "axis2_score": 1.0,
         }
 
     # ---------------------------------------------------------------
@@ -315,8 +328,8 @@ def score_numbers(pred: dict, gt: dict) -> dict:
                     best_sim = sim
             similarity_scores.append(best_sim)
 
-    amount_match_score      = sum(match_credits) / len(gt_scoreable)
-    amount_similarity_score = sum(similarity_scores) / len(gt_scoreable)
+    axis2_match      = sum(match_credits) / len(gt_scoreable)
+    axis2_similarity = sum(similarity_scores) / len(gt_scoreable)
 
     # ---------------------------------------------------------------
     # FRACTION MATCH  (exact, only on GT rows that have a fraction)
@@ -324,7 +337,7 @@ def score_numbers(pred: dict, gt: dict) -> dict:
     gt_with_fraction = [r for r in gt_scoreable if _normalise_val(r.get("amount_pence_fraction", "")) != ""]
 
     if not gt_with_fraction:
-        fraction_match_score = 1.0
+        axis2_fraction = 1.0
     else:
         available_f = set(range(len(pred_scoreable)))
         fraction_matches = 0
@@ -353,20 +366,26 @@ def score_numbers(pred: dict, gt: dict) -> dict:
                 available_f.remove(best_idx)
                 fraction_matches += 1
 
-        fraction_match_score = fraction_matches / len(gt_with_fraction)
+        axis2_fraction = fraction_matches / len(gt_with_fraction)
 
     # ---------------------------------------------------------------
     # COMPOSITE axis2
     # ---------------------------------------------------------------
-    axis2 = (0.5 * amount_match_score +
-             0.3 * amount_similarity_score +
-             0.2 * fraction_match_score)
+    axis2 = (0.5 * axis2_match +
+             0.3 * axis2_similarity +
+             0.2 * axis2_fraction)
 
     return {
-        "amount_match_score":      round(amount_match_score, 4),
-        "amount_similarity_score": round(amount_similarity_score, 4),
-        "fraction_match_score":    round(fraction_match_score, 4),
-        "axis2_score":             round(axis2, 4),
+        # Primary metrics (consistent naming)
+        "axis2_match":      round(axis2_match, 4),
+        "axis2_similarity": round(axis2_similarity, 4),
+        "axis2_fraction":   round(axis2_fraction, 4),
+        "axis2_score":      round(axis2, 4),
+        
+        # Legacy aliases (for backward compatibility)
+        "amount_match_score":      round(axis2_match, 4),
+        "amount_similarity_score": round(axis2_similarity, 4),
+        "fraction_match_score":    round(axis2_fraction, 4),
     }
 
 

@@ -1,0 +1,74 @@
+============================================================
+ORACLE ANALYSIS SUMMARY
+============================================================
+
+Total pages analyzed: 33
+
+============================================================
+BEST MODEL TYPE PER PAGE
+============================================================
+Ensemble (v2/v3):    26 pages (78.8%)
+Single model (v1):    7 pages (21.2%)
+
+============================================================
+AVERAGE PERFORMANCE
+============================================================
+Oracle best:         0.8822
+Best single model:   0.8070
+Best ensemble:       0.8762
+Ensemble advantage:  +0.0692
+
+============================================================
+AXIS2 COMPONENT BREAKDOWN (Oracle)
+============================================================
+axis2_match:         0.8705
+axis2_similarity:    0.9767
+axis2_fraction:      0.8037
+
+============================================================
+ORACLE PIPELINE DISTRIBUTION
+============================================================
+v1                  :  7 pages (21.2%)
+v2_no_gemini        :  7 pages (21.2%)
+v2_no_claude        :  5 pages (15.2%)
+v2_no_gpt           :  5 pages (15.2%)
+v2_full             :  5 pages (15.2%)
+v3_optimizer        :  4 pages (12.1%)
+
+============================================================
+TOP 10 BEST PERFORMING PAGES
+============================================================
+1731_1         : 1.0000  [v2_no_gpt]
+1788-1789_3    : 1.0000  [v2_no_gemini]
+1844_7         : 1.0000  [v2_full]
+1801_1         : 0.9909  [v2_no_gpt]
+1855_7         : 0.9864  [v1]
+1713_7         : 0.9800  [v1]
+1831_10        : 0.9728  [v2_full]
+1889_4         : 0.9721  [v2_no_claude]
+1860_1         : 0.9641  [v2_no_gemini]
+1795-1796_1    : 0.9631  [v2_no_gemini]
+
+============================================================
+BOTTOM 10 WORST PERFORMING PAGES
+============================================================
+1700_7         : 0.6650  [v2_no_claude]
+1881_1         : 0.7329  [v2_full]
+1753_4         : 0.7495  [v3_optimizer]
+1873_5         : 0.7503  [v3_optimizer]
+1900_6         : 0.7603  [v2_no_gemini]
+1767_7         : 0.7805  [v2_no_gpt]
+1783-1784_2    : 0.7977  [v2_no_gpt]
+1850_4         : 0.8189  [v3_optimizer]
+1869_8         : 0.8232  [v2_no_gemini]
+1838_9         : 0.8393  [v1]
+
+============================================================
+INSIGHTS FOR V6 ADAPTIVE ROUTING
+============================================================
+1. Oracle avg (0.8822) sets the upper bound for v6 prediction
+2. If v6 always picked best single model, avg would be 0.8070
+3. Performance preservation target: >=0.8381 (95% of oracle)
+4. Current SOTA (v2_no_claude): 0.8385
+5. Pages where ensemble helps most: analyze 'ensemble_vs_single_gap' column
+6. Next: Extract visual features + LOOCV prediction
