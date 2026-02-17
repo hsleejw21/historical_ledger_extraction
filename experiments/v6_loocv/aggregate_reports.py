@@ -100,6 +100,18 @@ def aggregate_all_reports():
 
     v2_all = load_report("experiment_results_v2.csv", "v2")
     if not v2_all.empty:
+        # Filter to keep ONLY v2 records (those with non-empty supervisor_model)
+        # Removes any v1 records that might have been mixed in from previous runs
+        # v2 records ALWAYS have supervisor_model filled; v1 records NEVER do
+        if 'supervisor_model' in v2_all.columns:
+            # Keep only records where supervisor_model is not null and not empty string
+            mask = (v2_all['supervisor_model'].notna()) & (v2_all['supervisor_model'] != '')
+            v2_only = v2_all[mask].copy()
+            
+            if len(v2_only) < len(v2_all):
+                print(f"  [Filtered] Removed {len(v2_all) - len(v2_only)} v1 records from v2 file")
+            v2_all = v2_only
+        
         v2_all = normalize_v2_columns(v2_all, "v2")
 
         # Map extractor combos to pipeline tags
