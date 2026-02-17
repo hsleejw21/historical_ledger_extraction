@@ -1,14 +1,13 @@
 """
 experiments/v6_loocv/aggregate_reports.py
 
-Merges all existing experiment reports (v1, v2, v2_ablations, v3) into a single
+Merges all v2 experiment reports (v2 full + v2 ablations) into a single
 unified CSV with consistent column naming and pipeline tagging.
 
-This gives us a complete historical view of every extraction attempt across all
-experiments, which will be used for:
-  1. Identifying oracle best model per page
+This gives us a complete view of every v2 extraction attempt, which will be used for:
+  1. Identifying oracle best configuration per page
   2. Training data for the adaptive routing predictor
-  3. Analysis of model performance patterns
+  3. Analysis of extraction performance patterns
 
 Usage:
     python -m experiments.v6_loocv.aggregate_reports
@@ -48,16 +47,13 @@ def _rename_final_scores(df: pd.DataFrame) -> pd.DataFrame:
 
     Rescored reports (from rescore_with_expanded_metrics.py) use:
         axis1_score, axis2_score, combined_score
-    Original ablation reports (from run_experiment.py) use:
+    Original v2 reports (from run_experiment.py) use:
         supervisor_axis1, supervisor_axis2, supervisor_combined
-    Original v1 reports (from run_experiment.py) use:
-        best_axis1, best_axis2, best_combined
     """
     # Try each convention in order of likelihood
     for src_axis1, src_axis2, src_combined in [
         ('axis1_score', 'axis2_score', 'combined_score'),           # rescored
-        ('supervisor_axis1', 'supervisor_axis2', 'supervisor_combined'),  # original v2 ablations
-        ('best_axis1', 'best_axis2', 'best_combined'),              # original v1
+        ('supervisor_axis1', 'supervisor_axis2', 'supervisor_combined'),  # original v2
     ]:
         if src_axis1 in df.columns:
             df = df.rename(columns={
@@ -66,41 +62,6 @@ def _rename_final_scores(df: pd.DataFrame) -> pd.DataFrame:
                 src_combined: 'final_combined',
             })
             break
-
-    return df
-
-
-def normalize_v1_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Rename v1 columns to unified naming convention."""
-    if df.empty:
-        return df
-
-    df = _rename_final_scores(df)
-
-    # Build model_combo from individual model columns or from config column
-    if 'structurer_model' in df.columns and 'extractor_model' in df.columns and 'corrector_model' in df.columns:
-        def _build_combo(r):
-            s = r.get('structurer_model', '')
-            e = r.get('extractor_model', '')
-            c = r.get('corrector_model', '')
-            if s and e and c:
-                return f"{s}->{e}->{c}"
-            # Fallback: parse from config column
-            # config format: corrector_{structurer}_{extractor}_{corrector}
-            config = str(r.get('config', ''))
-            parts = config.split('_')
-            if len(parts) >= 4 and parts[0] == 'corrector':
-                return f"{parts[1]}->{parts[2]}->{parts[3]}"
-            return config
-        df['model_combo'] = df.apply(_build_combo, axis=1)
-    elif 'config' in df.columns:
-        # Parse from config column as fallback
-        def _parse_config(config):
-            parts = str(config).split('_')
-            if len(parts) >= 4 and parts[0] == 'corrector':
-                return f"{parts[1]}->{parts[2]}->{parts[3]}"
-            return config
-        df['model_combo'] = df['config'].apply(_parse_config)
 
     return df
 
@@ -124,25 +85,6 @@ def normalize_v2_columns(df: pd.DataFrame, pipeline_tag: str) -> pd.DataFrame:
     return df
 
 
-def normalize_v3_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Normalize v3 (prompt optimizer) columns."""
-    if df.empty:
-        return df
-
-    df = _rename_final_scores(df)
-
-    # Build model_combo with optimizer prefix
-    if 'extractor_models' in df.columns and 'supervisor_model' in df.columns:
-        df['model_combo'] = df.apply(
-            lambda r: f"optimized->{r['extractor_models']}->{r['supervisor_model']}",
-            axis=1
-        )
-    elif 'config' in df.columns:
-        df['model_combo'] = df['config'].apply(lambda c: f"optimized->{c}")
-
-    return df
-
-
 def aggregate_all_reports():
     """Main aggregation function."""
     print("\n[Aggregating All Experiment Reports]")
@@ -150,18 +92,10 @@ def aggregate_all_reports():
     
     all_dfs = []
     
-    # --- V1 Reports ---
-    print("\nLoading v1 reports...")
-    v1_df = load_report("experiment_results_v1.csv", "v1")
-    if not v1_df.empty:
-        v1_df = normalize_v1_columns(v1_df)
-        all_dfs.append(v1_df)
-    
     # --- V2 Reports ---
     # The rescored v2 report contains ALL configs (full + ablations) with
     # expanded axis2 metrics.  We tag each row with a descriptive pipeline
-    # label based on the extractor_models combo, rather than loading the
-    # old ablation CSVs which lack axis2 sub-components.
+    # label based on the extractor_models combo.
     print("\nLoading v2 reports...")
 
     v2_all = load_report("experiment_results_v2.csv", "v2")
@@ -188,13 +122,6 @@ def aggregate_all_reports():
             print(f"    {tag}: {count} rows")
 
         all_dfs.append(v2_all)
-    
-    # --- V3 Reports ---
-    print("\nLoading v3 reports...")
-    v3_df = load_report("experiment_results_v3.csv", "v3_optimizer")
-    if not v3_df.empty:
-        v3_df = normalize_v3_columns(v3_df)
-        all_dfs.append(v3_df)
     
     # --- Merge All ---
     if not all_dfs:

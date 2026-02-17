@@ -400,7 +400,7 @@ def score_page(pred: dict, gt: dict) -> dict:
     s1 = score_structure(pred, gt)
     s2 = score_numbers(pred, gt)
 
-    combined = (s1["axis1_score"] + s2["axis2_score"]) / 2.0
+    combined = (0.3 * s1["axis1_score"]) + (0.7 * s2["axis2_score"])
 
     return {
         **s1,

@@ -1,16 +1,16 @@
 """
 experiments/v6_loocv/analyze_oracle.py
 
-Analyzes the unified results to identify the "oracle best" model/ensemble per page.
+Analyzes the unified results to identify the "oracle best" v2 configuration per page.
 
 This script answers:
-  1. For each page, which single model performed best?
-  2. How often does the ensemble (supervisor) beat the best single model?
-  3. What is the performance gap between oracle and ensemble?
-  4. Are there visual/structural patterns in which models excel where?
+  1. For each page, which v2 configuration (full ensemble or ablation) performed best?
+  2. How often does the full ensemble (all 3 extractors) beat the ablations?
+  3. What is the performance of the oracle best configuration?
+  4. Are there visual/structural patterns in which configurations excel where?
 
 Outputs:
-  - oracle_best_per_page.csv: Best config per page with detailed scores
+  - oracle_best_per_page.csv: Best v2 config per page with detailed scores
   - oracle_analysis_summary.txt: Readable summary with insights
 
 Usage:
@@ -50,6 +50,11 @@ def analyze_oracle():
     print(f"  Pages: {df['page'].nunique()}")
     print(f"  Pipelines: {df['pipeline'].unique().tolist()}")
     
+    # All pipelines should be v2 variants (v2_full, v2_no_gemini, v2_no_gpt, v2_no_claude)
+    if not all(df['pipeline'].str.startswith('v2', na=False)):
+        print("\n[Warning] Found non-v2 pipelines in unified results!")
+        print(f"  Expected only v2_* pipelines, but found: {df['pipeline'].unique().tolist()}")
+    
     # Identify oracle best per page
     print("\n[1/4] Identifying oracle best per page...")
     
@@ -66,20 +71,20 @@ def analyze_oracle():
         best_idx = page_df['final_combined'].idxmax()
         best_row = page_df.loc[best_idx]
         
-        # Find best single model (exclude ensembles/supervisors)
-        single_model_df = page_df[~page_df['pipeline'].str.contains('v2|v3', na=False)]
+        # Find best single model (exclude full ensemble, use ablations)
+        ablation_df = page_df[page_df['pipeline'] != 'v2_full']
         
-        best_single_combined = np.nan
-        best_single_model = "N/A"
+        best_ablation_combined = np.nan
+        best_ablation_config = "N/A"
         
-        if not single_model_df.empty:
-            best_single_idx = single_model_df['final_combined'].idxmax()
-            best_single_row = single_model_df.loc[best_single_idx]
-            best_single_combined = best_single_row['final_combined']
-            best_single_model = best_single_row.get('model_combo', best_single_row.get('config', 'unknown'))
+        if not ablation_df.empty:
+            best_ablation_idx = ablation_df['final_combined'].idxmax()
+            best_ablation_row = ablation_df.loc[best_ablation_idx]
+            best_ablation_combined = best_ablation_row['final_combined']
+            best_ablation_config = best_ablation_row.get('model_combo', best_ablation_row.get('config', 'unknown'))
         
-        # Find best ensemble (v2/v3 supervisors)
-        ensemble_df = page_df[page_df['pipeline'].str.contains('v2|v3', na=False)]
+        # Find best full ensemble (v2_full)
+        ensemble_df = page_df[page_df['pipeline'] == 'v2_full']
         
         best_ensemble_combined = np.nan
         best_ensemble_config = "N/A"
@@ -102,13 +107,13 @@ def analyze_oracle():
             'oracle_best_pipeline': best_row['pipeline'],
             'oracle_best_config': best_row.get('model_combo', best_row.get('config', 'unknown')),
             
-            'best_single_combined': best_single_combined,
-            'best_single_model': best_single_model,
+            'best_ablation_combined': best_ablation_combined,
+            'best_ablation_config': best_ablation_config,
             
-            'best_ensemble_combined': best_ensemble_combined,
-            'best_ensemble_config': best_ensemble_config,
+            'best_full_ensemble_combined': best_ensemble_combined,
+            'best_full_ensemble_config': best_ensemble_config,
             
-            'ensemble_vs_single_gap': best_ensemble_combined - best_single_combined if not np.isnan(best_ensemble_combined) and not np.isnan(best_single_combined) else np.nan,
+            'full_ensemble_vs_ablation_gap': best_ensemble_combined - best_ablation_combined if not np.isnan(best_ensemble_combined) and not np.isnan(best_ablation_combined) else np.nan,
         }
         
         oracle_records.append(oracle_record)
@@ -123,25 +128,25 @@ def analyze_oracle():
     # Analyze patterns
     print("\n[2/4] Analyzing patterns...")
     
-    # How often is ensemble best?
-    oracle_is_ensemble = oracle_df['oracle_best_pipeline'].str.contains('v2|v3', na=False).sum()
-    oracle_is_single = len(oracle_df) - oracle_is_ensemble
+    # How often is full ensemble best?
+    oracle_is_full_ensemble = (oracle_df['oracle_best_pipeline'] == 'v2_full').sum()
+    oracle_is_ablation = len(oracle_df) - oracle_is_full_ensemble
     
     print(f"\n  Oracle best is:")
-    print(f"    Ensemble (v2/v3): {oracle_is_ensemble}/{len(oracle_df)} pages ({oracle_is_ensemble/len(oracle_df)*100:.1f}%)")
-    print(f"    Single model (v1): {oracle_is_single}/{len(oracle_df)} pages ({oracle_is_single/len(oracle_df)*100:.1f}%)")
+    print(f"    Full ensemble (v2_full):   {oracle_is_full_ensemble}/{len(oracle_df)} pages ({oracle_is_full_ensemble/len(oracle_df)*100:.1f}%)")
+    print(f"    Ablation (v2_no_*):        {oracle_is_ablation}/{len(oracle_df)} pages ({oracle_is_ablation/len(oracle_df)*100:.1f}%)")
     
     # Average performance gaps
     avg_oracle = oracle_df['oracle_best_combined'].mean()
-    avg_best_single = oracle_df['best_single_combined'].mean()
-    avg_best_ensemble = oracle_df['best_ensemble_combined'].mean()
-    avg_gap = oracle_df['ensemble_vs_single_gap'].mean()
+    avg_best_ablation = oracle_df['best_ablation_combined'].mean()
+    avg_best_full = oracle_df['best_full_ensemble_combined'].mean()
+    avg_gap = oracle_df['full_ensemble_vs_ablation_gap'].mean()
     
     print(f"\n  Average scores:")
-    print(f"    Oracle best:      {avg_oracle:.4f}")
-    print(f"    Best single:      {avg_best_single:.4f}")
-    print(f"    Best ensemble:    {avg_best_ensemble:.4f}")
-    print(f"    Ensemble vs single gap: {avg_gap:+.4f}")
+    print(f"    Oracle best:         {avg_oracle:.4f}")
+    print(f"    Best ablation:       {avg_best_ablation:.4f}")
+    print(f"    Full ensemble:       {avg_best_full:.4f}")
+    print(f"    Full vs ablation gap: {avg_gap:+.4f}")
     
     # Axis2 component breakdown
     if 'oracle_best_axis2_match' in oracle_df.columns:
@@ -165,18 +170,18 @@ def analyze_oracle():
     summary_lines.append("="*60)
     summary_lines.append(f"\nTotal pages analyzed: {len(oracle_df)}")
     summary_lines.append(f"\n{'='*60}")
-    summary_lines.append("BEST MODEL TYPE PER PAGE")
+    summary_lines.append("BEST V2 CONFIGURATION TYPE PER PAGE")
     summary_lines.append("="*60)
-    summary_lines.append(f"Ensemble (v2/v3):    {oracle_is_ensemble:2d} pages ({oracle_is_ensemble/len(oracle_df)*100:.1f}%)")
-    summary_lines.append(f"Single model (v1):   {oracle_is_single:2d} pages ({oracle_is_single/len(oracle_df)*100:.1f}%)")
+    summary_lines.append(f"Full ensemble (v2_full): {oracle_is_full_ensemble:2d} pages ({oracle_is_full_ensemble/len(oracle_df)*100:.1f}%)")
+    summary_lines.append(f"Ablation (v2_no_*):      {oracle_is_ablation:2d} pages ({oracle_is_ablation/len(oracle_df)*100:.1f}%)")
     
     summary_lines.append(f"\n{'='*60}")
     summary_lines.append("AVERAGE PERFORMANCE")
     summary_lines.append("="*60)
     summary_lines.append(f"Oracle best:         {avg_oracle:.4f}")
-    summary_lines.append(f"Best single model:   {avg_best_single:.4f}")
-    summary_lines.append(f"Best ensemble:       {avg_best_ensemble:.4f}")
-    summary_lines.append(f"Ensemble advantage:  {avg_gap:+.4f}")
+    summary_lines.append(f"Best ablation:       {avg_best_ablation:.4f}")
+    summary_lines.append(f"Full ensemble:       {avg_best_full:.4f}")
+    summary_lines.append(f"Full vs ablation gap: {avg_gap:+.4f}")
     
     if 'oracle_best_axis2_match' in oracle_df.columns:
         summary_lines.append(f"\n{'='*60}")
@@ -209,12 +214,12 @@ def analyze_oracle():
     summary_lines.append(f"\n{'='*60}")
     summary_lines.append("INSIGHTS FOR V6 ADAPTIVE ROUTING")
     summary_lines.append("="*60)
-    summary_lines.append(f"1. Oracle avg ({avg_oracle:.4f}) sets the upper bound for v6 prediction")
-    summary_lines.append(f"2. If v6 always picked best single model, avg would be {avg_best_single:.4f}")
-    summary_lines.append(f"3. Performance preservation target: >={avg_oracle * 0.95:.4f} (95% of oracle)")
-    summary_lines.append(f"4. Current SOTA (v2_no_claude): 0.8385")
-    summary_lines.append(f"5. Pages where ensemble helps most: analyze 'ensemble_vs_single_gap' column")
-    summary_lines.append(f"6. Next: Extract visual features + LOOCV prediction")
+    summary_lines.append(f"1. Oracle avg ({avg_oracle:.4f}) sets the upper bound for v6 skip-model")
+    summary_lines.append(f"2. Best ablation avg ({avg_best_ablation:.4f}) is the baseline if extractors are skipped")
+    summary_lines.append(f"3. Full ensemble advantage: {avg_gap:+.4f} (useful on {oracle_is_full_ensemble} pages)")
+    summary_lines.append(f"4. Performance preservation target: >={avg_oracle * 0.95:.4f} (95% of oracle)")
+    summary_lines.append(f"5. Pages where full ensemble helps most: analyze 'full_ensemble_vs_ablation_gap' column")
+    summary_lines.append(f"6. Next: Extract visual features + binary skip-model LOOCV prediction")
     
     summary_text = "\n".join(summary_lines)
     

@@ -7,22 +7,22 @@ Dataset:
   Features extracted: 38
 
 Oracle performance range:
-  Min: 0.6650
+  Min: 0.6825
   Max: 1.0000
-  Mean: 0.8822
-  Std: 0.0909
+  Mean: 0.8876
+  Std: 0.0848
 
 Top 10 features correlated with oracle performance:
-   1. avg_edge_strength                  : +0.421
-   2. sharpness                          : +0.421
-   3. noise_estimate                     : +0.326
-   4. edge_density                       : +0.302
-   5. width                              : +0.288
-   6. total_pixels                       : +0.257
-   7. megapixels                         : +0.257
-   8. block_area_ratio                   : +0.248
-   9. histogram_entropy                  : +0.233
-  10. height                             : +0.228
+   1. avg_edge_strength                  : +0.413
+   2. sharpness                          : +0.413
+   3. noise_estimate                     : +0.304
+   4. block_area_ratio                   : +0.287
+   5. width                              : +0.280
+   6. histogram_entropy                  : +0.267
+   7. edge_density                       : +0.262
+   8. avg_block_size                     : +0.244
+   9. total_pixels                       : +0.235
+  10. megapixels                         : +0.234
 
 Feature importance insights:
   - Features with |correlation| > 0.3 may be useful predictors

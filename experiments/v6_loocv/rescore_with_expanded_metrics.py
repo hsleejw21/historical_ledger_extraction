@@ -1,20 +1,20 @@
 """
 experiments/v6_loocv/rescore_with_expanded_metrics.py
 
-Re-scores ALL cached extraction results using the updated scorer with expanded
+Re-scores cached v2 extraction results using the updated scorer with expanded
 axis2 sub-components (axis2_match, axis2_similarity, axis2_fraction).
 
 This script:
-  1. Scans experiments/results/v1/, v2/, v3/ for all cached extraction JSONs
+  1. Scans experiments/results/v2/ for all cached extraction JSONs
   2. Loads corresponding ground truth
   3. Re-scores with the new scorer
-  4. Generates updated reports with expanded metrics
+  4. Generates updated reports with expanded metrics (includes v2 ablations)
   5. Preserves original reports as backups
 
 Usage:
-    python -m experiments.v6_loocv.rescore_with_expanded_metrics [--pipeline v1|v2|v3|all]
+    python -m experiments.v6_loocv.rescore_with_expanded_metrics
     
-    --pipeline: Which pipeline to re-score (default: all)
+    Note: Only processes v2 pipeline (and includes v2 ablations in output)
 """
 import os
 import sys
@@ -76,19 +76,8 @@ def discover_cached_results(pipeline_version: str):
 
         stem = filename.replace(".json", "")
 
-        if pipeline_version == "v1":
-            # Look for corrector outputs (final stage)
-            if "_corrector_" in filename and "retry" not in filename:
-                page_name, config_key = _parse_page_and_config(stem, "corrector")
-                if page_name is None:
-                    continue
-
-                if page_name not in results:
-                    results[page_name] = {}
-                results[page_name][config_key] = os.path.join(results_dir, filename)
-
-        elif pipeline_version in ("v2", "v3"):
-            # Look for supervisor outputs (final stage)
+        if pipeline_version == "v2":
+            # Look for supervisor outputs (final stage in v2)
             if "_supervisor_" in filename:
                 page_name, config_key = _parse_page_and_config(stem, "supervisor")
                 if page_name is None:
@@ -158,21 +147,8 @@ def rescore_pipeline(pipeline_version: str):
                 }
                 
                 # Add model metadata
-                if pipeline_version == "v1":
-                    # Parse model names from config_key:
-                    #   corrector_{structurer}_{extractor}_{corrector}
-                    config_parts = config_key.split("_")
-                    if len(config_parts) >= 4 and config_parts[0] == "corrector":
-                        record['structurer_model'] = config_parts[1]
-                        record['extractor_model'] = config_parts[2]
-                        record['corrector_model'] = config_parts[3]
-                    else:
-                        # Fallback to _meta
-                        meta = pred.get('_meta', {})
-                        record['structurer_model'] = meta.get('structurer_model', '')
-                        record['extractor_model'] = meta.get('extractor_model', '')
-                        record['corrector_model'] = meta.get('model', '')
-                elif pipeline_version in ("v2", "v3"):
+                if pipeline_version == "v2":
+                    # v2 uses supervisor after extraction
                     meta = pred.get('_meta', {})
                     record['supervisor_model'] = meta.get('supervisor_model', '')
                     record['extractor_models'] = '|'.join(meta.get('candidate_models', []))
@@ -218,26 +194,16 @@ def rescore_pipeline(pipeline_version: str):
 
 
 def rescore_all():
-    """Re-score all pipelines."""
-    for pipeline in ["v1", "v2", "v3"]:
-        rescore_pipeline(pipeline)
+    """Re-score v2 pipeline only."""
+    rescore_pipeline("v2")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Re-score cached results with expanded axis2 metrics")
-    parser.add_argument(
-        "--pipeline",
-        choices=["v1", "v2", "v3", "all"],
-        default="all",
-        help="Which pipeline to re-score (default: all)"
-    )
+    parser = argparse.ArgumentParser(description="Re-score v2 cached results with expanded axis2 metrics")
+    # Note: Only v2 pipeline is supported for v6_loocv
     
     args = parser.parse_args()
-    
-    if args.pipeline == "all":
-        rescore_all()
-    else:
-        rescore_pipeline(args.pipeline)
+    rescore_all()
     
     print("\n" + "="*60)
     print("Re-scoring complete! Next step:")
