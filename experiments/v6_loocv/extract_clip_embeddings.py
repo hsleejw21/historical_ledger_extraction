@@ -81,9 +81,11 @@ def extract_embedding(image_path: str, model, processor, device) -> list:
     inputs = processor(images=img, return_tensors="pt").to(device)
 
     with torch.no_grad():
+        # Get image features (returns a tensor)
         features = model.get_image_features(**inputs)
         # L2-normalize so cosine similarity = dot product
-        features = features / features.norm(dim=-1, keepdim=True)
+        # Use torch.nn.functional.normalize for proper normalization
+        features = torch.nn.functional.normalize(features, p=2, dim=-1)
 
     return features.squeeze().cpu().numpy().tolist()
 
@@ -118,7 +120,10 @@ def extract_all_embeddings(image_dir: str) -> dict:
             continue
 
     print(f"\n[OK] Extracted embeddings for {len(embeddings)}/{len(image_files)} pages")
-    print(f"     Embedding dimension: {len(list(embeddings.values())[0])}")
+    if embeddings:
+        print(f"     Embedding dimension: {len(list(embeddings.values())[0])}")
+    else:
+        print(f"     [Warning] No embeddings extracted! Check errors above.")
 
     return embeddings
 
@@ -134,6 +139,10 @@ def save_embeddings(embeddings: dict, output_path: str):
 
 def print_embedding_summary(embeddings: dict):
     """Print quick summary of extracted embeddings."""
+    if not embeddings:
+        print("\n[Error] No embeddings to summarize!")
+        return
+    
     n_pages = len(embeddings)
     dim = len(list(embeddings.values())[0])
     pages = sorted(embeddings.keys())
