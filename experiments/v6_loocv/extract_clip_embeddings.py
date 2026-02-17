@@ -23,9 +23,14 @@ Usage:
 import os
 import sys
 import json
+import warnings
 import numpy as np
 from pathlib import Path
 from tqdm import tqdm
+
+# Suppress transformers warnings about slow processors
+warnings.filterwarnings("ignore", message=".*slow.*processor.*")
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.config import BASE_DIR
@@ -39,6 +44,9 @@ def load_clip_model():
     try:
         from transformers import CLIPProcessor, CLIPModel
         import torch
+        # Suppress transformers warnings
+        import transformers
+        transformers.logging.set_verbosity_error()
     except ImportError:
         print("[Error] Missing dependencies. Run:")
         print("  pip install transformers torch")
