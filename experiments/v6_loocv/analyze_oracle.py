@@ -224,7 +224,7 @@ def analyze_oracle():
     summary_text = "\n".join(summary_lines)
     
     summary_output_path = os.path.join(V6_OUTPUT_DIR, "oracle_analysis_summary.txt")
-    with open(summary_output_path, "w") as f:
+    with open(summary_output_path, "w", encoding="utf-8") as f:
         f.write(summary_text)
     
     print(f"  [OK] Summary report saved: oracle_analysis_summary.txt")

@@ -10,7 +10,7 @@ Features extracted (20+ per image):
   3. Contrast: dynamic_range, contrast_ratio
   4. Edge features: edge_density, edge_count, avg_edge_strength
   5. Text regions: text_block_count, avg_block_size, block_density
-  6. Layout: estimated_columns, vertical_line_count, horizontal_line_count
+  6. Layout: estimated_columns
   7. Quality: blur_estimate, noise_estimate, sharpness
   8. Histogram: entropy, skewness, dominant_brightness_bin
 

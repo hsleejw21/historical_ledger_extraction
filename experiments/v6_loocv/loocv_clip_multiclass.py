@@ -1,9 +1,9 @@
 """
 experiments/v6_loocv/loocv_clip_multiclass.py
 
-Phase 4B: LOOCV with CLIP embeddings — multi-class pipeline selection.
+LOOCV with CLIP embeddings for multi-class pipeline selection.
 
-Instead of asking "which models to skip?" (binary, Phase 3 + 4A), this asks:
+Instead of asking "which models to skip?" (binary approach), this asks:
   "Which complete v2 pipeline should I run for this page?"
 
 Candidates (from your oracle distribution):
@@ -16,7 +16,7 @@ For each test page, k-NN finds similar pages by CLIP cosine similarity,
 checks which pipeline won on those neighbors, and runs that pipeline.
 Fallback: if neighbor agreement < confidence_threshold → run v2_no_claude (SOTA default).
 
-This directly fixes the core flaw identified in Phase 3:
+This directly fixes the core flaw identified in binary skip systems:
   The binary skip system NEVER predicted v2_no_gemini (because gemini was
   treated as the backbone), but oracle shows it's best on 36% of pages.
 
@@ -90,7 +90,7 @@ def load_data():
     print(f"\n[Oracle pipeline distribution]")
     dist = oracle_df["oracle_best_pipeline"].value_counts()
     for pipeline, count in dist.items():
-        bar = "█" * count
+        bar = "#" * count
         print(f"  {pipeline:15s}: {count:2d} pages  {bar}")
 
     return pages, matrix, oracle_df, unified_df
@@ -122,6 +122,13 @@ def run_loocv(pages, matrix, oracle_df, unified_df,
     """Run one complete LOOCV pass with multi-class prediction."""
 
     score_lookup = build_score_lookup(pages, unified_df)
+
+    # Pre-build axis2 lookup: {page: {pipeline: {col: val}}}
+    _ax2_cols = ["final_axis1", "final_axis2", "axis2_match", "axis2_similarity", "axis2_fraction"]
+    axis2_lookup = {p: {} for p in pages}
+    for _, row in unified_df.iterrows():
+        if row["page"] in axis2_lookup:
+            axis2_lookup[row["page"]][row["pipeline"]] = {c: row.get(c, float("nan")) for c in _ax2_cols}
 
     # Oracle labels: best pipeline per page
     oracle_labels = dict(zip(oracle_df["page"], oracle_df["oracle_best_pipeline"]))
@@ -167,6 +174,9 @@ def run_loocv(pages, matrix, oracle_df, unified_df,
         oracle_pipeline = oracle_labels.get(test_page, "")
         prediction_correct = (chosen_pipeline == oracle_pipeline)
 
+        # Axis2 components for chosen pipeline
+        ax2 = axis2_lookup[test_page].get(chosen_pipeline, {})
+
         # Scores for all candidates (for reference)
         candidate_scores = {c: page_scores.get(c, np.nan) for c in CANDIDATES}
 
@@ -184,6 +194,12 @@ def run_loocv(pages, matrix, oracle_df, unified_df,
             "score_vs_oracle":    final_score / oracle_score if oracle_score else np.nan,
             "score_vs_ensemble":  final_score / full_score   if full_score   else np.nan,
             "api_calls":          API_CALLS.get(chosen_pipeline, 3),
+            # Axis2 components
+            "final_axis1":    ax2.get("final_axis1",    float("nan")),
+            "final_axis2":    ax2.get("final_axis2",    float("nan")),
+            "axis2_match":    ax2.get("axis2_match",    float("nan")),
+            "axis2_similarity": ax2.get("axis2_similarity", float("nan")),
+            "axis2_fraction": ax2.get("axis2_fraction", float("nan")),
             # Vote scores for each candidate
             **{f"vote_{c}": round(vote_scores[c], 3) for c in CANDIDATES},
             # Actual score for each candidate
@@ -211,6 +227,17 @@ def evaluate(results_df, k, confidence_threshold, verbose=True):
     final_avg    = results_df["final_score"].mean()
     pres_oracle  = final_avg / oracle_avg
     pres_ensemble= final_avg / ensemble_avg
+
+    # Axis2 component averages for chosen pipeline
+    axis1_avg     = results_df["final_axis1"].mean()      if "final_axis1"      in results_df.columns else float("nan")
+    axis2_avg     = results_df["final_axis2"].mean()      if "final_axis2"      in results_df.columns else float("nan")
+    ax2_match_avg = results_df["axis2_match"].mean()      if "axis2_match"      in results_df.columns else float("nan")
+    ax2_sim_avg   = results_df["axis2_similarity"].mean() if "axis2_similarity" in results_df.columns else float("nan")
+    ax2_frac_avg  = results_df["axis2_fraction"].mean()   if "axis2_fraction"   in results_df.columns else float("nan")
+
+    # Score distribution stats
+    min_score  = results_df["final_score"].min()
+    score_std  = results_df["final_score"].std()
 
     # Cost
     actual_calls  = results_df["api_calls"].sum()
@@ -290,6 +317,13 @@ def evaluate(results_df, k, confidence_threshold, verbose=True):
         "oracle_avg":      round(oracle_avg, 4),
         "ensemble_avg":    round(ensemble_avg, 4),
         "final_avg":       round(final_avg, 4),
+        "avg_axis1":       round(axis1_avg, 4),
+        "avg_axis2":       round(axis2_avg, 4),
+        "avg_axis2_match": round(ax2_match_avg, 4),
+        "avg_axis2_sim":   round(ax2_sim_avg, 4),
+        "avg_axis2_frac":  round(ax2_frac_avg, 4),
+        "min_score":       round(min_score, 4),
+        "score_std":       round(score_std, 4),
     }
 
 
@@ -314,7 +348,7 @@ def run_sweep(pages, matrix, oracle_df, unified_df):
     print("SWEEP RESULTS (sorted by balanced_score)")
     print(f"{'='*80}")
     print(f"  {'k':>3} | {'conf':>5} | {'accuracy':>9} | {'pres_ens':>9} | "
-          f"{'cost↓':>6} | {'fallback':>9} | {'balanced':>9}")
+          f"{'cost_r':>6} | {'fallback':>9} | {'balanced':>9}")
     print("-"*80)
     for _, row in sweep_df.head(15).iterrows():
         print(f"  {row['k']:>3} | {row['conf_threshold']:>5.2f} | "

@@ -1,15 +1,9 @@
 """
-experiments/v6_loocv/loocv_prediction_v2.py
+experiments/v6_loocv/loocv_prediction.py
 
-Phase 3 (Revised): Binary Skip-Model Prediction via LOOCV.
+Binary skip model prediction via LOOCV using visual features.
 
-PROBLEM WITH V1 APPROACH:
-  - Predicting "which of 6 pipelines is best" → 24.2% accuracy
-  - Too many classes (6), too few samples (33) → ~5 examples per class
-  - k-NN can't reliably learn with this signal
-  - Also: pipelines include v1/v2/v3 which are architecturally different
-
-REVISED APPROACH:
+APPROACH:
   Reframe as a binary decision:
     "Can we SKIP extractor X for this page and still get near-oracle results?"
   
@@ -32,7 +26,7 @@ COST SAVINGS MAP:
   Skip 3 models: impossible (need ≥1 extractor)
 
 Usage:
-    python -m experiments.v6_loocv.loocv_prediction_v2 [--skip-threshold 0.01] [--k 5]
+    python -m experiments.v6_loocv.loocv_prediction [--skip-threshold 0.01] [--k 5]
     
     --skip-threshold: Max score loss to allow skipping (default: 0.01)
     --k: Number of nearest neighbors (default: 5)
@@ -197,7 +191,7 @@ def build_skip_labels(merged_df, unified_df, skip_threshold=0.01):
 def print_label_distribution(labels, merged_df):
     """Show how many pages are safe to skip each extractor."""
     print("\n[Skip Label Distribution]")
-    print(f"  (threshold: skip allowed if score drop ≤ threshold)")
+    print(f"  (threshold: skip allowed if score drop <= threshold)")
     print()
     
     for extractor in EXTRACTORS:
@@ -223,7 +217,7 @@ def get_selected_features(feature_corrs, min_abs_correlation=0.15):
     """Select features with |r| >= threshold based on current oracle scores."""
     selected = feature_corrs[feature_corrs.abs() >= min_abs_correlation].index.tolist()
 
-    print(f"\n[Feature Selection] Using {len(selected)} features (|r| ≥ {min_abs_correlation})")
+    print(f"\n[Feature Selection] Using {len(selected)} features (|r| >= {min_abs_correlation})")
     for f in feature_corrs.abs().sort_values(ascending=False).index:
         if f in selected:
             print(f"  {f:30s}: r = {feature_corrs[f]:+.3f}")
@@ -257,7 +251,7 @@ def run_loocv_binary(merged_df, unified_df, labels, feature_cols,
         - Measure: cost saved + performance preserved
     """
     print("\n" + "="*60)
-    print(f"BINARY LOOCV — k={k}, confidence_threshold={confidence_threshold}")
+    print(f"BINARY LOOCV - k={k}, confidence_threshold={confidence_threshold}")
     print("="*60)
     
     # Select and scale features
@@ -294,8 +288,17 @@ def run_loocv_binary(merged_df, unified_df, labels, feature_cols,
             if not oracle_row.empty:
                 full_ensemble_scores[page] = oracle_row['oracle_best_combined'].values[0]
     
+    # Pre-build axis2 lookup: {page: {pipeline: {col: val}}}
+    _ax2_cols = ["final_axis1", "final_axis2", "axis2_match", "axis2_similarity", "axis2_fraction"]
+    axis2_lookup = {}
+    for page in merged_df['page']:
+        page_rows = unified_df[unified_df['page'] == page]
+        axis2_lookup[page] = {}
+        for _, row in page_rows.iterrows():
+            axis2_lookup[page][row['pipeline']] = {c: row.get(c, float("nan")) for c in _ax2_cols}
+
     print(f"\n[Running LOOCV on {len(merged_df)} pages...]")
-    
+
     for test_idx, test_row in merged_df.iterrows():
         test_page = test_row['page']
         
@@ -367,8 +370,12 @@ def run_loocv_binary(merged_df, unified_df, labels, feature_cols,
         elif n_skipped == 1:
             pipeline_used = EXTRACTOR_TO_PIPELINE[extractors_skipped[0]]
         else:
-            # Multiple skipped → just use the first available single extractor
-            pipeline_used = EXTRACTOR_TO_PIPELINE[extractors_skipped[0]]
+            # 2+ models skipped → no single-extractor pipeline exists in data.
+            # Fall back to full ensemble to avoid using a pipeline that still
+            # runs one of the "skipped" extractors.
+            pipeline_used = FULL_ENSEMBLE_PIPELINE
+            extractors_skipped = []
+            api_calls = 3
         
         # Get actual score for chosen strategy
         chosen_result = unified_df[
@@ -383,7 +390,10 @@ def run_loocv_binary(merged_df, unified_df, labels, feature_cols,
             pipeline_used = FULL_ENSEMBLE_PIPELINE
             api_calls = 3
             final_score = full_ensemble_scores.get(test_page, test_row['oracle_best_combined'])
-        
+
+        # Axis2 components for chosen pipeline
+        ax2_data = axis2_lookup.get(test_page, {}).get(pipeline_used, {c: float("nan") for c in _ax2_cols})
+
         # Oracle score (upper bound)
         oracle_score = test_row['oracle_best_combined']
         full_score = full_ensemble_scores.get(test_page, oracle_score)
@@ -409,6 +419,12 @@ def run_loocv_binary(merged_df, unified_df, labels, feature_cols,
             'api_calls': api_calls,
             'n_skipped': n_skipped,
             'extractors_skipped': ','.join(extractors_skipped) if extractors_skipped else 'none',
+            # Axis2 components
+            'final_axis1':     ax2_data.get('final_axis1',     float('nan')),
+            'final_axis2':     ax2_data.get('final_axis2',     float('nan')),
+            'axis2_match':     ax2_data.get('axis2_match',     float('nan')),
+            'axis2_similarity':ax2_data.get('axis2_similarity',float('nan')),
+            'axis2_fraction':  ax2_data.get('axis2_fraction',  float('nan')),
             **per_extractor_correct
         })
         
@@ -476,7 +492,7 @@ def evaluate(results_df, skip_threshold):
     for n_skip, count in skip_dist.items():
         label = {0: 'Full ensemble', 1: 'Skip 1 model', 2: 'Skip 2 models'}.get(n_skip, f'Skip {n_skip}')
         calls = 3 - n_skip
-        print(f"  {label}: {count:2d} pages ({count/n:.0%}) → {calls} API calls/page")
+        print(f"  {label}: {count:2d} pages ({count/n:.0%}) -> {calls} API calls/page")
     
     print(f"\n[5] Score Distribution by Strategy:")
     for n_skip in sorted(results_df['n_skipped'].unique()):
@@ -499,12 +515,39 @@ def evaluate(results_df, skip_threshold):
             print(f"  {row['page']:15s}: dropped {drop:.1f}% below ensemble "
                   f"(skipped: {row['extractors_skipped']})")
     
+    # Axis2 component averages for chosen pipeline
+    axis1_avg     = results_df['final_axis1'].mean()      if 'final_axis1'      in results_df.columns else float('nan')
+    axis2_avg     = results_df['final_axis2'].mean()      if 'final_axis2'      in results_df.columns else float('nan')
+    ax2_match_avg = results_df['axis2_match'].mean()      if 'axis2_match'      in results_df.columns else float('nan')
+    ax2_sim_avg   = results_df['axis2_similarity'].mean() if 'axis2_similarity' in results_df.columns else float('nan')
+    ax2_frac_avg  = results_df['axis2_fraction'].mean()   if 'axis2_fraction'   in results_df.columns else float('nan')
+
+    # Score distribution stats
+    min_score = results_df['final_score'].min()
+    score_std = results_df['final_score'].std()
+
     return {
+        'skip_threshold': skip_threshold,
         'overall_binary_accuracy': overall_correct / overall_total,
         'performance_preservation_vs_oracle': final_avg / oracle_avg,
         'performance_preservation_vs_ensemble': final_avg / full_avg,
         'cost_reduction': cost_reduction,
         'avg_api_calls': avg_calls,
+        'oracle_avg': oracle_avg,
+        'ensemble_avg': full_avg,
+        'final_avg': final_avg,
+        'avg_axis1':      round(axis1_avg, 4),
+        'avg_axis2':      round(axis2_avg, 4),
+        'avg_axis2_match':round(ax2_match_avg, 4),
+        'avg_axis2_sim':  round(ax2_sim_avg, 4),
+        'avg_axis2_frac': round(ax2_frac_avg, 4),
+        # Score distribution
+        'min_score':  round(min_score, 4),
+        'score_std':  round(score_std, 4),
+        # Balanced score matching clip scripts: 0.3*acc + 0.4*pres_ens + 0.3*cost
+        'balanced_score': (0.3 * (overall_correct / overall_total) +
+                           0.4 * (final_avg / full_avg) +
+                           0.3 * cost_reduction),
     }
 
 
@@ -512,50 +555,103 @@ def evaluate(results_df, skip_threshold):
 # Main
 # ─────────────────────────────────────────────────────────────────────────────
 
+def run_sweep(merged_df, unified_df, feature_cols):
+    """Sweep hyperparameters and save sweep_summary.csv matching clip script format."""
+    from itertools import product as iproduct
+
+    k_values    = [3, 5, 7]
+    thresholds  = [0.005, 0.010, 0.020, 0.030]
+    conf_values = [0.55, 0.60, 0.65, 0.70]
+
+    total = len(k_values) * len(thresholds) * len(conf_values)
+    print(f"\n{'='*60}")
+    print(f"VISUAL BINARY SWEEP ({total} configs)")
+    print(f"{'='*60}")
+
+    rows = []
+    for skip_thr, conf, k in iproduct(thresholds, conf_values, k_values):
+        labels = build_skip_labels(merged_df, unified_df, skip_threshold=skip_thr)
+        results_df = run_loocv_binary(
+            merged_df, unified_df, labels, feature_cols,
+            k=k, confidence_threshold=conf, min_abs_corr=0.15,
+        )
+        metrics = evaluate(results_df, skip_thr)
+        metrics['k'] = k
+        metrics['confidence_threshold'] = conf
+        rows.append(metrics)
+
+    sweep_df = pd.DataFrame(rows).sort_values("balanced_score", ascending=False)
+
+    print(f"\n{'='*80}")
+    print("SWEEP RESULTS (sorted by balanced_score)")
+    print(f"{'='*80}")
+    print(f"  {'skip':>6} | {'conf':>5} | {'k':>3} | {'bin_acc':>8} | "
+          f"{'pres_ens':>9} | {'cost_r':>6} | {'balanced':>9}")
+    print("-"*80)
+    for _, row in sweep_df.head(15).iterrows():
+        print(f"  {row['skip_threshold']:>6.3f} | {row['confidence_threshold']:>5.2f} | "
+              f"{row['k']:>3} | {row['overall_binary_accuracy']:>8.1%} | "
+              f"{row['performance_preservation_vs_ensemble']:>9.1%} | "
+              f"{row['cost_reduction']:>6.1%} | {row['balanced_score']:>9.4f}")
+
+    best = sweep_df.iloc[0]
+    print(f"\n[Best Configuration — Visual Binary]")
+    print(f"  skip_threshold:     {best['skip_threshold']}")
+    print(f"  confidence:         {best['confidence_threshold']}")
+    print(f"  k:                  {best['k']}")
+    print(f"  Binary accuracy:    {best['overall_binary_accuracy']:.1%}")
+    print(f"  Preservation vs ensemble: {best['performance_preservation_vs_ensemble']:.1%}")
+    print(f"  Cost reduction:     {best['cost_reduction']:.1%}")
+    print(f"  Final avg score:    {best['final_avg']:.4f}")
+    print(f"  Balanced score:     {best['balanced_score']:.4f}")
+
+    out_path = os.path.join(OUTPUT_DIR, "sweep_summary.csv")
+    sweep_df.to_csv(out_path, index=False)
+    print(f"\n[Saved] sweep_summary.csv")
+    return sweep_df
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Binary skip-model LOOCV prediction")
-    parser.add_argument("--skip-threshold", type=float, default=0.01,
-                        help="Max score drop to allow skipping (default: 0.01)")
-    parser.add_argument("--k", type=int, default=5,
-                        help="Number of nearest neighbors (default: 5)")
-    parser.add_argument("--confidence-threshold", type=float, default=0.65,
-                        help="Min confidence to act on prediction (default: 0.65)")
-    parser.add_argument("--min-abs-corr", type=float, default=0.15,
-                        help="Feature selection threshold (default: 0.15)")
+    parser.add_argument("--skip-threshold", type=float, default=0.01)
+    parser.add_argument("--k", type=int, default=5)
+    parser.add_argument("--confidence-threshold", type=float, default=0.65)
+    parser.add_argument("--min-abs-corr", type=float, default=0.15)
+    parser.add_argument("--sweep", action="store_true",
+                        help="Run full hyperparameter sweep")
     args = parser.parse_args()
-    
-    print(f"\nConfig: skip_threshold={args.skip_threshold}, k={args.k}, "
-          f"confidence={args.confidence_threshold}, min_corr={args.min_abs_corr}")
-    
-    # Load
+
     merged_df, unified_df, feature_cols = load_data()
-    
-    # Build skip labels
-    print(f"\n[Building skip labels with threshold={args.skip_threshold}]")
-    labels = build_skip_labels(merged_df, unified_df, skip_threshold=args.skip_threshold)
-    print_label_distribution(labels, merged_df)
-    
-    # LOOCV
-    results_df = run_loocv_binary(
-        merged_df, unified_df, labels, feature_cols,
-        k=args.k,
-        confidence_threshold=args.confidence_threshold,
-        min_abs_corr=args.min_abs_corr,
-    )
-    
-    # Evaluate
-    metrics = evaluate(results_df, args.skip_threshold)
-    
-    # Save
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    out_path = os.path.join(OUTPUT_DIR, 
-                            f"loocv_v2_k{args.k}_thr{args.skip_threshold}_"
-                            f"conf{args.confidence_threshold}.csv")
-    results_df.to_csv(out_path, index=False)
-    print(f"\n[Saved] {os.path.basename(out_path)}")
-    
-    print("\n" + "="*60)
-    print("Summary:")
-    for key, val in metrics.items():
-        print(f"  {key}: {val:.1%}" if isinstance(val, float) else f"  {key}: {val:.2f}")
-    print("="*60 + "\n")
+
+    if args.sweep:
+        run_sweep(merged_df, unified_df, feature_cols)
+    else:
+        print(f"\nConfig: skip_threshold={args.skip_threshold}, k={args.k}, "
+              f"confidence={args.confidence_threshold}")
+
+        labels = build_skip_labels(merged_df, unified_df, skip_threshold=args.skip_threshold)
+        print_label_distribution(labels, merged_df)
+
+        results_df = run_loocv_binary(
+            merged_df, unified_df, labels, feature_cols,
+            k=args.k,
+            confidence_threshold=args.confidence_threshold,
+            min_abs_corr=args.min_abs_corr,
+        )
+        metrics = evaluate(results_df, args.skip_threshold)
+
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        out_path = os.path.join(OUTPUT_DIR,
+                                f"loocv_v2_k{args.k}_thr{args.skip_threshold}_"
+                                f"conf{args.confidence_threshold}.csv")
+        results_df.to_csv(out_path, index=False)
+        print(f"\n[Saved] {os.path.basename(out_path)}")
+
+        print("\n" + "="*60)
+        print("Summary:")
+        for key, val in metrics.items():
+            if isinstance(val, float):
+                print(f"  {key}: {val:.4f}")
+            else:
+                print(f"  {key}: {val}")
+        print("="*60 + "\n")

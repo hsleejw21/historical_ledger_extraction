@@ -5,7 +5,7 @@ Extracts 512-dimensional CLIP embeddings from all ledger page images.
 Uses openai/clip-vit-base-patch32 (smallest CLIP model, ~150MB download).
 
 CLIP embeddings capture semantic content — table structure, handwriting style,
-layout complexity — rather than just pixel statistics like the 26 visual features.
+layout complexity — rather than just pixel statistics like the 28 visual features.
 This should better identify pages that are semantically similar even if they
 look visually different (fixing the 1881_1-type failures).
 
@@ -93,7 +93,7 @@ def extract_embedding(image_path: str, model, processor, device) -> list:
 def extract_all_embeddings(image_dir: str) -> dict:
     """Extract CLIP embeddings for all PNG images in the directory."""
     print("\n" + "="*60)
-    print("PHASE 4: CLIP Embedding Extraction")
+    print("CLIP EMBEDDING EXTRACTION")
     print("="*60)
 
     image_files = sorted(Path(image_dir).glob("*.png"))
@@ -192,5 +192,5 @@ if __name__ == "__main__":
         print("Next steps:")
         print("  4A (binary skip):   python -m experiments.v6_loocv.loocv_clip_binary --sweep")
         print("  4B (multi-class):   python -m experiments.v6_loocv.loocv_clip_multiclass --sweep")
-        print("  Compare all:        python -m experiments.v6_loocv.compare_phase4")
+        print("  Compare all:        python -m experiments.v6_loocv.compare_systems")
         print(f"{'='*60}\n")
