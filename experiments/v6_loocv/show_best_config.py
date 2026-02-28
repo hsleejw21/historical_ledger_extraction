@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-base_dir = r"c:\Users\hslee\Documents\RA\HAI Lab\Historical Ledger Extraction\historical_ledger_extraction"
-summary_path = os.path.join(base_dir, "experiments", "v6_loocv", "outputs", "sweep_summary.csv")
+# Path relative to this file's location (experiments/v6_loocv/)
+summary_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs", "sweep_summary.csv")
 
 # Read sweep summary
 summary_df = pd.read_csv(summary_path)
