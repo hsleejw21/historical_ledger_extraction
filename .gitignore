@@ -24,9 +24,20 @@ env/
 # Claude Code
 .claude/
 
-# Large data files (images are stored in your local data/ or via LFS)
+# Large data files (images, PDFs, ground truth — stored locally or via LFS)
 data/images/
 data/ground_truth/
+data/sample_pdf/
+
+# Experiment results (JSON outputs, zip archives, logs)
+experiments/results/sample_pdf/
+experiments/results/sample_pdf.zip
+experiments/results/sample_pdf_results.xlsx
+experiments/run_v2_no_claude.log
+
+# Pipeline cache and outputs
+pipeline/cache/
+pipeline/output/
 
 # OS
 .DS_Store
