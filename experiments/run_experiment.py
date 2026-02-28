@@ -48,8 +48,12 @@ def _import_v2():
 # ===========================================================================
 # Shared helpers
 # ===========================================================================
+_RESULTS_SUBDIR = None  # overridden by --subdir
+
+
 def _versioned_results_dir(version: str) -> str:
-    path = os.path.join(RESULTS_DIR, version)
+    subdir = _RESULTS_SUBDIR if _RESULTS_SUBDIR else version
+    path = os.path.join(RESULTS_DIR, subdir)
     os.makedirs(path, exist_ok=True)
     return path
 
@@ -91,8 +95,6 @@ def _load_ground_truths(pages: dict):
         if os.path.exists(gt_path):
             with open(gt_path, "r", encoding="utf-8") as f:
                 gts[page_name] = json.load(f)
-        else:
-            print(f"  [Warning] No GT for {page_name}")
     return gts
 
 
@@ -359,7 +361,10 @@ def score_v2(pipeline_out, gt, extractor_keys):
 # ===========================================================================
 # Main experiment loop
 # ===========================================================================
-def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
+def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False, subdir=None):
+    global _RESULTS_SUBDIR
+    if subdir:
+        _RESULTS_SUBDIR = subdir
     pages = _discover_pages(DATA_DIR)
     if pages_filter:
         pages = {k: v for k, v in pages.items() if k in pages_filter}
@@ -377,17 +382,21 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
     records = []
 
     for page_name, image_path in sorted(pages.items()):
-        if page_name not in gts:
-            continue
-        gt = gts[page_name]
-        print(f"\n[Page] {page_name}")
+        gt = gts.get(page_name)  # None if no ground truth
+        has_gt = gt is not None
+        if not has_gt:
+            print(f"\n[Page] {page_name}  (no ground truth — extraction only)")
+        else:
+            print(f"\n[Page] {page_name}")
 
         if pipeline_version == "v1":
+            if not has_gt:
+                continue  # v1 needs GT for retry scoring
             combos = list(itertools.product(
                 cfg["structurer"], cfg["extractor"], cfg["corrector"]
             ))
             for (s_key, e_key, c_key) in combos:
-                print(f"  [{s_key} → {e_key} → {c_key}]")
+                print(f"  [{s_key} -> {e_key} -> {c_key}]")
                 try:
                     pipeline_out = run_v1_pipeline(image_path, page_name, s_key, e_key, c_key, gt, eval_only)
                 except Exception as ex:
@@ -398,10 +407,10 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
                 record.update(score_v1(pipeline_out, gt))
                 records.append(record)
 
-        elif pipeline_version == "v2":
+        elif cfg["version"] == "v2":
             extractor_keys = cfg["extractors"]
             for sup_key in cfg["supervisor"]:
-                print(f"  [extractors: {extractor_keys} → supervisor: {sup_key}]")
+                print(f"  [extractors: {extractor_keys} -> supervisor: {sup_key}]")
                 try:
                     pipeline_out = run_v2_pipeline(image_path, page_name, extractor_keys, sup_key, eval_only)
                 except Exception as ex:
@@ -409,7 +418,8 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
                     continue
                 record = {"page": page_name, "supervisor_model": sup_key,
                           "extractor_models": "|".join(extractor_keys)}
-                record.update(score_v2(pipeline_out, gt, extractor_keys))
+                if has_gt:
+                    record.update(score_v2(pipeline_out, gt, extractor_keys))
                 records.append(record)
 
     # --- Write report ---
@@ -418,10 +428,10 @@ def run_experiments(pipeline_version="v2", pages_filter=None, eval_only=False):
         df = pd.DataFrame(records)
         report_path = os.path.join(REPORT_DIR, f"experiment_results_{pipeline_version}.csv")
         df.to_csv(report_path, index=False)
-        print(f"\n[Report] → {report_path}")
+        print(f"\n[Report] -> {report_path}")
 
         print(f"\n--- {pipeline_version.upper()} SUMMARY ---")
-        if pipeline_version == "v2" and "supervisor_combined" in df.columns:
+        if cfg.get("version") == "v2" and "supervisor_combined" in df.columns:
             print(f"  Avg supervisor_combined : {df['supervisor_combined'].mean():.4f}")
             for e_key in cfg["extractors"]:
                 col = f"ext_{e_key}_combined"
@@ -474,7 +484,7 @@ def run_comparison():
 
     comp_path = os.path.join(REPORT_DIR, "v1_vs_v2_comparison.csv")
     merged.to_csv(comp_path, index=False)
-    print(f"\n[Comparison] → {comp_path}")
+    print(f"\n[Comparison] -> {comp_path}")
 
 
 # ===========================================================================
@@ -482,7 +492,7 @@ def run_comparison():
 # ===========================================================================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run ledger extraction experiments.")
-    parser.add_argument("--pipeline", choices=["v1", "v2"], default="v2",
+    parser.add_argument("--pipeline", choices=["v1", "v2", "v2_no_claude"], default="v2",
                         help="Which pipeline to run (default: v2).")
     parser.add_argument("--pages", nargs="+", default=None,
                         help="Limit to specific page names.")
@@ -490,6 +500,8 @@ if __name__ == "__main__":
                         help="Skip all API calls. Only load cached results and re-score.")
     parser.add_argument("--compare", action="store_true", default=False,
                         help="Compare v1 and v2 results side by side.")
+    parser.add_argument("--subdir", default=None,
+                        help="Save results under results/<subdir>/ instead of results/<pipeline>/.")
     args = parser.parse_args()
 
     if args.compare:
@@ -499,4 +511,5 @@ if __name__ == "__main__":
             pipeline_version=args.pipeline,
             pages_filter=args.pages,
             eval_only=args.eval_only,
+            subdir=args.subdir,
         )

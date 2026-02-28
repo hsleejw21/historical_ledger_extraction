@@ -56,13 +56,13 @@ AGENT_ROLES = {
 # on the "version" key.  Adding a new pipeline here is all it takes to make
 # it available via --pipeline on the CLI.
 #
-# v1 — original 3-agent sequential pipeline (structurer → extractor → corrector)
-# v2 — competitive extraction + supervisor  (N extractors → supervisor)
+# v1 — original 3-agent sequential pipeline (structurer -> extractor -> corrector)
+# v2 — competitive extraction + supervisor  (N extractors -> supervisor)
 # ---------------------------------------------------------------------------
 PIPELINES = {
     "v1": {
         "version": "v1",
-        "description": "Structurer → Extractor → Corrector (skeleton-based)",
+        "description": "Structurer -> Extractor -> Corrector (skeleton-based)",
         "stages": ["structurer", "extractor", "corrector"],
         "structurer": ["gemini-flash", "claude-haiku", "gpt-5-mini"],
         "extractor":  ["gemini-flash", "claude-haiku", "gpt-5-mini"],
@@ -76,6 +76,13 @@ PIPELINES = {
         # The supervisor sees all candidates and picks the best row-by-row.
         "extractors": ["gemini-flash", "gpt-5-mini", "claude-haiku"],
         # Supervisor model — needs strong reasoning; one model is enough.
+        "supervisor": ["gemini-flash"],
+    },
+    "v2_no_claude": {
+        "version": "v2",
+        "description": "Ablation: Supervisor sees only Gemini + GPT (no Claude)",
+        "stages": ["extractors", "supervisor"],
+        "extractors": ["gemini-flash", "gpt-5-mini"],
         "supervisor": ["gemini-flash"],
     },
 }

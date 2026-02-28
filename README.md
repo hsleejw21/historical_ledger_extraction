@@ -9,6 +9,8 @@ Automated extraction of 18th-19th century English parish ledgers using multi-age
 - [Current SOTA](#-current-sota-v2_no_claude)
 - [Evaluation Metrics](#-evaluation-metrics)
 - [Technical Challenges](#-key-technical-challenges-solved)
+- [Production Pipeline](#-production-pipeline)
+- [Tools](#-tools)
 - [Quick Start](#-quick-start)
 - [Git Workflow](#-git-workflow)
 
@@ -74,8 +76,14 @@ The config is automatically loaded by `src/config.py`.
 
 ```
 historical_ledger_extraction/
+├── pipeline/                          # ← PRODUCTION PIPELINE (start here)
+│   ├── run_pipeline.py                # Clean v2_no_claude runner → Excel output
+│   ├── cache/                         # Intermediate extractor/supervisor JSONs
+│   └── output/                        # Final Excel files
+├── tools/
+│   └── export_to_excel.py             # Convert existing results dir → Excel
 ├── data/
-│   ├── images/              # 33 ledger page scans (.png)
+│   ├── images/              # Ledger page scans (.png)
 │   ├── ground_truth/        # Manual annotations (.json) — ground truth labels
 │   └── results/             # Deprecated (old structure)
 ├── src/
@@ -91,21 +99,20 @@ historical_ledger_extraction/
 │   │   ├── agentic_supervisor.py     # Debate prompts
 │   │   ├── validator.py              # Validation rules
 │   │   └── prompt_optimizer.py       # Optimizer instructions
-│   ├── agents/evaluation/
+│   ├── evaluation/
 │   │   ├── scorer.py                 # Axis1/Axis2 scoring logic
 │   │   └── gt_converter.py           # Ground truth parser
 │   ├── clients.py           # Unified LLM client (OpenAI, Google, Anthropic)
 │   ├── config.py            # Model registry & pipeline configurations
 │   ├── validation.py        # Currency rule checks (shillings, pence, fractions)
 │   └── __init__.py
-├── experiments/
-│   ├── run_experiment.py    # Main experiment runner (v1-v5)
+├── experiments/             # Research & ablation experiments (not for production)
+│   ├── run_experiment.py    # Experiment runner (v1–v5, ablations)
 │   ├── results/             # Experiment outputs by pipeline version
 │   │   ├── v1/              # Skeleton-based extraction
 │   │   ├── v2/              # Multi-extractor + supervisor
-│   │   ├── v3/              # Prompt optimizer experiments
-│   │   ├── v4/              # Agentic debate experiments
-│   │   └── v5/              # Validator experiments
+│   │   ├── sample_pdf/      # Large-scale sample PDF results
+│   │   └── ...
 │   └── reports/
 │       └── experiment_results_*.csv  # Summary results (ablations, comparisons)
 ├── requirements.txt         # Python dependencies
@@ -373,31 +380,122 @@ Before running a new experiment:
 
 ---
 
+## 🚀 Production Pipeline
+
+The `pipeline/` folder contains the final, clean production pipeline — completely separate from the research experiments.
+
+### **Architecture**
+
+```
+Image(s)
+  │
+  ├─────────────────────────┐
+  ▼                         ▼
+┌──────────────┐   ┌──────────────┐
+│ gemini-flash │   │ gpt-5-mini   │
+│  Extractor   │   │  Extractor   │
+└──────────────┘   └──────────────┘
+        │                  │
+        └────────┬──────────┘
+                 ▼
+        ┌─────────────────┐
+        │ gemini-flash    │
+        │   Supervisor    │
+        │ (row-by-row)    │
+        └─────────────────┘
+                 │
+                 ▼
+        📊 Excel Output
+        (one sheet per page)
+```
+
+### **Running the pipeline**
+
+```bash
+# Process all images in a directory:
+python pipeline/run_pipeline.py --images data/images/
+
+# Process specific pages:
+python pipeline/run_pipeline.py --images data/images/1700_7.png data/images/1700_8.png
+
+# Reuse cached intermediate results (skip API calls for already-processed pages):
+python pipeline/run_pipeline.py --images data/images/ --use-cache
+
+# Specify output path:
+python pipeline/run_pipeline.py --images data/images/ --output results/ledger.xlsx
+```
+
+### **Output**
+
+The pipeline produces a single `.xlsx` file:
+- **Summary sheet** — page-level row counts (total, entries, headers, totals)
+- **One sheet per page** — clean extraction: row #, type, description, £, s, d, fraction
+
+Intermediate extractor and supervisor JSONs are saved to `pipeline/cache/` for reuse.
+
+---
+
+## 🛠 Tools
+
+### **Export Existing Results to Excel**
+
+Convert any folder of supervisor JSON results (e.g., `experiments/results/sample_pdf/`) into a single Excel file:
+
+```bash
+# Export sample_pdf results (default):
+python tools/export_to_excel.py
+
+# Export from a specific results directory:
+python tools/export_to_excel.py --results-dir experiments/results/sample_pdf
+
+# Specify output path:
+python tools/export_to_excel.py --output my_results.xlsx
+```
+
+Output: one Excel file with a **Summary** sheet and one sheet per page, with colour-coded row types (blue = headers, green = totals, white = entries).
+
+---
+
 ## 🏃 Quick Start
 
-### **1. Run SOTA Pipeline (Full)**
+### **1. Production Extraction (New — Recommended)**
+
+```bash
+# Process all images → outputs a single Excel file
+python pipeline/run_pipeline.py --images data/images/
+
+# Single page test
+python pipeline/run_pipeline.py --images data/images/1700_7.png
+
+# Reuse cache (no API cost for already-processed pages)
+python pipeline/run_pipeline.py --images data/images/ --use-cache
+```
+
+### **2. Export Existing Results to Excel**
+
+```bash
+# Convert the sample_pdf results folder to Excel
+python tools/export_to_excel.py
+
+# From a custom results directory
+python tools/export_to_excel.py --results-dir experiments/results/sample_pdf
+```
+
+### **3. Run Experiment Pipeline (Research)**
 
 ```bash
 python -m experiments.run_experiment --pipeline v2_no_claude
 ```
 
-This runs gemini-flash + gpt-5-mini extractors, then supervisor arbitration on all 33 pages.
+Runs extractors on all 33 research pages with full scoring against ground truth.
 
-### **2. Test on Single Page (Quick Validation)**
+### **4. Test Single Page (Research)**
 
 ```bash
 python -m experiments.run_experiment --pipeline v2_no_claude --pages 1700_7
 ```
 
-Useful for rapid testing during development.
-
-### **3. Run Multiple Pages**
-
-```bash
-python -m experiments.run_experiment --pipeline v2_no_claude --pages 1700_7 1873_5 1900_6
-```
-
-### **4. Evaluation Only (Reuse Cached Results)**
+### **5. Evaluation Only (Reuse Cached Results)**
 
 ```bash
 python -m experiments.run_experiment --pipeline v2_no_claude --eval-only
@@ -405,7 +503,7 @@ python -m experiments.run_experiment --pipeline v2_no_claude --eval-only
 
 Re-scores previous results without re-running extractors (fast, cost-free).
 
-### **5. Compare Pipelines (Ablation Study)**
+### **6. Compare Pipelines (Ablation Study)**
 
 ```bash
 python -m experiments.run_experiment --compare-ablations
@@ -413,9 +511,9 @@ python -m experiments.run_experiment --compare-ablations
 
 Compares v2, v2_no_claude, v2_no_gemini, v2_no_gpt side-by-side.
 
-### **6. Check Available Pipelines**
+### **7. Check Available Pipelines**
 
-See `src/config.py` for all available pipelines and models.
+See [src/config.py](src/config.py) for all available pipelines and models.
 
 ---
 
@@ -506,6 +604,6 @@ Affiliation: HAI Lab
 ---
 
 **Repository Info:**  
-**Last Updated:** February 9, 2026  
-**Current SOTA:** v2_no_claude (0.8385 combined, 0.8515 axis2)  
-**Status:** Active development  
+**Last Updated:** February 28, 2026
+**Current SOTA:** v2_no_claude (0.8385 combined, 0.8515 axis2)
+**Status:** Active development — production pipeline added (`pipeline/run_pipeline.py`)
