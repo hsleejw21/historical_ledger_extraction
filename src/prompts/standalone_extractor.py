@@ -73,6 +73,10 @@ STEP 4 — CURRENCY VALIDATION  (check every row before outputting)
 If you extract shillings ≥ 20 or pence ≥ 12, you have almost certainly
 misread the column boundaries.  Go back and re-examine.
 
+Digit caution: handwritten 0, 6, and 9 are often visually similar in these
+ledgers.  For every ambiguous digit, check loop direction/closure, pen tail,
+and alignment with neighboring rows before deciding.
+
 ================================================================================
 STEP 5 — FRACTION HANDLING
 ================================================================================
