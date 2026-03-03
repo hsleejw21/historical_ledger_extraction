@@ -1,0 +1,250 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clearly the year header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Dno Rectori Schol: et Off:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clearly a section header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stip: ad Fest Nativ: 1854 (P.J.D) Page 183",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed upon by both extractors. Description reconciled visually: 'Fest' (gemini-flash) and 'Nativ:' (gpt-5-mini) were chosen. The parenthetical text was determined to be '(P.J.D)' as in gemini-flash."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augm: S: Newton et Merton Do 184",
+      "amount_pounds": 24,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'S:' (with colon) taken from gemini-flash, confirmed by visual inspection."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stip: Dno Thiers Do 185",
+      "amount_pounds": 31,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'Thiers' taken from gemini-flash, confirmed by visual inspection of the 'T'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augm Comm ejusdem Dno et Capell: Do 186",
+      "amount_pounds": 56,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed upon, with both extractors correctly interpreting the empty pence column as '0'. Description 'Dno' taken from gpt-5-mini, confirmed visually. gpt-5-mini's note about 'Capell' being slightly ambiguous was acknowledged, but reading is confident."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dno Rectori Do",
+      "amount_pounds": 28,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. All values are clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Stip: ad Fest Ann 1855 Do 187",
+      "amount_pounds": 26,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'Fest' taken from gemini-flash, confirmed by visual inspection."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Augm Kidl: pro 3 Anni particlr Do 188",
+      "amount_pounds": 49,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed upon, including the 0.25 fraction (both correctly identified '¼'). Description 'particlr Do' taken from gpt-5-mini and confirmed visually. gpt-5-mini's note about the faint fraction and description ambiguity was helpful."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Dno Rectori Do",
+      "amount_pounds": 28,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. All values are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Stip: ad Fest D. Jo. Bapt: et Off: Do 208",
+      "amount_pounds": 18,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description reconciled visually: 'Fest', 'D.', and 'Off:' were taken from gemini-flash, confirmed by inspection."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Id. Dno Thiers Do 209",
+      "amount_pounds": 31,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'Thiers' taken from gemini-flash, confirmed by visual inspection of the 'T'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Augm: Comm: ejusdem Do. Modus Sola: Do 210",
+      "amount_pounds": 52,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed upon, with both extractors correctly interpreting the empty pence column as '0'. The small superscript text in the description was visually confirmed as 'Modus Sola:' (as in gemini-flash). gpt-5-mini correctly noted ambiguity, but the text is legible upon close inspection."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Id. Kidlington pro 4 parte Ann Do 211",
+      "amount_pounds": 16,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'Ann' taken from gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Dno Rectori Do",
+      "amount_pounds": 28,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description 'Dno Rectori Do' taken from gpt-5-mini, confirmed visually."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stip: Gwinear ad Fest Mich Do 212",
+      "amount_pounds": 24,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed upon by both extractors. Description reconciled visually: 'Stip:' (gpt-5-mini) and 'Fest Mich' (gemini-flash) were chosen. 'Mich' is likely for Michaelmas."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Augm Comm: de Wittenham Lonyn Do 213",
+      "amount_pounds": 34,
+      "amount_shillings": 16,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts agreed upon by both extractors. Description 'Wittenham Lonyn' taken from gemini-flash, confirmed visually. gpt-5-mini correctly noted ambiguity in description, which required careful inspection."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 28,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. All values are clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mr Low. Fine Kidlington Mills -",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed upon by both extractors. Description reconciled visually: 'Mr Low.' (gemini-flash) and 'Kidlington' (gpt-5-mini) were chosen. gpt-5-mini's note about the cramped description was helpful."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Beaton Do -",
+      "amount_pounds": 17,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts differed significantly between extractors, resolved by visual verification. Pounds and shillings (17, 7) are clear. The pence column shows no whole digit but a clear '3/4' fraction, thus 0 pence and 0.75 fraction. This matches gemini-flash's interpretation. Description 'Beaton Do -' confirmed."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 508,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clearly the total for the page."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 6,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

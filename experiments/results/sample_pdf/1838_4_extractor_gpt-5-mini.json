@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1238.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear printed folio/ledger number at top centre. No monetary columns present on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Solicitor's [Paid forward]",
+      "amount_pounds": 269,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns (269 10 3) are well aligned and clear. Description handwriting is less certain — reads as a carried forward / paid forward line (I chose 'Solicitor's [Paid forward]' as a concise transcription)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Subscriptions Viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear heading in larger script introducing the list of subscription entries; no amounts on this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Infirmary for 1838",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description and amount (6 6 0) are clearly legible and align with pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Per Court School to Mrs. 1837",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (20 0 0) clear. Description partly uncertain: reads like 'Per Court School to Mrs. 1837' — the middle word could be 'Court' or 'Coast' or 'Par. Court'; chosen reading based on letter shapes and context."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Redington Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (5 5 0) clear. Place/name reads like 'Redington' followed by the abbreviation 'Do.' (ditto). Minor uncertainty in a single internal letter."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "St Newington Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (5 5 0) clear. Description reads 'St Newington' followed by 'Do' (ditto). Letters are legible though ornate."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Little Town Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (6 0 0) clear. Description looks like 'Little Town Do' (the first word might be 'Little' or similar small-place name)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garston Do",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (3 3 0) clear. Description reads as 'Garston' (G-a-r-s-t-o-n) with 'Do' abbreviation. Handwriting of first letter is slightly cramped but legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Wharton Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (5 5 0) clear. First word appears to be 'Wharton' or 'Warton' (handwriting of 'h' small and ambiguous), followed by 'Do'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "L. H. Blackburne Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (5 5 0) clear. Name appears as an initialed person 'L. H. Blackburne' followed by 'Do'. The initials are inferred from capital shapes; surname reading is moderately certain."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Florencear Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount (5 0 0) clear. Description is hard to read — looks like 'Florencear' or 'Florencear/Flovencar'. I chose a best-fit transcription but the proper place/name is uncertain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Smale living in Diocese of Oxford",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount (5 0 0) clear. Description appears to read 'Smale living in Diocese of Oxford' or similar phrasing — 'Smale' might be a surname or 'Small' with an ornate 'l'. The 'Diocese of Oxford' phrase is fairly clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "The University Marshal",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (2 0 0) clear. Description clearly reads 'The University Marshal' (handwriting legible for this formal title)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "The Bell Ringer & Chapel Clerk",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (12 0 0) clear. Description reads as 'The Bell Ringer & Chapel Clerk' (ampersand and roles are legible)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Rowe (?) for care of the Clock",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount (5 5 0) clear. Surname appears as 'Rowe' or 'Rowel' for 'care of the clock' — the name's final letters are slightly ambiguous; function 'care of the clock' is legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Copy Prices",
+      "amount_pounds": 0,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Columns show 19 shillings 6 pence; pounds column blank so set to 0. Description reads like 'Copy Prices' or 'Coy Prices' — first letter uncertain but 'Prices' is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Easter Offering",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (1 1 0) and description 'Easter Offering' are both legible. Alignment with columns is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (10 0 0) clear. Description 'Parish Rates' readable and unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Synodals & Procurations",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Text reads 'Synodals & Procurations' but there is no amount on this line. The spelling is old-fashioned and the ampersand is used; absence of numbers is clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "College Gardener - 1st Do to Xmas 1837",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (7 12 6) is well aligned and legible. Description is moderately clear: 'College Gardener - 1st Do to Xmas 1837' (interpreted 'Do' as 'ditto' style abbreviation)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "2nd - to Ditto 1838",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (7 13 0) clear. Line reads '2nd - to Ditto 1838' (the exact wording is abbreviated and the middle abbreviation was expanded to 'Ditto' for clarity)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "3rd - (mid?)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "There is a third line under the College Gardener heading with '3d -' and a short word that looks like 'Mid' or 'Mids.' but no distinct numeric amount on this line; the script is faint here."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "4th Mich.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Fourth line reads '4th Mich.' (likely a period label). There is no separate amount on this line; it appears grouped with the previous lines (faint handwriting)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Total (College Gardener group)",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "A bracketed subtotal for the College Gardener lines is written as 18 10 0; alignment and digits are clear. I labeled this a 'total' because it is presented as the sum for the bracketed group."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "L 401 0 3",
+      "amount_pounds": 401,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final page total at bottom right (L 401 0 3) is clearly written and aligned. Interpreted 'L' as the pound sign; this is the page total and thus a 'total' row."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

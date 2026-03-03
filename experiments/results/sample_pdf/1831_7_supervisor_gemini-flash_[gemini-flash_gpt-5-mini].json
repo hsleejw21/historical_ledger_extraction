@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors. Clearly a header with no associated amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Solutio Varia. — Brot. over",
+      "amount_pounds": 1339,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Solutio Varia' (gemini-flash's reading) and pence '6' (gemini-flash's reading). gpt-5-mini had 'Soluta Paria' and pence '5'. The row has associated amounts, so 'entry' type is correct (gemini-flash)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To Mr Davenport - Surveyor",
+      "amount_pounds": 39,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Mr' (gemini-flash) rather than 'W.' (gpt-5-mini). Amounts are clearly 39/9/6 and agreed upon by both."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "- Mr. Greenshields --- Do",
+      "amount_pounds": 10,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms the leading dash and '--- Do' formatting (gemini-flash). Amounts are clear and agreed upon by both."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "the Subrector his deficiency of Salary for the year ending at Mhids. 1831",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash ('Subrector', 'Mhids') is visually more accurate. Amounts were a point of disagreement: gpt-5-mini missed them entirely, and gemini-flash misidentified column alignment. Visual inspection confirms amounts as 4 shillings and 4 pence, with no pounds value. This overrides both extractors' amount interpretations."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest to the Library Fund for the Loan of £68.14.11 at 4 p. Ct – one year",
+      "amount_pounds": 122,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description details 'Library Fund', '£68.14.11', and '4 p. Ct' (gemini-flash's reading). gpt-5-mini had 'Reserve Fund', '3068.14.11', and '4%'. Amounts are clear and agreed upon by both extractors."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors. Description and amounts are clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Letters, Stamps &c.",
+      "amount_pounds": 4,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors. Description and amounts are clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Plowman for Surveying Barn at Merton",
+      "amount_pounds": 3,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors. Amounts are clear. Visual inspection confirms the description despite minor ambiguity in handwriting identified by gpt-5-mini's notes."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Mr. Doynon – Donation to Gr. Ins. School",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms 'Mr. Doynon' and 'Gr. Ins. School' (gemini-flash's reading). gpt-5-mini had 'W. Dayman' and 'Gr. Ind. School'. Amounts are clear and agreed upon by both."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr. Difs. Plowman's Bill for work done to the Chancel at Merton",
+      "amount_pounds": 36,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms description details 'Mr. Difs.', 'to the Chancel', and 'Merton' (gemini-flash's reading). gpt-5-mini had 'Mr Lees.', 'in the Channel', and 'Newton'. Amounts are clear and agreed upon by both."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual inspection confirms the description column contains only the '£' symbol (gemini-flash's reading). gpt-5-mini included amounts in the description. Amounts are clear and agreed upon by both extractors. Clearly marked total with double underline."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 8,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

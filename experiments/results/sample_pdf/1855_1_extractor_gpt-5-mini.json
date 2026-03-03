@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear printed year at top of page, unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus dni Rectoris J.P. Letchford a 2do die Novembris A.D. 1854 ad eundem diem revolution A.D. 1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Long Latin/English heading; several words faint or abbreviated (e.g. 'dni', 'Recto ris'); transcription is best-effort following visible letter-forms (some letters uncertain)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Section title under ruled line; handwriting for 'Arrearagia' is slightly ambiguous (could be 'Arrearagia' or 'Arrearagia recepta'), chosen reading matches ink strokes and spacing."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bampton Money 1st",
+      "amount_pounds": 19,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings columns clearly aligned to the vertical rules; only two numerals visible (19 and 5) so no pence written — interpreted as blank pence column."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bensington Money / Corn 1st",
+      "amount_pounds": 6,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "All three numeric columns (6 | 18 | 9) are distinct and clear; shillings (18) and pence (9) are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Chase Hill Money / Corn 1st",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Three-column numeric group '12 15 5' clearly aligned; digits legible and valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Money / Corn 2 yr",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers '30 9 6' are well aligned in the three currency columns. The text '2 yr' after 'corn' is faint but apparent; small uncertainty in the exact abbreviation for '2 yr'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gwinear Money 1st & Lady Day 1854",
+      "amount_pounds": 58,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds (58) and shillings (5) visible; no pence digit present. 'Lady Day 1854' visible though slightly faded; allocation of the phrase is clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Keddington Rectory (Corn 1yr)",
+      "amount_pounds": 214,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Large pounds figure '214' is clearly written and aligned with pounds column; shillings '13' and pence '4' appear in the correct columns and are legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "money",
+      "amount_pounds": 19,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Indented sub-item under Keddington Rectory; numeric group '19 2 6' clear. The word 'money' is short and slightly faded but context makes it certain this is the money sub-item."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Capons & Brawn",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Sub-item label 'Capons & Brawn' readable; amounts '2 12 9' clearly in their respective columns and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Rec'd Land Tax",
+      "amount_pounds": 21,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Numbers '21 6 1' visible but the pence '1' is slightly faint and close to a stray ink mark; chosen reading fits alignment with column lines."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Cottages",
+      "amount_pounds": 4,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Three-part amount '4 8 3' is clear and correctly aligned with the rule lines; 'Cottages' word is legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Keddington Mills Money / Corn 1yr",
+      "amount_pounds": 17,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Indented heading 'Keddington Mills' then 'Money' and 'Corn' visible; numeric '17 16 3' aligns well with columns and is legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Land Lane (late Norris)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name introducing a grouped set of sub-entries; the parenthetical 'late Norris' is legible though slightly faded."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Chaplin / Pickford money 1st",
+      "amount_pounds": 17,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Amount appears as '17 3 2 1/2' — pence digit '2' and a half-penny mark (looks like 'ob' / small loop). Fraction interpreted as 0.5; fraction symbol is somewhat faint but matches halfpenny form."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "1/4 of remaining Rent",
+      "amount_pounds": 32,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numeric trio '32 19 5' is clear and well aligned; the descriptor '1/4 of remaining Rent' is readable though cramped."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Little Iew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Small place heading (spelled 'Little Iew' on page). The exact letter of the second word is slightly stylised but reading 'Iew' matches the visible strokes."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Manor Farm money 1st",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Three numbers appear '6 5 8'; the pounds digit '6' and shillings '5' are clear; pence '8' a little cramped but legible in pence column."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Timber money &c",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The entry 'timber' (abbreviated) is readable; numeric '3 19 6' clearly aligned and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Cottages money",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single '9' appears in the pounds column for this line but the context is ambiguous (could be 9 pounds or 9 shillings depending on faint alignment). Chosen as 9 pounds because the digit aligns with the pounds column; however the ink is light and placement not perfectly clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory money 1st",
+      "amount_pounds": 108,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Large pounds figure '108' is clear and aligns with pounds column; '9' and '10' for shillings/pence respectively are legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "corn",
+      "amount_pounds": 26,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Sub-entry 'corn' under Long Wittenham; numeric '26 15 6' is clear and valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Rec'd Land Tax",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Only a solitary '3' visible on this line in the pounds column; shillings and pence not written. The 'Rec'd Land Tax' label is faint; chosen as £3 0s 0d given alignment but faintness lowers confidence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do. Cottages",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Line reads 'Do. Cottages' (do = ditto to previous entry) but there is no clearly associated numeric group visible on the same horizontal line — ink/spacing make it unclear whether a numeric follows or it is blank here. Serious ambiguity so left amounts blank."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Medenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name appears as 'Medenham' or 'Medonham' — letters slightly stylised; chosen 'Medenham' as best visual match to the page."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "money 1st",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Numeric '6 5 8' appears clearly to the right of 'Medenham money 1st'. Alignment consistent with pounds/shillings/pence columns. Minor uncertainty in the small script for 'Medenham'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "1/4 Remaining Rent",
+      "amount_pounds": 16,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Amount appears as '16 10 1/2' — shillings '10' clear, pence shows '1' with a half-penny symbol (loop) after it. Fraction interpreted as 0.5. Slight fade on the half-penny mark but form matches other half-penny notations on the page."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 618,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final aggregate at bottom right appears as '618 1 2' (a dot precedes the 618 but this is a typographic/formatting mark). The three numeric columns align with the rule lines and are legible."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

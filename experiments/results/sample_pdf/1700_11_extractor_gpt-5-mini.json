@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearija Anni 1701",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top-of-page title. Letters are fairly legible but orthography is archaic/uncertain (looks like 'Arrearija Anni 1701'). No amounts present and central heading style marks this as a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Guinear pro Ashro",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns clearly aligned; reads 60 0 0. The description handwriting is partially indistinct (first word begins with G/Q and second word uncertain) so I transcribed literally as it appears."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Longwitternham pro Mick",
+      "amount_pounds": 26,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and all three amount columns are clear and well-aligned. Pounds 26, shillings 8, pence 0 are unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mispirret pro Biernio",
+      "amount_pounds": 70,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amounts read in the three narrow right-hand columns as '70 / 8 / 8' but the description is hard to decipher (letters uncertain). Column alignment seems correct; chosen digits match visible loops but some ink blots make letters ambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South-?Rawston pro Mick",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (30 0 0) are clear and well aligned. The description is mostly legible as 'South-... pro Mick' though one internal word/letter is slightly abbreviated; chosen transcription follows the visible letters."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Merton pro Biernio",
+      "amount_pounds": 21,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric columns: reads 21 pounds, 19 shillings, 4 pence. Description script is legible as 'Merton pro Biernio'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chace-Hill pro Mick",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts 2/17/9 are clearly positioned in the three columns. The name 'Chace-Hill pro Mick' is readily readable."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Thrup pro Mick",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns read 2 / 7 / 1 clearly. The place-name is abbreviated and reads 'Thrup' (the middle letters slightly indistinct), hence slightly reduced confidence on description."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Gae Quit Rent pro Mick",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts (2/15/0) clear in the columns. The description appears to say 'Quit Rent' (preceded by a short word like 'Gae' or 'Gae'), letters for the first word are not fully clear, so transcription follows the visible form."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Yardington pro Mick",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear handwriting for description and amounts; reads 5/0/0."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshalls Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Ralph Marshalls Capons' is legible; amount columns read 0/3/0 without ambiguity."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Callet pro Mick",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount columns align to 1 / 7 / 0 but the pence column has a small trailing mark that might be a fractional symbol or stray ink; I interpreted as 0 pence and no fraction. Description letters are slightly cramped making the first word uncertain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Addington Mills pro Mick",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear: 'Addington Mills pro Mick' and amounts 4/6/11 are well formed and in-range (pence 11 valid)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton pro Biennio",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts (2/0/0) are clearly legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mountague pro Quadriennio",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amounts (2/5/0) are clear, but the descriptive phrase includes an abbreviated Latin/technical phrase (appears like 'Quadriennio' or similar) that is partially faded/abbreviated — transcription follows visible letters with some uncertainty."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hughs pro Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading: name 'Hughs' and amounts 0/16/0 clearly placed and within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greenway pro Mick",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts 0/10/0 are clear and description 'Greenway pro Mick' is legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Walker pro Mick",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Well-aligned amounts 0/8/6 and clear name 'Walker' make this high confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Minne pro Mick",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts 0/11/8 clearly visible; description reads 'Minne pro Mick' with legible handwriting."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Cauder Gate pro Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 0/8/0 is readable, but the description is crossed/skewed and partially overwritten by a slight blot; I read the place as 'Cauder Gate' though letters are ambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brome pro Mick",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numeric columns show '2 / 3 / 5' but there are stray pen-strokes near the pence column (small extra marks) — I interpreted main pence digit as 5. Description 'Brome' is readable but slightly slanted."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sader pro Mick",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Columns align to 2 / 0 / 5, though there are faint additional marks after the pence that look like pen-smears; description likely 'Saler' or 'Sader'—letters are not crisp."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Pinkinhalls & Rugh / Hopkin pro Arros",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "This is a multi-name/bracketed line (several names written on one line). Numbers read roughly as 4 / 14 / 8 but there are extra small digits or marginal notes nearby (e.g. '89' or '9') that make the exact punctuation/annotation uncertain. Handwriting here is crowded and interlined; amount chosen from the three aligned columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Clifton Ferry pro Arros",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns read 4/10/8 clearly. Description looks like 'Clifton ferry' though the middle word could be 'ferry' or 'ferrye'—transcribed as appears."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Benjington pro Mick",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers 1/13/8 are legible and in valid ranges. Description 'Benjington' reads clearly though spelling could vary historically."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Braythorne",
+      "amount_pounds": 7,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts 7/14/4 are evident. The place-name is somewhat stylized script but reads as 'Braythorne' (letters clear enough to be confident)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "South & Newton Fermented pro Bienniox",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numbers 3/2/0 are clear. The descriptive phrase is long and abbreviated (appears as 'South & Newton Fermeed pro Bienniox' or similar); letters are partially faded/abbreviated so transcription attempts to preserve visible characters but remains uncertain."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Tickhamn Before the Lease",
+      "amount_pounds": 51,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large sum in columns reads 51/17/0 clearly. The description reads 'Tickhamn before the lease' (handwriting for 'before the lease' is slightly compressed but legible)."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Tickhamn since the Lease pro sequin",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amounts 9/0/0 are clear. The description 'since the lease pro ...' has abbreviations and a marginal abbreviation that is not fully clear (transcribed as 'sequin' to reflect visible letters)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Burton Vicarage pro Arpro",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read 0/16/0 clearly. 'Burton Vicarage' is legible; final Latin/abbreviated suffix is less certain but follows visible letters."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Seal Common (Martin 8s & Harry 8s)",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Final line shows a bracketed pair of names with '8s' each; the total amount in columns is clearly 16/0/0. Parenthetical names and '8s' abbreviations are transcribed as they appear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

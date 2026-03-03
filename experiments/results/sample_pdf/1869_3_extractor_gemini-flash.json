@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header. No monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fees. Fund. Payments on a/c of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header. 'a/c' is interpreted as 'account'. No monetary amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Scholarships",
+      "amount_pounds": 18,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Open Exhibitions",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 5s 0d. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subrector",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Dean",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 1s 5d. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Junr. Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 12s 10d. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Porter for Letters 3/4 & Midm 1868",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The value in the pence column, '15', is invalid if read as a single pence value (must be 0-11). Re-examined based on instruction; it's interpreted as a compound notation common in historical ledgers where '1' contributes to shillings and '5' is pence (15d = 1s 3d). Thus, shillings become 3 + 1 = 4, and pence 3. Pounds column is blank. Description '3/4' is part of the text, not an amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Subrector",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Dean",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 1s 5d. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Land Tax",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Junr. Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 12s 10d. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Open Exhibition to Midm 1869",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 5s 0d. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Junr. Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 12s 10d. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Subrector",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Dean",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 1s 5d. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Parker",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 1s 6d. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Willert - keys",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Only pence value is present and clear. Pounds and shillings columns are blank."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Subrector",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bursar. Sheppard",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 12s 10d. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dean. Do",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 1s 5d. 'Do' is read as 'ditto'. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Symm by Hammond £10. Self-",
+      "amount_pounds": 178,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of amount values £178 9s 1d. The '£10' in the description is contextual text, not the actual extracted amount. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Nunney by Do £6.0.2. Self",
+      "amount_pounds": 56,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of amount values £56 6s 6d. The '£6.0.2' in the description is contextual text, not the actual extracted amount. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Thomas by Do £8.5.8 Self",
+      "amount_pounds": 137,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of amount values £137 8s 7d. The '£8.5.8' in the description is contextual text, not the actual extracted amount. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Gill & Ward by Do £7.1.0 Dunn 22.10. Self",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds column is blank. Shillings and pence are clearly 8s 3d. The '£7.1.0' in the description is contextual text, not the actual extracted amount. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Knowles by Do £6. . Self",
+      "amount_pounds": 48,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of amount values £48 1s 3d. The '£6.' in the description is contextual text, not the actual extracted amount. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hayes Books, for Chapel",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The value in the pence column, '16', is invalid if read as a single pence value. Re-examined based on instruction; it's interpreted as a compound notation where '1' contributes to shillings and '6' is pence (16d = 1s 4d). Thus, shillings become 5 + 1 = 6, and pence 4. Pounds column is blank."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Baxter",
+      "amount_pounds": "",
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' symbol in the pounds column is interpreted as no pounds. Shillings and pence are clearly 14s 5d. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Vincent",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The value in the pence column, '16', is invalid if read as a single pence value. Re-examined based on instruction; it's interpreted as a compound notation where '1' contributes to shillings and '6' is pence (16d = 1s 4d). Thus, shillings become 8 + 1 = 9, and pence 4. Pounds column is blank."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Quit Rent Warboro.",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds column is blank. Shillings and pence are clearly 1s 7d. All values in valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1090,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear final total row. The pounds, shillings, and pence values are all distinct and in valid ranges. Description field is intentionally left blank as it's a numerical total line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

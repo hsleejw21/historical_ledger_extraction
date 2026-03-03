@@ -1,0 +1,320 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sol. Schol. Car. pmi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top-of-page title/header. Handwriting of a few letters is indistinct (especially the last word: 'pmi' is my best visual match). No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Hartleys Fine for L: Tew",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Amounts columns aligned with vertical rules. Pounds column blank/zero, shillings clearly '9', pence '8' with small quarter-farthing/quarter mark visible (interpreted as 0.25). Description is legible; small uncertainty in final abbreviation 'L: Tew'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Wells For Clifton Fearey",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Pounds '1', shillings '10' and pence '5' with a clear halfpenny loop ('ob') interpreted as 0.5. Surname 'Fearey/Ferrey' reading uncertain from handwriting; chosen 'Fearey' as closest visual match."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "B: Gardiner for L: Tew",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds column blank/zero, shillings '11' clear. Pence shows '6' with a halfpenny loop (interpreted as 0.5). Description and initials legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Ann Barnwells for L: Tew",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Shillings '2' and pence '3' with halfpenny sign (0.5). Surname 'Barnwells' readable; small flourish but unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "W Taylors for Do",
+      "amount_pounds": 3,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Pounds '3', shillings '9' clear. Pence '2' with a small quarter mark (interpreted as 0.25). 'Do' = ditto; description is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "J Hodges for Trethewin",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Pounds '2', shillings '6' clear. Pence looks like '1' with a '3q' style mark (three‑farthings) interpreted as 0.75. Place-name spelling uncertain; 'Trethewin' is my best reading of the handwriting."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Ann Burgis for Benson",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds '1', shillings '18' clearly written. Pence '5' with halfpenny loop (0.5). Description readable."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ann Becks for L Tew",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds '3', shillings '6', pence '3' with halfpenny 'ob' sign. 'Ann Becks' legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "13. 14. 1¼",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Subtotal line across the entries above. Numerals are aligned with the vertical ruling lines and the pence shows a clear quarter sign (0.25)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Soluta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered section header 'Soluta varia'. No amounts on this line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "To Mr Townsend for work done in bringing a New Pipe of the Hincksey water to supply the Kitchen as by Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description long but legible. Amount aligns to columns: pounds '2', shillings '14', pence '10' (no fraction)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "To 877l.10s.3d in 3 per Cent Cons. at 6 8¼ per Ct.",
+      "amount_pounds": 598,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This line describes purchase/conversion; amount '598.18.0' aligned in the money columns. The interest/rate notation '6 8¼' is legible but slightly cramped, so confidence lowered for that part."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Commission - 1.2.0",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Commission line is on its own row with amount clearly '1.2.0'. Text and numbers are distinct."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "}",
+      "amount_pounds": 600,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Bracketed subtotal/result of the two preceding lines (598.18.0 + 1.2.0 = 600.0.0). The brace is present on the page; amount '600.0.0' is clear and aligned."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mr Hickman Plumber",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and trade legible. Amount columns show '12.2.0' clearly."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mr Bush as by Bill",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Mr Bush as by Bill' readable. Amount '10.4.3' clear in columns."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "To Mr Davis & Mrs Hemming on Acct of Acton",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Shillings read as '4' and pence '0'. The names 'Davis & Mrs Hemming' are legible though spacing is tight; 'Acton' reading of the place is my best interpretation from the handwriting."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Allowed J Hartley inclosing extra Expences & L: Tew",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '5.18.8' clear. Word 'inclosing' and 'Expences' spelled in period form; 'L: Tew' abbreviation appears again. Minor uncertainty in exact punctuation but meaning clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "To Mr Davis Bill as Exhib'r & Libr'n for 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '6.6.0' clear and aligned. Abbreviations 'Exhib'r' and 'Libr'n' appear in the original; interpreted literally."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "St Thomas",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single short line 'St Thomas' appears beneath previous entry with no separate amount in the money columns; likely a sub-note or place reference. No amounts visible for this row."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Allowed B: Gardiner Inclosing Expenses for the Tenement formerly Cives now Renewed",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '10.0.0' clear at right. Long description readable though a few words ('Cives') are old spelling; transcription follows the manuscript."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Watchman of St Michl Parish & Lamphighters",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '0.3.6' clearly aligned. 'St Michl' abbreviation (Michael) and 'Lamphighters' legible. Minor abbreviation but unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Wine Punch & Fruits Acct",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '3.8.7' clear. Description abbreviated as on page ('Fruits Acct')."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "College Sub. to the Radcliff Infirmary for 96",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '5.5.0' clear. 'Radcliff Infirmary' reading is pretty clear; final 'for 96' appears on the page and is transcribed literally."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Tho: Dodd for Lamplighting for a Year",
+      "amount_pounds": 4,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '4.16.6' legible. Abbreviation 'Tho:' for Thomas clear. Handwriting of 'Lamplighting' slightly contracted but readable."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Mr Taunton's Bill for Law Charges at Kidder",
+      "amount_pounds": 13,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '13.4.10' clear. Surname 'Taunton' and 'Kidder' (probably Kidderminster or Kidderminster abbreviated) read from the manuscript; location truncated on page so there is mild uncertainty."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Car. Over",
+      "amount_pounds": 674,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Bottom-right running total '674.8.2' (carried over). Numerals are clear though the word 'Car. Over' is abbreviated; amount columns align with ruling lines."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

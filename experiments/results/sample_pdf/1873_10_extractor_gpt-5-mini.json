@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page year at top of page, no amounts present. Legible and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Donus Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear heading underlined. Handwriting legible though the word 'Donus' might be variant of 'Donor' but transcribed exactly as it appears."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per Cent on Estates",
+      "amount_pounds": 533,
+      "amount_shillings": 3,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds digits (hundreds) moderately unclear — the hundreds digit could be 5(2/3) or similar. Shillings '3' and pence '11' with a clear half-penny loop (interpreted as 0.5) are legible. Column alignment is consistent with other rows but hundreds digit uncertainty lowers confidence."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "15 per Cent on Room Rent",
+      "amount_pounds": 235,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers are well-placed beneath the pounds/shillings/pence ruling. '235' pounds and '18' shillings read clearly; pence '3' unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bushey Divs",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description possibly abbreviated ('Divs' for dividends) but readable. Numeric columns align; 7 pounds 4 shillings 10 pence clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Masters Composition £150.10.0 To fund 24/60",
+      "amount_pounds": 175,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description contains additional ledger notation referencing composition; amount '175 6 0' reads clearly and columns align well."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2d rec't £58.19.0 Do 8.13.6",
+      "amount_pounds": 67,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "This is a continuation/sub-item of Masters Composition showing combined amounts; pounds '67', shillings '12', pence '6' are well aligned and legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3d Do 59.6.0 Do 9.1.0",
+      "amount_pounds": 68,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Another sub-line of the Masters Composition group. Values '68 7 0' read consistently in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Late Rectors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Late Rectors Prize' legible. Numeric '13 1 0' is clear and aligned to columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "1 wr to Xmas last warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partly unclear ('1 wr' uncertain abbreviation). Amount '2 2 0' reads clearly in columns; description ambiguity lowers confidence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms Rectors Lodgings",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and amount '3 0 0' are straightforward and well-aligned."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickenson Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name 'Dickenson' and phrase 'Balance of Rent' are legible. Amount '43 0 0' clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Room Rent except of moisty",
+      "amount_pounds": 118,
+      "amount_shillings": 8,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description has one uncertain word (transcribed as 'moisty') but numeric columns '118 8 5' are well aligned and readable."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "T. Newton Cottage 1 day. net 1.60 Mid Do 3.19.8",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Complex description with ledger notes; numeric '5 5 8' reads clearly. The text contains abbreviated amounts referenced in-line but main amounts are legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bursar Furniture",
+      "amount_pounds": 34,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Bursar Furniture' readable (small uncertain parenthetical note omitted). Amount '34 10 0' clear in columns."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Keys - Gamlen, Wilson, Child, Willet, Broadset",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "List of names as keys recipients clear. Amount '5 0 0' clearly aligned."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Masters compos. Fund closed out see Caution Book July 11. 1867",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Long descriptive note referencing a caution book; amount '15 8 8' is neatly written and columns align. Slight ink flourish around text reduces readability marginally."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "By sale of small stones",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Phrase 'By sale of small stones' legible. Amount '10 0 0' clear and centered in numeric columns."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Allowed for Chapel Steps",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and amount '6 6 6' are clear. All numeric values fall within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Money advanced to Pelham. Return of",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible though line ends mid-phrase; amount '60 0 0' is unambiguous in the pounds column."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1391,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final boxed total at bottom right reads '1391 7 9 1/2'. Numerals and halfpenny loop are clear and columns used for alignment are unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

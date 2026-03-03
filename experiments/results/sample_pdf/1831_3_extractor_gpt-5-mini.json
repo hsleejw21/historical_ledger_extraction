@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred year at top of page in large script. No monetary columns present; unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred section title in large cursive. No amounts on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Civitati Avon",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reading uncertain (handwritten cursive); read as 'Civitati Avon'. Monetary columns (4/14/0) are clearly aligned to ruling lines and validate (shillings 0-19, pence 0-11). Chose these numeric values based on neat alignment with other rows."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Annae Leetings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description letters faint and ambiguous; transcribed as 'Annae Leetings' to reflect appearance. Amount reads as a leading dot (no pounds) then 1 s. 8 d. Alignment with vertical column lines is reasonable but description uncertainty lowers confidence."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Pate Mr. Burs.",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description read as 'Pate Mr. Burs.' (the abbreviation 'Mr.' and 'Burs.' visible). Amount shown as no pounds (dot), 18s 4d — digits are dark and well aligned; shillings/pence within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Comm. Annin.",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description likely 'Coll. Comm. Annin.' (college/committee abbreviation) but wording is legible enough. Amount 4/12/6 is clear, digits well aligned to column lines and validate."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. Balliol",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text reads clearly as 'Coll. Balliol'. Amount appears as no pounds then 12s 6d (leading dot). Numerals and alignment are unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll. D. Jo: Bapt.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description with abbreviations 'D. Jo: Bapt.' is legible. Amount reads as 8s 2d with no pounds; digits are clear and align with column guides."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Supervisor Adif.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description uncertain in final letters (read as 'Adif.'); amount 10/0/0 is clearly written, bold, and aligned. Letter ambiguity reduces confidence slightly."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Sanitorii",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description appears to be 'Sanitori' or similar (handwriting a little indistinct). Amount 1/14/8 is legible and aligned; numeric confidence higher than text."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Public Cler. ad F. Natis. 1830",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Public Cler. ad F. Natis. 1830' readable in cursive. Amount 10/10/0 is clear and aligns with the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": " - cid ad F.D. Jo. Bapt. 1831",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Continuation line (leading dash) referencing 1831; text 'cid ad F.D. Jo. Bapt.' visible. Amount 10/10/0 matches alignment of previous similar entry."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Concionatori ad F. Conserr. 1830",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description slightly abbreviated/Latin ('Concionatori ad F. ... 1830'); read as 'Concionatori ad F. Conserr. 1830'. Amount 2/2/0 is clear and within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": " - eid ad F. Pasch. 1831",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Follow-on line (dash) referencing 'Pasch. 1831' — text legible. Amount 2/2/0 clearly aligned with other small entries."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Vicarius Morton ad F. Ann. 1831",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name 'Vicarius Morton' and year 1831 clearly legible. Amount 25/0/0 is prominent and neatly aligned; very high confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": " - eid ad F. S. Mich. 1831",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Continuation line for same officer (dash) referencing 'S. Mich. 1831'. Amount 25/0/0 matches alignment and is clearly written."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Vicar. S. Newton. ad F. Ann. 1831",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Text 'Vicar. S. Newton. ad F. Ann. 1831' is legible. Amount 20/0/0 is clear and aligns with the pounds column."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": " - eid ad F. S. Mich. 1831",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Continuation (dash) referencing 'S. Mich. 1831' again; amount 20/0/0 clearly written and aligned."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Assessd Taxes for the Lodgings - April 1831",
+      "amount_pounds": 8,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Assessd Taxes for the Lodgings - April 1831'. Pence column shows '9' with a small trailing loop interpreted as 'ob' (halfpenny) → 0.5; alignment is consistent with other rows."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do. - Do. Oct. 1831",
+      "amount_pounds": 8,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Abbreviated 'Do. - Do.' (ditto) for October 1831. Pence again shows '9' with a halfpenny mark similar to the April line; digits align neatly."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Paving & Lighting Tax",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads clearly as 'Paving & Lighting Tax' (handwriting legible). Amount 3/7/6 visible and well aligned to ruling lines."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Land Tax for the Stables yard",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description legible; amount appears to be 1/7/6 but the tens digit in pounds/shillings area is faint — could be 1 or possibly blank; chosen 1/7/6 based on alignment with neighbouring entries."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "River Water from the City works",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description 'River Water from the City works'. Amount 5/5/0 is dark and aligned to the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Insurance of College",
+      "amount_pounds": 45,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description 'Insurance of College' clear. Amount 45/15/0 is prominent and easily read; numeric alignment very clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "College Gardiner 1st Do. to Xmas 1830",
+      "amount_pounds": 8,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text reads 'College Gardiner 1st Do. to Xmas 1830' (gardener spelling consistent with original). Amount 8/3/6 is clear and aligned."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": " - 2nd to Do. Jan 1831",
+      "amount_pounds": 9,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Continuation line for gardener payments ('2nd to Do. Jan 1831'). Amount reads 9/18/9; digits are clear though the 18s is close to the 20 boundary (but still valid)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": " - 3rd \" \" Mid? 1831",
+      "amount_pounds": 14,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line shows '3rd' and a month abbreviation that reads like 'Mid' (mid-year) — transcription of text uncertain. Amount 14/11/9 is clear and well aligned; uncertainty mainly in the month/word."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": " - 4th to Mich. 1831",
+      "amount_pounds": 8,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Continuation '4th to Mich. 1831' (Michaelmas). Amount 8/4/6 is legible and aligns with the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "L 252 10 4",
+      "amount_pounds": 252,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total at bottom right of page ('£252 10 4') is very clear, heavily written and aligns perfectly with the column guides. Used as alignment reference for column detection."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

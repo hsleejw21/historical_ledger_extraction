@@ -1,0 +1,372 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Top-of-page year written centrally. Legible numerals '1881' though slightly stylised; no amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee fund Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered title underlined. No monetary amounts on title row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bursar Local Rate",
+      "amount_pounds": 130,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts clear. Vertical ruling lines for £/s/d alignment unambiguous; values 130/3/9 readable and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do 2d payment",
+      "amount_pounds": 130,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Ditto line ('Do') and '2d payment' legible. Amount 130/3/9 clearly aligned underneath previous pounds/shillings/pence; minor handwriting flourish on 'Do' but numbers clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subrector",
+      "amount_pounds": 150,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text reads as 'Subrector' (handwriting ambiguous between 'Subrector'/'Sublector'); amounts 150/0/0 are well aligned and clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Willett Dean",
+      "amount_pounds": 45,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name reads 'Willett Dean' (double 't' visible). Amount 45/0/0 clearly printed and aligned."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 339,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A right-aligned number '339 9 0' appears here slightly below the Dean line; likely a subtotal. The lack of an explicit label and slight misalignment make this identification moderately uncertain."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Nat science Scholars",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads as 'Nat science Scholars' (abbreviation 'Nat' for Natural). Amount 3/3/6 is small but clearly formed and aligns with the £/s/d columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Servants Reading Room",
+      "amount_pounds": 16,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible as 'Servants Reading Room'. Amount 16/17/0 is clear and correctly within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "College Gardener",
+      "amount_pounds": 178,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'College Gardener'. Pounds and shillings legible; pence digit looks like a small '2' (could be faint) but is within valid range and aligns with the pence column."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tyhm",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short name looks like 'Tyhm' (handwriting ambiguous — could be 'Tylm' or 'Symm'). Amount 9/16/0 reads clearly; uncertainty is in the description spelling."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Parker",
+      "amount_pounds": 26,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Parker' is clear. Amount 26/17/6 well formed and aligned to the columns."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rowell",
+      "amount_pounds": 43,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Surname 'Rowell' clearly written. Amount 43/14/5 is legible and in valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "A Rowell",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Appears as an initial plus surname 'A Rowell' or 'R Rowell' (initial ambiguous). Amount 8/13/0 aligned and readable."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gill & Co",
+      "amount_pounds": 82,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Firm name 'Gill & Co' clearly visible. Amount 82/12/1 is well aligned and legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Baxter",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Baxter' legible. Amount 8/17/6 clear and in valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 120,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Knowles' clear. Amount 120/3/9 well-formed and aligns with the £/s/d columns."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Open Exhibition",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Open Exhibition' clearly written. Amount 90/0/0 is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1383,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear right-hand subtotal '1383 12 5' printed under the column and underlined. Alignment with ruling lines is unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Domus payments",
+      "amount_pounds": 4945,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Centre-left summary line reads 'Domus payments' (Latin 'Domus' visible). Amount appears as '4945.0.4' — interpreted as £4945 0s 4d; pence digit clear, no visible fraction."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Fee fund do",
+      "amount_pounds": 1383,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Fee fund do' (ditto). Amount matches the earlier subtotal 1383/12/5 visible above; digits are clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Deficit last year",
+      "amount_pounds": 1450,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Reads 'Deficit last year' and amount shows '1450.18.6 1/4' — pence printed as '6' with a small '1/4' fraction beside it; interpreted as 6d + 1/4 (0.25). Some ink blur on the fraction but the '1/4' marking is visible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 7719,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Right-hand total '7719 10 9' appears after an underline summing the three lines above. Number is legible but position suggests it's the combined total; minor uncertainty because it's printed at the far right with underline."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Domus receipts",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Reads 'Domus receipts' with amount '3390.0.4 1/4' — pence 4 with a small quarter visible (interpreted as 0.25). Pounds and shillings align clearly; the fraction mark is faint but discernible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Fee fund do",
+      "amount_pounds": 2860,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Fee fund do' with amount '2860 11 7' clearly legible. No fractional pence visible."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6250,
+      "amount_shillings": 11,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Subtotal printed as '6250.11.11 1/4' (appears twice in the block). Pounds/shillings/pence read clearly; a small '1/4' fraction is visible beside the pence — interpreted as +0.25d. Slight ink smudge on fraction."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1520,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Right-most lower total reads '1520.18.9 3/4' — pence 9 with '3/4' (three quarters) clearly visible. Alignment is clear; fraction interpretation as 0.75 is confident though fraction marks are smaller."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "Nov. 2 1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Date line near signatures clearly reads 'Nov. 2 1881'. No monetary amounts on this row."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "Examined and allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Approval statement 'Examined and allowed' is legible and acts as a structural label for the signatures below."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "J O Lightfoot Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Signature/typed name 'J O Lightfoot' followed by title 'Rector'. Handwritten signature flourishes reduce clarity slightly but name is readable."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Thomas Stephens Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Signature line reads 'Thomas Stephens Fellow' — handwritten and somewhat stylised; letters are discernible but faint in places."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "Ingram Bywater Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Signature 'Ingram Bywater' with title 'Fellow' visible. Handwriting is cursive and slightly cramped; identification confident but not perfect."
+    },
+    {
+      "row_index": 33,
+      "row_type": "header",
+      "description": "Lewis Richard Farnell Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Signature reads as 'Lewis Richard Farnell Fellow' (three names plus title). Handwritten and faint in lower strokes; name components are legible though flourished."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

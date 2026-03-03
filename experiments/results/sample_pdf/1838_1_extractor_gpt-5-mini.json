@@ -1,0 +1,174 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear printed year at top of page, centered and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Receipts Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear heading text with underline; handwriting is neat and fully legible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Dr. Proprietors & Tenants one years Rent Charges to Wm? 1834",
+      "amount_pounds": 220,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns aligned under the right ruling lines and read as 220 0 0 clearly. Description wording is partly obscured/ornate script: 'Proprietors & Tenants' and 'one years' are legible; following name 'Wm?' and exact last letters uncertain."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Interest on Monthly Deposit 4? 17? 5? 3 pr cent",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount reads as 5 pounds, 18 shillings, 8 pence; alignment with column lines is moderate but pence digit slightly smudged (could be 7 or 8), chosen 8 based on position under pence column. Description is partly faded; I transcribed approximate words 'Interest on Monthly Deposit' and left the numeric/annotation fragment uncertain."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mr. Gilmore Insurance Dividends to March 1837",
+      "amount_pounds": 428,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds-shillings-pence columns are well aligned and read clearly as 428 6 8. Name and 'Insurance'/'Dividends' wording readable but ornate; year 'March 1837' visible. Minor uncertainty in exact spelling of the surname."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do. Office of Whitlock",
+      "amount_pounds": 16,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numeric columns show 16 8 7 but the pence digit slightly faint; chosen 7 based on alignment with pence column. 'Whitlock' reading uncertain — script could be 'Whitelock' or 'Whitelost'; prefixed by 'Do.' (ditto) is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Receipt full of improved rents from Ridford",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns read clearly as 29 6 8. Description 'improved rents' and 'from' are legible; the place-name looks like 'Ridford' but could be slightly different (handwriting flourish on middle letters)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do. from Medenham to Mars 1836",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts 15 13 10 are well aligned and distinct. The line begins with 'Do.' (ditto) twice then place-name that reads 'Medenham' or similar and the year '1836' (written as 'Mars' for March) — wording mostly legible though the place spelling uncertain."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Of Mr Beaton(?) Guttinhalde, Mr ? rent for the season of the State",
+      "amount_pounds": 5,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 5 3 6 reads under the correct columns but description is moderately unclear: several proper names (Mr Beaton?, 'Guttinhalde'?) are difficult to decipher; context suggests a rent item. Chose the punctuation/spacing to reflect uncertain reading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Of Mr A? on the Library acct as part of the Fund's Bill",
+      "amount_pounds": 84,
+      "amount_shillings": 5,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts 84 5 7 align clearly with ruling lines. The description references a library account/fund bill but the name (Mr A...) is faint and the exact phrasing is slightly ambiguous; chosen reading based on nearby words and context."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Reimbursement to Domes from St. Newington Rents 1/2 year to 1 Day 1837",
+      "amount_pounds": 45,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 45 0 0 is crisp and unambiguous. Description 'Reimbursement to Domes from St. Newington' and the rental period '1/2 year to Day 1837' are mostly legible; minor uncertainty only in exact punctuation and abbreviation 'Domes'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Of Mr Dayman, Surveyor, Incrementums Domes to Mid? 1838",
+      "amount_pounds": 840,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large amount 840 6 10 is clearly aligned and legible. The description contains names/titles ('Mr Dayman', possibly 'Surveyor') and words like 'Incrementums' which are written in a flowing script and partially uncertain; year '1838' indicated. Chosen spelling reflects best reading."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Of Do. Office of Billets",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 26 0 10 is clear in columns. Description begins with 'Of Do.' (ditto) and mentions 'Office of Billets' — the word 'Billets' is slightly stylized but readable. Minor uncertainty about exact capitalization/spacing."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr. Dawson Dean's Fees 1/2 to Mich? 1838",
+      "amount_pounds": 38,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 38 17 4 is well aligned and distinct. The name 'Mr. Dawson' and 'Dean's Fees' are legible; the trailing date/abbreviation 'Mich? 1838' (March 1838) is slightly abbreviated but clear enough to transcribe as shown."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "L 1755 4 6",
+      "amount_pounds": 1755,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total at bottom right is clearly written and underlined. Pounds, shillings and pence columns line up and read as 1755 4 6. Very little ambiguity in the numerals or layout."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

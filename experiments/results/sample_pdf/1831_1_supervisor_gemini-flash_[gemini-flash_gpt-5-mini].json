@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading of year header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Recepta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for 'Recepta Varia.' as it matches the script more accurately than gpt-5-mini's 'Receipts Varia' based on visual inspection."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Of the Subrector. In Bills plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description from gemini-flash ('Subrector', 'Bills') is more accurate than gpt-5-mini's ('Solicitor', 'Mr. Polls') based on visual inspection."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "x Due Consols Scrubb's Deposit 12s.",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash ('x Due Consols Scrubb's Deposit 12s.') is significantly more accurate than gpt-5-mini's ('Do. Consols. - Probate Deposit 1 yr') based on visual inspection. 'x' and '12s.' are clearly part of the description."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Of Mr. Clutterbuck Bursar, Incom.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "for the 2 year ending at Xmas 1830",
+      "amount_pounds": 504,
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash is correct for this specific line. Gpt-5-mini incorrectly combined this line's description with the preceding one."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Of Do. for the Bedmakers Fund to Do.",
+      "amount_pounds": 42,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for description and amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Of Mr. Davis. Materials sold at Alsmans",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "bing the Chapel Barn at Little Do.",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash is correct for this specific line. Gpt-5-mini incorrectly combined the description and misread 'Alsmans' as 'Shearmen' and 'Do.' as '?'. Reconciled description text through visual verification."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Of Mr. Lightfoot Dean's Fees to Mich. 1831",
+      "amount_pounds": 47,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash ('Mich.') is visually more accurate than gpt-5-mini's ('Mids')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Of Mr. P. Harrington, Bursar, Incom.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "for the 2 year ending at Mich. 1831",
+      "amount_pounds": 104,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash is correct for this line. Gpt-5-mini incorrectly combined the description. Pounds amount visually verified as 104 (gemini-flash) vs 1044 (gpt-5-mini), with 104 being correct. Shillings and pence are in consensus."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Of Do. for the Bedmakers Fund to Do.",
+      "amount_pounds": 41,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for description and amounts."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Of Dr. Shortridges Trust. ½ years Benef.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "faction to Mich. 1830",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash ('faction to Mich. 1830') is correct for this specific line. Gpt-5-mini incorrectly combined the description and misread 'Benefaction' as 'Rent'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Of Do. to Xmas 1830",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash ('Xmas') is visually accurate, confirmed by inspection. Gpt-5-mini notes uncertainty and misreads 'Xmas' as 'Annuat'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "P. Harrington Estate for General Repairs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "on the ½ Year to Mich. 1829",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash is correct for this specific line. Gpt-5-mini incorrectly combined the description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Do. Do. to Lady day 1830",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for description and amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "One fourth of Improved Rent of Medenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "on one years Rent to Xmas 1829",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description from gemini-flash ('on one years Rent to Xmas 1829') is correct for this specific line. Gpt-5-mini incorrectly combined the description and misread 'Xmas' as 'Annas'. Name 'Medenham' from preceding line also looks more accurate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "One fourth of Do. for Ad: Lane",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row based on gemini-flash, as gpt-5-mini combined this descriptive line with the following amount line. This row is the first part of a braced entry and has no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Rents on the year to Mich. 1830",
+      "amount_pounds": 15,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash ('Rents on the year to Mich. 1830') is correct for this specific line. Gpt-5-mini incorrectly combined the description. Pounds and shillings in consensus. Pence visually verified as 4 (gemini-flash) with no fraction, contrary to gpt-5-mini's 2½. Gpt-5-mini's note about faintness and uncertainty supports a visual override."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "£ 1997 19 6½",
+      "amount_pounds": 1997,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for description and amounts of the final total."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 12,
+      "rows_added_missing": 7,
+      "rows_dropped_extra": 0
+    }
+  }
+}

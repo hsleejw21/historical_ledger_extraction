@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page; no amounts present and perfectly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear script heading 'Soluta.' directly under the year; no monetary values."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Dno. Rectori. Scholaribus. et Officiaruis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top section label. Handwriting for 'Officiaruis' shows an older-style long 's' but text is legible; no amounts present."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. Natv: 1824. et Off - - - -",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary columns well aligned against ruling lines; pounds/shillings/pence read clearly as 10/9/10. No fraction symbol present."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Augm: S. Newington et Merton",
+      "amount_pounds": 22,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Description legible. Amount columns clearly show 22 pounds, 17 shillings, 4 pence; digits aligned and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Stipend: Dna Thiers - - - - - - -",
+      "amount_pounds": 31,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Name 'Dna Thiers' legible. Amount 31/2/3 clearly in columns; no fraction mark."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Augm: Comm: yd. et Capellano - - - -",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description contains abbreviations. Amount is a round 56 pounds 0s 0d; alignment with pound column is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dno Rectori - - - - - - -",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Short description 'Dno Rectori' then dashes. Amount 30/9/2 is clearly written and aligned."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dit. Merton: ad Fest. Annunc: 1824.",
+      "amount_pounds": 83,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Dit. Merton' heading for the next line; amount 83/4/9 is neatly aligned and legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "d. d. ad Fest. S. Mich.",
+      "amount_pounds": 83,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Abbreviated description 'd. d. ad Fest. S. Mich.' Amount columns read 83/4/6 clearly; alignment consistent with above lines."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. Annunc: 1825 - - - -",
+      "amount_pounds": 30,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.96,
+      "notes": "New-year (1825) stipend line; amount 30/3/6 is well-placed in the three monetary columns."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Augm: Kidlington: pro 3 ann. part.",
+      "amount_pounds": 40,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amount reads 40 pounds, 10 shillings, 9 pence with a clear halfpenny sign (looped 'ob') after the pence; columns alignment is consistent. Slight uncertainty only on interpreting the halfpenny symbol (read as 0.5)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut supra.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Repeated 'Dno Rectori. ut supra.' with clear amount 30/9/2; digits well-formed and aligned."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. D. Joan: Bapt: et off.",
+      "amount_pounds": 17,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.65,
+      "notes": "Amount appears as 17 pounds, 14 shillings, 0 pence with a small looped mark after the pence column. That mark likely indicates a halfpenny (0.5) but is faint; chosen as 0.5 based on similarity to other clearly marked halfpennies on the page. Description is legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "d. Dna Thiers.",
+      "amount_pounds": 31,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Amount reads 31/2/2 with a small additional mark after pence resembling '3q' (three farthings). Interpreted as three farthings = 0.75; the farthing-style mark is reasonably clear but slightly cramped, hence slightly reduced confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Augm: Comm: jd. Mod. Huld.",
+      "amount_pounds": 52,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description contains several abbreviations and an unclear surname/word ('Huld' is a best reading of the script). Amount columns show 52/5/4 but the handwriting around the description is less clear; monetary digits themselves are readable. Moderate uncertainty due to unclear words in description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "d: Kidlington: - pro 4ta p. Anni",
+      "amount_pounds": 13,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Amount reads 13/12/11 with a small quarter-farthing style mark after the pence interpreted as a farthing (0.25). Column positions are consistent; description legible though abbreviated ('4ta' = quarta)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut supra.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Repeat line 'Dno Rectori. ut supra.' with amount 30/9/2 clearly written and aligned."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Stipend: Guimar: ad Fest: S. Mich.",
+      "amount_pounds": 23,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Guimar' reading is clear in context. Amount 23/16/0 is plainly written in the monetary columns."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Augm: Comm: pro L. Whittinham - - -",
+      "amount_pounds": 30,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amount appears as 30/1/3 with a clear halfpenny mark (loop) after the pence. The place/name 'Whittinham' is legible though written in a flowing hand; alignment of numbers is consistent."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut supra.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Another repeat of 'Dno Rectori. ut supra.' with cleanly written 30/9/2; no fraction."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Schol: Regis Car: pmi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Centered subheading. The final word 'pmi' (or 'pmi' abbreviation) is somewhat abbreviated/unclear; no amounts on this line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Pro Fine Meland: Kidlington - - - -",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.92,
+      "notes": "Amount reads 0 pounds, 17 shillings, 9 pence with a clear halfpenny mark after the pence. 'Pro Fine Meland' reading is legible; columns aligned."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 673,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Final underlined total at bottom right reads 673 pounds, 7 shillings, 10 pence with a small quarter-farthing mark (interpreted as 0.25). Number alignment is clear; the small fraction mark is slightly faint but consistent with quarter notation elsewhere."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

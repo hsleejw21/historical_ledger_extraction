@@ -1,0 +1,251 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header for the year. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Donors Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page/section title. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 Per cent on Estates",
+      "amount_pounds": 543,
+      "amount_shillings": 9,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds to the left of L1, Shillings between L1 and L2, Pence between L2 and L3. Fraction '½' clearly visible. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "15 Do on Room Rent",
+      "amount_pounds": 237,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Bushy Divd",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Dash in pounds column interpreted as 0. Clear shillings and pence. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Martins Compos. the 1st payment 9.16.0 -",
+      "amount_pounds": 60,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. The '9.16.0' is part of the descriptive text and not the main ledger amount for this row. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2d Do 8.12.0",
+      "amount_pounds": 68,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. The '8.12.0' is part of the descriptive text and not the main ledger amount for this row. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3d Do 12.5.0",
+      "amount_pounds": 75,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. The '12.5.0' is part of the descriptive text and not the main ledger amount for this row. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "Carried to Local Rate Compos. Fund. 30.13.0",
+      "amount_pounds": 30,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row contains a subtotal '30.13.0' with a double underline within the description area, and no amounts in the main ledger columns. Interpreted as a 'total' row, using the amount specified in its description. Calculation of 9.16.0 + 8.12.0 + 12.5.0 confirms the 30.13.0 total."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Late Rectors Prize",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Dash in pounds column interpreted as 0. Clear shillings and pence. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dr. Jones legacy",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "19s to Xmas Warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. The '19s' is part of the descriptive text and not the main ledger amount for this row. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "3 Sets of rooms. Ruler",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "No explicit pounds digit or dash, but clear alignment indicates 0 pounds. Clear shillings and pence. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dickerson Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Room Rent excep. of on moity",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "South Newton Cottages",
+      "amount_pounds": 6,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. Fraction '½' clearly visible. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hault for Stone",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Sale of Consols S. Jones net",
+      "amount_pounds": 552,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Sale of Estate L. Pew",
+      "amount_pounds": 8000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Undergraduate Chapel Fund",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "283.0.11 Red 3 per Cent",
+      "amount_pounds": 256,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading and column alignment. The '283.0.11' is part of the descriptive text and not the main ledger amount for this row. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 19007,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Grand total line. Pounds, shillings, and pence values are clear and adhere to column rules. However, '9½' appears to the right of the pence column (right of Line 3). This is an anomalous trailing figure that does not fit the defined pence fraction schema (0.25, 0.5, 0.75) and is too large to be a fraction of a penny. It has been omitted from the structured extraction as it cannot be validly parsed under the current rules, but its presence is noted."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

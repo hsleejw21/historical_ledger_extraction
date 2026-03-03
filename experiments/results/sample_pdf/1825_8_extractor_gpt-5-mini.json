@@ -1,0 +1,86 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page, no monetary amounts present. Very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 2050,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Text 'Brought over' is clear. Amount alignment read against the vertical ruling lines. Pounds read as '2050' clearly; shillings as '12'. Pence area shows '5' with a small loop/mark interpreted as 3/4 (three farthings) — the fraction is visible but the tiny loop is slightly ambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "July.23 1825 Advanced to Mr Inman on Acct of the purchase of Tenements at Bushby",
+      "amount_pounds": 305,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and date are legible. Pounds column clearly shows '305' (the '3' earlier on the line is from the date and not part of the amount). Shillings '16' and pence '8' align well with the ruling lines and are distinct. All currency values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "letters & parcels - for the year to Novr. 2. 1825",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description legible. Amount reads cleanly as 2 pounds, 12 shillings, 10 pence; digits are well-aligned with the three right-hand ruling lines and there is no visible fraction mark."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Forms Wine Bottles. Mids. & Mich. 1825",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Short description for small expense. Pounds column is blank (interpreted as 0), shillings clearly '4', pence '0'. Alignment with ruling lines is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Repaid to Mr Clowes his Deposit for Whittenham Security",
+      "amount_pounds": 150,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Description and amount are very clear. Pounds read '150' cleanly; no shillings or pence. The line has a bracket mark beside it but the numeric columns are unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2305,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Bottom underlined total is clearly written as '2305' pounds, '5' shillings, '11' pence with a small fractional loop interpreted as 3/4 (three farthings). The underline and alignment with ruling lines confirm this is a calculated total. Fraction mark is visible but somewhat small, so confidence is slightly reduced."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

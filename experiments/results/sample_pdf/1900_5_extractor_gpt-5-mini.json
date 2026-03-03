@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "47",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page number in upper left corner. Clear printed numeral '47'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered year heading '1900.' clearly written and underlined. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Balance",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-right title 'Balance' in large script, unambiguous. No monetary amount on this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Liabilities.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading 'Liabilities.' underlined; no amounts on the heading line itself."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Cash in Money in hands of College",
+      "amount_pounds": 6811,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner set of £ s d columns (near centre of page) clearly shows '6811 10 .'. Vertical ruling lines are unambiguous; pence column blank interpreted as 0d."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Less due to the College for Battels.",
+      "amount_pounds": 4183,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line shows two numeric groups: an inner figure '2628 2 1' (the amount being deducted) and a rightmost result '4183 7 11' (net). I recorded the rightmost/final figure as the row amount because it sits in the outer £ s d columns (final balance). The word 'Battels' (college term) is legible though slightly stylised. Slight ambiguity because two amounts appear on one line; chose the outermost as the main value."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Amounts due at College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section label introducing amounts due. Handwriting clear enough to read 'Amounts due at College:-'. No amounts on this label line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "University Dues",
+      "amount_pounds": 157,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Rightmost (outer) £ s d columns show '157 10 .'. Clear alignment with outer ruling lines; pence blank interpreted as 0d."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Trust Funds:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Major section heading 'Trust Funds:' underlined and clearly legible. No amount on the heading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Balances due by the College:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Sub-heading under Trust Funds; clearly written and introduces the list that follows. No amounts on this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Symes Exhibition",
+      "amount_pounds": 180,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner £ s d columns (near centre) show '180 14 2' aligned with the entry. All digits clear and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "King Scholars I Fund",
+      "amount_pounds": 411,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner columns read '411 13 11'. Handwriting of numerals is clear; shillings and pence within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Gifford Exhibition",
+      "amount_pounds": 25,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner columns show '25 15 11'. Clear digits and alignment with inner ruling lines."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dr Richards Exhibition",
+      "amount_pounds": 30,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner amount '30 11 3' is clearly written and aligned to the inner £ s d columns."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Hooper Scholarship",
+      "amount_pounds": 86,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner set reads '86 11 4'. Clear and unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Dr Richards Prize",
+      "amount_pounds": 142,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Inner columns show '142 7 5'. Description 'Dr Richards Prize' is legible; numeric reading clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Shortridge Trust (Rickany)",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Inner numeric '236 15 10' is clear. The trust name is somewhat unclear in the script; read as 'Shortridge Trust (Rickany)' but handwriting of the parenthetical is difficult to decipher—the exact spelling of the trust name is uncertain."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dr Sheard Prize",
+      "amount_pounds": 12,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Inner amount reads '12 8 .' (pence blank interpreted as 0d). The name of the prize is quite small and the script is ambiguous; 'Dr Sheard Prize' is an interpretive reading of the handwritten label."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1115,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Far-right (outer) total for the Trust Funds section reads '1115 12 6'. The number is boxed/underlined and aligns with the outer ruling lines. No descriptive text on the same line; recorded as a total with empty description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Special Funds:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading 'Special Funds:' clearly underlined. No amount on this heading line."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pension Fund",
+      "amount_pounds": 868,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner amount '868 8 1' cleanly visible in inner £ s d columns. Description 'Pension Fund' is clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Dues composition Fund",
+      "amount_pounds": 62,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Inner reading '62 15 10' is clear. The phrase appears as 'Dues composition Fund' in script; minor uncertainty about exact word spacing but meaning is clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Tuition Fund",
+      "amount_pounds": 673,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner columns show '673 9 2' with clear digits and alignment. Description 'Tuition Fund' legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Undergraduates Reading Room Fund",
+      "amount_pounds": 10,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Inner amount reads '10 11 9'. Description is slightly cramped but reads as 'Undergraduates Reading Room Fund'; interpretation of exact spacing is moderately confident."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Kitchen & Buttery Fund",
+      "amount_pounds": 86,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Inner amount '86 16 10' is clear. The fund name reads roughly as 'Kitchen & Buttery Fund' (handwriting makes the middle word a little uncertain — likely 'Buttery' or 'Bursary/Buttery')."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Furniture House Fund",
+      "amount_pounds": 117,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Inner amount '117 1 6' is clear. The description appears to be 'Furniture House Fund' or similar; the second word is slightly unclear in the script (interpreted as 'House')."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Furniture Sinking Fund",
+      "amount_pounds": 29,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Inner columns read '29 8 10' clearly. 'Furniture Sinking Fund' is legible in the handwriting."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Private Bills",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small inner figure '7' visible; no shillings/pence shown explicitly (interpreted as 7 pounds 0s 0d). The ledger shows a single '7' in the inner column area; this line is faint and cramped so the exact denomination placement is moderately uncertain."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1853,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Far-right total for the Special Funds section reads '1853 12 .' — the pence column is faint/ambiguous. I recorded pence as 0d because the small digit (if any) is unclear; outer total alignment is clear but final pence digit uncertain."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Balance from General acct II.1",
+      "amount_pounds": 8696,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Far-right figure '8696 13 2' is visible and aligns to outer columns. The reference 'II.1' is visible beside the description. Digits are clear though the script is slightly ornate."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final grand total in lower-right corner clearly written as '£16002 15 7' in large script with underlines. Alignment with outer £ s d columns is unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

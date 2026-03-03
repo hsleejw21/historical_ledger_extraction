@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris. J. C. Jones.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear main title header. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do die Novembris 1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date header. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum. 1826.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date header. No monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Arrearagia Recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header for receipts. No monetary amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear sub-section header. No monetary amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Gwinicar Rectory. One year & half",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Montacute - acquittance in full for 20 yrs",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Lad Land. Norris. 1. y½.",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "... Donnithorne. Do",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "... Pickford. Do",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Jew - Bucks. Do",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear sub-section header. No monetary amounts."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. y½.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "... Do Vicarage. Do",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Yarnton Rectory. Do",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear sub-section header. No monetary amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. y½.",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Pence value of 11½ is distinctly visible. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "S. Newington Do. Do",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Pence value of 7½ is distinctly visible. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Murton Rectory. Do",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Pence value of 4¾ is distinctly visible. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Yarnton Do & Tenement. Do",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Clifton Perry. Do",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Pence value of 7¾ is distinctly visible. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Chase Hill. 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Pence value of 10¼ is distinctly visible. Amounts are well-aligned and within valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 864,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final aggregate total. Amounts are well-aligned and within valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

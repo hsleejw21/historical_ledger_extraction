@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Domus Fund Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered page title clearly written across top; no amounts present and ruling lines do not align any numbers to this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Est. Charges",
+      "amount_pounds": 21,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts align to first numeric line; pounds '21' and shillings '5' clear. Pence digit looks like a '6' (clear loop) though handwriting is slightly slanted."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Copyhold Comm. on sale of New Estate",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers '20 0 0' are well aligned in the £ | s | d columns; shillings and pence clearly '00'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rowles Straw for Cottages",
+      "amount_pounds": 5,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '5' and shillings '6' align to the pound and shilling columns. Pence column is blank/zero and appears as '0'. Slight ambiguity in the desc. spelling but amounts are legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do levelling Stone pit",
+      "amount_pounds": 15,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '15' is clear; the middle column reads as '1' shilling but the digit is slightly crowded against ruling line making 1 vs 11 a possible ambiguity — chosen '1' because 11 would violate visual spacing. Pence looks like zero."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Sutton map of Pype land",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear small values '2 2 0' neatly aligned in the three numeric columns; legible handwriting and column separation unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bampton School Donation",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers read clearly as '3 0 0' with good alignment to the £ | s | d ruling; no ambiguity."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Univt Prop. Exam Papers",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '2' and shillings '10' are clear. Pence appears as '9' (a small looped figure) and aligns with the pence column; handwriting is slightly condensed but digits are consistent with column edges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Self stipend as Rector",
+      "amount_pounds": 74,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large amount '74 1 3' clearly written and well aligned; digits are unambiguous and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garratt fire Insurance",
+      "amount_pounds": 150,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds '150' is clearly written and markedly larger; shillings and pence '00' are obvious. Well aligned to numeric columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Clinkard Wyatt",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '1' clear; shillings read as '14' (the '1' is narrow but the following '4' is distinct). Pence '8' visible as a small loop; alignment supports this reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Price Pension",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '5 0 0' entry with strong alignment; no ambiguity."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Oxfordshire Agricult. Socy",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Small neat '2 0 0' wholly aligned in columns; handwriting legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kidlington Church vol payment towards",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '2' and shillings '10' clearly visible. The description is slightly cramped but the numeric columns are clear; pence appears zero."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gardener",
+      "amount_pounds": 18,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads as '18 2 0' and aligns well; the '2' in shillings is small but consistent with ruling position."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Walts Collection of Tithe",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '8' clear; shillings '13' and pence '2' readable though pence digit is small. Column alignment supports these values."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Warre L. Pew",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers read '2 7 6' and fit the £|s|d columns. Handwritten '7' and '6' are clear; description is abbreviated but legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Castle sale of Timber. Commr. on",
+      "amount_pounds": 6,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '6' and shillings '14' appear in the correct columns. The pence digit looks like '2' but is small and slightly smudged; column alignment favored reading as '2' rather than other shapes."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kimber - Barden",
+      "amount_pounds": 9,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Values '9 13 0' are clearly positioned; pence column shows zero. Description hyphenation is transcribed as seen."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Braine Hill",
+      "amount_pounds": 6,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings '6 15' are legible and aligned. Pence column empty/zero. Handwriting crisp for this row."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 3,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Follow-on 'Do' entry (same heading as previous) with amounts '3 11 0' clearly in columns; '11' shillings legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Chapel Steps",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large clear amount '65 0 0' aligned to columns; digits are unambiguous."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Merton Channel",
+      "amount_pounds": 46,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '46' and shillings '18' distinct; pence '8' visible though slightly small. All digits respect column boundaries."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Dukes private Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings '8 4' align well. Pence appears to be '5' but the final digit has light ink and could be 3 or 5; chosen '5' based on loop formation and spacing in pence column."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Domus wine Bottles",
+      "amount_pounds": 28,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers '28 5 0' are clear and aligned; pence column blank/zero. Description spelling preserved as on page."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Nunney Houses Queen St",
+      "amount_pounds": 50,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '50' and shillings '3' clear; pence '6' readable though small. Alignment consistent with numeric ruling lines."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Copyhold Comm. - Kidlington purchase",
+      "amount_pounds": 20,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '20' and shillings '16' visible and fall neatly in their columns. Pence shows as zero. Description abbreviated as on the page."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Walsh - sale of timbers farm",
+      "amount_pounds": 12,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Values '12 13 2' align with the £|s|d lines; pence '2' is small but distinct. Surname 'Walsh' and remainder of description read clearly."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sale of Consols. S. Jones",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '14' and shillings '2' appear in columns. Pence is likely zero; the final small mark near the pence column is faint leading to moderate uncertainty on pence (interpreted as 0)."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2183,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Bottom boxed total clearly written as '2183 7 0' aligned to the numeric columns. Very clear final tally; used as alignment reference for column boundaries."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

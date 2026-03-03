@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1895.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for header text."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for header text."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 3600,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "do \" \" \" (Library acct:)",
+      "amount_pounds": 65,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus. Description taken from gemini-flash due to better visual match for ditto marks and colon (vs. gpt-5-mini's description and punctuation). Visual verification confirms gemini-flash's reading is more accurate."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3666,
+      "amount_shillings": 11,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added as a distinct subtotal, identified by gpt-5-mini. gemini-flash noted its presence but did not extract it as a separate row. Visually confirmed as a clear, underlined subtotal on the page."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Furniture",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen from gemini-flash. 'Furniture' is clearly an underlined header on its own line, preceding its associated amount on the next line. gpt-5-mini incorrectly combined this header with the subsequent amount and classified it as an 'entry'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added as a distinct entry representing the Furniture amount. Only gemini-flash correctly identified this as a separate entry from the 'Furniture' header. Visual verification confirms the amount '3000' and periods for zero shillings and pence."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 5303,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields of the primary entry amount. gpt-5-mini's higher confidence is justified as the primary amount is clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 8303,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added as a distinct subtotal, identified by gpt-5-mini. gemini-flash noted its presence but did not extract it as a separate row. Visually confirmed as a clear, underlined subtotal on the page."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for header text."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 242,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both correctly interpret the dot as zero pence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 444,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Visual verification confirms '444' is clear despite gpt-5-mini's slight uncertainty."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Quit Rents.",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Visual verification confirms '1 8 2' is clear, justifying higher confidence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Houses on long leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overridden based on visual verification. The amount is clearly '3 5 .' with the dot indicating zero pence. gpt-5-mini correctly reads the values (3 5 0), while gemini-flash misread the shillings as 3 and pence as 5."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Dr Richards Exhibition",
+      "amount_pounds": 36,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Furniture Hire",
+      "amount_pounds": 17,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description 'Furniture Hire' taken from gemini-flash, visually confirmed as more accurate than 'Hic' from gpt-5-mini."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Private Bills",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for all fields of the primary entry amount. The amounts are clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 977,
+      "amount_shillings": 19,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added as a distinct subtotal. gpt-5-mini identified the row but misread pounds as '771'; visual verification clearly shows '977'. gemini-flash noted its presence but did not extract."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 12741,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts in consensus. Description '£' taken from gemini-flash, as the symbol is clearly visible on the total line and should be captured. gpt-5-mini left the description empty."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "duly kept in proper books of Account and that the account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for description and row type. Visual inspection indicates a slightly higher confidence is warranted for the legibility of the cursive text."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "W. C. Jackson F.C.A. Auditor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Extracted from gemini-flash, correcting 'Lo.' to 'W.' based on visual verification. gpt-5-mini incorrectly merged this line with the auditing firm's name. The 'W' is clear upon close inspection."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "(Jackson Pixley Browning Heasq + Co)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Extracted from gemini-flash. gpt-5-mini incorrectly merged this with the signature line. Visual verification confirms ambiguity in 'Pixley' and 'Heasq', but gemini-flash's transcription is a reasonable interpretation, noting the 'q'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Feb. 17 - 1896",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description taken from gpt-5-mini, as visual verification confirms a dash/hyphen between '17' and '1896' rather than 'th'. Both agree on other aspects."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 10,
+      "rows_by_note_assessment": 5,
+      "rows_by_visual_override": 2,
+      "rows_added_missing": 4,
+      "rows_dropped_extra": 0
+    }
+  }
+}

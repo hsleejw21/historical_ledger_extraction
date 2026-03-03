@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear centered year at top of page. Ink and digits legible, no amounts in columns."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Recepta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Page title immediately beneath the year. Handwriting clear; treated as a header (no amounts)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Epton glade Rector. Instalment of former year undertaker",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds, shillings and pence columns clearly show 3 | 2 | 6. Description partly ambiguous in the middle words (handwritten abbreviation), but the name and nature ('Rector. Instalment') are legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rolls. Kidlington Int' a draining; money to Michr 1854",
+      "amount_pounds": 9,
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds (9) and shillings (12) align with the two leftmost amount columns; there is no clear pence figure in the rightmost column. Description is fairly legible though some abbreviations (Int') and 'Michr' are interpreted from context."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hewett. Wittenham Int on Do",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount shows 1 in pounds column and 13 in shillings column; no pence visible. Description 'Hewett. Wittenham Int on Do' is readable though abbreviated."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hayward Do. or Do",
+      "amount_pounds": 4,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "All three amount columns clearly read 4 | 13 | 4. Short description with repeated 'Do' is legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton Fire. repayment to Domus &t Michr 1854",
+      "amount_pounds": 23,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts clearly aligned as 23 | 10 | 10. 'Merton Fire' and 'repayment to Domus' are legible; date 1854 visible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do Do to Do (to Lady Day) 1855",
+      "amount_pounds": 23,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts identical to previous line: 23 | 10 | 10 and clearly aligned. Description uses 'Do' abbreviations; 'Lady Day 1855' readable."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Clutterbuck 2nd and 3rd Instalments on Loan",
+      "amount_pounds": 20,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Only a single number '20' appears in the pounds column; shillings and pence columns are blank. Description 'Clutterbuck 2nd and 3rd Instalments' readable though slightly cramped."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Expenses in purchase of Little (Henry charged) in Mr. Walsh File 1853 how charged on the living fund",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read 7 | 15 | 10 and align well with the three vertical rulings. Description long but individual words (Little, Henry, Walsh, 1853) are legible; some parentheses and phrasing are inferred from handwriting."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Keeley. Rent to Mich near 1854",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Three amounts clearly read 25 | 16 | 6. Name 'Keeley' and 'Rent to Mich near 1854' interpretation consistent with surrounding entries."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do - to Lady Day 1855",
+      "amount_pounds": 25,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts read 25 | 5 | 4. 'Do - to Lady Day 1855' is clearly the follow-up to the previous 'Keeley' entry (abbreviation 'Do')."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Freeman to Michmas 1854",
+      "amount_pounds": 20,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Two numbers visible as '20' and '4'; alignment suggests pounds = 20 and shillings = 4, with no pence figure visible. 'Michmas' (Michaelmas) inferred from abbreviation."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do - to Lady Day 1855",
+      "amount_pounds": 22,
+      "amount_shillings": 18,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Three columns read clearly as 22 | 18 | 5. 'Do' indicates continuation from previous Freeman entry; 'Lady Day 1855' visible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bushy Trust Div. Consols 14",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts align as 6 | 19 | 2. The trust name and 'Div. Consols' are legible; '14' appears to be part of the description (possibly a folio or reference)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Tanshaw Banner Inc tum Domus",
+      "amount_pounds": 370,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large pound figure clearly written as 370 in the pounds column and 6 | 6 in shillings/pence. The proper name 'Tanshaw' and phrase 'Banner Inc tum Domus' are somewhat uncertain but readable."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "+ Lowe do. do. Do",
+      "amount_pounds": 690,
+      "amount_shillings": 18,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large clear amount 690 | 18 | 5; the plus sign and repetition of 'do' indicate continuation/another item of the same type. Handwriting of amounts extremely clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dean. Fees.",
+      "amount_pounds": 50,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Single clear number '50' in the pounds column; shillings and pence blank. Description 'Dean. Fees.' is legible but brief."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lightfoot Instalment amount of loan & repayment",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A single number '40' is visible in pounds column. 'Lightfoot' and 'Instalment' legible; remainder of description inferred from cramped handwriting."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Colby - Keys",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Single '1' in pounds column aligned with this short description. 'Colby - Keys' clearly readable."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Div. Consols or Sums transferred to Colby by late Rector &c to be of Wm Jones recd late Aprill 1855",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Only a '14' is visible in the pounds column. The description has many abbreviations and small script; interpretation of 'Div. Consols or Sums transferred to Colby' is best fit to the handwriting but some words (names and dates) are faint."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Repayment to Domus from Library acct for work done in preparing a plan for Books during the rebuilding of the Library",
+      "amount_pounds": 42,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clearly read 42 | 12 | 6 and align with vertical rules. The long description is legible though written in flowing script; interpretation of some words (e.g., 'rebuilding') confirmed by context."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mistake in last years acct the sum having been charged for drawing on forfeiting etc (see note)",
+      "amount_pounds": 38,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Two rightmost amount columns show '38' and '10' aligned but the pence column appears blank — alignment suggests pounds = 38, shillings = 10. The descriptive paragraph is cramped and several words are difficult; 'Mistake in last years acct' is clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "By late Rector Ex Con (note regarding Gosling Bank cheque for Mr. Sanders Div.)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This short interline note is present beneath the 'Mistake' paragraph; it contains no aligned monetary figures. The text is small and partially crowded but the general sense (reference to late Rector and Gosling Bank cheque) is discernible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Legmate fine due 1850",
+      "amount_pounds": 26,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Single clear '26' in pounds column. 'Legmate fine due 1850' is legible though 'Legmate' could be alternative spelling; context suggests a legacy/legatee fine."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Lisler from Survidge",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Two numbers appear as '4' and '5', aligned in pounds and shillings columns. The name 'Lisler' and 'Survidge' are uncertain readings of a cramped name; transcription chosen as closest visual match."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "+ from Building Fund (for sewer & new Building) Breach? (note)",
+      "amount_pounds": 187,
+      "amount_shillings": 6,
+      "amount_pence_whole": 12,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.45,
+      "notes": "Right-hand stacked numbers are congested and partly overwritten. I read the leftmost group as '187' in pounds, '6' shillings, '12' pence, and a trailing small loop that resembles an 'ob' (halfpenny) — however pence = 12 would violate the 0-11 rule; therefore interpretation is uncertain. Alternative readings could be 187 | 12 | 5/12; chosen values reflect best alignment reading but confidence is low. (Marked as low confidence because column boundaries are ambiguous in this cluster.)"
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "The sums and notes at foot (various smaller adjustments and carried figures)",
+      "amount_pounds": 165,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Lower-left cluster of small printed totals and marginal notes is very cramped. I read one right-hand figure as '165 0 6' (pounds|shillings|pence) but the handwriting is faint and there are several overstruck digits and marginal annotations. Treated as a total/adjustment line; confidence low."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Final aggregated total (bottom right)",
+      "amount_pounds": 361,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Bottom-right large number reads visually as '361 4' (pounds and shillings) with the pence either blank or not shown. This looks like the page final total. Handwriting slightly smudged; pence unclear so left blank."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

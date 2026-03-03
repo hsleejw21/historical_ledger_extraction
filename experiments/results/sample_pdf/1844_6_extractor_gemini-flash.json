@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the page title. No monetary amounts associated. All text is fully legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "2do die Novbis 1844",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the date. No monetary amounts associated. All text is fully legible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section header. No monetary amounts associated. All text is fully legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Arrearagia",
+      "amount_pounds": 870,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges (shillings 0-19, pence 0-11). The fraction '3/4' is clearly legible and interpreted as 0.75."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Anni presentis",
+      "amount_pounds": 204,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 103,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3005,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "This row represents a subtotal for 'Recepta' and is clearly underlined. The description field is left empty as there is no descriptive text to the left of the amount columns on this row. The first digit of the pounds amount '3' appears somewhat heavier, possibly a correction, but '3005' is the most plausible reading. The total does not sum the three immediately preceding entries, suggesting it's either a cumulative total from a previous page or includes other unlisted items. Values are in a valid range. Fraction '3/4' interpreted as 0.75."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Debita Anni precedentis",
+      "amount_pounds": 608,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges. Fraction '1/2' is clearly legible and interpreted as 0.5."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3614,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "This row represents a grand total for 'Recepta' and is double underlined. The description field is left empty as there is no descriptive text to the left of the amount columns on this row. The amount 3614 4 8 1/4 is the correct sum of row 7 (3005 12 4 3/4) and row 8 (608 12 3 1/2). All values are in a valid range. Fraction '1/4' is clearly legible and interpreted as 0.25."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section header. No monetary amounts associated. All text is fully legible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dno Rectori Scholaribus &c.",
+      "amount_pounds": 714,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 616,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 12,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of text and amounts. Vertical column lines are unambiguous. The pence value '12' is outside the valid range (0-11) for pence, indicating a potential ledgerkeeping anomaly where 12 pence should typically be converted to 1 shilling. The value is extracted exactly as it appears in the ledger."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2543,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This row represents a subtotal for 'Soluta' and is clearly underlined. The description field is left empty as there is no descriptive text to the left of the amount columns on this row. The total does not sum the three immediately preceding entries, suggesting it's either a cumulative total from a previous page or includes other unlisted items. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Ex receptis",
+      "amount_pounds": 3614,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. This amount is the 'Recepta' grand total from row 9, brought forward for final calculation. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges. Fraction '1/4' is clearly legible and interpreted as 0.25."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Solutis deductis",
+      "amount_pounds": 2543,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. This amount is the 'Soluta' subtotal from row 14, brought forward for deduction. Vertical column lines are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Restat Solvendum",
+      "amount_pounds": 1070,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. This is the final balance owed and is clearly underlined. The calculation (Row 15 - Row 16 = 3614 4 8 1/4 - 2543 16 1 = 1070 8 7 1/4) is correct. All extracted monetary values are within their valid ranges. Fraction '1/4' is clearly legible and interpreted as 0.25."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Computus comprobatus per nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section header. No monetary amounts associated. All text is fully legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "J. D. Richards Rectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name. No monetary amounts associated with this row. All text is fully legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Georgium Rawlinson Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name. No monetary amounts associated with this row. All text is fully legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Joannem Leg J. T. B. Bursar Sen",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name, including 'J. T. B. Bursar Sen'. No monetary amounts associated with this row. All text is fully legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Gulielmum Woollcombe Socium",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name. No monetary amounts associated with this row. All text is fully legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Gulielmum Andrews Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name. No monetary amounts associated with this row. All text is fully legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Joannem Brande Morris Socium",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the signatory name. No monetary amounts associated with this row. All text is fully legible."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

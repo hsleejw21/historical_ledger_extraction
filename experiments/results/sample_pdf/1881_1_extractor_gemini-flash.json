@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page year header. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page section header. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per cent on Estate, Supp Divd 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'ob' interpreted as 0.5 for half-penny."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do. Do. Divd 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. '3/4' interpreted as 0.75 for three farthings."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per cent on Room Rent",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. '3/4' interpreted as 0.75 for three farthings."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Buskey Divd",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Masters Composition 1 Domus 5.0.0 Local Rec 7.3.0",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main ledger amount clear. The description includes an internal note with a monetary value '1 Domus 5.0.0 Local Rec 7.3.0', which is not part of the primary ledger columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do Do 2 Domus 9.0.0 Local Rec 13.18.6",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main ledger amount clear. The description includes an internal note with a monetary value '2 Domus 9.0.0 Local Rec 13.18.6', which is not part of the primary ledger columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "3 Do",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry has a numeral '3' and 'Do' as description. Amount columns show dashes, indicating no monetary value for this specific row. The text 'nil' or 'Rel' is further right, possibly a memo."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "3 Sets of Rooms St Helens",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. Pounds column is empty. Shillings and pence clear and valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dickenson. Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Int on £57.10 - at 3 per cent 1.14.4 by Plato",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main ledger amount clear. The description includes an internal note with a monetary value '1.14.4', which is not part of the primary ledger columns. Pence digit '4' is clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Repayment of Capital 2.10.0",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main ledger amount clear. The description includes an internal note with a monetary value '2.10.0', which is not part of the primary ledger columns."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Int on £100 at 4 per cent Augt 18-1881 gdn",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Int on £150 at Do to April 1.1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Late Reutors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description 'Reutors' is slightly ambiguous but plausible. 'ob' interpreted as 0.5 for half-penny. All values otherwise clear and valid."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Int for one yr to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Room Rent Moiety & cap of",
+      "amount_pounds": 114,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortridg 122.15.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description contains an internal amount '122.15.0'. Main ledger amount columns are empty. This appears to be a sub-item or descriptive entry without a separate ledger amount."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do Do Richards 93.3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description contains an internal amount '93.3.4'. Main ledger amount columns are empty. This appears to be a sub-item or descriptive entry without a separate ledger amount."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Do Tuckell 46.19.8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description contains an internal amount '46.19.8'. Main ledger amount columns are empty. This appears to be a sub-item or descriptive entry without a separate ledger amount."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Stock of the three funds total 607.17.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description contains an internal calculation/total '607.17.4'. Main ledger amount columns are empty. This appears to be a descriptive entry, not a ledger amount itself."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Canal Shares Sold 347.4.0",
+      "amount_pounds": 22,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Description contains an internal amount '347.4.0'. The pence value '9 4' is ambiguous. Interpreted '4' as a poorly written 'q' (farthing) for 0.25, making total pence 9.25d to comply with pence validation rules. Otherwise, the value would be invalid."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "St Johns College for Witham Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Hammond. Bursar. allowed to Loden",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Loden' is somewhat ambiguous due to handwriting but legible. Monetary values are clear and valid."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Boase Register",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Clutterbuck for Witnam Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear total row. Values are unambiguous. '3q' interpreted as 0.75 for three farthings."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

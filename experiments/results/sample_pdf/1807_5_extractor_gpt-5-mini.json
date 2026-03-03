@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Central page title, clearly written and centered at top of page. No monetary amounts in this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "L. Wittenham Rent (P.T.D. 16)",
+      "amount_pounds": 5,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible. Amount columns aligned to right-hand ruling: reads '5 10 -' so 5 pounds, 10 shillings, 0 pence. Column boundaries unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "of Mr Pigaud Mr Whitreds Plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount clearly '10 - -' (10 pounds). Description handwriting is less certain (spelling of names ambiguous); chosen reading 'Pigaud' / 'Whitreds' based on visible letter shapes but there are multiple plausible readings of the names."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "of Mr Steyes - Bursans Increment",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Amount reads '2 13 - 3/4' in columns: pounds 2, shillings 13, pence column blank (interpreted as 0), fraction '3/4' clearly visible after the dash — recorded as 0.75. Description mostly legible though surname uncertain (read as 'Steyes'); punctuation (hyphen) present before 'Bursans'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Settled with Mr Hartlin for Weston",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No monetary figures appear on this line; clearly a narrative/settlement entry. Handwriting for names and place ('Mr Hartlin' and 'Weston') is legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "viz Money Rent to Mich mas last as usual",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Continuation/clarification line (no amounts in the pounds/shillings/pence columns). 'viz Money Rent to Mich mas last as usual' is readable though spacing/abbreviation 'Mich mas' interpreted as Michaelmas."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "265",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The isolated numeral '265' appears centered/inline with the description block rather than in the rightmost amount columns. Treated as descriptive/note text (no aligned £ s d), reading of the digits is clear but purpose ambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Corn Rent",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Corn Rent' clear. Amount aligned to columns reads '10.4.10' → £10 4s 10d. Column alignment and digits are unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "275.4.10",
+      "amount_pounds": 275,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Standalone numeric line in the amount columns '275.4.10' — clearly a subtotal/total. Pounds 275, shillings 4, pence 10. Alignment and digits clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Land Tax Ded.",
+      "amount_pounds": 34,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Label 'Land Tax Ded.' clear. Amount reads '34.9 -' aligned to columns → £34 9s 0d. No ambiguity in columns or digits."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "240.17.10",
+      "amount_pounds": 240,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numeric subtotal line '240.17.10' in amount columns. Matches arithmetic (275.4.10 - 34.9.0 = 240.17.10), confirming alignment and reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Prof: Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Label 'Prof: Tax' clear. Amount reads '24.1.6' in columns → £24 1s 6d. Clear digits and alignment."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Received clear",
+      "amount_pounds": 216,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Total line 'Received clear' with amount '216.16.4' aligned to columns. Arithmetic consistent with previous subtotal less Prof. Tax; numbers and columns are clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "of Mr Crowley Dr Shortridges Benefaction due at Michaelmas",
+      "amount_pounds": 99,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount reads clearly as '99 - -' (£99). Description is partially legible but personal names/orthography are uncertain ('Crowley' and 'Shortridge' are best-fit readings from flourished script); parenthetical note following this line in manuscript is faint and not fully transcribed."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "of the Room of Dr Richards rent not accounted for by the Rector last year",
+      "amount_pounds": 162,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount columns read '162.6.' → interpreted as £162 6s 0d. The running description is somewhat crowded and a few words ('accounted') required interpretation from context; numeric columns are clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "of Mr Rosdewe Dean, library money",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "'20 - -' in the amount columns is clear (£20). The name/surname in the description is faint and ambiguous ('Rosdewe' is the best reading); the phrase 'Dean, library money' is readable."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "of Do. Deans Fees for the House",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads '17.13.4' clearly in the £ s d columns. Description 'Do. Deans Fees for the House' (i.e. 'Ditto' / Dean's fees) is reasonably legible; digits are unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "of Mr Purdue for an old Door & Casement",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads '3.3.-' → £3 3s 0d. Description (Mr Purdue, old door & casement) is fairly clear in the handwriting."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "of Mr Gillabb Bursans Increment at Mich",
+      "amount_pounds": 177,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '177.19.-' clearly visible (£177 19s 0d). The name in the description is uncertain in several letters ('Gillabb' is a best-effort reading); 'Bursans Increment at Mich' (Bursar's increment at Michaelmas) inferred from context and partial legibility."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "of the Room of Dr Richards increment of Michas summer 1807 paid by Mr Glubb & not accounted for",
+      "amount_pounds": 88,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount reads '88.3.6 1/2' in the amount columns: pounds 88, shillings 3, pence 6 and a half (0.5) — the half-penny symbol is present and interpreted as 0.5. The descriptive phrase about Dr Richards and payment by 'Mr Glubb' is largely legible; minor letter ambiguity in surnames but context supports reading."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "1307.14.3 3/4",
+      "amount_pounds": 1307,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Final boxed total at lower right reads '1307.14.3 3/4' — pounds, shillings, pence and three-quarter penny fraction (0.75) clearly visible. Column alignment and digits are clear; fraction '3/4' legible."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

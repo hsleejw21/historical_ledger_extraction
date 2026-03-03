@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header. No amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Recpta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title header. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Extors glate Rector. Instalment of former year underpaid",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. The word 'underpaid' is interlined above 'year' and included in the description. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rolls Redlington Int. on draining money to Mich. 1854",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hewett Witterham Int on Do",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hayward Do. or Do",
+      "amount_pounds": 4,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton Fine. Repayment to Domus p. Y. Mich 1854",
+      "amount_pounds": 23,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do Do to Do p. Lady Day 1855",
+      "amount_pounds": 23,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Clutterbuck 2nd and 3rd Instalment on Loan",
+      "amount_pounds": 20,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amount. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Expences in purchase of Little Cheney charged in Mr. Walsh Bile 1853. now charged on the Living Fund",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear multi-line description text. Amount is clearly braced to the description. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Keeley. Rent to Mich.mas 1854",
+      "amount_pounds": 25,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do to Lady Day 1855",
+      "amount_pounds": 25,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Freeman to Mich.mas 1854",
+      "amount_pounds": 20,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Pence column appears intentionally blank. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do to Lady Day 1855",
+      "amount_pounds": 22,
+      "amount_shillings": 18,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bushey Forst Div. Consols 1/4",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. '1/4' is part of the description. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Fanshawe Barcar Inc. tum Domus",
+      "amount_pounds": 370,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text 'tum' is slightly obscured by ink bleed from the line below, but legible from context. Amounts are clear. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "+ Lowe Do Do",
+      "amount_pounds": 690,
+      "amount_shillings": 18,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dean. Fees.",
+      "amount_pounds": 50,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amount. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lightfoot Instalment of Loan 9th payment",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amount. '9th' is clearly legible. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Colby - Keys",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amount. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Div. Consols on £1000 transferred to Coll. by late Rector Exton as &c of St. Jones see Colled. April 1855",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear multi-line description text. Amount is clearly braced to the description. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Repayment to Domus from Library Acct for Work Done in preparing a plan for Books, Drawing and rebuilding of the Library",
+      "amount_pounds": 42,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear multi-line description text. Amount is clearly braced to the description. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mistake in last years Acct the sum having been charged for Drawers on Forlings Fann. Whereas a Cheque was drawn on Gosling Bank for Mr. Sewells divd and now allowed by late Rector Ex.tors",
+      "amount_pounds": 38,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Very long multi-line description text. Some words like 'Forlings Fann' and 'Sewells divd' are slightly faded or cramped but legible. Amount is clearly braced to the description. Pence digit is '0'. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Lymaths Fine Due 1850",
+      "amount_pounds": 26,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amount. Only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Fisher from Surridge",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Pence column appears intentionally blank. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "From Bd. and Conry. Dined for (for a new Building) Pd. it",
+      "amount_pounds": 1876,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Description contains a crossed-out phrase 'Dined for' and an interlined correction '(for a new Building) Pd. it', making it moderately complex to transcribe. The amount is very large but clearly aligns with columns. '3q' for three farthings is clearly visible after the pence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Mr. Sewell. urahd. Pd. to Domus (Colenso Mem. Fund)",
+      "amount_pounds": 100,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description contains an unclear word 'urahd.' and an interlined 'Pd.' before 'Domus'. Amount is clear and only pounds specified. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "* The Incumb. Domus (Lowe Bursar) ought to have been £24-13-11d. as of Lego 18.5 but was allowed to him to pay for furniture — in three years. Total £165.9.6 for £1293.15.6 and others occupied for a very short time by Fellows. So that £1000 is to remain for the purchase of New House, and a further sum to be applied for an Installation, or to the general account.",
+      "amount_pounds": 3614,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Complex, multi-line explanatory text for a final total entry. Several embedded amounts within the description. The extent and specific wording of the description are challenging to transcribe perfectly due to its length and small handwritten characters. An interlined '6' above 'Domus' is present but not explicitly included to maintain flow. The final large amount '3614 1' is clear, but the pence column appears intentionally blank. Small print at the very bottom of the page is considered an annotation/footnote to this entry and is not included as a separate ledger row."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

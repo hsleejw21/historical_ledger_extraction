@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris. J. C. Jones.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this header row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do die Novembris 1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Adopted gemini-flash's description as it accurately omits the spurious dot after 'Novembris' seen in gpt-5-mini. Both agree on header type and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum. 1826.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this header row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Arrearagia Recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this header row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this header row."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. One year & half",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gpt-5-mini's description 'Gwinear' as it is a more accurate visual reading than 'Gwinicar' from gemini-flash."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Montacute - acquittance in full for 20 yrs",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description 'acquittance' as it is a more accurate visual reading than 'quittance' from gpt-5-mini."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Lad Land. Norris. 1. y½.",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which includes the '1. y½.' notation, more accurate than gpt-5-mini's '1 yr'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "... Donnithorne. Do",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which includes the '...' prefix and correct punctuation '.'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "... Pickford. Do",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which includes the '...' prefix and correct punctuation '.'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew - Buck's. Do",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gpt-5-mini's description 'Little Tew - Buck's' as it is a more accurate visual reading for 'Tew' and the apostrophe in 'Buck's' than gemini-flash."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description with 'Land' capitalized, which matches the visual evidence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. y½.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which includes the correct '1. y½.' notation."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "... Do Vicarage. Do",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which accurately shows the '... Do' prefix as a continuation from the previous line."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Yarnton Rectory. Do",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this entry row."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this header row."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. y½.",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description with the accurate '1. y½.' notation."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "S. Newington Do. Do",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both. Adopted gemini-flash's description which includes both 'Do' instances, accurately reflecting the image."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Merton Rectory. Do",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification. Adopted 'Merton' from gpt-5-mini and 'Rectory. Do' punctuation from gemini-flash. The amount pence fraction is clearly a ¾ mark, not ½, confirming gemini-flash's 0.75."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Yarnton Do & Tenement. Do",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this entry row."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Clifton Perry. Do",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Based on visual verification. Adopted gemini-flash's 'Perry' (not 'Ferry' from gpt-5-mini). The amount pence fraction is clearly a ¾ mark, not ½, confirming gemini-flash's 0.75."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Chase Hill. 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Amounts and fraction agreed by both. Adopted gemini-flash's description with correct punctuation '. 3 yrs' instead of '-'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 864,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for this total row."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 8,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

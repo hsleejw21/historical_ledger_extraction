@@ -1,0 +1,130 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "For Battells and increments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered heading at top of page. Handwriting is legible and there are no amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Recd of Mr Verman Bursar for Nativ. and Bapt 1708.",
+      "amount_pounds": 21,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds column (between first and second ruling) clearly reads '21'. Shillings column shows '19' (digits well-formed). Pence looks like a single-digit '9' (legible). Vertical alignment with other amounts consistent. Minor ambiguity in some ink strokes around the '9', but overall reading consistent with column alignment."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "more of him on ye same acct & defective Remanent",
+      "amount_pounds": 21,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Pounds ambiguous between '21' and '22' but '21' aligns best with the column and the visible tens-stroke. Shillings digit is faint and could be read as '9' or '10' (I read as 9). Pence is unclear but reading as '11' makes the subtotal (79 09 08) consistent with the underline total for this block; chosen to match that clearly-written total. Because this row is somewhat faded and the pence digit ambiguous, confidence is moderate/low."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "For Gent. Comon & Admissions, of mr Tho. Bury, & the Carwen, mr Morton, mr Bogan for each",
+      "amount_pounds": 32,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads clearly as '32 00 00' in the pounds / shillings / pence columns. Vertical alignment and digits are crisp; no fraction. Description legible though slightly abbreviated."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "In Lieu of act Supper of mr Jenkinson & of mr Foot 2t",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount clearly written as '04 00 00'. The '04' in pounds column is unambiguous; shillings and pence columns are '00'. Description is legible enough to transcribe."
+    },
+    {
+      "row_index": 6,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 79,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined block total for the above entries. The total reads distinctly as '79 09 08' and aligns with the three ruling columns. Values are within valid ranges and very clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "For the Comons Library omitted this year",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section heading (left side). Handwriting is clear for the phrase 'For the Comons Library' and the words 'omitted this year' are written smaller but legible. No amounts on this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 79,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "A right-margin numeric entry with no adjacent description. The digits align with the three money columns and read clearly as '79 09 08' (same formatting as previous subtotal). Treated as an entry because there is no textual label next to it."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 197,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Right-column number stacked below the previous: pounds read as '197' (clear three-digit), shillings '08', pence '08'. Ink is a little lighter than some earlier figures but digits are distinct and obey currency ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 322,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Right-column number directly beneath the prior two: pounds '322' clear, shillings '19' legible, pence '09' legible. Alignment and digit shapes are clear; values validate correctly."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "Summa vium Receptorum",
+      "amount_pounds": 599,
+      "amount_shillings": 18,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Final underlined total for the stacked right-column numbers; reads as '599 18 01' with a small loop/mark after the '1' consistent with a halfpenny marker (interpreted as 0.5). The numeric total matches the arithmetic sum of 79.09.08 + 197.08.08 + 322.19.09 = 599.18.01, so the halfpenny mark is a small additional flourish visible in ink. Description is Latinised and somewhat abbreviated on the page; transcribed as seen ('Summa vium Receptorum')."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

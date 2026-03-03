@@ -1,0 +1,287 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages recipienda 1789.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page title at top. Handwriting legible and no amounts on this line. 'Arrearages recipienda 1789.' read clearly though final letter forms are slightly stylized."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Hidlingt. Molend. pro bien.",
+      "amount_pounds": 23,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear lines align with the right-hand £ s d columns. Pounds '23', shillings '15', pence '11' are crisp and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gavington Sadler pro an",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '05' (leading zero), shillings '19', pence '0' clearly aligned. Minor uncertainty in the first word of description (Gavington vs Garrington) but amount clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Prickett Do. pro bien.",
+      "amount_pounds": 11,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '11 18 0' are well-aligned and legible. Description first word uncertain (read as 'Prickett'); 'Do.' and 'pro bien' clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Tistinhull Napier pro an.",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings ('05' and '1') align and are legible. Pence appears as '1' with a small trailing mark interpreted as a farthing (0.25) rather than a halfpenny; the fraction glyph is faint and could be a loop, so fraction interpretation is uncertain."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Tistinhull Sam. Benton pro 12 annis",
+      "amount_pounds": 10,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '10 6 0' are clear and perfectly aligned with the right columns. 'pro 12 annis' reading is clear; given name 'Sam. Benton' read with good certainty."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Clifton pro bien.",
+      "amount_pounds": 11,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '11 5 4' — pounds and shillings crisp. Pence digit (4) is slightly cramped but consistent with column alignment; no fractional mark visible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "S. North R. pro an.",
+      "amount_pounds": 113,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large pounds figure '113' is clear and well aligned with the pounds column. Shillings '16' and pence '0' unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "S. North Ten. pro an.",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts '01 16 0' clear with a leading zero on pounds. Description legible as 'S. North Ten. pro an.'"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill pro 7 annis",
+      "amount_pounds": 33,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '33 11 7' are well aligned. Description 'Chace Hill pro 7 annis' read clearly; the numeral '7' (annis) is the only minor ambiguity but context confirms."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Benside pro an.",
+      "amount_pounds": 64,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '64 12 11' clearly aligned and legible. Description reads 'Benside' though initial letter has a flourish; amount unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Spincar pro dim. an.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '30 0 0' clear. Description is slightly contracted ('pro dim. an.') but the entry and amounts are unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Kidlingt. in pecun. pro an.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts '20 0 0' clearly written. The phrase 'in pecun.' is legible and confirms the entry; column alignment is precise."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "- - Vic pro an.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The left description begins with two dash marks then 'Vic pro an' (interpreted as an abbreviated entry). Amounts read as '04 0 0' — pounds '4' clear; the description portion is abbreviated and somewhat ambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Thump an. gdim.",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '07 10 0' are legible. Description handwriting is awkward and the words read as 'Thump an. gdim.' — the precise words are uncertain so confidence lowered for the description while amounts are clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Lane, Eaton pro tien.",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts '06 0 0' clear. Description likely 'Lane, Eaton' with small uncertainty on final word 'pro tien' but readable enough."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lad Lane 3 Lent. pro an.",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '17 13 4' align and are legible. The description contains abbreviations and numerals '3' and 'Lent.' which are somewhat ambiguous in the handwriting; chosen reading fits the visible letters but alternative transcriptions plausible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Montacute pro 12 annis",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '06 0 0' clear. 'Montacute pro 12 annis' is legible in the description; the year/count '12' is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bampton pro an.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts '01 0 0' clear. Description 'Bampton pro an.' easily readable."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Medunham pro an.",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amounts '06 13 4' visible but pence digit is slightly cramped. Place name read as 'Medunham' though alternate spellings possible (e.g., 'Medenham'); amounts are the main reliable element."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Sir G. P. Turner pro an",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '06 10 10' are clearly aligned. Title and name 'Sir G.P. Turner' are legible though punctuation is handwritten; reading confident."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "St. Mark. Par. 3 an.",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '05 14 0' clear. Abbreviated place 'St. Mark. Par.' and '3 an.' are legible and match format of other entries."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "St. Mar. Magd. Do. pro 2 an.",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '02 16 8' are clear. Description contains abbreviations ('St. Mar. Magd.') but is legible; 'pro 2 an.' also clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Yardington R. & Ten. pro an.",
+      "amount_pounds": 28,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings '28 14' clear. Pence appears as '5' with a small halfpenny mark (loop) after it — interpreted as 5½ (0.5). The fractional glyph is faint but its position and shape match other halfpenny markings on similar documents."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "De Tenements in Lew parva pro anno.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No amounts visible at far right for this final line; appears to be an entry header/subgroup ('De Tenements in Lew parva pro anno.') with no numeric value on this line. Handwriting for description is readable though slightly faint."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

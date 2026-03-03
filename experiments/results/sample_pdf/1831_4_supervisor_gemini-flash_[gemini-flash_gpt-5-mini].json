@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on type and amounts. Description '1831' matches image (no period)."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria – Brought up.",
+      "amount_pounds": 252,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Row type 'header' selected based on gemini-flash's reasoning that it serves as an opening balance for the section. Description matches image punctuation (long dash)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Subscriptions Viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Infirmary for 1831",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds amount visually verified as '1' (matching gemini-flash) over gpt-5-mini's '6'. Shillings and pence by consensus."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Exon Coll School to Mich. 1830",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Exon Coll School' visually verified (matching gemini-flash) over gpt-5-mini's 'Gray Coat School'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kidlington Do - Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Kidlington Do - Xmas 1830' visually verified (matching gemini-flash for spelling and dash punctuation) over gpt-5-mini's 'Kiddington'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "S. Newington Do - Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'S. Newington Do - Xmas 1830' visually verified (matching gemini-flash for dash punctuation) over gpt-5-mini's period punctuation."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Little Tew Do - Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Little Tew Do - Xmas 1830' visually verified (matching gemini-flash) over gpt-5-mini's 'Little Do. Do'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Yarnton Do - Xmas 1830",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Yarnton Do - Xmas 1830' visually verified (gpt-5-mini's 'Yarnton' with gemini-flash's dash punctuation) over gemini-flash's 'Hanston'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Merton Do - Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Merton Do - Xmas 1830' visually verified (matching gemini-flash for dash punctuation) over gpt-5-mini's period punctuation."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "S. Whittlesham Do 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'S. Whittlesham Do 1830' visually verified (matching gpt-5-mini's spelling) over gemini-flash's 'Whittenham'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bele Ringer",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Bele Ringer' visually verified (closer to gpt-5-mini's 'Belle') over gemini-flash's 'Bole'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rowele for care of the Clock",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Rowele for care of the Clock' visually verified (matching gpt-5-mini's spelling) over gemini-flash's 'Rowell'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "University Marshale",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'University Marshale' visually verified (matching gemini-flash's spelling) over gpt-5-mini's 'Marshalle'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Gas Lights ½ year to Lady 1831",
+      "amount_pounds": 27,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Gas Lights ½ year to Lady 1831' visually verified (matching gemini-flash for the '½' symbol) over gpt-5-mini's '1/2'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mich. 1831",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds amount visually verified as '0'. The digit is very faint, supporting gemini-flash's observation and contextual reasoning for a zero entry, over gpt-5-mini's '9'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Domus Fine Battels one yr to Mich. 1831",
+      "amount_pounds": 23,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Domus Fine Battels one yr to Mich. 1831' visually verified (matching gemini-flash) over gpt-5-mini's 'Wine Bottles'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Procurations Kidlington 2 yr to Mich. 1830",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts by consensus. Description 'Procurations Kidlington 2 yr to Mich. 1830' visually verified (matching gemini-flash for spelling, '2 yr', and lack of period) over gpt-5-mini's 'Kiddington' and '2 yrs'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do - Merton 4 years to Mich. 1830",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 399,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 7,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

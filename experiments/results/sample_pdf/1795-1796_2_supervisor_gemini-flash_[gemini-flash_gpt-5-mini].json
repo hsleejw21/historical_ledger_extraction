@@ -1,0 +1,364 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Taylors alin Lord probien",
+      "amount_pounds": 13,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers in the rightmost three columns are clear: '13 . 3 . 2'. The description is legible but the hand is old and the word 'alin' and 'probien' are pale/abbreviated; chose the reading that matches visible letters."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "William Judge alin Richd Judge pension",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts clearly aligned as '5 . 18 . 0'. The description is partly abbreviated ('alin' and 'Richd') but consistent with neighbouring rows mentioning Judge; moderate certainty on the exact wording."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Richard Wilson probien",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numerals '5 . 15 . 10' are sharp and well within valid ranges. The name 'Richard Wilson' is clear; 'probien' is an abbreviation but readable."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Beaver Gardiner alin Burdons probien",
+      "amount_pounds": 9,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Numbers read '9 . 18 . 8' and there is a small loop after the pence digit consistent with a halfpenny mark (interpreted as 0.5). Description letters are slanted but enough letters match 'Beaver Gardiner' and 'Burdons'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hastley's late Freeman Arundell probien",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '1 . 13 . 0' is clear. Handwriting of names is more ornate and slightly faded; 'Hastley's late Freeman Arundell' is my best reading from the letter shapes."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mrs Heywoods",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts '5 . 8 . 1' are distinct. 'Mrs Heywoods' is clearly written and unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "B: Gardiners alin Hesters",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '1 . 13 . 4' readable. Description contains abbreviations and the colon after 'B' but the family/name components align with other rows."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do alin Irwin's",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This is a 'Do.' style line (ditto) and the amount '0 . 6 . 0' is clearly placed in the columns; description is short and abbreviated but consistent with 'do.' usage."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Buck alin Rymans",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numerals '2 . 12 . 2' are distinct. Surnames are slightly stylised but readable as 'Buck' and 'Rymans' (Ryman's)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Barnwells",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.5,
+      "notes": "Shillings '6' is clear. There is a very small mark in the pence column resembling a farthing (quarter) sign; pence whole digit is not clear (appears blank), so I set pence_whole to 0 and fraction to 0.25. Description reads as 'Barnwells' though hand is faint."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Leonard",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '0 . 0 . 8' is clear and isolated. Name 'Leonard' is cleanly written."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Connocks",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Values read '0 . 2 . 6' clearly. 'Connocks' (variant spelling) is legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "---- (ruled subtotal)",
+      "amount_pounds": 46,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Underlined subtotal line with numerals '46 . 17 . 6' and a small quarter/farthing mark after the pence digit (interpreted as 0.25). Alignment with column rules is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "y 45 17 0 1/2",
+      "amount_pounds": 45,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.4,
+      "notes": "Small marginal pencilled/inked adjustment line appears to read 'y 45 17 0 1/2'. The leading 'y' is unclear/contextual; numerals are faint and cramped. Interpreted the final mark as a halfpenny (0.5). Low confidence due to faintness and unusual placement."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Receipts anni praesentis 1746",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered header in Latin 'Receipts anni praesentis 1746'. No amounts in this row; serves as a section heading."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Guineas Rectory half years",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Right column clearly shows '30 . 0 . 0'. The description reads 'Guineas Rectory half years' (hand legible)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hidlington in Corn Rent & Land (illegible word)",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '5 . 0 . 0' is clear. The place name looks like 'Hidlington' and the remainder 'in Corn Rent & Land...' is partly smudged/abbreviated; reading of the last word uncertain."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "To 10.0 for Capons & Brown 2.15.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "A narrow marginal note appears 'To 10.0 for Capons & Brown 2.15.0' (likely explanatory). No clear set of numerals aligned in the three amount columns for this line; I left amounts blank. The handwriting here is congested and partly overwritten."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Hadington Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '4 . 0 . 0' is clear. The name 'Hadington Vicarage' is readable though the first vowel letter is stylised; context (vicarage) supports the reading."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Tintinhul & Napier 1/2 year",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Right-side reads '4 . 5 . 11' with a small halfpenny loop after the '11' (interpreted as 11½d). Description 'Tintinhul & Napier 1/2 year' is legible though spelling is archaic."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Trethavin 1/2 year",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '3 . 0 . 0' is clear. Description 'Trethavin 1/2 year' is readable."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount appears as '16 . 0 . 0' though the '16' has a slightly ornate '6' which made initial reading ambiguous; context of larger parish receipts supports 16 pounds."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Little two Corn Rents",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "The phrase 'Little Two Corn Rents' is visible but the amount is faint and may read '8 . 0 . 0' or possibly another number. Chose 8.0.0 based on the faint shapes; low confidence due to smudging."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Taylor",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Right column reads '7 . 6 . 8' fairly clearly. Name 'Taylor' is plainly written."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Judge",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '3 . 10 . 0' is distinct. Single-word name 'Judge' matches other occurrences on the page."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sivons",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts appear '3 . 8 . 8' though the last pence digit is slightly compressed; chosen reading fits the ink stroke and alignment. The name looks like 'Sivons' (or 'Simons') but spelled 'Sivons' here."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "B. Gardiner for Burdons",
+      "amount_pounds": 5,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right column clearly shows '5 . 13 . 8'. Description with initial 'B.' matches earlier Gardiner entries; 'for Burdons' is legible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Hastley late Arundel",
+      "amount_pounds": 0,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '0 . 19 . 9' is readable though the zero pounds is small. The name matches earlier 'Hastley'/'Arundel' mentions though spelled slightly differently; ink is slightly faded."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Little Two Money Rents",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This line 'Little Two Money Rents' appears with the year marker '1746' nearby and has no clear amount placed in the three rightmost columns. The text is legible; absence of aligned numerals suggests either zero or that the amount is recorded elsewhere."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Mrs Heywoods (now Kinman)",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads '1 . 1 . 11' (note: no fractional halfpenny visible). The parenthetical '(now Kinman)' is faint but legible; contextual cross-reference to earlier 'Mrs Heywoods' supports reading."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "B: Gardiner (Hesters)",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right columns show '0 . 13 . 4' clearly. The description shows the same 'B:' abbreviation as earlier and '(Hesters)' in parentheses; ink is darker here and words are readable."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Car'd Up  L 235. 10. 11 1/2",
+      "amount_pounds": 235,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Final carried-up total shows clearly printed '£ 235 . 10 . 11' with a halfpenny loop after the '11' (interpreted as 11½d). The currency symbols and underline indicate this is the section total; alignment is unambiguous."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title at top of column. No amounts visible next to this heading; very clear handwriting and placement."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitati Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts read clearly as '3 16 8' aligned with the three right-hand ruling lines. All values within valid ranges and digits are crisp."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings and pence read as '14 0' to the right of the description. Handwriting of description is slightly stylized but amounts are well aligned and legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Curia Huntinge",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '0 1 8'. The '1' in shillings and '8' pence are clearly formed and lie correctly between the ruling lines."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll. Aedis Hi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Description legible as written but the numeric cells beside this row are faint / partially obscured; I cannot confidently separate digits for pounds/shillings/pence. Leaving amounts blank rather than risk column misalignment."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Aedis Hi",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second similar 'Coll. Aedis Hi' line has clearer numerals showing '0 18 0' in the three amount columns. The '18' shillings is readable though the digit shapes are slightly compressed."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Omnium Animarum",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts to the right read as '4 12 4'. Alignment with the ruling lines is consistent; all three values are within valid ranges and clearly spaced."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Ball.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry labelled 'Ball.' with amounts '0 12 6' visible and well aligned. The '12' shillings and '6' pence are distinct."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "D. J. Baptistae",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric cluster reads '0 8 2'. Pence '2' is small but clearly formed; alignment confirms column boundaries."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procur. Kidlington. St. Newington. Merton",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings read as '1 18' clearly. Pence read as '11' with a small trailing loop resembling 'ob' (half‑penny) — interpreted as 11½d. The halfpenny symbol is faint but visible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Synodale Ditto",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '0 7 0' and aligned under shillings column. '7' shillings clear; no pence shown."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Pro Carbonibus ad Festum Annuum",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large pounds figure '23' is clear and aligns with the pounds column. Shillings and pence read '0 0' unambiguously."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Michl.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The line 'Michl.' appears with the same numeric cluster '23 0 0' directly opposite; uncertain whether this is a duplicate/seasonal label or an additional entry. The digits themselves read clearly but the row's semantic role is ambiguous."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts look like '1 10 4' — the '10' shillings is slightly cramped but legible; pence '4' distinct. Description reads 'Coquo' (cook)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Librarii",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount appears as '2 0 0' (two pounds). The script for the description is slightly abbreviated but matches common ledger term for librarians/libraries."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Seil. et Quadrang.",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Shillings/pence read as '6 8'; pounds '1'. Description is abbreviated (possibly 'Scil. et Quadrang.'); numerals are aligned and within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Cleaning Chapel &c Oct.",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read '0 2 0'. The entry explicitly references chapel cleaning and the small shillings numeral is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Tonsori",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '0 13 4'. The '13' shillings and '4' pence are distinct and well aligned."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Supravisioni",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This supervisory entry shows '4 0 0' — the pounds figure '4' is clear. (Spelling of description is somewhat stylized but readable.)"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitori",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read '1 14 8'. The '14' shillings is clear and within valid range; pence '8' legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '0 13 4' visible next to the librarian entry. Numerals and alignment are clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bedell of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Read as '1 3 0'. The pounds '1' and shillings '3' are distinct; description reads 'Bedell of Beggars' (bedel)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Easter Sermon",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '1 0 0' appears clearly opposite this entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "S. Newington Vic. ad Test. Annuum.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line reads '10 0 0' distinctly. The clerical abbreviation for the vicar is legible; numeric values are clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Michl.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A second 'Michl.' entry appears with '10 0 0' opposite it. The numerals are clear but the role of this line (label vs separate entry) is ambiguous; recorded as entry because amounts are present."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Plate Excise",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads '5 15 0' (five pounds fifteen shillings). The '15' is clearly formed and lies inside the shillings column."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Land tax",
+      "amount_pounds": 5,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount recorded as '5 8 0'. Clear digits, alignment consistent with other rows."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Window tax",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The numeric area opposite this label appears to show zeros (no charge), but the digits are faint. I record as '0 0 0' with moderate confidence."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Postage of Letters",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '0 8 1' — the '8' shillings and '1' pence are legible and aligned. No fractional pence."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Recorded as '0 11 0' (eleven shillings). Numerals are clear and within expected ranges."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 105,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Bottom total reads '105 15 0' clearly for pounds/shillings/pence, but there is a small faint mark next to the pence that could be a half‑penny symbol. I record pence_whole as 0 and include a half‑penny fraction (0.5) with moderate confidence due to the faintness of the fractional mark."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page year at top, very clear and centered; no monetary columns present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Receipts Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear heading under year. Handwriting legible; no amounts on this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Of the Solicitor - Mr. Polls plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts line up clearly in the pounds column (10) and zeroes in s and d columns are legible. The surname 'Polls' is readable but the final letter could be interpreted differently (e.g. 'Polls' vs 'Ollis'); chosen 'Polls' based on stroke shape."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do. Consols. - Probate Deposit 1 yr",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Aligned amounts read as £5 18s 8d. 'Do.' abbreviation and phrase 'Probate Deposit 1 yr' are clear; digits are crisp and within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Of Mr Catterbuck, Grocer, Interest Demand for the 2 years ending at Xmas 1830",
+      "amount_pounds": 504,
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Large pounds figure (504) is well aligned and clear. The surname is somewhat ornate — read as 'Catterbuck' (could be 'Cotterbuck' or similar); identified as a grocer from the following word which is legible. Date phrase '2 years ending at Xmas 1830' is readable."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Of Do. for the Bedmakers Fund to Do.",
+      "amount_pounds": 42,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount £42 1s 0d aligns with pounds/shillings/pence columns cleanly. Text is an abbreviated ditto line; 'Bedmakers Fund' reading is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Of Mr Davis Materials sold at Shearmen being the Chapel Barn at Little ?",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount £4 10s 0d is clear in the columns. The description is partially faded/ornate: 'Mr Davis' and 'Materials sold' are legible, but the place/name after 'Little' is uncertain (looks like 'Little Dos' or similar). Recorded text preserves uncertain trailing word and a question mark; lower confidence due to place-name ambiguity."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Of Mr Lightfoot Deans Fees to Mids 1831",
+      "amount_pounds": 47,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns read as £47 13s 4d and are well-aligned. The name reads as 'Lightfoot' (script is fairly clear). 'Deans Fees to Mids 1831' interpreted from cursive 'Deans Fees to Mids. 1831' — slight uncertainty on abbreviation Mids but context supports it."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Of Mr Harrington, Bursar, Treasurer Demand for the 2 years ending at Midsr. 1831",
+      "amount_pounds": 1044,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Large pounds figure (1044) and smaller shillings/pence read clearly as £1044 2s 6d. The personal name reads as 'Harrington' though the hand is ornate and could be 'Harington'; identified as 'Bursar, Treasurer' from adjacent words, with some uncertainty about exact honorifics."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Of Do. for the Bedmakers Fund to Do.",
+      "amount_pounds": 41,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Second instance of a Bedmakers Fund ditto line. Amount columns clearly read £41 10s 6d. Text is abbreviated but legible as a repeat of earlier Bedmakers Fund entry."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Of Dr Shortridge's Trust - 1/2 years Rent to Mids 1830",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads clearly as £110 0s 0d. Name interpreted as 'Dr Shortridge' — spelling could be 'Shortridge' or 'Shortridges'; the possessive and 'Trust' phrase are legible. '1/2 years Rent to Mids 1830' read from abbreviated script."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Of Do. to Annuat 1830",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second similar line also showing £110 0s 0d and aligned. The description text is faint and the middle word reads ambiguously as 'Annuat' or 'Arrear' — chosen 'Annuat' (annual) based on context but with moderate uncertainty."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "S. Newington Estate for General Repairs on the 1/2 year to Mich. 1829",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount £25 0s 0d is clear. 'S. Newington Estate' and 'General Repairs' are legible; the dating '1/2 year to Mich. 1829' is reasonably clear (Mich = Michaelmas)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do. Do. to Ladyday 1830",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "A repeated (ditto) line with amount £25 0s 0d clearly aligned. 'Ladyday 1830' is a clear calendar reference."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "one fourth of Improved Rent of Medeshaw on one years Rent to Annas 1829",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Amount read as £15 13s 10½d (pence shows a clear half-penny loop). The property/place name 'Medeshaw' (or similar) is uncertain in spelling; wording 'one fourth of Improved Rent' and the date '1829' are legible. Moderate confidence due to place-name uncertainty."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "one fourth of Do. for Add Land Rents on the year to Mich. 1830",
+      "amount_pounds": 15,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Amount interpreted as £15 9s 2½d. The pence digit and trailing fractional mark are faint — appears to be a half (similar loop to prior ½). The description uses ditto 'Do.' and 'Add Land Rents' which are partially ambiguous; therefore lower confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "£1997 19 6½",
+      "amount_pounds": 1997,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final total at bottom right clearly written as £1997 19s 6½d; alignment on pounds/shillings/pence columns is unambiguous. The half-penny symbol is clearly present. High confidence for numeric total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

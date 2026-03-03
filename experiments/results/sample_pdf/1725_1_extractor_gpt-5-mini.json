@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Math: Hole. Rectoriq a Secunda Die Novembris 1724",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top title line. Handwriting partly faded and some letters abbreviated (e.g. 'Rectoriq'). Capital words visible but several letters uncertain (e.g. 'Math/Mat.' and 'Hole')."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "ad eundem diem Decembris 1725.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Date phrase readable though the script is slightly compressed; 'Decembris 1725' is clear, 'ad eundem diem' is legible albeit in old-style script."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearage.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Section heading (looks like 'Arrearage' / 'Arrearige'). Clear as a structural label with no amounts in the row itself."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Vincent pro anno",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds/shillings/pence columns are well aligned for this first monetary row. '60 0 0' is clear and passes currency validation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Long William pr anno",
+      "amount_pounds": 58,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Pounds '58' and shillings '3' are legible. The rightmost pence area shows a small mark that could be '2' with an extraneous flourish; original looks like '29' but 29 pence invalid, so interpreted as 2d based on alignment with pence column. Significant ambiguity remains."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Machellin pro anno",
+      "amount_pounds": 29,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The entry's pounds '29' and zero shillings/pence are clearly written and aligned in the columns. The name is slightly uncertain but appears to be a regular '... pro anno' entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Warrington pr Nic",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '50 0 0' is clearly written and column alignment is unambiguous. The place/name text is slightly abbreviated in the manuscript ('South ...'), but this is clearly an entry with full pounds only."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jardington pr quinquennium",
+      "amount_pounds": 6,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '6', shillings '7' and pence '5' read from the three narrow right columns. There is a small trailing flourish near the pence that slightly reduces confidence, but all digits fall within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Horton pr quadriennio (note: 'cant. divid: quare whether this part ...')",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings '18' and pence '7' are aligned in the s and d columns; the pounds column shows a small 0. The descriptive text contains an extended marginal note and is partially abbreviated and cramped, reducing text confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill pr anno",
+      "amount_pounds": 11,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The rightmost three columns show '11 13 1' aligned opposite this entry. Ink is slightly lighter but digits are isolated and within normal ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thorp pr quadriennio",
+      "amount_pounds": 4,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Reads as '4 3 5' in the pounds/shillings/pence columns. Handwriting of the place name is moderately ambiguous, but the numbers are aligned and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Barret pr biennio",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line shows a clear '10 0 0' in the columns. The surname 'Barret' is legible and the 'pr biennio' abbreviation is consistent with other rows."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Calest pr quadriennio",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.35,
+      "notes": "The description is faint and uncertain (reads 'Calest' or 'Celest'), and the amount in the pounds column is small and faint (looks like '1 0 0'). Due to faded ink and uncertainty about the name, confidence is low."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Biggs alias Lord pr anno",
+      "amount_pounds": 4,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name and alias phrasing visible though cramped. Amount columns read '4 15 7' clearly aligned; the script for the alias reduces textual confidence slightly."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cudlington Mill pr quinquenio paid in part",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description contains a visible note 'paid in part' which is legible. The numeric columns read roughly '2 10 2' though ink blur and a small blot near the pence reduce confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton pro quadriennio",
+      "amount_pounds": 4,
+      "amount_shillings": 15,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numeric trio aligned as '4 15 8' opposite this entry. The place name 'Bampton' is slightly faded but readable in context of surrounding list."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Montacute pr quadriennio",
+      "amount_pounds": 7,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "'7 1 11' appears in the columns but the pence area has a dark flourish that could be a decoration; chosen reading '11d' since it fits the column and is legible on close inspection."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Clifton Dorry pr anno",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "The pounds column reads '6' and both s/d columns are '0 0'. The name 'Clifton Dorry' is written in a flowing script that is moderately legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bemprington pr biennio",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "This line clearly records a larger sum '26 10 0' in the three columns. The place name is a little ambiguous but clearly a list-item; numeric alignment is strong."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Prothewse pr anno",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Columns read '13 6 8' clearly. The place/name is written in a contracted hand; the numbers are clean and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Lallane pr sequinanno",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shows '8 0 0' in the numeric columns. The heading 'Lallane pr Sequinanno' is a best-effort reading of an abbreviated Latin phrase; text confidence moderate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Niddenham Fox pr biennio",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Small sum '1 3 4' visible; the name is faint and could be 'Nidderham' or similar. Numeric columns are legible but description uncertain."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Backgate pr biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Right columns read '0 10 0' (10 shillings). 'Backgate' looks plausible in the left text; ink is slightly lighter but columns align well."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hugh pr anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "The manuscript on this row is partly obscured by a diagonal shadow; however, the numeric reading '20 0 0' is visible at the right edge. The name 'Hugh' is not certain due to the shadow."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mysen pr anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "The descriptive text is readable only with difficulty (shadow and ink fade). No clear numeric figures directly aligned to this row are legible; likely grouped with adjacent lines. Left amounts may be part of previous/next row."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Lardon Hall pr anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Near-bottom entry with clear '20 0 0' in the right columns. The place name reads as 'Lardon Hall' or similar; numeric columns are distinct and valid."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Cudlington Rest pr biennio (part)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Final descriptive line before the total is partly crossed/ink-blotted and the numeric entry (if any) is not clearly aligned. The phrase 'pr biennio' and 'part' are legible; no safe numeric reading possible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Summa",
+      "amount_pounds": 325,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Bottom-right total clearly written as '325. 19. 02.' This row provides a strong alignment reference for the pounds/shillings/pence column positions on the page."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

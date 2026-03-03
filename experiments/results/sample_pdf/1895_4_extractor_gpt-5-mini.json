@@ -1,0 +1,75 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "II (Capital) 1895",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title clearly written as 'II (Capital) 1895'. No monetary columns aligned with this text and it functions as a section header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Local Rates Comp. Fund",
+      "amount_pounds": 9,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible as 'Local Rates Comp. Fund'. Numeric columns are well-aligned to the right ruling lines; pounds '9', shillings '15', pence '6' clearly written and all values within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bad debts, written off.",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description reads 'Bad debts, written off.' The pounds column shows '26' with dot markers in the shillings and pence columns indicating zero; alignment with vertical rules is clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 35,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal line (no descriptive text on the same line) showing '35 15 6'. Placement immediately beneath the two entries and a short red rule indicates this is a calculated total; digits are clear and validate (9/15/6 + 26/0/0 = 35/15/6)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Balance at close of acct.",
+      "amount_pounds": 5493,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads as 'Balance at close of acct.' Amount '5493 3 6' aligned in the main money columns. Numerals are smaller but legible; slight uncertainty only in smallness of the thousands digit strokes, chosen reading '5493' based on alignment and spacing."
+    },
+    {
+      "row_index": 6,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5528,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final total shown with a decorative '£' and the figures '5528 19' with a small dot in the pence column. Interpreted as 5528 pounds, 19 shillings, 0 pence. This matches arithmetic (35/15/6 + 5493/3/6 = 5528/19/0). Slight uncertainty due to the dot in the pence place (interpreted as zero pence)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

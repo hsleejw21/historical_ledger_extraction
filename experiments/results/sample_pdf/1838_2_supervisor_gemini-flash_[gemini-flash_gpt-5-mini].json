@@ -1,0 +1,250 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across both extractors for description and type."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Stipula Due Rectoris Scholae et Off.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Based on `gemini-flash` but corrected 'Stipend' to 'Stipula' based on visual verification of the 'l' character, and 'Scholae' from 'Schole'. `gpt-5-mini`'s description ('Statuta Dno. Victoriæ Schol. et Off.') was significantly different and visually less accurate. Both correctly identified as header with no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stipend ad Fest. Natio 1837 et Off",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Fest.' over `gpt-5-mini`'s 'Post.'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augm. S. Newington et Rectori",
+      "amount_pounds": 24,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'S.' and 'Rectori' over `gpt-5-mini`'s 'L.' and 'Norton'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stipend pro duo Stives",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'pro duo Stives' over `gpt-5-mini`'s 'Dno. Shires'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augm. Commune ejusdem Due et Capelle",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms the full description; `gpt-5-mini`'s interpretation ('quondam Dno. Capel') is not supported visually. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Duo Rectori ad super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Duo' and 'ad super.' over `gpt-5-mini`'s 'Dno.' and 'ut supr.'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Dividends ad Fest. Jun 1837",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms this is a header line with no associated amounts. `gpt-5-mini` incorrectly treated it as an entry and assigned amounts from the subsequent line."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ad — ad Fest. L. Mich.",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Ad — ad Fest. L. Mich.' and its observation of the faint/obscured '---'. `gpt-5-mini`'s description 'Ditto ad Est. P. Mich.' is visually incorrect. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipend ad Fest. Annun.",
+      "amount_pounds": 33,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification required. `gpt-5-mini` correctly identified this as an entry with amounts (33 0 0), whereas `gemini-flash` incorrectly marked it as a header with no amounts. Corrected description from `gpt-5-mini` (which had 'Test.' and incorrectly included '1838') to 'Stipend ad Fest. Annun.' based on direct image reading; the '1838' is not on this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Augm. Sidlington pro 3 Ann. past",
+      "amount_pounds": 42,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Sidlington pro 3 Ann. past' over `gpt-5-mini`'s 'Bidlington no 3 Ann. past'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Duo' over `gpt-5-mini`'s 'Dno.', and 'ut super.' for this specific instance (visually distinct from row 7's 'ad super.'). Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Stipend ad Fest. S. Bapt. et Off.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms this is a header line with no associated amounts. `gpt-5-mini` incorrectly treated it as an entry and assigned amounts from the subsequent line."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ad — Duo Stives",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification required. `gemini-flash` correctly identified the description 'Ad — Duo Stives'. Both extractors provided incorrect amounts (33 6 8); amounts visually corrected to '19 13 4'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Augm. Comm. ejusd. Duo. Mod. et Sid.",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms the description and the amount of 56 pounds. `gpt-5-mini` had a significantly different description and incorrect pounds amount (36). Shillings and pence matched."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ad — Sidlington pro 4° parte Ann.",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Ad — Sidlington pro 4° parte Ann.'. `gpt-5-mini` had 'Do. Gillingston for 4th quarter Ann.', which is visually less accurate. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms 'Duo Rectori ut super.' over `gpt-5-mini`'s 'Dno. Rectori ut supr.'. Amounts are clear and match across both extractors."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Stipend Curates ad Fest. S. Mich.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms this is a header line with no associated amounts. `gpt-5-mini` incorrectly treated it as an entry and assigned amounts from the subsequent line. `gemini-flash`'s note about 'Curates' legibility is accurate."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Augm. Commune de Hiltenham Longa",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification required. `gemini-flash`'s description ('Hiltenham Longa') is more accurate than `gpt-5-mini`'s ('Wittenham Longa'). Both extractors provided incorrect amounts (35 14 9); amounts visually corrected to '26 5 0'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super.",
+      "amount_pounds": 35,
+      "amount_shillings": 14,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification required. `gemini-flash`'s description ('Duo Rectori ut super.') is accurate. Both extractors provided incorrect amounts (30 9 2); amounts visually corrected to '35 14 9'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 698,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Based on `gemini-flash`. Visual verification confirms '£' as the description and 698 pounds, 4 shillings, 5 pence. `gpt-5-mini` incorrectly read shillings as '7' and included the amounts in the description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 11,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

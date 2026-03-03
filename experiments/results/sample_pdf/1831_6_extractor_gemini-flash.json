@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Solida Jania – Pist. forwards",
+      "amount_pounds": 404,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Solida Jania - Pist. forwards' has some cursive ambiguity in 'Jania' and 'Pist', but is the most plausible reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To Mr Morgan for Valuation of two Livings",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Thos Stones Tile for Roof Gutters for",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The name 'Thos' is slightly stylised cursive, but clearly legible. No amount on this line as it's part of a braced entry."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hodington Chancel",
+      "amount_pounds": 6,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges. This is the amount line for the braced entry above."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To Watts Carpenter, for the seats in",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No amount on this line as it's part of a braced entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Hodington Chancel",
+      "amount_pounds": 22,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges. This is the amount line for the braced entry above."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "To Rev. L. H. Cornish. 2 yrs. Int. on 200 £",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The '£' symbol after 200 is clear. No amount on this line as it's part of a braced entry."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "for L. Deaton Augmentation to Ladyday 1831",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges. This is the amount line for the braced entry above."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Messrs. Co. Insurances at Little Seu",
+      "amount_pounds": 12,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The abbreviation 'Co.' after 'Messrs.' is slightly ambiguous due to cursive style but appears correct. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "To Do for Hodington, Warnton, & Hamptonfield",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "To Wyatt Fitting Seats in South Chancel",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- Bliss - Painter",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "- Bush & Pilcher - Ironmongers",
+      "amount_pounds": 60,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "- Dudley & Bowler - Glaziers",
+      "amount_pounds": 57,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "- Fletcher & Cripps - Confectioners",
+      "amount_pounds": 7,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "- Hayes for Binding Books &c",
+      "amount_pounds": 14,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "- Hewett - Plasterer",
+      "amount_pounds": 67,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "- Hickman - Silversmith",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "- Oxford Herald - Advertisements",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "- Do Journal - Do.",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "- Purdies Bill",
+      "amount_pounds": 20,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "- Watts - Painter",
+      "amount_pounds": 34,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "- Harris & Plowman",
+      "amount_pounds": 58,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "- Knowles - Mason",
+      "amount_pounds": 64,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "- Hewett for the New Garretts. No. 3.",
+      "amount_pounds": 109,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "- Leach for Do. & Do.",
+      "amount_pounds": 339,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1330,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the total amount. The '£' symbol is part of the numeric representation here, not descriptive text. Amounts are clear, well-aligned, and within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

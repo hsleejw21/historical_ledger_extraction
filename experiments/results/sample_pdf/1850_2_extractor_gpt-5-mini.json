@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Statuta. Dno Rectori Scholaribus et ff.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top-of-page title/header. Ink and flourishes make several letters ambiguous (particularly the final word). No amounts in this line; interpreted as the page header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Stipend ad festum Nativ: 1849",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear alignment with the three vertical ruling lines. Pounds '19', shillings '13' and pence '4' are legible and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Augment P. Newington et Merton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers align clearly in the £/s/d columns: '26 10 0'. Handwriting of place-name ('Newington et Merton') is slightly stylized but readable."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Stipend: Dno Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric columns are well aligned: '33 6 8'. The name reads as 'Shiers' though the final letters are slightly looped; chosen reading matches context."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Augment: Comm: ejusdem Dno et Capelle",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear numeric '60 0 0' in the £/s/d columns. Handwritten abbreviation 'Comm:' and 'ejusdem Dno et Capelle' are slightly compressed but legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description 'Do Rectori' and the numbers '30 9 2' are crisply written and perfectly aligned with the ruling lines."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Stipend ad festum Annum: 1850",
+      "amount_pounds": 32,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts '32 0 0' align well. Handwritten year and phrasing are readable though the word 'Annum' is slightly condensed."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Augment: Paddington pro 3 quartib Anni",
+      "amount_pounds": 38,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numerics '38 19 1' are clear, but the place and Latin abbreviation text are somewhat difficult to parse (I read 'Paddington pro 3 quartib. Anni'). Chose this reading based on letter shapes and context."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Repeated 'Do Rectori' line. Numeric '30 9 2' is clear and well-aligned."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipend ad fest. Do Jo: Bapt: et Officiarios",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '19 0 0' is clear. The description contains several standard abbreviations ('Jo: Bapt:' for John the Baptist) and is slightly ornate but readable."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do - Dno Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric '33 6 8' is clear. The text is an abbreviated repetition ('Do - Dno Shiers'); letters are slightly stylized but consistent with earlier 'Shiers' entry."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Augment: Comm: ejusd: Dno et Mod. et S.D.D.",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numbers '56 0 0' are clear. The descriptive text is congested and contains multiple abbreviations; several letters are uncertain, so I provided a cautious transcription ('ejusd:', 'Dno et Mod.' etc.)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "D Hollington pro 4to parte Anni",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '12 19 8' is legible. The place-name appears as 'Hollington' (or 'Hollington'); chosen reading based on letter shapes. 'pro 4to parte Anni' is a standard phrase and readable."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Another clear 'Do Rectori' line with crisp numerals '30 9 2'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stipend Gvinear ad festum St. Michaelis",
+      "amount_pounds": 25,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts '25 15 0' clearly aligned. The first word reads 'Gvinear' (or similar); context suggests a stipend entry. Word is slightly uncertain but digits are clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Augment: Comm: de Wittenhame Longae",
+      "amount_pounds": 28,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric '28 12 5' is clear. The place name 'Wittenhame Longae' is my reading of the Latinized placename; letters are legible though somewhat compressed."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Do Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final 'Do Rectori' in this block. '30 9 2' is clear and well aligned."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 587,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A subtotal/sum is visible at the right for the preceding block. The numerals read as '587 19 6' but the line is slightly faint and there is no accompanying text label; recorded as a total with moderate confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Scholari Regis Caroli 1mi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "New section header (Latin). The phrase 'Scholari Regis Caroli primi' is legible though the final 'primi' is written as '1mi' (typical abbreviation). No amounts on this header line."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Pro Finibus - Mullington",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Small amount at lower right reads '1 12 1' with a halfpenny loop after the pence (interpreted as 0.5). The fraction symbol is faint but shaped like the common 'ob' halfpenny mark."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Lovelle",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Amount aligns as '8 10 10' with a small quarter-farthing-style mark after pence (interpreted as 0.25). The quarter mark is faint and a little ambiguous, hence moderate confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Helle",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Amount reads '2 13 9' with a three‑quarters-farthing style tail on the pence (interpreted as 0.75). The fraction mark is smudged but appears to be the '3q' style; moderate confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 520,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Final faded total at the bottom right reads as '520 16 2 3/4'. The pence fraction is faint but resembles a '3q' (three farthings). The line is light and slightly smudged, so confidence is moderate."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at the top of the page, legible and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section title (underlined) immediately under the year; fully legible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Browning. kitchen Rectors Lodge",
+      "amount_pounds": 7,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "All three columns (7 | 3 | 9) are well aligned with the vertical rules and clearly written."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Benson & Little Sen. Journeys to",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds (2) and shillings (11) are legible; the pence column is blank/dash. Chosen to leave pence empty rather than assume 0."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Surridge. viz to Octr 29. 1855. by Wm L",
+      "amount_pounds": 8,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds 8 and shillings 5 clearly visible; pence column blank. Date and 'by Wm L' legible enough for description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hill. Keddlington",
+      "amount_pounds": 6,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds figure '6' is visible; the shillings and pence columns look blank or faint. Some ink fade around the narrow columns makes shillings/pence uncertain."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Capell. &c",
+      "amount_pounds": 3,
+      "amount_shillings": 14,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds 3 and shillings 14 are well aligned and legible; pence column blank. Small flourish on the 14 checked against vertical guides."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gravel for Quadrangle",
+      "amount_pounds": 3,
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts read as 3 | 12 | (blank). Columns are clear and values are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Collins & Hunt. Remainder of Contract Manor Farm",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds appears to be '14' but the shillings/pence columns are faint or absent. The wordiness of the description is clear; amount alignment slightly uncertain."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Collins. Repairs Manor Farm",
+      "amount_pounds": 6,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All three columns (6 | 17 | 6) are crisp and align well with the ruled columns; values validate (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hunt do.",
+      "amount_pounds": 21,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear three-column entry (21 | 9 | 6). Handwriting and alignment make this unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Hastings. Bills &c.",
+      "amount_pounds": 76,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, very clear amounts (76 | 18 | 3) aligned to the column rules; high contrast ink makes reading certain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Consols sale of",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Small but clear three-column figure (1 | 4 | 2). Column boundaries used to confirm digits."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr Walsh. Expenses on transfer & the sale of 2 1000 bonds from Exors of late Jno Jones. Order April 25. 1855",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds 20 and shillings 10 are legible and align with the pounds/shillings lines; pence column appears blank. The long descriptive text is partly abbreviated in the original but readable."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Fanshawe. many library Books, see fol other Decr 11th 1854",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A clear '10' in the pounds column; the narrower shillings/pence columns are blank. The note referring to Decr 11th is legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Merton. Subscription towards Harmonium",
+      "amount_pounds": 3,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Single '3' in pounds column clearly visible; no smaller values in shillings/pence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Terry Barn. Straw & carriage for thatching",
+      "amount_pounds": 19,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds 19 and shillings 5 are clear; pence column blank. Slight ink flourish on the 19 but alignment confirms reading."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Benson. Fencing & on acct Brownsell",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds read as '40' and fairly distinct; the shillings/pence columns are blank or too faint to read. The surname could be 'Benson' or 'Benton' but 'Benson' fits preceding usage."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Waldron Expenses (copy hold) New Trustees",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Three-column amount (7 | 10 | 3) is visible and aligns well with the ruled lines; description clearly refers to expenses for new trustees."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Collins. Rep: & timbers Farm",
+      "amount_pounds": 12,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds looks like '12' and sits correctly in the pounds column; shillings/pence are blank or faint. The abbreviation 'Rep:' interpreted as 'Repairs' or 'Rept'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tweed Journey to London on Coll. acct",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads as 1 pound and 15 shillings. The leading '1' is small; alignment with the shillings column confirms '15'. Pence blank."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Honor. work done on Seckham Farm allc",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds '15' is visible but the description has abbreviations and the smaller amount columns are blank. Some ink fade on this line reduces certainty."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Casey. Rep: Long Wittersham",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear three-column figure (4 | 12 | 6) with good alignment. Handwriting of numerals is unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Miss Jones Int. on 1000 from College",
+      "amount_pounds": 14,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '14' readable; shillings/pence blank. 'Int.' interpreted as interest; 'College' reading inferred from context though partly abbreviated."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Prof. Tax to April 1855",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Three-column figures (53 | 4 | 5) are fairly clear though the leading '5' of 53 has a slight flourish; validation checks OK."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Benson Fencing & Brownsell",
+      "amount_pounds": 59,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '59' visible in the pounds column; smaller columns appear blank/faint. The surname matches earlier 'Benson' entries."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Honor Seckham Farm",
+      "amount_pounds": 14,
+      "amount_shillings": 17,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads as 14 | 17 | (blank). Shillings '17' is clear; pence blank. Description is short and legible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Faulkner. South Newton allowed for Gates",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Three-column entry (9 | 10 | 6) cleanly written and aligned. 'South Newton' and 'Gates' legible in the description."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Benson Rep: Surance",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts 4 | 5 | 10 are clear. The description uses abbreviation 'Rep:' and a short form 'Surance' for assurance; reading matches the script style elsewhere."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Kimber Little Sen. - Gates",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds 3 and shillings 7 are faint but aligned; pence blank. Surname 'Kimber' and 'Little Sen.' abbreviated in original and slightly unclear."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Rolls. Keldlington Pump &c",
+      "amount_pounds": 6,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds 6 and shillings 1 visible; pence column blank. 'Keldlington' reading relies on local place-name spelling in the ledger (slight ink flourish)."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Benson. Draining Tiles",
+      "amount_pounds": 5,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds 5 and shillings 6 clear and align with ruled columns; pence blank. Description is legible."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Dr Glayice. copy of Papers on deck = Univ's Archives",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '1' visible; smaller columns blank. The name 'Dr Glayice' and 'Univ's Archives' are somewhat abbreviated and faint but plausible from the script."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Sub-Rector. allowance to",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final line with a clear three-column total (19 | 13 | 10) aligned to the ruled columns. Description is legible and looks like the concluding allowance entry."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

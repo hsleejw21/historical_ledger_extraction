@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page-year heading '1838.' in large script. No amounts present; fully legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptionum et Solutionum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear Latin heading immediately under the year; no monetary amounts. Script is legible and acts as a structural label."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2do die Novembris A.D. 1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date line clearly written; no amounts. Read as '2do die Novembris A.D. 1838.'"
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section header for receipts ('Recepta') centered/left; no monetary amount on this label line."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Arrearages",
+      "amount_pounds": 1158,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Right-column alignment of numbers is clear. Pounds '1158' and shillings '3' are legible; pence shown as '2' with a three‑quarters/farthings mark (interpreted as 0.75). Column boundaries confirmed by subtotal alignment."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Anni praesentis",
+      "amount_pounds": 1237,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description reads 'Anni praesentis' (handwriting a little compressed). Pounds look like '1237' and shillings '7'. Pence looks like '7' but the digit is slightly tighter than neighboring digits; chosen as 7 based on alignment with shilling and subtotal columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 641,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Varia' clear. The individual amount is faint and ambiguous in the original, but the visible subtotal for the three receipt lines is '3036 18 3 3/4'. Using that subtotal and the two clearer lines above (1158.3.2.75 and 1237.7.7) yields this third line as 641.7.6 (arithmetic check). Because this line is deduced by subtraction rather than fully clear in-source, confidence lowered to 0.6."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "3036 18 3 3/4",
+      "amount_pounds": 3036,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Subtotal under 'Recepta' is clearly written as '3036 18 3 3/4' (three-quarters sign visible after pence). Vertical ruling lines used to place numbers in columns; values validate (shillings 0–19, pence 0–11 with fraction 0.75)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 293,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Line reads 'Debita Anni praecedentis' (debt of preceding year). Amount '293 15 6' clearly aligned and legible; pence is whole '6'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "£ 3330 13 9 3/4",
+      "amount_pounds": 3330,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Total receipts after adding prior debts shown as '3330 13 9 3/4'. Clear pound sign and three‑quarters fraction after pence. Values validate correctly."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section header 'Soluta' (payments) introduces the payments/expenditure group. No amounts on this label line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Domno Rectori Schol. et Off.",
+      "amount_pounds": 698,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description abbreviated 'Domno Rectori Schol. et Off.' (to the Rector). Pounds '698', shillings '7', pence '5' are readable though the abbreviation is scripty; columns used for alignment and values fall in valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ordinaries",
+      "amount_pounds": 401,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line reads 'Ordinaries' (or 'Ordinaris' in script). Amount '401 0 3' is clearly aligned; shillings as '0' are evident in the narrow middle column."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1480,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Payment line 'Varia' with amount '1480 9 10' is clear. Pence '10' is legible and within valid range (0–11)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "£ 2579 17 6",
+      "amount_pounds": 2579,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Subtotal for 'Soluta' clearly shown as '2579 17 6' with pound sign. Alignment confirms column boundaries and numbers validate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Ex Receptis - 3330.13.9 3/4",
+      "amount_pounds": 3330,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Line 'Ex Receptis' repeats the receipts total '3330.13.9 3/4'. Clear repetition of earlier total; fraction three‑quarters visible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deductis Solutis - 2579.17.6",
+      "amount_pounds": 2579,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Line 'Deductis Solutis' shows the payments total '2579.17.6'. Clear and matches the payments subtotal above."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restat - £ 750.16.3 3/4",
+      "amount_pounds": 750,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Final balance 'Restat' shown as '750.16.3 3/4'. This equals 3330.13.9.75 minus 2579.17.6 (arithmetically consistent with earlier lines). Three‑quarters fraction after pence is visible but slightly smaller script; alignment confirms columns."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered verification heading 'Computus comprobatus per Nos' clearly written; no amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "J. L. Richards Rectorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature/name line is in cursive and a little faint; read as 'J. L. Richards Rectorum' but some letters (particularly the surname) are slightly uncertain. No monetary amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "W. ?erch. ?brodann",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.35,
+      "notes": "One of the signature lines; highly cursive and somewhat faded. Several letters are ambiguous (I read roughly as 'W. ?erch. ?brodann'). No amounts. Confidence low due to faded/connected script."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Gul. F?lner M.A. Burs. Senior",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Signature line with academic/title abbreviations. Read as 'Gul. ?lner M.A. Burs. Senior' but several letters uncertain (particularly surname). No amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "G. Dawson Burs. Junior",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature likely 'G. Dawson Burs. Junior' — surname and 'Junior' reasonably legible though the line is small. No monetary amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "C. L. Cornish A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature line reads approximately 'C. L. Cornish A.M.' Letters readable but slightly stylised; no amounts present."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "John Ley M.A.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final signature line reads 'John Ley M.A.' fairly clearly though small. No amounts."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

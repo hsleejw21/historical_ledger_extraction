@@ -1,0 +1,448 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 410,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms '410 8 6' as clear in the respective columns. gpt-5-mini misread the pounds as 4 and noted ambiguity, which was not present for the correct reading."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Subscriptions",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Clearly a header with no associated monetary values."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long Wittenham School",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification for description 'Long Wittenham School' (from gemini-flash, overriding gpt-5-mini's 'Lang'). Amount '5 5' (5s 5d) is clearly visible in the shillings and pence columns, as correctly identified by gpt-5-mini. gemini-flash incorrectly stated no amounts were visible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Belsham Do",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms both description 'Belsham Do' and amounts '5 5 2' (£5 5s 2d) in the correct columns. gpt-5-mini misread the description and incorrectly aligned the amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwiner Do",
+      "amount_pounds": 5,
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'Gwiner Do' and amounts '5 2' (£5 2s 0d) in the pounds and shillings columns respectively. gpt-5-mini misaligned the amounts to shillings/pence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Diocesan Bd of Education",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms '10' is clearly aligned with the pounds column. gpt-5-mini incorrectly placed it in shillings."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "South Livinge Dio of Oxford",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'South Livinge Dio of Oxford' and amounts '5 5' (£5 5s 0d) in the pounds and shillings columns. gpt-5-mini misread the description and misaligned amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Widows & Orphans of Clergy D-",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'Widows & Orphans of Clergy D-' and amounts '5 5' (£5 5s 0d) in the pounds and shillings columns. gpt-5-mini misread the description and misaligned amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "University Marshal",
+      "amount_pounds": 2,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms '2' is clearly aligned with the pounds column. gpt-5-mini incorrectly placed it in shillings."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Bellringer & Chapel Clerk",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (closer to image). Amount £0 12s 0d is consensus and visually confirmed in shillings column."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'Corn Prices' and amounts '1 9 6' (£1 9s 6d) in the pounds, shillings, and pence columns. gpt-5-mini incorrectly shifted the pounds value into shillings."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms '1 1' (£1 1s 0d) are in the pounds and shillings columns. gpt-5-mini incorrectly shifted the amounts to shillings and pence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "College Gardener 1st Qr to Xmas 1843",
+      "amount_pounds": 9,
+      "amount_shillings": 4,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '9 4' (£9 4s 0d) in the pounds and shillings columns. gpt-5-mini misread the amounts and parts of the description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "2nd Do to Lady Day 1844",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '7 16' (£7 16s 0d) in the pounds and shillings columns. gpt-5-mini misread the description and pounds amount, also noting faintness which is not visually apparent for '7'."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "3rd Do to Midsr 1844",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash ('Midsr' for Midsummer confirmed visually). Amount £12 0s 9d is consensus and visually confirmed."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "4th Do to Michs 1844",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '7 15 3' (£7 15s 3d). gpt-5-mini incorrectly read the pence as '8'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Open Scholarships",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between extractors. Clearly a header with no associated monetary values."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "For Cowburn",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed). Amount £40 0s 0d is consensus and visually confirmed in pounds column."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "For Godley",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed). Amount £40 0s 0d is consensus and visually confirmed in pounds column."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "For Whitehead",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed). Amount £40 0s 0d is consensus and visually confirmed in pounds column."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Synodals Procurations — Kidlington",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed). Amount £0 12s 0d is consensus and visually confirmed in shillings column."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Soluta Varia",
+      "amount_pounds": 816,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '816 9 3' (£816 9s 3d). gpt-5-mini incorrectly read the pounds as '616'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "For Welsh's bill for the yr ending Nov 2, 1843",
+      "amount_pounds": 64,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '64 6' (£64 6s 0d) with pence column empty. gpt-5-mini incorrectly added '6' to pence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Stringer",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Stringer' from gemini-flash, confirmed visually (the 'r' is present, albeit with a flourish). Amount £0 12s 9d is consensus and visually confirmed."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Chapel Mason's work on Campfield Farm",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description combined from both: 'Chapel' (from gemini-flash) and 'Campfield Farm' (from gpt-5-mini), both visually confirmed. Amount £2 15s 0d is consensus and visually confirmed."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Gresham Rector's prize for Mr. Greene",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'Gresham Rector's prize for Mr. Greene' and amounts '9 8 6' (£9 8s 6d). gpt-5-mini misread the shillings as '18' and unnecessarily abbreviated the name."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Kimber repairs &c",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description and absence of amount, confirmed visually. This row acts as a header/summary for the subsequent indented items. gpt-5-mini incorrectly assigned the total amount from a later row ('Repairs of Bushey Tenements') to this row and misread the description."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "½ expence of Draining £3.11.0 ½",
+      "amount_pounds": 3,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Row found only by gemini-flash and visually confirmed. The monetary amount is explicitly written within the description text, including a clear ½ pence fraction."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "for Gate Posts ---- 4.4.0",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row found only by gemini-flash and visually confirmed. The monetary amount (4s 0d) is explicitly written within the description text."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Shirley Board ---- 8.9",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row found only by gemini-flash and visually confirmed. The monetary amount (8s 9d) is explicitly written within the description text."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Repairs of Bushey Tenements",
+      "amount_pounds": 8,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amounts '8 3 9 ½' (£8 3s 9½d), including the fraction. gpt-5-mini significantly misread the amounts and expressed low confidence."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Falkner allowance for planting acorns",
+      "amount_pounds": 5,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description and amount '5' (£5 0s 0d) in the pounds column. gpt-5-mini misread the amount as '1' and noted uncertainty."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Dale valuing, Kidlington Rectory Farm &c",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'Dale valuing, Kidlington Rectory Farm &c' and amount '1' (£1 0s 0d) in the pounds column. gpt-5-mini misread the description and amount."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "For Woollcombe money advanced by him for",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification shows this is the first line of a two-line description, with no amount associated with it directly. Both extractors incorrectly assigned an amount to this row. Description adapted from gemini-flash."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "the redemption of the Sole plate seized by King's",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms description 'the redemption of the Sole plate seized by King's' and amounts '19 7' (£19 7s 0d). gpt-5-mini significantly misread the description and amounts."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Mr. Rupert provisional Stipend, &c",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Row found only by gemini-flash and visually confirmed. gpt-5-mini did not extract this row and appears to have incorrectly attributed its amount to a previous row."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Grove for Denison June 30. 1843",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed). Amount £6 8s 0d is consensus and visually confirmed. gpt-5-mini misread description."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Mrs. Rose kitchen woman, allowance at 5/- pr week from March 6 1843 to Xmas 1843 42 weeks",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description from gemini-flash (visually confirmed, including 'Xmas' symbol and 'pr'). Amount £10 10s 0d is consensus and visually confirmed. gpt-5-mini misread parts of the description."
+    },
+    {
+      "row_index": 39,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 145,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the amount '145 15 0 ½' (£145 15s 0½d). The description line itself is blank, although it is implicitly a 'TOTAL'. gpt-5-mini correctly identified the blank description but misread shillings as '16'. gemini-flash correctly identified amounts but added a 'TOTAL' description not explicitly present on this specific line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 9,
+      "rows_by_visual_override": 24,
+      "rows_added_missing": 4,
+      "rows_dropped_extra": 0
+    }
+  }
+}

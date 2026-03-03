@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page year at top. Legible, no monetary columns associated."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Particulars - Brought over",
+      "amount_pounds": 1265,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads as an opening balance 'Brought over' with clear aligned numbers 1265 | 16 | 10 in the pounds/shillings/pence columns. Vertical rule alignment is unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Couff - Plasterer",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 20/13/6 clearly aligned. The surname is faint and stylised (reads as 'Couff' or similar); chosen reading based on letter shapes but some ambiguity in letters."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hudson - Builder",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Hudson - Builder' is legible. Numeric columns 12 | 2 | 11 are clear and valid (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Underwood - Architect",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name and occupation clearly read as 'Underwood - Architect'. Amount 10 | 10 | 0 well aligned and unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Cooke - Upholsterer",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading of 'Cooke - Upholsterer'. Amount columns read 5 | 0 | 0 with good alignment."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Jubber - Confectioner",
+      "amount_pounds": 8,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads as 'Jubber - Confectioner' though initial letter could be slightly stylised; amounts 8 | 4 | 0 are clearly aligned."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Oxford Journal - Advertisements",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear printed name 'Oxford Journal - Advertisements'. Amount 2 | 19 | 6 clearly aligned; shillings 19 valid (<20)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Spiers - Stationary",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname reads like 'Spiers' (could be 'Spins' or similar) and 'Stationary' (stationery). Amount columns 2 | 3 | 7 clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Haines - Do",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "'Haines - Do' (Do = ditto: stationery). Amount 2 | 9 | 1 is clear and aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Pottelle - Silversmith",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Occupation 'Silversmith' clear. Surname is faint and flourished (read as 'Pottelle' or similar); numeric 1 | 9 | 10 is well aligned and unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Pinder - Horse Hire",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Text reads as a name followed by 'Horse Hire'. Chosen 'Pinder' based on letter shapes; amounts 1 | 10 | 0 are clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Faulkner - Porters Chair",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Name and item read as 'Faulkner - Porters Chair' (apostrophe absent). Amount 3 | 3 | 0 clearly aligned."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "The Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear wording 'The Rector's Improved Stipend' and amount 100 | 0 | 0. High legibility and alignment."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Do - Stamps, Parcels &c.",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Starts with 'Do' (ditto). 'Stamps, Parcels &c.' legible. Amount 1 | 7 | 0 clear in columns."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Subrector for Letters &c.",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Text reads 'Subrector for Letters &c.' Amount 5 | 0 | 0 aligned and clear. Slight uncertainty in the exact spelling of 'Subrector' vs 'Sub-rector' but reading is legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Compensation to Fellows for 'Dry Piece' ???",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Monetary columns 23 | 0 | 0 are clear. The descriptive phrase after 'Compensation to Fellows for' is faint/abbreviated and looks like 'Dry Piece' or 'Dry Rice' — uncertain, hence lower confidence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Witherham, Year to Michl 1837",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This indented line appears to be an explanatory note/date 'Witherham, Year to Michl 1837' with no monetary amount. The handwriting is legible though slightly cramped."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "(complement of Subrector's Salary)",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Parenthetical note appears as an entry and is aligned with numbers 2 | 0 | 5. Interpretation as complement of salary fits context; numeric alignment is clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Mr. Falconer - Expenses of journey to Ripple",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname and purpose read as 'Mr. Falconer - Expenses of journey to Ripple' (place name faint but likely 'Ripple'). Amount 12 | 12 | 6 is clear and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "The Rector's allowance for Kitchen",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'The Rector's allowance for Kitchen' (final word slightly abbreviated). Amount 2 | 2 | 6 aligned and legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "£10. Bill already paid by Orders £7:17:6. Balance ....",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This lower note contains arithmetic explanation '£10. Bill already paid by Orders £7:17:6. Balance' and is not aligned to the money columns; text is somewhat condensed and abbreviated, so moderate confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "£1480 9 10",
+      "amount_pounds": 1480,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large final total clearly written as '£1480 9 10' with strong alignment to columns. All numeric values valid and unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

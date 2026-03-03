@@ -1,0 +1,342 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Levyy Rines",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top-centre page title. Handwriting a little stylised; read as 'Levyy Rines' (could be 'Levy Rines' or similar). No amounts in the same line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "montague ? & Keddington 2:14:8 Clifton 17:18",
+      "amount_pounds": 3,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Small cluster of place/names at very top-left with a single small 3 | 14 | 4 aligned in the pounds/shillings/pence columns at the top-right. The description is ambiguous and several place-names/numbers are merged; amount columns are clear but the mapping of which sub-item they refer to is uncertain."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepcheck ... (crossed out)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "A long line of text has been heavily struck through. I transcribed as 'Recepcheck ...' to reflect visible letter shapes, but the line is mostly illegible due to the strike-through. No amounts visible on this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Bursarijs & Imponijs Cell et nota Domus",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Centered section heading. Handwriting relatively clear; no amounts on the heading line."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "P: W: Amy Bur: in all for Impensa",
+      "amount_pounds": 15,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear transaction line. Numbers at the right read cleanly as 15 | 9 | 11; vertical ruling alignment unambiguous and values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Hule Prisoners",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Left-margin label adjacent to a curly bracket of names. Handwriting a little stylised but readable as 'Hule Prisoners' (could be 'Hull Prisoners' or similar). No monetary amount on the label line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Forehand 18 Ann. 15 Mich",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "One of the four bracketed names (sub-items). No amount on this specific line; appears as a sub-item whose amount is shown on the sibling subtotal row to the right."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Guy 15. Annm. 15 Mich",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second name in the bracket. No individual amount visible; read as a sub-item. Handwriting moderately clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Webber 18 Ann.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Third name in the bracket. No amount on this line; letters are fairly legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Harris 18 II",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Fourth name in bracket. No amount on the line; handwritten numerals relatively clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Subtotal aligned with the bracketed list; numeric columns read clearly as 4 | 10 | 0. There is no descriptive text on the same line (appears as a lone amount), so treated as a subtotal/total for the bracket."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 23,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section sum clearly written 'Sum' with amounts 23 | 14 | 3. Matches column alignment and validates against the component amounts (15 9 11 + 4 10 0 + 3 14 4 = 23 14 3)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Dno Xri et Socijs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered heading for the next account section. Handwriting clear ('Dno Xri et Socijs'). No amounts on this line."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ad fest. nat. B Augm. Southn. et Moriton",
+      "amount_pounds": 23,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line is legible and the amount 23 | 10 | 0 is clearly aligned in the page's right-hand columns. Values within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stipend. et. Officiarijs",
+      "amount_pounds": 18,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description and amount 18 | 0 | 0. The entry appears to be the stipend/officers line for the section."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ad fest. Ann. B augm. red Cudlington 3 parts",
+      "amount_pounds": 33,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description moderately clear ('Ad fest. Ann. ... Cudlington 3 parts'). Amount reads as 33 | 02 | 10; pence 10 is within valid range. Some minor uncertainty in exact orthography of place name."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Stipend.",
+      "amount_pounds": 27,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "A 'Stipend.' line immediately following the Cudlington line. Amount 27 | 13 | 4 is clear in the columns and consistent with ledger spacing."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Ad fest. Bapt. Q 4 parts red. augm. Endingt.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Ad fest. Bapt. Q 4 parts red. augm. Endingt.' with amount appearing as 40 | 00 | 10. The pence column is clearly '10', but there is slight hesitation on exact abbreviation spelling of place name; amount alignment is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Stipend et officiarijs",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear stipend line with amount 17 | 00 | 00. Handwriting of description and numerals is legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Ad fest. Mich Q augm. red Longwit.",
+      "amount_pounds": 30,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads as 'Ad fest Mich' with place 'Longwit' (approx.). Amount 30 | 19 | 11 is clearly written; pence 11 is valid. Minor uncertainty on spelling of place."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "fol. G. Guinear",
+      "amount_pounds": 22,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Line 'fol. G Guinear' (name/folio reference). Amount to right reads 22 | 15 | 0 with good alignment and legibility."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 183,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section total clearly written as 183 | 2 | 0. Numeric alignment with previous lines is consistent; values are within expected ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Summa Omnium Solutionum",
+      "amount_pounds": 533,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Major total line. 'Summa Omnium Solutionum' is clearly written; amounts 533 | 9 | 6 are aligned in the three money columns and easily legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Summa Omnium Receptorum",
+      "amount_pounds": 455,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Reads as 'Summa Omnium Receptorum' (orthography uncertain). The numeric block reads '455 | 6 | 7' though there is some small, faint stray ink to the right of the pence that slightly obscures final digit; chosen reading is 7d based on shape and spacing."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Ita debentur Dno Computanti",
+      "amount_pounds": 78,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear 'Ita debentur Dno Computanti' with amounts 78 | 2 | 10. Alignment and numerals are legible and consistent with the ledger columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Sam: Oldams.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Signature/name line beneath totals. Handwriting clear and no amount on the line."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Jo. Haviland dec.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second signature/name line; 'dec.' abbreviation visible. No monetary amount."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "Geo: Stubbes.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Third signature/name line; fairly clear handwriting. No amount on this line."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "Gri. Paynter? (signature, partly obscured)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Bottom-right contains several inked signatures; this particular flourish reads roughly as 'Gri. Paynter' but is heavily stylised/partly overwritten; no amount. Low confidence due to cursive overlap and ink blotting."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "Additional signatures / scribbles (illegible)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Several further small signature-like scribbles at the very bottom-right are present; mostly illegible and overlapped. No monetary amounts associated. Recorded as a single row of illegible signatures."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "soluta ordinaria.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-centre page title; very clear handwriting and no monetary amount in the title line. Vertical ruling lines not needed for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Southamdrington vic: ad fest annum:",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description legible but some letters ambiguous (reads as 'Southamdrington' / 'Southam...'). Amount at far right is faint and small; interpreted as '2 - 5 - 2' by alignment with the three right-hand ruling lines and comparison with clearer totals below. Because the description and small digits are both somewhat faint, confidence reduced."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "- ad fest Michl:",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description (dash then 'ad fest Michl') clearly visible. Amount '10 - 0 - 0' is well aligned under the pounds column and digits are crisp; shillings/pence zeroes are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "- ad fest Michl:",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A second identical line (dash then 'ad fest Michl'). Amount reads '10 - 0 - 0' similar to the prior row. Slight ink fade compared with previous line but column alignment is clear so reading is reliable."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Plate Excise",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Plate Excise' is clear. Amount '5 - 15 - 0' is crisply written and aligns perfectly with the pounds/shillings/pence ruling columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Postage Letters &c",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amount '0 - 5 - 0' well aligned. No ambiguity in digits."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Pauperibus (general Collection for ye Poor Jersey 1769.)",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description mostly legible though 'Pauperibus' / 'general collection' require pale reading; amount '3 - 3 - 0' is clear and aligned. Year '1769' visible in parentheses."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "soluta Dno Rectori Scholariis & Officiaris.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered section header introducing the next group. Handwriting clear though Latin abbreviation 'Dno' (Domino) and 'Scholariis' are old-style; no amounts present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Apendium",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as 'Apendium' (spelling variable in manuscript). Amount '18 - 6 - 8' is legible; column alignment clear. Some letters in description slightly faded, hence confidence < 1.0."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "pro augment. South New: & Merton",
+      "amount_pounds": 24,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'pro augment. South New: & Merton' reasonably clear (some abbreviations). Amount '24 - 0 - 0' clear and aligned with pounds column."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Stipend Dno flicus",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is abbreviated and partly uncertain ('Dno flicus' reconstructed from manuscript). Amount '33 - 6 - 8' is readable but ink slightly blotchy on the shillings/pence; column boundaries were used to confirm each digit."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Divid: Dna flicus",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Divid: Dna flicus' (abbreviated) visible. Amount '50 - 0 - 0' is written clearly with strong strokes, alignment consistent with other rows."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Stipend",
+      "amount_pounds": 31,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Single-word description 'Stipend' is clear. Amount '31 - 0 - 0' clearly written and validated against ruling lines."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "(pro 3a parte Kidling: augment.)",
+      "amount_pounds": 22,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Bracketed description '(pro 3a parte Kidling: augment.)' reasonably legible though some letters ambiguous. Amount '22 - 0 - 10' is clear; pence '10' validated as <=11."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stipend",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Another 'Stipend' line; amount '19 - 0 - 0' clear and well aligned."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "(pro 4ta parte Kidling: augment.)",
+      "amount_pounds": 11,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Bracketed description for a 4th part augment; letters slightly cramped but readable. Amount '11 - 5 - 5' is legible; all currency components pass validation."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Stipend Dno flicus",
+      "amount_pounds": 35,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description similar to earlier 'Stipend Dno flicus' but ink heavier here; amount reads '35 - 6 - 8'. Slight variability in handwriting makes the first digit (3) and subsequent digits clear but description abbreviation uncertain."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Divid: Dna flicus",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second occurrence of 'Divid: Dna flicus'. Amount '50 - 0 - 0' clear and matches earlier similar line; alignment strong."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "(Pro augment: Longwith.)",
+      "amount_pounds": 27,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Bracketed description '(Pro augment: Longwith.)' legible. Amount reads '27 - 19 - 0' with a small handwritten fractional mark after the pence that matches a three‑farthings symbol (looks like '3q' or a handwritten '¾'); interpreted as 0.75 (three farthings). The fraction is faint but consistent with the final page total fraction."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "(Pro augment Gwinear)",
+      "amount_pounds": 24,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Bracketed 'Pro augment Gwinear' (spelling possibly 'Gwinear') readable. Amount '24 - 10 - 0' clear and aligns well with ruling columns."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "L:",
+      "amount_pounds": 375,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Final total marked with a stylised 'L:' (pound sign). Amount reads '375 - 19 - 0' with the same three‑farthings (¾) fractional mark after the pence as seen above; alignment of the total with the three ruling lines is good and confirms earlier row fractions. All components validated (shillings <20, pence whole <=11)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

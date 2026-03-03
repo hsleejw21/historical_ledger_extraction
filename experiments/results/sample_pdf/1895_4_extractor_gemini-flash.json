@@ -1,0 +1,64 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "П (Capital) 1895",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of page header. The Roman numeral 'П' is well-formed. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Local Rates, Comp. Fund",
+      "amount_pounds": 9,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. Amounts (9.15.6) are distinctly legible and fit within valid currency ranges. These amounts are presented in the first set of numeric columns."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bad debts, written off",
+      "amount_pounds": 35,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. This row contains two sets of numbers: '26' in the left-hand column and '35 15 6' in the main amount columns. '35 15 6' is interpreted as the cumulative amount for this entry (9+26 = 35), aligned with the primary amount columns, and extracted accordingly. All amounts are within valid currency ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "total",
+      "description": "Balance at close of acct.",
+      "amount_pounds": 5493,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the description and amounts. The values are well-aligned in the main columns and conform to standard currency rules."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 552819,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row represents a final total, indicated by the '£' symbol and prominent placement. No descriptive text is present. The numbers are clear. The trailing dot after the pounds value is interpreted as zero shillings and zero pence. All extracted amounts are valid."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

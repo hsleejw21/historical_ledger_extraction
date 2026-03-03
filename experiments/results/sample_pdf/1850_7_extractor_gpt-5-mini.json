@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Printed Varia - Brought up",
+      "amount_pounds": 3044,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top line labelled 'Brought up' and a large pounds figure. Pounds digits (3 0 4 4) are legible but the middle two digits are slightly ambiguous in the looped script; chosen reading 3044 because it aligns visually with the hundreds/thousands shape used elsewhere on the page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Johnson - smoke bills at Kidlington",
+      "amount_pounds": 4,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text fairly clear ('Johnson' / 'smoke bills at Kidlington'). Numeric columns are well aligned; 4£ 7s 2d is unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Pates - Fees for Rectory at Riddington & Planting",
+      "amount_pounds": 10,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Text partly faded/abbreviated (name looks like 'Pates' and place like 'Riddington'); numbers 10 19 3 align well but handwriting ambiguity on some letters causes moderate uncertainty in description."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Parker - Books for Bishop of Montreal",
+      "amount_pounds": 54,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description and well-aligned numbers. '54 7 0' is crisp and shillings/pence in valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Rose - late Kitchen Woman, ?injury & 3/4 wk",
+      "amount_pounds": 13,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Surname 'Rose' and 'late Kitchen Woman' readable; trailing note about 'injury / 3/4 wk' is less clear but the amount 13 0 0 is clearly written."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Phrase 'Rector's Improved Stipend' is clearly written and amount '100 0 0' is unambiguous and aligned with the pounds column."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do — Allowance for Mr Whelen",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "'Do' (ditto) is clear but the following name is heavily stylized and hard to read — I read it as 'Mr Whelen' though alternative readings are possible. Numeric 10 0 0 is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do — Postage & Parcels",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Ditto 'Do' then item looks like 'Postage & Parcels'; amount '3 15 2' is well aligned and clearly readable."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Compensation to Fellows for Dry piece",
+      "amount_pounds": 22,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description mostly legible though 'Dry piece' could be an abbreviated phrase; numeric '22 6 7' is clear and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Subs to Devonport Churches, 3d instalment",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text 'Subs to Devonport Churches, 3d instalment' is readable; amount '25 0 0' is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Walsh - Steward's Bill (including presentation & circulation)",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Name and 'Steward's Bill' readable; there is a small marginal note in braces that I interpret as 'including presentation & circulation' but the marginal note is cramped and somewhat uncertain. Amount '70 0 0' clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Mr Hastings' Bill",
+      "amount_pounds": 20,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear name and the numeric entry '20 14 0' is well aligned and unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Groce for Venison",
+      "amount_pounds": 5,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Word looks like 'Groce' (possibly 'Groceries') for Venison; amount '5 17 0' is clear in columns."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Carriage to Pew and back",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Read as 'Carriage to Pew and back' — the second word might be 'Pew'; amount '2 6 6' is clearly written and aligned."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Capel - bile for stating born at Lampsfield",
+      "amount_pounds": 12,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Handwriting for the name and explanation is very unclear (I read 'Capel - bile for stating born at Lampsfield' as the closest match). Numeric '12 2 6' is clear, but the textual reading is low confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ladd for 100 Thanksgiving prayers",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Surname 'Ladd' and '100 Thanksgiving prayers' readable; amount is small (0£ 6s 6d) and clearly in the shilling/pence columns."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Clunan Devonport, Rec't for circulars respecting admission",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name looks like 'Clunan' or 'Climan' of Devonport; phrase 'Rec't for circulars respecting admission' is inferred from abbreviation and context. Amount '0 6 0' is visible but the name is moderately ambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Carrying small coal",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear phrase 'Carrying small coal' and amount '1 0 0' is neatly written and unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mr Shephard - Parsonage Stipend to Mitchelland",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Name and following note are heavily abbreviated/stylized. I read the name as 'Mr Shephard' and the recipient/place as 'Mitchelland' but alternate readings are possible. Numeric '12 10 0' is clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Tradesmens Bills &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "This is a clear sectional header introducing the list of tradesmen; there are no monetary amounts on the header line."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Galgas Company (see fol. 69)",
+      "amount_pounds": 5,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Short line and marginal reference 'see fol. 69' visible. The firm name is faint ('Galgas' or 'Sulgas' possible). Amount digits are small and slightly smudged; I interpret them as '5 11 4' but this reading is low confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Gille & Ward",
+      "amount_pounds": 50,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Firm name 'Gille & Ward' is clear; amount '50 19 4' is neatly written and unambiguous (shillings 19 valid)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Lynn - Carpenter &c.",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name 'Lynn' and 'Carpenter &c' legible; figures '22 3 1' clear and pass column validation."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Dudley - Plumber &c.",
+      "amount_pounds": 17,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear 'Dudley - Plumber &c'; numeric '17 8 6' is unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Knowles - Mason",
+      "amount_pounds": 83,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name 'Knowles - Mason' readable; amount '83 18 3' clearly written and within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Nimney - Plasterer &c.",
+      "amount_pounds": 32,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Name 'Nimney - Plasterer &c' readable. Pence read as '8 1/2' (there is a halfpenny mark / loop after the '8'); fractional 0.5 interpreted per page convention. Columns align well."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Carried over",
+      "amount_pounds": 3621,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Final total line 'Carried over' with pounds '3621', shillings '10', pence '3 1/2' clearly written; halfpenny symbol visible. Column alignment used to confirm vertical rulings."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

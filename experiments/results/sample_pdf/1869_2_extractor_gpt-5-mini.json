@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page; no monetary amounts present. Ink and numerals fully legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fees Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section title immediately under the year. No amounts in this header line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Deans fees",
+      "amount_pounds": 324,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds (324) and shillings (10) are well aligned in their columns; pence column is empty (interpreted as 0d). Vertical ruling lines and digits are unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bursar. fees. 1st payment",
+      "amount_pounds": 595,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds (595) and shillings (3) are clear. A small mark appears in the pence column that resembles a '2' but is slightly faint/smudged; read as 2d with moderate confidence."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "2do Do",
+      "amount_pounds": 643,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds (643) and shillings (1) are well aligned and legible. No pence mark visible, taken as 0d. Small flourish in handwriting but alignment with ruling lines is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "3rd Do Hammond",
+      "amount_pounds": 68,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds (68) and shillings (3) clearly written in respective columns; pence column blank (0d). The surname 'Hammond' is legible. Column alignment is unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Entrance fees from Mr Bradford & to Mr. Hakewlle inclusive",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The three digits '175' are positioned in the pounds column (not split as 1/7/5), so read as £175. No shillings or pence visible. Handwriting of names is slightly cramped but numeric alignment supports this reading."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gate Bill Balance on 1st payment",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear three-column amount: 28 (pounds), 6 (shillings), 3 (pence). All digits align with the vertical ruling lines and are unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 24,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds (24) and shillings (16) clearly visible and correctly positioned. Pence column empty (0d). Very minor ink variation but digits readable."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "£5 fee on removal of names",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "There is a '15' visible to the right of the description but its horizontal alignment sits slightly right of the pounds column and more under the shillings column; interpreted here as 15s (0 pounds 15s 0d). Could alternatively be 15 pounds if alignment is misread; chosen shillings because the adjacent '15' for 'Sundries' below is clearly in the pounds column and this '15' sits noticeably to the left of that."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Sundries ledger folio 261",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Three-column amount '15 0 3' is visible and well aligned: 15 pounds, 0 shillings, 3 pence. The pence '3' is slightly smaller but clearly placed in the pence column."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "£ 1889 15 0",
+      "amount_pounds": 1889,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total is clearly written and underlined at the right ('1889 15 0'). Vertical ruling lines used to align the total; digits are unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

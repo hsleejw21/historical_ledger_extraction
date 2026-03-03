@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta anni pr: 1775 contin:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title. Ink and letters are clear and fully legible; no monetary columns present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Little Tew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Place name centered under the title. Handwriting is clear and unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Willm Taylor wife Con. R. to L Day last",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Pounds '3' and shillings '0' align clearly in the pound/shilling columns. Pence reads as '5' with a half‑penny symbol (interpreted as 0.5). Description handwriting is mostly clear though abbreviated ('Con. R.' and 'L Day') so slight uncertainty in exact punctuation/spacing."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Widow Ryman ½ year to L Day",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Shillings '13' is clear and within valid range. Pence reads as '0' with a half‑penny mark (0.5). The surname appears as 'Ryman' in the handwriting; the half‑year marker '½' is clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Subtotal line for the 'Little Tew' entries. Numbers '3.13.6' align with the three vertical columns; pence is whole 6 (no fractional mark). Clear underline indicating subtotal."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Arrearagia recepta",
+      "amount_pounds": 308,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "The descriptive word begins 'Arrear...' (Latin form) — spelling uncertain in one letter but readable. Amounts '308' pounds, '13' shillings are well aligned. Pence reads as '6' with a three‑quarters mark (interpreted as 0.75)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This is an indented line under the brace with no left description on the page. Amounts '15.2.2' are clear and aligned under the same £/s/d columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": 327,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "This line is the subtotal label (latin) and is written with an enclosing brace on the page. Amount '327.10.4¼' reads as 327 pounds, 10 shillings, 4 and a quarter pence (¼ as farthing). The Latin spelling 'praesentis'/'praesentis' is slightly variable in the handwriting but context makes it a subtotal."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "A repeat of the small local subtotal (3.13.6) appears here as an added entry; digits are clear and align with the columns. No left description present on the line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Recepta varia - -",
+      "amount_pounds": 837,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Label 'Recepta varia' (various receipts) is legible though hyphenation present. Amount reads '837.3.8¼' — pence shows a farthing mark interpreted as 0.25. Columns are well aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Debita anni precedentis.",
+      "amount_pounds": 83,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Description 'Debita anni precedentis' (debts of previous year) is readable. Amount '83.2.8¾' shows a three‑quarters symbol after the pence which is read as 0.75. Alignment with columns is clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final grand total underlined across the page: '1575.6.0'. Digits are large, centered on amounts columns and fully legible; column alignment unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

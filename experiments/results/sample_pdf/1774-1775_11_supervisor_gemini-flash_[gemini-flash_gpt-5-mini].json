@@ -1,0 +1,67 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages receipted",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top-line header. Handwritten cursive reads as 'Arrearages receipted' (final letters a little flourishy). No monetary figures on this line. Vertical ruling and subsequent totals align as expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "William Reeves for an: acctd in:",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "First entry below header. The first word is clearly 'William'; surname is cursive and could be 'Reeves' or 'Leever' — read as 'Reeves' based on letter shapes. The amount columns are well aligned with the right-hand ruling: 0 pounds, 4 shillings, 6 pence clearly visible. Slight smudge on surname reduces confidence."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Busby Mr Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second entry. Given handwriting, the name reads as 'Busby Mr Price' (the middle abbreviation 'Mr' is clear; surname looks like 'Price'). Amount columns align cleanly showing 0 pounds, 1 shilling, 0 pence. Some ink-lightness on the name caused moderate uncertainty."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Carroll's House on the Waste",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Third entry. Description reads clearly as 'Carroll's House on the Waste' (the possessive and phrase 'on the Waste' are legible). Amounts aligned with ruling show 0 pounds, 1 shilling, 6 pence. Columns and digits are unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final entry. Single-word description 'Backgate' is clear. Amount shows 9 pounds, 0 shillings, 0 pence aligned in the pounds/shillings/pence columns; digits are crisp and validation (shillings 0, pence 0) passes."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

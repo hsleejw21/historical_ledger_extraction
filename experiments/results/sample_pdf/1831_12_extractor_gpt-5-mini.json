@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Arrearagia recepta - Brought up",
+      "amount_pounds": 171,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amounts are well aligned with the vertical ruling lines; pence reads '3' with a clear halfpenny loop (interpreted as 0.5). The left-hand text is legible but the first word appears to be a Latin form (spelling 'Arrearagia' uncertain) — transcription follows the visible letters rather than a normalized spelling."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents Receivable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Centered header with no amounts. Handwriting for 'Mixed Rents Receivable' is fairly clear though the middle word (Rents) and final word have cursive flourishes; identified as a section heading because no numbers align to the columns."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numeric columns are crisp and clearly aligned: 210 | 18 | 9. Place name reads like 'Kidlington' (K may be ambiguous but letters fit common parish name); 'Augmentation 1 year' is clear. Minor uncertainty only in initial letter of place name."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory 1 year",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Amounts read clearly as 115 | 2 | 3 with a three-quarter sign (interpreted as 0.75). The place name is somewhat uncertain in the manuscript; I read it as 'Long Wittenham' which fits the letter shapes and local parishes, but alternate readings of the place name are possible due to cursive ligatures."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South Newington Do: 1 year to Mich. 1830",
+      "amount_pounds": 195,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Numeric columns read 195 | 8 | 9 with a small 'q' or quarter sign after the pence (interpreted as 0.25). The description reads 'South Newington Do: 1 year to Mich. 1830' — the abbreviation 'Do:' (ditto) and the date 'Mich. 1830' are legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Merton Rectory 1 year (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts clearly read 240 | 2 | 5. Parenthetical note '(Land Tax deducted)' is legible. Alignment with ruling lines is unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yarnton Rectory - 1 year",
+      "amount_pounds": 50,
+      "amount_shillings": 6,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amounts read clearly as 50 | 6 | 5 with a halfpenny loop after the pence (0.5). 'Yarnton Rectory' and '1 year' are written clearly in the description."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Hill 2 years",
+      "amount_pounds": 28,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Numeric columns read as 28 | 10 | 7. The place name looks like 'Chase Hile' or 'Chase Hill' — I transcribed 'Chase Hill' as the most plausible reading, but the final letter of the first word is somewhat indistinct in the cursive."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Clifton Ferry 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Amounts read 9 | 7 | 0 with a small quarter sign after the zero pence (interpreted as 0.25). 'Clifton Ferry 1 year' transcription is clear in the description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garsington Clinkard 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Numeric columns read 9 | 10 | 3 with a halfpenny after the pence (0.5). The place-name / term is uncertain in the handwriting — appears as 'Garsington Clinkard' or similar; I selected a likely parish-like rendering but alternate spellings are possible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do: Crooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read clearly as 47 | 5 | 2. The description begins with 'Do:' (ditto) indicating same principal heading; 'Crooke 5 years' is legible. Alignment with columns is unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1078,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Final ruled total line reads 1078 | 7 | 1 with a small quarter after the pence (interpreted as 0.25). The total is aligned under the pounds/shillings/pence columns and the rule beneath confirms it is a summation line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

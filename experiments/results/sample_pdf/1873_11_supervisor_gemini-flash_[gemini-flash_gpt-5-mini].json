@@ -1,0 +1,426 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-1874-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for header text and no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund Payments.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini for header text and no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cuitate: Oxon",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (1.3.0) and description. gemini-flash extracted correct amounts, gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Curice Hastings",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (2.0.8). gemini-flash extracted correct amounts. gpt-5-mini's description 'Curice' was slightly better than gemini-flash's 'Corice'. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Oriel Window B? St",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (0.2.8). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Adis Hte Bursar:",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (0.1.8). gemini-flash extracted correct amounts. Corrected description from image (Hle to Hte). gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll Omn. Aniv.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (10.0.4). gemini-flash extracted correct amounts. Corrected description from image (Anin to Aniv). gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll Ball:",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (4.12.6). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Coll Di Jo: Bapt.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (12.0.6). gemini-flash extracted correct amounts. Corrected description from image (Bapt: to Bapt.). gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Adis Saperv:",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (0.8.2). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Conservator",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (10.0.0). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts and misread the description."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Vicar: Merton — 32.1.10 = 32.1.10 = 32.4.7",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (2.2.0). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts and had minor transcription errors in the calculation."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Do. S Newton - 23.16.5",
+      "amount_pounds": 120,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (120.4.8). gemini-flash extracted correct amounts but merged the subsequent line's text into this description. gpt-5-mini missed the amounts and part of the description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "19.15.0 = 9.18.4 = 9.18.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified as a distinct descriptive entry with no monetary amounts. gpt-5-mini correctly identified this as a separate row without amounts; gemini-flash merged it into the previous row's description."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Insurances.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified as a header with no amounts. gpt-5-mini correctly identified row_type and no amounts. gemini-flash incorrectly identified it as an entry, merging the next line's description and amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "College",
+      "amount_pounds": 39,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (39.1.8). gpt-5-mini correctly identified the description but missed amounts. gemini-flash had the correct amounts but merged this row into the 'Insurances' header."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "J. Newton",
+      "amount_pounds": 17,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (17.16.6). gemini-flash extracted correct amounts but had 'I. Newton' instead of 'J. Newton'. gpt-5-mini correctly read the description but missed amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "L. Jew",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (1.4.0). gemini-flash extracted correct amounts but had '& Lew' instead of 'L. Jew'. gpt-5-mini correctly read the description but missed amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Turl Furniture",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (5.0.6). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts and had minor transcription errors in description."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Mill property & new House Do",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (1.6.0). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tintinhule 6. & bonus deducted",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (4.2.3). gemini-flash extracted correct amounts. Corrected description from image ('Tintenhule' to 'Tintinhule'). gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Long Witnam.",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (1.6.6). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Chapel",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (1.1.0). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Kedlington Yarnton &",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (6.5.6). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts and had 'Kidlington' instead of 'Kedlington'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Kedington payment to Poor",
+      "amount_pounds": 8,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (8.7.9). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts and had 'Kidlington' instead of 'Kedington'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Falconer 17s Intt",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (20.0.0). gemini-flash extracted correct amounts. Corrected description from image ('17?' to '17s'). gpt-5-mini misread the description entirely and incorrectly stated no amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Subscriptions Infirm'y",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified as a header with no amounts. gpt-5-mini correctly identified row_type, description and no amounts. gemini-flash incorrectly identified it as an entry, misread description, and assigned amounts that belong to the next line."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Kid^ School",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (7.4.4). Both extractors provided incorrect amounts for this line. gemini-flash had a closer description ('Kid? School'). Manual override for amounts."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "L. Jew",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (5.5.0). gemini-flash had incorrect description ('& Lew') but correct amounts. gpt-5-mini had correct description but no amounts."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Do Curate",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (5.0.0). gemini-flash extracted correct amounts and description. gpt-5-mini incorrectly stated no amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "J. Newton",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (15.0.0). gemini-flash extracted correct amounts but had 'I. Newton' instead of 'J. Newton'. gpt-5-mini correctly read the description but missed amounts."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Yarnlon",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (3.3.0). Both extractors provided incorrect amounts for this line. gemini-flash had a better description. Manual override for amounts."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Merton",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (10.0.0). Both extractors provided incorrect amounts for this line. Manual override for amounts."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Benson",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (2.2.0). Both extractors provided incorrect amounts for this line. Manual override for amounts."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Long Witnam.",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified amounts (7.7.0). Both extractors provided incorrect amounts for this line. Manual override for amounts."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified as an entry with a blank description and amounts (7.7.0). gemini-flash correctly extracted this row; gpt-5-mini missed it entirely."
+    },
+    {
+      "row_index": 37,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 311,
+      "amount_shillings": 17,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified total amounts (311.17.8). gemini-flash extracted the correct total; gpt-5-mini had significant errors in the total amount."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 33,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

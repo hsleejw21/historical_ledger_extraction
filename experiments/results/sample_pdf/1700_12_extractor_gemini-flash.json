@@ -1,0 +1,97 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Suprascriptus et examinatu",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "First line of the overarching Latin header for the list that follows. Text is very clear and legible. No monetary amounts are visible on this row or anywhere else on the page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "per nos probatos per No.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second line of the overarching Latin header, completing the introductory phrase. Text is very clear and legible. No monetary amounts are visible on this row or anywhere else on the page."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gu: Paynter Rs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name 'Gu: Paynter' and the suffix 'Rs' (likely an abbreviation for a role or status). No monetary amounts visible for this entry."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Jo: Cooke Sub-Rs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name 'Jo: Cooke' and the suffix 'Sub-Rs'. No monetary amounts visible for this entry."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Geo: Vernon",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name 'Geo: Vernon'. No monetary amounts visible for this entry."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Rich: Hukins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Generally clear reading of the name 'Rich: Hukins'. The 'k' in Hukins could be visually ambiguous, potentially misread as 'le' or 'lu' due to the script style, but 'Hukins' is the most plausible interpretation. No monetary amounts visible for this entry."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dan: Thorn Sen",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name 'Dan: Thorn' and the suffix 'Sen' (likely 'Senior'). No monetary amounts visible for this entry."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hen: Edwards.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name 'Hen: Edwards'. No monetary amounts visible for this entry."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepte Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Top-of-page title. Ink is clear and centered; no monetary columns present. Spelling transcribed as it appears ('Recepte Anni presentis')."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Extracta E thefaure",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Second header line beneath title. Letters slightly stylistic but readable. No amounts; appears as a section heading."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear.",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description legible as 'Guinear.' Amount cluster at top-right (10 | 13 | 11) appears aligned to this first entry. Alignment to columns is moderately uncertain because these top-right numerals sit close to header area; numbers themselves are reasonably clear but placement could belong to an adjacent line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwilson.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name is fairly clear as 'Longwilson.' No amount visible on the £/s/d columns aligned to this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Pinkhurst pro Annunce.",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as 'Pinkhurst pro Annunce' (old Latin 'pro Annuo/Annue' style). Amount '12 0 0' aligned clearly to this row; column boundaries evident and values are in valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Southnewington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Place name is legible as a South- name; read as 'Southnewington' though middle letters are slightly compressed and could be 'Southunnington' or similar. No amount visible for this row."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Eddington Pri",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads 'Eddington Pri' (the final letters look like 'Pri' or 'Pri.' — possibly abbreviation). No monetary figures aligned to this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Clear place name 'Garrington.' No amount in the £/s/d columns for this row."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Norton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear single-word entry 'Norton.' No monetary values present."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Read as 'Chace Hill' (spelling possibly 'Chase Hill'). No amount on the right columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Shrup.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short name read as 'Shrup.' Handwriting slightly cramped; could be 'Shrewp'/'Shrub' but recorded as it appears. No amount visible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eddington vicar",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Eddington vicar' is clear. Amount '4 0 0' is well aligned in the three narrow right-hand columns; digits crisp and within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lucas Eaton by Mr Broadwater",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Longer description 'Lucas Eaton by Mr Broadwater' legible. Amount '2 0 0' clearly aligned in the £/s/d columns; digits unambiguous."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Pre quite Routh Annu",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description read as 'Pre quite Routh Annu' (old-style abbreviation; letters clear enough). Amount '2 13 7' is crisply written and well aligned. All currency columns validate (13 shillings, 7 pence)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Warner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Single-word entry 'Warner.' No amount visible in the £/s/d columns."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ralph Marshalls Capor.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Reads approximately 'Ralph Marshalls Capor.' The surname and final word are somewhat abbreviated/ink-blotted; no monetary figures aligned with this line. Dot beneath the pound column (single ink spot) but not a numeric value."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Lord Annu.",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Lord Annu.' (abbreviated) is legible. Amount '2 1 2' is visible; alignment to columns is clear and numbers are within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Calcot.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Place name 'Calcot.' clear. No amount present in the monetary columns."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cuddington Mill",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Cuddington Mill' (final word 'Mill' readable). No monetary figures aligned to this row."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Single-word entry 'Bampton' clear and inked; no amount present."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mountacute.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Read as 'Mountacute.' (old place name spelling). No monetary figures on the right columns."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hughop",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short name interpreted as 'Hughop' though letters are compressed and could be 'Hugh??'. No amount present."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Greenway.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear 'Greenway.' entry. No monetary values next to it."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Baufter",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Entry reads 'Baufter' (handwriting suggests 'Bausfer'/'Baufter'); a horizontal line runs across the description then amount '0 15 0' is clear at right. Currency columns validated (15 shillings)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Franklyn.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Franklyn.' clearly written. No monetary amount on this line."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Wynn.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short surname 'Wynn.' read clearly; no associated amounts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Hart Hall' description clear. Amount '1 13 4' well aligned and digits are distinct; currency fields validate."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Londen Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Londen Hall' (older spelling of 'London'). Amount '0 10 0' clearly visible and aligned with the shillings/pence columns."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Sadler.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Appears to read 'Sadler.' (could be 'Sabler'/'Sadler'); letters slightly faint but intelligible. No amount present."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Molineaux",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname 'Molineaux' (or variant) reasonably clear in cursive. No monetary columns populated."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Tintinhull Japor / Hopkins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line contains two names/notes joined: 'Tintinhull' followed by a second scribble that reads like 'Japor' and then '/ Hopkins' beneath or adjacent. Hand is cramped and possibly two sub-entries on one line; no monetary figures. Transcribed literally as seen; reading uncertain."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Clifton ferry.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear entry 'Clifton ferry.' No amount in the right-hand columns."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Boulington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads as 'Boulington' though middle consonants are indistinct; could be 'Bovlington'/'Bonington'. No monetary values visible."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Brew-house",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final line in left column reads 'Brew-house' or 'Brewhouse' clearly. No amounts present."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 36,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Bottom-right aggregate total line. Amount '36 7 9' is clearly written on the lower-right corner; used these well-aligned digits to confirm column positions. Description area is a simple rule/blank on the page."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

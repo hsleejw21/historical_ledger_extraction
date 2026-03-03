@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Anni Presentis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Page title at top. Lettering is legible though slightly abbreviated (Recepta instead of Receipts); no monetary figures on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "South- Newington, Prect.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '60' is clearly aligned in the pounds column. Shillings/pence positions are blank. Description spelling slightly uncertain ('Prect.' abbreviation) but identifiable."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gavinear, Prect.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Parish name handwriting is ambiguous (reads 'Gavi near'/'Gavinear'); a clear '60' appears in the pounds column aligned with this row but the original is somewhat faint. Chose 60 for pounds; shillings/pence blank."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kidlington, Candlemass Aug.",
+      "amount_pounds": 119,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '119' and shillings '5' are reasonably clear and well aligned to the pounds/shillings columns. Description 'Candlemass Aug.' is legible enough to transcribe."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do Braun & Capon.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads '2 15 0' in the amount columns (pounds 2, shillings 15). Description begins with 'Do' (ditto) and 'Braun & Capon' is reasonably legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Monkninnet Vic.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The parish/clerk name is faint ('Monkninnet' or similar) but there is a clear '20' in the pounds column aligned with this row. Shillings/pence blank."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kidlington Vic.",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads clearly as '7 5 9' (pounds 7, 5 shillings, 9 pence). Description 'Kidlington Vic.' is legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do Mills, pro Dim. an.",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear amounts '3 0 0' aligned to this row. Description reads as a ditto line 'Do Mills' with the abbreviation 'pro Dim. an.'"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Setheran for Divis Ann ad Test. Anno",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount reads '5 19 8' fairly clearly. The description contains abbreviations and is harder to parse exactly; transcribed to reflect visible letters ('Setheran for Divis Ann')."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Taylor & Wife pro Can.",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Amount reads '4 11 8 3/4' — the pence column clearly shows '8' plus a small '3/4' loop sign; interpreted as 8 pence + 3/4 (0.75). Description 'Taylor & Wife pro Can.' is legible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Brewer Gardener pro Ann.",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads '0 16 1' (16 shillings, 1 penny) aligned clearly. Pounds column has a small '0'. Description legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "From Arundel / Minchin pro Ann.",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '2 14 0' is clear and well aligned. Description has two names separated by a slash; reading is confident."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Richard Hains pro Ann.",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '2 14 0' clearly visible. Name 'Richard Hains' legible; 'pro Ann.' as in other rows."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Richard Judge pro Ann.",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '2 14 0' repeated and clear. Name transcribed as 'Richard Judge'; neat alignment with previous annuity entries."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 301,
+      "amount_shillings": 11,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Underlined subtotal for the block. Reads '301 11 2 3/4' — pounds and shillings well aligned; pence shows '2' with small '3/4' mark interpreted as 0.75."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Exchequer Annuity",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads '50 0 0' clearly in its own line. Heading 'Exchequer Annuity' is legible (spelling 'Exchequer')."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Interest of Stock in Fund",
+      "amount_pounds": 63,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '63 8 4' is clear and aligned. Description reads 'Interest of Stock in Fund' with minor abbreviation for 'Fund' but unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 113,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Subtotal under the two preceding rows; reads '113 8 4' clearly and is underlined, confirming it is a calculated total."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Recepta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Section header for miscellaneous receipts. Handwriting is legible though slightly stylized (Varia)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "of Mr Bowles 2 years Rent for Longworth ???",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '175 0 0' is clear. Description reads 'of Mr Bowles 2 years Rent for Longworth' though place name trailing letters are faint — transcribed with ??? to indicate uncertainty in the place name."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "of Mr Shawles payment of D. Stockings(?) Receipt",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Clear amount '110 0 0'. The description is badly abbreviated and partly crossed/inked; I read 'Shawles' (or 'Shawles'/'Sharles') and 'payment of' followed by a name that looks like 'D. Stockings' but is uncertain."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "W Mr Martins Plate Money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '10 0 0' clear. Description reads 'W Mr Martins Plate Money' — likely 'Wm' abbreviation for William; wording legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "of Mr Bowles 2 years Rent for Longwith to Michael ???",
+      "amount_pounds": 175,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '175 0 0' is clear. Description repeats a Bowles rent receipt line; trailing words (possibly recipient or place) are faint and partially overwritten."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "of Wm J. C. Huxley Esqr. payment of Stockings Receipt",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '100 0 0' clear. The name is read as 'Wm J. C. Huxley Esqr.' though some letters are cramped; the phrase 'payment' and 'Receipt' are visible but abbreviated."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "of Mr Richard's Deed, Fees to the ???",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '17 0 0' is clear. The description is cramped and partially crossed; I read 'of Mr Richard's Deed fees & the [house?]' but the destination word is uncertain."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Morton Estate from Mich. 1702 to Mich. 1703 - Money Rent",
+      "amount_pounds": 265,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '265 0 0' is clearly written. Description 'Morton Estate from Mich 1702 to Mich 1703' is legible and indicates a rent period; 'Money Rent' legible."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Cor. De. (or 'Con. De')",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short line under the Morton Estate amounts reads '6-10-0' clearly. The preceding short description is abbreviated ('Cor De' or similar) and uncertain; amount transcription is confident."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 271,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Subtotal beneath the Morton Estate block reads '271-10-0' (pounds 271, shillings 10). The underline and position make this clearly a calculated total for the small group."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Allowd Disbursmts - Land Tax at 4 per ct.",
+      "amount_pounds": 39,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '39-3-0' is legible. Description 'Allowd Disbursmts' and 'Land Tax at 4 per ct' is readable though abbreviated."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Amount reads as '16-7-10 1/2' — pounds 16, 7 shillings, 10 pence with a halfpenny indicated. The fraction mark for the halfpenny is faint but consistent with the small loop 'ob' conventions."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 49,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Subtotal line (sum of disbursements) reads '49-10-10 1/2' — amounts are aligned and the halfpenny mark is present but moderately faint."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Remr. &c. (Remainder carried)",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line showing remaining balance reads '222-9-0' clearly and is underlined/boxed. Description is abbreviated 'Remr. &c.' (remainder etc.)."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 222,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A repeat of the carried figure '222 9 0' appears again on the right margin; the alignment and numerals are clear — likely the column total being brought down."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 829,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final bottom-right total reads '829 9 0'. Numerals are readable though slightly slanted; likely the page grand total. Placement at page foot confirms role as final total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

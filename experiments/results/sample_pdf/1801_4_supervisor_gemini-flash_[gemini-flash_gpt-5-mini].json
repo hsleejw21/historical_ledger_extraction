@@ -1,0 +1,309 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-centre title clearly written as 'Soluta'. No amounts on this line; heading is unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Rectori, Scholantibus et Officiaris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Line immediately under title, clearly a structural label. Handwriting legible enough to read 'Rectori, Scholantibus et Officiaris'. No monetary figures on the line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "1801",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Year written in left margin. No amounts; treated as a header/section marker. Digits clearly '1801'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long. Wittenham Div. to L.Day 1801",
+      "amount_pounds": 158,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description and amounts align with right-hand vertical rules. Pounds '158' and shillings '14' clearly placed. Pence reads '6' with a trailing halfpenny loop (interpreted as 0.5). All values in valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do — to Michl. — Do —",
+      "amount_pounds": 188,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Abbreviated repeat line ('Do'). Pounds '188' and shillings '17' clearly aligned. Pence '6' with halfpenny tail visible; read as 6½d. Column alignment clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Stipend. ad Test. Hativ. et Officiaris",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partly abbreviated; amounts in right columns read as '20' pounds, '6' shillings, '8' pence. Pence shape clear but some ink variation on description reduces confidence slightly."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Augm. so. Kewington & Merston",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column shows '27' with dashes in s and d columns indicating 0s. Handwriting of description is legible enough to identify place names; monetary columns clearly '27 0s 0d'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Stipend. Dno. Thiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read as 33 pounds, 6 shillings, 8 pence. Description has abbreviation 'Dno.' and surname looks like 'Thiers' — legible enough for transcription. All currency values within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Augm. Com. et Capellanis",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '60' clearly in pounds column; shillings and pence are dashed (interpreted as zeros). Description legible ('Augm. Com. et Capellanis')."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Dno. Rectori, ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Repeated 'ut supra' line. Numerical columns read as 30 pounds, 9 shillings, 2 pence; alignment and digits are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Merton Div. to L.Day 1801",
+      "amount_pounds": 89,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "New division entry. Pounds '89', shillings '9', pence '10' clearly aligned; handwriting of description readable."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do. Michl. — Do.",
+      "amount_pounds": 89,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Repeat line ('Do.'). Amounts match previous Merton line (89 9 10). Column alignment consistent and digits clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ad fest. Stipend. ad fest. Annuni",
+      "amount_pounds": 34,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description partially abbreviated; monetary columns read as 34 pounds, 13 shillings, 4 pence. The '13' in shillings is slightly compressed but within valid range (0–19)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kidleighton Augm. pro 3.ta anni partibus",
+      "amount_pounds": 38,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place name appears as 'Kidleighton' (handwritten). Values read as 38 pounds, 11 shillings, 3 pence. Shilling '11' clear though ink slightly blotchy."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Dno. Rectori, ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Same 'ut supra' closing line as earlier; amounts identical to prior similar lines (30 9 2). Columns well aligned and legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ad fest. Stipend. et Officiar[is]",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Abbreviated description 'et Officiar...' but meaning clear in context. Monetary columns read '20 6 8' though ink on shillings/pence slightly faded causing moderate ambiguity."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "— Do. Thiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Repeat-style line with surname 'Thiers'. Amounts read as 33/6/8; digits are consistent with earlier 'Thiers' line but ink has minor smearing."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "D. Ioan Augm. Com. Moderatori et Sub Decano",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is long and somewhat cramped; the pounds column reads '56' clearly but the shillings and pence columns are dashes (interpreted as zeros). Slight uncertainty because faint marks could be small stray ink but 56/0/0 best fits alignment."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidleighton Augm. pro l.ta parte anni",
+      "amount_pounds": 12,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Same place name as earlier block. Amounts read as 12 pounds, 7 shillings, 1 pence; pence '1' is small but readable. Moderate confidence due to tight handwriting."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dno. Rectori, ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Repeated footer line 'ut supra' in this section. Amounts match other occurrences (30 9 2). Clear column alignment."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Ad Gwinnear Stipend. ad Test. Michl.",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '27' clearly visible with dashes for shillings and pence. Description reads as an augmentation for 'Gwinnear' and 'Michl.' abbreviation; monetary columns unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "L. Wittenham pro Augm. Com.",
+      "amount_pounds": 33,
+      "amount_shillings": 15,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.65,
+      "notes": "Pounds '33' and shillings '15' are clear. Pence appears as '1' with a small trailing halfpenny mark (interpreted as 1½d). The fraction sign is faint; chosen 0.5 (halfpenny) based on looped stroke after the '1'. Slight ambiguity reduces confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Dno. Rectori, ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Another 'ut supra' closing; amounts 30/9/2 match other occurrences, alignment and digits clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Scholani (cor. 1.mi Regis. - Maj.r Duprè)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Section header for scholars; handwriting a little ornate ('Scholani ... Regis ... Maj.r Duprè') which introduces the two small scholar lines below. No monetary amounts on this header line."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Iesus Coll: Time",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short scholar entry. Description read as 'Iesus Coll: Time' (handwritten abbreviations). Monetary columns read '1' pound, '3' shillings, '1' pence; digits are small and somewhat faint, producing moderate uncertainty."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "W. Welch Do.",
+      "amount_pounds": 3,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.65,
+      "notes": "Second scholar entry; amount appears as '3' pounds, '1' shilling, '6' pence with a small halfpenny loop after the 6 (interpreted as 6½d). The halfpenny mark is faint but visible; description abbreviated as 'Do.' (ditto)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1049,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Final grand total line at bottom right reads '1049' pounds, '10' shillings, '6' pence with a halfpenny mark (interpreted as 6½d). The total is clearly separated by an underline; digits are well-formed though the halfpenny sign is slightly faint."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

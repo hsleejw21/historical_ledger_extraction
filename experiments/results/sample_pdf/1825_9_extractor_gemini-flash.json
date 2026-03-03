@@ -1,0 +1,277 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of year header. No amounts present. Handwriting is neat and legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of main section header. No amounts present. Handwriting is neat and legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2º Die Novembris.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of date sub-header. No amounts present. Handwriting is neat and legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of year sub-header. No amounts present. Handwriting is neat and legible.",
+      "side": "center"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Recepta -- Arreagagia",
+      "amount_pounds": 920,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¾' is clearly visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Anni praesentis",
+      "amount_pounds": 227,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¾' is clearly visible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 2639,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3787,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of subtotal. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '½' is clearly visible. The row is underlined, indicating a sum."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Debita anni praecedentis",
+      "amount_pounds": 637,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¾' is clearly visible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "Summa Receptorum",
+      "amount_pounds": 4424,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and total amount. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¼' is clearly visible. The row is underlined, indicating a sum."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Soluta! Dno Rectori. Schol. &c.",
+      "amount_pounds": 673,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¼' is clearly visible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 360,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Note the shillings are 12, which is valid (0-19)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 2305,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¾' is clearly visible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3347,
+      "amount_shillings": 6,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of subtotal. Vertical column lines are unambiguous. All values are within valid ranges. The row is underlined, indicating a sum."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ex Receptis",
+      "amount_pounds": 4424,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¼' is clearly visible. This amount matches 'Summa Receptorum' (row 10)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Solutis Deductis",
+      "amount_pounds": 3347,
+      "amount_shillings": 6,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values are within valid ranges. This amount matches the previous subtotal (row 14)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Restat Solvendum",
+      "amount_pounds": 1076,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and final total amount. Vertical column lines are unambiguous. All values are within valid ranges. Fraction '¼' is clearly visible. The row is underlined, indicating a balance."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Computus comprobatus per nos.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of closing statement header. No amounts present. Handwriting is neat and legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "J. C. Jones. Rectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of name and title. No amounts present. This is an entry for an individual."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gulm. Dalby. Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of name and title. No amounts present. This is an entry for an individual."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Jos: Roper. Burs: Sen:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of name and title. No amounts present. This is an entry for an individual."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Gul. Ed: Honey S.T.B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of name and title. No amounts present. This is an entry for an individual."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. B. Pave J. Burs. Jun.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'v' in 'Pave' is slightly ambiguous and could be misread as 'u' due to the cursive handwriting, but 'Pave' appears to be the most plausible reading. No amounts present. This is an entry for an individual."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "J. L. Richards A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of name and title. No amounts present. This is an entry for an individual."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

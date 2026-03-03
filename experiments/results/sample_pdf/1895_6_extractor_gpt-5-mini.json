@@ -1,0 +1,251 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1895.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title. Both words are clearly written in large script and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered section header, underlined. Text is clear and introduces the group of asset entries below."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 3600,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers align clearly in the pounds/shillings/pence columns (pounds = '3600', shillings = '18', pence = '6'). Vertical ruling lines and the numerals are distinct."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "do : ' (Library acct)",
+      "amount_pounds": 65,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Abbreviated 'do' (ditto) with parenthetical note. Amount clearly reads 65 pounds, 13 shillings, 4 pence; alignment with column lines is unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3666,
+      "amount_shillings": 11,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined subtotal at right of the two Cash lines. Numerals '3666 11 10' are neatly written and align with the pounds/s/shillings/pence columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds clearly read as '3000' (there is a small mark after the number). No shillings/pence are written (appears blank or indicated by a dot). I left shillings/pence empty rather than assuming zeros because the original shows no explicit figures in those columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 5303,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry: '5303 6 6' aligned in the pounds/shillings/pence columns. All digits distinct and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 8303,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined subtotal for Furniture + Investments shown as '8303 6 6'. Clear alignment with the vertical ruling lines; values validate (shillings 0–19, pence 0–11)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header (introduces the following list of receipts). The dash/colon after 'College' is visible; text is legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 242,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads '242 10 .' with a dot in the pence position indicating zero pence. Pounds/shillings alignment is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 444,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Digits read as '444 7 5'. The hundreds-digit grouping is somewhat cramped but the three-digit pounds figure appears to be '444' (loops on the 4s are slightly stylized). Column alignment supports this reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Quit Rents.",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small amount in narrow handwriting appears as '1 8 2'. The first digit may be '1' (looks like a single stroke) but could be read as part of a larger digit if ink crowded — chosen '1' based on alignment with the pounds column and the visible stroke spacing."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Houses on long leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading '53 13 4' with proper alignment in the three currency columns; handwriting is neat and unambiguous."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads '3 5 .' with a dot indicating zero pence. Pound and shilling digits are small but align with the ruling lines; pence blank interpreted as zero."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Dr Richards Exhibition",
+      "amount_pounds": 36,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric entry '36 11 3'. The 'Dr' and name are legible; the amounts are well aligned and distinct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Furniture Hic",
+      "amount_pounds": 17,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description handwriting slightly cramped (reads as 'Furniture Hic' or similar), amounts '17 6 1' are legible and in the correct columns; small uncertainty only in the trailing text of the description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Private Bills",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads '3 8 4'. Small neat figures; clear column alignment. Slightly lower than 1.0 only because the entry is short and written in smaller script, but digits are readable."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 771,
+      "amount_shillings": 19,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined subtotal for the 'Due to the College' group, clearly written as '771 19 7' at the right. Characters align exactly with the pounds/s/pence columns."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12741,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final boxed/underlined grand total shown with a leading currency symbol and the figures '12741 17 11'. Very clear and prominently written, matching column alignment."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "duly kept in proper books of Account and that the account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten certification sentence at bottom left. The wording is legible though written in cursive; slight uncertainty on a couple of small words but overall phrase is readable."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "W. C. Jackson F.C.A. auditors (Jackson Pooley Browning Harry & Co)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature block in cursive. The signature 'W. C. Jackson' and 'F.C.A. auditors' are fairly clear; the parenthetical firm name is partially obscured/stylized and several letters are uncertain (transcribed to best visual reading)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Feb. 17 - 1896",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Date written near the signature. Numerals and month abbreviation are clear; minor ambiguity in punctuation only."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

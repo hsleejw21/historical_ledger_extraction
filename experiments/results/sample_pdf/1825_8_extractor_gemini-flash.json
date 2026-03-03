@@ -1,0 +1,108 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page year/title. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 2050,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range (shillings 0-19, pence 0-11). Fraction clearly identified as 0.75 (3/4 symbol)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "July 23 Advanced to Mr Inman on acc't of the purchase",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "1825 Tenements at Bushey",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of description. This row is a sub-item of the previous entry, indicated by a brace, and shares its amount. Therefore, no amounts are assigned to this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Letters & Parcels - for the year to Nov 2. 1825 -",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Nov 2 Tomus Wine Battels. Mids. & Mich. 1825 -",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Pounds clearly indicated as 0."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Repaid to Mr Clowes his Deposit for",
+      "amount_pounds": 150,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Whittenham Security",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of description. This row is a sub-item of the previous entry, indicated by a brace, and shares its amount. Therefore, no amounts are assigned to this row."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "2305 5 11¾",
+      "amount_pounds": 2305,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction clearly identified as 0.75 (3/4 symbol). This is the final calculated total for the page, indicated by the horizontal line above it."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

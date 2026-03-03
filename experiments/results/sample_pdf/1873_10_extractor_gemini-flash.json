@@ -1,0 +1,251 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header. No monetary amounts expected."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per Cent on Estates",
+      "amount_pounds": 533,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. Pence fraction is a clear '½' symbol."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "15 per Cent on Room Rent",
+      "amount_pounds": 235,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Busher Div as",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds column has a small tick mark, interpreted as no explicit pounds amount. Shillings and pence are clear and in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Masters Composition £150.10.0 Fee fund 24/6/0",
+      "amount_pounds": 175,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2d recd 58.19.0. Do 8.13.6",
+      "amount_pounds": 67,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3d Do 59.6.0 Do 9.1.0",
+      "amount_pounds": 68,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Late Rectors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "1qr. to Xmas East warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms Butlers Lodgings",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds column has a dash, interpreted as no explicit pounds amount. Shillings and pence are clear and in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickison Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Room Rent excep of moiety",
+      "amount_pounds": 118,
+      "amount_shillings": 8,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "J. Newton Cottages & day rent 1.6.0 Mid Do 3.19.8",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bursar Furniture Science Laboratory",
+      "amount_pounds": 34,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Keys - Jambin. Wilson Child. Willers. Broadbent",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Masters Compos. Fund. close of Aut. Sec – {",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description ends with a brace, indicating this is a sub-item whose amount is grouped with the next line. No explicit amounts on this line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "caution Book July 11. 1857",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row is part of a braced group with the previous line. Amounts are clearly written here and in valid range. Vertical lines unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "By sale of small Stones",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds column has a dash, interpreted as no explicit pounds amount. Shillings and pence are clear and in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Allowed for Chapel Steps",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Money advanced to Pelham. Return of",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1391,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total line. Amounts are well-aligned and legible, confirmed by the double ruling lines beneath. Pence fraction is a clear '½' symbol."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

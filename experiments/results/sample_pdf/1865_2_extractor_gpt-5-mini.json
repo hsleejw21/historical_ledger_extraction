@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1865",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, clear year heading at top of page; perfectly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered title under the year; handwriting is clear and underlined."
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "Brought up",
+      "amount_pounds": 481,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear carried-forward amount at top right. The '481' in the pounds column, '0' in shillings and '7' in pence are well aligned with the ruling lines and unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Subscriptions Yarnton School",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reads 'Subscriptions Yarnton School' (Yarnton parish fits context). Pounds column clearly '3'. Shillings and pence are faint; I read '3' shillings and a faint '1' in pence by alignment with ruling lines but the small pence digit is slightly smudged."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Medmenham do",
+      "amount_pounds": 3,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Parish name 'Medmenham do' is legible. Pounds '3' is clear. The shillings digit appears as '1' and pence as '3' but both are faint and could be mis-read; chosen by alignment with the vertical ruling lines."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Garsington do",
+      "amount_pounds": 3,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Entry reads 'Garsington do'. Pounds '3' is clear. The shillings and pence appear to match the previous two small entries (read as '1' and '3'), but the ink is light; choice based on column alignment and pattern."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Merton do",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Merton do' is clear. Pounds column reads '10' (two-digit, clear). There is a small '5' visible in the pence column; the middle shillings column appears blank/zero. Ink smudge makes pence slightly uncertain but alignment supports 5d."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Long Wittenham do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Reads 'Long Wittenham do'. Pounds '5' visible in pounds column; pence '5' visible in the pence column. Shillings blank/0. Ink slightly uneven, so moderate confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Benson Do",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reads 'Benson Do'. Pounds column shows '2'. The middle column shows '5' (shillings) and pence column shows '2' — these small digits are readable but slightly faded; assigned moderate confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Grogwear Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "The place-name is unclear in the manuscript (reads something like 'Grogwear' or 'Grogen'). Pounds column clearly '5'. Shillings and pence appear blank. Because the description is uncertain, confidence is low."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do. Poor",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line reads 'Do. Poor' (likely same parish giving for the poor). Pounds column shows '10' clearly. Shillings/pence blank. Good alignment with ruling lines gives higher confidence for the amount."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Church Building Socy Diocesan",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text reads 'Church Building Socy Diocesan' (abbreviated). Amount '5' in pounds column is clear; shillings/pence blank. Good alignment and legibility for amount."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Widows and Orphans. Do",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Widows and Orphans. Do' (do = ditto to previous parish/collection). Pounds '5' is clear; no shillings/pence marked."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Easter Offering",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwriting 'Easter Offering' is legible. In the three narrow columns I read a small '1' in pounds, a '1' in shillings and a faint '1' in pence — digits are small/faint, so moderate confidence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Compensation Fellows Dr Price",
+      "amount_pounds": 22,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Compensation Fellows Dr Price' (handwritten abbreviation). Pounds '22' clearly visible; shillings '7' and pence '6' readable though pence digit smaller. Column alignment is good."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do Dr J. Newton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line reads 'Do Dr J. Newton' but there is a dash (—) or no amount written in the three narrow columns. I therefore record no amount; the text is legible but amount absent."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Room Rent Balance Dir 1865",
+      "amount_pounds": 552,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Room Rent Balance Dir 1865' (balance for the year). The pounds '552' (three-digit) is clear and well aligned; shillings '2' and pence '3' are readable with good contrast."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short entry 'Corn Prices'. Pounds column shows '2' clearly; no shillings or pence. Good alignment with ruling lines."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Synodals. Merton & Tew. 14. ?kitts 12",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Entry begins 'Synodals. Merton & Tew...' with some abbreviations; the description is partly obscured by abbreviations. Amount reads as '1' in pounds and '15' in shillings (placed across the two shilling digits) — shillings digit cluster is small but fits 0–19 range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Insurance Primage Janm",
+      "amount_pounds": 26,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Text reads 'Insurance Primage Janm' (handwritten abbreviation). Pounds '26' and shillings '11' are legible; pence blank. Slight ink blotting near the word but amounts are clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Porter Addl Salary (Chapel 5 - Library 10)",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Porter Addl Salary (Chapel 5 - Library 10)' is readable. Pounds '15' is clear in the pounds column; no shillings/pence marked."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Ley.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short line 'Ley.' or 'Leg.' (abbreviation) is written; pounds column shows '100' clearly. Middle and pence columns blank. Description uncertain but amount legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Diocesan Board of Education",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Diocesan Board of Education' is legible. Pounds column '10' is clear; no shillings/pence. Good alignment and contrast."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 1229,
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final line at bottom right reads '1229 13 1' (final total). The three-digit pounds and the shillings/pence digits are clearly written and aligned with the ruling lines."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

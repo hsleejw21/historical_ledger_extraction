@@ -1,0 +1,152 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header. No amounts associated."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header. No amounts associated."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Oct 13 mid Duke Rent of Room",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The date 'Oct 13 mid' is clearly associated with this entry. Amounts are well-aligned in columns. No fractions. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "June 29 1881 No 8 Board Repayment by",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The date 'June 29 1881' is clearly associated with this entry. Amounts are well-aligned in columns. No fractions. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Nov 4 Contract Fee. Queenlease",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The date 'Nov 4' is clearly associated with this entry. Amounts are well-aligned in columns. No fractions. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Nov 10 Galpen Old Materials",
+      "amount_pounds": 14,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '10' from the left margin is inferred as the day, making the date 'Nov 10'. Amounts are well-aligned in columns. No fractions. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Nov 10 Glastonbury School. 5 4. Repayment",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '10' from the left margin is inferred as the day, making the date 'Nov 10'. Amounts are well-aligned in columns. No fractions. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "by out of Symes Amount",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear descriptive continuation of the previous entry. No associated monetary amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dec 1 Bursar. Compositions Douns 139.150.154",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The date 'Dec 1' is clearly associated with this entry. The '18' is in the pounds column, '6' in shillings, and a tick mark indicates zero pence. Amounts are well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Xpd July 30 1882 doal Rate 21.05",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear annotation/sub-entry for the preceding 'Bursar. Compositions' entry. No associated monetary amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dec 31 Insurances &c. to College by me as my.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear first part of a multi-line entry description. The date 'Dec 31' is explicitly visible on this line. No amounts explicitly on this line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Head for 2 years of Gosford Payments.",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear second part of a multi-line entry description. The amount £7 0s 2d is extracted from the line directly below this description and is associated with the combined description from this row and the previous. A '7 0 2' amount on the line above the final figure is struck through, indicating a correction, but the final value is clear and well-aligned."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 187,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear final total line. The previous total '189 7 -' is struck through, and '187 5 2' is clearly written below it as the corrected total. Amounts are well-aligned and in valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

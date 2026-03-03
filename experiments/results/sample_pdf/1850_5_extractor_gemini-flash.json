@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page header/title. No monetary amounts associated."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gratuity to Jackson",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Filer on Account of Campfield",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Campfield' is slightly overwritten but legible. Amounts are clear, values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr Falconer for repairs of Bushey Tenements.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mr Stringer for Receipt Stamps.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The pound column has a 'c' like symbol, common for 'no pounds', interpreted as 0. Shillings and pence are clear and within range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Subscription to new Chapel in St Mary Magdalen",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "C. Pile, late College Groom. 5/- per week",
+      "amount_pounds": 13,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Rent of &c from Mr having recd 10.0.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is heavily struck-through, making full legibility difficult. The '10.0.0' is legible but appears to be part of the description, not in the dedicated amount columns. No amounts present in the dedicated monetary columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Receipt Stamps.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mr Hastings on Act of Work at Campfield",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Poor of South Newington for Coal",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Repairing pump &c at Merton",
+      "amount_pounds": 11,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Timber for Lime",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The pound column has a 'c' like symbol, common for 'no pounds', interpreted as 0. Shillings and pence are clear and within range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr Glubb, Discard 2 2nd Agency",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The word 'Discard' in the description is very difficult to read, potentially 'Dicken' or similar, but transcribed as it visually appears closest. Amounts are clear and within range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sandall, one day's Work at Rectory, Hillingdon",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The pound column has a 'c' like symbol, common for 'no pounds', interpreted as 0. Shillings and pence are clear and within range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Provisional Stipend Mr Hussey to Xmas",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Grendelton Chancel",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The first word of the description, 'Grendelton', is somewhat ambiguous due to handwriting, could be 'Cruddington'. Amounts are clear and within range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Case for Packing Glass for Do",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The pound column has a 'c' like symbol, common for 'no pounds', interpreted as 0. Shillings and pence are clear and within range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Davres, Mounting, Almanac for Lord Petre",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The pound column has a 'c' like symbol, common for 'no pounds', interpreted as 0. Shillings and pence are clear and within range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Property Tax - 1st half-year",
+      "amount_pounds": 29,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Gas Company",
+      "amount_pounds": 4,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Subscription to Carfas Church",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Carfas' in the description is slightly ambiguous due to handwriting, potentially 'Carfax' or 'Cardiff'. Amounts are clear and within range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mr Litterbuck for repairs of Cottages at d. Whiten",
+      "amount_pounds": 65,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The place name 'd. Whiten' in the description is very difficult to read definitively. Amounts are clear and within range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Purchase Money of the See in reversion of the new buildings in Broad St.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No monetary amounts on this row; it forms part of a braced group with the following row, where the amount is entered. Description is clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 2100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row is part of a braced group, with no explicit description (implied from previous row). The amount is clearly written and within range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mr Hester (the Town Clerk's) bill in the matter",
+      "amount_pounds": 16,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Two Thirds of Mr Driver's bill for valuing the same",
+      "amount_pounds": 36,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Loan to the Rector - 1/2 of third instalment",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No monetary amounts on this row; it forms part of a braced group with the following row, where the amount is entered. Description is clear."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "for improvements at Shadfield",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row is part of a braced group. The description is clear. The amount is clearly written and within range."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "TOTAL",
+      "amount_pounds": 2625,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This is the final total line for the page. All figures are crystal clear, well-aligned, and within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

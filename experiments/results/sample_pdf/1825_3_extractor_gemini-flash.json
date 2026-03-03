@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year label at the top of the page. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section title 'Soluta' (Paid/Disbursed). No monetary amounts expected."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Dno Rectori. Scholaribus. et Officiariis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header for the first group of entries concerning payments to the Rector, Scholars, and Officers. No monetary amounts expected."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. Nativ: 1824. et Off",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Augm: S. Newington et Merton",
+      "amount_pounds": 22,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Stipend: Dno Thiers",
+      "amount_pounds": 31,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Augm: Comm: yd. et Capellano",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dno Rectori.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Did: Merton: ad Fest: Annunc: 1824.",
+      "amount_pounds": 3,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The pounds value is '03', interpreted as 3. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "D. ad Fest. S. Mich:",
+      "amount_pounds": 3,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The pounds value is '03', interpreted as 3. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. Annunc: 1825 -",
+      "amount_pounds": 30,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Augm: Kidlington: pro 3 Ann. part:",
+      "amount_pounds": 40,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol is a distinct 'q' for quarter penny (0.25). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut Supra -",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Stipend: ad Fest. D. Joan: Bapt: et Off -",
+      "amount_pounds": 17,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The pence whole value is 0, followed by a clear 'q' for quarter penny (0.25). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "D: Dno Thiers -",
+      "amount_pounds": 31,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol is a distinct '3q' for three quarter pence (0.75). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Augm: Comm: yd... Mod. Sub D -",
+      "amount_pounds": 52,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "D: Kidlington: - pro. 4ta p. Anni -",
+      "amount_pounds": 13,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol is a distinct 'q' for quarter penny (0.25). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut Supra -",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Stipend: Guinicar: ad Fest: S. Mich.",
+      "amount_pounds": 23,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Augm: Comm: pro DWhittenham -",
+      "amount_pounds": 30,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol is a distinct 'ob' (or similar loop) for half-penny (0.5). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dno Rectori. ut Supra -",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "354 12 1/4",
+      "amount_pounds": 354,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "This appears to be a subtotal. The pounds (354) and shillings (12) are clear. The pence whole value is implied as 0, followed by a clear 'q' for quarter penny (0.25). The row is slightly smaller and less distinct than main entries but legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Schol: Regis Car: 1mi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header for a new account section 'Schol: Regis Car: 1mi' (Scholars of King Charles I). No monetary amounts expected."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pro Fine Molend: Kidlington:",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The pounds value is '0'. The fraction symbol is a clear 'q' for quarter penny (0.25). Vertical column lines are unambiguous. All monetary values are within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "673 7 10 1/4",
+      "amount_pounds": 673,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear final total, underlined and double-underlined. The pounds, shillings, and pence values are all clearly legible and aligned. The fraction is a clear 'q' for quarter penny (0.25). All monetary values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

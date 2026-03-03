@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title written centered at top: 'Soluta'. No monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "To mr Adams & impensa Coll. et nota Dom: Nativ: 1700.",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description legible though abbreviations are used. Amount alignment near the top-right suggests '5' in pounds column and '1' in shillings; the pence column appears to be a small '2' though there is some ink smudge/marking to the right. Chosen '2d' as the most consistent reading; column boundaries moderately clear."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To mr Hutchins nil.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "The word 'nil' is clearly written in the description and there are no amounts in the £ s d columns; treated as an entry with no monetary value."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Do Pain for Longwtn. Fine",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '04 00 00' is clearly aligned in the pound/shilling/pence columns (four pounds exactly). Description clearly reads as payment for a fine."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Ad Fest. Nativit.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Header/entry for Nativity festival with clear amount '23 00 00' visible in the pounds/shillings/pence columns; vertical alignment unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Pro augm: red. Southn: et merton - stip: et officiarijs",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Two lines of descriptive text appear to belong to the same payment block. Amount reads '18 06 08' with shillings (06) and pence (08) clearly under their respective columns; some ink faintness in the description but numeric columns are well aligned."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Ad 1st Ann. Pro augm. red. de Cudlings 3 ptes",
+      "amount_pounds": 25,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The description is abbreviated; amount most plausibly '25 19 00' based on heavy inked total in the pounds and shillings columns. The pence column is blank/zero. Some smudge near this line reduces confidence slightly."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Ad Fest. Bapt. Pro 4ta pte Red. Augm. de Cudding? Stipend: et Officiarijs",
+      "amount_pounds": 30,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwriting for the description is cramped; the numeric group at the right reads approximately '30 13 4' though the pence digit is slightly obscured by a dark ink blot to the extreme right. Pounds and shillings alignment is clearer than pence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ad Fest. Mich. Pro vel Augm: de Longwtn. Soluta p' Guinecar",
+      "amount_pounds": 12,
+      "amount_shillings": 11,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This festival entry and its subnote are somewhat abbreviated. The numeric cluster in the right columns is read as '12 11 1' though the pence digit is small and faint; chosen the most legible digits given column alignment."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Item pd for Batts",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Short description 'Item pd for Batts' with amount loosely aligned to the right as '17 00 00'. Ink shadowing from nearby blot reduces clarity of the pounds digit; chosen '17' as most consistent reading."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "For mr Nivians Batts Ann. 1700 27? d? Bapt.1700 27.11",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwritten descriptive line heavily abbreviated; numeric value in right-hand columns small and slightly faded appears as '00 05 3' (5s 3d). The pounds column clearly zero. Because the rightmost digits are faint, confidence is moderate-low."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "For Do Huthnance Batts Mich. 93.1:1:1dq Nativ:1693. 3?2?",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "This line contains many abbreviated notations. The numeric grouping on the far right appears as '01 04 3' but the ink is smudged and there are extra marks; pence digit could be 3 or nearby 6 based on stroke—selected 3 as the most consistent short stroke."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "If to mr Hilly Pensioners",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This line introduces a set of small pension entries (looks like a group header). No amounts in the right columns for this header itself."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "To Blake mich.1701",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear small pension entry '00 15 0' (15s). Description and numeric alignment are legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "To Pearse mich.1701",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Same format as previous; amount clearly '00 15 0'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "To Jago mich.1701",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads '00 7 6' clearly in the shillings and pence columns (7s 6d). Description legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "To mr Hutchings for Do Parsons Batt Ann.1700 Bapt.1700",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount appears as '00 05 9' (5s 9d) clearly aligned; description line long but readable."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Item for mr Harris Bapt 1701",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Small entry with amount '00 03 9' clearly visible. Description legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Summa omnium solutorum",
+      "amount_pounds": 180,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Larger subtotal written in prominent script to the right as '180 08 02' (interpreted as 180l 8s 2d). Vertical alignment used and digits are fairly clear though the final pence digit is slightly small."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "569 14 4? (line under subtotal) — likely 'Summa omnium solutorum' repeated",
+      "amount_pounds": 569,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Large script total below the subtotal looks like '569 14 4' though there are additional ornate marks to the right. Pounds and shillings clear; pence reading is plausible but less crisp."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Summa omnium Receptorum et remanentium in cista",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear heading in the middle of the page in ornate script; no amounts on the same line (serves as a descriptive header)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Summa omnium solutorum (repeated)",
+      "amount_pounds": 569,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line repeats the previously seen grand total '569 14 4'. The handwriting is decorative but numbers align with earlier total; chosen same amounts for consistency though some ornamentation slightly obscures pence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "fir Debet Dus Computans",
+      "amount_pounds": 340,
+      "amount_shillings": 12,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "This looks like an indebted/computed balance line reading '340 12 8' (or similar). The ornate script and additional flourishes make the last digits a bit ambiguous; chosen reading keeps all columns valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Mem: quod se 375: 18: ?n anno superiori in rista remanentibus soluta fore Magzo doman",
+      "amount_pounds": 225,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "This is a memorandum block with densely abbreviated Latin; to the far right a numeric value '225 16 11' (pounds/shillings/pence) appears but the surrounding script is cramped and some digits are indistinct. Low confidence due to faded ink and complex abbreviations."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "fir Introducant hor anno",
+      "amount_pounds": 114,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Lower portion contains a line with amount that reads '114 15 9'. The description is abbreviated; numeric columns are moderately clear though the middle digit of pence area is slightly cramped."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "fir Remanent in cista hor anno",
+      "amount_pounds": 340,
+      "amount_shillings": 12,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final line in the page appears to show '340 12 8' as the remaining balance in the chest for the year. Script is decorative and some flourishes touch numbers; columns are still interpretable."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

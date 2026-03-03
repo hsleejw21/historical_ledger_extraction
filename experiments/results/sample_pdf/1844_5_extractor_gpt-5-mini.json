@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Brought forward",
+      "amount_pounds": 676,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Top-right short phrase reads 'Brought forward' (script common in ledgers). The three amount columns at the top are clearly aligned; digits read as 676 | 4 | 1. Ink is slightly faded but digits are distinct and within valid ranges."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "1 years Income Tax",
+      "amount_pounds": 56,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible as '1 years Income Tax'. Amount columns show '56' in pounds column and '15' in shillings; there is no visible pence digit so pence set to 0. Vertical ruling alignment clear."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Tradesmen's bills viz Hayes",
+      "amount_pounds": 16,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Tradesmen's bills viz Hayes'. Amounts read clearly in the three small columns as 16 | 19 | 6; all within valid ranges and well aligned to the ruling lines."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Vincent Herald",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname looks like 'Vincent' and second word 'Herald' (both legible). Amounts show 3 | 3 | (no pence) — pence set to 0 due to blank; alignment clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gib & Ward",
+      "amount_pounds": 49,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description reads as 'Gib & Ward' (handwriting slightly compressed). Pounds and shillings columns read 49 and 19 clearly; the pence digit appears as a small '9' but is faint — chosen as 9 based on alignment with pence column."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Evans",
+      "amount_pounds": 38,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Single-name entry 'Evans' clear. Amount digits appear as '38' in pounds; shillings column looks like '1' and pence like '10' (the '10' is slightly cramped but fits the pence column). Moderate uncertainty due to cramped pence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dudley & Bowler",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name reads 'Dudley & Bowler' (letters legible). Amounts read clearly as 19 | 4 | 5 with good alignment to ruling lines."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Nunney",
+      "amount_pounds": 24,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Surname appears as 'Nunney' (script a little stylized). Pounds and shillings read 24 and 14; pence column blank so set to 0. Columns aligned; shillings within valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Watts",
+      "amount_pounds": 30,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name reads 'Watts' clearly. Amounts 30 | 5 | 4 are legible and align with ruling lines; no ambiguity."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Baxter",
+      "amount_pounds": 11,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name 'Baxter' clear. Pounds and shillings read 11 and 1; pence appears blank in the pence column so set to 0. Vertical alignment clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Cripps",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Name 'Cripps' legible. Amounts appear distinctly as 6 | 3 | 6; digits are clear and pass currency validation."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname reads as 'Knowles'. Amounts in the three columns read 13 | 14 | 2; slight ink feathering but digits align correctly and are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Roach",
+      "amount_pounds": 5,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name 'Roach' clear. Amounts read 5 | 10 | (blank pence). Pence set to 0; column alignment unambiguous."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Parker Bookseller",
+      "amount_pounds": 27,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Parker Bookseller' clearly readable. Amount columns show 27 | 1 | 6 distinctly and with clean alignment — high confidence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Herbert & Inkling",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "First name 'Herbert' legible; second word looks like 'Inkling' or similar (handwriting slightly ambiguous). Amounts read 3 | 3 | blank (pence 0). Moderate uncertainty on second word only."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hickman",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname 'Hickman' readable. Amounts appear as 2 | 17 | (blank pence). Shillings 17 valid; pence set to 0 due to blank column."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Spiers",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Name 'Spiers' visible though tail of script is stylized. Amounts read 4 | 17 | blank; pence set to 0. Slight ink fade on shillings but alignment supports reading."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Common Room",
+      "amount_pounds": 14,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Label 'Common Room' clear. Amounts in columns distinctly read 14 | 18 | 4 with strong alignment to the ruling lines."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Purdue",
+      "amount_pounds": 8,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Name appears as 'Purdee' or 'Purdue' — chosen 'Purdue' as closest readable form. Amounts read 8 | 5 | 2; digits are clear though the name has slight ambiguity."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lambert & Rawlings",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Names 'Lambert & Rawlings' are legible. Amounts read 3 | 8 | 6 clearly in their columns; alignment is consistent."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Shrimpton Prize Books",
+      "amount_pounds": 40,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "First name 'Shrimpton' clear; second phrase reads like 'Prize Books'. Amounts 40 | 10 | blank (pence 0) are legible and aligned."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sick care of Stable",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is less clear — appears to refer to care of the stable ('...of Stable' visible). Amount in pounds column reads clearly as 10; shillings/pence columns blank. Moderate uncertainty on exact wording of description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Rectors Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Phrase reads 'Rectors Improved Stipend' (script clear). Amount is a round 100 in the pounds column; shillings and pence blank — interpreted as 0."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do Do allowance for Kitchen",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "'Do Do' indicates repetition of previous heading; rest reads 'allowance for Kitchen'. Pounds column reads 10 clearly; lesser columns blank. Moderate confidence due to abbreviated header."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do Postage & Parcels",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Abbreviated 'Do' followed by 'Postage & Parcels' readable. Amount columns show 2 | 12 | 4 distinctly; digits within valid ranges and well aligned."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Compensation to Fellows for dry piece",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Text reads 'Compensation to Fellows' clearly; final words are harder to read — interpreted as 'for dry piece' with some uncertainty. Pounds read 23 clearly; smaller columns blank."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Balance on Poor Tax Act",
+      "amount_pounds": 11,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Phrase appears to be 'Balance on Poor Tax Act' (some letters faint). Amounts read as 11 | 15 | 4; digits aligned but description has moderate ambiguity in one word ('Poor' vs 'Pood')."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Browning",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Single surname 'Browning' readable. Amounts 5 | 16 | 6 are distinct and align with the three ruling columns."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Instable agency on 2 yrs 1843-44 Returned ?",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Last descriptive line is heavily abbreviated and faint; I read fragments 'agency', '2 yrs 1843.44' and a closing note possibly 'Returned'. Amounts read as 2 | 2 | blank. Low confidence due to heavy abbreviation and faded script."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1212,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final boxed total at bottom-right clearly visible as 1212 | 12 | (blank pence). The box and line beneath confirm this is the final total. Description column is blank on the line — treated as a total row."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

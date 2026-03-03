@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year heading at top of page. No amounts present; very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Paria. - Bro't over",
+      "amount_pounds": 1339,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right-hand columns align clearly to 1339 5 5. Description transcription uncertain: handwritten word looks like 'Soluta Paria' and abbreviation 'Bro't over' — text legible but orthography ambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To W. Davenport - Surveyor",
+      "amount_pounds": 39,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'To W. Davenport - Surveyor' is clear. Numeric columns (39 | 9 | 6) align well with ruling lines and pass validation (s 0-19, d 0-11)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr Greenshields - Do.",
+      "amount_pounds": 10,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 10 8 0 clearly placed in the three right-hand columns. Name reads as 'Mr Greenshields' (handwriting ligature makes exact spelling slightly uncertain) and 'Do.' (ditto) is clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "the Auditor his deficiency of Salary for the year ending at Michs. 1831",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description is legible though slightly cramped; there are no amounts written on this line (appears as a sub-item or explanatory entry). Column area for this row is blank."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest to the Reserve Fund for the Loan of 3068.14.11 at 4% - one year",
+      "amount_pounds": 122,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Amount appears as 122 | 14 | 4½ (pence '4' with a halfpenny mark). Column alignment is clear; fraction interpreted as halfpenny from the small '½' / loop after pence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and full-pound amount 100 0 0 are very clear and well aligned."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Letters, Stamps &c.",
+      "amount_pounds": 4,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 4 | 16 | 11 clearly visible. Description 'Letters, Stamps &c.' easily read though ampersand is handwritten."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Plowman for Surveying Barn at Merton",
+      "amount_pounds": 3,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 3 | 14 | 0 is clear. Description partly ambiguous: handwriting looks like 'Plowman for Surveying Barn at Merton' (could be 'Farm' or 'Barn' and 'Merton/Morton'); chosen reading based on letter shapes but some uncertainty remains."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To W. Dayman - Donation to Gr. Ind. School",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Numeric amount 2 | 0 | 0 is clear. Name and institution abbreviated in handwriting ('W. Dayman' and 'Donation to Gr. Ind School' interpreted from script); there is some uncertainty in abbreviation expansion."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Lees. Plowman's Bill for work done in the Channel at Newton",
+      "amount_pounds": 36,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 36 | 14 | 0 well aligned and legible. Description largely readable though a dash and some letters (Lees / Lewis) are slightly stylized; interpreted as 'Mr Lees' with contextual reading of the rest of the line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "L 1659 2 2½",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final total at lower right clearly written as '£1659 2 2½' (pence '2' with halfpenny mark). Alignment with ruling lines is clear; fraction interpreted as halfpenny."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

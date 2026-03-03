@@ -1,0 +1,97 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Compulsus suprascriply al ??amina",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Topmost line is a page heading. The first word reads clearly as 'Compulsus' (Latin form) but the remainder is ambiguous; I read 'suprascriply' though the handwriting could be 'supra scriply' or 'suprascriptly'. Final word is very unclear (I show '??amina'); letters look like 'amina' but initial letter is uncertain. No amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": " - his [crossed out] el Approbatum per N?7",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.35,
+      "notes": "Second heading line contains heavily crossed-out text and a fragment that looks like 'el Approbatum per N?7'. The line is partially struck-through and several letters are indistinct; I preserved the visible structure ('Approbatum per') but the preceding word is mostly obliterated. No amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Geo: Paynter R:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Name line is clear: abbreviation 'Geo:' (George) followed by 'Paynter' and a trailing 'R' (possibly an initial or mark). Handwriting is legible and there are no monetary figures."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Jo: Cooke sub R:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of 'Jo:' (John or Joseph) and 'Cooke' with 'sub R' following. The colon and spacing match the original. No amounts visible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Geo: Verman",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "First name abbreviation 'Geo:' is clear. Surname appears as 'Verman' in the ink but could plausibly be 'Vernon' or 'Vreman' depending on a single ambiguous letter (the middle vowel/consonant stroke). No amounts present."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Ric: Hawkins",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Abbreviation 'Ric:' (Richard) and surname 'Hawkins' are legible; the downstrokes and loops match 'Hawkins' clearly. No monetary columns or figures on this line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dan: Alborn dec",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Given name abbreviation 'Dan:' is clear. Surname reads approximately as 'Alborn' though letters could be 'Alborne', 'Giborne' or similar; the trailing 'dec' (likely 'dec.' = deceased) is visible but the preceding name letters are moderately ambiguous. No amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hen: Edwards.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Abbreviation 'Hen:' (Henry) and surname 'Edwards' are clearly written and legible, including the final period. No monetary values present."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

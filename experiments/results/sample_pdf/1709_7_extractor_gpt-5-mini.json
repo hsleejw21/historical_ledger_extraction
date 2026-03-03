@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arraragio.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered page title at top. Legible handwriting and no amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Guinear pro anno.",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numerals in all three monetary columns are crisp and well aligned to ruling lines: reads 60 pounds, 0s, 0d."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long-Wittenham pro anno.",
+      "amount_pounds": 87,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of '87' in pounds column, '06' in shillings column and '0' in pence column; alignment with vertical lines unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Minhindert pro Biennio.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Pounds reading '40' and following zeros are clearly written; the description has an uncertain letter sequence (transcribed as seen: 'Minhindert'), but the monetary columns align cleanly."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South-Norrington pro anno.",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts read clearly as 58.0.0; description legible enough to read the place name and 'pro anno'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Merton Rectory pro Mir.",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Pound and shilling columns align to read '4' and '11' respectively; pence appears to be '6' (written as '06') but the final digit is slightly faded; description text 'Merton Rectory pro Mir.' is partially abbreviated and faint."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chafe-Hill pro Biennio & dimid.",
+      "amount_pounds": 19,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds reading '19' and shillings '06' are reasonably clear; the pence digit looks like '8' though slightly cramped against the right margin. Description has abbreviation 'dimid.' which matches the line text."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Thrupp",
+      "amount_pounds": 20,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Monetary columns read as 20.4.6 but the place name is short and the handwriting (Thrupp) is somewhat stylized; digits are sufficiently clear though the pence is slightly compressed."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ralph Marshals Capons.",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Small amount '0' pounds, '02' shillings, '06' pence reads clearly. Description reads 'Ralph Marshals Capons' (orthography matches the script)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Calot - pt of Annuit. - 1.7.9 qd? & Mic. 2.9.6d",
+      "amount_pounds": 3,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description line contains multiple abbreviations and small marginal notations; monetary columns align to read '03' pounds, '17' shillings, '09' pence, but the pence digit is slightly ambiguous due to ink overlap with description notes."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Bampton pro Triennio.",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Pounds '03' and shillings '05' visible though a faint stroke slightly touches the shillings digit; pence shows as '0'. Description is legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Montague pro Triennio & dim.",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Monetary columns read '03' and '05' but the pence column is faint/blank; description contains abbreviation and slightly cramped script making exact wording moderately uncertain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Hughes pro biennio",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear '01' pounds and '04' shillings; pence shows as '0'. Description 'Hughes pro biennio' readable though ink is slightly lighter than above lines."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Gredway pro Quadriennio.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Monetary columns read '04.00.00'; the surname is somewhat ambiguous (transcribed as 'Gredway' matching the visible letters), but amounts align well."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Franklin",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short name 'Franklin' clearly written. Amount shows plainly as 01.00.00 and is well aligned to the ruling lines."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mynne pro Triennio.",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read as 03 pounds, 10 shillings, 00 pence; digits are clear though the 'y' tail in 'Mynne' slightly intrudes on the space."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Shillings column clearly '10'; pounds are '0' and pence '0'. Description is legible as 'Leaden-Hall'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Molineux pro Anno.",
+      "amount_pounds": 6,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds read '06', shillings '17' and pence '05' — all within valid ranges. The shillings numeral '17' is somewhat compressed but legible; place name spelling is slightly uncertain but readable."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Napper pro Anno",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Columns align to '05.14.07'; ink for the pence has a minor smudge making the last digit slightly less crisp but still interpretable as '7'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Hopkins pro Biennio & dim.",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '01', shillings '19' and pence '07' visible; shillings are high but valid (under 20). Description contains standard abbreviations; some ink bleed near the shillings digit increases uncertainty slightly."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Clifton-Ferry pro anno.",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads '06.06.08' though the pence digit is lightly penned; description is legible as 'Clifton-Ferry'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bensington pro anno.",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Columns show '05.12.08'. The first two columns are clear; the pence is slightly faint but consistent with the digit shape '8'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Broxtheath",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Place name is partially obscured by a small stain and the handwriting is ambiguous (transcribed as 'Broxtheath'); monetary columns appear to read '09.08.08' but the stain crosses the middle of the line so digits could be misread."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "South-Norrington Tenement pro Biennio.",
+      "amount_pounds": 3,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The long description is slightly cramped but readable; amounts align to '03.12.07' and are relatively clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Iskebwin pro Biennio & dim.",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '15' is large and distinct, with '00.00' following. The place name contains uncertain letters (transcribed as seen) and the abbreviation 'dim.' is present; overall amounts are clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Morton Vicarage pro Quadriennio Quinquennio.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount clearly '04.00.00'. The description contains crossed-out or overwritten words (two period names written), but 'Morton Vicarage' is legible and the monetary columns are unambiguous."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Two Quitrents &c pro Dimidio anni.",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description contains abbreviation and a small contraction; monetary columns show '02.13.04' though the pence digit is slightly faint. Chosen reading based on alignment with ruling lines."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Wander.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This final line shows a name/label ('Wander.' or 'Warder.') with an 'x' mark in the description area and no monetary figures in the columns; the absence of amounts is clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

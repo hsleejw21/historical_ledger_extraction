@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thoma Bray, Rectoris,",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top-of-page title clearly written across the page with no amounts in the right columns. Very legible script and separated from the tabulated area."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Q Die Nov:r 1783, ad eundem Diem 1784,",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Date line directly under title; no monetary figures in the rightmost columns. Handwriting clear enough to read the Latin date phrase."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Arrearagia recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section heading (arrearage receipts). No amounts. Text is clear and centered above the list of entries."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "South-Newington Rech: pro Dir. An.",
+      "amount_pounds": 63,
+      "amount_shillings": 3,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large clear '63' in the pounds column and '3' in the shillings column. Pence column appears blank. Vertical ruling alignment consistent with other rows."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kidlington Mills, pro An.",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Three numerals visible aligned in three right columns: '14' (pounds), '2' (shillings), '1' (pence). All digits legible and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Garsington, Ed. Sadler, pro An.",
+      "amount_pounds": 7,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings ('7' and '1') are clear. The pence digit is small and slightly faded; it reads like a '1' but could be faint — chosen '1' based on alignment with the pence column."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do And. Pickett, pro An.",
+      "amount_pounds": 7,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings ('7' and '1') are clear. The pence figure is faint and similar to the previous row; read as '1' by column alignment but somewhat ambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Clifton Ferry, Ed. Wells,",
+      "amount_pounds": 6,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Right columns show '6' (pounds), '11' (shillings) and a clear '8' in the pence column. All digits well aligned and within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Bensington, pro An.",
+      "amount_pounds": 5,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Pounds '5' and shillings '10' clearly visible. Pence column appears blank or omitted; no pence digit legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Bampton pro Bien.",
+      "amount_pounds": 2,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "A single '2' is visible aligned under the pounds column; no shillings or pence are written. Alignment and digit are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "South-Newington Ten. pro An.",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Three numerals visible: '2' (pounds), '2' (shillings), '6' (pence). Clear alignment with the three vertical ruling positions."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Kemp, obin Hall, pro An.",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shows '1' under pounds and '10' under shillings. Pence column blank. Words before amounts are slightly abbreviated but legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ladlane, St. Comyns, pro Bien.",
+      "amount_pounds": 10,
+      "amount_shillings": 13,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '10' and shillings '13' are clear and properly aligned; no pence figure present."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do Comyns & Donathan, obin Harforth, pro Bien.",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '13' and shillings '6' clearly visible at right. Text before amounts a little compressed but readable; no pence digit."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Do Greenhow, pro Bien.",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Right-side numerals read as '3' (pounds), '6' (shillings), '8' (pence). The pence digit is slightly smaller but aligns with the pence column; spelled name 'Greenhow' read from faint letters and may vary slightly."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Medenham, pro Bien.",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shows '13' in pounds column and '6' in shillings column. Pence column blank. Handwriting reasonably clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Jesus Coll. pro An.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "There is a very small solitary '1' near the pence column for this row; pounds and shillings appear blank/dashed. The single digit is faint and could be a stray mark; recorded here as 1d because alignment suggests the pence column, but confidence is low."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Tetheran pro Divn. An.",
+      "amount_pounds": 3,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A clear '3' is visible under the pounds column. No shilling or pence digits present."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Wild Arish, pro Bien.",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Clear '10' under pounds column. No shilling or pence figures. Handwriting crisp for this row."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "R. Hirons, pro An. & Vimid.",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Three digits visible: '3' pounds, '19' shillings and '1' pence. 19 shillings is valid (<20). The middle number (19) is slightly crowded but legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "R. Judge, pro Bien.",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear '5' (pounds), '1' (shillings), '7' (pence). Alignment and digits are distinct and valid."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "W. Taylor & Wife, pro An. & Vimid.",
+      "amount_pounds": 8,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Digits '8', '15', '9' clearly seen across the three columns. Handwriting neat; values within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "B. Gardener, pro Bien.",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Rightmost columns show '8' (pounds), '12' (shillings) and '11' (pence). All numerals clear and conform to currency ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Hartley, pro Bien.",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Numerals read as '1' (pounds), '10' (shillings), '8' (pence). After the pence digit there is a small looped/forked mark consistent with a three‑farthings sign (3q = 0.75) in these ledgers; the fraction reading is somewhat smeared, so confidence moderate."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "B. Gardener, pro Trien.",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Shows '2' in pounds and '9' in shillings. Pence column blank. The text label is similar to row 23 but indicates 'pro Trien' (spelling slightly abbreviated); digits are clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Widow Ryman",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Digits read as '3' (pounds), '5' (shillings), '2' (pence). After the pence there is a small loop resembling the half‑penny 'ob' mark; interpreted as 0.5. The fraction mark is smudged but aligns with typical halfpenny notation in this document."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Curnock, pro Trien.",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'1' in pounds and '6' in shillings are clear. No pence figure. Handwriting crisp for these numerals."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "S. Leonard, pro Trien.",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Single clear '1' under pounds column; no shillings or pence recorded. Description legible."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "S. Bansell, pro Trien.",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Small values align with the two rightmost columns: pounds column blank, shillings '9', pence '6'. The pounds column being blank indicates amount less than one pound; digits are readable though somewhat small."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

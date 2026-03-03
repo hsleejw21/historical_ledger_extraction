@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page date header. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Main section header. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Brought forward",
+      "amount_pounds": 38,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 13,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Domus Wine Baths",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hewlett Laboron Frauds",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Hayes",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Shillings '7' has a clear crossbar."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Rowell",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Vincent",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gill & Ward",
+      "amount_pounds": 129,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Pounds amount is three digits."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Bliss - Room allowance For",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry within a braced group. No monetary amount in the columns for this specific row. Amount is likely aggregated with a sibling row's entry."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stringer Collecting For The £10.0.3 Quit Rent 2.6",
+      "amount_pounds": 10,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount is clear and aligned. Description combines several textual elements within a braced group, including a descriptive note for the amount (£10.0.3) that matches the extracted value. This appears to be the sum for the braced group including the previous 'Bliss' entry."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Self. ½ year Rector",
+      "amount_pounds": 7,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Journeys and Parcels",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stamps",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Only pence amount present. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 613,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Summation line. Pounds, shillings, and pence values are clear and aligned. There is a faint, uninterpretable '6' digit trailing after the pence, which has been disregarded as extraneous or a scribal error, as it doesn't fit standard currency notation or fractions."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header. No monetary amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "2nd die Novembris 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Date sub-header. No monetary amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Sub-section title. No monetary amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Sub-section title. No monetary amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Varia",
+      "amount_pounds": 6426,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Compact notation for total amount (PoundsSSdd). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Ordinaria",
+      "amount_pounds": 547,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Compact notation for total amount (PoundsSSdd with implied leading zeros for single digit shillings/pence). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Varia",
+      "amount_pounds": 613,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Repeated summation line. Pounds, shillings, and pence values are clear and aligned. There is a faint, uninterpretable '6' digit trailing after the pence, which has been disregarded as extraneous or a scribal error, as it doesn't fit standard currency notation or fractions. This is consistent with row 16."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Deficit 1859",
+      "amount_pounds": 1047,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Compact notation for total amount (PoundsSSdd). Vertical lines unambiguous. All values in valid range. Appears to be a deficit carried forward."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 7728,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Grand total line. Compact notation for amount (PoundsSSdd). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Solutis",
+      "amount_pounds": 7728,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Total line, repeating the value from row 25. Compact notation for amount (PoundsSSdd). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Receptis",
+      "amount_pounds": 6426,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Total line, repeating the value from row 21. Compact notation for amount (PoundsSSdd). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Deficit",
+      "amount_pounds": 1002,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Final deficit calculation. Compact notation for amount (PoundsSSdd with implied leading zeros for shillings). Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "Examined and approved by us",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header for signatures. No monetary amounts."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "J. P. Lightfoot Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of signatory information. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "William Ince. SubRector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of signatory information. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Henry Low. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of signatory information. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Frederic J Colley. Bursar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of signatory information. No monetary amounts associated with this row."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Charles Maunsell Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of signatory information. No monetary amounts associated with this row."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

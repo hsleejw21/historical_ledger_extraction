@@ -1,0 +1,251 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page, no monetary amounts, perfectly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Dons Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Title below year; handwriting legible though the first word is slightly stylised ('Dons' / 'Dons'/'Doms' shape). No amounts in this label."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 Per Cent on Estates",
+      "amount_pounds": 543,
+      "amount_shillings": 9,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Right-hand cluster shows a three-digit pounds figure (read as 543) and rightmost cluster clearly reads '9½' (interpreted as pence 9 with 0.5 fraction). The middle (shillings) area is ambiguous because '43' appears close to the pounds region; chose shillings=9 based on column alignment of the '9' immediately left of the pence '9½'. Moderate uncertainty due to crowded digits near the pounds/shillings boundary."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "15 Do on Room Rent",
+      "amount_pounds": 237,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Left-most group interpreted as pounds = 237. Right-most shows '9½' pence again. A small '3' sits in the middle column area which I read as shillings=3. Column boundaries are slightly uncertain here (digits crowd), so confidence reduced."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Baskey Divd",
+      "amount_pounds": 7,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short amount at right reads '7 3 4' across the columns; each part aligns reasonably with pounds/shillings/pence zones. Handwriting of description partially abbreviated ('Divd'), but numeric alignment is moderately clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Marston Compos. 1st payment 9.16.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line contains a sub‑item with its amount written inline in the description (9.16.0) rather than in the right-hand £ s d columns. No separate main-column amount visible; thus left blank for the standard columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2do 8.12.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second sub‑payment of the Marston composition series appears in description (8.12.0). No amount in the main £ s d columns; treated as a descriptive sub-item."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3 do 12.5.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Third sub‑payment given inline as 12.5.0. Again appears inside description text; no separate main-column amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Carried to local Rate Comps. 30:13:0",
+      "amount_pounds": 30,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "There is an underlined figure '30:13:0' directly beneath the Marston composition lines. That value is placed near the centre/description area but clearly represents a subtotal; I placed it into the main columns as pounds=30, shillings=13, pence=0. Moderate confidence because the number sits in the description zone rather than exactly in the right-hand columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Late Rentors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right-hand value reads clearly as '13 1 0' aligned with the £ s d columns. Description is legible as 'Late Rentors Prize'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dr. Jones legacy",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numerals '17 10 0' are clearly written and aligned in the £ s d columns. Description 'Dr. Jones legacy' is legible; reading confident."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "1/4 to K[?] Warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads as '2 2 0' in the columns. The description appears to read '1/4 to K... Warming Hall' — the first word is unclear (initial looks like 'K' or 'Kinar'), so I flagged moderate confidence for the description but the numeric reading is clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "3 Sets of rooms. Tutor",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right column shows '3 0 0' aligned across £ s d. Description reads as '3 Sets of rooms. Tutor' (handwriting legible)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dickerson Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '43 0 0' is clearly aligned and legible. The name/word 'Dickerson' is readable in context as the payer; high confidence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Room Rent except y. or moiety",
+      "amount_pounds": 122,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount appears as '122 0 0' in the £ s d columns. Description is partly abbreviated ('except y. or moity') but the numeric value is clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "South Newton Cottages",
+      "amount_pounds": 6,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Right-hand reading looks like '6 11 8½' (eight and a half pence). The fraction mark resembles the loop for a half‑penny; columns align reasonably. Moderate confidence because the fractional mark is small and the handwriting slightly cramped."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hutt for Stone",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '5 0 0' is clear and well aligned. Description reads 'Hutt for stone' (handwriting legible)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Sale of Consols & Inc net",
+      "amount_pounds": 552,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "This line shows a clear amount '552 12 4' in the £ s d columns and the description 'Sale of Consols & In[come] net' is legible. Very high confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Sale of Estate & Pen",
+      "amount_pounds": 8000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, clear entry '8000 0 0' aligned in the pounds column; description ('Sale of Estate & Pen') readable. No ambiguity."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Undergraduates Chapel Fund",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amount '65 0 0' is neatly written in the £ s d columns. Description is legible; very high confidence."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "283.0.11 Red 3 per cents",
+      "amount_pounds": 256,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This row is somewhat compressed. The left part of the description reads '283.0.11 Red 3 per cents' but the right-column numeric appears as '256 5 8' (I transcribed the right-hand number as the ledger credit). Moderate confidence owing to the proximity of two different numeric groups (one in the description, one in the columns) and some smudging."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "10075 4 9 1/2",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final underlined total at bottom right reads clearly as '10075 4 9½' (pounds 10075, shillings 4, pence 9 and a half). Underline and alignment make this value very legible."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

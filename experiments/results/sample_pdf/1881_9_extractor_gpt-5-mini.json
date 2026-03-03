@@ -1,0 +1,119 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear centered year at top of page, bold ink and distinct from amounts. No monetary columns present on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly written title under the year. No amounts on this line; horizontal rule beneath confirms it is a section header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Duke Rent of Room",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible. Three vertical ruling lines used to align numbers; pounds column clearly shows '10', shillings '0', pence '0'. All currency values valid."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "House reappointment by",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Text is heavily struck-through (line crossed out). Amount columns align to '50 0 0' (faint but consistent with column lines). Because of the strikethrough and slightly smudged first letter of description, confidence reduced though numeric columns are reasonably aligned."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Contract Fee. Quennklease",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description mostly legible though the name after 'Contract Fee.' is ambiguous in lettering; the amounts read clearly as '2' pounds, '2' shillings, '0' pence based on alignment with ruling lines and spacing. Values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Galpin Ord materials",
+      "amount_pounds": 14,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description readable though word after 'Galpin' could be 'Ord' or 'Oct' — chosen as 'Ord' based on letter shapes. Amount columns clearly show '14 19 8' aligned to the three ruling lines; pence 8 is unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Glastonbury School. 5/4 repaym't by act of Symes Accomt",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwriting for the descriptive clause after 'Glastonbury School' is moderately cramped and abbreviations present; interpreted as a repayment note. Numeric columns read as '5' pounds, '5' shillings, '0' pence — the shillings digit is slightly crowded but clearly within 0-19 range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Bursar. Compositions 133.18.0  (lined to 154.18.6)",
+      "amount_pounds": 154,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description contains parenthetical numeric annotations; the principal monetary entry aligned in the pounds/shillings/pence columns reads as '154 18 6'. There is small overwritten/adjacent notation '133.18.0' which appears to be earlier figure — chosen the clearly-aligned 154/18/6 as the main amount. All currency values valid."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "—— (two lower lines crossed out; illegible description)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "There are two further lines of text that have been heavily struck-through (mid-page) and their lettering is largely unreadable. No clear amounts can be read in the three monetary columns for these struck lines; recorded as entries with empty amounts. Low confidence due to heavy crossing-out and ink obscuration."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "187 5 2",
+      "amount_pounds": 187,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final total at lower right clearly written as '187 5 2' (pounds, shillings, pence). There is an earlier struck-out subtotal immediately above it, but the visible clear total is interpreted as the final sum. All numeric components validate against currency rules."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

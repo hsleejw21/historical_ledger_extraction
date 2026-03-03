@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear and fully legible header date."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Schola Faria.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear and fully legible page title. Underlined."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cooler allowed for repairs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is somewhat faded at the start but fully decipherable. Amounts are clear and well-aligned with the currency columns."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Allowed for Cow Head &c. at Weston",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is somewhat faded at the start but fully decipherable. Amounts are clear and well-aligned with the currency columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subscription to Chapel at Limerick",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bill for the Frameloor at St. Gilbert, Littleham",
+      "amount_pounds": 17,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The word 'Frameloor' is slightly ambiguous but plausible given context. Other text and amounts are clear and valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bill for Timber for Stone at the Farm",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. All values are within valid ranges (12 shillings is a valid amount)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gibbs - Tablets at the Altar - to Mr. Williams",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Woollmer - Advertisement in the Exeter paper",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Bill, Carpenter, for repairs at Campfield",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mss. Brightfoot - Subscription to School at Exeter",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bill at King's Arms for journey to St. Dew",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr. J. Thomas for Garden Services",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Subscription to the Poor Children's",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Portrait of Sir W. Morris",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Costs Culwick into the Rector's Court",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mr. G. H. Cornish for the erection of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text. This is the first line of a braced entry, no amount expected on this line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "a new Crossbed at Plumpston",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. This is the second line of a braced entry, amount applies to the group. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bill for repairs at Yarmton",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Doggets Wine Bottle ½ 9d to Lady 1838",
+      "amount_pounds": 9,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Text is clear. The fraction symbol after pence resembles '½' or 'ob' and is interpreted as 0.5. All other values are clear and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mr. Collins' Prize books",
+      "amount_pounds": 6,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr. Taunton £100 in full of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text. This is the first line of a braced entry, no amount expected on this line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "All demands for the College & Library",
+      "amount_pounds": 253,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. This is the second line of a braced entry, amount applies to the group. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Retained by Mr. Davison on the College",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text. This is the first line of a braced entry, no amount expected on this line."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Account - April 1828 but then omitted",
+      "amount_pounds": 68,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. This is the second line of a braced entry, amount applies to the group. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Bill for drain round the Chancel at Newton",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Mr. Dagnam - Bills for Bridge, Pumps &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text. This is the first line of a braced entry, no amount expected on this line."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Cottage gardens at Little Lew",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. This is the second line of a braced entry, amount applies to the group. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 538,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total line. The curly brace on the left is a formatting element, not part of the description. The initial digit '5' for pounds is consistent with other '5's in the document. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

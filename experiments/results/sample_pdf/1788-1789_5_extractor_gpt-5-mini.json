@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ar: Schol. & Offi.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear centered page title at top. Ink and spacing make the words legible as the page heading."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Att. fol. Net.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small marginal label to the left of the first bracket. Handwriting cramped and slightly unclear (interpreted as 'Att. fol. Net.'), but positioned as a group header rather than a transaction."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stip. ad f. Notis.",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Numbers (20 6 8) are well aligned under the pound/shilling/pence columns. Handwritten description clear enough to read 'Stip. ad f. Notis.'"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augm. S. News. & Mark.",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Columns clear: 27 pounds, 0 shillings, 0 pence. Description read as 'Augm. S. News. & Mark.' with high legibility."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stip. Do. Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount clearly aligned as 33 6 8. The description is slightly abbreviated ('Do.'), read as 'Stip. Do. Shiers' — handwriting slightly slanted but legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augm. Comm. ejusdem ad Capellani",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount reads 60 0 0 clearly. The description contains a deletion/overwriting and an insertion (looks like 'Augm. Comm. ejusdem' with something like 'ad Capellani' added); wording beyond 'Augm. Comm. ejusdem' is partially obscured by the ink correction."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Affgt. annue.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Marginal/group heading (curly brace) for the next set of entries. Handwriting ambiguous — read as 'Affgt. annue.' (could be 'Affgt. annua' or similar). No monetary figures on this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Stip. ad fest. annuen.",
+      "amount_pounds": 34,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Numbers appear as 34 13 4; pence digit is a clear single digit '4' (no fraction mark visible). Description partly abbreviated and slightly faded but readable as 'Stip. ad fest. annuen.'"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kidl. augm. pro 3 partibus",
+      "amount_pounds": 27,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 27 15 0 is clear and within valid ranges. Description reads 'Kidl. augm. pro 3 partibus' (kidl. = abbreviation), handwriting clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Merton Div. 1.",
+      "amount_pounds": 90,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 90 1 10 clear in the aligned columns. Description 'Merton Div. 1.' is legible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mertn. Div. 2.",
+      "amount_pounds": 90,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second Merton-like division with identical amounts 90 1 10; alignment and digits clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Wittenham Div. 1.",
+      "amount_pounds": 125,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings clearly read as 125 0. Pence area shows a small mark after the '5' consistent with a halfpenny loop ('ob') — interpreted as 5½d. The ink blot nearby makes the fraction interpretation somewhat uncertain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Witt. Div. 2.",
+      "amount_pounds": 122,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Amount appears as 122 11 7 with a distinct '3q' style mark (three-quarters/farthing notation) after the 7 — interpreted as 7¾d. Alignment of columns is clear and digits valid."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Affgt. D. J. B.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Marginal group header for the next bracket. Handwriting reads as 'Affgt. D. J. B.' but is somewhat cramped and abbreviated; treated as a header."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stip. ad fest D. J. Bapt.",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 19 0 0 is clearly aligned. Description legible as stipend 'Stip. ad fest D. J. Bapt.'"
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stip. the shiers d.",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear amount 33 6 8. The wording 'Stip. the shiers d.' is slightly ambiguous in spelling but clearly a stipend line similar to earlier 'Shiers' entry."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Augm. Comm. ejusdem",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 56 0 0 is clear and aligned. Description 'Augm. Comm. ejusdem' matches an earlier augmentation entry; handwriting clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Kidl. Augm. pro 4ta parte",
+      "amount_pounds": 9,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads as 09 5 0 (9 pounds, 5 shillings). The leading zero for tens of pounds is visible; description clear as augmentation 'pro 4ta parte'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "a fest Michl.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Left marginal heading for the final bracket. Interpreted as 'a fest Michl.' (fest. Michaelis). Handwriting is abbreviated but consistent with festival heading."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Guinier Stip. ad fest. S. Michaelis",
+      "amount_pounds": 25,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 25 5 0 is clear. Description reads as a stipend for St. Michael's festival; the name 'Guinier' (or similar) is legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "L. Wittenham pro ad. franct.",
+      "amount_pounds": 25,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Amount aligned as 25 13 7 with a three-quarter mark after the 7 (interpreted as 7¾d). Description reads 'L. Wittenham pro ad. franct.' but some abbreviations make exact wording uncertain."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "A horizontal subtotal line is present under the last bracket (just a rule). No textual description or monetary figures on the rule itself; included as a visible row divider."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "799 7 8½",
+      "amount_pounds": 799,
+      "amount_shillings": 7,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Final grand total line clearly shows '799' in pounds and '7' in shillings and '8' in pence. There is a faint small mark to the right of the pence digit (possibly a halfpenny loop or a stray '2'); interpreted as a halfpenny (8½d). The small mark is ambiguous which reduces confidence."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

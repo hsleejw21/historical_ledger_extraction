@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page, no amounts present and clearly a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund. Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear title under the year. Full phrase legible; no monetary columns aligned with it."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Civitati Oxon",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Left-column line reading 'Civitati Oxon' (handwritten Latin abbreviation). No amount immediately adjacent in the numeric columns that can be unambiguously assigned to this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Curiae Hastings",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten; read as 'Curiae Hastings' (could be 'Curice' or 'Curiae'). No clear amount aligned to this single line; description legible but slightly ambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Oriel Windows B? ft",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwritten phrase appears to be 'Oriel Windows' followed by a short abbreviation 'B D ft' or similar. Faded / cramped; no clear numeric alignment for this specific line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Adis Ni Bursar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwritten, uncertain reading ('Adis Ni Bursar' or 'Aldis Ni Bursar'). No distinct amount aligned; transcription uncertain."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll Omn. Anim:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Relatively clear Latin abbreviation 'Coll Omn. Anim:' (collector of all souls?). No numeric entry directly aligned for this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll Ball:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short item 'Coll Ball:' clearly visible but no obvious numeric value adjacent."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Coll Di. Jo: Bapt.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten abbreviation; reads as 'Coll Di. Jo: Bapt.' (some contraction). No amount clearly aligned to this single line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Adig Tapers",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Short, faint handwriting; read tentatively as 'Adig Tapors' or 'Adig Tapers'. No clear monetary columns adjacent."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Concionator",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Word reads clearly as 'Concionator' (Latin for preacher). No amount on the same horizontal line; the stacked numeric block for vicars follows below."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Vicario Morton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line 'Vicario Morton' clearly visible. The monetary values for this heading are written in a vertical list to the right (four separate monetary lines), so this line is the descriptive entry for the following amount-lines."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 31,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "First of four numeric lines to the right of 'Vicario Morton': clearly '31.19.2' with digits well aligned in the three monetary columns. Shillings (19) and pence (2) are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 31,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second numeric line for 'Vicario Morton': identical and clearly written '31.19.2'. Alignment and digits clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 32,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Third numeric line for 'Vicario Morton': clearly '32.9.11'. All currency values valid and digits legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 32,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Fourth numeric line for 'Vicario Morton': clearly '32.1.10'. Alignment with monetary columns is unambiguous."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 128,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined sum for the four 'Vicario Morton' lines; reads cleanly as '128.2.1' in the pounds/shillings/pence columns. This is clearly a calculated subtotal/total line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Vicario South Newton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Heading 'Vicario South Newton' is clear; the monetary lines for this heading appear immediately to the right in four stacked numeric lines (see following rows)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "First monetary line for 'Vicario South Newton' reads well as '9.16.8'. Clear alignment with monetary columns."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second identical monetary line for 'Vicario South Newton': '9.16.8' repeated; digits and alignment clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 9,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Third monetary line for 'Vicario South Newton' reads '9.17.6' clearly in the three columns."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 9,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Fourth monetary line for 'Vicario South Newton': also '9.17.6' and clearly legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 39,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Underlined subtotal for the four 'Vicario South Newton' lines; reads '39.8.4' cleanly in the monetary columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Insurances",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "The word 'Insurances' (or 'Insurance') is written on the left and a monetary amount directly to its right reads clearly as '9.11.3' in the three columns. Alignment and digits are legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bampton do. - 18.6. B??n 3.2.",
+      "amount_pounds": 7,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Left text is faded and abbreviated; read tentatively as 'Bampton do. - 18.6. B--- 3.2.' The monetary triple to the right (7.16.6) is taken from the aligned numeric column but the association with this exact description is somewhat uncertain due to cramped handwriting and abbreviations."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Benwar do 14.6 Do 2.5",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwritten left text reads as 'Benwar do 14.6 Do 2.5' (could be 'Bewar' or 'Bensur'). The monetary triple aligned to this line appears to be '2.5.0' but the left-to-right alignment is slightly uncertain; transcription of the text is low-confidence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Fridge farm 2.1.0",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "The left text explicitly includes the amount '2.1.0' as part of the description area ('Fridge/Fringe farm 2.1.0') and this reading is clear. Left-side amount printed next to the description used directly."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Kidlington coats x",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Left text 'Kidlington coats x' (or 'Kidlington coats &c') is readable and the amount to the right is clearly '20.0.0' in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Fallonur 14. Intt",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Left-hand phrase uncertain (read as 'Fallonur 14. Intt' or similar). The numeric triple aligned to this line reads '7.4.6' clearly, but the exact textual transcription is low-confidence."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Subscriptions Infirmary",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Subscriptions Infirmary' is readable and the amount to the right is clearly '6.6.0'. Alignment is clear."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Kidlington School",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Indented item under subscriptions reads 'Kidlington School' and the aligned amount is clearly '5.5.0' in the monetary columns."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "2. Pew do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Indented line '2. Pew do' (i.e., two pews) is legible and the aligned amount to the right is '6.0.0' clearly written."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Do Curate",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Indented line 'Do Curate' is clear; amount aligned to the right reads '15.0.0' unambiguously."
+    },
+    {
+      "row_index": 34,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 306,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final page total at bottom right is clearly underlined and reads '306.9.2' in the pounds/shillings/pence columns. Alignment and digits are unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

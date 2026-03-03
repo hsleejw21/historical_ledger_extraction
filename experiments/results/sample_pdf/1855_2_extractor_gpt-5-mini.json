@@ -1,0 +1,372 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Brought forward",
+      "amount_pounds": 618,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear heading. The three right-hand columns align well; the top-right numbers read unambiguously as 618 | 1 | 2."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Menheniot money 14.",
+      "amount_pounds": 19,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount columns well aligned; numbers read as 19 | 2 | 6 with clear digit shapes."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Merton Rectory money 1/2 yr",
+      "amount_pounds": 14,
+      "amount_shillings": 7,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description mostly legible ('Merton Rectory money 1/2 yr'). Amount columns align; reads as 14 | 7 | 3 though the final digit is slightly faint."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": 37,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Short description 'Corn' on the line below Merton Rectory; amount reads clearly as 37 | 13 | 4 and columns align with other rows."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "money, vicars Stipend",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Text 'vicars Stipend' is abbreviated and slightly cramped. Amount columns align but the '1' in pounds is small; chosen reading 1 | 8 | 10 based on column position."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Montacute money 3w(?)",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwriting for place-name 'Montacute' legible. The amount on the same horizontal band reads 1 | 8 | 10 but this line is crowded with neighbouring small figures, so modest confidence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Newington J.",
+      "amount_pounds": 181,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name 'Newington J.' is legible. The amount is a larger figure (181 | 7 | 5) and aligns with the pounds/shillings/pence columns clearly."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "A small line with the single word 'Corn' appears beneath Newington J. but no distinct amount is visible on that exact line (likely a sub-item whose amount is on a sibling line)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Pethram Qualification viz: Godalming 24.",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is somewhat condensed but readable as 'Pethram Qualification viz: Godalming 24'. Amount reads as 4 | 10 | (no pence). The pence column is blank for this line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tintinhull - Penny & money 1/4    Beator (corn)",
+      "amount_pounds": 8,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Multiple sub-items in the description are present; the amount reads clearly as 8 | 13 | 9½ (pence shows a half symbol). Alignment with column lines is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Wotkensyn / Withersyn money 1/4   (Corn)",
+      "amount_pounds": 14,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Place name is ambiguous (handwriting unclear); chosen 'Withersyn/Wotkensyn' based on letter shapes. Amount columns read 14 | 9 | 4 but the description is moderately uncertain."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Yarnton Rectory money 1/4 & Tenements (corn)",
+      "amount_pounds": 46,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Yarnton Rectory' and 'Tenements' readable. Amount reads clearly as 46 | 17 | 10 and columns align well."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Revd. Land Tax",
+      "amount_pounds": 13,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short description 'Revd. Land Tax' clear. Amount 13 | 5 | 9 is distinct and validated against column positions."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Waldron ??",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The line appears as a place-name 'Waldron' followed by dashes (no amount on that line). The dashes suggest a break or section divider rather than a numeric entry."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 963,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "This is the subtotal line for the above block. The large total '963 | 17 | 2½' is well aligned and the halfpence symbol is evident."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Clear centered header (Latin) marking the start of the receipts for the current year. No amounts on this header line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bampton money",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and amount '10 | 10 | 0' are clearly written and align with the columns."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bushey Tenements",
+      "amount_pounds": 12,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Bushey Tenements' readable. Amount reads well as 12 | 17 | 2."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington - Cottages",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Kidlington - Cottages' with amount clearly 4 | 9 | 5; columns unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Vicarage - money",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Vicarage - money' readable. Amount shows 3 | 15 | (no pence written). Pence assumed zero; the pence cell for this line is faint/blank."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Revd. Land Tax",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second occurrence of 'Revd. Land Tax' in this section. Amount reads clearly 4 | 12 | 9."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Little Tew timber - money 1/2 yr",
+      "amount_pounds": 4,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description legible as 'Little Tew timber - money 1/2 yr'. Amount registers as 4 | 13 | (blank pence). Pence assumed zero; alignment supports this."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Roy Wittenham Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place name reads 'Roy Wittenham' (handwriting spellings approximate). Amount appears as 4 | 4 | 0; the pence column is blank."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Martins St. for lights",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Only a single '6' appears on this line in the mid-right column. It could be either 6 shillings or 6 pence; based on its horizontal alignment (closer to the shillings column) it is recorded as 0 | 6 | 0. Handwriting is small so confidence is low."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Merton Rectory (Corn) 1/2 yr",
+      "amount_pounds": 15,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Sub-heading 'Merton Rectory (Corn) 1/2 yr' readable. Amount 15 | 3 | 4 is distinct in the columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Merton Rectory money",
+      "amount_pounds": 37,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Follow-up line 'money' for Merton Rectory; amount 37 | 13 | 4 matches the same pattern seen earlier for Merton entries and is clearly written."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Vicars Stipend per yr",
+      "amount_pounds": 37,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwritten label 'Vicars Stipend / yr' appears and a number sits to the right; there is some ambiguity because a similar 37 | 13 | 4 appears nearby. I have recorded it here but the precise association of the figure to this sublabel is moderately uncertain."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Shortridge Trustees money",
+      "amount_pounds": 210,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line 'Shortridge Trustees money' (spelling as on page) is clear and the amount 210 | 7 | 9 is large and legible with excellent alignment."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place 'Hart Hall' visible; the numbers to the right read 1 | 13 | 4 though they are somewhat small—interpretation based on column alignment."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Waldron",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A small single '1' sits on this line in the pounds column (shillings/pence blank). The place name 'Waldron' again appears and the single pound reading is chosen from column position."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Gardener 1/2 yr to Lady Day 1855 P.T.D. for y",
+      "amount_pounds": 14,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Detailed note about gardener and period to Lady Day 1855 is legible though cramped. Amount reads 14 | 1 | 8; all three digits are visible."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "4 1/2 yrs to Lady Day 1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This line is a continuation/note relating to the gardener line above. No separate amount is present on this exact line."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 375,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final total at bottom-right reads approximately '375 | 15 | 7' but the last digits are somewhat worn/faded; columns align but the last digit's ink is faint, so confidence is moderate."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

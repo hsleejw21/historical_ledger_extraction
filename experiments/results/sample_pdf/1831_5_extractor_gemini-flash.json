@@ -1,0 +1,308 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text at the top of the page.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear main header text for the section.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Interest for one yr. on Thrupp's deposit incl.",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Mr. Kinibb a bill for Proof Gutters",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "To Do. a moiety of Cost of a new Privy",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To the Subredor for the Liquidation Fund}",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "for the year 1828.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "To Do. for the Augmentation of S.Whittenham}",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "for the years 1829 & 1830.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Mr. Dayman for repairs of Carricks}",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Cottages at Little Few",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "To Faulkner Sunday Bills for repairs}",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group. The shillings digit '17' is slightly compressed but legible upon close inspection. All values are in the valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "at North Hunningham.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "To Mr. Underwood for designs for Build}",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "ings at the Back Gate.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "To the Subrector for College Plate from}",
+      "amount_pounds": 35,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Messr. Lambert & Rawlings",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "To Do. for Sundries at Do. acct.",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear description. The shillings digit '17' is slightly compressed but legible upon close inspection. All values are in the valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "To Mr. Davis - Rent of the Chapel-Barn}",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description text is clear. The monetary amount is associated with the braced group spanning this and the following row. All values are in the valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "at Little Few. 1 yr.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row completes the description of the braced group and does not have an independent monetary amount."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "To Do. a Bill for Bricks at S.Newton Farm",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "To Do. for Oak planks at Scuthey's",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "To Messrs. Cox & Co. Insurance for Kidd: School",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "To Mr. Parker for Prayer Books in Chapel",
+      "amount_pounds": 4,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "To Grove for Fenison 2 yrs. - 1830 & 1831 -",
+      "amount_pounds": 19,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "To Saylor. Bill for repairs at Frecks Farm",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and monetary values. Vertical lines for columns are unambiguous. All values are in the valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 404,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total amount. The pence digit '6' is clearly a whole number, with no fractional symbol present. All values are in the valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

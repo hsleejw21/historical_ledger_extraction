@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear centered page title at the top. Ink and lettering legible; no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Circuit Min",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description clear. Vertical ruling lines for £ s d unambiguous. Numbers read as 3 | 16 | 8 with good contrast; values are in valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll Adis yt.",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description letters partially unclear (interpreted as 'Coll Adis yt.'). Amount columns aligned; pounds and shillings clearly '0' and pence looks like '8' but ink slightly faint on the pence digit."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll Adis yt.",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second similar \"Coll Adis\" line; description handwriting matches previous line but not perfectly clear. Amounts align to columns and read 0 | 18 | 0; shillings within valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll Smith: Division",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is partially smudged; read as 'Coll Smith: Division' (uncertain word after Smith). Amounts read 4 | 12 | 4; column alignment clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Ball",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Coll Ball' legible. Amounts read 0 | 12 | 6; digits are crisp and within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll S. P. B.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Abbreviated description 'Coll S. P. B.' clear. Amounts 0 | 8 | 2 well aligned and legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Mayor's Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Mayor's Capons' readable. Amounts 0 | 14 | 0 clear; shillings in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Carrie Hastings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Surname looks like 'Hastings' but first name could be 'Carrie' or 'Curia' — chosen 'Carrie Hastings' as best visual match. Amounts read 0 | 1 | 8; pence digit clear though the script is small."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Boxer: Kidding; J. Newington & Merch.",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description contains multiple names/abbrev. 'Boxer: Kidding; J. Newington & Merch.' is an interpretation of cramped handwriting. Amount columns aligned; pence looks like 11 but ink blot makes final digit slightly uncertain."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Easter Syndals Ht'o",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Easter Syndals Hto' (syndals / sinew?) is uncertain due to unusual spelling; amounts 1 | 10 | 4 read from clear vertical alignment but description uncertain."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Cope",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single-word description looks like 'Cope' or 'Coupe'; chosen 'Cope'. Pounds column clearly '2'; pence '4' is a smaller digit but aligned with pence column."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lobric",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Handwriting ambiguous — reads as 'Lobric' or 'Lohec'. Chosen reading is uncertain. Amounts 1 | 6 | 8 but the shillings/pence digits are small and slightly faded."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Sculls & Sundays",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description likely 'Scull. & Sundays' or 'Sculls & Sundry' – interpreted as 'Sculls & Sundays'. Amounts read 0 | 2 | 0; alignment is clear though text ambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cleaning Chap. Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Cleaning Chap. Oct. 5' legible. Amounts read 0 | 2 | 0; digits clear and consistent with column lines."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pro Curators ad Sept. Annual",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description abbreviated 'Pro Curatoris ad Sept. Annual' — phrasing approximated but reading of amounts 23 | 0 | 0 is clear and columns unambiguous."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "ad Sept. Misc",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Subsidiary line 'ad Sept. Misc' (appears immediately under previous); amounts 28 | 0 | 0 clearly aligned. Description wording inferred from abbreviation but consistent with page."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Torson",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Short word looks like 'Torson' or 'Imson' — uncertain. Amounts 0 | 13 | 4 read from columns but pence digit is slightly smudged leading to moderate uncertainty."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Supervisor Adjt.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Read as 'Supervisior Adjt.' or 'Supervisor Adft' — interpreted as 'Supervisor Adjt.' Amount 4 | 0 | 0 clear in columns; description letters somewhat cramped."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Word looks like 'Janitor' (clear). Amounts 1 | 14 | 8 readable though pence digit is small; values valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwritten Latin-like word 'Bibliothecario' or 'Bibliothecario' — letters partly ornate. Amounts 0 | 13 | 4 aligned but pence is slightly faded."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bil: lect Oct. 5",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Abbreviated description likely 'Bil: lect Oct. 5' (bishop lecture?). Amount 0 | 2 | 0 clear and columns unambiguous."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sermon Easter",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Sermon Easter' readable. Amount 1 | 0 | 0 is clear and well aligned."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Concession",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single word 'Concession' appears under a short rule; letters slightly faded. Amount 1 | 0 | 0 legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Southwerkinton Vicars ad Sept Annual",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Place-name 'Southwerkinton' is a best-effort reading (handwriting unclear); 'Vicars ad Sept Annual' inferred from abbreviations. Amount 10 | 0 | 0 clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "ad Sept. Misc",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Subsidiary line under the previous entry reading 'ad Sept. Misc'. Amounts 10 | 0 | 0 clearly aligned with columns."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bedel of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Bedel of Beggars' readable though 'Bedel' archaic. Amount 1 | 3 | 0 legible in columns."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Plate excise due Lady day last",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line 'Plate excise due Lady day last' is fairly clear. Amounts 5 | 15 | 0 read cleanly and align with ruling lines."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 100,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Final total at bottom right reads '100 2 11½' (pence halfpenny indicated by the small loop). Column alignment and numerals are clear; fraction interpreted as 0.5."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

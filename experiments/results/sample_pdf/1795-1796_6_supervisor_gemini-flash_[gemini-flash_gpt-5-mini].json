@@ -1,0 +1,309 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Rectori, Scholariibus, et Officiariis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered title at top of page, fully legible handwriting and no amounts in this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Vide librum Stipend & Dividend.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered subtitle immediately under the title; no monetary columns present on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "1795-6 Ad fest Nativ:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin section label for the group of entries below. The date and section heading are legible though written in the margin."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "(Stipend. ad fest Nativ: (lib. Dividend p225)",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Monetary columns well aligned with ruling lines; pounds=20, shillings=6, pence=8 clearly written and within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Augm: Schwr. Wheaton (His: p226)",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads as 27.0.0 with clear alignment. The place/name is slightly abbreviated but the numeric columns are unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Shiers Stipend (p227)",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds, shillings and pence are aligned and legible; the name 'Shiers' is slightly stylized but readable. All currency values within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Augm: Comm: & 2 Capellanis (p228)",
+      "amount_pounds": 600,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large pounds value '600.0.0' very clear and well aligned with ruling lines. Description text readable enough to identify as augmentation for two chaplains."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Rectori, e legato Jnis Bray, pro rata anni past.",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Numeric columns for 5.9.2 are clear and within valid ranges. Some letters in the description (Jnis/legato) are faded/abbreviated; chosen reading based on common phrasing and surrounding letters."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Eidem, vice beneficiii ecclesiastici",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '25.0.0' clearly written and aligned. Description legible though Latin abbreviated; reading chosen from visible letter shapes."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Ad fest Annunciat. 1796",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin section header introducing next group; handwriting clear and date visible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "(Stipend ad fest Annunciat. (p231)",
+      "amount_pounds": 34,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '34.13.4' is well aligned and legible. Parenthetical reference p231 visible. No fraction after pence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Kidlington pro Augment: Comm: pro 3 quarteris",
+      "amount_pounds": 45,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of '45.7.6'. The place-name 'Kidlington' and note about 3 quarters is legible; currency columns align with ruling lines."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Witt Deb ad Annuue 1795 (p233)",
+      "amount_pounds": 112,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings clearly '112.12'. Pence reads as '4' with a small loop/mark after it interpreted as 'ob' (halfpenny = 0.5). The fractional mark is faint; alternate readings possible, hence moderate confidence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "L. Witt Deb pro semestri ad triennis (p234)",
+      "amount_pounds": 103,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings read as '103.1'. Pence shows '1' with a tiny superscript/loop that looks like a farthing mark ('q' = 0.25). The fraction is faint and ambiguous; chosen 0.25 based on the small tail resembling a farthing sign."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Merton pro 2 supradictis semestribus (235/236)",
+      "amount_pounds": 102,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '102.3.8' clearly aligned and legible; parenthetical references 235/236 visible. Description readable."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Rectori ad Annunc. ut supra ad Nativ:",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numeric '30.9.2' clear. Description is abbreviated Latin but matches phrasing used elsewhere on page; alignment with column lines confirms amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Ad fest D: J: Bapt: 1796",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Left-margin label for the next festival (St. John Baptist). Abbreviations (D: J: Bapt:) are slightly compressed but interpretable in context."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "(Stipend. ad fest D: J: Bapt (p240)",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '20.6.8' clear and aligned. Parenthetical page reference p240 visible. Description abbreviations consistent with earlier entries."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Augm: Comm. pro 4ta anni parte (243)",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Columns read as 15.2.6 clearly. The descriptor indicates Kidlington augmentation for the fourth part of the year; handwriting of descriptor is legible enough for this reading."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Stip. Dns Shier ad dictum fest (p241)",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '33.6.8' aligned and clear. The name 'Shier' is abbreviated and followed by a parenthetical ref p241; reading chosen based on letter shapes and parallels elsewhere on the page."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Augm. Comm. necnon moderatoris & subdecono",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear numeric '50.0.0' aligned to pounds column. Description (augmentation for governor/moderator and subdeacon) is legible though Latin abbreviations present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Rectori ad fest D:J:B ut supra ad Annun.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '30.9.2' consistent with similarly worded lines above; description uses same abbreviations as earlier and is interpreted by analogy."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Ad fest Divi Michl",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin label for the Michaelmas festival group. Abbreviation 'Michl' (Michael) is standard and legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Gwinear. Stip. ad fest Micl. 1796 (p245)",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '27.0.0' clearly written. Place name reads as 'Gwinear' (common parish name) – letters are legible enough for that reading but slightly stylized."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Long Witt pro augm. Comm. (p246)",
+      "amount_pounds": 34,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount reads '34.15.6' with clear alignment. Descriptor 'Long Witt' visible and consistent with other place/names on the page."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Rectori ad Micl ut supra ad D:J:Bapt.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '30.9.2' legible. Description mirrors earlier 'Rectori' lines and is read by analogy; some abbreviations present but consistent."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 926,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final page total printed at lower right reads as '926.19.4' (the leading '9' is slightly heavier but visible). Alignment with the right-hand columns confirms pounds/shillings/pence positions."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

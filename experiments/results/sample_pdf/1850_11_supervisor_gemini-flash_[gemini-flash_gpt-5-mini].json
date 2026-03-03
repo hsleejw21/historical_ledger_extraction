@@ -1,0 +1,492 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Bt over",
+      "amount_pounds": 661,
+      "amount_shillings": 18,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description 'Bt over' which is clearly legible in the image, and confirmed numeric values. gpt-5-mini had 'Bromer' which is inaccurate. Values are consensual."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Tintinhull - Penny 2yrs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual verification corrected 'Pintinhule' (gemini-flash) to 'Tintinhull' and confirmed '2yrs'. Determined 'entry' type (vs 'header' from gpt-5-mini) as it describes a specific holding. No amounts present. This decision was made via visual override."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Beaton 2yrs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash description 'Beaton 2yrs' as it clearly matches the image, over gpt-5-mini's '2 pr'. No amounts present. Decision based on note quality and visual confirmation."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Pitkewin 1yr",
+      "amount_pounds": 11,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Image clearly shows 'Pitkewin 1yr' and the amounts '11 3 6' on the same line. gpt-5-mini misread the description and incorrectly identified no amounts for this row, demonstrating significant misalignment. Decision made via visual override."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Little Seafield folman 1yr",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Little Seafield folman 1yr' with 'Dº 2 6 2' for the amount. gpt-5-mini misread description and missed the amounts for this row due to misalignment. Decision made via visual override."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "J Gardiner 3yrs",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'J Gardiner 3yrs' with 'Dº 25 10 1 ½' for the amount. gpt-5-mini misaligned amounts and had different values. Decision made via visual override."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Kimber 1yr",
+      "amount_pounds": 3,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Image clearly shows 'Kimber 1yr' with 'Dº 3 9 3' for the amount. gpt-5-mini misread description and misaligned amounts. Decision made via visual override."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Eden (now Bottom) 3yrs",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Eden (now Bottom) 3yrs' and the amount 'Dº 8 10 ¾'. gpt-5-mini misread the parenthetical as 'Gorton' and misaligned amounts. Decision made via visual override."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lovell 3yrs",
+      "amount_pounds": 8,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Lovell 3yrs' and the amount 'Dº 8 2 ⅔'. gemini-flash correctly identified the non-standard fraction '⅔' and omitted it per instructions. gpt-5-mini misread the description and misaligned amounts. Decision made via visual override."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Shillington 3yrs",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Values are consensual. Selected gemini-flash description 'Shillington 3yrs' as it more accurately matches the image over gpt-5-mini's 'Shurlington'. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Money Rents Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual extraction confirmed by visual verification."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Petrean Qualifications, viz. Ashfield, Nant. 3yrs. Mr. 5 8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash's decision that the '5 8' is part of the description and not a formal £ s d amount, as it is positioned outside the main columns. Refined description to 'Petrean' from 'Petroan' and confirmed 'Nant. 3yrs. Mr. 5 8'. gpt-5-mini incorrectly parsed these as amounts. Decision made via visual override."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dunkirk Kent 2yrs July 8",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Dunkirk Kent 2yrs July 8' with the '8' as part of the description, not a formal £ s d amount. No amounts present in the £ s d columns. gpt-5-mini misread the description and incorrectly identified 1 pound. Decision made via visual override."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Nantwich Cheshire 2yths. 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Nantwich Cheshire 2yths. 1' with the '1' as part of the description, not a formal £ s d amount. No amounts present in the £ s d columns. gpt-5-mini misread the description and incorrectly identified 1 pound. Decision made via visual override."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ormsby Norfolk. 1yths. 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Ormsby Norfolk. 1yths. 1' with the '1' as part of the description, not a formal £ s d amount. No amounts present in the £ s d columns. gpt-5-mini misread the description and incorrectly identified 1 pound. Decision made via visual override."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Woothon Northamp. 2yths. 1 5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Woothon Northamp. 2yths. 1 5' with the '1 5' as part of the description, not a formal £ s d amount. No amounts present in the £ s d columns. gpt-5-mini misread the description and incorrectly identified 1 pound 5 shillings. Decision made via visual override."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bodmin byswate 1yts. 1 5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Image clearly shows 'Bodmin byswate 1yts. 1 5' with the '1 5' as part of the description, not a formal £ s d amount. No amounts present in the £ s d columns. gpt-5-mini misread the description and incorrectly identified 2 pounds 5 shillings. Decision made via visual override."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Godalming Surrey. Pr ded",
+      "amount_pounds": 32,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (32, 19, 5). Selected gemini-flash description 'Godalming Surrey. Pr ded' which is clearly legible in the image, over gpt-5-mini's inaccurate 'Goldsmiths ? June ?'. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's interpretation. Visual verification confirms '8/7' is aligned under the shillings and pence columns as a subtotal, indicating 8 shillings and 7 pence. gpt-5-mini incorrectly left amounts blank. Decision made via visual override."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lad Lane 1yr",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Added based on visual verification. This row was missed by both extractors. No amounts present. Decision made via visual override (for addition and content)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Little Lew Cottage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Added based on visual verification. This row was missed by both extractors. No amounts present. Decision made via visual override (for addition and content)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 784,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensual values. Description left blank as no explicit text is present next to the total in the image (gpt-5-mini added a descriptive text). Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual extraction confirmed by visual verification."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Money Rents fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual extraction confirmed by visual verification."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Menheniot Rectory 1yr P Tax ded",
+      "amount_pounds": 19,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Menheniot Rectory 1yr P Tax ded' and the amount '19 8 11'. gpt-5-mini misread the parish name and pence value as '4'. Decision made via visual override."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Kiddlington Dr. 1/2 yr p Tax des",
+      "amount_pounds": 9,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (9, 14, 10). Selected gemini-flash description 'Kiddlington Dr. 1/2 yr p Tax des' which more accurately matches the image over gpt-5-mini's simplified 'Kidlington Do - 1 yr'. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Do Cahon & Brown",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (1, 6, 8). Selected gpt-5-mini's interpretation of 'Do' (ditto mark) over gemini-flash's 'Dr', and confirmed 'Cahon & Brown' visually. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Do Canal Company",
+      "amount_pounds": 18,
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini. Visual verification confirms 'Do Canal Company' and the amount '18 2 ¼'. gpt-5-mini correctly identified 'Do' and the quarter-pence fraction (0.25). gemini-flash misread 'Dr' and pence as '3' with '0.75' fraction. Decision made via visual override."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Do Vicarage. P Tax des",
+      "amount_pounds": 3,
+      "amount_shillings": 17,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (3, 17, 8). Combined best descriptions: 'Do' from gpt-5-mini (ditto mark) and 'Vicarage. P Tax des' from gemini-flash for completeness, visually verified. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "H Bomfrayn Tenement",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (1, 13, 4). Selected gemini-flash description 'H Bomfrayn Tenement' as it clearly matches the image. gpt-5-mini's description 'Brampton Regiment' was inaccurate. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual description 'Hart Hall'. Selected gemini-flash amounts '1 16 11' as visually confirmed from the image. gpt-5-mini had incorrect amounts '1 13 4'. Decision made via visual override."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "St Martins Tenementi",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'St Martins Tenementi' and the amount '6 9 6'. gpt-5-mini misaligned amounts and had slightly different description. Decision made via visual override."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Midenham (Alms Ho.)",
+      "amount_pounds": 13,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Midenham (Alms Ho.)' and the amount '13 5 1'. gpt-5-mini misaligned amounts and misread description. Decision made via visual override."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Bushy Tenementis",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Bushy Tenementis' and amount '1' pound only. gpt-5-mini misaligned amounts and had different description. Decision made via visual override."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Waldron Do",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual extraction confirmed by visual verification."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "St Newington Cottage",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (1 pound). Selected gemini-flash description 'St Newington Cottage' as it clearly matches the image. gpt-5-mini had a slightly different description 'St Nevison Cottage'. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "L Withernham Do",
+      "amount_pounds": 1,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gemini-flash description 'L Withernham Do' (visually confirmed). Adopted gpt-5-mini's amount of 1 pound, as it is clearly present in the pounds column in the image, unlike gemini-flash which reported no amounts. Decision made via visual override."
+    },
+    {
+      "row_index": 38,
+      "row_type": "header",
+      "description": "Redeemed Land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual extraction confirmed by visual verification. Included the trailing period as per gemini-flash's capture."
+    },
+    {
+      "row_index": 39,
+      "row_type": "entry",
+      "description": "Kiddlington Rectory 1/2 W P Tax ded",
+      "amount_pounds": 10,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (10, 16, 2). Selected gemini-flash description 'Kiddlington Rectory 1/2 W P Tax ded' which accurately matches the image over gpt-5-mini's less complete version. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 40,
+      "row_type": "entry",
+      "description": "Do Vicarage Dº",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Dº Vicarage Dº' and the amount '4 1 6'. gpt-5-mini misread the shillings and pence. Decision made via visual override."
+    },
+    {
+      "row_index": 41,
+      "row_type": "entry",
+      "description": "L Witterham Vicarage",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'L Witterham Vicarage' and the amount '4 4' is clearly shillings and pence (no pounds value). gpt-5-mini incorrectly placed the first '4' in pounds. Decision made via visual override."
+    },
+    {
+      "row_index": 42,
+      "row_type": "entry",
+      "description": "Yarnton Rectory P Tax ded",
+      "amount_pounds": 6,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual amounts (6, 15, 11). Selected gemini-flash description 'Yarnton Rectory P Tax ded' which accurately matches the image over gpt-5-mini's less complete version. Decision made via visual override due to description discrepancy."
+    },
+    {
+      "row_index": 43,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 8,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensual values. Description left blank as no explicit text is present next to the total in the image (gpt-5-mini added a descriptive text). Decision made via visual override due to description discrepancy."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 37,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

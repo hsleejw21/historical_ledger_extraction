@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title at top, clearly written and centered: 'Soluta Varia.' is legible and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "To Mr Farrand attending Nic: Price Day",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description mostly legible but surname uncertain (reads like 'Farrand' or 'Sarrand'); alignment of amounts with vertical column lines is clear. Pounds = 0, Shillings = 5, Pence = 0 unambiguous from right-hand columns."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Molineux Bill",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Molineux' (or variant spelling) is legible. Numeric columns are clear and all values within valid ranges (9£ 8s 2d)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "G Lambert for Wine",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Given name initial and surname read as 'G Lambert' (could be 'Lumbart' in handwriting); amount 1£ 6s 0d lines up cleanly in the columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "3 Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as '3 Corn Price' (could be '3 Corn Price' or similar). Amount 0£ 3s 0d is clearly aligned and valid."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Teaslers Bill",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname looks like 'Teasler' or 'Teaslers'. Numeric reading 14£ 0s 10d is clear; pence digit 10 is legible and within range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Fletchers Bill for 2 year Books & Prayer Books",
+      "amount_pounds": 16,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Long description is legible: 'Fletchers Bill for 2 year Books & Prayer Books'. Amount 16£ 10s 6d clearly aligned and unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Boltons Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Surname uncertain in handwriting (reads like 'Boltons' or 'Bolloni'); numeric columns 2£ 12s 6d are clear and valid. Chose 'Boltons' as most likely common name form."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Taggs Bill for Rectors garden",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads as 'Taggs Bill for Rectors garden' (could be 'Tagg's'). Amount 1£ 11s 0d lines up with shilling column and is clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Cooks Bill for Dinner &c",
+      "amount_pounds": 16,
+      "amount_shillings": 6,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Handwriting reads 'Cook's Bill for Dinner &c'. Amount 16£ 6s 2d is clear and well aligned in the £/s/d columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Townsend Masons Bill",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and purpose read 'Townsend Masons Bill'. Amount 7£ 15s 0d is clear and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Thomson Carpenters Bill",
+      "amount_pounds": 17,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Thomson Carpenters Bill'. Amount 17£ 18s 0d is clearly written and columns align well."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Townsend a Tax for lighting &c",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Townsend a Tax for lighting &c' (some abbreviation/wording uncertain). Amount 2£ 0s 0d is clearly placed in columns."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 49,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Sum line immediately under the list of 'Soluta Varia' entries; numeric cluster reads '49 16 2' aligned across the £/s/d columns. No textual label besides the horizontal rule, so description left blank."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "last Page",
+      "amount_pounds": 77,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text to the left of the number reads 'last Page' (handwritten). Amount 77£ 5s 9d is clear and aligned. Relationship to previous total is structural (part of carry/aggregate)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header clearly written: 'Soluta Ordinaria' (distinct, centered-ish). No monetary amounts on this header line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Act. schol. et Officiaries",
+      "amount_pounds": 559,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Abbreviated Latin label reads 'Act. schol. et Officiaries' (interpreted as 'Act. schol. & officiaries'). Amount 559£ 13s 7d is visible though ink slightly darker/fainter in places; digits align with the £/s/d column lines."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "[line of text heavily struck-through]",
+      "amount_pounds": 1332,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.4,
+      "notes": "There is a prominent struck-through label (illegible due to cross-out). To the right the numeric total reads '1332 10 6' with a small quarter-pence mark (farthing) visible — interpreted as 0.25. Because the label is struck through the textual description is unreadable; numeric reading is reasonably clear but the cross-out reduces confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Summa Receptorum",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Label 'Summa Receptorum' is legible. Numeric reading '1575 6 0' is clear and aligned; all currency columns within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "Solutorum",
+      "amount_pounds": 1332,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Label 'Solutorum' (sum of payments) is clear. Amount repeated here '1332 10 6' with a visible farthing mark (interpreted as 0.25) matching the earlier struck-through numeric total; columns align well."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Restant Debita a Dno Computante",
+      "amount_pounds": 242,
+      "amount_shillings": 15,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Reads 'Restant Debita a Dno Computante' (remaining debts to the gentleman computing). Numeric value at right appears as '242 15 5' with a three-quarter mark (three farthings, interpreted as 0.75). Slight smudge on fractional mark but shape consistent with '3q'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "pro 21: Die Novembris 1775",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Date line 'pro 21. Die Novembris 1775' is a clear datation/heading; no amounts on this line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Phrase 'Computus comprobatus per Nos' (computation checked by us) is legible and clearly functions as a header/introduction to signatures."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Tho Bray Rectorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "First signature/endorsement line reads 'Tho Bray' with a following office word resembling 'Rectorum' or 'Rectorum'. Handwriting is cursive but legible enough; interpreted as a signature heading rather than a monetary row."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "H. Richards Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second signature reads 'H. Richards' and the office looks like 'Subrectorem' (sub-rector). Penmanship is slightly lighter but readable."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Tho: Stinton Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Third signature appears 'Tho: Stinton' with an office reading 'Decanum' (dean). Slight uncertainty on surname spelling ('Stinton' plausible)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Fran Upton Vicar(?) Sec(r?)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Signature reads something like 'Fran Upton' followed by abbreviated office which is difficult to parse (looks like 'Vicar' or 'Vary Sec.'). Handwriting light and abbreviations obscure exact office — included as header/signature with low confidence."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "Jo: Sorrande Burs: ???",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "This signature line is heavily abbreviated and partly overwritten; reads approximately 'Jo: Sorrande' with 'Burs:' (bursar) following but both name and office are uncertain due to overwriting and faded ink."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "J. Toms (additional scribbled notes)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Final signature looks like 'J. Toms' followed by heavy scribbles/abbreviations. The line is partly crossed and contains marginal annotations; read as a signature/header with low confidence."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

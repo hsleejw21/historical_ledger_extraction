@@ -1,0 +1,184 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Receipts Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "By Dr. Shortridge's Trustees one years Rent (Charges to Xtmas 1837)",
+      "amount_pounds": 220,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy over `gpt-5-mini`, which had significant discrepancies."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Interest on Shuttles' Deposit 2197.17.5 3/p C",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy over `gpt-5-mini`, which had significant discrepancies and lower confidence. Visual inspection confirms amounts as 5 18 8."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "By The Receiver Interim = to Dimes to Mid 1837. 428",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash`'s extraction was chosen for both description and amounts. Its note correctly observed the pounds column was empty and '428' was part of the description text, which was verified visually. `gpt-5-mini` incorrectly placed '428' in the pounds column and had a significantly different description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "By Do. from Office of Biblect",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "`gemini-flash`'s extraction was chosen. Visually, the amount is £1 s6 d8. `gemini-flash`'s note correctly identified a faint '7' after the pence digit but dismissed it as not a standard fraction, showing careful reasoning. `gpt-5-mini` read 16 shillings and 7 pence incorrectly and also had a less accurate description ('Whitlock' instead of 'Biblect')."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "One fourth of improved Rent from Pickford (Norris & Swain, Due to Mich. 1834)",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy over `gpt-5-mini`, which was significantly truncated and contained errors (e.g., 'Ridford' instead of 'Pickford')."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "By Do. from Medenhain to Xtmas 1836",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy, particularly 'Xtmas' which is a more accurate transcription of the abbreviation than `gpt-5-mini`'s 'Mars'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "By Mr. Reaton & Intintula, Mr. Snowden (fees for the Lease of his Estate)",
+      "amount_pounds": 5,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy and completeness over `gpt-5-mini`, which contained significant uncertainties and errors."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "By Mr. Day on the Library Rent (as part of Mr. Snowdon's Bill)",
+      "amount_pounds": 84,
+      "amount_shillings": 5,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected for visual accuracy and completeness, capturing specific names ('Mr. Day', 'Mr. Snowdon's Bill') where `gpt-5-mini` had uncertainties."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Reimbursement to Durned from L. Bewington (Rents - 1/2 years to XDay 1837)",
+      "amount_pounds": 45,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected; its transcription of 'Durned', 'L. Bewington', and 'XDay' is a better visual match to the faded script than `gpt-5-mini`'s, although both extractors noted some uncertainty in the description."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "By Mr. Dayman Bursar, Incrementum to Midr. 1838",
+      "amount_pounds": 840,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirmed amounts as £840 s5 d10. `gpt-5-mini` incorrectly read shillings as '6'. `gemini-flash`'s description, particularly 'Bursar', was also a more accurate visual match."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "By Do. Office of Biblect",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected; 'Biblect' is a better visual match to the script than `gpt-5-mini`'s 'Billets'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "By Mr. Dawson Dean's Fees 1 3/4 to Midr. 1838",
+      "amount_pounds": 38,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed by both extractors. Description from `gemini-flash` was selected; '1 3/4 to Midr. 1838' is a visually more accurate transcription than `gpt-5-mini`'s, and `gemini-flash`'s note correctly clarifies '1 3/4' as part of the descriptive text."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "L 1755 7 6",
+      "amount_pounds": 1755,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirmed amounts as £1755 s7 d6. `gpt-5-mini` incorrectly read shillings as '4'. The description is a direct transcription of the total amount and its preceding 'L' symbol, which `gemini-flash` did not provide as literal text but implied 'Summa'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 11,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 2,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

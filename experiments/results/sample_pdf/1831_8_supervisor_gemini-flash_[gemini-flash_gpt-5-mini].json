@@ -1,0 +1,297 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Receptorum' (ending in -um). gpt-5-mini's reading is accurate for this detail.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2° die Novembris A.D. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms '2°' with a superscript 'o' and no period after 'Novembris'. 'A.D.' matches gemini-flash.",
+      "side": "center"
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Arrearagia",
+      "amount_pounds": 743,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Anni presentes",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Consensus on values. gpt-5-mini notes valid faintness for the pounds column, but the '8' is clearly visible and aligned, leading to high confidence in the agreed value."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 199,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms pounds '199', shillings '7', pence '10', and fraction '1/2'. gemini-flash's values are accurate despite gpt-5-mini's good note about faintness, as gpt-5-mini's interpretation of digits was incorrect."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2750,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values. Visual verification confirms the amount is underlined, indicating 'total' (as identified by gpt-5-mini)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 1460,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values. Visual verification confirms 'praecedentis' in the description (matching gemini-flash)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the fraction is '3/4' (0.75), matching gemini-flash. The amount is double-underlined, confirming row_type 'total'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno Rectori Schol: et Off:",
+      "amount_pounds": 711,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on values. Visual verification confirms 'Schol:' and 'Off:' as per gemini-flash's description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 399,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image, as described by both extractors, including gpt-5-mini's note about the minor flourish on pence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Consensus on values. gpt-5-mini's note regarding the faint '1' in pounds is a valid observation, but the value is clearly '1659' based on context and visual confirmation."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms the fraction is '3/4' (0.75), matching gemini-flash. The amount is underlined, confirming row_type 'total'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ex Receptis",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms fraction '3/4' (0.75) and that this line, while repeating a total, functions as an 'entry' for the final balance calculation, not underlined as a final sum."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Deductis Solutis",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms fraction '3/4' (0.75) and that this line, while repeating a total, functions as an 'entry' for the final balance calculation, not underlined as a final sum."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restat",
+      "amount_pounds": 1440,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image, confirmed as double-underlined total."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "J. C. Jones. Rectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'Rectorem' and row_type 'entry' as individual signatories. gpt-5-mini's note about uncertainty is valid but gemini-flash's reading is more accurate."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "J. L. Richards. Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms 'J. L. Richards. Subrectorem' and row_type 'entry'. gemini-flash provides the correct punctuation. gpt-5-mini's note on compressed handwriting is accurate but the reading is clear enough."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "J. W. Tapper. Bursar. Senr.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms 'J. W. Tapper. Bursar. Senr.' and row_type 'entry'. gemini-flash's reading is more accurate than gpt-5-mini, but gpt-5-mini's note about general difficulty with flourishes is recognized."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. P. Lightfoote Decanum.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms 'J. P. Lightfoote Decanum.' and row_type 'entry'. gemini-flash's reading of the surname and punctuation is more accurate. gpt-5-mini's note about unusual letter-forms is valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "H. D. Harrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Visual verification confirms 'H. D. Harrington.' and row_type 'entry'. gemini-flash's reading and punctuation are accurate. gpt-5-mini's note about fading is acknowledged."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "W. Falconer",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms 'W. Falconer' and row_type 'entry'. gpt-5-mini's initial 'W.' is correct, but gemini-flash's 'Mr.' is incorrect, and no period is present after 'Falconer'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 16,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

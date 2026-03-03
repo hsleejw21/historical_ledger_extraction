@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta pro hoc Anno, ad 2dum diem Novembris. A.D. 1819.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top title line is fully legible in clear ink; no monetary columns associated with this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": 970,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Description partially archaic but readable as 'Arrearagia Recepta'. Numeric columns align clearly with vertical rules. Pence has a small loop indicating a quarter (1/4) — read as 0.25. Slight uncertainty in exact spelling of the Latinized description."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts are clear. Columns align perfectly; values (30/0/0) are unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Recepta Varia",
+      "amount_pounds": 1754,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text and numbers are clear. Pence shows a single '1' with no fraction; column alignment unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2754,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Subtotal row (no left-hand description printed) shows numbers aligned under the three currency columns. Sum matches arithmetic of previous three rows (970.16.2¼ + 30.0.0 + 1754.0.1 = 2754.16.3¼). Column alignment clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 1647,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Description legible. Numeric columns align with previous totals. Pence reads as '0' with a small fractional mark interpreted as 1/4 (0.25); placement consistent with pence column."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "Summa Receptorum",
+      "amount_pounds": 4402,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Label and numbers are clear and well aligned. Arithmetic check: 2754.16.3¼ + 1647.9.0¼ = 4402.5.3½; pence fraction clearly half (0.5)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Soluta pro hoc Anno",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading is centered/indented and contains no amounts; text is legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dom. Rector. Scholar. et Officiar:",
+      "amount_pounds": 700,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is in abbreviated Latin; letters are generally legible though some punctuation/abbreviations ambiguous. Numeric columns align; amounts read as 700 pounds, 11 shillings, 7 pence with no fraction evident."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": 270,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Description clear. Pence shows '11' with a half-penny loop (ob), interpreted as 11½ (0.5). Columns line up well."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Soluta Varia",
+      "amount_pounds": 2104,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line is clear and numbers align perfectly in currency columns; read as 2104.8.3."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "Summa Solutorum",
+      "amount_pounds": 3075,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Label and totals are clear. Arithmetic check: 700.11.7 + 270.7.11½ + 2104.8.3 = 3075.7.9½; pence fraction clearly 1/2."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Ex Receptis",
+      "amount_pounds": 4402,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "This repeats the earlier 'Summa Receptorum' figure; label and number alignment clear and identical to row 7."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 3075,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Label and numeric values match earlier 'Summa Solutorum' (row 12); clear alignment and legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Rest: Solvend:",
+      "amount_pounds": 1326,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final balance is clearly written as 1326.17.6. Arithmetic check consistent with rows 13 and 14 (4402.5.3½ - 3075.7.9½ = 1326.17.6)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Computus comprobatus per nos.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading above signatures; text is legible and contains no monetary amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Johannem Collier Jones. Rectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "First signature/title line is fairly legible: 'Johannem Collier Jones' and the title 'Rectorem' readable. No amounts present."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "J. ?son Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.35,
+      "notes": "Second signature line is very cursive and partly faded; I can make out an initial 'J.' and an ending that resembles 'son' followed by an office abbreviation like 'Subrectorem'. Lettering is ambiguous, so transcription is uncertain."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "J. ?eaderus Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Third signature line likely names a decanus (dean) but the name is heavily stylized and partially obscured; letters interpreted with low confidence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Tho. Smythflib? Burs: Sen:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.25,
+      "notes": "Handwriting here is very condensed and ornate; appears to include 'Tho' (Thomas) and 'Burs: Sen:' (bursar senior), but the middle surname letters are largely illegible—transcription is speculative."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "I. Heyes Burs: Junr.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Lower signature looks like 'Heyes' with a bursar junior abbreviation. Several letters ambiguous; moderate-to-low confidence in exact name spelling."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Williams. A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final signature in the group reads clearly as 'Williams' followed by academic initials 'A.M.'; ink and letters are legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Dec: 1mo 1819.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Date at bottom-left is legible as 'Dec: 1mo 1819.' with clear numerals and month abbreviation; no monetary values present."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

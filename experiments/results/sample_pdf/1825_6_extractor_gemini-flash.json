@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825 Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title/main header for the ledger page. Text is clear and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Vincent's Deficiency of Salary to Nov. 2. 1824.",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "For the purchase of a Tenement at Waldron ---",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "17'5. To Mr Dalby for Three Liquidation Funds ---",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "29. Power of Attorney for transfer of Jesus Fund ---",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Dec. 11. To Mr Davenport on Acct. of the Vicarage Estate --- Aug. 17. 1824 at Hillington - see coll. Register p.347. - July 4- -",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Braced description combining the main line with the sub-text. Main amount is clear. Sub-text is slightly faded but legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "3. To Mr Heyes. Improved Stip. for Merton Nov. 1824",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year header, marking a new section of entries for 1825. Text is clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Jan. 31. Subscription to St Clement's Church -----",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Feb. 15. C.o for a Cottage grate in the Porter's lodge. 13.6. and a fixed Bedstead in Do. 2.2.0. -----",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Braced description combining two items. The description includes specific amounts (£0 13s 6d and £2 2s 0d) which correctly sum to the extracted total amount (£2 15s 6d). Amounts are clear and within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "March 6. To J. Maffey. for four Months Service at the Porter's Lodge",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Braced description. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "16 To Mr Patience for Surveying the work in the Common Room Servant's Hall",
+      "amount_pounds": 7,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Braced description. Amounts are clear, well-aligned, and within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "25 To Mr Heyes. Improved Stip: to LDay 1825 -",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "April 19 To labourers for turning the gravel in the Quad.",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "20 Domus Wine Bottles. Rtm. t LDay 1825 -",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "May 23. To Mr Dalby. p.f.ps Int. to the library. D.D. 1825 -",
+      "amount_pounds": 21,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "June 14 Mr Davis's Bill for Surveys at Little Tew -",
+      "amount_pounds": 13,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "17 Mr Dixon's D.o for Surveys. at. various places. p.v -",
+      "amount_pounds": 80,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'D.o' interpreted as Ditto."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mr B. Pitt's D.o for - D.o at. - - - p.v -",
+      "amount_pounds": 45,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'D.o' interpreted as Ditto."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "25 Merton Land Tax. one yr. to Mich. 1824 -",
+      "amount_pounds": 34,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "To Mr Closes. one yrs Int. on his Deposit. to Do -",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "30 To Grove. for Venison -",
+      "amount_pounds": 6,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "July 4 A Bill for Horse hire on College business -",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Subscription to the Lunatic Asylum -",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Aug. 9. To Mr Davenport on Acct. of Riol. Vic. Estate - p. Sup. Dec. 11",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of amounts and description. A faint handwritten note 'p. Sup. Dec. 11' is present above the amount column, included in the description for completeness."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "27 To Mr Heyes. Impr. Stip. to Mids. 1825 -",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Oct. 12 To Mess.rs Williams & Dalby. on Acct. of Bavoristock -",
+      "amount_pounds": 13,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "To the Rector for 5 yrs Arrear of Gosford Tythes. drawn ad by him in the Dividends. & irrecoverable -",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Braced description. Amounts are clear, well-aligned, and within valid ranges. Pounds column is empty, which is correctly interpreted as 0."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1202,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total for the page. Amounts are clear and perfectly aligned with the column boundaries. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 806,
+      "amount_shillings": 17,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear carried total at top right: 'Brought over' with 806 in pounds column, 17 in shillings, pence shows '1' with a clear half-penny loop (interpreted as 1 1/2). Vertical alignment unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Chase Hill 1/2 gr",
+      "amount_pounds": 5,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible as 'Chase Hill 1/2 gr'. Numeric columns align clearly; pence reads as '11' though the final digit is slightly crowded by ruling — chosen 11 as most consistent with spacing."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Clifton Ferry 1 gr",
+      "amount_pounds": 8,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and numbers are clear. Pounds 8, shillings 5, pence 3 are well aligned and legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bensington 15r",
+      "amount_pounds": 6,
+      "amount_shillings": 11,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place name reads as 'Bensington' (handwritten 'B' present). Amount columns clear: 6 | 11 | 2."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Garsington Clerklands 1 gr",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description read as 'Garsington (Clerklands)'. Pence has a recognisable half-penny loop (11 1/2). Vertical alignment clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do do late Cooks 1 gr",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Repeating/abbreviated 'Do' line (late Cooks). Numbers match the previous line and show the same half‑penny mark (11 1/2)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Little Tew late Taylors 15r",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description legible. Pence '5' followed by a clear half‑penny loop (5 1/2). Columns well aligned."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "T Gardiner late Worley 35r",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Large amount (26 | 12 | 11 1/4). Pence shows a small tail interpreted as a farthing (1/4); the tail is lighter than the half‑penny loop so read as 1/4. Alignment consistent with pounds/shillings."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Keirber 1/2 gr",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description uncertain (reads 'Keirber' or 'Kirber'). Pounds and shillings (4 | 5) are clear; there is no visible pence figure in the pence column (interpreted as 0). Slight uncertainty on spelling of name."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Eden 3 gr",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Place reads as 'Eden'. Amount reads 8 | 16 | 3 with a three‑quarters farthing mark (appears like '3q' or three‑quarters) — interpreted as 3 3/4d. The fractional mark is somewhat compressed but consistent with other quarter/three‑quarter marks on page."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Towle late Hissons 1/2 gr",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Name uncertain ('Towle' / 'Towle late Hissons' is my reading). Numeric columns read 1 | 10 | 8 with a small trailing mark interpreted as three‑quarters (0.75). The fraction mark is faint — thus moderate confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Mullington late Hartleys 35r",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description read as 'Mullington late Hartleys'. Numbers 2 | 9 | 4 are legible though the handwriting of the place name is slightly faded."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Cottage - White's 15r to [midst?]",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Text uncertain after 'Cottage - White's 15' (reading of trailing words unclear). Amount reads as 2 | 19 | (no pence). Shillings at 19 are close to the rightmost vertical; pence absent — moderate confidence due to name ambiguity."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Millings Do",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Abbreviated 'Do' line under Cottage. Pounds and shillings read as 1 | 19; pence column blank. Handwriting small and slightly blurred."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Muliston Do",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Another 'Do' line; numbers appear as 2 | 19 | (no pence). Small handwriting and abbreviation create moderate uncertainty about the exact place name and pounds column, but numeric alignment supports these values."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Money Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header clearly written and centered-ish. No amounts present on the header line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "West Frith",
+      "amount_pounds": 15,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place reads 'West Frith'. Numeric columns show 15 | 6 | 9 clearly; slight ink variation but digits unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Medenham to Jones ? (illegible)",
+      "amount_pounds": 16,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place text is uncertain (reads 'Medenham to Jones' or similar). Amount columns read 16 | 6 | 9; alignment and digits are clear though description is ambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Back Lane",
+      "amount_pounds": 33,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Back Lane' legible. Amount 33 | 19 | 3 clear and aligned; high confidence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 966,
+      "amount_shillings": 11,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Underlined subtotal (no description text to left). Numerals read 966 | 11 | 10 with a three‑quarter mark (interpreted as 10 3/4d). Alignment is consistent and the underline indicates a total."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Recepta Anni praesentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large centered Latin heading clearly written: 'Recepta Anni praesentis'. No amounts on this line (section title)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header 'Money Rents fixed' clearly written; no numeric data on header line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Kiddington Rectory 1/2 gr",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description reads 'Kiddington Rectory 1/2 gr'. Pounds column blank; a single '10' appears in the shillings column — interpreted as 10 shillings (0 pounds). The absence of pence makes the pounds field left blank. Text spacing and alignment produce moderate confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do Copas & Brown",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Abbreviated 'Do' line (Copas & Brown). Numbers read clearly as 1 | 7 | 6 and align with the three vertical ruling lines."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Do Vicarage'. A single '4' appears in the pounds column with no shillings/pence visible; interpreted as 4 pounds exactly. Slight smudge near pence column but no digits present."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Hork Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten place reads as 'Hork Hall' or similar. Amount columns clear: 1 | 13 | 4. The place name has slight flourish making precise letters uncertain but numbers are legible."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "St Martins Tenement",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reads 'St Martins Tenement'. Numeric reading uncertain — appears to be 1 pound, 1 shilling, 8 pence (1 | 1 | 8); the shillings column is small and could alternatively be 11 in a cramped hand, but 1 shilling is the clearer reading given spacing."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Medenham Mrs Brow",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name reads 'Medenham Mrs Brow' (spelling of surname uncertain). Amount 6 | 13 | 4 is clearly written and aligned."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 25,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Underlined final total at bottom right showing 25 | 12 | 2. Numbers and underline are clear; no description text on the same line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

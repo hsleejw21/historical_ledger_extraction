@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached for all values. Both extractors accurately identified this as a clear year header with no monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached for all values. Both extractors accurately identified this as a clear section title with no monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Donaile Gyn",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (4 14 0) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 4. `gemini-flash`'s description 'Donaile Gyn' is also a more accurate visual match, especially the initial 'Donaile'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Annuas fuedings",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (.. 1 8) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Annuas fuedings' is a better visual match; `gpt-5-mini`'s 'Anna Hutchings' is less accurate. The second word of the description remains slightly faded as noted by `gemini-flash`."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Adis Ph (Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts (.. 18 4) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Adis Ph (Bursar' is a much more accurate visual match. `gpt-5-mini` noted the description was 'very uncertain', which aligns with its incorrect reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Onne Dunn.",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts (4 12 6) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Coll. Onne Dunn.' is a better visual match, especially 'Coll.'. Both models acknowledged the difficulty in reading the description."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. Balliol C.",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (.. 12 6) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Coll. Balliol C.' is a perfectly clear and accurate visual match. `gpt-5-mini`'s 'Ede Balliol' is incorrect for the initial word."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll. S. Jo. Bapt.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (.. 8 2) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Coll. S. Jo. Bapt.' is a clear and accurate visual match and common abbreviation. `gpt-5-mini`'s 'Cole Dr. o. Bapt.' is less accurate."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Supervisore Adif.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10 0 0) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Supervisore Adif.' is a clear and accurate visual match. `gpt-5-mini`'s 'Supervision's Abt.' is less accurate."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fundere",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1 4 8) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 14. `gemini-flash`'s description 'Fundere' is a more accurate visual match, especially the initial 'F'."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Concionatoris ad Fest. Consecr. 1837",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (2 2 0) are agreed upon by both extractors and are clearly visible. The description is refined based on visual verification and common Latin terms for ledger entries. `gpt-5-mini` was closer with 'Consecr.', while 'Concionatoris' is the most accurate reading for the first word based on visual shapes and historical context."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eidem (Brooke 1838.",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (2 2 0) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Eidem (Brooke 1838.' is a clear and accurate visual match. `gpt-5-mini`'s 'Item Recd. 1838' is inaccurate."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Vicario Merton ad Fest. Ann. 1838",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (25 0 0) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Vicario Merton ad Fest. Ann. 1838' is a clear and accurate visual match. `gpt-5-mini`'s 'Guano Morta' is inaccurate."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Eidem D. Rich.",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (6 0 0) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read pounds as 25, likely influenced by the previous row. `gemini-flash`'s description 'Eidem D. Rich.' is a clear and accurate visual match."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Assisted Taper for the Lodgings April 1838.",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (5 19 1 0.5) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 9. `gemini-flash`'s description 'Assisted Taper for the Lodgings April 1838.' is a more accurate visual match."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Octor.",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts (5 19 1 0.5) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 9. `gemini-flash`'s interpretation of '..' and the detailed description are more accurate. The description 'D⁰ D⁰ Octor.' is also a better visual match than `gpt-5-mini`'s."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Vicario Newington ad Fe Ann. 1838.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (40 0 0) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Vicario Newington ad Fe Ann. 1838.' is a clear and accurate visual match. `gpt-5-mini`'s 'Gauze & Newington' is inaccurate."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Eidem D. Rich.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (40 0 0) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Eidem D. Rich.' is a clear and accurate visual match. `gpt-5-mini`'s 'Return - S. Mich.' is inaccurate."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Paving & Lighting to Mid? 1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row is clearly visible in the image with no associated monetary values. `gemini-flash` correctly identified and extracted it. `gpt-5-mini` missed this row entirely, causing subsequent misalignment in its extraction."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Pd Pay for the City Premises. D.1838.",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (9 1 8) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 11 and had an inaccurate description. `gemini-flash`'s description 'Pd Pay for the City Premises. D.1838.' is a clear and accurate visual match."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "River Water from the City Works",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (7 7 6) are agreed upon by both extractors and are clearly visible. `gpt-5-mini`'s description 'River Water from the City Works' is more accurate, as the word is clearly 'Water' and not 'Pater' as `gemini-flash` initially read (though `gemini-flash` did note the possibility of a misspelling)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Insurance of Coll. to Xmas 1838.",
+      "amount_pounds": 48,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (48 17 6) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 1 and misread 'Xmas' as 'Mines'. `gemini-flash`'s description 'Insurance of Coll. to Xmas 1838.' is accurate."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Teddington School to Mid? 1839.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (1 0 0) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read shillings as 10 and misread 'Teddington' as 'Paddington'. `gemini-flash`'s description 'D⁰ D⁰ Teddington School to Mid? 1839.' is accurate."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Gas Lights - ½ year to XDay 1838.",
+      "amount_pounds": 24,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (24 7 6) are agreed upon by both extractors and are clearly visible. `gemini-flash`'s description 'Gas Lights - ½ year to XDay 1838.' is accurate, specifically identifying '½ year' and 'XDay'. `gpt-5-mini` incorrectly read '½' as '1' and 'XDay' as 'Day'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Mich.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (.. 8 2) are clearly visible and match `gemini-flash`. `gpt-5-mini` incorrectly read amounts as 0 pounds 2 shillings 0 pence. `gemini-flash`'s description 'D⁰ D⁰ Mich.' is accurate."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 269,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached for all values. Both extractors accurately identified this as the final total row with the correct monetary sum."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 11,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

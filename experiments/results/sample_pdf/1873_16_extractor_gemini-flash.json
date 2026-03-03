@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the year range header. No monetary amounts are present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the main page title header. No monetary amounts are present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "brought up",
+      "amount_pounds": 3395,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numerical amounts. Column alignment is unambiguous. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hayes",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numerical amounts. Pounds column is intentionally blank. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Wyatt",
+      "amount_pounds": 14,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numerical amounts. Column alignment is unambiguous. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Duke Yearly Acct",
+      "amount_pounds": 12,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description, 'Acct' is a common abbreviation for Account. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "(Room. Wine Battels)",
+      "amount_pounds": 68,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description including brackets. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cheque Book",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Pounds column is intentionally blank. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Local Rate composition Fund",
+      "amount_pounds": 42,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Synodals - Bp of Salisbury t L Day 74. 3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is mostly clear, though 'Bp' (Bishop) and 'L Day' (Lady Day) are common abbreviations. The '3.4' is part of the description, representing 3s 4d, not a column amount. No amounts are present in the monetary columns for this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "see also below. Chapter of St Michael 73 6.8 p.o. 2.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear. '6.8' (6s 8d) and 'p.o. 2.' (2d) are part of the description. No amounts are present in the monetary columns for this line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Long Witnam 13.5-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description text 'Witnam' is slightly stylized but legible. '13.5-' (13s 5d) is part of the description. No amounts are present in the monetary columns for this line."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "{ 9.4½ one yrs Proc due Michaelmas 1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The brace '{' is clear, indicating a grouped entry. 'Proc' is clear. '9.4½' (9s 4½d) is part of the description. No amounts are present in the monetary columns for this line; the amount for this braced group appears on the following line."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "3 8½ one yr Pension due Easter 1874",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This row contains the consolidated amount for the preceding braced group of entries. The '1' in pounds is slightly left-aligned but clearly intended for the pounds column. '3 8½' (3s 8½d) is part of the description. Shillings and pence amounts are clear and valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Insurance Norwick Union L Mail 1875",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear, 'Norwick' (likely Norwich) and 'L Mail' are clear. Pounds column is blank. Shillings and pence are clear and valid."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Benson £ 80-",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. The '£ 80-' is part of the descriptive text, not the extracted monetary amount. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Triggs Farm £ 80",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. The '£ 80' is part of the descriptive text. No amounts are present in the monetary columns for this line, suggesting it's a sub-item or a continuation of the previous description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Mill-New Home",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "t do",
+      "amount_pounds": "",
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description 't do' is a common abbreviation for 'ditto' or 'the same as above'. Pounds column is blank. Shillings and pence are clear and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Merry tea",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. No amounts are present in the monetary columns for this line, likely acting as a sub-header for the following entry."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "3d August 74 to Michl 1875",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description, 'Michl' is likely Michaelmas. Pounds column is blank. Shillings and pence are clear and valid."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Merton Cottage from",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. No amounts are present in the monetary columns for this line, suggesting it's a multi-line description or a sub-header for the following entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "April 24/75 t L Day/75",
+      "amount_pounds": 14,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description containing a date range. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Hawkesleys Bill. Not Science lecture R",
+      "amount_pounds": 14,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear, 'Science lecture R' is a bit faint but legible. Numerical amounts are clear and well-aligned, matching the previous entry. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Loan to Rector partly to rebuild",
+      "amount_pounds": 75,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Synodal S Newton to Michl mas 1874",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description, 'Michl mas' is likely Michaelmas. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Whitehead ½ yr Int on £200 Mich 1874",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description, 'Int' is for interest. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3638,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total. Description column is blank, as it's purely a sum. Numerical amounts are clear and well-aligned. Shillings and pence are in valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered year heading '1831.' very legible, no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta - Dno. Rectoris. Scholaribus. et Afficiarijs &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Main page title under the year. Text is fairly clear but several Latin abbreviations and final word letters are slightly stylized (Afficiarijs/&c.), so transcription of minor letters is uncertain."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Ad Fest. Nativ. 1830.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin section label beside the first bracket — 'Ad Fest. Nativ. 1830.' is clear and has no amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Stipend. ad Fest. Nativ. 1830",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts align cleanly with the three vertical rules (19 | 13 | 4). Handwriting of description is legible; numbers pass currency validation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Augm. p. Nevington et Morton",
+      "amount_pounds": 25,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Column alignment clear: 25 | 15 | 0. Place-name spellings (Nevington/Morton) are slightly uncertain from script but amounts are unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Stipend. Dno. Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numbers read as 33 | 6 | 8 with clear vertical alignment. Surname 'Shiers' is legible though archaic spelling could vary."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Augm. comm. quoad et Capellanis",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large round '60' in pounds column is very clear; shillings/pence are clearly '0'. Description readable as an augmentation relating to chaplains."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dno. Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Repeated line 'Dno. Rectori' appears throughout the page; this instance reads clearly as 30 | 9 | 2 with good alignment."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Div. Merlons. Ad. Fest Ann. 1830",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount columns read clearly (89 | 3 | 8). The descriptive words are less clear (Div. Merlons./Merlons?); treated as an entry since amounts are present."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Id. - Ad. Fest. D. Mich. 1830",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Second similarly formatted line with identical amounts (89 | 3 | 8). 'Id.' indicates same account; descriptive abbreviation clear enough to classify as entry."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Ad Fest. Commun. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin label introducing the next bracketed group; letters and the date '1831' are clear and no amounts on this line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend. ad Fest. Ann. 1831",
+      "amount_pounds": 32,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Pounds and shillings align (32 | 13). Pence appears to be '11' but the pence digit is slightly cramped/smudged; chosen '11' based on alignment with pence column and spacing."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Augm. Hiddlington pro 3bus Anni part",
+      "amount_pounds": 52,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.75,
+      "notes": "Amounts read as 52 | 14 | 8 1/4. The small fraction mark after the '8' resembles a quarter (1/4); pounds/shillings clear. Place-name 'Hiddlington' reading moderately certain."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut Supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Standard 'Dno. Rectori' line repeated; amount 30 | 9 | 2 clearly aligned and legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Ad Fest. D. Jo. Bapt. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin section label for the following group; 'D. Jo. Bapt.' (St. John the Baptist) and the year 1831 are clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stipend. ad Fest. D. Jo. Bapt. et Off.",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read 17 | 13 | 4 with clear alignment. Description uses standard abbreviations; readable though slightly condensed."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Id. Dno. Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Matches earlier 'Shiers' line: 33 | 6 | 8. Description abbreviated 'Id.' is clear; amounts unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Augm. comm. quoad Moder. et Sub D.",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds shown as clear '56' with 0 shillings/pence. Description contains abbreviations (Moder./Sub D.) but the monetary figures are unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Id. de Hiddlington pro 4to p. Anni",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.75,
+      "notes": "Amounts read as 17 | 11 | 6 3/4 (the small fraction mark after the '6' closely matches three-quarters). Pounds/shillings alignment is clear; fraction legible though small."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut Supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Another 'Dno. Rectori' repetition with clear amounts 30 | 9 | 2. Very consistent with other occurrences on the page."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Ad Fest. J. Mich. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Left-margin label for final bracket. 'J. Mich.' (St. Michael) and '1831' are clearly written; no amounts on this line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Stipend Quinquenear ad J. S. Mich.",
+      "amount_pounds": 23,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amounts read as 23 | 15 | 0 with clear alignment. The descriptive heading is somewhat abbreviated ('Quinquenear' inferred from script), so description certainty is moderate."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Augm. Comm. de L. Whittlesham",
+      "amount_pounds": 38,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.65,
+      "notes": "Numeric columns read as 38 | 7 | 5 1/4 — the small quarter mark after the '5' is faint but consistent with earlier quarter marks. The place-name 'Whittlesham' is partly ambiguous in letters, reducing confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut Supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final repetition of 'Dno. Rectori' with clear amounts 30 | 9 | 2. High confidence due to identical earlier occurrences and good alignment."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 411,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Final total shown at lower right: pounds read as '411', shillings '1', pence '0' and a small quarter mark to the right interpreted as 1/4 (0.25). Fraction is small but located where other quarter marks appear; alignment of main numbers is clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

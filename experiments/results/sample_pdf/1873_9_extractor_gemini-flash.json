@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text for the year, no monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Balance Sheet",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title, no monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Domus Fund Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do Do Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2108,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total value listed below a horizontal rule. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do Do Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1703,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total value listed below a horizontal rule. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Domus Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total value listed below a horizontal rule. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Domus Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Fee Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total value listed below a horizontal rule. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Total Payments",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible. The amount matches the previous implicit total."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Deficit Last year",
+      "amount_pounds": 198,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Three-farthings fraction (3/4) is clearly visible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 13595,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear total value listed below a horizontal rule. Vertical lines are unambiguous. All values are within valid ranges. Quarter-penny fraction (1/4) is clearly visible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Total Expenditure",
+      "amount_pounds": 13595,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Quarter-penny fraction (1/4) is clearly visible. The amount matches the previous implicit total."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Total Receipts",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and amounts. Vertical lines are unambiguous. All values are within valid ranges. Half-penny fraction (1/2) is clearly visible. The amount matches an earlier calculated total."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": -604,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear total (balance) value listed below a horizontal rule. The negative sign (--) is distinct. Vertical lines are unambiguous. All values are within valid ranges. Three-farthings fraction (3/4) is clearly visible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Deficit",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text, labels the final calculated deficit. No monetary amounts on this line."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Examined and allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text indicating audit status, no monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Nov 3. 1873.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear header text for the date, no monetary amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "I P. Lightfoot Auditor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/title text, no monetary amounts."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "William Ince. Sub Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/title text, no monetary amounts."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "C. W. Bover. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/title text, no monetary amounts. The name 'Bover' is legible despite slight ink variation."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "E. Ray Lancaster. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/title text, no monetary amounts. The name 'Lancaster' is clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

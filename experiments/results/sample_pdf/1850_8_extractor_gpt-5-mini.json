@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Soluta Varia - Bro't over",
+      "amount_pounds": 3621,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top line reads clearly as a carried‑over balance. Pounds, shillings and pence digits are well aligned in the rightmost columns and pass currency validation. Handwriting of 'Soluta Varia' is legible enough to transcribe; minor flourish on 'Bro't' but amount is unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Tradesmens Bills continued -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear structural label with no monetary amounts. Text is legible and clearly introduces the list below."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stile - Painter",
+      "amount_pounds": 53,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns (53 6 0) are clear and align with the vertical ruling. The name/first word is slightly ambiguous (looks like 'Stile' or possibly 'File'/'Hile'); chosen reading 'Stile' based on letter-forms and similarity to surrounding capitals."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Herbert & Co. - Upholsterers",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and occupation clearly legible. Amount (17 2 0) is crisply written and aligns exactly with the pounds/shillings/pence columns; values within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hayes - Bookbinder",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Name and occupation clearly read as 'Hayes - Bookbinder'. Amount 16s 1s 6d (16 1 6) is well aligned with ledger columns and unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Vincent - Printer",
+      "amount_pounds": 8,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading: 'Vincent - Printer'. Amount 8 pounds 18 shillings 0 pence is crisply written and in the correct columns; shillings value (18) is within 0–19."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Baxter - Do",
+      "amount_pounds": 11,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Baxter - Do' (ditto) is legible; amounts 11 10 0 are clearly aligned. Minor flourish on the 'Do' but no ambiguity in numbers."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Briens - Stationary &c.",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (6 6 6) is clearly written and in correct columns. The name looks like 'Briens' (could be alternate spelling/hand) and 'Stationary &c.' is inferred from the script; moderate uncertainty on exact name spelling but numbers are unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Rowell - Clockcleaner",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear reading of name and occupation. Amount 3 3 0 is neatly aligned; no ambiguity in digits."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Underwood - Architect",
+      "amount_pounds": 45,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Name and occupation are clearly legible. Amount 45 7 0 is crisp and aligns with the ledger ruling lines; values valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Wm Bettell",
+      "amount_pounds": 21,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Name transcribed as common abbreviation 'Wm Bettell' (handwritten abbreviation visible). Amount reads as 21 pounds, 2 shillings, 6 pence with a small loop after the pence digit interpreted as the halfpenny symbol ('ob') → 0.5. The fraction mark is slightly faint but consistent with a halfpenny; numbers otherwise align well."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3804,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Boxed final total at bottom-right with pounds/shillings/pence and a halfpenny (0.5) loop. Total matches the sum of the carried-over amount plus the listed tradesmen entries (verified by converting to pence and summing). The boxed digits are a little stylized but align to the pounds/shillings/pence columns; shillings (6) is clearly within 0–19 and pence 9 with halfpenny is consistent."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

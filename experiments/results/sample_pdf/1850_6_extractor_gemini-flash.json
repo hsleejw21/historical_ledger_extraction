@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Volta Trans – Brought over",
+      "amount_pounds": 2625,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '½' clearly visible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "To Mr Luports Provisional Stipend to X Day",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. The initial 'L' in 'Luports' has a slight flourish that could be misread, but 'Luports' is the most plausible. Amounts are unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gile & Ward – Painting for Garnton Chancel",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. 'Garnton' is clearly written, but could be confused with similar place names in a different context. Amounts are unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Subrector for Gate Chimney Piece",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Paid for repairs in Garnton Chancel",
+      "amount_pounds": 2,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mr Hastings balance on Works at Campfield and half cost of measuring",
+      "amount_pounds": 132,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The description spans two lines, clearly indicated by a brace. Amounts are unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bishop of Guiana - Diocesan College",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. 'Guiana' has a slight ambiguity in its spelling, but the 'u' is clear. Amounts are unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Abingdon Church extension Fund",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Bills for a door at South Newington",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '½' clearly visible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Receipt Stamps",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds amount is indicated by a '\"' ditto mark directly under the '1' of the previous entry. Interpreted as 1 pound. Shillings and pence are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Shrubber – half of bill for zinc covering",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Shrubber' has a slight ambiguity, could be 'Shrubbs' but 'Shrubber' seems most plausible. Amounts are clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Mr Austins – draining round Chancel, Kidlington",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Loan to a Rector – half of 3d Instalment",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. '3d' clearly refers to '3rd'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bills at Merton for Thatching",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '½' clearly visible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Two Do. et Do. – for Gates",
+      "amount_pounds": 12,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. 'Do. et Do.' is a common abbreviation for 'Ditto and Ditto'. Amounts are unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Timber for Poles",
+      "amount_pounds": 12,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds amount is indicated by an 'a'-like flourish directly under the '12' of the previous entry's pounds column. Interpreted as a ditto mark for 12 pounds. The symbol is somewhat ambiguous but ditto for pounds is a common ledger practice."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mr Luports Provisional Stipend to Mr. L.",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. 'Mr. L.' has a slight ambiguity, could be 'Mr. S.' or similar, but 'L' is most common for names. Amounts are unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Chinkard, Bill for Thatching",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. Shillings '19' is the maximum valid value. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Dr. Allowance to Clarke on Guilling Cottage",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds amount is indicated by a dash directly under the '1' of the previous entry. Interpreted as a ditto mark for 1 pound. The dash for numerical ditto can sometimes be ambiguous for zero, but alignment supports ditto for previous value. Amounts are clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Franklin, Clifton Ferry, Bill for bricks",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mr. Haddon, fee for opinion in two cases submitted to him",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The description spans two lines, clearly indicated by a brace. Amounts are unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bill for repairs at Merton Vicarage & School",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Property Tax on the 2nd half year ending April 1850. The Gosford Tithes having been charged too little on preceding ½ year.",
+      "amount_pounds": 29,
+      "amount_shillings": 18,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The description spans three lines, clearly indicated by a brace. Amounts are unambiguous. '2nd' and '½ year' abbreviations are clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bill for repairs at Campfield & Kidlington",
+      "amount_pounds": 53,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The description spans two lines, clearly indicated by a brace. Amounts are unambiguous. Shillings '19' is the maximum valid value."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Honor. Lead Gutters – Stable at Campfield",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'Honor.' is an abbreviation for 'Honourable' or 'Honorarium'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3044,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total. Vertical lines unambiguous. All values in valid range. The description field is intentionally left blank as it is a pure total line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

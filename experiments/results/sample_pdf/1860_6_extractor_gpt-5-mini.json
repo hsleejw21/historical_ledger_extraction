@@ -1,0 +1,361 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered year at top of page, no amounts present. High legibility."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear title under the year, no monetary amounts on the same line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "Brought forward",
+      "amount_pounds": 588,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text 'Brought forward' is legible at right of header area; numeric columns clearly aligned to the three vertical rules and read as £588 10s 6d."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 13,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Surname 'Knowles' is readable. Amount digits align well in the columns and read as £13 8s 6d; digits are clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Domus Wine Batters",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is somewhat uncertain (handwriting: reads as 'Domus Wine Batters'). Amount columns aligned and read as £4 2s 6d; shillings and pence within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hewlett Labourn Gravel",
+      "amount_pounds": 3,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is uncertain—handwritten name looks like 'Hewlett Labourn Gravel' (letters ambiguous). Amount appears to be £3 1s 9d but digits are fainter and could be read differently; chosen based on alignment with the pence column."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Hays",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname reads as 'Hays' (could be 'Hayes'). Numeric columns read cleanly as £14 2s 6d; characters of amount clear though the name has minor ambiguity."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Rowell",
+      "amount_pounds": 21,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Name 'Rowell' is legible. The pounds column appears to show '21' (the first digit slightly close to adjacent mark), with shillings '1' and pence '0'. There is some uncertainty between reading a leading '2' vs. a faint mark; chosen reading fits alignment and spacing."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Vincent",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name 'Vincent' clear. Amount reads as £5 16s 0d — digits in each column are distinct and within valid ranges (shillings 16)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gille & Ward",
+      "amount_pounds": 129,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Firm name 'Gille & Ward' (handwriting could be 'Gill & Ward' or 'Gille'). Amount clearly reads as £129 4s 9d; the hundreds digit is distinct and aligned with the pounds column."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Blip. - Rooms allowance for",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description partly unclear — reads like 'Blip. - Rooms allowance for' (first word ambiguous). Amount columns read as £6 6s 9d but handwriting around the descriptor is faint; numeric reading follows column alignment."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stranger (collecting) / quit rent",
+      "amount_pounds": 10,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This is a bracketed pair on the page — two items appear under a brace with notations 'collecting £10.3' and 'quit rent 2.6' in the script. The combined/printed value aligned in the column reads as £10 2s 9d (interpretation of how the two figures are presented is uncertain); chosen value based on the figures visible at the right and bracket grouping."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Self. 1/2 year Rector",
+      "amount_pounds": 71,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Self. 1/2 year Rector' (abbreviated). Amount reads clearly as £71 7s 6d, well aligned in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Journeys and Parcels",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Text 'Journeys and Parcels' is legible. Amount appears as £1 9s 5d though the pence digit is small; chosen reading based on column alignment and spacing."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Stamps",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The word 'Stamps' is visible. No clear amount directly aligned on this line (there may be a very small mark or it is left blank), so amounts recorded as empty."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6133,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Boxed/underlined subtotal at end of the first section; reads clearly as £6133 10s 6d and matches the later repeated 'Varia 6133 10 6' elsewhere on the page, confirming alignment."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Summa receptorum et solutionum 2 die Novembris 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered section heading. Some letter forms (e.g. 'receptorum') are in Latinized script; overall text is legible with minor flourish."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Single-word heading 'Recepta' (Receipts) clearly written and underlined, no amounts on the heading line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Right-hand entry 'Varia' with numeric values clearly written as £6726 11s 7d; high confidence because numbers are distinct and fit arithmetic context on page."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 547,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Label reads 'Ordinaria' (Ordinary) and amount in columns reads £547 5s 5d, digits are clear and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 6133,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Repeated 'Varia' entry with amount matching the boxed subtotal above (£6133 10s 6d); clear alignment and consistent reading confirms value."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Deficit 1859",
+      "amount_pounds": 1047,
+      "amount_shillings": 15,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text reads 'Deficit 1859' (the '1859' is a year marker) with the amount adjacent clearly reading as £1047 15s 9d. The separation between the year and amount is visible; numeric columns clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 7728,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "A summed total is shown (no left-hand description). Amount reads clearly as £7728 11s 8d; this total is arithmetically consistent with entries above."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Soluta",
+      "amount_pounds": 7728,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Soluta' line repeats the total on the payments side as £7728 11s 8d; text and numbers are clear and align with the total above."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Receptis",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line reads 'Receptis' with amount £6726 11s 7d which matches the 'Varia' receipts earlier; handwriting is slightly flourished but numbers are clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Deficit",
+      "amount_pounds": 1002,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final deficit line reads 'Deficit' with amount £1002 0s 1d. This matches subtraction of receipts from payments (7728 11 8 minus 6726 11 7 = 1002 0 1) confirming numeric accuracy."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Examined and approved by us",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading for signatures; text is clearly written in longhand and contains no monetary amounts."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "J. P. Stiftford Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Signature line is present but highly stylized and difficult to read. Interpreted as 'J. P. Stiftford Rector' — letters uncertain (particularly surname). No amounts present. Low confidence due to cursive signature ambiguity."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "William Ince Sub Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Second signature appears to read 'William Ince Sub Rector' (the surname and title are somewhat legible but letter forms ambiguous). No amounts. Moderate-low confidence due to handwriting."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "Henry Lowe - Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Signature line likely 'Henry Lowe. Fellow' (the surname looks like 'Lowe' or 'Low'). Legible enough to render probable text but with some uncertainty in letter shapes."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Frederic J Colby, Bursar",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Handwritten name appears to be 'Frederic J Colby' with title 'Bursar' (letters are stylized; surname and title reasonably guessed from letter shapes). Low confidence due to cursive ambiguity."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "Charles Hammond Mellor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Final signature looks like 'Charles Hammond' and a trailing surname/title that could be 'Mellor' or similar. Cursive makes exact reading uncertain; no amounts present."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

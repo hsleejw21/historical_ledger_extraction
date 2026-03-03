@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Ordinariæ",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title in large script at top. No monetary columns present on this line; very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Civitata Oxon",
+      "amount_pounds": 3,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers aligned to the vertical ruling lines; pounds '3', shillings '18', pence '8' are crisp and unambiguous. Description letters are clear enough to read as shown."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Coll. Adjuti",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns are clear (0/0/4 pence). The description spelling is slightly ambiguous (handwriting contraction after 'Coll.'), chosen reading 'Adjuti' based on letter shapes; minor uncertainty in a single interior letter."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount columns clearly show 0 pounds, 14 shillings, 8 pence. Description 'Mayors Capons' is legible and fits context (gifts of capons)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll. Adjst",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary values (0/18/0) are clear. The description appears similar to earlier 'Coll. ...' abbreviation; interior letters are somewhat unclear so spelling is approximate."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Omnium Animar pro Arrear anni",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers (4/12/4) are well aligned and legible. The long Latin description is partially worn/freely abbreviated; words read as 'Coll Omnium Animar pro Arrear anni' — some terminal letters are unclear, so transcription of the phrase is approximate but contextually consistent."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll ff: Johannis Bapt -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "No monetary amount written; the entry shows 'Coll ff: Johannis Bapt -' with a trailing dash. Handwriting of the dedication ('ff: Johannis Bapt') is distinct though slightly compressed; absence of numbers is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll Balliol",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount 1/5/0 clearly aligned. Description 'Coll Balliol' (Balliol College) is clearly written and unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Curia Hogstinge",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "No amount present for this line. The place-name is legible enough as 'Curia Hogstinge' but terminal letters are faint; marked as an entry with missing monetary value."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Procurations LdL. Southn. Morton",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Monetary columns read 1/19/0 clearly. The description contains abbreviations ('Procurations' and an abbreviated locality). The exact internal abbreviation 'LdL.' is somewhat uncertain but the general label and locality 'Southn. Morton' are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Janitors",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts 1/14/8 are crisp and align exactly with the column rules. 'Janitors' is clearly written."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers (1/16/4) are clear. The description appears to read 'Coquo' (Latin for cook) but the handwriting is slightly stylized — chosen reading fits context."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lotrici",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 2/0/0 is clearly written. The description is somewhat uncommon ('Lotrici'); letters are reasonably legible though the word is unusual/abbreviated, so transcription is given as it appears."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Gonfor Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 0/13/4 is well aligned and clear. The description spans two short words; handwriting is cramped and the first word is uncertain ('Gonfor' chosen as best visual match). Might be a single phrase referring to the librarian - transcription is approximate."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bedee of Begar",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 1/3/0 is clear. The description appears as 'Bedee of Begar' (possibly 'Bedes of Beggars' in variant spelling); spelling follows the manuscript letters which are slightly archaic but legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Julion & Quadrangl",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount 1/6/8 is clear. Description letters are readable but abbreviated ('Julion' and 'Quadrangl' reflect manuscript abbreviations); there is moderate uncertainty in exact modernized spelling."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Jno Epif pro. & trienal",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "No monetary figures present. The line reads like an abbreviated Latin/English phrase ('Jno Epif pro & trienal'); letters are somewhat faded and abbreviated, so transcription is approximate."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Honnor. west. super. Vis.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 4/0/0 is unambiguous and aligned to ruling lines. The description is heavily abbreviated ('Honnor. west. super. Vis.') and was transcribed as it appears; abbreviations make exact expansion uncertain."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Consecration Sermon",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 1/0/0 is clear. There is an interlineated note (to the right of description) about duration/years which obscures lettering slightly; primary phrase 'Consecration Sermon' is legible but marginal notes reduce confidence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Curate Southwington (note: marginal decrease scribble)",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large amount 10/0/0 is clear. The description shows 'Curate South...ington' with a heavy scribble to the right reading like 'decrease in part of ...' — the place-name and the marginal note are faint/abbreviated; amount alignment is unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 0/2/6 (2s6d) clearly visible. Description reads 'Corn Price' though the first word is slightly contracted; context supports this reading."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Synodaly Ride Southn. Morton",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns show 0/7/0 clearly. The description contains abbreviations ('Synodaly Ride' and locality) and the final locality mirrors an earlier entry 'Southn. Morton'; wording is legible but abbreviated."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Prisoners",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 0/10/0 clearly written. The line has a left brace indicating subitems; main label 'Prisoners' is clearly readable."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "cattle",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Sub-item under 'Prisoners' shown by a brace — the sublabel 'cattle' is clearly written but has no separate monetary entry (amount belongs to the parent 'Prisoners')."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bocardo",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Second sub-item under the 'Prisoners' brace. 'Bocardo' (spelling follows manuscript) is legible; no separate amount is recorded."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 1/10/0 is clear and aligned. The description is in Latin form 'Pauperibus' and is legible; letters show minor flourish but unambiguous."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bib. Lector",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 0/2/0 is readable though the pence column (0) is written small. Description is an abbreviation 'Bib. Lector' (bibliothecary/lector); abbreviation letters are somewhat contracted but interpretable."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 39,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Underlined aggregate at bottom right reads 39/18/8. Alignment with vertical ruling lines confirms correct column assignment; small smudge nearby but digits themselves are unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

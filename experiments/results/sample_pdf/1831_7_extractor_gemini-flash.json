@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the date. No amounts associated with this row. Layout is unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Solutio Varia. — Brot. over",
+      "amount_pounds": 1339,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Vertical lines for pounds, shillings, and pence are distinct. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To Mr Davenport - Surveyor",
+      "amount_pounds": 39,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "- Mr. Greenshields --- Do",
+      "amount_pounds": 10,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "the Subrector his deficiency of Salary for the year ending at Mhids. 1831",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. Amounts are clear, with the first '4' aligned in the pounds column, the second '4' in the shillings column, and pence left blank. This indicates £4 4s 0d. Slight ambiguity in initial interpretation due to lack of a pounds symbol next to the number itself, but column alignment is decisive."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Interest to the Library Fund for the Loan of £68.14.11 at 4 p. Ct – one year",
+      "amount_pounds": 122,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. The fraction symbol '½' (or 'ob' style loop) after pence is clearly visible, interpreted as 0.5. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Letters, Stamps &c.",
+      "amount_pounds": 4,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Plowman for Surveying Barn at Merton",
+      "amount_pounds": 3,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Mr. Doynon – Donation to Gr. Ins. School",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr. Difs. Plowman's Bill for work done to the Chancel at Merton",
+      "amount_pounds": 36,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. Column alignment is unambiguous. All values are within valid currency ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clearly marked total line with a double underline. The pound symbol is part of the visual representation of the total. Amounts are clear, and the fraction symbol '½' is distinct. All values are within valid currency ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear short header at top centre of page. Handwriting legible but slight ink fade at top; no numeric columns aligned with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "lighting & paving Tax for 1787",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible. Numeric columns clearly aligned; reads as '02 0 3' = £2 0s 3d (no fraction). Column boundaries unambiguous; values in valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "The same for 1788",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description fairly clear. Amount reads as '02 0 3' aligned under pounds/shillings/pence columns. Minor ambiguity in one letter of description but amount digits are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Civitati Bson.",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is uncertain (handwritten abbreviation — read as 'Civitati Bson.' as best fit). Amount clearly '03 16 3' in the pounds/shillings/pence columns. Shillings (16) and pence (3) are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mayors Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description read as 'Mayors Capons' though second word uncertain; amount '00 14 8' is clearly aligned and legible (0£ 14s 8d)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Curia Ins(t)tings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description uncertain — read as 'Curia Ins(t)tings' (letters faint). Amount reads '00 1 8' (0£ 1s 8d) and aligns well with columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. AD. Xti",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description abbreviated ('Coll. AD. Xti' interpreted from handwriting). Amount '00 18 0' (0£ 18s 0d) is clear and columns are well-defined."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Eidem pro aula B. Petri",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description read as 'Eidem pro aula B. Petri' (some letters faint). The numeric area for this line shows small or nil marks; interpreted as '00 0 0' (no amount). Alignment with nearby totals used to place columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Coll. Sum. Admin.",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description read as 'Coll. Sum. Admin.' (abbreviations). Amount shows a small correction mark but reads as '04 12 4' — pounds/shillings/pence columns clear and values valid."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Coll. Ball.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Coll. Ball.' readable. Amount '00 12 6' is neatly written and aligns with column guides."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Coll. D. J. Bapt.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description with abbreviations 'Coll. D. J. Bapt.' legible. Amount '00 8 2' clear in the pence column; all values within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Procuret. kild S. New. & Orphort.",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is uncertain and contains many abbreviations; read conservatively as 'Procuret. kild S. New. & Orphort.' Amount reads '01 19 0' clearly. Chosen spelling reflects unclear letters."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Synodal. pro visdem",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Synodal. pro visdem' plausible from manuscript. Amount '00 7 0' is distinct and columns are clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Tonsoni",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Single-word description unclear; read as 'Tonsoni'. Amount '00 13 4' is legible in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Superv. Edificior.",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description interpreted as 'Superv. Edificior.' (supervisor of buildings). Amount '04 0 0' is clearly written and centered in the pounds column; alignment unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Janitor' is clear. Amount '01 14 8' is neatly written and unambiguous (1£ 14s 8d)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bibliothecarius",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Bibliothecarius' readable. Amount '00 13 4' clearly in shillings/pence columns; digits distinct."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Pibl. Lect. probat. 5to",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description contains abbreviations; transcribed as 'Pibl. Lect. probat. 5to'. Amount '00 2 0' is clear and aligned (2s 0d)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bedello Mendicorum",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Bedello Mendicorum' legible. Amount '01 0 0' clearly written in pounds column."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Comion. ad f. Pasch.",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description likely 'Comion. ad f. Pasch.' (abbreviated); amount reads '01 03 0' (1£ 3s 0d) and is legible though the abbreviation letters are faint."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Single-word entry 'Pauperibus' clear. Amount '00 12 0' is distinct and correctly aligned."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Postage & stamps for the Act.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description transcribed as 'Postage & stamps for the Act.' (handwritten ampersand). Amount '00 12 4' readable; letters in description somewhat cramped but intelligible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Lib. Junor. & Garden",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description uncertain (abbreviated 'Lib. Junor. & Garden'); amount '00 4 6' is clear. Chosen reading based on letter shapes and context."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pro carbonib. ad f. Annue.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description reads as a payment for coals 'Pro carbonib. ad f. Annue.' Amount '23 0 0' is large and very clear in the pounds column; alignment unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Pro usid. ad f. Michl.",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description likely 'Pro usid. ad f. Michl.' (abbreviated). Amount '23 0 0' is clearly written; description letters less certain but context (repeat of large coal/expense) supports reading."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Coque & tchrise",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description uncertain (handwritten 'Coque & tbrice' or similar); amount '03 10 4' is legible and columns clear. Chosen description is a best-effort transcription of faded letters."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Sullian & great Quadrangle cleaning Chapel oct. 5",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Long description with some uncertain words (read as 'Sullian & great Quadrangle cleaning Chapel oct. 5'). Amount '01 6 8' is clear. Transcription picks plausible words based on script."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Two Carpenters",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description interpreted as 'Two Carpenters' (handwritten 'Two Corpines' or similar). Amount '00 2 0' is clear; description uncertainty moderate but context fits."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Land Tax etc. Misc. Parish",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description uncertain and abbreviated ('Land Tax &c. Misc. Parish' inferred). Amount '00 2 0' visible and aligns correctly; description letters faded causing lower confidence."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "The same to Coll. Alfrctrs",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description heavily abbreviated and unclear ('Coll. Alfrctrs' is speculative). Amount '03 13 4' is clearly written. Noted ambiguity in the collector's name/abbreviation."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "H. of Wind. Tax",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description transcribed as 'H. of Wind. Tax' (likely 'Hall of Windsor Tax' or similar). Amount '07 4 0' is legible; minor uncertainty in header abbreviation."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "St. of Wind. Tax",
+      "amount_pounds": 9,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description uncertain (reads 'St. of Wind. Tax'); amount '09 8 0' clearly visible. Chosen wording is approximate to the manuscript abbreviation."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "S. New. Vic. pro annus",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description read as 'S. New. Vic. pro annus' (abbreviated Latin). Amount '20 0 0' is clear and aligned; description contains standard ecclesiastical abbreviations."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Meriton Cur. pro annus",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description transcribed as 'Meriton Cur. pro annus' (possible place/incumbency name). Amount '30 0 0' clearly written in pounds column; letters in name slightly stylized but legible."
+    },
+    {
+      "row_index": 35,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 149,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total at bottom of page clearly reads '149 11 8'. This row aligns with the pounds/shillings/pence columns and matches the summation line; digits are bold and unambiguous."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

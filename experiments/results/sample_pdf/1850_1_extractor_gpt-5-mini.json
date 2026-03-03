@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title at top. Very legible script and no monetary columns present on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Freeman, 2 years Rent to Mich. 1849, left by deductions",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amounts aligned in the right-hand columns as '16 1 10½'. Pounds and shillings clear; pence shows a halfpenny symbol (loop/ob) interpreted as 0.5. Handwriting of description is slightly abbreviated but readable."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Heeley - Do - Do",
+      "amount_pounds": 18,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount reads '18 8 9½' with a clear halfpenny mark. Description uses 'Do - Do' (ditto) shorthand; name 'Heeley' legible though script could be mistaken for a similar name."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Chancery Divs 2 yrs Taken by Rail R. at York",
+      "amount_pounds": 23,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Monetary columns read clearly as '23 2 8'. Several words in the description are abbreviated and somewhat faded ('Taken by Rail R. at York' is an interpretation of the script); moderate uncertainty in exact wording of place/agent."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Of the Dean towards purchase of the fee of New Buildings, of the City",
+      "amount_pounds": 2100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, well-aligned amount '2100 0 0' is very clear in the pounds column. Description wording is legible though lengthy; alignment confirms columns."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Of Mr Lightfoot 4th instalment of Loan",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '40 0 0' clearly aligned in £ s d columns. Name 'Mr Lightfoot' and '4th instalment of Loan' are legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Heeley 1/2 yrs Rent of House in Queen St to Day 1850, less by deductions",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads '15 0 4' with good alignment. Description contains fractions and abbreviations ('1/2 yrs', 'to Day 1850') that are somewhat cramped; 'Queen St' reading is probable but there is minor ambiguity in street name."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Freeman Do Do",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Amount '16 1 3½' is aligned; halfpenny sign visible. Description uses ditto marks; handwriting for the name is consistent with earlier 'Freeman' entry but slightly less distinct."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Arrears of Rent for Bampton Test to Mich. 1849",
+      "amount_pounds": 40,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read '40 13 6' clearly. The phrase 'Bampton Test' is the best reading of the script; minor uncertainty in the second word but amount alignment is unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Compensation to Donns for fire on Menton one year to Day 1850 P.D.D.",
+      "amount_pounds": 48,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount columns read '48 10 10' clearly. The description contains several unclear names/words ('Donns', 'Menton'); interpreted conservatively from cursive letters, hence moderate confidence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "The Bursar Incrementum Donns to Mich 1849",
+      "amount_pounds": 366,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '366 6 0' is well aligned and clear. 'Bursar' and 'Incrementum' readable; following words abbreviated/latinized ('Donns') — wording transcribed as seen with reasonable confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do Do to Michr 1850",
+      "amount_pounds": 1071,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '1071 5 5' clear in columns. 'Do Do' indicates repetition; year '1850' legible. Slight ink variation but numeric values unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rector 4th instalment on Loan of £200",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '20 0 0' clearly written and aligned. Description explicitly references '4th instalment on Loan of £200' and is quite legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dr Shortbridges Trustees to Xmas 1849 less by Prof &c & other deductions",
+      "amount_pounds": 211,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '211 11 8' readable though the hundreds place is slightly cramped. The trustee name and the words after 'less by' are abbreviated and somewhat faded; 'Prof &c' is an interpreted expansion of a common abbreviation seen in the script."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Reimbursement to Donns for South",
+      "amount_pounds": 29,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount columns read '29 2 6' clearly. The description's proper nouns are abbreviated and faint ('Donns', 'South' are best readings of the cursive)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Newington repairs - P.D.D.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "This line shows the description 'Newington repairs — P.D.D.' but no clear amounts in the £/s/d columns (likely included in a grouped brace with adjacent lines). Ink is faint here and alignment to numeric columns is ambiguous, hence low confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Rector's Prize",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads clearly as '10 10 0' aligned to the £ s d columns. Description is short and legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dean's Fees",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds column shows '30' and shillings/pence columns are blank/zero-aligned (interpreted as '30 0 0'). The word 'Dean's Fees' is legible albeit written small."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Intt on Shrubbs Deposit - P.D.D.",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount appears as '5 15 2' with clear digits for pounds/shillings/pence. The description contains abbreviations ('Intt' for interest, 'P.D.D.') but is interpretable from the script."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Balance on Property Tax",
+      "amount_pounds": 14,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '14 9 0' is aligned and legible. 'Property Tax' wording is clear; slight ink fading but numbers are unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1076,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final underlined total at bottom-right reads '1076 19 0'. Numeric alignment and the ruled underline make this reading secure. No description text on this line; treated as the page total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

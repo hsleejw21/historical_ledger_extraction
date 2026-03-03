@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Centered page year at top. No monetary columns present. Very clear and legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Soluta Varia. Amt. forward",
+      "amount_pounds": 404,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Clear heading 'Soluta Varia. Amt forward' followed by well-aligned figures 404 | 19 | 6. Vertical ruling lines are distinct; values validate (s<20, d<12)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To Mr Morgan for Valuation of two livings",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible as valuation of 'two livings' to Mr Morgan. Amount columns clearly aligned as 2 | 2 | 0; wording 'livings' inferred but strongly supported by common ledger phrasing."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Mr Stone Tyles for Roof Gutters for Eldington Channel",
+      "amount_pounds": 6,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.78,
+      "notes": "Amount 6 | 16 | 11 very clear and aligned. Payee name and 'Tyles' / 'Tiles' and place 'Eldington Channel' readable but with minor ambiguity in surname spelling and whether 'Tiles/Tyles'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "To Watts Carpenter, for the seats in Eldington Channel",
+      "amount_pounds": 22,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Description 'Watts Carpenter' and purpose 'for the seats in Eldington Channel' are legible. Numeric columns 22 | 19 | 3 are well aligned and clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To Rev. S. H. Cornish - 2 yrs Sal. on 200l for Distn Augment to Dudley 1831",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 16 | 0 | 0 is clear. Several words in the description are abbreviated and the place/term after 'Augment' is partially faded ('Dudley' is plausible). '2 yrs Sal. on 200l' reading is consistent with common accounts but some letters are indistinct."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "To Messrs Cox Insurance at Little Sea",
+      "amount_pounds": 12,
+      "amount_shillings": 16,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amounts 12 | 16 | 7 are clear. Payee appears to be 'Messrs Cox Insurance' but place word after 'at' is faint and could be 'Little Sea'/'Little Cow'/other; reading chosen by letter shapes but uncertain."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "To Do. for Hildington, Yarnton, & Hampfield",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.62,
+      "notes": "'Do.' indicates same payee. Place names read as 'Hildington, Yarnton, & Hampfield' from cursive — letters ambiguous especially middle name(s); amounts 8 | 16 | 6 are clear and validate."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "To Wyatt - Washing seats in Hall Channel",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname 'Wyatt' and phrase about 'seats' are legible though verb might be 'washing' or 'fixing'; numeric columns 3 | 5 | 11 are distinct and valid."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Bliss - Painter",
+      "amount_pounds": 6,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Name 'Bliss' and occupation 'Painter' are clearly written. Amount 6 | 17 | 4 well aligned and unambiguous."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Bush & Pilcher - Ironmongers",
+      "amount_pounds": 69,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.86,
+      "notes": "Firm name 'Bush & Pilcher' (or Pilcher variant) and trade 'Ironmongers' readable. Large pounds figure 69 is clear; 5s 11d aligned and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dudley & Bowler - Glaziers",
+      "amount_pounds": 57,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.86,
+      "notes": "Names and trade 'Glaziers' are legible. Amount columns 57 | 5 | 11 are unambiguous and align with ruling lines."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Fletcher & Knappes - Confectioners",
+      "amount_pounds": 7,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 7 | 3 | 6 clear. Partner names are harder to read; I have rendered them as 'Fletcher & Knappes' though second name letters are indistinct and could be another variant."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Hayes for Betting Books &c",
+      "amount_pounds": 17,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.72,
+      "notes": "Amount 17 | 12 | 6 clear. Description likely 'Hayes for Betting Books &c' though middle word could be 'Bitting' or 'Binding' — letter shapes suggest 'Betting/Binding'; chosen as 'Betting' with moderate confidence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Henslett - Plasterer",
+      "amount_pounds": 67,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Trade 'Plasterer' and amount 67 | 7 | 0 clear. Surname reads as 'Henslett' though could be 'Hewlett' — letters 'ns/ew' ambiguous in handwriting."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hickman - Silversmith",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short amount 1 | 15 | 0 is clear. Surname appears to be 'Hickman' or 'Hoskman' (handwriting ambiguous); trade 'Silversmith' is legible."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Oxford Herald - Advertisements",
+      "amount_pounds": 4,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.86,
+      "notes": "'Oxford Herald' reading fits letter shapes and context; 'Advertisements' is clear. Values 4 | 18 | 0 aligned and unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Do. Journal Do.",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Do.' indicates same as previous. 'Journal' and duplication 'Do.' visible. Amount 1 | 19 | 0 clear though small."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Pundits File",
+      "amount_pounds": 20,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.52,
+      "notes": "Amount 20 | 5 | 4 is distinct. Description is difficult to read; letters suggest something like 'Pundits File' or 'Purdue's File' — chosen literal reading but with low confidence due to faded/connected letters."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Watts - Painter",
+      "amount_pounds": 34,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.86,
+      "notes": "Name 'Watts' and occupation 'Painter' are clearly written. Amount 34 | 11 | 8 well aligned and unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Harris & Plowman",
+      "amount_pounds": 58,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Firm name 'Harris & Plowman' readable; amounts 58 | 13 | 9 clear and validate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Knowles - Mason",
+      "amount_pounds": 64,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Trade 'Mason' and surname 'Knowles' are legible. Amount columns 64 | 5 | 8 are clear and consistent with ruling lines."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Heslett for the New Garrats No. 3",
+      "amount_pounds": 109,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.62,
+      "notes": "Amount 109 | 9 | 0 is unambiguous. The payee/description 'Heslett for the New Garrats No. 3' contains several uncertain letter groups (e.g. 'Garrats' might be 'Garrets'/'Garrits'); kept closest visual reading."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Leach for Do. Do.",
+      "amount_pounds": 330,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.78,
+      "notes": "Large amount 330 | 19 | 2 clearly written and aligned. 'Leach for Do. Do.' is consistent with preceding 'Do.' usage; name 'Leach' legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "£ 1339 5 5",
+      "amount_pounds": 1339,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total at page bottom with prominent '£' symbol and underlining. Numerals 1339 | 5 | 5 are clear and align with the pounds/shillings/pence ruling; validates against column positions."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

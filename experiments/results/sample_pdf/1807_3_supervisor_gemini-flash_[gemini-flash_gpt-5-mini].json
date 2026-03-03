@@ -1,0 +1,364 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Johannis Cole Collegii Canonici Rectoria 2do die Novembris A.D. 1799 ad eundem diem revolutum A.D. 1800",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top-of-page Latin heading; several words are faded and in cursive. Date portion is legible enough to read 'die Novembris A.D. 1799 ... revolutum A.D. 1800' but some letters uncertain (hence 0.6). No numeric currency columns present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagiae Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Centered section heading in flowing script; word appears as 'Arrearagiae' / 'Arrearage' style — letters slightly ornate and the middle vowel ambiguous. No amounts in this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Money Rents fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear English heading in larger script 'Money Rents fixed'. No monetary columns on this row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kidlington Rectory (Prov. ?T. Ded)",
+      "amount_pounds": 18,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Kidlington Rectory' is legible. Amount aligned under pounds column as '18' with shillings and pence columns blank (interpreted as 0s). Vertical ruling lines are unambiguous here."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Lady Jane - Compton Do",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Lady Jane - Compton' (the connecting abbreviation 'Do' present). Amount clearly reads '8' in pounds column and '8' in shillings column; pence blank. Slight ambiguity in the second word of description but amounts well aligned."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do - ?Wilson Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line begins with 'Do' (meaning same as above). Following surname is partly smudged; looks like 'Wilson' but uncertain. Amount shows '6' in pounds column; shillings/pence blank. Slight uncertainty due to handwriting of name."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do - Richford Do",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Another 'Do' line; surname reads 'Richford' fairly clearly. Amount columns show '1' in pounds and '10' in shillings. Pence blank. Alignment clear and values in valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jesus College",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The collegiate name appears to be 'Jesus College' (handwriting close to 'Jes us' — some letters merged). Amount reads as '1' pounds and '10' shillings in aligned columns. Slight uncertainty on exact college spelling but amounts clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Wild Arish",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description looks like 'Wild Arish' or 'Wild Parish' — letters ambiguous. Amounts read as '6' pounds and '6' shillings (the graphic shows '6.6.'). Pence blank. Moderate uncertainty on the name, amounts alignment clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gwinear Rectory (P.T. ded)",
+      "amount_pounds": 81,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Gwinear Rectory' with parenthetical 'P.T. ded' (provincial deduction) clearly. Amount '81' unmistakable in pounds column; shillings/pence blank."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Land Tax Redeemed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear section header 'Land Tax Redeemed' in larger script. No amounts in this row."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Kidlington Rectory",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Entry 'Kidlington Rectory' matches earlier phrasing. Amount columns read '22' (pounds), '5' (shillings), '6' (pence) clearly and are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Wittenham Do (P. T. ded)",
+      "amount_pounds": 25,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description appears as 'L. Wittenham' or 'L. Witherham' followed by 'Do (P.T. ded)'; handwriting of place uncertain. Amount aligned as '25' pounds and '4' shillings. Pence blank. Moderate uncertainty on place name."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do - Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "'Do - Vicarage' is written; amount reads '4' pounds and '4' shillings. Description short and clear enough but 'Do' implies repetition from prior line so kept as-is."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Mixed Rents Variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear section heading 'Mixed Rents Variable'. No amounts in header row."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "S. Newington Rectory (P.T. ded)",
+      "amount_pounds": 164,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'S. Newington Rectory (P.T. ded)'. Amount reads '164' pounds, '16' shillings, '2' pence clearly. All values within valid ranges and column alignment clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Gampton Do - Tenement Do",
+      "amount_pounds": 83,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place name appears as 'Gampton' or 'Garnton' (handwritten letter ambiguous). The line includes 'Do - Tenement' indicating similar category. Amount '83' pounds and '10' shillings are reasonably clear; pence blank. Moderate uncertainty on place spelling."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": 26,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Chace Hill' (could be 'Chace' or 'Chase') but legible. Amount columns read '26.4.6' clearly; values valid."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Mills (P.T. ded)",
+      "amount_pounds": 17,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Kidlington Mills (P.T. ded)'. Pounds/shillings read '17' and '12' clearly. Pence column shows '2' with a small trailing loop indicating three-quarters (appears as '2 3/4') — interpreted as 0.75 fraction. Fraction marker is a little faint but plausible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garsington - Clerkland Do",
+      "amount_pounds": 18,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Place reads 'Garsington' then a hyphen and a following word that looks like 'Clerkland' or 'Clinkard' — uncertain. Amount '18.17.6' visible and within valid ranges; column alignment clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do - Fruin (or Fruit?)",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second 'Do' line with a short word after the hyphen that might be 'Fruin' or 'Fruit' — handwriting unclear. Amount reads '8.17.6' but the description is uncertain, hence lower confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Trintonhulle Napier",
+      "amount_pounds": 16,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name reads 'Tritonhulle Napier' or 'Trintonhulle Napier' (letters archaic but legible enough). Amount '16.3.2' is clearly aligned. Moderate certainty on spelling of place."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 9,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading 'Clifton Ferry'. Amount reads '9.3.2' and columns align well; values within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Benrington",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Place appears as 'Benrington' (could be 'Bensington' but readable). Pence column shows '3' with a small half-penny loop clearly visible (interpreted as 0.5). Amount '7.13.3½' thus recorded."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "S. Newington Tenement",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Reads 'S. Newington Tenement'. Amount shows '2' pounds, '19' shillings, and pence '2' with a halfpenny mark (appears as '2½'); fraction interpreted as 0.5. Column alignment consistent."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Recepta Anni presentis",
+      "amount_pounds": 519,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "This is a subtotal/total line 'Recepta Anni presentis'. Amount reads '519.4.9 3/4' with a clear three-quarter (¾) mark after the pence — interpreted as 0.75 fraction. Column alignment and total format are clear."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Gwinear Rectory (P.T. ded)",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Another instance of 'Gwinear Rectory (P.T. ded)' listed below the total. Amount shows '27' in pounds column with shillings/pence blank. Entry text clear though slightly smaller script."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Kidlington Capron & V? ravine",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The line appears to read 'Kidlington Capron & V?ravine' or similar; middle portion is smudged and uncertain. Amount reads '2.15.0' (2 pounds 15 shillings). Moderate uncertainty due to unclear place phrase."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Wild Parish",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This line repeats a Wild ... name. Handwriting suggests 'Wild Parish' (earlier rendered 'Wild Arish'); amount shown '6.6.0'. Uncertainty only in the exact spelling of the place name; amount alignment clear."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "Mixed Rents variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Repeated section heading 'Mixed Rents variable' (lower on page). Script clear and centered-ish. No amount on this row."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation (P.T.D)",
+      "amount_pounds": 134,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads 'Kidlington Augmentation (P.T.D)'. Pounds column reads '134' and shillings '6'; pence blank. Parenthetical abbreviation is visible though small. Alignment with ruling lines clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "Total (hand underline) 170.7.-",
+      "amount_pounds": 170,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Final underlined figure at page bottom reads '170.7.-'. It appears to be a page/section total. Alignment is slightly to the right and the context implies a total; confidence moderate because its exact relationship to previous lines (which numbers were summed) is assumed from placement."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

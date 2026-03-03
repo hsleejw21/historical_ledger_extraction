@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this clear header, visually confirmed."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Popula Varia – Brought over",
+      "amount_pounds": 1265,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Popula Varia' for description and 'total' for row type, as it is a 'brought over' balance. Amounts are clear in the image. Selected gemini-flash's description and row type as more accurate."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cuffe Plasterer",
+      "amount_pounds": 20,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Cuffe Plasterer' for description. Amounts are clear and agreed by both extractors. Selected gemini-flash's description."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hudson Builder",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description and amounts. The shillings value is clearly '12', as extracted by gemini-flash. gpt-5-mini incorrectly read '2' for shillings."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Underwood Architect",
+      "amount_pounds": 10,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on all essential details for this row, visually confirmed. Selected gemini-flash for description formatting consistency."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Cooke – Upholsterer",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on all essential details for this row, visually confirmed. Selected gemini-flash for description formatting consistency."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Jubber – Confectioner",
+      "amount_pounds": 8,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on all essential details for this row, visually confirmed. Selected gemini-flash for description formatting consistency."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Oxford Journal – Advertisements",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on all essential details for this row, visually confirmed. Selected gemini-flash for description formatting consistency."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Spicer – Stationery",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed description 'Spicer – Stationery' is more accurate. Amounts are clear and agreed. Selected gemini-flash's description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Harries – Do",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visually confirmed 'Harries – Do' for the description. 'Hamres' (gemini-flash) and 'Haines' (gpt-5-mini) were less accurate. Pounds amount is clearly 1, as extracted by gemini-flash; gpt-5-mini incorrectly read '2' pounds."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tok Dell – Silversmith",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Tok Dell – Silversmith' for the description. gemini-flash was correct for the amounts (1, 5, 0), gpt-5-mini was incorrect for shillings (9) and pence (10)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Andrew – Horse Hire",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Andrew – Horse Hire'. gemini-flash correctly identified the ditto mark for pounds as '1' and read the shillings as '0', which is accurate. gpt-5-mini misread shillings as '10'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Gardener – Porter's Chair",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Gardener – Porter's Chair'. gemini-flash's description including the apostrophe is more accurate. Amounts are clear and agreed."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "The Rector's Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this clear row, visually confirmed."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Do – Stamps, Parcels &c.",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on all essential details for this row, visually confirmed. Selected gemini-flash for description formatting consistency."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Subrector for Letters &c.",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed amounts as 5 pounds, 0 shillings, 0 pence. gpt-5-mini had the correct shillings value (0), while gemini-flash misread it as '1'. Both correctly identified the pence as '0' (from ditto mark)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Compensation to Fellows for \"Dry Piece\" &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed this row is part of a braced group and has no direct amount. The amount is associated with the following line. gemini-flash correctly extracted the empty amounts and description, its note accurately explained the brace structure."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Witherham – 1 year to Michs 1837",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed this is an 'entry' and the amount (23, 0, 0) applies to this braced group. gemini-flash accurately extracted all values and identified the 'entry' type. gpt-5-mini misclassified it as a header and missed the amount."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "(complement of Subrector's Salary)",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed gpt-5-mini's description, including parentheses and the spelling 'complement' and apostrophe for 'Subrector's'. Amounts are clear and agreed."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Mr. Falconer – Expenses of journey to Ripple",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed 'Ripple' (no 's') in the description. gpt-5-mini was more accurate for the place name. Amounts are clear and agreed. Adopted gemini-flash's dash formatting."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "The Rector's allowance for Kitchen &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually confirmed this row is part of a braced group and has no direct amount. The amount is associated with the following line. gemini-flash correctly extracted the empty amounts and description, its note accurately explained the brace structure."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "£10. Bill already paid by Orders £7:17:6. Balance....",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visually confirmed this as an 'entry' with the amount (2, 2, 6) present. Selected amounts and 'entry' type from gemini-flash. Customized description to 'Orders' and used colons for the sub-amounts ('£7:17:6'), which were more accurate from gpt-5-mini's interpretation."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1480,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the total amounts and row type. Visually confirmed that the description column is empty for this final total. Selected gemini-flash's empty description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 7,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 14,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title, fully legible and no monetary figures on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Novr. 10 1774 Dr. Shortridge's Benef: half a year to Midr.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts very clear. Columns aligned with pounds=100, shillings=0, pence=0; vertical ruling unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Novr. 22 Mr Bloomfields Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of '08 0 0' in the pounds/shillings/pence columns; interpreted as £8 0s 0d. No ambiguity."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "1775 Jan: 30 Exchequer Annuity to Xmas",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts clearly written as '50 0 0' and align with the three vertical columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Midsr. & Xmas Div. in stock, 3 pr Cent: consol.:",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric '15 8 4' in the three monetary columns; handwriting legible and validates (s < 20, d < 12)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mar: 20 Increment, of Mr Richards, Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers read as '05 5 9' and align well with column lines; no ambiguity."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Apr: 3 Took out of the Chest for L. Wittenham Div.:",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, clear '200 0 0' visible; alignment with pounds column unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Jun: 5 Two Seances for Bac: Disp.:",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount reads '01 1 0' clearly; description text and date legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dr. Shortridge's Benef: half a year to Xmas",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Duplicate-style entry matching earlier Shortridge line; amounts '100 0 0' clearly aligned."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Mr Oswald Jackson's Acct. for the Merton estate for the year from Mich: 1773 to Mich: 1774",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered multi-line account header. Text is legible though slightly smaller; clearly introduces the following grouped entries."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Money Rent",
+      "amount_pounds": 205,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear amount '205 - 0 - 0' aligned under pounds/shillings/pence. No ambiguity."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "York Rent",
+      "amount_pounds": 7,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numeric shown as '007 - 2 - 0' — read as £7 2s 0d. Columns and digits clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 272,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Underlined sum '272 - 2 - 0' beneath the two rent lines. No descriptive text on the same line; numeric alignment is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Allowed Land Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of '24 - 17 - 3' in the columns. All values within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rent for 3 Closes",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Main digits '16 - 7 - 10' are clear. A small additional mark after the pence column was interpreted as a halfpenny (1/2) because (a) the mark resembles a small '1/2' or loop and (b) arithmetic with the following 'Deduct' and 'Rec'd Balance' lines requires a 1/2d to reconcile to the stated balances (see notes for Deduct and Rec'd Balance). Slight ambiguity from the small script fraction, but contextual arithmetic supports 0.5d."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Deduct",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Numbers read as '41 - 5 - 1' with a faint fractional mark after the pence that aligns with the halfpenny seen on the 'Rent for 3 Closes' line. Arithmetic: Allowed Land Tax (24 17 3) + Rent for 3 Closes (16 7 10 1/2) => 41 5 1 1/2, matching a deduction containing a 1/2d. Fraction inferred from column-matching and the clear Rec'd Balance line; fraction mark itself is faint."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "July 22? - Rec'd Balance",
+      "amount_pounds": 230,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Right-hand numeric clearly reads '230 16 10 1/2' (pence shown with a clear '1/2'). Date 'July 22?' is slightly uncertain (the day marker has a question-like flourish), so confidence lowered slightly for description but amounts are clear and reconcile with the arithmetic: 272 2 0 minus 41 5 1 1/2 = 230 16 10 1/2."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "July 26 Increment from Mr Newbery, Bursar",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Pounds/shillings/pence read as '55 10 2'. A small trailing fractional mark after the pence is present and resembles '3q' or a three‑quarters mark; interpreted as three farthings (0.75d). Fraction is legible but small; context (final subtotals include 3/4d) supports this reading."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Aug. 17 Took out of the College Chest",
+      "amount_pounds": 27,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '27 11 6' in the three monetary columns; handwriting and column alignment unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Jul. 22 House Fees from Mr Savande, Dean",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Monetary amount '13 10 0' is clear. The payor name is less certain — the manuscript looks like 'Savande' (or possibly 'Sarande'/'Surrande'); transcribed as it appears but with lower confidence on the name due to handwriting ambiguity."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 827,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Underlined subtotal reads '827 3 8 3/4' — pounds/shillings/pence (8) plus a clear fraction marking interpreted as three farthings (0.75d). The fraction mark is visible and consistent with the fractional marks used elsewhere on the page."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Recepta pro hoc anno & pro debitis anni præcedentis",
+      "amount_pounds": 1575,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total at foot of page clearly written as '1575 6 00' next to the Latin heading. Text and numbers legible; slight uncertainty only from ornate script on Latin words, amounts are clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

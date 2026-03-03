@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Arrearagia recepta - Brought up",
+      "amount_pounds": 141,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are distinct. Fraction '1/2' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of header text. No monetary amounts are present, indicating a section title."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long G. Willenhams Rectory 1 year...",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Description 'Long G. Willenhams Rectory' is clearly legible, with 'Willenhams' being a plausible reading of the script. Amounts are clear. Fraction '3/4' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South Newington D: 1 year to Mich. 1830",
+      "amount_pounds": 195,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical column lines are unambiguous. Fraction '3/4' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Staxton Rectory 1 year (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Staxton' is a clear reading of the script. Amounts are clear. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 year",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description 'Yarnton' is a clear reading of the script. Amounts are clear. Fraction '1/2' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Tile 2 years",
+      "amount_pounds": 28,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Tile' is a plausible interpretation of the script, distinguished from 'File' by the formation of the first letter. Amounts are clear. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Clifton Ferry 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description 'Ferry' is clear. Amounts are clear, with a '0' for pence. Fraction '1/2' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garsington Clinkard 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description 'Clinkard' is a plausible interpretation of the script. Amounts are clear. Fraction '1/2' is clearly visible. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "D.o. --- Crooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description 'D.o.' (Ditto) and 'Crooke'. Amounts are clear. All values extracted are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1075,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of final total amounts, which are visually set apart by a horizontal rule. Fraction '1/4' is clearly visible. All values extracted are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

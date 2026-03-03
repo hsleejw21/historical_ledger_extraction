@@ -1,0 +1,372 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Summa totalis omnium Roroplorum et Remanentium S 908 07 1d",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title/summary. The monetary value is part of the descriptive text of the header, not an entry in the ledger columns. Text is clearly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "in Cista",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Continuation of the page title/header. No associated amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Soluta certa",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clear reading, no associated amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Civitati Ozon",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Coll. Edĩs xti – 4 duabus annis",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range. 'Edĩs' interpreted as 'Aedis'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Majors capons",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll: Edĩs Xti",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range. 'Edĩs' interpreted as 'Aedis'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Collegio Omn. Animarum",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Coll: Sti Jo. Bapt",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Coll. Balliol",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Curie Hoystings",
+      "amount_pounds": 0,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Procuraçons Coll. Southn. Merton",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range. 'Procuraçons' likely 'Procurations', 'Southn' likely 'Southampton'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Janitori",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Coquo",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Lotrici Ann 1^ mich 7^",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Jonson",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bibliothecario non graduat",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bedle of ye beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Scullion and Quadrangle",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are all zeros, aligning perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pro Episcopo m visitaone primaria",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "West Supervisor",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are all zeros, aligning perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Consecraon Sermon",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Curate of Southn Ann. 1700. 10th Mich. 1700. 10th Ann. 1701 10th",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Corne priy",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount '30' is distinctly in the pounds column, with shillings and pence as zeros. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Tenths for Merton",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Synodalls Southn. Cudlingt. Merton",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Frisney { Bocardo 5^s 5^d",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description includes a detailed breakdown 'Bocardo 5s 5d', but the ledger columns clearly show 00 07 00 for the main entry. Extracted column amounts. Shillings 7 is clear, pence 0 is clear. Pounds 0."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Castle 5^s 5^d",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This row is part of a braced group under 'Frisney'. The description contains '5s 5d' as a sub-detail, but the ledger columns clearly show 00 10 00. Extracted column amounts. Shillings 10 is clear, pence 0 is clear. Pounds 0."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Agra.",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Agra.' is legible. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Bibliorum clerico",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts align perfectly with columns and are in valid range."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "TOTAL",
+      "amount_pounds": 59,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total row, indicated by distinct positioning and underlining. Numbers are clear and align well. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

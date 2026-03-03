@@ -28,12 +28,15 @@ env/
 data/images/
 data/ground_truth/
 data/sample_pdf/
+# 800 MB PDFs — upload to EC2 separately via scp/S3
+data/annual_accounts_1700-1900/
 
-# Experiment results (JSON outputs, zip archives, logs)
-experiments/results/sample_pdf/
+# Experiment results (zip archives, logs, Excel outputs — not needed at runtime)
 experiments/results/sample_pdf.zip
 experiments/results/sample_pdf_results.xlsx
 experiments/run_v2_no_claude.log
+# NOTE: experiments/results/sample_pdf/ (JSON) is tracked — run_all.py seeds
+#       pipeline/cache/ from it to skip re-extracting already-processed pages.
 
 # Pipeline cache and outputs
 pipeline/cache/

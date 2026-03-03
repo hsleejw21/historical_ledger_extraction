@@ -1,0 +1,97 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "45",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page number in top-left corner is crisp, printed numeral '45' clearly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year '1900.' is centered at top and clearly written in ink; unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "General Acct.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title 'General Acct.' in large script at top-right is clear and unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Dues composition",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line is a section label at the left ('Dues composition'). Handwriting is legible though cursive; interpreted as a heading introducing the items below."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Total Receipts",
+      "amount_pounds": 53,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '53 17 6' aligns clearly under the pounds/shillings/pence ruling lines at the right. Digits are distinct and values pass currency validation (17s <20, 6d <12)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Balance from General Acct. I",
+      "amount_pounds": 228,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text reads 'Balance from General Acct. I' (the trailing 'I' is a Roman numeral for account I). Amount '228 1 6' is aligned in the same columns; three-digit pounds are legible though the hundreds digit is slightly compressed, hence modest uncertainty."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Balance at beginning of Acct.",
+      "amount_pounds": 8147,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'Balance at beginning of Acct.' Amount appears as '8147 17 2' in the right-hand columns. The four-digit pounds '8147' is readable though slightly ornate; shillings and pence digits are clear and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 8450,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total shown with a stylized pound sign followed by '8450 10 8' in the totals position. Numerals are well-aligned under ruling lines and clearly written; currency columns validate (10s <20, 8d <12)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

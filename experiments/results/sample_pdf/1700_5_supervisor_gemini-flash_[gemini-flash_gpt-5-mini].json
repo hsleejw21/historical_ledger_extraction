@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1700",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this header and its empty monetary values. Value taken by consensus."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Item 50 Dr Levett for impensa and Nota Dom. Nat. 1699",
+      "amount_pounds": 23,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values (£23 1s 10d) were agreed upon by both extractors. Description was merged: 'impensa' from gpt-5-mini was visually more accurate than gemini-flash's 'inmensa', but 'Dom. Nat. 1699' from gemini-flash was more accurate than gpt-5-mini's 'Domr Nat. 1600' (the year is clearly 1699 in the image)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Item to Dr Pain for Greeneways fine 15s.6d. Pens fine 1.s.8.",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values (£0 17s 2d). gemini-flash's description '1.s.8.' was slightly more accurate than gpt-5-mini's '1.1.8'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Dno Rectri et Socyis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description ('Rectri' and 'Socyis') as it visually matched the ledger more accurately than gpt-5-mini's ('Recepti' and 'socijs'). Both correctly identified it as a header without amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Ad festum Nativ. p augm. Southn. et Merton",
+      "amount_pounds": 22,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "gemini-flash correctly identified this as a distinct row with its associated amounts (22.15.0). gpt-5-mini merged this description with the next line and assigned these amounts to the merged description, which was a structural error. Selected gemini-flash's entry."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Stipend. et Officiarys",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was correctly extracted by gemini-flash. gpt-5-mini merged this line's description into its preceding row (row 5) and incorrectly assigned its amounts to its *next* row, causing a shift in its extraction. This row was added as a missing row from gpt-5-mini's perspective."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Ad Fest. Ann. p augmto Rd. de Cull. 3 ptes",
+      "amount_pounds": 38,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description was more accurate ('augmto Rd. de Cull. 3 ptes' vs gpt-5-mini's 'augusto Red. de Cudl. 3 p[?]'). gpt-5-mini also had incorrect monetary values (17.0.0, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Stipend",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. gpt-5-mini had the correct description but incorrect monetary values (38.1.9, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ad Fest. Bapt. & 4te pte Augm. Rd. de Cull.",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description ('4te pte' and 'Rd. de Cull.') was more accurate than gpt-5-mini's ('4th pre' and 'Red. de Cudl.'). gpt-5-mini also had incorrect monetary values (28.0.0, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipend et Officiarys",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description ('Officiarys') was more accurate than gpt-5-mini's ('Officariis'). gpt-5-mini also had incorrect monetary values (12.10.8, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ad Fest. Mich. p aug. Rd. de Longwitn.",
+      "amount_pounds": 22,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description ('Rd.') was more accurate than gpt-5-mini's ('Red.'). gpt-5-mini also had incorrect monetary values (17.0.0, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Solut. & Guinear",
+      "amount_pounds": 22,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Its description ('& Guinear') was more accurate than gpt-5-mini's ('p Guineas'). gpt-5-mini also had incorrect monetary values (22.16.1, shifted from the previous ledger line)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "To Dr Levett for Mr Vivians Batts { Mich 99. 2. 4q} { Nativ 99. 2. 8}",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. gpt-5-mini incorrectly read the pounds value as 22 instead of 0. gemini-flash's description was also more accurate ('Mr Vivians Batts', '4q')."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "To Mr Harris for Mr Vivians Batts { Mich 98. 2. 4q} { Nativ. 98. 2. 7}",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. gpt-5-mini incorrectly read the shillings and pence as 5s 0d instead of 4s 11d. gemini-flash's description was also more accurate ('Mr Harris', 'Mr Vivians Batts')."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "For timber for carrying on ye New buildings, ye money being given (as appears in ye Last years aut) to ye College, by ye most reverend Dr marsh Ld Archop of Dublyn, and by his consent to be applyed to ye said buildings",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's description as it was slightly more accurate ('aut' vs 'acct', 'Ld Archop' vs 'most Revd Archbishop')."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Sum—",
+      "amount_pounds": 305,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on monetary values. Selected gemini-flash's description ('Sum—') as it accurately captured the dash visible in the image."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Summa Omnium Receptorum",
+      "amount_pounds": 901,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly identified the 'q' as a farthing (0.25 pence). gpt-5-mini missed this fraction and incorrectly labeled the row as 'header' despite having monetary amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Summa Solutorum",
+      "amount_pounds": 525,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's row_type ('total') as it correctly classifies this sum line with amounts, while gpt-5-mini incorrectly labeled it as 'header'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Sic debet Dns Computans",
+      "amount_pounds": 375,
+      "amount_shillings": 16,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly identified the 'q' as a farthing (0.25 pence). gpt-5-mini missed this fraction. gemini-flash's description ('Dns') was also more accurate than gpt-5-mini's ('Dñs')."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Sed petit allocari pro romanintibus in Cista",
+      "amount_pounds": 203,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly interpreted the 'd' after the pence as a half-penny (0.5 pence), demonstrating historical notation knowledge. gpt-5-mini missed the fraction and had a less accurate description ('redundantibus' vs 'romanintibus')."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Sic introduxit hoc Anno",
+      "amount_pounds": 172,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly identified the 'q' as a farthing (0.25 pence). gpt-5-mini missed this fraction, describing it as 'stray marks'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Sic remanent in Cista hoc Anno",
+      "amount_pounds": 375,
+      "amount_shillings": 16,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly identified the 'q' as a farthing (0.25 pence). gpt-5-mini missed this fraction, referring to the numeric group as 'slightly smudged'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Arrearagia Anni 1700",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this header and its empty monetary values. Value taken by consensus."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Guinear p anno",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's description ('p anno') as it visually matched the ledger more accurately than gpt-5-mini's ('Q anno')."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Longwittenham pro Mic:",
+      "amount_pounds": 28,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. It correctly identified the shillings value as '1' (gpt-5-mini read '7') and correctly identified the 'q' as a farthing (0.25 pence), which gpt-5-mini missed."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Minhinst pro anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's description ('Minhinst') as it visually matched the ledger more accurately than gpt-5-mini's ('Minhinnet')."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Southñwington pro anno",
+      "amount_pounds": 58,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's description ('Southñwington') which accurately transcribed the historical abbreviation 'ñ' (n with tilde), while gpt-5-mini expanded it to 'Southwinginton'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Merton pro anno",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on this entry's description and monetary values. Value taken by consensus."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Thrupp pro Sefquianno",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agreed on the monetary values. Selected gemini-flash's description ('Thrupp pro Sefquianno') as it was more complete and accurate than gpt-5-mini's ('Thirup pro Se[?]quianno')."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 25,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 0
+    }
+  }
+}

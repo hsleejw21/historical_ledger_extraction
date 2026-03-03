@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred page year at top. No monetary columns present for this line; perfectly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Soluta Ordinaria - Brought up",
+      "amount_pounds": 252,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting and column alignment for the 'Brought up' amount. Pounds (252), shillings (10) and pence (4) are well positioned between the ruling lines and pass currency validation."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Subscriptions Viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section label (Subscriptions) with no amounts in the row; heading is clear and centered to the description column."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Infirmary for 1831",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric alignment. Pounds=6, shillings=6, pence=0 are distinct and within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gray Coat School to Mich. 1830",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Well-aligned 20 0 0 in the three monetary columns; handwriting of the description and numbers are clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Kiddington Do. Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads as 'Kiddington' (handwritten K could be read as Kid-). Numbers 5/5/0 are clear and well aligned; minor uncertainty only in exact spelling of place name."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "S. Newington Do. Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The name begins with an initial 'S.' and looks like 'Newington'—letter shapes slightly flourishy but numbers 5/5/0 are clear and valid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Little Do. Do Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Little ... Do' (hand not perfectly crisp); monetary columns show 5 pounds, 0 shillings, 0 pence clearly aligned. Slight ambiguity in the middle word but amount alignment is good."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Yarnton Do. Xmas 1830",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place looks like 'Yarnton'; amounts 3/0/0 are clearly written and positioned correctly between ruling lines."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Merton Do. Xmas 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "'Merton' reading is clear from letter shapes; amount 5/5/0 well aligned and unambiguous."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "S. Whittlesham Do 1830",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten place begins with 'S.' and looks like 'Whittlesham' (some flourishy letters). Monetary columns show 5/5/0 clearly; slight uncertainty only in exact spelling of the name."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Belle Ringer",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description appears as 'Belle Ringer' (could be 'Bell Ringer' with an extra e, but letters visible). Amount 5/5/0 is clearly written and aligned."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Rowele for care of the Clock",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname reads as 'Rowele' (handwriting ambiguous between Rowele/Rowley); phrase 'for care of the Clock' is legible. Amount 5/5/0 aligned and clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "University Marshalle",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads 'University Marshalle' (final e visible); amount 2/0/0 clear and in correct columns."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Corn Prices",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "No pounds figure written (left blank); shillings and pence read as 19 and 6 respectively and align to their columns. The description is somewhat uncertain (reads like 'Corn Prices' but could be similar word); chosen based on letter shapes and context."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Easter Offerings",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Easter Offerings' is clear. Amount 1/1/0 is plainly written and valid."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text 'Parish Rates' and numbers 13/10/0 well aligned between the ruling lines; all values valid."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Gas Lights 1/2 year to Lady 1831",
+      "amount_pounds": 27,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.95,
+      "notes": "Description reads 'Gas Lights 1/2 year to ... 1831'; pence has a visible half-penny sign (loop like 'ob') after the 4, interpreted as 0.5. Alignment of pounds/shillings/pence is consistent and values are within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Mich. 1831",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Mich. 1831' is likely a continuation/related line; amount 9/0/0 is clear and aligns correctly. Slight context ambiguity whether standalone or continuation, but numeric reading is unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Domus Wine Bottles one yr to Mich. 1831",
+      "amount_pounds": 23,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads as 'Domus Wine Bottles one yr to Mich. 1831' (the first word is a Latin form 'Domus' or 'Domns' but letters are legible). Amount 23/15/0 is clear and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Procurations. Kiddington 2 yrs to Mich. 1830",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Procurations' and place 'Kiddington' appear in handwriting; small-scale script but legible. Amount 1/4/0 is clear and within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do - Merton 4 years to Mich. 1830",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "'Do' indicates ditto (Procurations); 'Merton' reading is consistent with earlier entry. Amount 1/16/0 is clear. Slight uncertainty only in spacing/abbreviation interpretation, not in the numeric reading."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 399,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Final total on the page is clearly written 'L 399 10 2 1/2' with an underline. Pounds/shillings/pence and a half-penny fraction are all legible and correctly aligned with the columns."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

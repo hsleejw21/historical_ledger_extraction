@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta ordinaria 1796",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title. Very clear handwriting and no amounts present; centered heading 'Soluta ordinaria 1796' is legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "City of Oxford for Sundry Ground Rents",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description legible. Amount column aligned with vertical lines; reads as '4 0 0' (four pounds, 0s, 0d) with clear digits."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mayor's Cautions",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description readable. Amount in columns appears as '0 11 0' (11 shillings). Shillings (11) are within valid range; slight smudge on first digit of pounds but alignment makes it clearly zero."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Court of Hustings",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible. Amount reads '0 1 8' (1s 8d) with clear pence '8' and valid ranges. Vertical alignment unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Church Call to Atkwood",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten description interpreted as 'Church Call to Atkwood' (Atkwood/Atwood). Amount aligned as '0 18 0' (18s). Pounds column faintly blank; shillings '18' clear though slightly slanted."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do to Bennett Sub Treasurer",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Abbreviated 'Do' (ditto) then 'to Bennett Sub Treasurer'. Amount reads '0 0 4' (4d). Pence digit '4' clear; pounds and shillings blank/zero by alignment."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "All souls Coll",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "College entry 'All souls Coll' is clear. Amount appears to be '4 12 8' (4£ 12s 8d) but the leftmost pounds digit is slightly faded and could plausibly be '10' or '4'; chosen as '4' based on relative width and shape compared with other clear '4's on page. Shillings and pence are legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Balliol Coll",
+      "amount_pounds": 10,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Entry 'Balliol Coll' readable. Amount looks like '10 12 6' (ten pounds 12s 6d). Pounds column digit could be '10' or '4' due to ink/fading; selected '10' because the pounds column shows a taller figure resembling '10' and to match a similar pattern for college entries. Shillings and pence shapes are consistent with '12' and '6'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "St Johns Coll",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description legible. Amount aligned as '0 8 2' (8s 2d); digits are clear in their columns and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Archdeacons Procurations Mr. Walsh",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Long Latin descriptor is readable. Amount '1 14 0' (1£ 14s) is well aligned and the '14' shillings is distinct."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tonsori",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short descriptor 'Tonsori' (barbers/tonsores) clear. Amount appears as '0 13 4' (13s 4d); digits are distinct and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Supervisori Aedificiorum",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Latin heading 'Supervisori Aedificiorum' (Supervisor of buildings) readable. Amount reads '4 0 0' (4£) though the pounds digit is somewhat heavier ink; alignment and spacing make '4' the most plausible reading."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Janitor' clear. Amount '1 14 6' (1£ 14s 6d) is clearly written with distinct digits; valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Concionatori",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Latin 'Concionatori' (preachers) legible. Amount appears as '1 0 0' (1£) — pounds digit clear, shillings/pence blank/zero by alignment though pence column very light."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "'Pauperibus' (for the poor) description legible. Amount '0 12 0' (12s) clear and in valid range; digits readable though faint."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Postage Stamps &c",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Postage Stamps &c' readable. Amount '1 19 1' (1£ 19s 1d) is well aligned; shillings look like '19' and pence '1' is clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Land Tax to Coll & Assessors",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible. Amount '7 4 0' (7£ 4s) clearly placed in pounds and shillings columns; digits distinct and within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Land Tax to Parish Assessors",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description readable. Amount reads '3 13 4' (3£ 13s 4d). All three columns visible; shillings 13 and pence 4 clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "House & Window Tax",
+      "amount_pounds": 4,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry 'House & Window Tax' legible. Amount appears '4 13 6' (4£ 13s 6d); pounds digit slightly faded but matches other '4' shapes on page. Shillings and pence readable."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Paving & Lighting Tax",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description readable. Amount aligned as '1 14 6' (1£ 14s 6d); digits clear and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Bedell of the Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Descriptor 'Bedell of the Beggars' legible. Amount '1 3 0' (1£ 3s) clear with distinct digits."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Morton Curacy 2 year at L: Day",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten 'Morton Curacy 2 year at L: Day' (interpretation of ordinals and abbreviations). Amount reads '15 0 0' (15£) and the '15' pounds figure is larger and legible, though the description contains abbreviations that are faint."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Morton Curacy 4 year at Miss?",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description uncertain in parts ('4 year at Miss?' — last word faint/abbreviated). Amount looks like '7 10 0' (7£ 10s) — pounds and shillings are readable though the descriptor is middling legibility."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Sir Neive? for rel: 4 year at Xmas",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is quite faded/abbreviated (interpreted as a name and '4 year at Xmas'). Amount '10 0 0' (10£) is clear, but the wording is uncertain; chosen conservative confidence due to faint text."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "do ½ year at L: Day",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Begins with 'do' (ditto) and a half-year note; description faint. Amount appears again as '10 0 0' (10£). Column alignment clear but descriptive text uncertain, so confidence reduced."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "do ½ year at Miss?",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Another 'do' line with abbreviated timing; wording faint and ambiguous. Amount again '10 0 0' (10£) clearly in columns but textual uncertainty lowers confidence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "do ½ year at Michl",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Third 'do' line referencing a quarter/half-year at 'Michl' (Michaelmas) — description abbreviated. Amount '10 0 0' (10£) appears again; amounts consistent though handwriting for description is faint."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Corn Driers",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Corn Driers' legible. Amount '0 3 0' (3s) clear and within valid range; digits distinct."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Morton Vic: 4 year",
+      "amount_pounds": 7,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Entry reads 'Morton Vic: 4 year' (vicarage). Amount '7 10 0' (7£ 10s) visible though the description is slightly abbreviated; digits in amount columns are clear."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 116,
+      "amount_shillings": 16,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Bottom underlined total clearly reads '116 16 7' (116£ 16s 7d). Numerals are distinct and aligned under the pounds/shillings/pence ruling lines; good contrast."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description '1838.' as visually verified. gpt-5-mini incorrectly read '1828.'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Soluta Varia - Brought up",
+      "amount_pounds": 538,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected amount values and description 'Soluta Varia' from gemini-flash, which matches visual inspection. Overrode gemini-flash's 'header' type to 'entry' as it contains an amount, aligning with definition provided in protocol. gpt-5-mini had 'Paria' which is less accurate visually."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bill to Cleft for repairs at Campsfield Farm",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description and amount, as visually confirmed. gpt-5-mini incorrectly read shillings as '13' instead of '3' and had some less accurate description parts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "By Journey to Marston Northampton",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'By' is clearly visible at the start of the line, not 'Wages -'. Amounts are clear and agreed by both."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Amherst for repairing Gates",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description and pounds value. Visually, the pounds column is clearly empty for this row, and the description starts 'Amherst'. gpt-5-mini incorrectly inferred '1' for pounds and misread the description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Faulkner & Doxwigan Bills for repairs",
+      "amount_pounds": 36,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear and agreed by both. Selected gemini-flash's description, 'Faulkner & Doxwigan Bills for repairs', as the most plausible reading, though the second name 'Doxwigan' is highly ambiguous visually, as noted by gpt-5-mini. Confidence score lowered slightly due to description ambiguity."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Franklin, Builder on acct. Manor House",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors largely agree. Selected gemini-flash's description for slightly better punctuation ('acct.'), amounts are clear and match. Treated as visual override due to punctuation choice."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Open Scholarships to Middx 1838. Viz:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Selected gpt-5-mini's 'header' type as the line has no amounts and introduces a section. Also selected gpt-5-mini's description 'Middx 1838. Viz:' as more visually accurate than gemini-flash's 'Midr. 1838. Dues.', especially 'Viz:' which fits the context. Confidence score slightly lowered due to minor visual stylization."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "— By Salmon",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as '— By Salmon' is clearly visible. gpt-5-mini's reading of 'Mr Milman' is incorrect. Amounts are clear and match."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "— By Simms",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as '— By Simms' is clearly visible. gpt-5-mini's reading of 'Mr Prime' is incorrect. Amounts are clear and match."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "— By Salgones",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as '— By Salgones' is clearly visible. gpt-5-mini's reading of 'Mr Dalgarno(s?)' is incorrect. Amounts are clear and match."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Grove for Fenison",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Fenison' is visually more accurate with a clear 'F'. Amounts are clear and match."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Insurance - Yarnton",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Yarnton' is clearly visible. Amounts are clear and match. gpt-5-mini noted uncertainty but the text is legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Liley - Little Tew.",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Liley - Little Tew.' is clearly visible. Amounts are clear and match."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Liley - Planning Stables &c.",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Description 'Liley - Planning Stables &c.' is visually accurate (ditto mark for 'Liley'). Pounds column is visually empty. Pence is clearly '7'. Gpt-5-mini's 'Hile', 'Removing Stable', and amounts '2' and '4' are incorrect."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Knowles - Mason",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors, and visually verified as correct."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hewlett - Slater &c.",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Slater' is clearly visible. Amounts are clear and match. gpt-5-mini incorrectly read 'Water'."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Oxford Herald",
+      "amount_pounds": 6,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Oxford Herald' is clearly legible. Amounts are clear and match. gpt-5-mini's description was entirely incorrect despite its note of uncertainty."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bush & Pilcher - Ironmongers",
+      "amount_pounds": 106,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Description 'Bush & Pilcher - Ironmongers' is visually accurate. Pounds value is clearly '106'. gpt-5-mini incorrectly read '100' for pounds and 'Brist'/'Bust' for the first name."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dudley & Bowler - Glaziers &c.",
+      "amount_pounds": 33,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Bowler' is clearly visible with a 'B'. Amounts are clear and match. gpt-5-mini incorrectly read 'Howler'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Evans - Builder",
+      "amount_pounds": 41,
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors, and visually verified as correct."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Griffins - Confectioner",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Griffins' is visually more accurate. Amounts are clear and match."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hayes - Buttery Books &c.",
+      "amount_pounds": 16,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Buttery Books' is clearly legible. Amounts are clear and match. gpt-5-mini incorrectly read 'Printing Books'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Banting - Carpenter",
+      "amount_pounds": 42,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Description 'Banting - Carpenter' is visually accurate. Pence value is clearly '11'. gpt-5-mini incorrectly read 'Painting' and '4' for pence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Wyatt - Carver & Gilder",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors, and visually verified as correct."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sutton - Glass &c.",
+      "amount_pounds": 19,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors largely agree. Selected gemini-flash for slightly better punctuation ('&c.'), amounts are clear and match. gpt-5-mini's uncertainty in 'Sutton' is unfounded on visual review. Treated as visual override due to punctuation choice."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Watts - Painter",
+      "amount_pounds": 95,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus between extractors, and visually verified as correct."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Dormer - Wine & Bottles",
+      "amount_pounds": 29,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Dormer' and '& Bottles' are clearly visible. Amounts are clear and match."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Purdue - Dormer Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as 'Purdue - Dormer Bill' is clearly legible. Amounts are clear and match. Gpt-5-mini's reading of 'Pundine - Domus Bill' is incorrect, despite noting uncertainty."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Walsh - Annual Bill",
+      "amount_pounds": 26,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for shillings value, as '14' is clearly legible, not '17'. Description and other amounts are clear and match."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Do. - Little Tew Suit",
+      "amount_pounds": 35,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected based on visual verification. Description is 'Do. - Little Tew Suit'. Both extractors had minor inaccuracies in description punctuation or spelling ('Jew' vs 'Tew'), but amounts are clear and match."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 1265,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for description, as '£' is the only text in the description column. Amounts are clear and match, and agreed by both."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 27,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

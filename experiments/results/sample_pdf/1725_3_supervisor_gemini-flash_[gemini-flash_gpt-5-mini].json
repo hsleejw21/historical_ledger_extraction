@@ -1,0 +1,144 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Tretkwin",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts in the £ s d columns (8 | 16 | 8) are well-aligned and clearly written. The descriptive text is legible as a single word beginning with 'T' and ending with 'n' but several interior letters are ambiguous; chosen reading 'Tretkwin' is the best visual match."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Master Goorage",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "No amount visible in the monetary columns for this line. The handwriting looks like 'Master ...' with the second word unclear; read as 'Master Goorage' as closest match to the loops and strokes. Moderate uncertainty due to cramped cursive and similarity to several possible letter shapes."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "La Dame, Smyth, Moreton Annie",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "No amounts present. The line reads as a comma-separated list of names; 'La Dame, Smyth, Moreton Annie' matches the visible letter shapes though several letters (especially in the first name) are faint."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mordenham fore",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "No amounts. The word appears to be a place-name ending in '-ham' with preceding letters read as 'Morden'; final word looks like 'fore'. Reading chosen based on common place-name patterns and visible letter shapes, but letters are faded."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Backgate {Bley",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns clearly show 4 | 0 | 0 aligned with this row. Description begins 'Backgate' clearly; the bracketed word reads like 'Bley' though the closing brace and final letter have minor smudge."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "(Boyes)",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This indented parenthetical line is aligned with a second 4 | 0 | 0 entry. The parenthesised word appears as '(Boyes)' (or similar); the amount is clear and validation rules are satisfied."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Port & Gin? & Mordenham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "No amount visible. The line contains several words; the first looks like 'Port' followed by an ampersand and a second short word that might be 'Gin' or 'Giny'. The place-name 'Mordenham' appears again at the end but letters are faint and partially overwritten, causing moderate-to-high uncertainty."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "of Mr. Holsworthy from an unknown hand",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Monetary columns clearly read 5 | 0 | 0. The descriptive phrase is fairly legible: 'of Mr Holsworthy from an unknown hand' — some letters in the surname are slightly compressed but consistent with 'Holsworthy'. High confidence in amounts and good confidence in wording."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Increment & Battley",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This appears to be a small internal section header (no amounts). The first word reads as 'Increment' or 'Increments' but the middle letters are faint; 'Battley' is a plausible reading of the second word. Classified as header because it introduces a subsequent set of lines and has no amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Gent. Comd",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "No monetary amount. The text looks like an abbreviation 'Gent. Comd' or 'Gent Comd' (possibly 'Gent Committee' abbreviated). Slight ambiguity in final letters due to light ink."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Act Support",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear alignment and clear amounts 10 | 0 | 0. Description 'Act Support' is legible and corresponds to a payment/support item. Low ambiguity."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "Comr: Library  Sum",
+      "amount_pounds": 210,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "This is a final total line — the large sum at the right reads most clearly as '210' in the pounds column and '02' in the shillings column. The pence area appears as '06' but there is an additional small stray mark or flourish to the right (looks like a '9' or pen flourish). Interpreted as 6 pence with no recognised fractional symbol; fraction is left blank. Because of the stray mark and slight smudging around the pence, confidence is moderate (0.5). The left description reads 'Comr: Library' with 'Sum' or 'Sumn' nearby; that is also somewhat uncertain but clearly a total line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

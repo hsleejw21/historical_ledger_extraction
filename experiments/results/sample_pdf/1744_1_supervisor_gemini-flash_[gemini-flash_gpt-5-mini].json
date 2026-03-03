@@ -1,0 +1,320 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Jacobi Roguemb(e) Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top title line in Latin. Handwriting of the surname is unclear (looks like 'Roguembe' or similar). No monetary amounts on this line; label at page head. Column alignment not needed for header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a Secundo die mensis Novembris 1743.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date line 'a Secundo die mensis Novembris 1743.' Legible Latin; no amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem Diem Revolution 1744.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear Latin line 'ad eundem Diem Revolution 1744.' No monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Arrearagia Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading 'Arrearagia Recepta' (receipts of arrears). Underlined; no monetary amounts. Handwriting clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "L  S  D",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Column heading for currency at top-right ('L S D'). No amounts. Alignment of currency columns established from nearby totals."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Gwinear",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry 'Gwinear'. Numeric columns line up with vertical rules; amount reads 100 pounds, 00 shillings, 00 pence exactly."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Longwittenham ad Mis",
+      "amount_pounds": 22,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description slightly uncertain (handwritten place-name spelling). Amount columns clear: '22' in pounds column, '07' shillings, '04' pence with a trailing 'ob' / loop interpreted as half-penny (0.5). Column alignment unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "South Newinton Rect",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Place name and 'Rect' (rectory) clearly legible. Amount '30 00 00' is unambiguous and validates (shillings 0, pence 0)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Kidlington Rect",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description 'Kidlington Rect' clear. Pounds column reads '60' (the tens digit is distinct from the 50/40 style above). Alignment with neighboring rows consistent. I read 60 pounds rather than 50; shape of the '6' is clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Yarnton Rect pro 4. Ann",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Entry reads 'Yarnton Rect. pro 4 Ann.' Amount '40 00 00' is clearly aligned and legible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Yarnton Tenent' pro 4. An",
+      "amount_pounds": 34,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Text reads 'Yarnton Tenem' or 'Tenent' pro 4 An. Amount '34 17 10' is well aligned; shillings 17 and pence 10 are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Merton Rect",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear 'Merton Rect'. Amount '50 00 00' is unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Lord (al. Bigg) pro mie.",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name reading '(al. Bigg)' somewhat uncertain but legible enough; amount '01 13 06' reads clearly in the columns. Pence shows as '06' without fraction."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lord (al. Barrett?) pro mie.",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Surname uncertain (looks like 'Barrett' but faint). Amount shows '00' pounds, '03' shillings, '04' pence with a small looping mark interpreted as half-penny (0.5). The fractional symbol is faint; interpretation as 1/2d is plausible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Kidlington Mills pro Anno",
+      "amount_pounds": 7,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Entry 'Kidlington Mills pro Anno' clear. Amount reads '07 18 10' with a small superscript '3/4' mark after the pence — interpreted as three farthings (0.75). Columns align well and values validate (shillings 18 <20)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Minn pro Anno",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Entry 'Minn pro Anno' (name slightly abbreviated on page). Amount '01 03 04' is clear and well-aligned."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Ledenhall (now Jesus Coll)",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads 'Ledenhall (now Jesus Coll)'. Amount '00 10 00' is clear (10 shillings)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Franklin pro Anno",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Entry 'Franklin pro Anno' legible; amount '01 00 00' clearly aligned."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bayister (now Franklin)",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Bayister (now Franklin)'. Amount '00 15 00' (15 shillings) clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Single-word entry 'Sadler' clear. Amount reads '04 01 03' but the ink is slightly lighter than earlier lines; chosen digits align with the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Clifton Ferry' legible. Pounds clearly '04'. The shillings digits are ambiguous on the scan (looks like '64' but 64 is invalid for shillings); interpreted as '06' shillings based on likely handwriting of '6' and validation (6 < 20). Pence reads '00'. This is a moderate-confidence decision due to ambiguity in the middle digit."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "South Newinton Tenent",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'South Newinton Tenent' (tenement). Amount '02 14 05' aligns well with the column rules and is legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Ladlane pro leg? (handwriting uncertain)",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Place-name spelling uncertain on the manuscript (read as 'Ladlane' or similar). Amount '17 13 04' is fairly clear in the columns, though the description requires interpretation."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Midenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Entry reads like 'Midenham' (spelling uncertain). Amount '06 13 04' appears in the pounds/shillings/pence columns; digits are slightly faded but readable and valid (shillings 13)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Wells pro 4ta parte An.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Wells pro 4 parte An.' Amount '01 00 00' is clear and aligns with the vertical rules."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Kidlington Capons & Brown",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Entry 'Kidlington Capons & Brown' legible. Amount '02 15 00' is clearly written and validates."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Minkennitt pro Anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Last ledger entry reads like 'Minkennitt pro Anno' (spelling variant). Amount '20 00 00' is clear in pounds column."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "£409 10 07 3/4",
+      "amount_pounds": 409,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Final total on the page shown with pound sign '£' and pence fraction '3/4' clearly visible. Vertical alignment of this total was used to set the pounds/shillings/pence column boundaries. Total legible though a few description spellings above were uncertain."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

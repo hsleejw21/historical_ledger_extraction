@@ -1,0 +1,53 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "II (Capital) 1900",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This is the main header for the ledger page/section, with no associated monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Transfer to Dues Comp. Fund",
+      "amount_pounds": 53,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. Shillings (17) and pence (6) are within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Balance at close of Acct",
+      "amount_pounds": 8696,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. Shillings (13) and pence (2) are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "total",
+      "description": "£ 8750 10 8",
+      "amount_pounds": 8750,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the total line, including the '£' symbol indicating a sum. The amounts are clearly delineated by the vertical column lines. Shillings (10) and pence (8) are within valid ranges. The line is underlined, signifying a total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

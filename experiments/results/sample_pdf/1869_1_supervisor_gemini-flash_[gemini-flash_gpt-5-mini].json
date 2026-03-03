@@ -1,0 +1,271 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Balance in College favour 1868",
+      "amount_pounds": 170,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for amounts. Visual verification confirms the pounds value is 170, not 179 as `gpt-5-mini` stated. `gpt-5-mini` misread the '0' as a '9'.",
+      "side": "right"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Due under the old system by Bursar",
+      "amount_pounds": 50,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for amounts. Visual verification confirms 50 pounds, 1 shilling, 3 pence. `gpt-5-mini` misread shillings and pence.",
+      "side": "right"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Goodwill ½ years Rent in Lieu of repairs",
+      "amount_pounds": 50,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors and confirmed visually. Chose `gemini-flash` for the description text, which is more accurate ('Goodwill' and 'repairs').",
+      "side": "right"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "10 per Cent on Rents of Estates",
+      "amount_pounds": 50,
+      "amount_shillings": 9,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors.",
+      "side": "right"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "15 per Cent on Rent of Rooms",
+      "amount_pounds": 254,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for amounts. Visual verification confirms 254 pounds and 5 shillings. `gpt-5-mini` misread the pounds (missing a digit) and shillings.",
+      "side": "right"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Bushey Dividends",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for amounts. Visual verification confirms 7 pounds. `gpt-5-mini` misread the pounds digit as '1'.",
+      "side": "right"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Masters on compounding College",
+      "amount_pounds": 185,
+      "amount_shillings": 9,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini` for both description ('on' rather than 'or') and amounts. Visual verification confirms 185 pounds, 9 shillings, 9 pence. `gemini-flash` misread the shillings as '1'.",
+      "side": "right"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do Local rate composition fund",
+      "amount_pounds": 29,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors.",
+      "side": "right"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Late Rectors Prize",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gpt-5-mini`. Visual verification clearly shows '10' in the shillings column and '5' in the pence column, with the pounds column being blank. `gemini-flash` incorrectly identified the column placements and invented a 0 pence.",
+      "side": "right"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dividend on St. Jones Legacy",
+      "amount_pounds": 17,
+      "amount_shillings": 11,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for description ('Legacy'). Visual verification confirms pounds 17, shillings 11, pence 11. `gemini-flash` misread shillings as '1'.",
+      "side": "right"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Share of Ryse Rent",
+      "amount_pounds": 11,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors and confirmed visually. Chose `gemini-flash` for description, which is more accurate ('Ryse' instead of 'Rye').",
+      "side": "right"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "1/4 to Christmas 1868 warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash` for both description (fraction 1/4) and amounts. Visual verification confirms the fraction '1/4' and a dash in the pence column, which implies 0 pence. `gpt-5-mini` misread the fraction and the pence.",
+      "side": "right"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "3 sets of Rooms Rectors Lodgings",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected `gemini-flash`. Visual verification confirms the description '3 sets...' and that the '3' is clearly aligned in the pence column. `gpt-5-mini`'s uncertainty about column placement for the '3' was noted, but its placement in the pounds column was incorrect.",
+      "side": "right"
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Dukesons Rent. Balance on",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors and confirmed visually. Chose `gemini-flash` for description, which is more accurate ('Dukesons' instead of 'Dickerson's').",
+      "side": "right"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Rectors moiety of Room Balance on",
+      "amount_pounds": 170,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms description 'Rectors' (with 's') from `gpt-5-mini`. For amounts, the pounds value is '170' (the '1' is faint but visible), not '70' as `gpt-5-mini` indicated. `gemini-flash` was correct on pounds, `gpt-5-mini` on description. Shillings and pence consistent.",
+      "side": "right"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Allinett & T.C. towards repayment of",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts consistent and visually verified (6 pounds, 0 shillings, 0 pence). For description, `gpt-5-mini` incorrectly appended the next line's description. `gemini-flash` was closer, but I've visually corrected 'Allen' to 'Allinett'. The '£6' within the text is noted, but the primary amount is from the column.",
+      "side": "right"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Loan of £15",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors. Visual confirmation shows this is a descriptive line with no amounts in the ledger columns.",
+      "side": "right"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Hammond for marble Steps",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors and confirmed visually. Chose `gemini-flash` for description, specifically the capitalization of 'Steps', which is accurate.",
+      "side": "right"
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1659,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts consistent and visually verified. Chose `gemini-flash` for the empty description, as there is no descriptive text for this total row other than the '£' symbol.",
+      "side": "right"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 5,
+      "rows_by_visual_override": 11,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

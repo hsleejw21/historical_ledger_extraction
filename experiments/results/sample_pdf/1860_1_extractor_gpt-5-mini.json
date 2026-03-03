@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page, no monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris A D. 1859 ad eundem diem revolutum A.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Long Latin header directly under the year; handwriting legible though some abbreviations ('2do', 'A D.') required interpretation; no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Receptra",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered section heading (handwritten 'Receptra' / 'Receipts'); no amounts in this row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Inst on Loan",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Single number '10' clearly aligned under the pounds column. Surname reads as 'Clutterbuck' in the handwriting; small uncertainty in exact spelling of name."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Andrews. 4 do. on so.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Number '30' clearly under pounds column. Abbreviations '4 do. on so.' interpreted as written; minor ambiguity in punctuation only."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushby Divs",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Two small numbers present in the right columns interpreted as 8 shillings and 6 pence (no pounds figure written). Alignment with shilling and pence rules validated (8 < 20, 6 < 12)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Colby. Bursar Incom. Jones",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large value '1308' is clearly in pounds column with '6' and '7' aligned in shillings and pence. Handwriting of description is moderately dense but readable as Colby/Bursar/Income; slight uncertainty in the exact short words."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Dr. do. do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '1986' clearly aligned; shillings column shows '0' and pence '7'. The description uses ledger shorthand ('Dr. do. do.') which is typical; transcription kept as-is."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers '77 13 4' clearly written and well aligned under pounds/shillings/pence columns. Description legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Div. on Mr. Jones consols recd. in '58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read as '17 2 9' under pounds/shillings/pence. Description is abbreviated ('Div. on Mr. Jones consols') — interpretation of 'recd. in '58' added to make sense of the note; moderate handwriting abbreviation ambiguity."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "New Building Fund Ant. (Closed)",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear numeric trio '154 13 9' in the three money columns. The word after 'Fund' is faint but read as 'Ant.' or similar; annotated as (Closed) to reflect truncated handwriting."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Late Building Fund - not carried to acct.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '47' and shillings '1' are visible; pence column looks blank or faint (interpreted as 0). The phrase 'not carried to acct.' is transcribed from the handwriting but is somewhat cramped and faint."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dr. Richards Divinity Prize",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Single '10' appears in the pounds column aligned with this description. The name 'Richards' and 'Divinity Prize' are legible; minor uncertainty in first name/title but entry clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Rype Rent Miss Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '11 8 6' are visible and aligned. The first word of description is somewhat ambiguous in the handwriting (reads as 'Rype' or possibly 'Hope'/'Type'); preserved as seen, with moderate uncertainty."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sixteen per cent on Rents",
+      "amount_pounds": 738,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear numeric sequence '738 11 8' under pounds/shillings/pence. Description 'Sixteen per cent on Rents' is legible and matches context; high confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Composition to Colby by Master",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read as '332 10' with the pence column blank (interpreted as 0). Description is clear though somewhat abbreviated; columns align well."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & do 1859 Rents",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers '7 11' visible in pounds and shillings; pence not written (interpreted as 0). The phrase 'Xmas' and the years are deciphered from faint script; moderate confidence."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Rector from Cantin Fund (Principal £30; Interest 7s 4d)",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This appears as a bracketed pair of figures (principal 30 and interest ~7/4/5) summing to '37 4 5' which is written in the money columns. The description is inferred from condensed handwriting and the visible '30' and smaller interest figures; moderate uncertainty in exact phrasing but numeric sum is readable."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "The Repayment from Choir Fund",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Single '9' in pounds column aligned with this line. Description is legible ('Repayment from Choir Fund'), small uncertainty only in preceding article 'The'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "2000 Consols, sale of Cantor Fund",
+      "amount_pounds": 1910,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Large number '1910 19 8' clearly in the three currency columns. The description is slightly abbreviated/contracted in the handwriting ('2000 Consols sale of Cantor Fund' interpreted from script); numeric reading is clear and validated (shillings < 20, pence < 12)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hammond Key",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Small '1' in pounds column aligned with this short description; name 'Hammond' and 'Key' are legible though the surname could be marginally ambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Altnutt repayment by Bursar",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '5' in pounds column is clear. The name in the description is somewhat faint and could be 'Allnutt'/'Altnutt' — transcribed as seen with moderate uncertainty."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instruction Choir",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '30' in pounds column is clear. The description contains abbreviations and is somewhat cramped but interpreted as a sub-rector repayment related to choir instructions; moderate confidence in text."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total '6726 11 7' is prominently written and well aligned under the three money columns. Very clear numerals; description cell is blank on the page."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fe Fund Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Local Rate",
+      "amount_pounds": 130,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines for £ s d columns are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Morgan 3 Quarters Returned Fees.",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Vertical lines for £ s d columns are unambiguous. All extracted monetary values are within their valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 133,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total row, indicated by underline. Vertical lines for £ s d columns are unambiguous. All extracted monetary values are within their valid ranges. Description left blank as it is a summed total."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Domus payments 1316.1.3",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry with its specific monetary amount embedded directly within the description text. No corresponding amounts in the main £ s d columns."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Fe fund Do 133.3.9",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry with its specific monetary amount embedded directly within the description text. 'Do' is a common abbreviation for 'ditto'. No corresponding amounts in the main £ s d columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Defecit Carl No 1528.18.9¾",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry with its specific monetary amount embedded directly within the description text. '¾' fraction clearly visible and interpreted as 0.75. No corresponding amounts in the main £ s d columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2978,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear total row. The extracted amounts are consistent with the sum of the embedded amounts from the three preceding entries (rows 6-8). The fraction '¾' is interpreted as 0.75. All values in valid ranges. Description left blank as it is a summed total."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Domus receipt 187.5.2",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry with its specific monetary amount embedded directly within the description text. No corresponding amounts in the main £ s d columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Fe fund Do 798.9.6",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry with its specific monetary amount embedded directly within the description text. 'Do' is a common abbreviation for 'ditto'. No corresponding amounts in the main £ s d columns."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 985,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total row. The extracted amounts are consistent with the sum of the embedded amounts from the two preceding entries (rows 10-11). All values in valid ranges. Description left blank as it is a summed total."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1992,
+      "amount_shillings": 10,
+      "amount_pence_whole": 13,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Clear total row, indicated by underline. The pence value '13¾' is numerically invalid (13 pence should convert to 1 shilling and 1 pence). Extracted exactly as written; the '¾' is interpreted as 0.75. This amount does not appear to be a direct subtraction of the two preceding main totals on the page."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "1912 14 13",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Faint annotation below the final total. Although numbers are present, the alignment with the £ s d columns is poor, and the pence value '13' would be invalid. Interpreted as descriptive text for an entry, rather than a formal monetary amount in the columns."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "November 2 1882",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date header for the subsequent entries."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Examined and allow'd",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Partial description of an entry indicating examination. The word 'allow'd' is slightly faded but discernible. No monetary amounts."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "I. P. Lightfoot Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/role entry. No monetary amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "L. R. Farnell. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/role entry. No monetary amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Charles H. Price, Fellow.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature/role entry. No monetary amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "In the above payment from Demurrer not included.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Faint prose text. Text has been clarified using provided crops. No monetary amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "this made by order of the Vestry of the Parish for",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Faint prose text. Text has been clarified using provided crops. No monetary amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "the amount of ½ a year from the day of the settlement",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Faint prose text. Text has been clarified using provided crops. '½' detected. No monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Then this affects in some of the later years",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Faint prose text. Text has been clarified using provided crops. No monetary amounts."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

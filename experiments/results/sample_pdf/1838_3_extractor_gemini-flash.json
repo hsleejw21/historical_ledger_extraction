@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year header at the top of the page. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section title, 'Ordinary Payments'. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Donaile Gyn",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Gyn' is slightly faded but legible. Amounts are clearly written, well-aligned in their respective columns, and fall within valid currency ranges. Vertical lines are unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Annuas fuedings",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'fuedings' is slightly faded, likely 'feudings'. The pounds column clearly shows '..', indicating no specific pound amount for this entry (often implying zero or ditto from previous, but '..' explicitly means blank in this context for extraction). Shillings and pence are clear and valid."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Adis Ph (Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Adis' could be 'Aedis'. 'Ph' is an abbreviation. Pounds column clearly shows '..'. Shillings and pence are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Onne Dunn.",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The latter part of the description 'Onne Dunn.' is faint and somewhat smeared, making precise identification difficult. 'Onne' could be 'Oriel' or 'Omni', 'Dunn' is very ambiguous. The amounts are clearly legible and valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. Balliol C.",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Pounds column clearly shows '..'. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll. S. Jo. Bapt.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Pounds column clearly shows '..'. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Supervisore Adif.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Adif.' is an abbreviation (likely 'Aedificiorum'). Amounts are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fundere",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description is slightly faded but clearly legible. Amounts are distinctly written and correctly aligned with the columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Concuonatoris ad Fest. Consear. 1837",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Some words in the description, 'Concuonatoris' and 'Consear.', are slightly ambiguous due to handwriting, likely 'Concionatoris' and 'Consecrationis'. Amounts are clear and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eidem (Brooke 1838.",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Vicario Merton ad Fest. Ann. 1838",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Eidem D. Rich.",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. The amount '6' is explicitly written in the pounds column, not a '..'. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Assisted Taper for the Lodgings April 1838.",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Description 'Taper' could be 'Paper'. Amounts are clear, well-aligned. The pence value '1' is followed by a clear '½' symbol, interpreted as 0.5."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Octor.",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Description 'D⁰ D⁰ Octor.' indicates a ditto for the description. The amount section contains '..' in the pounds column immediately followed by '5 19 ½' across the shillings and pence columns. To maintain currency validation (pence must be 0-11), the '5' is interpreted as pounds, and the '19' as shillings, and '1 ½' as pence. The '..' is considered a stylistic reinforcement of the previous line's amount rather than indicating zero pounds."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Vicario Newington ad Fe Ann. 1838.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Eidem D. Rich.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. The amount '40' is explicitly written in the pounds column. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Paving & Lighting to Mid? 1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "No amounts are explicitly written on this line. The term 'Mid?' is likely an abbreviation for 'Michaelmas'. This row acts as a descriptive entry without a direct monetary value."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Pd Pay for the City Premises. D.1838.",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "River Pater from the City Works",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Pater' is likely a misspelling of 'Water'. The amount '7' is explicitly written in the pounds column. Amounts are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Insurance of Coll. to Xmas 1838.",
+      "amount_pounds": 48,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Amounts are well-aligned and valid."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Teddington School to Mid? 1839.",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Mid?' is likely 'Michaelmas'. The amount '1' is explicitly written in the pounds column. Amounts are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Gas Lights - ½ year to XDay 1838.",
+      "amount_pounds": 24,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'XDay' is likely 'Christmas Day'. Amounts are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "D⁰ D⁰ Mich.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Pounds column clearly shows '..'. Shillings and pence are clear, well-aligned, and valid."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 269,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total row for the page. The amounts are clearly written below a horizontal line, indicating a sum. Values are well-aligned and valid."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

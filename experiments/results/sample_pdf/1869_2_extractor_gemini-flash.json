@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This is a page title (year) with no associated amount."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fees Fund",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This is a section title with no associated amount."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 324,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The amount '324.0' is unambiguously 324 pounds, 0 shillings, 0 pence, with the decimal point indicating the shillings/pence split."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bursar. fees. 1st Payment",
+      "amount_pounds": 59,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 64,
+      "amount_shillings": 3,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "3rd Do Hammond",
+      "amount_pounds": 68,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Entrance fees from Mr Bradford & to Mr. H. Hearle inclusive",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Amounts are well-aligned with columns. The '£' symbol for this entry is somewhat light but the value itself is distinct. Values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gate Bill Balance on 1st Payment",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 24,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "£5 fee on removal of name",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear. The amount '15' appears in the shillings column. No pounds value, and pence is assumed 0 based on typical ledger formatting when no value is present after shillings."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Sundries Ledger Folio 261",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amounts are well-aligned with columns. Values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1889,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This is a clear total line, indicated by the double underline and preceding '£' symbol. Amounts are clearly legible and aligned. Values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

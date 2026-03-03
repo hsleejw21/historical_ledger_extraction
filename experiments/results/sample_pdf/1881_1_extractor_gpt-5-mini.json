@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large centered year at top of page, very clear and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered title directly beneath year. Text is legible and clearly a section header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per cent on Estates, Supp Div'd 1880",
+      "amount_pounds": 66,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Description legible. Amount aligned with the first of the three ruling columns; pounds '66' and shillings '13' reasonably clear. Pence looks like '6' with a small halfpenny mark (interpreted as 0.5). Slight ink unevenness on pence so confidence moderate."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do Do Div'd 1881",
+      "amount_pounds": 373,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Abbreviated description 'Do Do' (ditto). Pounds '373' and shillings '8' are aligned and readable. Pence appears as '6' with a tiny halfpenny loop; the halfpenny is faint so confidence is moderate."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "15 per cent on Room Rent",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Description clear. Pounds and shillings columns align with previous rows. Pence reads '6' with a small halfpenny mark similar to above lines; ink slightly faded on fraction sign."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushey Div'd",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Short description 'Bushey Div'd' legible. Pounds '7', shillings '4' clear. Pence '6' with faint halfpenny loop — consistent with preceding rows; moderate confidence due to small ink."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Masters Composition",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This line introduces a grouped set of numbered sub-entries below; no amounts in the three right columns. Header text is reasonably clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Do 1",
+      "amount_pounds": 22,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Sub-item under 'Masters Composition' labelled '1'. Amount in columns reads £22 3s 0d clearly. There are scribbled notes in the description area (rates etc.) but the three-column amount is aligned and legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do. Do 2",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Sub-item '2' under same header. Pounds '11' and shillings '8' read clearly. Pence looks like '6' with a halfpenny loop; the fraction mark is faint making the pence reading moderately uncertain."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "3. Nil",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line labelled '3' followed by 'Nil' (appears to be explicitly 'nil'). No amounts in the three columns. Description and lack of amounts are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms St Helens",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount aligns to show £3 0s 0d. Straightforward and clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickenson. Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text 'Dickenson. Balance of Rent' clear. Amount reads £43 0s 0d in the pounds/shillings/pence columns without ambiguity."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Int on £57.10 at 3 per cent",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Interest line: the small amount '1 14 4½' is written in the three columns and aligns under the totals; shillings '14' and pence '4' are readable and a small halfpenny loop indicates 0.5. Some ink faintness on the fraction but alignment supports this reading."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Repayment of Capital",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description clear. Amount reads £2 10s 0d, nicely aligned; digits have good contrast."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Int on £100 at 4 per cent Augt 18-1880 by Do",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Interest on £100. Amount in columns clearly '£4 0s 0d'. Handwriting in description slightly cramped but numeric columns are unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Int on £150 at Do to April 1.1880 by Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Another interest line. Pounds '6' and zero shillings/pence are clear in the columns."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Late Tutors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Description is slightly unclear (reads 'late Tutors Prize' or similar). Amount appears as '13 2 10½' in the columns; the halfpenny sign is faint. Because the description is uncertain, confidence is moderate."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Int for one yr to Domus for £500 by Bursar",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text lengthy but legible. Amount reads clearly as £15 0s 0d in the aligned columns."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Room Rent monthly accts of",
+      "amount_pounds": 114,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description looks truncated (ends 'of'); aligned amount reads '£114 4s 3d'. The ones column digits are slightly cramped causing moderate confidence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Bouse Register",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten description likely 'Bouse Register' or similar; amount '£10 0s 0d' is well aligned. Description spelling uncertain but numeric columns clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Cash in Bank Shortridge",
+      "amount_pounds": 122,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Very clear bank cash entry with printed-like numbers in the amount columns: '122 15 0'. Alignment with ruling lines is unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Do Richards",
+      "amount_pounds": 93,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Do Do Richards' (ditto) is clear. Amount '£93 3s 4d' is crisply written and aligns correctly with the columns."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do Do Tuckell",
+      "amount_pounds": 46,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Third 'Do Do' line with name that reads 'Tuckell' (or similar). Amount '£46 19s 8d' is clear in the three-column alignment; letters in the name are a bit flourishy but readable."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Stock of the three funds sold 10607:17:4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The descriptive text contains a numeric-looking figure ('10607:17:4' or similar) written as part of the description rather than in the right-hand £ s d columns. No aligned amount appears in the three ruling columns for this line; because the numeric is embedded in description and partly faded, confidence is moderate."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Canal Shares Sold",
+      "amount_pounds": 347,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Canal Shares Sold' clear. Amount reads '£347 4s 0d' in the three columns. To the far right there is another grouped figure (see next row) which appears to be a running subtotal rather than this particular line's column amount."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "(subtotal shown at right)",
+      "amount_pounds": 2277,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "A larger right-hand figure '2277 19 4' appears aligned vertically to the right of the Canal Shares and the preceding fund/stock lines — interpreted as a subtotal/combined amount. The number is clear but its relation to which exact lines are subtotalled is slightly ambiguous, so classed as a 'total' with moderate confidence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Sejbones College for William Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partially unclear (reads 'Sejbones' or 'Sejborne' College) but the beneficiary 'for William Road' is legible. Amount '£10 0s 0d' is clear in the columns."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Hammond. Bursar allowed to Soden",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Line reads 'Hammond. Bursar allowed to Soden' (surname on right may be 'Soden' or 'Soden' variant). Amount '£25 0s 0d' clear in numeric columns; some uncertainty in the final word of description."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Baase Register",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Possibly 'Baase Register' or 'Bause Register' (handwriting ambiguous). Amount reads '£2 0s 0d' clearly. Description spelling uncertain; numeric column is clear."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Clutter book for William Road",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description appears to read 'Clutter book for William Road' (could be 'Cluster' or 'Clutter'). Amount is '£10 0s 0d' clearly shown in the amount columns."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3390,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Final bottom-right grand total reads '3390 0 4½' (£3390 0s 4½d). The large pounds figure and the 4 with a clear halfpenny loop are visible; slight smudge on the last digit reduces confidence to moderate-high."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

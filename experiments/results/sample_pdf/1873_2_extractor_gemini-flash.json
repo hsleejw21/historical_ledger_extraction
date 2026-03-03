@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page year header. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page title header. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Deans Fees",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header introducing a group of entries. No monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bursar 1st Payment",
+      "amount_pounds": 330,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 718,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'Do' indicates ditto."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 775,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'Do' indicates ditto."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do",
+      "amount_pounds": 724,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. 'Do' indicates ditto."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "13 Entrance fees from Dundas",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "20 Do.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "10 Do. to Ridley inclusive",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. The description 'to Ridley inclusive' is slightly faded but legible."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Small fees. 14 at 5/- 3.10.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes items but does not have an amount in the dedicated columns. The amounts '3.10.0' are part of the textual description."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "20 Do 5.0.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes an item but does not have an amount in the dedicated columns. The amount '5.0.0' is part of the textual description."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "10 Do 2.10.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes an item but does not have an amount in the dedicated columns. The amount '2.10.0' is part of the textual description."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 11,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row serves as a sub-total for the preceding 'Small fees' items. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Stale Degree Fees",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Section header introducing a new group of entries. No monetary amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "19 at £2.0.0. 2.7.6",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes an item but does not have an amount in the dedicated columns. The amounts '£2.0.0' and '2.7.6' are part of the textual description."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "18 Do 2.5.0",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes an item but does not have an amount in the dedicated columns. The amount '2.5.0' is part of the textual description."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "13 Do 1.12.6",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row describes an item but does not have an amount in the dedicated columns. The amount '1.12.6' is part of the textual description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This row serves as a sub-total for the preceding 'Stale Degree Fees' items. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Name removal of £-25. 5. 10",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description and amounts. The value '£-25. 5. 10' is embedded in the description and is distinct from the column amount. The text 'removal' is slightly faded but legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Gate Bill",
+      "amount_pounds": 74,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Local Rate (compos. fund) 2d",
+      "amount_pounds": 20,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. The '2d' after 'fund' appears to be an abbreviation for '2nd' not '2 pence'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 291,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Clear reading of main digits. The final '5' in '291535' appears to be a half-penny fraction (0.5), as it is written slightly smaller and higher than the '3' pence. While not a standard 'ob' or 'd' symbol, it is the most plausible interpretation for a total sum."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Scholari Sarniensi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Centered page title. Handwriting of heading is legible though last word is archaic/Latin; I read it as 'Sarniensi' (parish name) based on letter shapes and context at top of page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "May 1789.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Left margin date. Clear numeric year and month; no amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "W. Taylors Time for L. Tew --",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and monetary columns well aligned with vertical rules. Pounds '02', shillings '18', pence '4' are clear and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Edw. Wells's for Clifton Ferry --",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts aligned in columns: '01' pounds, '13' shillings, '0' pence are clearly written and unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mr. Monsonthorne's fine is not charged to Parish",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "This interline remark is faint and partially abbreviated; appears to be an explanatory note about a fine not being charged. No amounts are aligned with the monetary columns for this row. The surname spelling is uncertain (read as 'Monsonthorne' tentatively)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Wm. Athey for Instruction --",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read as '02' pounds, '10' shillings, '0' pence. Vertical alignment with other rows is clear; handwriting of name and purpose is legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Wm. Binnett for Rensington --",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amounts read as '02' / '01' / '8'. Surname/place uncertain (appears as 'Binnett' and 'Rensington'); letters are slightly cramped but numeric columns are legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "1788. Novr. 27.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Left margin date marking a new section. Clear year and day-month; no amounts associated."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered section heading. Legible Latin phrase indicating miscellaneous payments."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Brinkley Brewer his Bill --",
+      "amount_pounds": 8,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '08' and shillings '5' are clear. Pence looked like '4' with a small mark adjacent; interpreted as whole pence 4. There is some smudging near the pence column so fraction is left blank."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "To Messrs. Brewers & Const. (Tyers?) & Guard --",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description is abbreviated and a few words uncertain (read as 'Brewers & Const. (Tyers?) & Guard'); numeric columns read '02' / '13' / '8' fairly clearly, but the description uncertainty lowers confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "To Thos. Todd his ??? of superannuation --",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Surname 'Todd' clear; intervening words are cramped/abbreviated. Monetary columns read as '05 0 0' aligned under the vertical rules, but the text line has moderate ambiguity."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Subscr. to Septuag. Vers. of J. T. by order --",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Appears to be subscription payment. Columns read as '05' / '05' / '0' clearly; abbreviated words (Septuag. vers.) interpreted from Latin/ledger context."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Tho. Todd for oil & lamplighting --",
+      "amount_pounds": 4,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'oil & lamplighting' clearly. Amounts '04' / '09' / '3' are well aligned and legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "To Robt. Chandler his Bill in full --",
+      "amount_pounds": 12,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Surname 'Chandler' legible. Monetary column is somewhat smudged; there appears to be a '12' in pounds and '1' in shillings but the pence looked like '12' in the scan (which would be invalid). I have interpreted that mark conservatively as pence '2' to keep pence within valid range; this is a low-confidence normalization."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "To Wm. Battery & Bursars Books --",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description uncertain in one surname ('Battery'/'Bathery'); monetary columns read clearly as '00' / '15' / '6'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Garden & yds. / sundries --",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description abbreviated ('Garden y'th' / 'sundries'); amounts '00' / '15' / '0' are properly aligned and legible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Robury for Book-binding --",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Payment for book-binding; numeric columns read as '00' / '05' / '0' clearly. The first word of description ('Robury') is faint but inferred from context."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Teasler Slater & Plasterers in full --",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Multiple trades listed; 'Teasler' and 'Slater' partly uncertain but readable. Amounts appear as '5' / '14' / '3' though the hundreds column and pence strokes are slightly blurred."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Watchman of the Mile Parish --",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short description and small amounts '00' / '02' / '6' are clear and well aligned."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pavier, Smith, in Reeve of Shed --",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description words are abbreviated and uncertain ('Pavier/Parer/Player'), but amounts '02' / '02' / '3' sit clearly in the three monetary columns."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Townsend, mason, in full --",
+      "amount_pounds": 16,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name and occupation legible. Monetary columns read '16' / '18' / '3' clearly; shillings 18 within valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Wine Oct. 5 & Novr. 2. --",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short descriptive date and items (wine); amounts '01' / '07' / '6' are clearly written."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Colln. for a poor Door by order --",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Abbreviation 'Colln.' (collection) is clear. Amounts appear as '05' / '05' / '0' aligned to the rules."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr. Fletcher for 3 Com. Prayers etc. --",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Clerical payment for prayers; 'Mr Fletcher' clear. Monetary columns read '01' / '13' / '9' though the abbreviations in the description slightly reduce confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Pride, cooks, for Novr. 2d --",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description likely for 'cooks' on Nov 2; '19' shillings is legible but unusually high for a small item, hence moderate confidence in interpretation of the description though numeric columns are readable."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "The same for St. Stephen --",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Phrase 'The same' references previous line(s). Numeric columns read '03' / '19' / '6' clearly, description context inferred from previous rows."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "The same for Janry. 1st. --",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Again 'The same' phrase. Amounts '10' / '09' / '9' are legible. Description abbreviation 'Janry.' is clear enough."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "The same for Twelfth Day --",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short line; numeric columns '01' / '03' / '1' are clear and unambiguous."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Bolton Chamber in full --",
+      "amount_pounds": 17,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Name 'Bolton Chamber' readable; the rightmost pence figure is small and slightly smudged — interpreted as '2' pence to keep within valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Cards & punch for Gaudies --",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and numerals are clear: '01' / '10' / '4'. 'Gaudies' (festive entertainments) inferred from context."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Napkins &c hemmed & marked --",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Short housekeeping expense; numeric columns read '00' / '05' / '0' with good clarity."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Fruit & other Gaudies --",
+      "amount_pounds": 0,
+      "amount_shillings": 19,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear; amounts '00' / '19' / '7' legible. Shillings at maximum typical range but valid."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Coffee & Tea on Jan. 1st. --",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Item and date clear; amounts '00' / '15' / '4' are distinct and aligned."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Wine for Gaudies --",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.55,
+      "notes": "The pence area contains a small flourish after the digit that resembles a halfpenny symbol ('ob'). I read the numerals as '00' / '03' / '2' with a halfpenny, hence pence_fraction 0.5. The flourish is faint so confidence is moderate."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Peer's Carpenters in full --",
+      "amount_pounds": 33,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.65,
+      "notes": "Large payment: '33' pounds and '15' shillings are clear. The pence column shows '3' with a trailing small loop/mark interpreted as three-farthings (0.75). The fraction is faint but consistent with a '3q' style mark in this manuscript."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Glasses for Hall Table --",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Simple line item; amounts '00' / '12' / '0' aligned and clear."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Law Charges in full --",
+      "amount_pounds": 26,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Monetary columns '26' / '11' / '9' are distinct and unambiguous; 'Law Charges' reads clearly."
+    },
+    {
+      "row_index": 39,
+      "row_type": "entry",
+      "description": "Landmans Cow Price --",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Small payment for a cow; numeric columns '00' / '01' / '0' are clear though the first word of description ('Landmans') is slightly worn."
+    },
+    {
+      "row_index": 40,
+      "row_type": "total",
+      "description": "Summa tot. hujus paginae",
+      "amount_pounds": 234,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.75,
+      "notes": "Bottom right running total. Pounds '234' and shillings '8' are legible. Pence read as '10' with a small fractional mark resembling a farthing ('1/4' or 0.25) — interpreted as 10 pence and a quarter (0.25). Mark is faint but fits typical ledger notation for 1/4."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

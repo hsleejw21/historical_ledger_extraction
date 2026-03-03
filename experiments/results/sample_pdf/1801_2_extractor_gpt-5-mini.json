@@ -1,0 +1,361 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Henrici Richards",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Title at top of page, clearly written and legible. No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Collegii Exoniensis Rectoris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second line of heading, clear Latin script; no monetary values present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "a secundo die Novembris A.D. 1801",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date line is legible though small; reads clearly as the starting date for the account period."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum A.D. 1802",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Second date line readable but the word 'revolutum' (or similar Latin) is slightly less clear; no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Section heading below the main title; script is legible though spelling is in older Latin form."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Money Rents, fixed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section label introducing a group of fixed money rents; no monetary entry on this line itself."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Gwinear Rectory, a year & half",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amount aligned under pounds column as '90' with no shillings or pence marks. Clear vertical alignment and digits."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kidlington (Capon & Brown)",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '2' and shillings '15' are clearly written; no pence indicated. Parenthetical names legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton, five years",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '10' clearly in pounds column; no shillings/pence. Description and term 'five years' readable."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Kemp, St. Martin's, three years",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Pounds '5' and shillings '14' are clear. 'St. Martin's' script legible; no pence noted."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Padbury, St. Mary Magd. three years",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Pounds '4' and shillings '5' clearly visible; abbreviation 'Magd.' for Magdalen slightly condensed but readable."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Trelhewinn, a year",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '6' appears distinctly in pounds column; description 'a year' readable. No shillings or pence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Back-Gate, Coppin",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '6' clear. The tenant name looks like 'Coppin' (handwriting could be 'Coprin/Coppin'); no shillings/pence."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Leverettis Close, S.t G.P.T.",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Columns align to show £6 10s 10d. The place/name 'Leverettis Close' is legible; small abbreviation 'S.t G.P.T.' is preserved as written."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Mixed Rents, variable",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "New section header clearly written; introduces the variable (mixed) rents block."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "So. Hawrington Rectory",
+      "amount_pounds": 255,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large pound amount '255' is clear. Shillings '19' and pence '9' align and are legible in the columns."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Yardington D. & Tent",
+      "amount_pounds": 65,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Pounds '65' and shillings '19' clear. Pence shows '1' with a small trailing half-penny mark (written as '1 1/2'); interpreted as 1 + 0.5. Handwritten halfpenny mark is smaller than main digits, slight ambiguity but context supports 1½d."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Chace Hill",
+      "amount_pounds": 19,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts read as £19 7s 2d; digits are well aligned in their respective columns and clearly formed."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Mills",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds '28' and shillings '6' are clear. Pence looks like '10' with a small trailing mark that resembles a halfpenny symbol; the small mark could be noise or a half mark. Chosen 10d + 1/2d with moderate confidence because the mark is ambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garrington, Sadler, three years",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Pounds '35' and shillings '1' clear. Pence appears as '11' with a small superscript fraction that reads like '3/4' (three farthings) — interpreted as 11 + 0.75d. The fractional mark is small but consistent with other quarter/three-quarter notations on the page."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "— do Prickett",
+      "amount_pounds": 14,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.65,
+      "notes": "Description uses a dash indicating same heading (rendered here as '— do Prickett'). Pounds '14' and shillings '2' clear. Pence reads '5' with a halfpenny mark ('5 1/2') — the half mark is smaller and somewhat faint, so confidence is moderate."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tinkinhull, Napier, three years",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "£29 6s 1d reads cleanly; the digits align well in the pounds/shillings/pence columns and fractional marks are absent."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Clifton. Terry",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.72,
+      "notes": "Pounds '12' and shillings '19' are clear. Pence reads '11' with a halfpenny mark (written as '11 1/2'); the half mark is slightly condensed but consistent with other halfpennies on the page."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bensington",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds '11' and shillings '2' readable. Pence looks like '4' with an attached small halfpenny mark; the fraction is faint and the tenant name is somewhat cramped, so confidence is moderate to low."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "So. Newington Tent",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Pounds '4' and shillings '5' clear. Pence appears as '1' with a small superscript that resembles '3/4' (three farthings) — the fractional mark is small and slightly blurred; assigned 0.75 with moderate uncertainty."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "607 15 4 1/4",
+      "amount_pounds": 607,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Subtotal line for mixed rents; large clear numbers in the totals area read as £607 15s 4¼d (quarter-penny/farthing shown as '1/4'). Alignment with the totals ruling line is unambiguous."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Recepta anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "New section header for receipts of the present year; wording is legible though slightly stylized."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Gwinear Rectory; half a year",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads clearly as £30 0s 0d; descriptor 'half a year' legible. Vertical alignment confirms columns."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Kidlington, (Capon & Brown)",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.93,
+      "notes": "Mirrors earlier Kidlington entry; pounds and shillings read as 2 and 15 respectively and are clear in the line."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "- Do Vicarage",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Dash indicates 'ditto' from above; amount clearly £4 0s 0d. Short description and amount alignment are readable."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "- Do Augmentation",
+      "amount_pounds": 151,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Reads as '— Do Augmentation' with amount £151 10s 0d. The dash indicates continuation; digits are large and clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "188 5",
+      "amount_pounds": 188,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final subtotal for the 'Recepta anni presentis' block reads as £188 5s. The total line is clearly underlined/presented as a sum and the digits are legible."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

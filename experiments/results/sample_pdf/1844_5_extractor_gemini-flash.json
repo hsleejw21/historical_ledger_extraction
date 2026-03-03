@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "B/fwd",
+      "amount_pounds": 676,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Yrs Income Tax",
+      "amount_pounds": 56,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Tradesmen's bills viz Hages",
+      "amount_pounds": 16,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Vincent Herald",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Vincent Herald' is clearly legible. Amounts are clear and align correctly in shillings and pence columns, with no pounds value recorded."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gile & Ward",
+      "amount_pounds": 49,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Evans",
+      "amount_pounds": 38,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dudley & Bowler",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Sunney",
+      "amount_pounds": 24,
+      "amount_shillings": 14,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Sunney' is clearly legible. Amounts are clear and align correctly, no pence recorded."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Watts",
+      "amount_pounds": 30,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Beaton",
+      "amount_pounds": 11,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Beaton' clearly legible. Amounts are clear and align correctly. 'Beaton' or 'Beaten' are possible, 'Beaton' selected as more common."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Cripps",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Roche",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Parker Bookseller",
+      "amount_pounds": 27,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Herbert & Embling",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Herbert & Embling' is clearly legible, 'Embling' is a clear reading of the script. Amounts clear and valid."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hickman",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Spiers",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The original document shows '4' in the shillings column and '17' in the pence column. Pence value '17' was invalid (>=12) per rules, so it was converted to 1 shilling and 5 pence. The shillings amount was then adjusted from 4 to 5. This interpretation maintains column alignment before conversion."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Common Room",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Perdue",
+      "amount_pounds": 8,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Perdue' clearly legible. Amounts are clear and align correctly."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lambert & Rawlings",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings digit '7' is somewhat ambiguous but '7' is the most plausible reading given typical script. Other details are clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Shrimpton Bridge Bothe",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The last word 'Bothe' is ambiguous in script; 'Books' or 'Booths' are also possibilities. 'Bothe' is a strong visual match. Amount is clear and valid."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sick on a/c of State",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is highly abbreviated and somewhat ambiguous. 'an of' was interpreted as 'on a/c of' based on common ledger abbreviations and contextual sense. Amount is clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Rentors Improved Stipend",
+      "amount_pounds": 100,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "First word 'Rentors' is legible, but could be 'Rutors'. 'Rentors' is more common for this type of entry. Amount is clear and valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "D° D° allowance for Kitchen",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "D° Postage & Parcels",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Compensation to Fellows for dry fees",
+      "amount_pounds": 23,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The words 'dry fees' are somewhat ambiguous in the script; 'dry piece' is also a possibility, but 'fees' makes more contextual sense. Amount is clear and valid."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Balance on Drop Tax Due",
+      "amount_pounds": 11,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Drop' is a plausible reading but could also be 'Droop'. Contextually 'Drop Tax' seems more likely. Amounts are clear and valid."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Browning",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both description and amounts. Vertical lines for currency columns are unambiguous. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Ingleby agency on 2 yrs 1843.44 Inbetween & Rent.",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The latter part of the description 'Inbetween & Rent' is difficult to decipher due to faded ink and cursive script, 'Inbetween' is a best effort reading. The year '1843.44' is clear. Amounts are clear and valid."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This is a final total line. The original pence value was '12', which was invalid (>=12) per rules. It was converted to 1 shilling and 0 pence, and the shillings amount was adjusted from 12 to 13 to comply with validation rules. The numbers are otherwise clear and aligned."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

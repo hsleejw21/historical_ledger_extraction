@@ -1,0 +1,217 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1801",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description, type, and absence of amounts, which is visually confirmed."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description, type, and absence of amounts, which is visually confirmed."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bursar 1st Payment",
+      "amount_pounds": 797,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's value. Visual verification confirms the amount in the pounds column is clearly '797'. gpt-5-mini's extraction of '737' for pounds is incorrect; the digit is distinctly a '9', not a '3'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 754,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 716,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do Entrances at £5 1st 14",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the description 'Do Entrances at £5 1st 14', which is a clearer and more accurate reading than gpt-5-mini's 'acts'. Both extractors correctly identified the amounts as £70 0s 0d. gemini-flash's note also correctly identifies the implied calculation (14 * £5 = £70)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2nd 21",
+      "amount_pounds": 105,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed. gemini-flash's note correctly identifies the implied calculation (21 * £5 = £105)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3rd 13",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed. gemini-flash's note correctly identifies the implied calculation (13 * £5 = £65)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Small Fees at 5 1st 15",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed. Both notes correctly identify the implied calculation (15 * 5s = 75s = £3 15s)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "2nd 20",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed. gemini-flash's note correctly identifies the implied calculation (20 * 5s = 100s = £5)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3rd 12",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Both extractors agreed on the description and amounts, which are visually confirmed. gemini-flash's note correctly identifies the implied calculation (12 * 5s = 60s = £3)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Small Fees Depozit at 2.6 1st 12",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Small Fees Depozit at 2.6 1st 12'. gpt-5-mini's 'Depregat' reading is less accurate, and its separation of '2.6' as a standalone row (its row 13, which was dropped) was an incorrect interpretation of the ledger structure. The calculation (12 * 2s 6d = 30s = £1 10s) matches the ledger entry and gemini-flash's note."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "2nd 19",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the amount is £2 7s 6d. The calculation provided by gemini-flash (19 * 2s 6d = 47s 6d = £2 7s 6d) matches the visual reading. gpt-5-mini's extraction of £2 6s 0d is incorrect."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "3rd 1",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the pounds column is empty, and the amount is 2 shillings 6 pence. The calculation provided by gemini-flash (1 * 2s 6d = 2s 6d) matches the visual reading. gpt-5-mini's extraction of £2 6s 0d is incorrect."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Gate Bill -",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description 'Gate Bill -' and the amount is 8 shillings 8 pence. The text '88y' to the left of the amount columns is an annotation and not part of the monetary value, as correctly identified by gemini-flash. gpt-5-mini incorrectly extracted pounds as '88'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 276,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the pounds amount is '276'. gpt-5-mini's extraction of '246' for pounds is incorrect; the digit is clearly a '7', not a '4'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Javin Rent of Cottage and Field 1 year to Midsummer 1881. on acct. Cottage £20. Field £16 per Annm",
+      "amount_pounds": 31,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms the description, including 'Javin Rent' (vs gpt-5-mini's 'Tavern Rent') and the year '1881' (vs gpt-5-mini's '1801'). The multi-line detail 'on acct. Cottage £20. Field £16 per Annm' is clearly visible. gemini-flash's note acknowledging the discrepancy between the descriptive total (£36) and the extracted amount (£31) is an excellent observation, reflecting careful analysis."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2860,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the pounds value. Visual verification confirms the total pounds is '2860'. gpt-5-mini's extraction of '1860' for pounds is incorrect; the first digit is clearly a '2', not a '1'. Both extractors correctly identified the shillings, pence, and empty description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 9,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

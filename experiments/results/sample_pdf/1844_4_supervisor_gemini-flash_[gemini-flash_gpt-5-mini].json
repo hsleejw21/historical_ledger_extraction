@@ -1,0 +1,437 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 145,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for amounts and row type. (Decision Protocol Step 2)"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Spiers an acck book for Howe & Gifford Schollars",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and representing absent pounds as an empty string. Confirmed amounts by visual verification. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stringer for Stamps",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and representing absent pence as an empty string. Confirmed amounts by visual verification. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hild Carpenter. repairs at Camposfield",
+      "amount_pounds": 9,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description. Amounts confirmed by visual verification and consensus. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "For Newport Provisional Stipend & 2 Day",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and representing absent pence as an empty string. Amounts confirmed by visual verification. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Nattgoon AnscourTax (struck through, illegible)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "gpt-5-mini correctly identified a struck-through line with no amounts, which gemini-flash missed. Refined description based on visual inspection. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Shrouds for a pump",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini, which correctly identified this row's description and amounts. gemini-flash had a severe segmentation error for this and subsequent rows. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Subscription to Tideford Church St Germans",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's amount and row type as accurate. Corrected description 'Tileyford' to 'Tideford' and used empty strings for absent shillings/pence. gemini-flash had incorrect description. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Proportion of expense of Tith Commutation at Garsington",
+      "amount_pounds": 9,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry as it correctly combined the description and extracted amounts. Corrected description for 'Garsington' and used empty string for absent pence. gemini-flash incorrectly split this entry and missed the amount. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mr Rawlinson journey to Town on Coll business",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's amounts, which are visually correct. Corrected description 'Tor' to 'Town' and used empty string for absent pence. gemini-flash had incorrect amounts due to earlier segmentation errors. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Harris Kingsbridge bill for exchange at Woodleigh",
+      "amount_pounds": 11,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry as it accurately captured the description and amounts. Used empty string for absent pence. gemini-flash had incorrect amounts. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Mr King Solicitor Blandford bill relating to Shillingstone exchange",
+      "amount_pounds": 60,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's entry as it accurately captured the description and amounts. Used empty strings for absent shillings/pence. gemini-flash had incorrect amounts. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr Ker Hand transcribing & collating Anth Charten de I the Cle",
+      "amount_pounds": "",
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors. Combined description from gemini-flash (its rows 14 & 15). Visually verified the amount '15' is in the shillings column. gpt-5-mini incorrectly placed 15 in pounds; gemini-flash correctly identified 15s but split the description. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kimber allowance for poles",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for amounts, as empty strings are preferred for absent values. Both extractors correctly identified the amount as 16 shillings. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cooper repairs at Yarnton",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for amounts, as empty strings are preferred for absent values. Both extractors correctly identified the amount as 2 pounds 15 shillings. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Faulkner allowance for repairs viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, row type, and empty amounts. (Decision Protocol Step 2)"
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Carpenters bill £3.8.5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors. Description extracted accurately from image. Visually confirmed no amount in main columns; the amount £3.8.5 is part of the description text itself. Both extractors incorrectly placed this amount into the main amount fields. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Seagbrooks",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Both extractors correctly identified the amount as 6 shillings. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Painter",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the cleaner description. Amounts are confirmed by visual inspection and match both extractors. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Thatchen",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash, which correctly read the amount as 1£ 1s 9d. gpt-5-mini incorrectly read 1 shilling 9 pence as 19 shillings. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Subtotal (Faulkner repairs)",
+      "amount_pounds": 12,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini, which correctly identified this subtotal row and its amounts. gemini-flash missed this row. Used empty string for absent pence. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr Newport Provisional Stipend to Midson",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mr Harrington repairs St Newton Chancel",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash, which correctly read the shillings amount as 17. gpt-5-mini incorrectly read it as 7. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Graff repairing Chasten",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr Rez joining to Wootton",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Habbragoons AmscourTax (struck through, illegible)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "gpt-5-mini correctly identified a struck-through line with no amounts, which gemini-flash missed. Refined description based on visual inspection. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Colonial Bishoprics 3d Instalment",
+      "amount_pounds": 25,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Mr Newport Provisional Stipend & Church",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Mr Ross allowance at 5/- pr week 44 weeks Jany 1843 to Oct 28 1844",
+      "amount_pounds": 11,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's combined description as more accurate for the full entry. Corrected '5/7' to '5/-' in description and used empty strings for absent shillings/pence. gemini-flash incorrectly split this row. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "Mr Hastings Surveyor viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for the accurate description 'Surveyor'. Both extractors correctly identified it as a header with no amounts. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Bills paid by hi at Gosington £59.2",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash, which correctly identified that the amount is stated within the description text and not present in the main ledger columns. gpt-5-mini incorrectly extracted amounts into the main columns and misread the pence/shillings. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "General bill per Pro Hn - 43.3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors. Description extracted accurately from image. Visually confirmed no amount in main columns; the amount '43.3.4' is part of the description text. Both extractors incorrectly placed this amount (or another total) into the main amount fields. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Subtotal (Hastings bills)",
+      "amount_pounds": 102,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini, which correctly identified this subtotal row and its amounts. gemini-flash missed this row by merging its amount into the previous line's description. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Mr Burden on acch of Shillingstone exchan",
+      "amount_pounds": 58,
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description and preferred empty strings for absent values. Amounts confirmed by visual inspection. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Mr Welch Steward - Annual bill £38.5.3",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's approach for correctly identifying no amount in the main columns. Corrected description 'Walsh' to 'Welch' and pence from '.8' to '.3' in the description text as per visual. gpt-5-mini incorrectly extracted amounts into the main columns. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Charges in regard to Titz chain £9.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Overrode both extractors. Description extracted accurately from image. Visually confirmed no amount in main columns; the amount '£9.4' (9 pounds 4 shillings) is part of the description text. Both extractors incorrectly placed amounts into the main amount fields. (Decision Protocol Step 5)"
+    },
+    {
+      "row_index": 37,
+      "row_type": "total",
+      "description": "Subtotal (Burden, Welch & Charges)",
+      "amount_pounds": 127,
+      "amount_shillings": 9,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini, which correctly identified this subtotal row and its amounts. gemini-flash missed this row by merging its amount into the previous line's description. Description generalized for clarity. (Decision Protocol Step 4)"
+    },
+    {
+      "row_index": 38,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 676,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for its accurate representation of the blank description field for the final total, as per the ledger image. Amounts were consensus across both extractors. (Decision Protocol Step 5)"
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 15,
+      "rows_by_visual_override": 21,
+      "rows_added_missing": 5,
+      "rows_dropped_extra": 0
+    }
+  }
+}

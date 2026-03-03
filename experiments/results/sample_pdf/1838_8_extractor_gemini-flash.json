@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the year. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptorium et Solutionum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the main title. No monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2do die Novembris A.D. 1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the date. No monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Recepta — Arrearagia",
+      "amount_pounds": 158,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. Pence fraction '¾' is clearly 0.75. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Anni presentis",
+      "amount_pounds": 123,
+      "amount_shillings": 4,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1755,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3036,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear numeric values for this subtotal line. Vertical lines unambiguous. Pence fraction '¾' is clearly 0.75. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 293,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 3330,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear numeric values for this total line. The '£' symbol is present to the left of the amount. Vertical lines unambiguous. Pence fraction '¾' is clearly 0.75. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Soluta Domno. Rectori Schol. et Off.",
+      "amount_pounds": 698,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 401,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1480,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and numeric values. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 2579,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric values for this total line. The '£' symbol is present to the left of the amount. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "Ex Receptis",
+      "amount_pounds": 3330,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Description extracted as 'Ex Receptis'. The amount '3330.13.9¾' is explicitly written in the description area for this calculation line, not aligned in the main columns. Extracted as structured amounts. Pence fraction '¾' is clearly 0.75. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 2579,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description extracted as 'Deductis Solutis'. The amount '2579.17.6' is explicitly written in the description area for this calculation line, not aligned in the main columns. Extracted as structured amounts. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Restat.",
+      "amount_pounds": 750,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Description extracted as 'Restat.'. The amount '£750.16.3¾' is explicitly written in the description area for this calculation line, not aligned in the main columns. Extracted as structured amounts, including the '£' symbol from the description being implicitly part of the pounds value. Pence fraction '¾' is clearly 0.75. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the header text. No monetary amounts."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "J. L. Richards Rectorem.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "W. Seale. Senescham",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Gul: Palener. A.M. Proest. Senior.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "G. Dawson Burs. Junior.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "C. L. Cornish. S.Ch.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "John Leigh A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the entry text. No monetary amounts."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

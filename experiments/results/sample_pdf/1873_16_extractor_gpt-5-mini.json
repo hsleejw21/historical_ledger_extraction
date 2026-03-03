@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear printed/handwritten year at top of page; no amounts present and very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear heading underlined on the page; no currency amounts associated."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "brought up",
+      "amount_pounds": 3395,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large clear numbers in the leftmost pounds column (3395) with 1 s and 10 d in the shillings/pence columns; alignment with vertical ruling clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hayes",
+      "amount_pounds": 12,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The two numerals to the right of 'Hayes' align under the pounds and shillings columns respectively (12 and 6). Pence appears blank (interpreted as 0). Slight ambiguity because pence column is empty but pounds/shillings alignment is consistent with neighboring rows."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Wyatt",
+      "amount_pounds": 14,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers read as '14 7 0' with clear placement across the three columns; pence appears as a zero and is legible. Handwriting for name is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Duke yearly Act",
+      "amount_pounds": 12,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Three numbers visible (12 7 11). Pence '11' is slightly cramped but aligned in the pence column; description text is somewhat stylised but readable."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "(C. Room. Wine Bottles)",
+      "amount_pounds": 68,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description in parentheses; amounts 68 (pounds), 10 (shillings), 0 (pence) are large and clearly aligned in the three columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cheque Book",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Only two small numbers appear at the right of this line and they align with the shillings and pence columns (8s 4d). No pounds recorded (leftmost column blank)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Local Rate Composition Fund",
+      "amount_pounds": 42,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Three-column amount 42 10 6 is well aligned and clear; description is legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Synodals - Bk of Salisbury to Day 14. 3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Text is readable as a ledger note but there is no distinct three-column amount on the same line. The small notation '14. 3.4' could be part of the text rather than column amounts; uncertain alignment with numeric columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "see abovelow. Chapter of the Mich ??? p.o. 2",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Handwritten marginalia immediately under the Synodals line; much of the script is faint and abbreviated. No clear separate amount aligned in the £ s d columns — treat as an entry (sub-item) with no amounts. Low confidence due to faded/abbreviated text."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Long Witham",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Grouped lines with a closing brace appear to total to 1 3 7 at the right. The place name reads as 'Long Witham' (or 'Witnam'); numbers 1 3 7 are clear in the three columns but the exact reading of the place is moderately uncertain."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "9:4½ order one ? from one mechanics 1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Small handwritten narrative under the bracket associated with 'Long Witham' group. No distinct amount in the £ s d columns. Handwriting and abbreviations are ambiguous; treated as explanatory sub-line with no amount."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "3 8½ one yr. pension due Easter 1874",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "This appears as part of the bracketed explanatory lines (contains numbers '3 8½'), but no clear alignment into the main £ s d columns. The fraction '8½' likely refers to shillings and halfpence in prose; because it is not aligned to the vertical ruling, no separate column amounts are recorded here."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Insurance Norwich Union & Mail 1875",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "To the right of this line '10 6' is visible and aligns under the shillings/pence columns (10s 6d). Pounds column blank. The insurer name is legible though the exact suffix 'Mail' could indicate a policy type; moderate confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 14,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "The amount '14 6' to the right aligns roughly under the pounds and shillings columns. The word 'Bampton' is readable; some slight smearing of the numerals reduces certainty whether those are pounds/shillings or shillings/pence, but pounds/shillings is most consistent with neighboring rows."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Benson £30-",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "The description shows 'Benson £30-' in the handwriting, but the numeric amount printed to the right looks like '2 1 0'. There is textual ambiguity: the written '£30-' may be a note of insured sum while '2 1 0' is the payment. Because of discordance between text and right-hand numerals and some smearing, confidence is low; recorded the visible column digits (2 1 0)."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Frize Farm £20",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Handwritten 'Frize Farm £20' visible in the description. To the right there is a small grouping of numbers; interpretation is unclear. I have low confidence: the visible shorthand numerals could correspond to '2 1 0' or similar; the pence fraction reading is uncertain. (Because fractional field permits only 0.25/0.5/0.75 and none matches here, pence fraction left blank.)"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Mill New House to do",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear entry text 'Kidlington Mill. New House to do' with amount '4 2 3' clearly aligned in the three columns; numbers within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Kidlington Merry from 3 Augt 74 to Mid 1875",
+      "amount_pounds": 11,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description legible and the numeric '11 3' is visible and aligns under pounds and shillings columns; pence blank (interpreted 0). Slight uncertainty in the surname 'Merry' but amount is clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Merton Cottage from April 24/75 to D[ec] 24/75",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Nice clear small amount '2 9' visible at right (2 pounds 9 shillings). Date range in description is legible; alignment with numeric columns is unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Hawkesleys Bill. Not science declare R",
+      "amount_pounds": 14,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is somewhat scribbled; amount reads '14 14 6' across the three columns. Shillings value 14 is within valid range. Moderate confidence due to slightly unclear handwriting in description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "loan to Rector - partly to rebuild",
+      "amount_pounds": 75,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Large clear amount '75 0 0' at right aligned in the £ s d columns; description readable and consistent with loan entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Synodal S Newton to Mid Mar 1874",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Text 'Synodal S Newton to Mid Mar 1874' is partially abbreviated; amount '14 0 0' is visible and aligned. Moderate confidence due to abbreviation of name."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Whitehead 1/2 yr Int on £200 Mid 1874",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description referring to interest is legible; amount '3 19 4' clearly aligned in the three columns. All numeric values are valid and distinct."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3638,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final boxed total at bottom right reads clearly as '3638 7 9' and aligns with the three currency columns; high confidence."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

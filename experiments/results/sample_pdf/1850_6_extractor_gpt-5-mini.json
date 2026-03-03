@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Polinte Varia - Brought over",
+      "amount_pounds": 2625,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Title at top of page with a carried-over amount. Pounds '2625' and shillings '12' are clearly aligned in the pounds/shillings columns; pence digits look like '11' though the final digit is slightly cramped by the vertical ruling line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Mr Shapert Provisional Stipend to L. Day",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible though surname spelling uncertain ('Shapert' read tentatively). Numeric columns are well aligned showing £12 10s 0d; values validate (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gile & Ward. painting for Yarnton Chancel",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Names and purpose clearly legible. Amount columns unambiguous: £3 5s 0d."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Wm. Shreector for Gate & Chimney Piece",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount £17 0s 0d is clear. The name of the payee is less certain (handwritten, read as 'Wm. Shreector'); chosen reading based on letter shapes but other spellings possible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Fathers for repairs in Yarnton Chancel",
+      "amount_pounds": 2,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount columns align to £2 8s 6d; digits clear and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mr Hastings balance on works at",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This line is a descriptive lead-in (no amount in the three money columns). The following line contains the actual amount for the full description; vertical brace groups these two lines."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Campfield and half cost of measuring",
+      "amount_pounds": 132,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Continuation of previous line; the amount £132 15s 0d is well aligned and clear. The brace marks grouping with the prior descriptive line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Bishop of Guinea - Diocesan College",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description mostly legible though 'Guinea' could be another place-name; amount reads clearly as £25 0s 0d."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Abingdon Church extension Fund",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description and amount; £20 0s 0d aligned in the money columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Bills for a door at South Newington",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Amount appears as '1 4 4½' — interpreted as £1 4s 4½d (halfpenny indicated by small loop after pence). Description and numeric alignment are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Receipt Stamps",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No pounds digit (blank) then '10' in shillings column and '0' pence — interpreted as £0 10s 0d. The leading blank pound is visible as a small mark."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Shrubb. half of tile for zinc covering",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description partly contracted 'Shrubb.'; amount appears as £7 8s 0d. Handwriting of the description is moderately unclear but the numeric columns are readable."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr Anstis - draining round Chancel, Kidlington",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name read as 'Mr Anstis' (letters clear enough). Amount aligned as £2 0s 0d."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Loan to ye Rector - half of 3rd Instalment",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description and a large, unambiguous amount £50 0s 0d."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bills at Merton for Thatching",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Amount column reads '6 10 ½' — interpreted as £6 10s and a halfpenny (0.5d). The halfpenny symbol is small and could alternatively be part of a pence digit; chosen interpretation based on spacing (no whole pence digit present)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Two Do at Do for Gates",
+      "amount_pounds": 12,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Reads '12 7 2' clearly in the money columns; 'Two Do at Do' indicates repeat work at same place. All currency digits within valid ranges."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Timber for Poles",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "No pound amount shown (blank) then '16' in shillings column and '0' pence — interpreted as £0 16s 0d. Description clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Mr Shaparts Provisional Stipend to Miss ?",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "A second provisional stipend entry with same amount as earlier. Handwriting for the recipient ('Miss ...') is indistinct; amount £12 10s 0d is clearly aligned."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Chisickard, Bill for Thatching",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Surname uncertain (read as 'Chisickard'); the amount '1 19 0' is clear in the money columns (£1 19s 0d)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do: Allowance to Clarke on Quitting Cottage",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Label 'Do:' indicates continuation; amount is shown as shillings '15' with no pounds — taken as £0 15s 0d. Description legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Franklin, Clifton Terry, Bill for bricks",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Multiple surnames are slightly cramped but readable. Amount columns read £7 9s 0d; digits clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr Haddon, fee for opinion in two cases submitted to him",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description but legible; amount £5 5s 0d is clear and aligned."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Bill for repairs at Merton Vicarage & School",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and amount clear; reads £1 12s 6d. Vertical ruling lines used to confirm columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Property Tax on the 2d half year ending April 1850 - The Gosford Tithes having been charged to Little on preceding 2d",
+      "amount_pounds": 29,
+      "amount_shillings": 18,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Long descriptive line; some words uncertain ('Gosford Tithes' and phrase at end). Amount '29 18 2' is clearly aligned as £29 18s 2d."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Tile for repairs at Campfield & Kidlington",
+      "amount_pounds": 53,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible; amount reads £53 19s 3d. All numeric columns clear and valid."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Honor - lead Gutters - Stable at Campfield",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description text (first word read as 'Honor' or 'Hono(u)r') is uncertain; likely 'lead gutters' is correct. Amount £12 10s 6d is readable but the heading letters are blotchy."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3044,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final grand total at bottom right, clearly written as '3044 13 6'. No description text on this line; numeric alignment is unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

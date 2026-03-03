@@ -1,0 +1,452 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Lista Scholari ... (top title - partially obscured)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Top-of-page title is handwritten and partly cropped; letters read as 'Lista Scholari' but the following word is unclear. No monetary figures on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Long Wittenham Div.",
+      "amount_pounds": 9,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers at far right clearly read as '9 1 9' aligned in the £ s d columns. Description handwriting legible as 'Long Wittenham Div.'"
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Taylors Five",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount appears as '3 3 7' (pence '7' slightly smudged but consistent with digit shape). Description reads 'Taylors Five' though final letter could be an 's'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rymans do",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear numeric '2 0 10' in the £ s d columns. 'Rymans do' (ditto) is legible in the description."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Barretts do",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts read cleanly as '2 12 7'. Description 'Barretts do' is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hodges do",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads unambiguously as '2 0 0'. Description 'Hodges do' is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "Soluta Vona",
+      "amount_pounds": 18,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Centered label 'Soluta Vona' (heading/summary). Right-hand amount aligns with the three column lines and matches the sum of the five preceding entries: 9 1 9 + 3 3 7 + 2 0 10 + 2 12 7 + 2 0 0 = £18 18s 9d. The pence column in image shows a figure close to '9' (some ink smudge) but arithmetic confirms 9d."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "A Bill to Dodd for Oil & Smiths last year",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'A Bill to Dodd for Oil & Smiths last year'. Amount '4 17 6' is clearly aligned in £ s d columns."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Corn Prices omitted last year",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Corn Prices omitted last year' is legible; amount reads '0 3 0' clearly."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Subscription to Dr Kennicott",
+      "amount_pounds": 8,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Subscription to Dr Kennicott'. Amount '8 8 0' clearly placed in columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Church Rate for North Building",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible as 'Church Rate for North Building'. Amount read as '0 6 8' (pence '8' clear)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Paviers Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description reads 'Paviers Bill' (handwriting could be 'Pavier' or 'Pavior'); amount '8 1 6' visible though the tens-shillings digit is slightly faint."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Table Linen to Mr. Fletcher",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Table Linen to Mr. Fletcher' is legible. Amount '6 6 0' is clearly written and aligned."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Subscription to the Church at Edinburgh",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description reads 'Subscription to the Church at Edinburgh'. Amount '6 6 0' clearly visible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "To Mr. Taylor for Agency",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'To Mr. Taylor for Agency' readable. Amount looks like '2 7 4' with digits aligned; pence '4' distinct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mr Sadler Progress money",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten description reads 'Mr Sadler Progrs/money' (abbreviated). Amount '0 6 0' clear; description has moderate ambiguity from abbreviation."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "To T. Draper Landtax at Langable",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'To T. Draper Landtax at Langable' (place name partly crossed/edited on page). Amount '1 12 8' reads clearly; some ink crossing near description reduces confidence slightly."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Mr Newbery serving Merton to L. Day",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Mr Newbery serving Merton to L. Day' legible. Amount '15 0 0' clear and unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "— attending L. Day Price Day",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Indented line beginning with dash appears to be a sub-item: 'attending L. Day Price Day'. Amount '0 5 0' aligned and clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lost by light gold pr. Coll. Clerk",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is faded/scribbled but reads approximately 'Lost by light gold pr. Coll. Clerk'. Amount '0 2 2' visible; description uncertainty lowers confidence."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Paid L. Wittenham Division",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large payment '200 0 0' clearly written in pounds column. Description 'Paid L. Wittenham Division' legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "J. Townsend 2 years Tax",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'J. Townsend 2 year Tax' readable. Amount '2 9 0' clear in the columns."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. Horne turning Gravel & Quadrangle",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Handwritten description 'J Horne turning gravel & quadrangle' (some letters faint). Amount '3 3 0' visible but the middle word has moderate ambiguity."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bible Clerk Michells Benefaction",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Bible Clerk michells Benefaction'. Amount '2 10 0' clear. The proper name 'Michells' is somewhat uncertain but text is legible."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr Newbery serving Merton to Wick",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "A second line for 'Mr Newbery serving ...' appears; amount '15 0 0' clear. Place name after 'to' is faded (read as 'Mik/ Wick' — chosen 'Wick' as best fit)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mr Walk(h?) prepare glass for Mr Sanford's Books",
+      "amount_pounds": 212,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is heavily abbreviated and smeared: reads something like 'Mr Walkhprepense glass for Mr Sanford's Books'. The amount '212 6 0' is legible and unusually large; name transcription uncertain."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Committing Woman for stealing",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Committing Woman for stealing' readable; amount '0 9 0' clear."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Mr Townsend for lighting & paving",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Mr Towns(end) for lighting & paving'. Amount '4 12 0' clearly aligned; slight uncertainty in surname spelling."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Mr Taunton prosecuting the Woman for stealing",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Mr Taunton prosecuting the Woman for stealing' legible. Amount '3 10 6' clear; the pence '6' distinct."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Dodds Bill for Oil Lighting Lamps &c",
+      "amount_pounds": 3,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Dodds Bill for Oil Lighting Lamps &c'. Amount shown as '3 13 0' and is clear though the double 'd' in Dodd is slightly stylized."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Ch. Curtis Battel Books &c",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Ch. Curtis Battel Books &c' is readable with minor uncertainty in 'Battel'. Amount '0 17 6' visible but the '17' shillings digit pair slightly crowded."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Mr Blake michells Benefaction",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads 'Mr Blake michells Benefaction'. Amount '2 10 0' clear. Name 'michells' appears consistent with earlier similar entry."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Paviers Bill",
+      "amount_pounds": 9,
+      "amount_shillings": 2,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second 'Paviers Bill' appears later; amount reads '9 2 10'. The description matches earlier but could be a separate bill; handwriting slightly cramped."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Millachip for two Cows",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description likely 'Millachip for two Cows' (first word unclear; read conservatively). Amount '1 13 0' clear in columns."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Hart carrying away rubbish",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Hart carrying away Rubbish' readable though 'Hart' could be a surname. Amount '1 6 8' is discernible but pence digit slightly faint."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "On Lucas Eatons Account",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Line reads 'On Lucas Eatons Account'. Amount '0 18 0' clear and well-aligned."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Lawrance for Candles",
+      "amount_pounds": 39,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Lawrance for Candles' legible. Amount appears as '39 7 6' (pounds '39' clear; shillings/pence read clearly)."
+    },
+    {
+      "row_index": 38,
+      "row_type": "entry",
+      "description": "Castle & Bocardo Prisoners",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description reads 'Castle & Bocardo Prisoners' (spelling of 'Bocardo' inferred from script). Amount '0 17 0' visible though the description letters are condensed."
+    },
+    {
+      "row_index": 39,
+      "row_type": "total",
+      "description": "577 5 9",
+      "amount_pounds": 577,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Bottom-right grand total clearly written as '577 5 9' in the £ s d columns. Numerals are large and clear; alignment with column rules unambiguous."
+    },
+    {
+      "row_index": 40,
+      "row_type": "header",
+      "description": "x Langables. Some curious sea reductus (footnote) (handwritten note)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Small footnote text at bottom left marked with 'x' and additional Latin/English notes; heavily abbreviated and partially obscured. No monetary amount present."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

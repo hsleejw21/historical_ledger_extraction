@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris. J. C. Jones.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title at top. Ink and lettering are legible, no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a 2do die Novembris. 1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Second title line beneath header; text is clear and contains no monetary figures."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "ad eundem diem revolutum. 1826.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Third title line is legible Latin dating; no amounts present."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Arrearagia Recepta.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading (Receipts in arrear). Text is centered and clearly a section label; no amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Money Rents, fixed.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subsection header for fixed money rents; no monetary values on this line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Gwinear Rectory. One year & half",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Right-hand columns show a clearly aligned '90 0 0'. Vertical ruling lines are unambiguous; digits very legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Montacute - quittance in full for 20 yrs",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads '5 0 0' clearly in the pounds/shillings/pence columns; wording 'quittance' is legible though old spelling."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Lad land - Norris. 1 yr",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings read as '9 6'. The pence column is blank/zero. The place-name is slightly uncertain (reads as 'Lad land' / could be 'Ladland'); amount alignment is clearer than the description."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Donnithorne - Do",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns read '6 13 4' fairly clearly. The description uses 'Do' (ditto) and the place name 'Donnithorne' is somewhat stylized but legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Pickford - Do",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Right columns read '1 13 4'. Small uncertainty on the exact reading of the first digit (looks like '1' clearly), but alignment and context support this."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Little Tew - Buck's. Do",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Columns appear to show '1 6 1' though the pence digit is small and the loop of the '1' is faint; chosen '1d' for pence based on alignment with vertical ruling."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Redeemed land Tax.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading for redeemed land tax; text is clear and there are no amounts on this line."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory - 1. yr",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads clearly as '20 0 0' in pounds/shillings/pence columns. Description and '1. yr' notation are legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dr Vicarage. Do",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount appears as '4 4 0' with clear separation between columns. 'Dr' (abbrev.) and 'Do' are legible; small uncertainty whether first word is 'Dr' or 'Dr.'"
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Yarnton Rectory. Do",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads '14 0 0' clearly in the three right-hand columns; description 'Yarnton Rectory' legible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Mixed Rents, Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header for variable rents. Text is centered and clear; no amounts on this line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "L. Whittenham Rectory. 1. yr",
+      "amount_pounds": 122,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Columns read '122 | 6 | 11 1/2'. Pence column clearly shows '11' with a halfpenny symbol (loop like 'ob') interpreted as 0.5. Alignment with vertical rules is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "S. Newington. Do",
+      "amount_pounds": 207,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Right-hand numbers read as '207 | 1 | 7 1/2' though the middle and pence digits are smaller and slightly fainter than the previous line. The halfpenny symbol after pence is visible but faint. The parish name is somewhat uncertain in orthography; appears as 'S. Newington' or similar."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Merton Rectory - Do",
+      "amount_pounds": 275,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Amount appears as '275 | 16 | 4 1/2' — the pence '4' and halfpenny loop are readable but the middle digit (shillings '16') is written tightly; moderate uncertainty on whether pence is '4' or '6', but chosen '4' based on alignment with the ruling lines."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Yarnton Do & Tenement. Do",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount reads '53 | 4 | 10' fairly clearly. Description contains 'Yarnton Do & Tenement', with the second 'Do' indicating ditto; text legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Clifton Ferry. Do",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Right-hand columns read as '9 | 10 | 7 1/2'. The halfpenny mark after the pence is visible but somewhat faint; chosen reading based on spacing and comparison with prior halfpenny marks."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Chase Hill - 3 yrs",
+      "amount_pounds": 35,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.65,
+      "notes": "Amount appears as '35 | 10 | 10' with a small 'q' or farthing mark after the pence (interpreted as a farthing = 0.25). The farthing symbol is faint and slightly ambiguous (could be a stylized loop), so confidence is moderate."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 864,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final column at bottom right shows a well-aligned total '864 | 2 | 8'. This line is used as an alignment reference and is legible; no fraction present. Description cell is blank on the page (total only)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

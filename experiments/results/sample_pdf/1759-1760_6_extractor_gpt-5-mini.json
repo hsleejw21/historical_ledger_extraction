@@ -1,0 +1,174 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepte anni 1758 Nov. 2do ad Annum 1759 ad vndem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top title line; handwriting partly cramped and the final word (\"vndem\"/\"adundem\") is abbreviated/unclear. Vertical ruling not relevant for this header. Chose this transcription as closest match to the visible letters 'Recepte anni 1758 Nov. 2do ad Annum 1759 ad vndem'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Diem resolutum Nov. 2d",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear short line immediately under the title. Letters 'Diem resolutum Nov. 2d' are legible; no amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Sicilict",
+      "amount_pounds": 656,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount column alignment used the underlined subtotal as reference. Pounds look like '656' though the first digit has some overwriting/smudging; shillings '1' and pence '5' are reasonably formed but pence tail slightly faint. Chose 656/1/5 as best reading; if the first digit were different it would still be a 6xx value but the middle two digits are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Debitum anni procedentis",
+      "amount_pounds": 239,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads clearly as 'Debitum anni procedentis'. Amounts align well in the pound/shilling/pence columns: pounds '239', shillings '8', pence '9' are sharp and pass currency validation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 925,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Subtotal line (no left-hand description visible, only the summed amounts under the two lines above). Numbers '925 / 9 / 10' are well-aligned under the three ruling columns and clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Deductis solutis",
+      "amount_pounds": 857,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Label 'Deductis solutis' is legible. Amounts '857 / 16 / 5' are clear and align to the pounds/shillings/pence columns; all currency values are in valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "Restant solvendo a",
+      "amount_pounds": 67,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final remainder line reads 'Restant solvendo a' with amounts '67 / 13 / 5'. There is an annotation to the right 'Dno computante' (see note) — amounts themselves are clear though the tiny abbreviation to the right is somewhat faint; currency validation ok."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "Restant solvendo a 67 13 5 Dno computante",
+      "amount_pounds": 67,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This row duplicates the visible line where the right-hand annotation 'Dno computante' is written beside the remainder. The annotation is faint and abbreviated; included here as part of the same physical line because it appears on the same horizontal level. Lower confidence because the abbreviation reading ('Dno computante') is uncertain."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Hic computus approbatus per presentes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered statement approving the computation. Handwriting clear and no amounts present."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Franciscum Upton Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "First signature line: 'Franciscum Upton Decanum' reads clearly as the dean's name and title. No monetary amounts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Jacobum Co[s]perat Burs. seniorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second signature line is partly unclear: first name looks like 'Jacobum' but the surname is faded/ambiguous ('Co[s]perat' is my best reading of the letter shapes). The title 'Burs. seniorum' (bursar of the seniors) is plausible from the abbreviation but the surname reading is uncertain."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Carolum Webber Bur: Junr",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Third signature line reads 'Carolum Webber Bur: Junr' (Bursar Junior). Surname 'Webber' is fairly clear; the 'Bur: Junr' abbreviation is legible though slightly cramped."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Hend: Mountsteven Moderat'r",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Fourth signature appears as 'Hend: Mountsteven Moderat'r' (abbreviated for 'Henry/Henderson'? and 'Moderator'). The surname and office are reasonably readable though the abbreviation forms reduce certainty slightly."
+    },
+    {
+      "row_index": 14,
+      "row_type": "header",
+      "description": "Benji Kennicott A.M.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Signature 'Benji Kennicott A.M.' is clearly written and legible. No amounts present."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Engr. May",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final signature line at bottom is short and somewhat ambiguous. Looks like 'Engr. May' or possibly 'Emg. May' — chosen 'Engr. May' as best fit for the letter shapes. No monetary values."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

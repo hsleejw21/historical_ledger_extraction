@@ -1,0 +1,218 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873. 4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page year and folio number clearly written and underlined. Very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered section title, underlined. No amounts on this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 249,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible. Pounds/shillings/pence align with right-hand ruling lines; values (249 10 0) are crisp and valid."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Bursar 1st payment",
+      "amount_pounds": 141,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns well aligned and clear (141 11 0). Handwriting of the word 'Bursar' and the comma/spacing after it is slightly slanted but readable."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "2nd do",
+      "amount_pounds": 59,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description '2nd do' is clear. Amount (59 2 0) aligns perfectly with ruling lines and passes currency validation."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "3rd do",
+      "amount_pounds": 68,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amount (68 7 0) are legible; columns unambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Entrance Fees Gifford to Bourne",
+      "amount_pounds": 110,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Names and 'Entrance Fees' phrase readable. Amount (110 0 0) clearly aligned in pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hart Smith to Dunn",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Handwritten names legible. Amount (90 0 0) is clear and aligns with ruling lines."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Battes to Eshalaz",
+      "amount_pounds": 35,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount (35 0 0) is clear and well aligned. The proper names in the description are less certain — handwriting for the names is ambiguous (letters could be read differently); chosen reading is the best fit to letter shapes."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Small Fees &c 1st payment",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (5 5 0) clear and aligned. The description contains a shorthand ('&c' looks like a stylized character often written as a '5'); interpreted as '&c' (etc.)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description '2nd Do' clear. Amount (3 15 0) is crisply written and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amount (2 5 0) are clear and well aligned with the three ruling lines."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Small Degree Fees 1st payment",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (3 2 6) clearly aligned. Description reading 'Small Degree Fees' is slightly ambiguous in one letter (looks like 'Smalle/Small') but context supports 'Small Degree Fees'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description and amount (2 0 0) are unambiguous; numbers align with ruling lines."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount (1 7 6) clearly written and in valid ranges; description consistent with prior 'Do' lines."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Gate Bill",
+      "amount_pounds": 68,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Gate Bill' legible. Amount (68 15 6) is crisply written and aligns with the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Names removal of",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount (15 0 0) clear. The first word of the description could be 'Names' or 'Nurses' — handwriting slightly ambiguous; chosen reading 'Names' as that fits letter shapes best."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Local Rate Into Stock invested in land",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Long descriptive line is legible. No monetary figures are present for this row — the column shows dashed marks indicating nil or transferred; interpreted as no amount."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2771,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total at right edge clearly written as 2771 10 6 and underlined. Alignment with ruling lines confirms column separation and validity."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

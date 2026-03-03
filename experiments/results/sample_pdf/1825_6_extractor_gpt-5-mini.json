@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825 Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Title at top of page; very clear, centered heading '1825' above 'Soluta Varia.'"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Vincent's Deficiency of Salary to Novr. 2 1824",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear alignment with pounds/shillings/pence columns. Pence '3' legible; values within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "For the purchase of a Tenement at Waldron",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large round '200' in pounds column clearly aligned; shillings and pence zero."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To Mr Dalby for prize liquidation Fund",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '200' clearly aligned. Description wording uncertain ('prize' vs 'prise' or 'price') but amount clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Power of Attorney for transfer of Jesus Fund",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Small amount (1 4 2) clearly aligned in columns; inscription 'Power of Attorney...' legible though faint in places."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To Mr Davenport on Acct. of the Vicarage Estate at Kidlington - see Coll. Register p.347",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '200' clear in pounds column. Some small marginal scribbles near this line but amount columns align consistently."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "To Mr Heyes. Improved Stip. for Weston. Adm. 1824",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '26 5 0' is clear and well aligned. Description legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year marker '1825.' in the left margin introducing following entries; clearly written."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Jan. 31 Subscription to St. Clement's Church",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '50 0 0' clear in pounds column. Subscription description is legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Feb. 15 Pd for a cottage grate in the Porter's lodge 13s 6d and a fixed bedstead in Do 2s 2d",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Combined amount shown as '2 15 6' in the columns. Description contains two sub-items (13s6d and 2s2d) which sum to 2l15s6d; handwriting of amounts is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "March 6 To J. Maffey for four Months service at the Porters lodge",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '15 0 0' aligns clearly; name and purpose legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "March 16 To Mr Patience for surveying the work in the Common Room Servants Hall",
+      "amount_pounds": 7,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '7 14 6' is readable though the handwriting of the description is slightly cramped; column alignment is clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "March 25 To Mr Heyes. Improved Stip. to LDay 1825",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Repeat payment to Mr Heyes '26 5 0' clearly written and aligned."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "April 19 To labourers for turning the gravel in the Quad.",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '2 10 0' clear. Description legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "April 20 Domus Wine Bottles. Alm. H. Day 1825",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '4 6 0' clear. The description is partly abbreviated ('Domus' and 'Alm. H. Day') — transcription of abbreviations uncertain but does not affect amounts."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "May 23 To Mr Dalby, p[?] Int. to the library A.D. 1825",
+      "amount_pounds": 21,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '21 12 0' clear in columns. The phrase after Dalby is slightly ambiguous in the manuscript (interpreted as 'p[er] Int. to the library'), so description is uncertain."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "June 11 Mr Davis's Bill for Surveys at Little Ten(?)",
+      "amount_pounds": 13,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '13 12 0' is clear. Place name after 'Little' is faint/abbreviated and uncertain ('Ten' or similar), so description flagged as uncertain."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "June 17 Mr Dixon's Do for Surveys at various places",
+      "amount_pounds": 80,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large amount '80 19 0' clearly aligned. 'Do' indicates 'ditto' (same type of charge) and is readable."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "June 17 Mr Bidles(?) Do for Do at do",
+      "amount_pounds": 45,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '45 7 0' clear. The surname appears to be 'Biddle' or 'Bidles' — handwriting unclear for the name, so lower confidence on description but amount certain."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "June 25 Merton Land Tax, one year to Michl. 1824",
+      "amount_pounds": 34,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '34 19 4' clearly placed in columns; pence '4' legible though small. Description readable."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "To Mr Clowes one yrs Int. on his Deposit to Do",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '6 0 0' clear. 'Do' refers to preceding item; handwriting crisp for amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "June 30 To Groves for Venison",
+      "amount_pounds": 6,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '6 12 0' clear and centered in amount columns. Name 'Groves' readable."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "July 1 A Bill for Horse hire in Colleg. business",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Small amount '1 3 0' clear. Description abbreviated but understandable."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Subscription to the Lunatic Asylum",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '50 0 0' clear; description legible and unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "To Mr Davenport on Acct. of Kidlington Vicarage Estate",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '100 0 0' clearly in pounds column. Description repeats Davenport and Kidlington estate; slight uncertainty about exact phrasing but amount is clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "July 27 To Mr Heyes. Impr. Stip. to Mich. 1825",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount '26 5 0' clear. Matches earlier Heyes payments; handwriting crisp."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Oct. 12 To Messrs Williams & Dalby on acct of Baverstock",
+      "amount_pounds": 13,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '13 7 0' clear; names and place 'Baverstock' legible though slightly abbreviated."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "To the Rector for 5 yrs Annuity of Gosford Tythes advanced by him in the Dividends. Unrecoverable",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings read as '14' in the middle column; there is some ink clustering near the pounds column and a small leading digit that could be a marginal mark. Interpreted as 0 pounds 14s 0d; description is long but legible. Lower confidence due to small, faint marks near pounds column."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Total (page sum)",
+      "amount_pounds": 1202,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total at lower-right reads '1202 10 9' clearly. Columns and digits are well aligned; slight smudge on final digit but value is evident."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

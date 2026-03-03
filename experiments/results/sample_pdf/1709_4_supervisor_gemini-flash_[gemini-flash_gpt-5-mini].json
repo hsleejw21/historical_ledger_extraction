@@ -1,0 +1,331 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Item reddidit computum de solutis.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page title clearly written across the top; no monetary figures on this line. Lettering is legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Imprimis de solitis Ordinariis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading directly under the title; phrase is legible and has no adjacent figures."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Civitati Oxon.",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Columns are well aligned here. Pounds column reads '00', shillings '14', pence '6' clearly."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Coll. Fedij xi",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description reading partly uncertain (abbrev. 'Fedij xi' is faint). Amount alignment shows small pounds and shillings zeros and a pence '4' in the pence column; the shillings column looks blank/zero. Chosen reading based on clear small '4' in the pence column."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Mayrs Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads as 'Mayrs Capons' (mayor's capons). Numeric columns show '00 | 12 | 6' clearly; handwriting of description slightly irregular but legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll. Fedij xi",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description repeats a college abbreviation; text somewhat cramped. Amounts read in columns as '00 | 08 | 2' though the tens stroke of the '8' is faint; chosen reading due to alignment with ruling guides."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll. Omn: primare",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description (abbreviated Latin) is partially faded but readable as 'Coll. Omn: primare'. Amounts align to '00 | 12 | 4' fairly clearly; slight ink irregularity on the shillings digit."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll. sti Jo. Bapt.",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "College of St. John Baptist abbreviation is legible. Amount appears as '00 | 03 | 4' with clear pence and shillings digits."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Coll. Baliol",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Coll. Baliol' is clear. The adjacent amount columns show '00 | 12 | 4', though the shillings digit is a little crowded under a ruling; chosen by alignment with previous rows."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Curia Hogstines up Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is irregular (handwritten Latinized phrase) and partly faded; interpreted as 'Curia Hogstines up Biennio'. Amount looks small in the columns and appears as '00 | 03 | 4' though there is some ink smudge near these figures causing uncertainty."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Procurat. Cudlingt, Southn. Merton & [scribble]",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description for 'Procurat. Cudlingt, Southn. Merton & ...' is partly crossed but readable. Amount columns read '01 | 19 | 0' fairly clearly; the crossing out does not affect the numerals."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Janitor",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "The word 'Janitor' is legible. Right-side columns read '01 | 14 | 8' without ambiguity."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Cogno",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short description 'Cogno' (handwritten) is faint but plausible. Numeric columns read '01 | 10 | 8'; the pence '8' is slightly smudged but aligns well with column."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lotrici",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description unclear (reads 'Lotrici' or similar). Amount appears as '02 | 00 | 8' — the '02' in pounds is readable, but the pence '8' and placement are somewhat uncertain due to light ink and shadow from the page fold."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Tonsori",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Tonsori' (barbers) is legible. Right-hand figures read '00 | 13 | 4' clearly; alignment with ruling lines is consistent."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bibliothecario",
+      "amount_pounds": 0,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry 'Bibliothecario' is readable. Amounts read '00 | 13 | 4' matching the preceding line spacing; digits are clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Bibliothecario non Graduat.",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Bibliothecario non Graduat.' is legible though slightly cramped. Amount columns indicate '01 | 03 | 0' — the pence '0' is visible as a small zero; pounds and shillings readable."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bedle of Beggars",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten phrase reads 'Bedle of Beggars' (beadle). Right-hand numerals read '01 | 06 | 8' clearly; ink darker here giving confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Scullion and Quadrangle & anno",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description is legible. Amount columns show a larger figure '04 | 00 | 00' (4 pounds), which is clear and well aligned with the totaling line."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "uno Episc & triennale visit",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description readable though compact. Amount reads '01 | 00 | 00' clearly; the text has slight ink thinness causing moderate uncertainty."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "West supervisor 2th ?",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is highly uncertain (part of the line is rubbed/overwritten). The adjacent numeral is large and reads as '20 | 00 | 00' — interpreted as twenty pounds; this is unusually large and the handwriting is ambiguous, so confidence is low. (Could be 'Corne prices' belongs to this large figure; placement is ambiguous.)"
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Consecration Sermon",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description 'Consecration Sermon' appears but is faint. Nearby figures read '00 | 02 | 00' though there is some uncertainty about exact horizontal alignment of this amount with this description."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Curate of Southn. Ann. 10th Mich 10th",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is long and partly abbreviated; reads as 'Curate of Southn. Ann. 10th Mich 10th'. Numeric columns read '01 | 00 | 00' but some ink fading and cramped script make the association moderately uncertain."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Corne prices",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description 'Corne prices' is readable but small. The nearby number cluster is fuzzy: I read a small value '00 | 01 | 10' (1s.10d) but spacing is tight and there are other larger numbers on adjacent lines; chosen reading with low confidence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Synodalls Cudlingt. Southn. Merton",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads as 'Synodalls Cudlingt. Southn. Merton' (abbreviated). The numeric alignment suggests '00 | 02 | 00' but the digits are small and there is ink variation; moderate confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Prisn? {Castle ?; Bocardo st.?}",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Description is heavily abbreviated and partly illegible (looks like 'Prison {Castle ... Bocardo ...}'). I matched it to a nearby '01 | 00 | 00' amount; both text and amount alignment are uncertain due to faded ink and cramped abbreviations."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Pauperibus",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short entry 'Pauperibus' readable. Associated amount in the right columns appears '00 | 02 | 00' though the tens digit is faint; moderate confidence."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Bibliorum Lectori",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final line before total reads as 'Bibliorum Lectori' (or similar). Adjacent figures read '00 | 02 | 00' with reasonably clear small digits; description letters are slightly stylized but legible."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 45,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Bottom summed total line clearly underlined and reads '45 | 5 | 10'. Numerals are bold and aligned with the pounds/shillings/pence columns; high confidence in these total figures."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

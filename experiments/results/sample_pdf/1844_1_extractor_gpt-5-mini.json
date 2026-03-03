@@ -1,0 +1,262 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title. No amounts present and lettering is crisp and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Dno Rectori, Scholaribus et Officiariis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Clear heading directly beneath the title. Handwriting legible; no numeric columns present on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stipend ad Fest. Nativ: 1813",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount columns and digits (20 | 6 | 8) are well aligned with the right ruling lines and clearly written. Description text is legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augmentatio S. Newington et Merton",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '25' is clear in the pounds column; no shillings or pence marks appear in their columns. The place-name 'Newington' is reasonably clear though older script could be read slightly differently."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stipend Dna Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Numeric columns (33 | 6 | 8) are clearly aligned and pass validation. Surname 'Shiers' is legible though the abbreviation 'Dna' (Domina) is in old script."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augment: ejusdem Dna et Capellano",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds '60' is clearly written in the pounds column; shillings and pence columns are blank. Description abbreviation 'ejusdem Dna' is readable though slightly stylized."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full amount (30 | 9 | 2) is clean and well aligned. Short description 'Dno Rectori' is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Div Merton ad Festum Annum 1843",
+      "amount_pounds": 39,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (39 | 3 | 8) aligns with the ruling lines and reads clearly. 'Div Merton' and date '1843' are legible though written in older script."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Id ad Fest. St. Michaelis",
+      "amount_pounds": 39,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (39 | 3 | 8) is clear and matches the previous similar line. Description 'Id ad Fest. St. Michaelis' is readable."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipendi ad Fest. Annum: 1844",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts (33 | 6 | 8) are well aligned and legible. Year '1844' visible; wording in Latin abbreviations clearly read."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Augment: Kidlington pro 3ha anni parte",
+      "amount_pounds": 45,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (45 | 11 | 3) is clear. The place 'Kidlington' is legible, though the ordinal '3ha' and 'anni parte' are in abbreviated script and slightly cramped."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Repeated line with a clear amount (30 | 9 | 2); digits are distinct and columns unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Stipend ad Fest D. Jo. Bapt. et Officiarius",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (19 | 13 | 4) is clearly written and aligns with ruling lines. Long description is readable though compressed."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Idem Dna Shiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (33 | 6 | 8) is clear and matches earlier 'Dna Shiers' line. 'Idem' indicating same is legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Augment Com ejusdem Dna Mod. et Subde",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds '56' is readable in pounds column; shillings/pence columns blank. Several abbreviated words in the description (e.g. 'Com', 'Mod.', 'Subde') are faded and partially ambiguous, so transcription of description is approximate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Id Kidlington pro 4ta parte anni",
+      "amount_pounds": 15,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (15 | 3 | 9) aligns with ruling lines and is legible. 'Kidlington' and '4ta parte anni' readable though written in older script."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear repetition of Rectori line with amount (30 | 9 | 2). All digits unambiguous."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Stipend Guinear ad fest St. Michaelis",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings (26 | 5) are readable; pence column blank (interpreted as 0). The name 'Guinear' is slightly uncertain in spelling but reasonably clear in context."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Augment Con de Wittenham Longa",
+      "amount_pounds": 34,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Amount (34 | 2 | 6) is well aligned and legible. 'Wittenham Longa' (longa/longa variation) is readable, though the scribe's long-hand slightly stylizes the final word."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dno Rectori ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Identical Rectori line with clear amount (30 | 9 | 2). 'ut supra' (as above) is readable."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Scholari Regis Caroli 1 mi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Centered small header; text legible though the abbreviated '1 mi' is in old script and slightly compressed."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Pro fine Aiorns ? ten parva",
+      "amount_pounds": 12,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount (12 | 8 | 4) is clear and well aligned. Description is faded and the words are uncertain ('Aiorns ? ten parva' is a best-effort transcription of cramped, partially obscured script), hence lower confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 714,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final boxed total at bottom right (714 | 14 | 10) is clearly written and used as alignment reference for column detection. No description on this line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

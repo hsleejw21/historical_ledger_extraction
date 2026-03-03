@@ -1,0 +1,375 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Receipts varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered page title at the top of the page. No monetary columns present on this line; clearly a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Balance of Wild Irish acct to mich mas 1813",
+      "amount_pounds": 44,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Numeric columns well aligned; amount reads as '44 . 5 . 2' (pounds, shillings, pence). Slight ink faintness on the '5' shilling digit but column alignment is clear."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Interest of money advanced by James on acct. of Hiddington",
+      "amount_pounds": 9,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description partly faded but readable as interest line. Amount clearly '9 . 12 . -' in the three narrow columns; interpreted as 9 pounds 12 shillings 0 pence. Shillings 12 is within valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "per 38 for 2 yrs to which was 1814",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This appears as a short continuation line or explanatory note under the prior interest entry; no amounts are present in the narrow currency columns. Handwriting slightly cramped and faint."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Yanston Timber money 1/2 part",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount reads '5 . 9 . -' (5 pounds 9 shillings). Pence column shows a dash/blank; interpreted as 0 pence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mrs Beauchamp's plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short description; amount clearly shown as '10 . - . -' (10 pounds). The middle and last columns are blank/dashes."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Alexr Cay & Fletcher Dr",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwriting legible for names; amount '20 . - . -' (20 pounds) clear in the currency columns."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Messrs Fenn & Copland Dr",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description readable though ink slightly faded. Amount printed as '20 . - . -' (20 pounds) aligned in the pounds column."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "John Keyes College ?? (remainder)",
+      "amount_pounds": 60,
+      "amount_shillings": 7,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description partly ambiguous (the personal name/phrase uncertain) but the numerical entry to the right is clear as '60 . 7 . 2'. Chosen wording reflects uncertainty in the name; amount columns well aligned."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Consideration of Rent in Yarston 1/2 Year L.D. 1812",
+      "amount_pounds": 30,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Phrase 'Yarston' and date read with moderate clarity. Amount '30 . 8 . 6' is well aligned and clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Do. (same) March 1812",
+      "amount_pounds": 30,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Repeated 'Do' (ditto) lines; amount columns show the same '30 . 8 . 6'. The year annotation is faint but legible as 'March 1812'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Do. (same) L.D. 1813",
+      "amount_pounds": 30,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Another ditto line; amount again '30 . 8 . 6'. Year looks like 1813 in the manuscript; slight ink variation causes moderate uncertainty."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Interest of money advanced by James on Hiddington (another item)",
+      "amount_pounds": 9,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A second interest entry similar to earlier. Amount clearly '9 . 12 . -'. Description words partly abbreviated but identifiable as interest by James."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr Hayes ??? plate money",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name 'Hayes' legible; the preceding word is faint. Amount '10 . - . -' (10 pounds) is clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ladd Lane Rent for the Book Page 306",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description line present and readable though cramped; there is no clear amount in the pounds/shillings/pence columns on this specific line (appears to be followed by related arithmetic lines)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Wm ? to endorse 13 clear 55.10.-",
+      "amount_pounds": 55,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This line contains an amount '55 . 10 . -' (55 pounds 10 shillings). The text before the number is partially abbreviated/faint ('Wm' clear, following word uncertain). Alignment and digits are reasonably clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Deductd then in acc rec 0.8.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small deducted amount appears in the shillings column as '0 . 8 . -' (8 shillings). The wording 'Deductd' and surrounding text is faint; chosen interpretation uses column alignment for amount."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Total (subsumed under Ladd Lane entries) 47.2",
+      "amount_pounds": 47,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Underlined subtotal visible as '47 . 2 .'—interpreted as 47 pounds 2 shillings 0 pence. Underline indicates a carried subtotal; some faintness around the underline."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Profit to the College Rent",
+      "amount_pounds": 11,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Phrase 'profit to the college rent' readable. Amount shown as '11 . 15 . 6' with clear digits and column alignment."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Settled for Morton's rent due March mas 1814",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Descriptive settlement line present; no direct amount printed on this line. Date 'March 1814' readable though slightly cramped."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Money overpaid as per journal 265 / Contract",
+      "amount_pounds": 10,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Two related arithmetic lines appear: a journal figure and a 'Contract' entry of '10 . 15 . 4'. The '10.15.4' line is legible though surrounding context is somewhat cramped."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Aggregate total from the above (275.15.4)",
+      "amount_pounds": 275,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A larger subtotal line reads '275 . 15 . 4'. Handwritten arithmetic above supports this total; digits are readable but slightly slanted which reduces confidence slightly."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Deduct Land Tax 34 . 7",
+      "amount_pounds": 34,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line labeled 'Ded: Land Tax' with amount '34 . 7 . -' (34 pounds 7 shillings). The pence column is blank. The label is somewhat abbreviated but amount columns are clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Balance after Land Tax 241.8.4",
+      "amount_pounds": 241,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Following the deduction there's a computed balance shown as '241 . 8 . 4'. Handwriting is slanted; digits are readable but numerical relationships inferred from layout."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Prof. Tax",
+      "amount_pounds": 24,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Label 'Prof: Tax' visible with number '24' to the right. It is ambiguous whether this is 24 pounds or another denomination; based on column alignment the figure is placed in the pounds column so interpreted as 24 pounds. Slight uncertainty due to the shortness of the number and absence of explicit dashes in shillings/pence columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "Clear profit",
+      "amount_pounds": 219,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A line labeled '(clear profit)' with amount '219 . 0 . 4' visible. Digits are legible though the parenthetical label and surrounding ink are slightly faded."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "of Mr Gubb's Increment",
+      "amount_pounds": 375,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Amount reads as '375 . 13 . 5 1/4' — the pence has a small trailing '1/4' mark (farthing) clearly visible. The description is somewhat abbreviated but identifiable; fractional farthing interpreted as 0.25."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "of Mr Hayes Prof. Tax for 1814",
+      "amount_pounds": 64,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads 'of Mr Hayes Prof: Tax for 1814' with number '64' in the pounds column. The rest of the currency columns are blank; handwriting slightly faint."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "of Mr Farley for Hatteridge's Benefact(?)",
+      "amount_pounds": 92,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is uncertain (final word looks like 'Benefact' or 'Benefactor'); the numeric '92' is visible in the pounds column. Moderate uncertainty in text and slight ink bleed on the number."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Do. (another) 39",
+      "amount_pounds": 39,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A subsequent 'Do' line with '39' in the pounds column. Short notation but numeric column alignment is clear."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Liquidation of Debt from Yarston 1/2 year March 1813",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Liquidation of Debt from Yarston' and date 'March 1813' legible. Amount reads '30 . 0 . 6' (30 pounds 0 shillings 6 pence); pence '6' is clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "of Mr Rosdew Dean's fees for the House 1815",
+      "amount_pounds": 16,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Entry for 'Dean's fees for the House 1815' readable. Amount appears as '16 . 10 . 4' with clear digits in each column."
+    },
+    {
+      "row_index": 33,
+      "row_type": "total",
+      "description": "Grand Total (bottom right) 11949.11.1/4 (interpreted)",
+      "amount_pounds": 11949,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.5,
+      "notes": "Large final total at the bottom right reads '11949 . 11 . 1/4' in manuscript (the pence column has a small quarter mark). Pounds and shillings digits are readable as 11949 and 11; the pence appears only as a farthing (1/4) with no clear whole pence digit. Because the pence whole digit is not legible, pence_whole left blank and pence_fraction recorded as 0.25. Moderate confidence due to uncertainty in the exact pence whole digit."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

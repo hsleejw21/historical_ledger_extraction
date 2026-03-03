@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825 Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on all fields. Value used as consensus."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Vincent's Deficiency of Salary to Nov. 2. 1824.",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it accurately includes the trailing period after 'Nov.' and '1824.', as observed visually."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "For the purchase of a Tenement at Waldron ---",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly includes the trailing dashes '---', as observed visually."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "17'5. To Mr Dalby for Three Liquidation Funds ---",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it more accurately reflects '17'5.', 'Three Liquidation Funds', and trailing dashes '---' compared to gpt-5-mini's 'prize liquidation Fund' and missing elements."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "29. Power of Attorney for transfer of Jesus Fund ---",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly includes the leading '29.' and trailing dashes '---', as observed visually."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Dec. 11. To Mr Davenport on Acct. of the Vicarage Estate Aug. 17. 1824 at Hillington - see coll. Register p.347. - July 4- -",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed. Description is a combination based on visual verification. 'Dec. 11.' is present from gemini-flash. The location is 'Hillington' (gemini-flash correct) not 'Kidlington' (gpt-5-mini incorrect). gemini-flash's capture of the braced, multi-line sub-text is more complete."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "3. To Mr Heyes. Improved Stip. for Merton Nov. 1824",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it accurately includes the leading '3.', 'Merton', and 'Nov.', which are more precise than gpt-5-mini's 'Weston. Adm.'"
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "1825.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on all fields. Value used as consensus."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Jan. 31. Subscription to St Clement's Church -----",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly captures 'St Clement's' (without a period after St) and the trailing dashes '-----', as observed visually."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Feb. 15. C.o for a Cottage grate in the Porter's lodge. 13.6. and a fixed Bedstead in Do. 2.2.0. -----",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash for its accuracy. gpt-5-mini's notes revealed a misinterpretation of the sub-amounts ('13s 6d and 2s 2d' vs actual '13.6.' and '2.2.0.' which correctly sum to £2 15s 6d). Visually confirmed 'C.o' and the specific numerical notation for sub-items and trailing dashes."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "March 6. To J. Maffey. for four Months Service at the Porter's Lodge",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it includes the period after 'Maffey' and proper capitalization of 'Lodge', as observed visually."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "March 16 To Mr Patience for Surveying the work in the Common Room Servant's Hall",
+      "amount_pounds": 7,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gpt-5-mini as it correctly includes 'March' as part of the date, as observed visually."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "March 25 To Mr Heyes. Improved Stip: to LDay 1825 -",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'March 25' from gpt-5-mini and 'Stip:' with trailing dash from gemini-flash, based on visual verification."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "April 19 To labourers for turning the gravel in the Quad.",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on all fields. Value used as consensus."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "April 20 Domus Wine Bottles. Rtm. t LDay 1825 -",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'April 20' from gpt-5-mini and 'Rtm. t LDay 1825 -' from gemini-flash, as 'Rtm. t LDay' and the trailing dash are more visually accurate than 'Alm. H. Day'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "May 23. To Mr Dalby. p.f.ps Int. to the library. D.D. 1825 -",
+      "amount_pounds": 21,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it more accurately transcribes 'p.f.ps' and 'D.D. 1825' along with the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "June 14 Mr Davis's Bill for Surveys at Little Tew -",
+      "amount_pounds": 13,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly identifies the date as 'June 14' (not 'June 11') and the place name as 'Tew' (not 'Ten'), and includes the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "June 17 Mr Dixon's D.o for Surveys. at. various places. p.v -",
+      "amount_pounds": 80,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'June 17' from gpt-5-mini and the detailed 'D.o for Surveys. at. various places. p.v -' from gemini-flash, which is more complete and accurate visually."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "June 17 Mr B. Pitt's D.o for - D.o at. - - - p.v -",
+      "amount_pounds": 45,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'June 17' (implied by previous line, explicitly stated by gpt-5-mini for this line) and 'Mr B. Pitt's D.o for - D.o at. - - - p.v -' from gemini-flash, which correctly identifies the name as 'B. Pitt's' (not 'Bidles') and includes the full details and dashes."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "June 25 Merton Land Tax. one yr. to Mich. 1824 -",
+      "amount_pounds": 34,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'June 25' from gpt-5-mini and 'one yr. to Mich. 1824 -' from gemini-flash, as 'yr.' and 'Mich.' are more faithful to the abbreviations and the trailing dash is present visually."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "To Mr Closes. one yrs Int. on his Deposit. to Do -",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly identifies the name as 'Closes' (not 'Clowes') and includes the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "June 30 To Grove. for Venison -",
+      "amount_pounds": 6,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'June 30' from gpt-5-mini and 'Grove.' with trailing dash from gemini-flash, as 'Grove' (with period) is visually more accurate than 'Groves'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "July 4 A Bill for Horse hire on College business -",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly identifies the date as 'July 4' (not 'July 1') and 'College' (not 'Colleg.'), and includes the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Subscription to the Lunatic Asylum -",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it correctly includes the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Aug. 9. To Mr Davenport on Acct. of Kidlington Vicarage Estate - p. Sup. Dec. 11",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts agreed. Description is a combination based on visual verification. 'Aug. 9.' from gemini-flash, 'Kidlington Vicarage Estate' from gpt-5-mini (correcting gemini-flash's 'Riol. Vic.'), and the additional note 'p. Sup. Dec. 11' from gemini-flash (which is visually present above the amount column, treated as part of the description for completeness)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "July 27 To Mr Heyes. Impr. Stip. to Mids. 1825 -",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description is a combination: 'July 27' from gpt-5-mini and 'Mids. 1825 -' from gemini-flash, as 'Mids.' and the trailing dash are visually more accurate than 'Mich.'"
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Oct. 12 To Mess.rs Williams & Dalby. on Acct. of Bavoristock -",
+      "amount_pounds": 13,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it more accurately transcribes 'Mess.rs', 'Acct.', 'Bavoristock', and the trailing dash, as observed visually."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "To the Rector for 5 yrs Arrear of Gosford Tythes. drawn ad by him in the Dividends. & irrecoverable -",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash as it more accurately transcribes 'Arrear' and the specific wording 'drawn ad by him in the Dividends. & irrecoverable' including the trailing dash, compared to gpt-5-mini's 'Annuity... advanced by him Unrecoverable'."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1202,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts agreed. Description chosen from gemini-flash (empty string) as the word 'Total' is not explicitly written on the ledger page next to the amount, making an empty description more faithful to the instruction 'text as it appears on the page'."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 26,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

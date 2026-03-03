@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title, underlined and centered at top. No amounts on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Gratuity to Jackson",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text and amount very clear. Pounds/shillings/pence aligned to the ruling lines and read as 20 0 0."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "File on Account pr Campfield",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 10 0 0 is clear. The first word looks like 'File' but could be 'Bill' (handwriting ambiguity). Chosen 'File' based on visible initial letter and loops."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr Falconer for repair of Bushey Tenements",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 10 0 0 is clearly aligned. The tenant/place word is faint and could be 'Bushey' or similar; 'Falconer' and 'repair' are legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stringer for Receipt Stamps",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings and pence read clearly as 10s 6d. The pounds column is effectively zero (no pound figure); the first word looks like 'Stringer' (could be 'Stinger' or similar) but context 'for Receipt Stamps' is clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Subscription to new Chapel in St. Mary Magdn",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amount (30 0 0) are clearly legible; 'Magdn' is the common abbreviation for Magdalen."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "E. Pile, late College Groom, 5/. per week",
+      "amount_pounds": 13,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clear (E. Pile etc.). Amount reads 13 pounds, 5 shillings, 0 pence with good alignment."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Payment (crossed out) [text largely illegible]",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Entire line is crossed through / cancelled on the page. The numerals 10 0 0 are visible but the descriptive text is heavily struck through and mostly illegible; included as an entry because amounts are present but strike-through reduces confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Receipt Stamps",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Short description 'Receipt Stamps' is clear and amount 1 0 0 is well aligned and legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mr Hastings on acct of work at Campfield",
+      "amount_pounds": 200,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and large amount (200 0 0) are clearly written and aligned to the columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Poor of South Newington for Coal",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Text 'Poor of South Newington for Coal' is legible; amount 5 0 0 clearly aligned."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Repairing pumps &c at Sherton",
+      "amount_pounds": 11,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 11 4 0 is clear. Place name looks like 'Sherton' (could be 'Sherston'); phrase 'Repairing pumps &c' is legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Spinkers for Lime",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 1 4 0 is readable. The first word is unclear — read as 'Spinkers' but could be a different occupational name; context 'for Lime' is clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr Glubb, Dischard 2 2d Agency",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 4 4 0 is clear. The descriptive phrase contains abbreviations/uncertain words ('Dischard 2 2d Agency' is a best reading of the cramped script)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sandell, one days work at Rectory, Kidlington",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 2s 6d is clearly written; pounds column effectively zero. 'Sandell' and 'Rectory, Kidlington' read well."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Provisional Friend - Mr Stapart to Xmas",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amount 12 10 0 is clear. The name is cramped and ambiguous (read as 'Mr Stapart' or 'Mr Shupart' or 'Mr Hyatt'); 'Provisional Friend' phrase is legible but the individual's surname is uncertain."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Kidlington Chancel",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Short description 'Kidlington Chancel' and amount 9 0 0 are clearly legible and aligned."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Case for Packing Glass for Do",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads 7s 6d clearly; pounds column blank (treated as 0). Description 'Case for Packing Glass for Do' (Do = ditto/Kidlington) is legible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Davies, mounting Almanack for Lord Petre",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 10 0 0 is clear. 'Davies, mounting Almanack for Lord Petre' matches the script; 'Almanack' reading chosen for the context."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Property Tax - 1st half year",
+      "amount_pounds": 29,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 29 3 7 is clearly written and aligns with the columns. Description is legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Gas Company",
+      "amount_pounds": 4,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Gas Company' is clear. Amount 4 3 10 is legible and within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Subscription - (Church name faint)",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount 5 0 0 is clear. The word after 'Subscription -' (church name) is faint and somewhat smudged; included as 'Church name faint' to indicate uncertainty in the specific church name."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mr Cutterbuck for repairs of Cottages at L. Whittle",
+      "amount_pounds": 65,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 65 5 5 is clear. Surname 'Cutterbuck' and phrase 'repairs of Cottages' are legible; the place 'L. Whittle' is read from abbreviated script and may be slightly uncertain."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Purchase Money of the Fee in reversion of the new buildings in Broad St.",
+      "amount_pounds": 2100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Very large sum clearly written as 2100 0 0 and bracketed across several lines. The descriptive phrasing is legible and matches the legal purchase wording."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr Hester the Town Clerk's bill in the matter",
+      "amount_pounds": 16,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 16 12 3 is clear. 'Mr Hester the Town Clerk's bill' is readable and contextually sensible."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Two thirds of Mr Dives's bill for valuing the same",
+      "amount_pounds": 36,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 36 4 0 is legible. The name reads as 'Mr Dives' (could be 'Mr Drives' or similar); phrase 'Two thirds of ... bill for valuing the same' is inferred from handwriting and context."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Loan to the Rector - 1/2 of third instalment for improvements at Stratfield",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 50 0 0 is clearly written. Descriptive phrase is legible but place-name 'Stratfield' (or similar) is read from abbreviated script and may be slightly uncertain."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2625,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total at bottom of page (no textual label present, only the summed figures). Numerals read clearly as 2625 12 11 and align to the ruling lines."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

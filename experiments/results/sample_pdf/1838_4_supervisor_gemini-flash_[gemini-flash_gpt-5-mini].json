@@ -1,0 +1,294 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description '1838.' is clearly visible in the image. Both extractors agreed on header type and no monetary amounts. Overrode gpt-5-mini's '1238'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Soluta Ordinaria (Brought forward)",
+      "amount_pounds": 260,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Soluta Ordinaria (Brought forward)' is clear in the image. The amount is 260 pounds, 10 shillings, 3 pence. The pounds value '260' is clearly visible, not '269'. Classified as 'total' as it's a carried-forward balance. Values align with gemini-flash."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Subscriptions Viz",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "The description 'Subscriptions Viz' is a clear reading of the image, where 'Viz' is shorthand for 'videlicet'. Both extractors agreed on header type and no monetary amounts. Overrode gemini-flash's '(Recd)'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Infirmary for 1838",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, type, and amounts. All values are clearly legible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Poor Loan School to Michaelmas 1834.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear and agreed. Description 'Poor Loan School to Michaelmas 1834.' is the more accurate reading of the faded script, particularly 'Michaelmas' and the year '1834'. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "St. Warrington Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are clear and agreed. Description 'St. Warrington Do.' is the correct reading. The initial 'St.' and 'Warrington' are visibly clear. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "St. Newington Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, type, and amounts. Description 'St. Newington Do.' is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Little Dean Do.",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'Little Dean Do.' is the correct reading, with 'Dean' clearly visible. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Crampton Do.",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'Crampton Do.' is the correct reading, starting with a clear 'C'. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Norton Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'Norton Do.' is the correct reading, starting with a clear 'N'. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "St. Fordham Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear and agreed. Description 'St. Fordham Do.' is the correct reading, despite being slightly faded. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Spencer Do.",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts are clear and agreed. Description 'Spencer Do.' from gemini-flash appears to be the most accurate reading, though the script is somewhat ornate. gpt-5-mini's 'Florencear' does not match the visual."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Smaller Livings in Diocese of Oxford",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'Smaller Livings in Diocese of Oxford' is a clear reading of the script, with 'Smaller' (double 'l') clearly visible. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "The University Marshal",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'The University Marshal' is the correct reading, including the initial 'The' and the spelling of 'Marshal' without an 'e' at the end. This aligns with gpt-5-mini."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "The Bell Ringer & Chapel Clerk",
+      "amount_pounds": 12,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'The Bell Ringer & Chapel Clerk' is the correct reading, with 'Bell Ringer' and the ampersand clearly visible. This aligns with gpt-5-mini."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Peroche for care of the Clock",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear and agreed. Description 'Peroche for care of the Clock' is the most accurate reading, starting with a clear 'P' and matching the subsequent letters. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Copy Prices",
+      "amount_pounds": 0,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "The amounts are clearly 0 pounds, 19 shillings, 6 pence, with the pounds column left blank. gpt-5-mini's note correctly identified this. The description 'Copy Prices' is the most accurate reading, visually matching the initial 'C' and subsequent letters better than 'Oven'. Values and description align with gpt-5-mini."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Easter Offering",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description 'Easter Offering' is the correct reading, with the 'g' at the end clearly visible. This aligns with gpt-5-mini."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Parish Rates",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, type, and amounts. All values are clearly legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Synodals & Procurations",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and empty amounts are agreed. This row clearly acts as a structural label for the following group of entries, therefore 'header' is the correct row type, aligning with gemini-flash."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "College Gardener - 1st Qtr to Xmas 1837-",
+      "amount_pounds": 7,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are clear and agreed. The description is a hybrid, combining '1st Qtr' from gemini-flash with 'Xmas' from gpt-5-mini, both of which are accurate visual readings from the image. The trailing dash is also present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "2nd - to Do 1838.",
+      "amount_pounds": 7,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are clear and agreed. Description '2nd - to Do 1838.' is the correct transcription, using the abbreviation 'Do' as written. This aligns with gemini-flash."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "3rd Mich.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description '3rd Mich.' is the correct reading. Both extractors agreed on entry type and no individual monetary amount for this line, as it's part of a braced group with the next line. Aligns with gemini-flash."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "4th Mich.",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description '4th Mich.' is clear. The amount 18 pounds, 10 shillings, 0 pence is visibly associated with the braced group of '3rd Mich.' and '4th Mich.'. Assigning this combined amount to the last entry of the group ('4th Mich.') is the most faithful way to represent the data without inventing descriptive text. This aligns with gemini-flash, and gpt-5-mini's separate 'Total (College Gardener group)' row with an invented description is dropped as an extra row."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 401,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row type are agreed. The description is accurately represented by the single '£' symbol, which is clearly visible as the label for the final total. gemini-flash correctly extracted just the symbol as the description, whereas gpt-5-mini included the amounts in its description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 3,
+      "rows_by_note_assessment": 1,
+      "rows_by_visual_override": 21,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

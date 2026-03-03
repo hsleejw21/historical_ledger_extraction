@@ -1,0 +1,108 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the page year. No monetary amounts associated with this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section title. No monetary amounts associated with this header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Dul",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of 'Dul', which is likely an abbreviation for 'December', serving as a date header for the following entries. No monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "10 Entrance Fees",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Crystal clear text for both description and monetary amounts. Vertical column lines are unambiguous, and all currency values are within their valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "11 16 at 5.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description '11 16 at 5.' is clearly legible. The amount of £2 15s 0d precisely matches a calculation of '11 items at 5 shillings each' (11 * 5s = 55s = £2 15s). This suggests the '16' in the description may be an extraneous mark, an item identifier not directly tied to the monetary calculation, or a clerical error in the description. Monetary amounts and column alignment are very clear. All currency values are within their valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "15 Degree fees at 2.6",
+      "amount_pounds": 1,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Crystal clear text for both description and monetary amounts. The amount of £1 17s 6d precisely matches '15 items at 2 shillings 6 pence each' (15 * 2s 6d = 37s 6d = £1 17s 6d). Vertical column lines are unambiguous, and all currency values are within their valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "College dues",
+      "amount_pounds": 736,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Crystal clear text for description and monetary amounts. Vertical column lines are unambiguous, and all currency values are within their valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Balance of, now carried to account",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Crystal clear text for description and monetary amounts. Vertical column lines are unambiguous, and all currency values are within their valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 798,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The total amount is clearly legible as £798 4s 6d. However, a sum of the preceding entry amounts (£50 0s 0d + £2 15s 0d + £1 17s 6d + £736 2s 0d + £7 15s 0d) yields £798 9s 6d. This indicates a discrepancy of 5 shillings between the sum of individual entries and the recorded total, suggesting a clerical error in the original ledger. All currency values are within their valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus: Both extractors accurately identified this clear header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Dni Rectoris J. P. L. et F. fove",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct line segmentation. Gpt-5-mini incorrectly merged this line with subsequent header lines and had a transcription error ('Letchford' instead of 'fove')."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "a 2do die Novembris A. D. 1854 ad",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct line segmentation. Gpt-5-mini incorrectly merged this line with other header lines."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "eundem diem revolution A. D. 1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correct line segmentation. Gpt-5-mini incorrectly merged this line with other header lines."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Both identified correctly, but gemini-flash's confidence and clarity are higher, and the full description 'Arrearagia recepta' is clearly visible in the image, contradicting gpt-5-mini's noted ambiguity."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bampton Money 1/2.",
+      "amount_pounds": "",
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override: The image clearly shows '19' in the shillings column and '5' in the pence column, with the pounds column blank. Gemini-flash incorrectly read this as '£1 9s 5d'. Gpt-5-mini correctly identified the amounts but had a slight error in the description ('1st' instead of '1/2.') and contradictory notes regarding pence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bensington Money 1/2.",
+      "amount_pounds": 6,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description. Gpt-5-mini merged the description with 'Corn' and misread '1/2.' as '1st'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Corn 1/2.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description as a sub-item without an amount. Gpt-5-mini merged this into the previous row."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Chase Hill Money 1/2.",
+      "amount_pounds": 12,
+      "amount_shillings": 15,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description. Gpt-5-mini merged the description with 'Corn' and misread '1/2.' as '1st'."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description as a sub-item without an amount. Gpt-5-mini merged this into the previous row."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Garsington Money 2/2.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description. Gpt-5-mini merged the description with 'Corn' and misread '2/2.' as '2 yr'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description as a sub-item without an amount. Gpt-5-mini merged this into the previous row."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Guinean Money - 1/2. at Lady Day 1854",
+      "amount_pounds": 58,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description. Amounts were agreed. Gpt-5-mini had 'Gwinear' vs 'Guinean' and '1st' vs '1/2.'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Kedlington Rectory Corn - 1/2.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override: This line is a group description/header and does not have an amount on its line. Both extractors incorrectly assigned amounts to this line and/or merged it with sub-items."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Money",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override: The image clearly shows the amount as £2 14s 4d for this indented 'Money' entry. Gemini-flash incorrectly attempted to assign an amount of '£2 15s 1d' to the preceding group description and then tried to reinterpret '13d' from a value that visually is '14s 4d'. Gpt-5-mini completely misidentified and misread this entry."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Money",
+      "amount_pounds": 1,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini misread the amounts as '£19 2s 6d'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Capons & Bran",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate description ('Bran' vs 'Brawn'). Amounts were agreed."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Rd. Land Tax",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override: The image clearly shows £2 6s 1d. Gemini-flash had the correct amounts and description, but its note about reinterpreting '61d' is not supported by the visual evidence. Gpt-5-mini misread the pounds as '21'."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Cottages",
+      "amount_pounds": 4,
+      "amount_shillings": 8,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus: Both extractors accurately identified the description and amounts."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Kidlington Mills Money 1/2.",
+      "amount_pounds": 17,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description. Gpt-5-mini merged the description with 'Corn' and misread '1/2.' as '1yr'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description as a sub-item without an amount. Gpt-5-mini merged this into the previous row."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Lad Lane late Nooris",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for more accurate transcription ('Lad' vs 'Land', 'Nooris' vs 'Norris') and correct identification as a description for a braced group with no amount on its line. The row is categorized as 'entry' as it functions as a specific transactional group rather than a general ledger header."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Chaplin Money 1/2.",
+      "amount_pounds": 17,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini incorrectly merged description with 'Pickford' and misread '1/2.' as '1st'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pickford",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation and description as a sub-item without an amount. Gpt-5-mini incorrectly merged this with 'Chaplin'."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "1/2 of remaining Rent",
+      "amount_pounds": 32,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description ('1/2' vs '1/4'). Amounts were agreed."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Little Tew. Manor Farm money 1/2.",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual override: The image clearly shows £1 5s 3d aligned with this description. Gemini-flash placed the correct amount but had a slightly ambiguous note. Gpt-5-mini had multiple segmentation and description errors in this section, misreading 'Tew' as 'Iew' and creating incorrect rows."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Kimber money 1/2.",
+      "amount_pounds": 6,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini missed this row entirely by misattributing amounts."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Cottages money",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini misidentified this row's description and amounts ('Timber money' for 'Cottages money')."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for correctly identifying this standalone '9 shillings' entry. Gpt-5-mini misread this as '9 pounds'."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Long Wittenham Rectory money 1/2.",
+      "amount_pounds": 108,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description ('1/2.' vs '1st') and amounts."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Corn",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate row segmentation as a sub-item without an amount. Gpt-5-mini misidentified this row and assigned incorrect amounts."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Rd. Land Tax",
+      "amount_pounds": 26,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini misidentified this row and misread the amount, assigning it to the 'Corn' entry."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Do. Cottages",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description and amounts. Gpt-5-mini misread the amount as '£3' and questioned its existence for 'Do. Cottages'."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Medeenham - Money 1/2.",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate description ('Medeenham' vs 'Medenham', 'Money 1/2.') and amounts. Gpt-5-mini incorrectly segmented this into two rows and misread parts of the description."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "1/2 Remaining Rent",
+      "amount_pounds": 16,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Visual override: The image clearly shows '1/2 Remaining Rent' with the amount £16 10s 1d 1/2. Gpt-5-mini correctly identified pence and fraction but misread '1/2' as '1/4' in the description. Gemini-flash incorrectly recorded pence as '0'."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 618,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for accurate representation of the blank description for the total line. Amounts were agreed."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 28,
+      "rows_by_visual_override": 6,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

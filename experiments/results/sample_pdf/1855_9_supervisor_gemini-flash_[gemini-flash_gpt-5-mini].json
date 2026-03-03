@@ -1,0 +1,327 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clearly a header from the image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clearly a header from the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Brought ford",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms this is an entry with monetary amounts. The description 'Brought ford' is clearly legible in the image. Amounts are 0 pounds (blank column), 1 shilling, and 5 pence, overriding both extractors' amount interpretations based on clear column alignment. gpt-5-mini incorrectly read '1 15' as shillings and pence respectively, while gemini-flash incorrectly identified it as a header without amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Viz. conveyance to Wittenham & S. Reaton",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification shows no amounts on this specific line. The amounts gemini-flash provided for this row actually belong to the 'Brought ford' row above. Corrected description from gpt-5-mini's start, but 'S. Reaton' from image, not 'Newton' or 'Feq.'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gill and Ward",
+      "amount_pounds": 87,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Knowles",
+      "amount_pounds": 23,
+      "amount_shillings": 13,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Parker",
+      "amount_pounds": 12,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's interpretation. Visual verification confirms 12 pounds, 9 shillings, and 0 pence (empty pence column). gemini-flash incorrectly assigned '9' to pence and left shillings blank, with an inconsistent note."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Thomas",
+      "amount_pounds": 52,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's values. Visual verification confirms 52 pounds, 12 shillings, 5 pence. gemini-flash misread the shillings amount as '2' instead of '12'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Nunney",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Vincent",
+      "amount_pounds": 12,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's interpretation. Visual verification confirms 12 pounds, 9 shillings, and 0 pence (empty pence column). gemini-flash incorrectly assigned '9' to pence and left shillings blank, with an inconsistent note."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hager",
+      "amount_pounds": 16,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Hager' (as per gemini-flash) and amounts 16 pounds, 5 shillings, 0 pence (as per gpt-5-mini's column interpretation). gemini-flash incorrectly assigned '5' to pence. gpt-5-mini misread the name."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Symm",
+      "amount_pounds": 109,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Field",
+      "amount_pounds": 21,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's values. Visual verification confirms 21 pounds, 15 shillings, 0 pence. gemini-flash significantly misread the amounts, splitting '21 15' into '2 1 5'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Rowell. Paper Hanger",
+      "amount_pounds": 8,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's values. Visual verification confirms 8 pounds, 12 shillings, 0 pence. gemini-flash incorrectly split '12' into 1 shilling and 2 pence."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Rowell. Rept. of Lock",
+      "amount_pounds": 6,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Rowell. Rept. of Lock', correcting minor errors in both extractors ('Rect.' by gemini-flash, 'Clock' by gpt-5-mini). Amounts are consistent and clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Herbert",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Spicers",
+      "amount_pounds": "",
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Spicers' (as per gpt-5-mini) and amounts 0 pounds (blank), 9 shillings, 3 pence (as per gemini-flash's column interpretation). gpt-5-mini incorrectly placed '9' in pounds and '3' in shillings."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Barler",
+      "amount_pounds": 19,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Barler' (from gemini-flash, 'l' is clear not 'x'). Amounts are consistent between both extractors."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Shrimpton",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's values. Visual verification confirms 0 pounds (blank), 10 shillings, 0 pence (blank). gpt-5-mini incorrectly placed '10' in the pounds column."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Domus. Wine Battels",
+      "amount_pounds": 16,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Domus. Wine Battels' (correcting 'Battles' from gemini-flash and 'Bottels' from gpt-5-mini). Amounts 16 pounds, 15 shillings, 0 pence are taken from gpt-5-mini's interpretation as gemini-flash incorrectly split '15'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Symm (see Recepta Varia 1855)",
+      "amount_pounds": 1876,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Symm",
+      "amount_pounds": 623,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Mr. Buckeridge (Clerk of Works)",
+      "amount_pounds": 21,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Mr. Buckeridge (Clerk of Works)' (correcting 'W.' and slight spelling by gpt-5-mini). Amounts 21 pounds, 18 shillings, 0 pence are taken from gpt-5-mini's interpretation as gemini-flash incorrectly split '18'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Postage. Parcels &c.",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gpt-5-mini's values. Visual verification confirms 4 pounds, 5 shillings, 0 pence. gemini-flash incorrectly assigned '5' to pence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Rector. Improved Stipend D. & D.",
+      "amount_pounds": 93,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms description 'Rector. Improved Stipend D. & D.' (correcting 'P.T.D.' from gpt-5-mini). Amounts 93 pounds, 15 shillings, 0 pence are taken from gpt-5-mini's interpretation as gemini-flash incorrectly split '15'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Do. allowance for kitchen",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Fellows. Compensation to - for Dry Price",
+      "amount_pounds": 21,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Visual verification confirms 'Dry Price'."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4229,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear reading from image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 12,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 14,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

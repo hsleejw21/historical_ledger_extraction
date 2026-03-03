@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1900 Balance",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title and year. Clearly legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Liabilities",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header. Clearly legible and underlined in red."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Amounting Money in hands of College",
+      "amount_pounds": 6811,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Description, reference (II.160), and amounts are all distinct and legible. Pence is indicated by a dot, suggesting 0."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Less due to the College for Batchelors",
+      "amount_pounds": 2628,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Batchelors' is clear but slightly condensed. Reference (II.79) and amounts are distinct and legible. Values are in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4183,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Calculated total for the Liabilities section. Amounts are clear and in valid range. No specific description provided on the ledger line."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Amounts due at date: -",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Sub-section header. Clearly legible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "University Dues",
+      "amount_pounds": 157,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.242), and amounts are clear. Pence is indicated by a dot."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Trust Funds:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Main section header. Clearly legible and underlined in red."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Balances due by the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Sub-header within Trust Funds. Clearly legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Symes Exhibition",
+      "amount_pounds": 180,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.136), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "King Charles I Fund",
+      "amount_pounds": 411,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.143), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Gifford Exhibition",
+      "amount_pounds": 25,
+      "amount_shillings": 15,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.159), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Dr Richards Exhibition",
+      "amount_pounds": 30,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.71), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Hasper Scholarship",
+      "amount_pounds": 86,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Entry row. The name 'Hasper' is the most probable reading for the given handwriting. Reference (I.184) and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Dr Richards Prize",
+      "amount_pounds": 142,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.195), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hatridge Trust (Library)",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Entry row. The name 'Hatridge' or 'Hatbridge' is the most probable reading for the given handwriting. Reference (I.189) and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Dr Abbot Prize",
+      "amount_pounds": 12,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (I.235), and amounts are clear and distinct. Pence is indicated by a dot."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1115,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal for the 'Trust Funds' section. Amounts are clear and in valid range. No specific description provided on the ledger line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Special Funds:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Main section header. Clearly legible and underlined in red."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Pensions Fund",
+      "amount_pounds": 868,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.180), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dues Composition Fund",
+      "amount_pounds": 62,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.212), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Tuition Fund",
+      "amount_pounds": 673,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.27), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Undergraduate Reading Room Fund",
+      "amount_pounds": 10,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.248), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Kitchen Pantry Fund",
+      "amount_pounds": 86,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.120), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Furniture Reserve Fund",
+      "amount_pounds": 117,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.223), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Furniture Sinking Fund",
+      "amount_pounds": 29,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (II.228), and amounts are clear and distinct. Values are in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Private Bills",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry row. Description, reference (III.193), and amounts are clear and distinct. Shillings and pence are indicated by dots, implying 0."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1855,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal for the 'Special Funds' section. Amounts are clear and in valid range. Pence is indicated by a dot. No specific description provided on the ledger line."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Balance from General Act II.",
+      "amount_pounds": 8696,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Total row. Description and amounts are clear and distinct. Appears to be a balance brought forward. Values are in valid range."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final grand total for the page. Amounts are very clear and in valid range. The pound symbol (£) is explicitly written."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

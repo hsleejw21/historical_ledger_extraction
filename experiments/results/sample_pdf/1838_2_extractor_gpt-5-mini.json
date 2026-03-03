@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear year at top of page, large script '1838' with no amounts. Very high legibility and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Statuta Dno. Victoriæ Schol. et Off.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Large cursive title below the year; letters partly flourished and some word endings ambiguous ('Schol. et Off.' is my reading). No monetary values on this line; interpreted as a section header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stipend ad Post. Natio 1837 et Off",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description moderately legible. Numeric cluster at right reads clearly as '20 6 8' aligned in the three right-hand columns (pounds/shillings/pence). Column alignment verified by later total line. Shillings and pence values within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augm. L. Newington et Norton",
+      "amount_pounds": 24,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '24 10 0' is clear and aligned; description is less certain — surname(s) read as 'Newington et Norton' but handwriting is slightly ambiguous around final letters."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stipend Dno. Shires",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '33 6 8' are clear and well aligned. Description reading 'Stipend Dno. Shires' fits the letter shapes; one or two letters in the surname are slightly unclear but context (a stipend line) supports this reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augm. Common. quondam Dno. Capel",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '60 0 0' very clear. Description reads as an augmentation of a common (quondam = late) associated with a gentleman whose name I read as 'Capel' — several flourished letters are ambiguous."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '30 9 2' aligns with the pounds/shillings/pence columns clearly. Description appears repeatedly on the page as 'Dno. Rectori ut supr.' and is legible enough to transcribe confidently."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Divid. Act ad Est. Anno 1837",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '89 3 8' is clear and consistent with column alignment. The description looks like a dividend/act line for the year 1837; several abbreviations are used and letters are somewhat ornate, hence reduced confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ditto ad Est. P. Mich.",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second line repeating the same amount '89 3 8' (clearly aligned). 'Ditto' and the following abbreviated locution 'P. Mich.' are legible though abbreviated and slightly flourished."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipend ad Test. Ann. 1838",
+      "amount_pounds": 33,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '33 0 0' clear in pounds/shillings/pence columns. Description reads as a stipend entry for the year 1838; handwriting of year and 'Ann.' is clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Augm. Bidlington no 3 Ann. past",
+      "amount_pounds": 42,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '42 0 3' is legible and columns aligned. The place/name reads like 'Bidlington' with trailing 'no 3 Ann. past' (handwriting for 'no' and 'past' is slightly unclear), so transcription of the description is tentative."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Repeated 'Dno. Rectori ut supr.' with the same amount '30 9 2' as earlier. Amount alignment and digits are clear; description matches earlier instances on the page."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Stipend ad Post D. Bapt. et Off.",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '19 13 4' is clear and valid. Description reads as stipend for a post related to 'Bapt.' (Baptist) and 'Off.' (offices) — abbreviations and flourishes reduce certainty in exact wording."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ditto Dno. Greves",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '33 6 8' clear. 'Ditto' indicates repeat of prior type; surname appears as 'Greves' or similar — the surname letters are flourishy and slightly uncertain."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Augm. Common quondam Dno. Med. et Child.",
+      "amount_pounds": 36,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '36 0 0' is clearly written and aligned. Description includes 'Common quondam' and two names abbreviated 'Med. et Child.' — the personal names/abbreviations are partially unclear due to flourished script."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do. Gillingston for 4th quarter Ann.",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '14 0 1' clear and validated. The place/name reads like 'Gillingston' and 'for 4th quarter Ann.' is legible though some letters in the place are uncertain."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Third occurrence of 'Dno. Rectori ut supr.' with amount '30 9 2'. Amount alignment consistent and digits clear; description matches prior identical lines."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Stipend Quirincal? ad Est. S. Mich.",
+      "amount_pounds": 26,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '26 5 0' is clear. The descriptive phrase appears to refer to a stipend for an established (Est.) item linked to 'S. Mich.' (St. Michael) but the first word is fuzzy (read as 'Quirincal/Quinarian'); text is abbreviated and stylised."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Augm. Comm. de Wittenham Longa",
+      "amount_pounds": 35,
+      "amount_shillings": 14,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '35 14 9' is legible and in-range. Description likely names a common augmentation from 'Wittenham Longa' or 'Long' — last word spelling uncertain due to flourishy script."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dno. Rectori ut supr.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Another recurring 'Dno. Rectori ut supr.' line with amount '30 9 2'. Amount and phrase consistent with previous instances; alignment confirms column placement."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "L 698 7 5",
+      "amount_pounds": 698,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final boxed total clearly written as '698 7 5' (pounds/shillings/pence). The heavy underline/box provides an unambiguous alignment reference for the three right-hand columns; digits are crisp and values validate (shillings <20, pence <12)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

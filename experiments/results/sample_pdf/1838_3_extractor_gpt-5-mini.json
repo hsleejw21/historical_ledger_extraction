@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred page heading '1838.' at very top, high contrast and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred section title 'Soluta Ordinaria' underlined; no amounts in this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "President Gov",
+      "amount_pounds": 4,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns well aligned. Pounds '4' and shillings '4' and pence '0' are clear. Description is faint/ornate; read as 'President Gov' but lettering is slightly ambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Anna Hutchings",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount aligns to shillings=1, pence=8 (no pounds). Description reads 'Anna Hutchings' though some letters are faint; chosen reading based on letter shapes and spacing."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Peto. Rti Binsor",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings '18' and pence '4' are legible in the shilling/pence columns; pounds blank. Description is very uncertain (faded/ornate) — transcribed as best visual match."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Edw. Ann. Rumon",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Columns align to pounds 4, shillings 12, pence 6. Description letters are cursive and faint; several characters uncertain, so reading is approximate."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Ede Balliol",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Shillings 12 and pence 6 clearly sit in the money columns; no pounds shown. Description is partially faded; read as 'Ede Balliol' but uncertain on some letters."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cole Dr. o. Bapt.",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Shillings '8' and pence '2' are clearly placed. Description legible though abbreviated ('Dr. o. Bapt.') and somewhat stylised."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Supervision's Abt.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large round '10' in the pounds column is clear; shillings and pence are zero. Description reads as 'Supervision's Abt.' with reasonable clarity."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Junction",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Alignment shows pounds 1, shillings 14, pence 8. Description is faint and the first letter unclear; 'Junction' is best-fit reading."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Commemoration ad Fest. Consecr. 1837",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Numbers align to 2 pounds, 2 shillings, 0 pence. Description is longer Latin phrasing; letters are readable though ornate, year '1837' is clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Item Recd. 1838",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second successive line with '2 2 0' visible. Description is abbreviated and faint; read as 'Item Recd. 1838' given visible year and context."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Guano Morta ad Fest Ann. 1838",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Clear '25' in pounds column, zeros in shillings and pence. Description partly faded but year '1838' and phrase 'ad Fest Ann.' are visible; chosen phrasing is best match."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Peldem D? S. Mich.",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second 25.0.0 line nearby; pounds 25 clear. Description is very uncertain (faded abbreviation), transcribed as approximate 'Peldem D? S. Mich.' based on visible letters."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leyland Fair on the Lodgings April 1838",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Amount reads as '5 9 1 1/2' with the pence having a halfpenny loop symbol — interpreted as pence 1 with 0.5 fraction. Description partially faded; 'April 1838' and 'Fair' visible, wording otherwise reconstructed."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do. - Octr.",
+      "amount_pounds": 5,
+      "amount_shillings": 9,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Second similar line with '5 9 1 1/2'. Uses 'Do.' abbreviation (ditto). Fractional halfpenny symbol visible again; description abbreviated and faint."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Gauze & Newington ad Fest Ann. 1838",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Clear '40' in pounds column. Description is partially legible with year '1838' and place-like names; transcription is best-effort from faded cursive."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Return - S. Mich.",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Another clear '40 0 0'. Description reads as 'Return' and mentions 'S. Mich.' — letters clearer than many other descriptions."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "List & for the City Revenues D.1838",
+      "amount_pounds": 9,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Monetary columns read 9 pounds, 11 shillings, 8 pence. Description is ornate and partly crossed with pen strokes; interpreted as relating to 'City Revenues' with year 1838 present."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "River Water from the City Works",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Alignment of 7/7/6 is clear and fits column grid. Description 'River Water from the City Works' is legible though written in flowing cursive."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Insurance of Coll. to Mines 1838",
+      "amount_pounds": 48,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '48' clearly visible; shillings '1' and pence '6' clear. Description partly abbreviated ('Coll.') and year 1838 readable; reading 'Mines' is best-fit though faint."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do. - Paddington School to Midz. 1839",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 1 pound 10 shillings is clear. Description starts with 'Do.' (ditto) and mentions 'Paddington School' and year '1839' — letters readable though compact."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Gas Lights - 1 year to Day 1838",
+      "amount_pounds": 24,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Columns show 24/7/6 clearly. Description 'Gas Lights' and '1 year' with year 1838 are legible and consistent with ledger context."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do. - Mich.",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Small amount of 0 pounds 2 shillings visible in the columns. Description is abbreviated 'Do. - Mich.' and fairly legible; monetary alignment is unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 269,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Final total at lower right reads '269 10 3' and aligns exactly with the pounds/shillings/pence ruling lines. Description area is blank for this total line; numbers are clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

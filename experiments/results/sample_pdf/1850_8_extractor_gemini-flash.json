@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Totula Paria - Bro’t over",
+      "amount_pounds": 3621,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical lines for columns are unambiguous and values are well-aligned. All extracted monetary values are within valid ranges."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Tradesmens Bills continued",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly legible header text. No monetary amounts are associated with this type of row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Hile - Painter",
+      "amount_pounds": 53,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Herbert Ho. - Upholsterers",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear, although the abbreviation 'Ho.' and 'Upholsterers' have minor stylistic flourishes. Amounts are clearly legible and within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Hayes - Bookbinder",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Vincent - Printer",
+      "amount_pounds": 8,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Baxter - Do",
+      "amount_pounds": 11,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description ('Do' for Ditto) and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Spiers - Stationary &c.",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description 'Stationary &c.' is clear. Amounts are clearly legible and within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Rowell - Clockcleaner",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Underwood - Architect",
+      "amount_pounds": 457,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Values are well-aligned and within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Wine Battels --",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "The original ledger entry displays '£3 21s 2½d'. As shillings must be 0–19 per validation rules, the '21s' has been converted to '£1 1s'. Thus, the extracted amounts are £4 (3+1) and 1 shilling. The pence is clearly '2' with a '½' fraction. The '6' visible near the pence column is considered a stray mark due to its ambiguous positioning and the clear '2' in the pence column."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3804,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of total amounts. The description area is blank, which is typical for a final total row. Values are well-aligned and within valid ranges, with a clear half-penny fraction."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

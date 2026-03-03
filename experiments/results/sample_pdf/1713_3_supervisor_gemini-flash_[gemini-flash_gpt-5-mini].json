@@ -1,0 +1,287 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Eadlington Augm't. recd",
+      "amount_pounds": 86,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Top-left heading is legible as 'Eadlington Augm't. recd'. A three-column amount is visible at the far right of the same top line but the pence digit is slightly smudged/partly cut off; interpreted as '8d' based on the visible shape aligned under the pence column. Column alignment was inferred from the clearer totals lower on the page."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Titchwen.",
+      "amount_pounds": 64,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second line description is faint but reads like 'Titchwen.' Amount at the top-right (64 3 4) is clear and well aligned with the pounds/shillings/pence columns. Description reading uncertain by one or two letters, hence moderate confidence."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Norton Vicarage.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The name 'Norton Vicarage.' is clearly written on the left but has no specific amount on the same horizontal line (blank in the three money columns). Very legible handwriting for the description; absence of amount is clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Padlane, Sparks, moriton,",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Group of names 'Padlane, Sparks, moriton,' is plainly written. No numeric amount on that line; likely part of the group of receipts listed below. Handwriting of names is readable though some letters (eg 'moriton') are uncertain in spelling."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Middenham. Rose. St Thomas day",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description 'Middenham. Rose. St Thomas day' is legible. The corresponding amount '6 13 4' is clearly written and aligned within the pounds/shillings/pence columns and passes currency validation (13 shillings, 4 pence)."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Back-gate Jennings",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "The name 'Back-gate Jennings' (or similar 'Back gate Jennings') is readable and the amount '4 0 0' aligned with it is clear. All numeric columns valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Jack-gate Jennings / George",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Two short names appear on two successive lines ('Jack-gate Jennings' then 'George') with a '4 0 0' written in the pounds column beside one of them; the handwriting and alignment suggest both are separate entries of 4 0 0 each. The reading of the first name is moderately uncertain; amount reading is clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Pars 4ta Rines of Mindenham",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Line reads 'Pars 4ta Rines of Mindenham' (Latin/abbreviated phrasing). The adjacent amount '5 0 0' is clearly written and aligned. Minor uncertainty in exact spelling of the description but amount alignment is unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "Summa Receptorii anni perh?tis",
+      "amount_pounds": 139,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Bolded subtotal line under the earlier receipt items reads 'Summa Receptorii anni...' (some letters indistinct). The total '139 2 4' in the three right-hand columns is clearly written and used as the alignment reference for the page. Minor doubt on exact Latin/abbreviation spelling of the description."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Increments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Centered heading (looks like 'Increments' or similar). Lettering is somewhat stylized and faint; interpreted as a new section heading for subsequent receipts."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Rec'd of Mr Hutchins for y:e 1/2 year ending at Midsumer 1713",
+      "amount_pounds": 35,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is legible as a receipt 'Rec'd of Mr Hutchins for ye 1/2 year ending at Midsumer 1713'. The amount '35 00 03' is clearly written in the three monetary columns; pence '3d' is visible and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "header",
+      "description": "Gent: Commoners:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading 'Gent: Commoners:' centered and clear. No amount on this line."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr John Cook & Mr Hugh Acland &",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Two names written on the first line of this group; text is legible though ampersand and letter flourishes present. No individual amounts on this line (group total appears below)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Mr Pine",
+      "amount_pounds": 24,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Mr Pine' on its own line followed by a bracket; the group total '24 00 00' sits on the pounds/shillings/pence columns aligned with this bracket. It is treated here as the total for the bracketed commoners. Amount clear; grouping inferred from bracket marks."
+    },
+    {
+      "row_index": 15,
+      "row_type": "header",
+      "description": "Act Supper",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered heading 'Act Supper' is clear and introduces a list of contributors beneath."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Mr Vyvyan 4. Mr Salter 4. Mr Pindall 4. Mr Hicks Junr 4. Mr Pengelly 4. Mr Peters 4.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Long line listing several contributors each with '4' noted after their name. The handwriting is readable though cramped; individual amounts are not placed in the three-money columns but are part of the bracketed sum to the right."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mr Newcombe 2. Mr Hicks Sen 2.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Continuation of the contributors list with lower amounts '2' for two gentlemen; handwriting legible. These are part of the Act Supper grouping whose totals are on the right."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "First bracketed subtotal for the Act Supper (the larger bracket) is clearly written as '28 00 00' in the money columns. No description text adjacent to this subtotal on the line; alignment and digits are clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "A second smaller subtotal appears as '2 00 00' (clearly written) — likely the smaller bracketed group of '2s' contributors. Alignment to columns is unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total for the Act Supper group is written as '30 00 00', clearly underlined/boxed; numeric reading and column alignment are unambiguous."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Com: Library.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Section heading 'Com: Library.' (short for Committee/Conservator Library) is centered and clearly written."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "of Mr Hutchins for ye year 1712 Midsumer",
+      "amount_pounds": 4,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amount '4 17 6' written in the three-money columns. All digits and columns are distinct and valid."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "more of Mr Hutchins for ye year 1713",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible and amount '2 10 0' is clearly written and aligned. No fractional pence present."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Suma",
+      "amount_pounds": 96,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A boxed subtotal 'Suma' appears with '96 7 9' in the money columns. The digits are fairly clear but the relation of this sum to all above groups requires context; reading of the hundreds/tens place is clear but slight smudge on the shillings digit reduces confidence slightly."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Summa Omnium Receptorum",
+      "amount_pounds": 455,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final grand total line reads 'Summa Omnium Receptorum' with a large numeric group at the far right. Pounds '455' and shillings '6' are reasonably clear; the pence area contains extra pen flourish(s) that made the final pence digit less certain but appears as '7d'. Because the very bottom-right strokes are slightly ambiguous, confidence is moderate."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

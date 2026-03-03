@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Stipendia Duo Rectori Scholaribus et Aff.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the main page title. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Stipend ad festum Natio. 1849.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a section header. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Augment. S. Newington et Heston",
+      "amount_pounds": 19,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Stipend: Duo Thiers",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stipend: Duo Thiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augment: Comm: ejusdem Duc et Caftell:",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Duo Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Stipend ad festum Annum: 1850.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a section header. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Augment: Hiddington pro 3a parte Anni",
+      "amount_pounds": 38,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Duo Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Stipend ad fest. D. Jo: Bapt. et Officiariis-",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Classified as an entry due to the specific amount despite its structural position. Column alignment unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend: Duo Thiers",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Augment: Comm: ejusd: Duc et Mod. et Redd.",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Augment: S. Hiddington pro 4ta parte Anni",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Duo Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Stipend Quinque Anni ad festum St. Michaelis",
+      "amount_pounds": 25,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear description. Pounds and shillings are clear. The pence digit is clearly '5', but a faint mark resembling a '0' appears next to it; interpreted as a flourish or stray ink, not a second digit. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Augment. Comm: de Wittenham Longa",
+      "amount_pounds": 28,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Duo Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 507,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row represents a subtotal; the description is a blank line. Monetary amounts are clearly legible and column aligned. All values are within valid ranges."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Scholaris Regis Caroli 1mi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of a new section header. No monetary amounts are associated with this row."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pro Finibus - Bullington",
+      "amount_pounds": 1,
+      "amount_shillings": 12,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. A '¼' fraction is clearly indicated after the pence. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Lovell",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. A '¼' fraction is clearly indicated after the pence. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Stale",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. The initial 'S' of 'Stale' is consistent with other 'S' characters on the page. A '¼' fraction is clearly indicated after the pence. Column alignment is unambiguous. All values are within valid ranges."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Sum of this page",
+      "amount_pounds": 520,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total description 'Sum of this page' and all monetary amounts. A '¾' fraction is clearly indicated after the pence. Column alignment is unambiguous. All values are within valid ranges."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1801",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred year at top of page; crisp handwriting and no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centred heading immediately under the year; fully legible, no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bursar 1st Payment",
+      "amount_pounds": 737,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads like 'Bursar 1st Payment' (handwriting slightly stylised). Numeric columns align clearly; pounds '737' and shillings '14' are legible. Pence digit in column is small and could be 0 or a faint 6, but alignment with column and look of digit favours 0."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "2nd Do",
+      "amount_pounds": 754,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short description '2nd Do' (meaning 2nd ditto). Pound and shilling columns are well aligned and read as 754 and 18. Pence looks like 0; small tick-marks to right are ticks not pence."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "3rd Do",
+      "amount_pounds": 716,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description '3rd Do' clear. Pounds '716' and shillings '7' are legible. Pence column appears to be 0; faintness of small mark reduces confidence slightly."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do Entrances acts 1st 14",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description begins with 'Do Entrances acts 1st 14' (handwriting readable). Amount aligned and clearly '70 0 0' (70 pounds, 0s, 0d) — good contrast and alignment with ruling lines."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2nd 21",
+      "amount_pounds": 105,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line reads '2nd 21' (part of Entrances group). Amount '105 0 0' is very clear (three-digit pounds, shillings and pence zeros aligned)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3rd 13",
+      "amount_pounds": 65,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line '3rd 13' (third of the Entrances entries). Amount '65 0 0' is crisply written and column alignment is unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Small Fees at 5 1st 15",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Small Fees at 5 1st 15'. Numeric amount '3 15 0' (3 pounds 15 shillings) aligns with expectation (15 × 5s = 3£15s) and is clearly written."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "2nd 20",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Part of the 'Small Fees at 5' group; '2nd 20' with amount '5 0 0' (clearly written and well aligned)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3rd 12",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Third line of the small-fees group reads '3rd 12' and amount '3 0 0' is clear (12 × 5s = 3£)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Small Fees, Depregat 1st 12",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Heading appears to be 'Small Fees, ... 1st 12' but the word after 'Small Fees,' is not fully clear (interpreted as 'Depregat' or similar). Amount reads as '1 10 0' (1 pound 10 shillings) but the heading ambiguity reduces confidence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "2.6",
+      "amount_pounds": 2,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Short descriptor '2.6' (handwriting suggests a fractional or shorthand entry). Numeric amount '2 7 6' (2 pounds 7 shillings 6 pence) is readable, though the descriptor and its relation to the row above is somewhat unclear from the script."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "2nd 19",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads '2nd 19' (or similar). Amount appears as '2 6 0' (2 pounds 6 shillings); the descriptor and precise grouping are moderately ambiguous, but numeric columns align and are legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "3rd 1",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final line of this small-fees subgroup reads '3rd 1' (script is compact). The numeric at right reads '2 6 0' again; descriptor is faint and grouping uncertain."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Gate Bill",
+      "amount_pounds": 88,
+      "amount_shillings": 7,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Gate Bill' is legible. Amount reads '88 7 7' (pence '7' is clearly within 0–11). Slight ink blotting nearby reduces confidence slightly but columns are aligned."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Deans Fees",
+      "amount_pounds": 246,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description 'Deans Fees'. Amount '246 10 0' is well aligned and legible; handwriting for pounds (three digits) is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Tavern Rent of Cottage and Field 1 year to Midsummer 1801",
+      "amount_pounds": 31,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Longer explanatory line about rent (reads 'Tavern Rent of Cottage and Field 1 year to Midsummer 1801' with some small script underneath referring to cottage/field rates). Amount '31 0 0' visible but small script causes moderate uncertainty about exact wording of the description."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1860,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final total at extreme bottom-right reads '1860 11 7' (digits clear and aligned). There is no explicit textual 'Total' label on the page — only the number — so description is left blank to match the page."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

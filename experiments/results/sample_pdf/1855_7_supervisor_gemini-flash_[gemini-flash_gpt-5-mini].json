@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Varia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kimber. Poles.",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification: description 'Kimber. Poles.' (matching gpt-5-mini). Amount '16' clearly in shillings column (matching gemini-flash's interpretation of placement). Pounds and pence columns are blank."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Turville Thatching.",
+      "amount_pounds": 10,
+      "amount_shillings": 15,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification of description 'Turville Thatching.' (matching gemini-flash). Amounts '10 15' are clear in pounds and shillings, pence column is blank. Consistent with both extractors' values for amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Faulkner Thatching Barn. new doors. x",
+      "amount_pounds": 6,
+      "amount_shillings": 16,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification of description 'Faulkner Thatching Barn. new doors. x' (closest to gemini-flash, but added the trailing 'x' from the image). Amounts '6 16' are clear in pounds and shillings, pence column is blank."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Willisden. Repairs.",
+      "amount_pounds": 4,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification of description 'Willisden. Repairs.' (matching gemini-flash). Amounts '4 8 8' are clear and distinct."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Harrington 2/4 Int on £200. P.J.D. to Midr. 1855. at 4%",
+      "amount_pounds": 15,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('4%' not '4½%'). Amounts '15 4 10' are clear."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Harrington 2/4 Int on £200. P.J.D. to Xmas 1854",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description. gpt-5-mini incorrectly identified the description text for this row. Amounts '12 10' are clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Merton. Provisional Int: by Mr. Saley. to Lady Day. 55",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description. gpt-5-mini truncated the description to only 'Lady Day 55'. Amounts '12 10' are clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Midr.",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Midr.'). gpt-5-mini incorrectly read this as 'Mid -'. Amounts '12 10' are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mich.",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Mich.'). gpt-5-mini incorrectly read this as 'Mid -'. Amounts '12 10' are clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Garsington Repairs",
+      "amount_pounds": 9,
+      "amount_shillings": 19,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Prograves Dinner 1854 Little Few.",
+      "amount_pounds": 5,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Prograves' and 'Few'). Amounts '5 6 11' are clear."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Collins. New Room on Manor Farm on Acet.",
+      "amount_pounds": 45,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('on Acet.' for 'on Account'). Amount '45' in pounds is clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Jackson. Gratuity.",
+      "amount_pounds": 20,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description (including period). Amount '20' in pounds is clear."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bantnig. Repairs House No. 2.",
+      "amount_pounds": 11,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Bantnig' and 'No. 2.'). Amounts '11 7 11' are clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Same work at Ferry.",
+      "amount_pounds": 39,
+      "amount_shillings": 8,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Ferry'). Amounts '39 8' are clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Coroner Little Jew.",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Coroner' and 'Jew'). Amounts '1 1' are clear despite faintness."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Certificates of Death of late Ruler.",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visual verification confirms gemini-flash's description ('Ruler.'). For the amount, it appears to be '10' in the pounds column; the '1' is faint but the '0' is clear, overriding gpt-5-mini's '7'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Andrew Copy of Truro Trust Deed.",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description and amounts. The amount is clearly '1' pound and '5' shillings, not '10' pounds."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Ayries. Shekhams Farm.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Shekhams Farm'). No distinct monetary amounts are visible for this row; the '1 5' gpt-5-mini extracted belongs to the previous row."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Exors late Rector Legacy Duty Divi 9. Prize",
+      "amount_pounds": 35,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Divi 9. Prize'). Amount '35' in pounds is clear."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Garsington. Subscription towards Cholera Expense.",
+      "amount_pounds": 3,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Cholera Expense'). Amount '3' in pounds is clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Caution Bond Repayment to",
+      "amount_pounds": 100,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Bond' not 'Fund'). Amount '100' in pounds is clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "R Statules Copying of. Rev. Prise",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('R Statules' and 'Prise'). Amounts '5 5' are clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Mr. Walsh. His bill 1854",
+      "amount_pounds": 38,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for amounts. Minor difference in punctuation for description ('Mr. Walsh' vs 'Mr Walsh'), chose with period from gemini-flash."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hill. Repairs Kidlington",
+      "amount_pounds": 6,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Kidlington'). Amounts '6 3 3' are clear."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Osborne. Bill to Dec 1854",
+      "amount_pounds": 42,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Prop. Tax to Michr. Mar. 1854",
+      "amount_pounds": 53,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Michr.'). Amounts '53 4 5' are clear."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Grove Benson.",
+      "amount_pounds": 5,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Benson.'). Amounts '5 11' are clear."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Hill. Kidlington on Acct.",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Kidlington' and 'Acct.'). Amount '15' in pounds is clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Capell. Do- Do-",
+      "amount_pounds": 15,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Do- Do-' indicating ditto for both prior fields). Amount '15' in pounds is clear."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Collins. Manor Farm.",
+      "amount_pounds": 35,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description (including trailing period). Amount '35' in pounds is clear."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Dicksons. Indentures at.",
+      "amount_pounds": 34,
+      "amount_shillings": 17,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Dicksons. Indentures at.'). Amounts '34 17' are clear."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Shrubb. Granary at Long Wittenham.",
+      "amount_pounds": 40,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash's description ('Shrubb. Granary at Long Wittenham.'). Amount '40' in pounds is clear."
+    },
+    {
+      "row_index": 36,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 650,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification for amounts: '650' pounds is clear. The shillings is clearly '18'. The pence is clearly '0'. There is an extraneous '0' further to the right, as noted by gemini-flash, but it's not part of the standard £sd value. Overrode both extractors for shillings/pence based on image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 4,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 32,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

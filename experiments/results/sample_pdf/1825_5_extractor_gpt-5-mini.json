@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page year heading clearly written at top centre of the page, no monetary columns present for this item."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Brought over",
+      "amount_pounds": 341,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, large numerals aligned with the three right-hand ruling lines (360/12/7 style). All three columns are unambiguous and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bell Ringer",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numerals read as '5 5 0'. Vertical alignment suggests these occupy the £, s, d columns respectively. Ink is reasonably clear though the first digit is small; chosen interpretation (£5 5s 0d) fits visible alignment. Minor ambiguity whether the first '5' could be a shilling (i.e. 0£ 5s 5d), but spacing favors pounds."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Rowell's Stipend for care of the Clock to Mids. 1825",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear trio of digits '3 3 0' aligned under the three ruling lines; reads as £3 3s 0d. Text of description legible; numbers well aligned and valid."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "University Marshals",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Digits '2 0 0' visible and well aligned; interpreted as £2 0s 0d. Column boundaries clear and values valid."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "City Watchman",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Only two digits are clearly visible near the right-hand columns, read as '12 0' in the s and d columns (i.e. 0£ 12s 0d). The leftmost (pounds) column is blank for this row. Slight uncertainty because the left edge of the middle column is faint; chosen interpretation fits typical small payment for a watchman and column alignment."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Visible numerals read as '17 0' located in the shillings and pence area; interpreted as 0£ 17s 0d. There is moderate ambiguity whether the first digit is a '1' in the pounds column making it £1 7s 0d, but the spacing relative to the ruling lines favors 17 shillings in the s column."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Land Tax for the Stable yard one yr. & Day. 1825",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Digits appear as '1 7 6' and align with the £, s, d columns. The '6' in the pence is clear and looks like a 6 rather than a blemish. All values within valid ranges; minor ink faintness on the '1'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Easter offerings to St. Michael's Parish",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads clearly as '1 1 0' aligned under the three columns; interpretation £1 1s 0d is straightforward and matches typical offering amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Seventeen Church & Poor Rates. at 13:6.",
+      "amount_pounds": 11,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric '11 9 6' in the £, s, d columns. The printed calculation '17 at 13/6' matches the resulting amount of £11 9s 6d, confirming accuracy and alignment."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Arch Deacon's Procurations for Kill. Rectory 2 prs 3",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Numerals '1 4 0' clearly visible and aligned. Description contains a small marginal note '2 prs 3' which is included in the description text exactly as it appears. Numbers are unambiguous and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "360.12.7",
+      "amount_pounds": 360,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final underlined total at lower right of the column block, very clear digits and alignment. Validates column positions used above."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

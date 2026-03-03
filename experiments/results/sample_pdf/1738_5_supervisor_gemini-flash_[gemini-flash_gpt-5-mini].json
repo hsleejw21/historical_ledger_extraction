@@ -1,0 +1,419 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top-centre page title. Handwriting clear; interpreted as 'Arrearagia' exactly as written on page (old spelling). No amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Minkennit pro Anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting for description and amount. Pounds column aligned under the first ruling; reads '20', shillings and pence are '00'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guineas pro Anno",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description legible as 'Guineas pro Anno'. Amount columns clearly read 50 | 00 | 00."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Longwittenham ad Mie. 1738",
+      "amount_pounds": 24,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Place name and date legible as 'Longwittenham ad Mie. 1738'. Amount columns read 24 | 10 | 00; slight ink variation on the '10' but column alignment is unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South Newington Reet pro Anno",
+      "amount_pounds": 58,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description read as 'South Newington Reet pro Anno' (Reet = rent). Pounds and shillings columns read 58 | 10. Pence appears effectively zero; there is a very faint mark possibly '1' but alignment with ruling lines suggests '00' pence—assigned 00 with moderate confidence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Pudlington Reet. pro Bienn: cum dimidio",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description reads 'Pudlington Reet. pro Bienn: cum dimidio'. Amount clearly aligned as 50 | 00 | 00."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yardington Reet a Mrs Rowney pro quinquenn:",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Handwriting reads 'Yardington Reet a Mrs Rowney pro quinquenn:'. Amount columns clearly 50 | 00 | 00; minor uncertainty only in the final ':' of label."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Yardington Reet pro Bienn",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Yardington Reet pro Bienn' (appears similar name repeated). Amount clearly 20 | 00 | 00."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Merton Reet. pro quinquennio",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Merton Reet. pro quinquennio'. Amount aligned as 26 | 10 | 00; characters clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Chase Hill pro septenrio",
+      "amount_pounds": 42,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description read as 'Chase Hill pro septenrio'. Amount columns show 42 | 03 | 02; alignment and digits are clear."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrupp pro Octendecim Annis",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly 'Thrupp pro Octendecim Annis'. Amount 90 | 00 | 00 is crisp and unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dail Rents of Little Sue",
+      "amount_pounds": 12,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description read as 'Dail Rents of Little Sue' (old spelling). Amount columns read 12 | 12 | 07; digits are clear though the handwriting of '7' is slightly stylized."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Barrett alias Warner pro 14 Ann:",
+      "amount_pounds": 7,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Barrett alias Warner pro 14 Ann:'. Amount 07 | 03 | 00 is well aligned and legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Big alias Lord now Youd ad Febr. Mie.",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is somewhat cramped but reads 'Big alias Lord now Youd ad Febr. Mie.' Amount columns look like 01 | 03 | 09; the shillings/pence digits are faint and could be alternative digits (e.g. 15/06), chosen based on column alignment and stroke shapes. Moderate ambiguity in the middle column digit."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Callowbarg Lane pro Anno",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads 'Callowbarg Lane pro Anno' (spelling approximated to match manuscript). Amount clearly 02 | 17 | 09; digits are distinct and in valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bidlington Mills pro Anno",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description reads 'Bidlington Mills pro Anno'. Amount 05 | 16 | 11 is legible; pence '11' is clearly two strokes."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mountacute pro 20 Annis",
+      "amount_pounds": 13,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads 'Mountacute pro 20 Annis'. Amount 13 | 00 | 00 is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Webb pro sequinanno",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Webb pro sequinanno' (spelling per manuscript). Amount reads 00 | 12 | 00; '12' shillings is clear and valid."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Greenway (al: And. Ocor?) pro Bienn: cum dimidio",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partially unclear in the parenthetical (interpreted as '(al: And. Ocor?)'); main label 'Greenway ... pro Bienn: cum dimidio' readable. Amount 02 | 10 | 00 visible; moderate uncertainty due to uncertain parenthetical text."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Mynn pro triennio",
+      "amount_pounds": 4,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Mynn pro triennio'. Amount columns read 04 | 13 | 04; digits are clear and within valid ranges."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Leadenhall (al. Jes. Bll?)",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description 'Leadenhall' clear; parenthetical abbreviation uncertain '(al. Jes. Bll?)'. Amount 00 | 10 | 00 is visible though the parenthetical letters are faded."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Franklin pro Anno",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text 'Franklin pro Anno'. Amount 01 | 00 | 00 is crisp."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Banister (now Franklin)",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Reads 'Banister (now Franklin)'. Amount 00 | 15 | 00 clearly legible."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bampton pro Biennio",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description 'Bampton pro Biennio' clear. Amount 02 | 00 | 00 unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Marshal capons pro Biennio",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads 'Marshal capons pro Biennio'. Amount appears as 00 | 05 | 10; the pence figure '10' is slightly cramped and could be '00' with stray marks, but the alignment of the two digits suggests '10' pence. Moderate confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sadler pro Anno",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear 'Sadler pro Anno'. Amount 04 | 10 | 00 is distinct and within valid ranges."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Molineux pro Biennio",
+      "amount_pounds": 9,
+      "amount_shillings": 9,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Molineux pro Biennio'. Amount 09 | 09 | 05 is clearly written; digits are legible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Tintinhull / Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Two names appear on this and the next indented line: 'Tintinhull / Napper'. The rightmost pence has a small loop after the '9' consistent with a halfpenny mark ('ob'). Interpreted as 04 | 01 | 09 1/2. Handwriting of fraction is faint -> moderate confidence."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Hopkins",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Indented name 'Hopkins' (appears as a sub-entry). Pence has a faint trailing loop similar to a halfpenny symbol; interpreted as 00 | 12 | 07 1/2. Fraction detection is uncertain due to faint ink."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Hardhall pro octennio",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Hardhall pro octennio'. Amount 13 | 06 | 08 is clear and well aligned."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Clifton ferry pro Anno",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description read as 'Clifton ferry pro Anno'. Amount columns show 04 | 10 | 04; digits are clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Bennington pro triennio",
+      "amount_pounds": 11,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Bennington pro triennio'. Amount 11 | 02 | 05 legible and within valid ranges."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "South Newington Tenement pro Anno",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'South Newington Tenement pro Anno' legible. Amount 01 | 07 | 10 is clear."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Trethewin pro Anno",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Manuscript reads 'Trethewin pro Anno' (spelling approximate). Amount 06 | 00 | 00 visible though description letters slightly faded."
+    },
+    {
+      "row_index": 35,
+      "row_type": "entry",
+      "description": "Ladlane sparkes & Murton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Ladlane sparkes & Murton' (historic spellings preserved). Amount 26 | 10 | 00 is clearly written."
+    },
+    {
+      "row_index": 36,
+      "row_type": "entry",
+      "description": "Medenham pro Biennio",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description 'Medenham pro Biennio' clear. Amount 13 | 06 | 08 legible and within valid ranges."
+    },
+    {
+      "row_index": 37,
+      "row_type": "entry",
+      "description": "Mason at y Backgate pro sequinanno",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Last line reads 'Mason at y Backgate pro sequinanno' (y = 'ye' abbreviation). Amount 06 | 00 | 00 is clearly aligned and unambiguous."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

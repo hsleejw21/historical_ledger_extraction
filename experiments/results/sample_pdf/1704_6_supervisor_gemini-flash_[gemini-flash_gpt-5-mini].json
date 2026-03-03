@@ -1,0 +1,408 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Item to ye bringer of medenham and ladlane rent",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text and the three-column numbers at the far right are legible. The amount reads clearly as 0 pounds, 2 shillings, 0 pence; vertical ruling lines align this row with the other amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "To mr Baron instead of a chamber",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads as 1-0-0 in the £/s/d columns; writing is clear and aligned with the ruling lines."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To mr Beckner for cleaning Pictury and ye Kings arms",
+      "amount_pounds": 3,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Description and amount (3£ 12s 0d) are crisply written and well aligned; shillings 12 and pence 0 clearly visible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "To mr Collison for work and materials",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers (1£ 5s 8d) are clear; pence '8' shape is distinct. Vertical alignment with column guidelines confirmed."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "To mr Lumly on 2 bills",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount appears as 2£ 6s 9d; digits are legible though the middle of the line has slight ink fade. Column alignment consistent with neighbors."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To Fifield the slater",
+      "amount_pounds": 10,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds read as '10' and shillings '17', pence '9' — the digits are larger and slightly compressed; unusually large amount increases chance of mis-read but alignment supports this reading."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "To mr Clark for paper, pens &c",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Rightmost columns show 0£ 7s 11d clearly; the '11' pence is well-formed (two strokes)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Underlined subtotal reads '19 12 3' clearly; used as column alignment reference for the section above. Values validate (s <20, d <12)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "header",
+      "description": "Fines, to mr Le Bretten",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Section heading (introduces several fine items). No amounts on the label row; handwriting moderately clear."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "For ye Brinkrouge in St Giles 13:4 mr Smiths of Kidlington 2.14.9 03",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is crowded and contains multiple place/names; the rightmost amount is faint and partially smudged. Interpreted the three rightmost figures as 3£ 8s 1d — alternative readings are possible (ink blot near the shillings/pence). Chose this reading based on alignment with the Sum line above."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "For mr walkers Tenent, 10? mr Hughes 12?",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount appears as '01 2 0' and aligns with the shilling column. The descriptive text is abbreviated and partly obscured (handwriting compressed), but the numeric trio is reasonably clear."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Pears Ann. 15t Churchill mich. 15t",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Bracketed group of names; this line shows 01 10 0 in the columns. Script for the name is slightly faded but numeric columns are aligned and clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Jago Ann. 15t mich. 15t",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second entry in the bracket with identical-looking amount '01 10 0'. The pence column is clearly 0."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Penrose Ann 15t",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount reads '00 15 0' (15 shillings). The '00' pounds column is faint but consistent with neighbouring zeros in the bracket."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Blake",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name 'Blake' is present under the bracket with no visible amount on its line — appears to be a sub-item of the bracketed fines (no separate amount written)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "header",
+      "description": "Ad Fest. Nativ.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Section label (appears left of several rows of numeric entries). Handwriting of heading clear; no numeric amount on the header itself."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Dno Rv? et socijs & Augment. red. Southern. et merton - Stipend. & Officiarys",
+      "amount_pounds": 22,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "First numeric line in the 'Ad Fest. Nativ.' block reads 22£ 0s 0d clearly. Some abbreviation in the description (Rv? / socijs) makes the label uncertain but the amount is distinct."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Ad Fest Ann. & Augm red. Cuddington 3s ptes - Stipend",
+      "amount_pounds": 17,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second line in the block reads '17 0 0' in the columns. The descriptive line is abbreviated and ink is lighter, so reading is moderately uncertain but numeric trio is aligned and plausible."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Ad Fest Bapt. 4th pte red Augm Cuddington",
+      "amount_pounds": 36,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This row shows '36 14 2' in the £/s/d columns. The description is compact and contains abbreviations; numeric columns are readable but ink is a little uneven."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Stipend. & Officiarys",
+      "amount_pounds": 28,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Follows previous descriptive line; amounts '28 6 8' are visible though the '6' shillings digit is slightly cramped. Column alignment supports this reading."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "?? (continuation line under the Bapt/Officiarys group)",
+      "amount_pounds": 12,
+      "amount_shillings": 4,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "This line is a short descriptive continuation (illegible start) with amounts '12 4 4'. The text is faint; numeric trio is readable but the label is unclear, so confidence reduced."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Ad Fest Mai & Augm. red. Longwitham",
+      "amount_pounds": 16,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount appears as 16£ 6s 8d; the place-name 'Longwitham' is legible but the line is slightly faded. Column values validate and align with neighbors."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Solw. & Guinear",
+      "amount_pounds": 33,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pence column shows '5' with a small trailing loop interpreted as 'ob' (halfpenny). Read as 33£ 0s 5½d. The fraction mark is faint but has the characteristic halfpenny loop."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 21,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "There is a short isolated numeric line under the 'Ad Fest' block that reads '21 10 0' in the columns but the descriptor is entirely obscured by an ink blot/scribble. Treated as a total/subtotal; description unavailable."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "To mr Beckner for work att ye ArchBps of Armagh Picture",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and amount '01 5 0' are readable; minor ink shadow from previous scribble but digits are clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "To mr Taylor for a Frame for ye sd Picture",
+      "amount_pounds": 6,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear line with amount '06 9 0'. Text and numbers are legible and aligned in the columns."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 203,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Subtotal for the lower block reads approximately '203 1 4' but the pence digit area has a faint additional mark that could be a fraction or stray pen stroke. Chosen reading '4d' based on alignment; alternate readings possible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "total",
+      "description": "Suma Omnium con Reddplorom.",
+      "amount_pounds": 482,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Large total line shows '482 5 ?' — the final digit is ambiguous in the scan (looks like '19' but pence cannot be 19). Interpreted conservatively as 482£ 5s 1d; the pence digit is uncertain due to overlapping pen flourish."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "Suma Omnium Solutorum",
+      "amount_pounds": 383,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Line reads '383 3 10' in the columns. There is a small stray mark to the right that looked like an extra digit but does not align with the pence column; accepted reading is 10d."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "Sic Introduxit hoc anno Dni: Computans.",
+      "amount_pounds": 99,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The ledger insertion line reads clearly as '99 1 3'. The phrase labeling the entry is legible and standard formulaic text for carried totals."
+    },
+    {
+      "row_index": 31,
+      "row_type": "header",
+      "description": "Computus suprascriptus examinatus & approbatum per nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Certification header above signatures. No monetary amount on this row; handwriting is clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "header",
+      "description": "Sa: Adams",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Signature line clearly reads 'Sa: Adams'. Treated as a header/attestation row (no amount)."
+    },
+    {
+      "row_index": 33,
+      "row_type": "header",
+      "description": "Robt. Rous.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second signature visible as 'Robt. Rous.'; legible and without numbers."
+    },
+    {
+      "row_index": 34,
+      "row_type": "header",
+      "description": "Gu: Paynter R.T.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Signature-like line 'Gu: Paynter R.T.' visible; no amounts. Some flourish on initials reduces clarity of exact post-nominal letters but name is readable."
+    },
+    {
+      "row_index": 35,
+      "row_type": "header",
+      "description": "Geo: Verman Subrector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Signature 'Geo. Verman' followed by an abbreviated office (looks like 'Subrector'). Hand is more flourish-heavy here; read with moderate confidence."
+    },
+    {
+      "row_index": 36,
+      "row_type": "header",
+      "description": "Ric: Newbing ?",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final signature line is heavily stylised and partly obscured by a fold/shadow; read approximately as 'Ric: Newbing' but letters uncertain. No amounts."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

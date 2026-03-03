@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Brought over.",
+      "amount_pounds": 976,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on all monetary values and row type. Description from gemini-flash matches the punctuation observed in the image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Tintinhull - Napier. 4 yrs",
+      "amount_pounds": 31,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it more accurately reflects 'Tintinhull' and the hyphen in the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "--- D° Beaton - 2 yrs",
+      "amount_pounds": 2,
+      "amount_shillings": 14,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Teethwin - 2 yrs.",
+      "amount_pounds": 36,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description overridden based on visual verification of the image, which clearly reads 'Teethwin - 2 yrs.'. Both extractors had minor discrepancies in the spelling or punctuation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Little Tew - Taylor. 2. yrs.",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image. gpt-5-mini's notes showed uncertainty for its reading of 'Tex', reinforcing the choice of 'Tew'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "--- Worley",
+      "amount_pounds": 20,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image, including the leading dashes."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "--- Kimber",
+      "amount_pounds": 10,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Monetary values for pounds, pence, and fraction were consistent. Shillings value '15' selected from gemini-flash and description '--- Kimber' was also from gemini-flash. Both were confirmed by visual verification against the image, where the shillings digit is clearly a '5' when compared to other '5's and '6's on the page. gpt-5-mini reported '16' shillings and missed the leading dashes."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "--- Eden",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image, including the leading dashes."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "--- Hiorns",
+      "amount_pounds": 6,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image, including the leading dashes. gpt-5-mini's note mentions uncertainty for the surname but ultimately extracted the correct name."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "--- Hartley",
+      "amount_pounds": 1,
+      "amount_shillings": 19,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on monetary values and row type. Description taken from gemini-flash as it is an exact match for the image, including the leading dashes."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1118,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus reached on all monetary values, description, and row type for the final total line, which is clearly indicated by a horizontal line above it in the ledger."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 9,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 2,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

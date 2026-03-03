@@ -1,0 +1,97 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Receipts by Biddulph Cocks",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Top-line title. Handwriting is clear and legible; no amounts on this line. Vertical ruling lines are not used for headers, and the words read unambiguously as 'Receipts by Biddulph Cocks'."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "& Co. Bankers in London 1796",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second header line appears to read '& Co. Bankers in London 1796'. Date '1796' is clear; ampersand and 'Co. Bankers in London' are legible though slightly abbreviated. No monetary values on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "1/2 years Divd on 4108.17.6 cons 3 per Cent",
+      "amount_pounds": 61,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as a half-year dividend on '4108.17.6' cons (3% indicated). Amount aligned to the rightmost £/s/d columns using the clear total line as an alignment guide. Pounds (61), shillings (12) and pence (7) digits are distinct; slight uncertainty on some numerals in the principal figure '4108.17.6' but the monetary columns are well aligned and the pence digit is clearly a '7'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "1/2 year on 546.0.9 in 4 per Cent",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Reads as half-year interest on '546.0.9' at 4%. Amount columns located by vertical ruled lines; pounds '10' and shillings '18' are clear, pence looks like '4'. No fraction symbol after pence. Minor ambiguity in the manuscript '546.0.9' (dots/commas) but the monetary figures are unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "1/2 year on 4108.17.6 in 3 per Cent",
+      "amount_pounds": 61,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second similar half-year dividend on the 4108.17.6 cons (3%). Amount repeats the earlier 61-12-7. Alignment and digits match the earlier dividend row; small uncertainty only because the line is slightly lighter but numerals match."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "1/2 year on 546.0.9 in 4 per Cent",
+      "amount_pounds": 10,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Repeat of the half-year 4% interest on 546.0.9. Amount 10-18-4 aligns with the previous 4% entry above; digits are clear though the ink is slightly lighter here, hence moderate confidence."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Excheq'r Annuity for a year due July 5-96",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reads 'Excheq'r Annuity for a year due July 5-96' (abbreviation for Exchequer). Amount 50-0-0 is clearly written and aligned in the pounds/shillings/pence columns. The date 'July 5-96' is legible and corroborates the header year."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 195,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Final boxed total at right reads '195. 1. 10' (195 pounds, 1 shilling, 10 pence). Used the ruled vertical lines to determine pound/shilling/pence boundaries; all three digits are clearly formed and validate (shillings <20, pence <12). No fraction symbol present."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

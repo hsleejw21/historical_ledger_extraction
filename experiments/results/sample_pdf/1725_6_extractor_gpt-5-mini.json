@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Jospy Fines",
+      "amount_pounds": 14,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Topmost line reads 'Jospy Fines' (handwritten p looks like a descender). Pounds and shillings (14 and 7) align clearly in the left two of the three right-hand columns. Pence column is faint — there is a small mark but illegible; I set pence to 0 and note uncertainty about a small scribble to the right."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Hill Pension",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Amount printed as '00 10 0' in the three right-hand columns; columns are well aligned and values within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Bursary & Impropris Colla Et Nota Donus",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "This centered/introductory line appears to be a section header (no amounts present). Handwriting is moderately clear but some words (Impropris/Donus) are abbreviated/uncertain."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "P. W. Bagley misc: 8 Mar 1723",
+      "amount_pounds": 18,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and date legible. Numeric columns read as 18 | 17 | 6; alignment with vertical rules is clear and values pass validation. Minor uncertainty due to slight ink blur on the pence digit but 6 is the most plausible reading."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "P. W. Bagley misc: 8 Mar 1724",
+      "amount_pounds": 22,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Similar format to the prior Bagley row. Columns clearly aligned as 22 | 17 | 6. Ink slightly lighter than row 4 but digits unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "P. Question of Domiciny of misc & St Thomas 1722",
+      "amount_pounds": 37,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is somewhat cramped and bracketed with the previous entries; the right-hand numbers read as 37 | 12 | 4. Moderate uncertainty because the bracketing suggests these lines are related and the exact wording of the description is partially abbreviated."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Johns Lady Day & St John Bapt. 1724",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Line with date/occasion follows the previous bracketed items but no monetary amounts are written on this specific line — appears to be a descriptive sub-item (no values present). The text is legible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Dno Ric: Et Socii",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clearly a centered account header introducing the following block. No amounts on the same line. Handwriting legible as a heading."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "ad first nat { p Aug: mi Southm. Et Morton }",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Bracketed entry; description partly abbreviated ('Southm.' interpreted as Southm[pton?]). Amounts read clearly as 23 | 0 | 0 and align with the column rules."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Stipend Et Officiariij",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible (Latinized). Right-hand columns read 18 | 6 | 8 clearly; values within valid ranges. Slight ink blot on the '8' but alignment supports this reading."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "ad first annum { p Aug. Rd Edlington 3 part }",
+      "amount_pounds": 28,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwriting of the descriptive portion is moderately unclear (Rd Edlington uncertain). Amount columns appear to show 28 | 5 | 0 but the shillings/pence area is slightly smeared making the pence uncertain; chose 0 as the clearest digit."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Stipend",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Single-word entry 'Stipend' with a clear amount to the right: 30 | 0 | 0. Alignment and digits are readable."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "ad first Sept { p A parte Rd Cudl }",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is abbreviated and partly unclear ('Rd Cudl' tentative). Right-hand numeric grouping reads 10 | 9 | 2; pence digit is small but legible enough to choose 2."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Stipend Et Officiariij",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "A second occurrence of 'Stipend Et Officiariij'. Numerical columns again read 18 | 6 | 8; clear alignment supports this reading."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "ad first Mice { p Aug: mi. Rd Long W. }",
+      "amount_pounds": 23,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is abbreviated and somewhat unclear ('Mice' and 'Rd Long W.' are transcribed as they appear). Right-hand amount reads 23 | 1 | 3; pence is small but legible in context with the column alignment."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sol for Guinecar",
+      "amount_pounds": 24,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description partly abbreviated ('Guinecar' as transcribed). The numeric columns are clean: 24 | 5 | 0."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "269 18 10 (section total)",
+      "amount_pounds": 269,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "A subtotal/total is written below the block; the first number '269' and the shillings '18' are legible. The pence column is less crisp; interpreted as 10 based on alignment with the three right-hand rules and comparison with other totals on the page."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Summa omnium receptorum",
+      "amount_pounds": 536,
+      "amount_shillings": 1,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Latin heading 'Summa omnium receptorum' followed by a large total on the right. Pounds appears as 536, shillings 1 and pence 9 are plausible from the faint digits; ink here is lighter so reading is moderately uncertain."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Deductorum",
+      "amount_pounds": 456,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Line labelled 'Deductorum' (deductions) with amounts to the right. The numbers 456 | 9 | 2 are reasonably clear and consistent with the visible figures; digits are darker than row 18."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "sic introducti Ds Computaris",
+      "amount_pounds": 79,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Final balancing line (Latin) showing the remainder. The pounds '79' is clear; shillings and pence are less distinct — I read 11 | 6 but the pence digit in particular is faint and could be ambiguous (hence lower confidence)."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Nos quorum nomina subscripta sunt ... (long Latin paragraph)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Long explanatory Latin paragraph spans several lines; no monetary amounts on these narrative lines. Text is generally legible though some abbreviations occur; treated as header/narrative."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "1723",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Year mark in left margin '1723' introducing the small list of petty payments below. No amounts on the same line."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Pd for a Certificate &c to the Bishop",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small petty payment line in the lower left with amount read as 01 | 01 | 00; description is abbreviated and faint but 'certificate' and 'Bishop' are plausible reconstructions from the handwriting. Ink faint affecting confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pd The Steward for a Certificate to the Visitors",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Another petty payment line; the amount aligns as 01 | 01 | 00. Wording 'The Steward for a Certificate to the Visitors' is inferred from abbreviations and context; handwriting is fairly small and faded."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Pd for entering the Visitors Injunctions in the Books",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Small payment shown as 01 | 00 | 00. Description is abbreviated and the phrase 'entering the Visitors Injunctions' is a best reading of the cramped script; amount digits are clearer than the words."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Pd for a man & one horse to the Visitors",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Final small payment in this list reads 01 | 00 | 00. The description 'a man & one horse to the Visitors' is legible though compact; amount digits clear but small."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Matth: L?? Rector (signature block)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Signature/attestation block at the foot of the page. Multiple names appear; no monetary amounts. 'Matth.' and 'Rector' are clear; surname partly abbreviated/uncertain."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "Joannes Coybeare Subsc (and other signatories)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Additional signatories listed (names and abbreviations). No amounts. Handwriting is cursive but recognizable as signatures; some surnames are abbreviated which lowers confidence slightly."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date header at the top of the page. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Computus Rectoris a 2do die Novembris a.D. 1859 ad eundem diem revolution d.D. 1860",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title/period description. The Latin script is legible. No monetary amounts expected."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header for receipts. No monetary amounts expected."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Clutterbuck 8th Instment on Loan",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amount. 'Instment' is interpreted as 'Instalment'. Amount is clearly 10 pounds, well-aligned in the pounds column. No shillings or pence visible."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Andrews. &c So. on So.",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amount. 'So.' is interpreted as 'Same'. Amount is clearly 30 pounds, well-aligned in the pounds column. No shillings or pence visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bushey Divs",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Colby Bursar Increm. domus",
+      "amount_pounds": 1308,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid. 'Increm. domus' likely abbreviates 'Incrementum Domus'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. do. do.",
+      "amount_pounds": 1986,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '0' for shillings is clearly written. Pence '7' is unambiguous. Values are valid."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Deans Deco",
+      "amount_pounds": 77,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid. 'Deco' is a plausible abbreviation for a longer word (e.g. Decorum or Decem)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Divd on Sr. Jones Consols, to Michs 58",
+      "amount_pounds": 17,
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. 'Divd' interpreted as 'Dividend', 'Michs' as 'Michaelmas'. Shillings and pence are well-aligned and values are valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "New Building Fund. Acct Closs",
+      "amount_pounds": 154,
+      "amount_shillings": 13,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. 'Acct Closs' likely 'Account Close'. Shillings and pence are well-aligned and values are valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Late Building Fund - not carried to Acct.",
+      "amount_pounds": 47,
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '1' is clearly aligned in the shillings column. No pence visible. Value is valid."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Sr Richards Divinity Prize",
+      "amount_pounds": 10,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amount. Amount is clearly 10 pounds, well-aligned in the pounds column. No shillings or pence visible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ryse Rent Miss Jones Share",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Sixteen per cent on Rents",
+      "amount_pounds": 733,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Composition to Colleg. by Masters",
+      "amount_pounds": 332,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '10' is clearly aligned in the shillings column. No pence visible. Value is valid."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Overplus Room Rent Xmas 1858 & Do 1859, Rate",
+      "amount_pounds": 7,
+      "amount_shillings": 11,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. The '11' is clearly aligned in the shillings column. No pence visible. Value is valid."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Repayment of money borrowed by Rector from Cawthorn Fund } principal £30 interest £4.5",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description includes inline sub-amounts (£30, £4.5) which are not in the main currency columns. The closing brace indicates this is a grouped item with the following row. The main amount for this repayment appears on the next line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Due Repayment from Choir Fund",
+      "amount_pounds": 37,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description and amounts. Shillings and pence are well-aligned within their respective columns and values are valid. This line appears to hold the primary monetary amount for the grouped repayment entry starting on the previous row."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dovr. Consols, Sale of Cawthorn Fund",
+      "amount_pounds": 1010,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. The amounts are slightly shifted horizontally but clearly identifiable within the column boundaries. All values are valid. 'Dovr.' is likely 'Dover'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Hammond Keys",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Amount '1' is clearly aligned in the shillings column. No pounds or pence visible. Value is valid."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Allnutt repayment by Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 5,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. Amount '5' is clearly aligned in the shillings column. No pounds or pence visible. Value is valid."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sub Rector repayment Instructed (Choir",
+      "amount_pounds": 30,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. The word 'Choir' is cut off at the page edge. Amount '30' is clearly aligned in the pounds column. No shillings or pence visible. Value is valid."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "6726 11 7",
+      "amount_pounds": 6726,
+      "amount_shillings": 11,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total amount. The numbers are written large and clearly, underlined by a horizontal line, indicating a sum. All digits are well-aligned in their respective columns. Values are valid."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

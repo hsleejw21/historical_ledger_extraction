@@ -1,0 +1,196 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta. Anni presentis 1775",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title clearly written at top centre: 'Recepta. Anni presentis 1775'. Very legible script and no amounts adjacent."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "South Newington Rect: pro dim: An: ad f. Annunc:",
+      "amount_pounds": 28,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts aligned in the pounds/shillings/pence columns as '28 0 0'. Numerals are clear and pass validation (shillings 0, pence 0)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear Rect. ad fest: Annunc:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric trio '30 0 0' in the three right-hand columns. Description reasonably legible as 'Guinear Rect. ad fest: Annunc:'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham Rect:",
+      "amount_pounds": 85,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Pounds/shillings read as '85 4'. Pence reads as '1' with a small loop/mark interpreted as '3q' (three farthings) → 0.75. Column alignment is consistent; fraction interpretation is plausible though the tiny mark is slightly stylized."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kidlington Candlemass Augm:",
+      "amount_pounds": 114,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds appear as three-digit '114' (the leading '1' is narrow but present). Shillings '8' and pence '0' are clear. Three-digit pounds are legible though the leading '1' is slightly faint."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Capons and Brown",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Indented sub-item under previous header; amounts read clearly as '02 15 0'. Description fairly clear ('Capons and Brown')."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Minchinnet Vic:",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts read '20 0 0' clearly. Handwriting of place-name is slightly idiosyncratic ('Minchinnet') but readable in context as a vicarage entry."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Hidlington Vic:",
+      "amount_pounds": 84,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Pounds read as '84' (the '8' and '4' are clear), shillings and pence '0 0'. The place name looks like 'Hidlington' (handwriting could be 'Kidlington' variant) — description transcribed as it appears."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Yardington Rect:",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '10 0 0' in amount columns. Description 'Yardington Rect:' legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ten m",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Amounts read '08 14 5½' — pence shows '5' with a clear 'ob' / loop indicating half-penny → 0.5. Description is abbreviated ('Ten m') and slightly uncertain due to abbreviation; numeric columns are well aligned but the abbreviation reduces certainty."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup Annuity & L Day",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts '02 10 0' are clear. Description reads 'Thrup Annuity & L Day' though first word could be 'Thrup' or 'Thorp' — numerals unaffected."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Kidlington Mills (in Part)",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Amounts read '11 8 1¾' — pence '1' with a '3q' style mark (three farthings) interpreted as 0.75. Description 'Kidlington Mills (in Part)' is legible; fraction mark is small but consistent with other 3-quarter marks on page."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bensington pro dim: an: ad T. Annunc:",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Amounts read '02 16 9¾' — pence '9' plus a small '3q' mark indicating three farthings (0.75). The description is heavily abbreviated; reading chosen to match visible abbreviations. Fraction mark is faint but consistent with other '¾' marks."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Tistinhull, Napper, pro dicto temp:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts '03 6 6' are clear. Place/name reading 'Tistinhull, Napper' is plausible from script; abbreviation 'pro dicto temp:' follows and is readable. No fraction mark present."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Hertford Coll: olim Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts read '01 13 4' clearly. Description 'Hertford Coll: olim Hart Hall' is legible and matches typical Latin phrasing (olim = formerly)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Trathewan pro dim: An. ad T. Annunc:",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts '03 0 0' are clear. Place-name 'Trathewan' (or similar) is somewhat stylized but the abbreviation and amount alignment make the entry unambiguous as an income line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Summa totalis",
+      "amount_pounds": 327,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Total line reads '327 10 4' clearly in the three numeric columns. There is a small additional mark to the right of the pence that might be a flourish or an extra fraction marker; it is ambiguous and was not interpreted as a fractional farthing because the shape is unclear. NOTE: individual row sums as transcribed above do not arithmetically sum to this total without making assumptions about ambiguous place-name numerals (several pounds-values are stylistically similar and could admit alternate readings). Chosen total is the printed total on the page and transcribed as-is."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

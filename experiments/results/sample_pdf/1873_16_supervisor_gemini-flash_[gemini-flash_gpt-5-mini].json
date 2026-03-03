@@ -1,0 +1,316 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Payments",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors."
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "brought up",
+      "amount_pounds": 3395,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Row type 'total' from gemini-flash is a better semantic fit for 'brought up' sum."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Hayes",
+      "amount_pounds": "",
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash reading (12s 6d) is correct; pounds column is blank. gpt-5-mini incorrectly placed 12 in pounds."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Wyatt",
+      "amount_pounds": 14,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Duke Yearly Acct",
+      "amount_pounds": 12,
+      "amount_shillings": 4,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash reading (12£ 4s 11d). gpt-5-mini misread shillings as 7."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "(Room. Wine Battels)",
+      "amount_pounds": 68,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and amounts. gpt-5-mini misread 'R' as 'C', 'Battels' as 'Bottles', and shillings as 10."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Cheque Book",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Local Rate composition Fund",
+      "amount_pounds": 42,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts, minor case difference in description, using gemini-flash's 'composition' as visually accurate."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Synodals - Bp of Salisbury t L Day 74. 3.4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. Description from gemini-flash is more accurate ('Bp' and 'L Day' are standard abbreviations) and its note explains the '3.4' is part of the description."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "see also below. Chapter of St Michael 73 6.8 p.o. 2.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on no amounts. Visual verification confirms gemini-flash description is more accurate (e.g., 'St Michael' vs 'the Mich ???')."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Long Witnam 13.5-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and no amount for this line. The value 1 3 7 is the consolidated total for the braced group, which ends on a later line. gpt-5-mini incorrectly assigned 1 3 7 to this row."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "{ 9.4½ one yrs Proc due Michaelmas 1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and no amount for this line (it's part of a braced group whose total appears on the next line). gpt-5-mini's description was less accurate."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "3 8½ one yr Pension due Easter 1874",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash is correct; this row carries the consolidated amount (1£ 3s 7d) for the preceding braced group. gpt-5-mini incorrectly found no amounts for this line."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Insurance Norwick Union L Mail 1875",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Visual verification confirms description from gemini-flash ('Norwick', 'L Mail') is more accurate than gpt-5-mini ('Norwich', '& Mail')."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Bampton",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash reading (1£ 4s 6d). gpt-5-mini misread the pounds (14 instead of 1) and shillings (6 instead of 4) values."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Benson £ 80-",
+      "amount_pounds": 2,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Visual verification confirms description from gemini-flash ('£ 80-') is more accurate than gpt-5-mini ('£30-')."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Triggs Farm £ 80",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and no amount for this row. gpt-5-mini misread the description ('Frize Farm £20') and incorrectly extracted amounts (2s 1d)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Kidlington Mill-New Home",
+      "amount_pounds": 4,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Visual verification confirms description from gemini-flash is more accurate, 'to do' is a separate subsequent line."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "t do",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This row was identified by gemini-flash. Visual verification confirms 't do' is a separate, indented line with no amount. gpt-5-mini did not identify this as a distinct row. The amount 11s 3d belongs to the 'Kidlington Merry tea' entry."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Kidlington Merry tea 3d August 74 to Michl 1875",
+      "amount_pounds": "",
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This entry combines the descriptions from gemini-flash R21 and R22. Visual verification confirms the amount 11s 3d belongs to this combined description. gemini-flash incorrectly assigned no amount to R21 and 2s 9d to R22. gpt-5-mini combined the description (as R20) but misaligned 11 to the pounds column."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Merton Cottage from April 24/75 t L Day/75",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "This entry combines the descriptions from gemini-flash R23 and R24. Visual verification confirms the amount 2s 9d belongs to this combined description. gemini-flash incorrectly assigned no amount to R23 and 14£ 14s 6d to R24. gpt-5-mini combined the description (as R21) but misaligned 2 to the pounds column."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hawkesleys Bill. Not Science lecture R",
+      "amount_pounds": 14,
+      "amount_shillings": 14,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Visual verification confirms description 'lecture' from gemini-flash is more accurate than gpt-5-mini's 'declare'. (This amount was incorrectly assigned by gemini-flash to its R24 in its original output)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Loan to Rector partly to rebuild",
+      "amount_pounds": 75,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors. Using 'Loan' for consistency in capitalization."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Synodal S Newton to Michl mas 1874",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visual verification confirms gemini-flash description and amounts (1£ 4s 0d). gpt-5-mini misread the pounds (14 instead of 1) and shillings (0 instead of 4) values and had a less accurate date abbreviation."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Whitehead ½ yr Int on £200 Mich 1874",
+      "amount_pounds": 3,
+      "amount_shillings": 19,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on amounts. Visual verification confirms description from gemini-flash ('½', 'Mich') is more accurate than gpt-5-mini ('1/2', 'Mid')."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3638,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus with both extractors."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 11,
+      "rows_by_note_assessment": 2,
+      "rows_by_visual_override": 14,
+      "rows_added_missing": 1,
+      "rows_dropped_extra": 2
+    }
+  }
+}

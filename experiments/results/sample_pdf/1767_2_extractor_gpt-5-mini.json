@@ -1,0 +1,152 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Receipts Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear page title centered at top. Legible handwriting and no monetary figures on this row. Vertical ruling lines not needed for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Recd Mr Trewsey Plate Money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '8-0-0' is clearly aligned in the pounds/shillings/pence columns. The name in the description is somewhat ambiguous (handwritten surname looks like 'Trewsey' or similar); chosen reading based on letter shapes but uncertainty in one or two letters."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Recd Balance of Mr Jackson Rent pr Mch: 1765 to Mch: 1768",
+      "amount_pounds": 103,
+      "amount_shillings": 14,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description largely legible; dates '1765 to Mch:1768' clear. Amount '103-14-11' is clearly written and aligns well with vertical column rulings (shillings and pence within valid ranges)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mr Grindin Plate money",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as 'Mr Grindin' (final letters a little compressed but context suggests a surname). Amount '8-0-0' is clear and columns unambiguous."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Second Paymt of Dr Thorbridge for ye year 1766.",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description interpreted as 'Second Paymt of Dr Thorbridge for ye year 1766' — the surname is slightly uncertain (could be Thorndige/Thorbridge) but the phrase and year are legible. Amount '100-0-0' is clearly written and aligned."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Benson Midwinter present 1767",
+      "amount_pounds": 60,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Surname and first word are uncertain in the script (reads like 'Benson' or 'Burron'); chosen 'Benson Midwinter present 1767' as best-fit. Amount '60-12-4' is readable and columns align, shillings/pence are within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 340,
+      "amount_shillings": 7,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "A number-only row immediately under a short ruling line; appears to be a subtotal or carried figure. The digits '340-7-3' are clear and align with the pounds/shillings/pence columns. No description present on the ledger line itself."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 126,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Number-only subtotal '126-10-0' clearly written and well aligned. No descriptive text on the left."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 154,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Number-only subtotal '154-10-0' clearly visible and columns unambiguous."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 105,
+      "amount_shillings": 2,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Number-only subtotal '105-2-4' clearly written. Pence and shilling values are within valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 726,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Heavier underlined total appears beneath the group of subtotals. The reading '726-9-11' is visible though slightly faded; alignment with column rulings used to confirm digit boundaries. There is some faintness in the pence digit which reduces confidence slightly."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "In Manner ex Deb: an: Precedentij",
+      "amount_pounds": 195,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Description is a Latinized phrase (handwritten as 'In Manner ex Deb: an: Precedentij'); readable but slightly stylized. Amount reads as '195-10-4 1/2' — the halfpenny symbol (loop after pence) is visible and interpreted as 0.5. Column alignment supports the reading. Minor uncertainty in the final fractional mark's clarity led to lowered confidence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "Summa Receptorum",
+      "amount_pounds": 922,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Final summed line reads 'Summa Receptorum' (heading for total receipts) with amount that arithmetically corresponds to adding the heavy total (726-9-11) and the prior line (195-10-4 1/2) => 922-0-3 1/2. The pence fraction is interpreted as a halfpenny (0.5) from the small loop after the pence figure. The final fraction/last pence digit in the scan is slightly faint, so confidence is moderate but consistent with column arithmetic."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

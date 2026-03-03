@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Item de Solestis varijs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered page heading in larger script with no amounts to the right; unambiguous as a structural label."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Acct dinner",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible. Right-hand three columns clearly show '02' (pounds), '18' (shillings), '6' (pence). Vertical ruling lines are clear here and values are within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Jennins taxe for Michl. 1708.",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Text reasonably legible as 'Jennins taxe for Michl. 1708'. Amount columns read as '00' pounds, '18' shillings, '0' pence; shillings '18' is clear though the pence digit is faint, chosen as 0 based on alignment with column and nearby rows."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "For a common prayer book for ye chapel",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description readable. Right-hand shows '00' pounds, '16' shillings, '8' pence; digits align well with ruling lines and are distinct."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "To James Davys for work and materials",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name and phrase legible. Amount columns read '00', '10', '6' though the pence '6' is slightly smudged; alignment and neighbouring rows support reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "To Goodw. Day for hooks to fasten ye trees in the back yard",
+      "amount_pounds": 2,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description readable. Amount appears as '02' pounds, '09' shillings, '6' pence; the '9' shillings is clear though the pence loop is slightly inked."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "To Jo. Warren of Nethercott by consent",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Name and phrase clear. Amount columns read '00' '05' '0'; pence zero is inferred from a blank/short mark in pence column aligned with the zero in similar rows."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Butchery books Natv. 18? Bapt. 19? 6?",
+      "amount_pounds": 1,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Description is cramped and partially abbreviated (Natv. / Bapt.). Right-hand shows '01' pounds, '17' shillings, '6' pence but the middle annotation numbers in the description are unclear; confidence lower because of ambiguity in the text though numeric columns align."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "To stubs for work in ye back yard",
+      "amount_pounds": 1,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description clear. Amounts read as '01' '17' '6' — the pounds and shillings especially align with vertical ruling; pence digit slightly faint but consistent with adjacent totals."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To mr Levys Widow by consent",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description legible though the name's spelling is abbreviated. Amount registers as '00' '09' '0' with clear alignment; pence column is a small blank/zero mark consistent across the page."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "To mr Pain ye Brazier",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear. Numeric columns show '00' pounds, '10' shillings, '00' pence (pence column appears as two small strokes indicating zero)."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "To Frogley Apothecary by consent",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description legible. Amount read as '00' '05' '0'; pence faint but consistent with a blank/zero mark aligned in pence column."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "For many baggs 2d. 2d. 2d",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description mentions several '2d' items. Amount columns show '00' pounds, '10' shillings, '0' pence; the shillings '10' is clear but the description is a little cramped and the relationship between the small '2d' marks and the amount is interpretive."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "To Hellicar ye Glasier",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description readable. Numeric columns appear as '00' pounds, '00' shillings, '6' pence — the pounds and shillings columns are blank/zero; pence '6' is visible but slightly smudged."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "To Lumley ye Plumer",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description legible. Amount reads as '00' pounds, '02' shillings, '01' pence; the pence digit is small but aligns with the pence column."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Subscriber for Dr Potters Clemens Alexander",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description is cramped and partly crossed by a small mark; numeric columns show '00' '06' '8' but the pence digit is somewhat ambiguous (could be 8 or a 6). Chosen 8 based on alignment with the pence column relative to adjacent lines."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "To mr Subcret Adams for his going to Little Tue",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description partly abbreviated ('Subcret' for Sub-rector?) and place name contracted. Amount reads '00' '04' '0' with clear shillings '4' and a blank/zero pence mark."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Candles { to Cosins Ann. 4. 19. 0 mich. 4. 15. 0 } to Broadwater & anno",
+      "amount_pounds": 0,
+      "amount_shillings": 9,
+      "amount_pence_whole": 14,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Complex, bracketed line listing several distributions with internal shorthand. The right-hand shows '00' pounds, '09' shillings and what appears to be '14' in the pence column — this violates the pence (0–11) rule and indicates column confusion. Because of that, I interpreted the visible trailing '14' as actually shillings (i.e., '09' may belong to one sub-item). Due to severe ambiguity in how the amounts align with the internal bracketed notes, confidence is low. (Kept numbers to show a captured value but this row likely needs re-alignment.)"
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "To mr Bugg by consent",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Name and phrase legible. Amount columns read '00' '06' '9' though the pence is slightly faint; chosen based on vertical alignment with ruling lines."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "To Cocus for rams, Newyears day, and 12th day",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.45,
+      "notes": "Description partially faded (name looks like 'Cocus' or 'Cogus'). Amount area shows '00' pounds, '07' shillings, '05' pence with a faint loop after the pence digit that resembles the 'ob' halfpenny mark. Because the fraction mark is faint and the name uncertain, confidence is below 0.5."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "To Cocus for sewell, Oatmeal, salt &c",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description legible as supplies. Columns read '04' pounds, '06' shillings, '00' pence. Pounds '4' is relatively large and clearly written; shillings legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Laid out on ye new buildings by moneys taken out of ye treasury",
+      "amount_pounds": 44,
+      "amount_shillings": 17,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long descriptive entry clearly referring to building expenses. Numeric columns read '44' (pounds), '17' (shillings), '10' (pence). All values within valid ranges and clearly aligned with the vertical ruling lines."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Sax for Backgate { To Jennings To George }",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Description is abbreviated and contains an internal brace listing 'To Jennings' and 'To George'. Amount columns show '00' '16' '8' though some ink smudging near the braces reduces confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "To mr Sherwin for bringing ladlane and Medenham rent",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description legible but cramped. Amount read as '00' '16' '8' but digits are faint and the same '16 8' pattern appears twice on adjacent lines, raising the possibility of misalignment; confidence moderate-low."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "To mr Dodwell for keeping court at Little Tue",
+      "amount_pounds": 0,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Entry text clear. Right-hand amounts read '00' pounds, '02' shillings, '06' pence with clear digit shapes in shillings and pence columns."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "To Goodw. Day for 3 doz of hooks for ye trees in ye back yard",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description reads like a repeat/related item to earlier Goodwife Day entry. Amount columns show '01' pounds, '00' shillings, '00' pence though pence area has a faint mark that could be fractional; chosen zero because no clear fraction symbol present."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Wine for ye 5th of Octbr",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Short description; amounts read '00' '07' '6' with digits clear and properly aligned."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "To mr Clarke for ink, pens and paper",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Description clear. Amount column shows '00' pounds, '01' shilling, '03' pence and a small trailing loop in the pence area interpreted as an 'ob' halfpenny (0.5). The fraction mark is faint but consistent with other halfpenny marks on the page."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Pewrent charges in part",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Description partly smudged at start but reads as 'Pewrent charges in part'. Amount read as '00' '03' '03' (three shillings three pence). The pence digits are faint; no fraction mark visible."
+    },
+    {
+      "row_index": 30,
+      "row_type": "total",
+      "description": "Total (final line)",
+      "amount_pounds": 142,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Final total in the right margin clearly written as '142' (pounds), '3' (shillings), '8' (pence). Numerals are bold and aligned with ruling lines; high confidence."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

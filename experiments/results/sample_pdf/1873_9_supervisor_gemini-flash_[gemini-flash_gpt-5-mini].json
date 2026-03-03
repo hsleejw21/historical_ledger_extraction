@@ -1,0 +1,305 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header from image."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Balance Sheet",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header from image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Domus Fund Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry from image."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do do Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on monetary values. Using 'Do do' capitalization from gpt-5-mini as it better reflects the image. Fraction 1/2 is clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2108,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on values. Clear total line with 1/2 fraction."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry from image."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do Do Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry with 1/2 fraction."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1703,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on values. Clear total line with 1/2 fraction."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Domus Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry with 1/2 fraction. This is the same amount as row 4, which the notes confirm is expected."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry. This is the same amount as row 6, which the notes confirm is expected."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear total line with 1/2 fraction. gpt-5-mini's notes provide a useful arithmetic check."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Domus Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry. Matches row 3 as expected."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Fee Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear entry with 1/2 fraction. Matches row 7 as expected."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear total line with 1/2 fraction. gpt-5-mini's notes provide a useful arithmetic check."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Total Payments",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear total entry with 1/2 fraction. Confirms the previous subtotal."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Deficit last year",
+      "amount_pounds": 198,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on values. Using gpt-5-mini's capitalization. Fraction 3/4 is clear upon visual inspection, despite the 'flourish' noted by gpt-5-mini."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Total Expenditure",
+      "amount_pounds": 13595,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree on values and description. Clear total line with 1/4 fraction. gpt-5-mini's notes provide a useful arithmetic check."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Total Receipts",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear total line with 1/2 fraction. Amount matches earlier combined receipts as expected."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": -604,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Chosen gemini-flash. The ' -- ' preceding the amount clearly indicates a negative balance (deficit). The amount is visually confirmed as 604.1.1 3/4."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Deficit",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header from image."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Examined and allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header from image."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Nov 3. 1873.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Both extractors agree. Clear header from image."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "I P. Lightfoot Auditor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen gemini-flash. The name and title are clearly legible in the image. Redaction by gpt-5-mini is due to an external policy, not extraction error."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "William Ince. Sub Rector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen gemini-flash. The name and title are clearly legible in the image. Redaction by gpt-5-mini is due to an external policy, not extraction error."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "C W Bover. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen gemini-flash. The name and title are clearly legible in the image, 'Bover' verified. Redaction by gpt-5-mini is due to an external policy, not extraction error."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "E. Ray Lancaster. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen gemini-flash. The name and title are clearly legible in the image. Redaction by gpt-5-mini is due to an external policy, not extraction error."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 21,
+      "rows_by_note_assessment": 5,
+      "rows_by_visual_override": 0,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 1
+    }
+  }
+}

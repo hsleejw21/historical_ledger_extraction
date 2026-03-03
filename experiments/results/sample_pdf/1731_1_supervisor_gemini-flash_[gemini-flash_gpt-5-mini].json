@@ -1,0 +1,276 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Joannis Longbeare Rectoris a die Novembris 1730 ad eundem diem revolutum 1731",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top title is partly faded and some letters (surname and a few Latin words) are abbreviated; I reconstructed the Latin phrase from context and common ledger phrasing ('Computus ... a die Novembris 1730 ad eundem diem revolutum 1731'). Characters are legible but not crystal-clear."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Centered section heading clearly written. Letters are legible and there are no amounts on this row."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Guinear",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts (10 0 0) are very clear and aligned to the three ruling columns; description short but legible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long Wittenham",
+      "amount_pounds": 26,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings are clear (26, 12). Pence reads as '9' with a small loop/mark after it interpreted as the halfpenny 'ob' symbol (so 9½d). The loop is faint which reduces confidence slightly."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Minchinset",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (40 0 0) aligns well with the pounds/shillings/pence columns and is clear. The place name is slightly ambiguous in spelling but readable enough."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Rect.",
+      "amount_pounds": 145,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large pound figure (145 0 0) is unambiguous and aligns exactly with the pounds column; 'South Newington Rect.' is clearly written."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Eddington Rect.",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (20 0 0) clear and well aligned. The place name appears as 'Eddington' (or similar); spelling is typical variant but readable."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase-hill",
+      "amount_pounds": 14,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "All three monetary columns read clearly as 14 pounds, 8 shillings, 10 pence. Description 'Chase-hill' is legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (2 0 0) is clear. Name reads as 'Lucas Eaton' with good legibility."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "The Quit Rents",
+      "amount_pounds": 14,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns read as 14, 3, 3. Description appears to be 'The Quit Rents' (handwriting slightly compressed), so reading is moderately certain."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshals Capons",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts 0 7 6 are clearly aligned. The description is longer but readable as 'Ralph Marshals Capons'; spacing and capitals support this reading."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bigg",
+      "amount_pounds": 10,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Entry reads 10 pounds, 9 shillings, 11 pence; all three digits are clear and within valid ranges. Description 'Bigg' is short and distinct."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Caleb alias Lane",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts 2, 19, 5 align with columns. Shillings read as 19 (close to the 20 limit but valid). The phrase 'Caleb alias Lane' is legible though the middle word is slightly cramped."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount 0 15 0 is clear and centered in the monetary columns. 'Bannister' reads cleanly."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Leaden-Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount (1 0 0) unambiguous. Description reads 'Leaden-Hall' (hyphenation and capitals visible)."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sadler",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Monetary columns clearly show 4, 12, 11. 'Sadler' is legible; small flourishes do not affect numeric reading."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hart Hall",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount (1 13 4) is clear. 'Hart Hall' reads well; spacing between words is distinct."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Napper",
+      "amount_pounds": 4,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings (4,1) are clear. Pence looks like '8' with a small trailing loop interpreted as the halfpenny mark (8½d). The fractional loop is faint and slightly ambiguous, hence reduced confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Clifton Ferry",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numeric columns read as 4, 10, 4. The place/name looks like 'Clifton Ferry' (handwritten 'Ferry' could be 'Perry' in another reading) — chosen 'Ferry' because the initial letter has a descender matching 'F'."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Brew-House",
+      "amount_pounds": 7,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings (7,9) are clear. Pence appears as 11 with a small halfpenny loop after it -> interpreted as 11½d. The fractional mark is visible but not perfectly sharp."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Tretheven",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount (6 0 0) readable and well aligned. The name looks like 'Tretheven' or similar Cornish/Devon variant; spelling uncertain but entry is legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sadlane, Sparkes et Meriton",
+      "amount_pounds": 26,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns read 26,10,0 clearly. The description names several parties in a list; handwriting is a little compressed making exact spellings ('Sadlane'/'Sadlanee', 'Sparkes', 'Meriton') moderately uncertain."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Medenham",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numbers 6,13,4 are aligned and clear. Place name reads as 'Medenham' though the first vowel could be slightly ambiguous; context suggests this reading."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Back Gate, Boyse",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final visible entry shows 4 0 0 clearly. The description 'Back Gate, Boyse' (or 'Boyse') is legible; surname spelling is reasonably certain."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

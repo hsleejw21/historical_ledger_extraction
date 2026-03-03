@@ -1,0 +1,232 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thomae Bray, Rectoris,",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-line title is centered and very clear; no monetary columns present. Lettering legible and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "a secundo die Novembris 1774 ad eundem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Second header line immediately under title. The year '1774' is clearly visible near 'Novembris'. No amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "diem revolutum 1775.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Third header line clear: 'diem revolutum 1775'. No monetary values."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section heading centered under ruled line. Handwriting legible; no amounts on this line."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Gwinear Rect: pro dim: Anni",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts '30 0 0' are neatly aligned under the three right-hand columns (pounds/shillings/pence). Vertical guides clear; digits unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "South Newington Rect: pro dim: An.d Mic:",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Line reads '30 0 0' clearly. Description handwriting slightly flourished but unambiguous in context of parish name; numeric columns well aligned."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Long Wittenham Rect: pro Anno",
+      "amount_pounds": 88,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings '88 5' are clear. Pence appears as '1¾' (three‑quarters of a penny) — the small '¾' sign is present but slightly stylized; column alignment supports this reading."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Kidlington Mills pro Biennis",
+      "amount_pounds": 28,
+      "amount_shillings": 11,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings '28 11' clear. Pence reads as '10¾' (ten and three‑quarters pence) — the fraction mark is present but slightly faint; columns well aligned."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Garsington Sadler pro Anno",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numbers read as '07 5 02' with pence '02' (2d). Alignment with vertical rules and the identical pattern on the following similar row support reading of '2' pence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Pritchett Hen: pro do. Anno",
+      "amount_pounds": 7,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Mirrors the previous row numerically: '07 5 02'. The pence digits align with the same column and match the shape on the Garsington line (clear '2')."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tintinhull Napper pro trien: et dim:",
+      "amount_pounds": 20,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds/shillings '20 7' are clear. Pence appears as '9½' (nine and a half pence) — a small half‑penny loop present after the '9'. Fraction reading fairly clear though the loop is slightly light."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "South Newington Tentum pro anno",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts '02 3 6' are crisply written and well aligned in the pence column (6d). The parish name has a small abbreviation but the numbers are unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Bensington pro anno",
+      "amount_pounds": 5,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings '05 13' clear. Pence shows '6' with a small half‑penny loop (interpreted as 6½d). The halfpenny loop is somewhat faint but present; alignment supports reading."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton pro triennio",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '03 0 0' in the three numeric columns. Description short and legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Back Gate, Draper, pro An. & pfter parte",
+      "amount_pounds": 11,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numeric trio '11 5 0' clearly written and aligned. The description contains abbreviations ('An. & pfter parte') but is legible enough to transcribe as shown."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Lad Lane, Stanforth, pro Biennis",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Pounds/shillings/pence read as '13 6 8'. The pence '8' is slightly crowded by nearby ink/shadow but aligns with the pence column and is clearly shaped."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greenhow pro Biennis",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Values '03 6 8' align under columns and match the style of the preceding row; small shadow at left does not affect numeric legibility."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Sir Gregory Turner, 3 closes pro Anno",
+      "amount_pounds": 16,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Pounds/shillings '16 7' clear. Pence reads as '10¾' (ten and three‑quarters pence) — the '¾' symbol is visible though slightly compressed; column alignment supports this reading."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Giles Hall (super Franklin) (sums included)",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read '01 18 0' clearly. The parenthetical note '(super Franklin)' is a best reading of the cursive; wording transcribed as appears though parenthetical text is somewhat compressed."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Sayer olin Myner.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Signature or clerk's name at bottom right. Handwriting is stylized and partially obscured by a light stain/shadow; transcription 'Sayer olin Myner' is uncertain. No monetary columns on this line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

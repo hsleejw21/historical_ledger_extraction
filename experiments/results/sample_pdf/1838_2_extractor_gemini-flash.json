@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No amounts present. Layout is unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Stipend Due Rectoris Scholae et Off.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description text is clear, interpreting 'Stipula' as 'Stipend' and 'Schole' as 'Scholae' based on context of other entries. No amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Stipend ad Fest. Natio 1837 et Off",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Augm. S. Newington et Rectori",
+      "amount_pounds": 24,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Stipend pro duo Stives",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augm. Commune ejusdem Due et Capelle",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Duo Rectori ad super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Dividends ad Fest. Jun 1837",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description. Interpreted 'Divident' as 'Dividends'. No amounts present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ad — ad Fest. L. Mich.",
+      "amount_pounds": 89,
+      "amount_shillings": 3,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The first part of the description 'Ad ---' is faint and partially obscured by a smudge/strikethrough. 'L. Mich.' for Lady Michaelmas is clear. Amounts are clear and valid."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Stipend ad Fest Annun. 1838",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description. No amounts present."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Augm. Sidlington pro 3 Ann. past",
+      "amount_pounds": 42,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is slightly faded in places, 'Sidlington' is a plausible reading but could be 'Shillington'. Amounts are clear and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "header",
+      "description": "Stipend ad Fest. S. Bapt. et Off.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description. No amounts present."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ad — Duo Stives",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The first part of the description 'Ad ---' is faint and partially obscured. Amounts are clear and valid."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Augm. Comm. ejusd. Duo. Mod. et Sid.",
+      "amount_pounds": 56,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear, 'Mod.' is a common abbreviation for Modus. Amounts are clear and valid."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ad — Sidlington pro 4° parte Ann.",
+      "amount_pounds": 14,
+      "amount_shillings": 0,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The 'Ad ---' section is slightly faded. '4° parte Ann.' is a clear abbreviation for 'quarto parte Anni' (fourth part of the year/annuity). Amounts are clear and valid."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Stipend Curates ad Fest. S. Mich.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The word 'Curates' (or 'Curiae') is slightly indistinct due to ornate cursive, but context makes the meaning clear. No amounts present."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Augm. Commune de Hiltenham Longa",
+      "amount_pounds": 35,
+      "amount_shillings": 14,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear, 'Hiltenham Longa' is a best interpretation for the cursive. Amounts are clear and valid."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Duo Rectori ut super.",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and all monetary amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 698,
+      "amount_shillings": 4,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the total amount. The pound symbol is integrated into the total line, common for sums. All values in valid range. Double underline indicates a final total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

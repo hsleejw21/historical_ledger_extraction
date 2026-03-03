@@ -1,0 +1,89 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Ardaragia",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top centered page title. Handwriting of the title is flourished and a few letters are ambiguous (the sequence after 'Ard-' is unclear); chosen reading 'Ardaragia' as the closest plausible visual match to the strokes. No amount columns present for this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Yardington Rect. à Mr Rowney 5 An. ad mic 1730",
+      "amount_pounds": 50,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible with minor abbreviations. Pounds '50' is clearly written and aligns with the first vertical ruling line for pounds. No shillings or pence marks in the adjacent columns. All numeric columns validate (shillings/pence empty)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mountcastle pro 41 Annis",
+      "amount_pounds": 20,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description mostly legible though 'Annis' spelling uncertain; chosen 'Mountcastle pro 41 Annis'. Numeric group reads as '20' under pounds column and '10' under shillings column — alignment with the vertical rules is clear and shillings (10) is within valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Wm Catheholt pro Inquisition ab Anno 1736",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partly faded/abbreviated ('Wm' and 'Catheholt' inferred from handwriting). Numeric alignment shows a small '0' (or blank) in pounds column and '12' in the shillings column; interpreted as 0 pounds and 12 shillings. Shillings (12) within valid range. Slight uncertainty because the leftmost digit is small and could be a space rather than a written '0'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Greenway Catheholt pro Birn & Vin. ab an. 1734",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description has uncertain letters in the second surname/words; read as 'Greenway Catheholt pro Birn & Vin. ab an. 1734'. Numeric reading '2' in pounds column and '10' in shillings column — columns align with vertical rules and values validate (shillings 10). Moderate uncertainty due to some ink faintness in description."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Mason ad Inst. D.J.B. 1742",
+      "amount_pounds": 9,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible; interpreted as 'Mason ad Inst. D.J.B. 1742'. Pounds '9' is clear and well aligned with the pounds column. No shillings or pence present. Numeric alignment and value clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Newman",
+      "amount_pounds": 5,
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Single-word entry 'Newman' is clear. Amount '5' sits in the pounds column (first of three vertical rules). No shillings/pence. Slight uncertainty only because a horizontal rule is nearby and could be a subtotal marker, but the word appears as an individual entry."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

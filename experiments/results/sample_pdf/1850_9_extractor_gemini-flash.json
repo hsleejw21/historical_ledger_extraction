@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Summa Receptoram et Solutonum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear main page title. No monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "2° die Nov bis 1850",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date, part of the main page header. No monetary amounts present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header for receipts. No monetary amounts on this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Arreare. pū",
+      "amount_pounds": 821,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Column alignment is distinct. All values are in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Anni preteriti",
+      "amount_pounds": 195,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Column alignment is distinct. All values are in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 4076,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol '1/2' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5093,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of subtotal amounts. Column alignment is distinct. The fraction symbol '1/2' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Debita Anni precedentis.",
+      "amount_pounds": 149,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Column alignment is distinct. All values are in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5243,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of total amounts. Column alignment is distinct. The fraction symbol '1/2' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Soluta Due Rectori Scholarchae &c.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear section header for payments ('Soluta'). No monetary amounts on this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 520,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of amounts. The description is left blank as it's an indented sub-item without specific text. The fraction symbol '3/4' is clear. All values are in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Column alignment is distinct. All values are in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 3804,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The fraction symbol '1/2' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4944,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of subtotal amounts. Column alignment is distinct. The fraction symbol '1/4' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Ex Receptis",
+      "amount_pounds": 5243,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description and amounts. The pence digit '0' is clear, followed by a distinct '1/2' fraction. All values are in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Minus deducitur",
+      "amount_pounds": 4944,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Column alignment is distinct. The fraction symbol '1/4' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Restat Soluturam",
+      "amount_pounds": 299,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The amounts are underlined, indicating a final total. Column alignment is distinct. The fraction symbol '3/4' is clearly visible. All values are in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Computus computatur per nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear statement regarding the computation. No monetary amounts present."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "I. L. Richards Rector.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name and title. No monetary amounts present, treated as an entry as it is a specific signatory."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "T. Sevelle Scholarchae",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name and title. No monetary amounts present, treated as an entry as it is a specific signatory."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "J. Ley Socius",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name and title. No monetary amounts present, treated as an entry as it is a specific signatory."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Mr W. W. Woollcombe Bursarius Seniorem.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of the name and title. The second 'W' in 'W. W.' is slightly faded but legible. No monetary amounts present, treated as an entry as it is a specific signatory."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Guelielmus Andrews Socius",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name and title. No monetary amounts present, treated as an entry as it is a specific signatory."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Robertus W. Sutton Bursarius Juniorem.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the name and title. No monetary amounts present, treated as an entry as it is a specific signatory."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

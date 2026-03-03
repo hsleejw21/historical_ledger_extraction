@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "total",
+      "description": "Arrearagia recepta - Brought up",
+      "amount_pounds": 141,
+      "amount_shillings": 16,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash for amount_pounds and row_type, confirmed by visual verification. gpt-5-mini incorrectly read pounds as 171 instead of 141. Both agreed on shillings, pence, and fraction. The row clearly functions as a 'brought up' total."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Mixed Rents Variable.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's description 'Variable' as more accurate after visual verification. The 'V' and subsequent letters in the image better match 'Variable' than gpt-5-mini's 'Receivable'. Both correctly identified as a header with no monetary amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Kidlington Augmentation 1 year",
+      "amount_pounds": 210,
+      "amount_shillings": 18,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all fields. Visually confirmed as correct and values are clear."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Long G. Willenhams Rectory 1 year",
+      "amount_pounds": 115,
+      "amount_shillings": 2,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Amounts are in consensus and visually verified. For the description, 'Long G. Willenhams Rectory 1 year' from gemini-flash appears to be a more accurate visual reading than gpt-5-mini's 'Long Wittenham Rectory 1 year'. While gpt-5-mini's note highlights ambiguity, the visual cues for 'G. Willenhams' are stronger."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South Newington Do: 1 year to Mich. 1830",
+      "amount_pounds": 195,
+      "amount_shillings": 8,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Amounts for pounds, shillings, and pence are in consensus and visually verified. Visually confirmed the description as 'South Newington Do: 1 year to Mich. 1830', incorporating 'Do:' from gpt-5-mini. For the fraction, visual verification clearly shows a '3/4' symbol, confirming gemini-flash's 0.75 reading and overriding gpt-5-mini's 0.25 reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Staxton Rectory 1 year (Land Tax deducted)",
+      "amount_pounds": 240,
+      "amount_shillings": 2,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus and visually verified. Selected gemini-flash's description 'Staxton Rectory' as visually more accurate; the initial letter does not resemble an 'M' as suggested by gpt-5-mini's 'Merton'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Yarnton Rectory 1 year",
+      "amount_pounds": 50,
+      "amount_shillings": 5,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts for pounds, pence, and fraction are in consensus and visually verified. For shillings, visual verification clearly shows '5', confirming gemini-flash and overriding gpt-5-mini's '6'. Description from gemini-flash is slightly cleaner without the unnecessary dash."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Chase Tile 2 years",
+      "amount_pounds": 28,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are in consensus and visually verified. For the description, 'Tile' from gemini-flash is chosen as the most plausible reading. Both extractors noted ambiguity, but gemini-flash's reading seems to fit the ambiguous script slightly better than gpt-5-mini's 'Hill'."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Clifton Ferry 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Amounts for pounds, shillings, and pence are in consensus and visually verified. For the fraction, visual verification clearly shows a '1/2' symbol, confirming gemini-flash's 0.5 reading and overriding gpt-5-mini's 0.25 reading."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Garsington Clinkard 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 10,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus reached between both extractors for all values. Both notes acknowledge uncertainty in description 'Clinkard' which is appropriate, but the amounts are clear and confirmed by visual inspection."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "D.o. --- Crooke 5 years",
+      "amount_pounds": 47,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are in consensus and visually verified. For the description, gemini-flash's inclusion of the dashes ('---') is more faithful to the original script than gpt-5-mini's simplified 'Do:'."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1075,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Amounts for shillings, pence, and fraction are in consensus and visually verified. For pounds, visual verification clearly shows '1075', confirming gemini-flash and overriding gpt-5-mini's '1078'. Both correctly identified as a total row with no description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 10,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

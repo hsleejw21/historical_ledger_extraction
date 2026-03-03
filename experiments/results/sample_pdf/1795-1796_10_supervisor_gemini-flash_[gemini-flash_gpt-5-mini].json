@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia recipienda",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title / header clearly centered at top. Very legible cursive heading."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "S. Newtn Rectory 1 year",
+      "amount_pounds": 156,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Pounds '156' clearly aligned in pounds column; shillings '4' and pence '0' are unambiguous. Description 'S. Newtn' is slightly abbreviated but alignment and letters visible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory 1/2 year",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount reads '30.0.0' very clearly. Description 'Gwinear' is legible as shown; fractional year '1/2' visible."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Kiddington Rectory Money Rent for 3 years",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '60.0.0' clear. The place name reads 'Kiddington' (handwritten double-k/diagonal strokes) and text 'Money Rent for 3 years' visible though slightly cramped."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Kiddington Mills 1 year Corn Rent",
+      "amount_pounds": 17,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount columns well aligned: '17.15.7'. Description 'Kiddington Mills' and 'Corn Rent' readable; minor ink flourish on 'Mills' but digits clear."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Long With Rectory 1 year Corn Rent",
+      "amount_pounds": 108,
+      "amount_shillings": 3,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Pounds '108' and shillings '3' clear. Pence appears as '9' with a trailing '3q' style loop indicating three‑quarters (¾) — interpreted as 0.75. Description 'Long With' uncertain on exact spelling but context (Rectory, Corn Rent) is clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Garsington Sadler 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Amount reads '8.17.9' with the same 3/4 trailing mark on pence as previous line. 'Garsington Sadler' reading is plausible from cursive; some ink flourish on 'Sadler' but amount alignment is solid."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Garsington Prickett 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.75,
+      "notes": "Amounts again read as '8.17.9¾' (pence with 3/4 mark). Place name appears similar to previous (Garsington) but second word uncertain (read as 'Prickett'); cursive letters ambiguous. Alignment of numbers supports the reading."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Tintinhull ??? half a year",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Description partly obscured by a blot/overwriting; I read the place as 'Tintinhull' and a note 'half a year'. Amount repeats the '8.17.9¾' pattern but the description is ambiguous—hence lower confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tintinhull Briaton 1 year",
+      "amount_pounds": 4,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount clearly '4.5.11' with a half‑penny symbol (loop/ob) after the pence — interpreted as 0.5. The second word of the place is uncertain (read as 'Briaton' or 'Braston'); overall readable."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Montacute Alexander Smith 1 year",
+      "amount_pounds": 1,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '1.5.2' clear. Name 'Alexander Smith' is legible though slightly cramped; 'Montacute' reading fits the letter shapes."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Clifton Ferry 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '0.10.0' (10 shillings) clearly written. 'Clifton Ferry' description legible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "S. Newt Tenement 1 year",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '8.0.8' clear. Description reads as 'S. Newt Tenement' (abbreviated 'S. Newt'); letters are readable and align with common entries above."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Merton Rectory 1 year Corn Rent",
+      "amount_pounds": 2,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '2.13.0' clear. 'Merton Rectory' and 'Corn Rent' are legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Chase Hill 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '9.0.0' unambiguous. 'Chase Hill' clearly read."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Benson 1 year",
+      "amount_pounds": 12,
+      "amount_shillings": 3,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Pounds and shillings ('12.3') clear. Pence looks like '10' with a small quarter‑mark (a tiny 'q' style) — interpreted as 0.25. The quarter mark is faint; description spelling 'Benson' is probable but handwriting slightly ambiguous."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Tretlewyn half a year",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount reads '6.19.5' clearly. Place name is indistinct ('Tretlewyn' is a best reading from the cursive), 'half a year' is visible. Moderate uncertainty on description spelling."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Monkhirt Rectory 1 year",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '3.0.0' clear. 'Monkhirt' (or similar) is partially faded; context 'Rectory 1 year' readable. Chose a conservative confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Yardington Rectory & Tenament 3 years",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '20.0.0' clear. Description reads as 'Yardington Rectory & Tennement 3 years' though second word spelling is approximated from handwriting."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Thrupp 3 years and a half",
+      "amount_pounds": 56,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Amount looks like '56.3.4' with a small half‑penny loop after the pence — read as 4½ (0.5). 'Thrupp' (or similar) and '3 years and a half' are legible in context."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "L. Eaton now Th. Cox 4 years",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '17.10.0' clear. Description reads 'L Eaton now Th Cox 4 years' — names abbreviated but readable."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "La Lane 3 Tenaments 2 years",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '8.0.0' clear. 'La Lane' and '3 Tenaments 2 years' present though final spelling of place ambiguous; numbers are definitive."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Meddenham for 2 years",
+      "amount_pounds": 34,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '34.6.8' legible. Place reads as 'Meddenham' (could be 'Medenham') but letters are reasonably clear."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Rump St Martin 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '13.6.8' clear. Description likely refers to 'Rump St Martin' or 'Remp St Martin'—the initial letter uncertain but context indicates a parish name; digits are unambiguous."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Padbury St Mary Magdalen Parish 8 years",
+      "amount_pounds": 3,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount reads '3.16.0' clearly. Description is long; interpreted as 'Padbury St Mary Magdalen Parish 8 years' though some letters are cramped and spacing ambiguous; nevertheless the place and parish phrase fit the handwriting."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sir G. O. Turnor for Levett Close at Westcot 4 yrs",
+      "amount_pounds": 11,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '11.6.8' clear. The personal name/title is abbreviated and the location 'Levett Close' / 'Westcot' are best readings from cursive; several letters uncertain so confidence reduced."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Hertford Cole 2 years",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '6.10.10' visible though pence '10' digits are slightly crowded. 'Hertford Cole' reading plausible; handwriting for name reasonably clear."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Jenes Cole 1 year",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '3.6.8' readable. Given proximity to previous 'Cole' entry, this reads as 'Jenes Cole' (or 'Jenes/Jeus Cole'); name letters are slightly unclear but amount is unambiguous."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Back Gate Coffin 1 year",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '0.10.0' (10 shillings) clear. 'Back Gate Coffin' reading fits the cursive; letters are legible."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Little Tew late Mrs Heywood now Kimmerfrom",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '1.1.11' readable but small and close to margin; description is long and several names ('Heywood', 'Kimmerfrom'/'Kimmerfrom?') are uncertain — chosen best‑fit reading from cursive. Lower confidence due to crowded text and uncommon name spellings."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Salford 1/2 a year",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "The description 'Salford 1/2 a year' is visible at the bottom left but there is little or no corresponding amount visible on the right margin (possibly cut off or not entered). Serious ambiguity about amount presence; left blank for amounts."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

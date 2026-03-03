@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered year at top of page. Very legible, no amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 1202,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clearly written 'Brought over' at top right with amounts well aligned to the pounds/shillings/pence ruling; all digits legible and within valid ranges. This is a carried-forward balance (hence classified as total)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "June 24 Disbursements for Repairs &c. at Beck's Farm",
+      "amount_pounds": 56,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Date and description on left are legible. Amount '56 10 10 1/2' is clearly aligned; halfpenny symbol looks like a small loop ('ob') interpreted as 0.5."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Little Ten. as placed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line is a sub-item/continuation (no amount in the columns). The wording 'Little Ten. as placed' is readable; no numbers in currency columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do … at Faulkner's S. Newington as placed",
+      "amount_pounds": 25,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Entry begins with 'Do' (ditto). Amount '25 3 0' is well aligned and digits are clear; pence column shows '0'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bill for painting the Chancel at Do",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount '20 17 5' clearly aligned; all values in valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Pd Mr Stony. 2/3 of a Bill for building Pews in the chancel",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text 'Pd Mr Stony 2/3 of a Bill for building Pews in the chancel' is readable though slightly cramped. Amount '33 6 8' is clear and validated."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Oct. 20 Pd for Survey of Whittenham Vicarage for ascertaining its annual value",
+      "amount_pounds": 15,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and purpose readable ('Survey of Whittenham Vicarage...'). Amount '15 15 0' is well aligned and legible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "To make up a Deficiency in the Dividends at p.61.62. & 64. s.v.",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Wording and references to page numbers legible. Amount '2 4 0' is small but clearly written and falls within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "To Mr Dudley. Int. of Library Fund. Mich. 1825",
+      "amount_pounds": 21,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and purpose (interest of library fund) readable. Amount '21 12 0' clearly aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Thorpe's Bill for Table linen",
+      "amount_pounds": 11,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Surname 'Thorpe' and 'Table linen' clear. Amount '11 16 6' is clear and valid."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Purdee's Do",
+      "amount_pounds": 14,
+      "amount_shillings": 16,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Ditto line for Purdee. Amount '14 16 5' readable though last digit slightly cramped; fits column alignment."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Hickman's Do - Silversmiths",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Surname looks like 'Hickman' and 'Do' present; the pounds column is blank (no pounds). Shillings '17' and pence '6' readable but the left-most pounds column is faint/blank; chose empty for pounds."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Hayes's Do for Buttery Books",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Hayes's ... Buttery Books' legible. Amount '12 19 0' clear and within valid ranges."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Granville's Do for Oak painting",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Surname appears as 'Granville' (handwriting slightly unclear). Pounds and shillings are small and legible. Pence column shows '4' with a small fractional loop interpreted as a halfpenny (0.5). Slight ambiguity in the frail fraction mark reduces confidence."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Knowles's Do - Mason",
+      "amount_pounds": 60,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname 'Knowles' and occupation 'Mason' readable. Amount '60 6 7' clear and columns well aligned."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Leach's Do - Carpenter",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Surname looks like 'Leach'. Amount appears as '21 13 0' but the final pence digit area is a little faint; chosen '0' based on alignment with pence column."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Wyatt's Do - pro latrinis &c (or similar)",
+      "amount_pounds": 163,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Surname 'Wyatt' clear. The descriptive phrase is abbreviated/faded ('pro latrines ? expurgatis?'); amount looks like '163 2 1 1/2' — interpreted as 1d + halfpenny based on small loop after the pence digit. Pounds are large but clearly written; description uncertainty reduces confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Do - for plaistering",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Ditto line (same surname) with reason 'for plaistering'. Amount '6 0 0' is small but clearly written and aligned."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Robinson's Do - Smith",
+      "amount_pounds": 54,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Robinson' and occupation 'Smith' are legible. Amount '54 13 0' clear and validated."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dudley & Bowker. Plumbers &c",
+      "amount_pounds": 79,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Firm/partnership name readable. Amount '79 11 0' clearly written and in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bligh's Do - Painter",
+      "amount_pounds": 64,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Surname appears as 'Bligh' (common) and 'Painter' clear. Amount '64 16 6' well aligned and legible."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Payne's Do - Upholsterer",
+      "amount_pounds": 49,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and trade readable. Amount '49 16 6' clear in columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Bushe's Do - Ironmonger",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Surname 'Bushe' (or 'Bush') and 'Ironmonger' legible. Amount '19 4 6' clear and valid."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Hewitt's Do - Slater &c",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Surname looks like 'Hewitt' and trade 'Slater' or similar; amount '41 5 6' is legible though the trade abbreviation is slightly smudged."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Walker i. Do for City Water Pipes &c",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Walker' and 'City Water Pipes' readable. Amount '2 12 6' clear and well aligned."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Rat catcher",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Rat catcher' clear. Amount '1 10 0' is legible."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Dec. 6. 1825 To Mr Gash. Dwl p. 416-419",
+      "amount_pounds": 26,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and recipient 'Mr Gash' clear; reference pages visible. Amount '26 9 11' discernible though pence '11' is small; alignment supports this reading."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Oct. 17. 1825 To Mr Williams. Do Do",
+      "amount_pounds": 26,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.4,
+      "notes": "Recipient 'Mr Williams' and date are clear. Amount appears as '26 9 10' with an extra small mark after the pence that could be a three‑quarters/farthing mark (0.75). The fractional mark is faint/ambiguous; two plausible readings exist (no fraction or 3/4), so confidence is low."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "18 Nov. 1825 To Mr Harris. p. 410.419",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Date, recipient and page refs legible. Amount '13 10 7' clearly written and within valid ranges."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "2058:12:5 3/4 (page total)",
+      "amount_pounds": 2058,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.4,
+      "notes": "Final page total visible at bottom right as '2058.12.5' followed by a small fractional mark. The fraction looks like 3/4 (a small '3q'-type mark) but is faint. Because the fractional symbol is ambiguous and the style differs slightly from the clearer halfpenny marks above, confidence is low; reported as 0.75 based on the shape of the trailing symbol."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Scholori Copinenni",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top-centre page title. The word 'Soluta' is clear; the following two words are in Latin script and slightly abbreviated/uncertain (letters around 'Scholori Copinenni' are ambiguous). No amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Rents of Severn Fine of Great Little Sew",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Small amount columns aligned to the right. Pounds '00' and shillings '4' are clear. Pence reads as '1' with a half-penny loop symbol (interpreted as 0.5). Description handwriting is moderately unclear (I transcribed letters as best visual match)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Rents of Mr Leyen fine",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds '00' and shillings '16' are clearly aligned. Pence reads as '9' with a half-penny symbol (0.5). The name 'Mr Leyen' is my best reading of the handwriting; alternative readings possible (moderate uncertainty in letters)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Soluta vera",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Section header (centered). The first word 'Soluta' is clear; the second word appears as 'vera' or 'verna' with some ambiguity in the final letters. No amounts on this header."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Pd Scavenger Bill to Novr 25.",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Columns well aligned. Pounds '1' and shillings '18' are cleanly written; pence '0'. 'Pd Scavenger Bill to Novr 25.' is legible and dated; high confidence."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Pd Colln. Chandler Acct of ye Mills 738-16-11",
+      "amount_pounds": 18,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '18' and shillings '16' are clearly aligned. The description contains an account reference '738-16-11' which matches the handwriting but some letters (Colln./Chandler) are partially ambiguous; chosen reading based on letter shapes and context."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Pd Castle Prisoners & postage of letters of last year",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Shillings '15' clearly in shillings column; pounds '0'. Description is mostly legible: 'Castle Prisoners & postage of letters of last year'. Column alignment used the stronger total line below for confirmation."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Pd Mr Beaver Septr? [or other name] 1759",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount reads 0 pounds, 7 shillings, 0 pence clearly. The name and following word are faded/abbreviated; I read 'Mr Beaver' and a date '1759' — letters after the name are unclear, hence moderate confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "pro Sync: done in primier visitation 1759",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Shillings '15' aligned. Description looks like a Latin/ledger note 'pro Sync: done in primier visitation 1759' — handwriting of 'primier' uncertain but context of 'visitation 1759' is legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Pd Harper for turning ye Greeve? approved in ye Quartrly",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amounts (1 pound, 15 shillings) are clear. The description's middle words are difficult to decipher ('turning ye ... approved in ye ...'); I transcribed a best guess based on letter forms and likely ledger phrasing."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "allowd Mr Sadler Propp Money",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Shillings '1' is visible in the shillings column; pounds '0'. Description reads as allowance to 'Mr Sadler' (surname legible) and 'Propp Money' is a best reading of the abbreviated word."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Pd cardiners com price",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "This row shows zero in all three currency columns (visually very small or blank marks). The description is heavily abbreviated/unclear ('cardiners com price' is a best-effort transcription). Low confidence due to faded/brief notation and uncertain wording."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Pd Mr Jonesd in part of a Bill",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Large pounds figure '30' is clearly written in the pounds column; shillings and pence are zero. Name 'Mr Jones' (or 'Jonsed') has minor ambiguity in final letter but context 'in part of a Bill' is legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Pd Mr Teerley Letcher in part of Bill",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pounds '20' clearly in pounds column. Handwritten name is moderately unclear; I read something like 'Mr Teerley Letcher' and noted it as part payment of a bill. Column alignment is unambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 75,
+      "amount_shillings": 14,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Underlined subtotal. Figures '75' (pounds), '14' (shillings), '7' (pence) are clearly aligned to the pounds/shillings/pence columns; used this line to confirm vertical column positions."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pd Arthur Floyd on acct for Carpenters work done in ye Brewery",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '10 0 0' clear. Description legible: payment to 'Arthur Floyd' for carpenter's work in the brewery. Minor abbreviation 'acct' expanded in reading but letters are clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Pd Mr Walker on accd Bill for business done in ye College Promotion in 1750",
+      "amount_pounds": 6,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '6' pounds and '14' shillings clearly placed. Description is partially abbreviated and slightly cramped ('accd Bill' and exact wording of the task unclear), so moderate confidence for description but values are clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Pd Molineux Grocers Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '8 17 0' clearly aligned. 'Molineux' (grocer's name) and 'Grocers Bill' are legible in the description; high confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lady Davis corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Shillings '17' clearly in column; pounds '0'. Description 'Lady Davis corn price' is legible and unambiguous."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Pd George of Morton Tanner per Country Salmon",
+      "amount_pounds": 0,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Pence '6' clear in pence column. The preceding words are slightly abbreviated: read as 'George of Morton Tanner ... per Country Salmon'. There is moderate uncertainty in the proper names but the amount is clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pd Chandler Bill for a ye Chandle? [or chandler's bill]",
+      "amount_pounds": 29,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amounts '29 13 0' are clearly written. Description refers to a 'Chandler' and a bill; middle phrase is difficult to decipher exactly ('for a ye Chandle?' is a best-fit reading)."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Pd wine 2 Novr",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Shillings '14' and pence '3' are clearly placed. Description 'wine 2 Novr' (wine, 2nd November) is concise and legible; moderate-high confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Pd Dodd for ye years ?(or fee?)",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '1 0 0' clear. The payee looks like 'Dodd' but the trailing words describing the purpose are abbreviated/uncertain; moderate confidence for description, high for amount."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pd Mr Townsend more in p[ar]t of his Bill pr Augt 3. 1756",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount '10 0 0' is clear. Description reads as a part payment to 'Mr Townsend' with a date 'Augt 3. 1756' — the date and name are legible; moderate-high confidence."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Pd Painton Bill",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '1 8 0' clear. The surname looks like 'Painton' (or 'Panton') — letters readable but could be alternate spelling; description short and plausible."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Pd Mr Fletcher Bill for Books on for ye Library",
+      "amount_pounds": 9,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '9 19 0' clearly aligned. Description references 'Mr Fletcher' and 'Bill for Books ... Library' — the phrase 'for Books on for ye Library' is slightly redundant in handwriting but the meaning is clear."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Pd ditto money Pd by him to Mr Hepfold? for Books belonging to ye Library as appears by recitt upon ye file",
+      "amount_pounds": 3,
+      "amount_shillings": 15,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount '3 15 6' clearly placed. The line begins 'Pd ditto money' and explains payment 'by him to Mr Hepfold?' (surname uncertain — 'Hepfold/Hepnott' possible). Remaining phrase about books and receipt on file is legible though some proper names are ambiguous."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Pd Mr Kennicott subscription toward his undertaking",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '5 5 0' clear. Description 'Mr Kennicott subscription toward his undertaking' is legible with minor uncertainty on exact spelling of surname (double 'c' reading fits letter forms)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

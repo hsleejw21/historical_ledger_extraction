@@ -1,0 +1,162 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1881",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini; clearly a header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini; clearly a header with a separating line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Oct 13 mid Duke Rent of Room",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Description from gemini-flash is more complete, accurately including the date 'Oct 13 mid' from the left margin, which gpt-5-mini omitted."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "June 29 1881 No 8 Board Repayment by",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are consensus. Description from gemini-flash is more accurate, including the date 'June 29 1881' and 'No 8'. gpt-5-mini correctly noted the heavy strike-through on 'Board', which is visible and justifies a slight confidence reduction, and was incorporated into the final notes."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Nov 4 Contract Fee. Queenlease",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amounts are consensus. Description from gemini-flash is more complete, including the date 'Nov 4' from the margin. 'Queenlease' appears correct, though gpt-5-mini noted minor ambiguity in the lettering, which is fair."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Nov 10 Galpen Old Materials",
+      "amount_pounds": 14,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Description from gemini-flash is more accurate, including the date 'Nov 10' and correctly reading 'Galpen Old Materials' over gpt-5-mini's 'Galpin Ord materials'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Nov 10 Glastonbury School. 5 4. Repayment",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consensus. Description from gemini-flash is more accurate, including the date 'Nov 10' and correctly segmenting this line from the following descriptive line. gpt-5-mini incorrectly combined this line's description with the next line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "by out of Symes Amount",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gemini-flash. This is a clear descriptive continuation line with no monetary amount, which was entirely missed as a distinct row by gpt-5-mini."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Dec 1 Bursar. Compositions Douns 139.150.154",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gemini-flash, which accurately captured the description, date 'Dec 1', and the correct amount '18 6 0' for this specific line (with a checkmark for pence). gpt-5-mini incorrectly associated a later total amount ('154 18 6') with this entry and misread descriptive details."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Xpd July 30 1882 doal Rate 21.05",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gemini-flash. This is a clear sub-entry/annotation line with no monetary amount, which was entirely missed as a distinct row by gpt-5-mini."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Dec 31 Insurances &c. to College by me as my.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gemini-flash. This is the first line of a multi-line entry, with 'Dec 31' in the margin, but no monetary amount on this line. gpt-5-mini completely missed this entry."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Head for 2 years of Gosford Payments.",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Extracted from gemini-flash. This is the second line of a multi-line entry, with its amount £7 0s 2d appearing just below the description. gpt-5-mini completely missed this entry, or vaguely attempted to represent it in an unusable 'illegible' row."
+    },
+    {
+      "row_index": 13,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 187,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row_type are consensus. The description is visually empty. Both extractors correctly identified the final total and the struck-through prior total ('189 7 -' from gemini-flash, similar from gpt-5-mini)."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 3,
+      "rows_by_visual_override": 4,
+      "rows_added_missing": 4,
+      "rows_dropped_extra": 1
+    }
+  }
+}

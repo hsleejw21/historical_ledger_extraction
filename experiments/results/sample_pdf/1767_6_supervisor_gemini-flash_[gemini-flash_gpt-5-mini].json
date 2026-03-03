@@ -1,0 +1,309 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "solata varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page title/section header, centered at top and contains no monetary figures. Wording legible though final vowel uncertain; taken as 'solata varia.'"
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "May 11. Pd Mr Thompson former fill in full",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and name clear. Amount aligned to the pounds column and reads '2' in pounds, with shillings and pence columns blank/zero. Vertical ruling for pounds unambiguous."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "23. Colley Clayton in full",
+      "amount_pounds": 17,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and description legible. Amount columns clearly show '17' in pounds and '4' in shillings. Pence column appears zero/blank."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "June 2. Molineux Messing Bill",
+      "amount_pounds": 11,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description clear. Pounds column shows '11', shillings and pence columns blank/zero and alignment is consistent with other rows."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "19. Mr Williams vice J. Newington for Michl: 1766.",
+      "amount_pounds": 10,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long description but amounts are clear: '10' in the pounds column, with shillings/pence blank. Alignment consistent with vertical guides."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "July 8. Mr Newbery's yrs salary for motion due this Midsumer",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partly faded/uncertain in a couple of letters ('motion' / 'Midsumer' uncertain) but amount '15' in pounds column is clear and aligns with ruling. Chosen 15-0-0."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Aug 5. Pd Geeler in part of his Bill",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and name legible; pounds column clearly '25'. Shillings and pence blank/zero. Vertical alignment strong."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Pd Glazier & Plumber in part",
+      "amount_pounds": 25,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Second 'in part' payment on same date block; amount looks identical to previous row and '25' in pounds column is clear. Description letters somewhat abbreviated but identifiable as glazier & plumber."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Joyce Silversmiths Bill",
+      "amount_pounds": 5,
+      "amount_shillings": 11,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Surname/read as 'Joyce' (could be 'Jouge' or similar); amount columns read as 5 pounds, 11 shillings, 4 pence. Some ink smearing around the pence digit makes exact pence slightly uncertain."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "millechiy Bill",
+      "amount_pounds": 2,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Description heavily abbreviated/faded (read as 'millechiy' but uncertain). Amount columns appear to read '2' pounds and '11' shillings; pence column looks blank/zero. Column boundaries faint here so reading of shillings is moderate uncertainty."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Pavior Smithy Bill",
+      "amount_pounds": 7,
+      "amount_shillings": 8,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Description interpreted as 'Pavior Smithy Bill' (could be 'Pavior'/'Paviour'). Pence area shows '10' with a small trailing loop resembling 'ob' (halfpenny); interpreted as 10½d. Ink faint on fraction, so confidence moderate-low."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "11. Pd Mr Langford Prov: of Bail: Quit Rent Mich: 1766.",
+      "amount_pounds": 0,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Date and name readable. Pound column blank (0). Shillings read as '12' and pence '6' with clear alignment. Some letters in description slightly abbreviated but meaning clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "13. Pd for Bell Rope & Lamp Baskets",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description legible as 'Bell Rope & Lamp Baskets'. Amount columns aligned; reads 0 pounds, 5 shillings, 6 pence. No fraction mark visible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "a scavengers Bill",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear short description. Amount shown as 0 pounds, 3 shillings, 0 pence; alignment with shillings column clear."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Octr 11. Pd Dr Kennicott & the Subscriptions",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date and recipient clear. Amount reads '5' pounds and '5' shillings. Pence column blank. Ink and column alignment are good here."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "16. Ch. Curtis for Battle Books Ink & Paper",
+      "amount_pounds": 0,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and small supplies list legible. Amount clearly reads 0 pounds, 17 shillings, 6 pence; digits crisp and column boundaries clear."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Back Garden & Inder(?) Expenses to ye Rector",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description partly unclear ('Inder' uncertain). Amount reads '2' pounds and '4' shillings clearly. Pence blank. Used alignment with neighboring rows to confirm pounds and shillings."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "22. Pd Procuratory of former years",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Amount reads 1 pound, 18 shillings and 11 pence, with a small trailing mark after the pence that resembles a halfpenny sign ('ob'). The fraction mark is faint; chosen halfpenny (0.5). Column boundaries slightly less distinct here."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "ditto Synodals former year",
+      "amount_pounds": 0,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short entry 'ditto' for another item of prior year; amount reads 7 shillings exactly. Columns aligned and legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "30. Pd George Lambert for Common Room wine",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name (George Lambert) and purpose (Common Room wine) legible. Amount clearly 2-10-6 with crisp digits and good column alignment."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Pd John Hart for removing Rubbish",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short description clear. Amount reads 0-8-0. Shillings digit '8' is distinct and pence column blank."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "Summa Receptionum 922 - 0 - 3¾",
+      "amount_pounds": 922,
+      "amount_shillings": 0,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Section total (receipts). Pounds '922' is clearly written; pence shows '3' with a clear '¾' (three-quarters) mark. Vertical alignment with totals column is unambiguous."
+    },
+    {
+      "row_index": 23,
+      "row_type": "total",
+      "description": "Summa Solutorum 879 - 7 - 6¾",
+      "amount_pounds": 879,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "Payment total. Pounds '879' and shillings '7' clear. Pence reads '6' with a '¾' after it (three-quarters of a penny). The fraction mark is slightly smudged but recognizable."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "A/c Solved: a/c 42 - 12 - 9 Computatus",
+      "amount_pounds": 42,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Adjustment/ balancing line. '42-12-9' clearly written as an accounting adjustment. The Latin/abbreviated wording 'A/c Solved' and 'Computatus' are legible though ornate."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "per die 2d Novr 1769",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short dated note with no monetary amount. Text 'per die 2d Novr 1769' legible; interpreted as a date/reference (no columns used)."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Computatio comparationis per hoc Presentor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Latin heading introducing signatures/attestation. Handwriting ornate and partly faded; no monetary figures present. Exact Latin spelling uncertain but purpose clear."
+    },
+    {
+      "row_index": 27,
+      "row_type": "header",
+      "description": "Geras Webber Rectorum. Tho: Bray Subrectorem. T. Newbery Decan. Gul: Tomkin S.T.P.B. J. ?",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature block with several names. Individual names mostly legible (e.g. 'Webber', 'Bray', 'Newbery', 'Tomkin'); final signature is hard to read. No monetary amounts. Grouped into single row to capture the attestation block."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

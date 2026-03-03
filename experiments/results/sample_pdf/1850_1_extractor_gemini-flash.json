@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Recepta Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear title header at the top of the page. No monetary amounts expected or present for this row type."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Freeman, ½ years Rent to Mich. 1849.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear description. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line. The '½' symbol is slightly faded but clearly identifiable."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "less by deductions",
+      "amount_pounds": 16,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (16 pounds, 1 shilling, 10 pence, 0.5 fraction) are within their valid ranges. The fraction symbol '½' is clearly identified as 0.5."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Heely – Do – Do",
+      "amount_pounds": "",
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (18 shillings, 8 pence, 0.5 fraction) are within their valid ranges. No pounds value is present. The fraction symbol '½' is clearly identified as 0.5."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Chancery Div. 2 yrs Rent taken by Rail.R. at Jany.",
+      "amount_pounds": 23,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (23 pounds, 2 shillings, 8 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Of the Dean towards purchase",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line. No monetary amounts expected or present on this specific line."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "of New Buildings, of the City",
+      "amount_pounds": 100,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (100 pounds, 0 shillings, 0 pence) are within their valid ranges. No fraction is present. The '£' symbol is clearly written before the pounds amount."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Of Mr. Lightfoot 4th instalment of Loan -",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (40 pounds, 0 shillings, 0 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Heely ½ yrs Rent of House in Queenh.H.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "The description is mostly clear, but the place name 'Queenh.H.' is written compactly and is somewhat faded, making a definitive reading challenging. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "to XMas 1850, less by deductions",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (15 pounds, 0 shillings, 4 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Freeman – Do – Do",
+      "amount_pounds": "",
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (16 shillings, 1 pence, 0.5 fraction) are within their valid ranges. No pounds value is present. The fraction symbol '½' is clearly identified as 0.5."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Arrears of Rent for Hampton Ten.t to Mich. 1849",
+      "amount_pounds": 40,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (40 pounds, 13 shillings, 6 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Compensation to Domus for fine on Merton.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "one year to XMas 1850 – P.S.D.",
+      "amount_pounds": 48,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (48 pounds, 10 shillings, 10 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "The Pensioner Incrementum Domus to XMas 1849",
+      "amount_pounds": 366,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (366 pounds, 6 shillings, 0 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do – Do to Mich. 1850",
+      "amount_pounds": 107,
+      "amount_shillings": 15,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (107 pounds, 15 shillings, 5 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Rector 4th instalment on Loan of £200 -",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (20 pounds, 0 shillings, 0 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Dr. Shortridges Trustees to XMas 1849",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "less by Prop. Tax & other deductions",
+      "amount_pounds": 211,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (211 pounds, 11 shillings, 8 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Reimbursement to Domus for South",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description is mostly clear. The word 'South' was initially ambiguous, but upon re-examination, the 'S' and 'ou' are distinct, making 'South' the most plausible reading. This row is the first part of a braced entry, with its associated monetary amount located on the subsequent line."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Newington repairs – P.S.D.",
+      "amount_pounds": 29,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (29 pounds, 2 shillings, 6 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Rectors Prize -",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (10 shillings, 10 pence) are within their valid ranges. No pounds value is present. No fraction is present."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Dean’s Fees -",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The amount is explicitly written as '30' clearly positioned within the pence column. To adhere to the strict validation rule 'PENCE must be 0–11', this raw value of 30 pence has been normalized to 2 shillings and 6 pence (30d = 2s 6d). This normalization means the '2' for shillings is inferred, as there is no '2' explicitly written in the shillings column on the page for this entry. This implies a non-standard writing style by the scribe for this specific amount."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Intt. on Shrubb's Deposit – P.S.D.",
+      "amount_pounds": 5,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (5 pounds, 15 shillings, 2 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Balance on Property Tax -",
+      "amount_pounds": 14,
+      "amount_shillings": 9,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of both the description and monetary amounts. Vertical column lines are unambiguous. All extracted currency values (14 pounds, 9 shillings, 0 pence) are within their valid ranges. No fraction is present."
+    },
+    {
+      "row_index": 26,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1876,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear final total line. The amounts are well-aligned and legible. All extracted currency values (1876 pounds, 19 shillings, 0 pence) are within their valid ranges. No description is present, which is typical for a final total line in ledgers."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

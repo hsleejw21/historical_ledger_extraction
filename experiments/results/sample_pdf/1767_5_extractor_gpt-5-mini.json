@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Soluta Scholari Cogengensi",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top-of-page title is legible as 'Soluta' and 'Scholari' but the final word is scribal/abbreviated and somewhat unclear; I have transcribed it as 'Cogengensi' as best fit to the handwriting."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Jany 17. Pd Wm Le Coutins share of Mr Symollys Tine",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Date and description readable with minor letter uncertainties. Amount columns align clearly to the three ruling lines: 4 pounds, 6 shillings, 11 and a half pence (the pence shows a clear half-penny loop)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "June 20. Pd Ditto share of Southnewington Tine",
+      "amount_pounds": 3,
+      "amount_shillings": 12,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Description 'Ditto ... Southnewington' slightly abbreviated but clear from context. Amounts align to columns: 3£, 12s, 9½d (half-penny symbol visible)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Pd Ditto of William Evans of Little ???",
+      "amount_pounds": 0,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Name/place at line end is partly faded/uncertain ('Little ...'); amounts are clearly aligned: 0£, 5s, 8½d (half-penny visible)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Ditto of Sheppards assignment of his Lease",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Description legible though script is cramped. Pence looks like '10' with a trailing loop that I interpret as '3q' (three farthings = 0.75). The loop is slightly ambiguous (could be a flourish) so confidence reduced."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Jany 24. Mayor Upton pro Decremt ad Oct: Nat: 1766.",
+      "amount_pounds": 9,
+      "amount_shillings": 15,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Date and name (Mayor Upton) are clear. Amount reads 9£, 15s, 1¼d — the pence has a small quarter-farthing style loop interpreted as 1/4 (0.25); the fractional symbol is unusual but visible."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Soluta varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered section heading 'Soluta varia.' with no amounts."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "1767.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year written in margin; clear and acts as a section label."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Febb. 10. Pd Do: Bill for Bottry Books",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date and 'Bill for ... Books' clear enough; amounts clearly '3 0 0' (three pounds exactly) aligned under the pounds/shillings/pence lines."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "- ditto for Kitchen Books",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Continuation 'ditto' line; amounts clearly 1£ 7s 0d as aligned in the columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "- 11 - to Clemens Corn price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Date mark '11' and description 'to Clemens corn price' slightly cramped; amount reads 0£ 1s 0d — shilling digit clear, pence blank/zero."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "- 21. Allowed Mr Sadlers Proper Money",
+      "amount_pounds": 0,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible though surname may be 'Sadler'/similar; amount clearly 0£ 6s 0d in alignment."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "- 28. Pd Ch. Ell. Unit Rent due Mich: 1766.",
+      "amount_pounds": 0,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Abbreviated names but amounts are crisply written: 0£, 18s, 0d."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "March 25. Pd Meyers Copys of last year",
+      "amount_pounds": 0,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description legible with minor spelling variants; amount 0£ 14s 0d clear in its column."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "- 28. placed to ye acct of Weston arrears due Michl: 1766.",
+      "amount_pounds": 6,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is readable as an accounting placement to Weston; the pounds and shillings (6 and 17) are clear. The final pence digit is faint/ambiguous (looks like '4' in some strokes but better aligns as '3' to match the ledger total at bottom); I have recorded 3d but confidence is moderate."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "31. Pd Merton 2 year Dividend due Ladyday 1766",
+      "amount_pounds": 90,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large-figure payment (90£) clearly written; shillings and pence (1s 10d) are legible though their size and ink thickness reduce absolute certainty slightly."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Pd Ditto to Michl: 1766",
+      "amount_pounds": 90,
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Repeat/deliverance line mirroring the prior Merton dividend entry; amounts identical to the previous line and alignment is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Pd Mr Bishop of Islip for Journeys to Merton in 1766.",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and purpose are legible; amount 1£ 11s 6d clearly aligned and the pence '6' is unambiguous."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "April 4. Lady day Corn Price",
+      "amount_pounds": 0,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short descriptive line; amount reads 0£ 1s 0d and is clearly placed under the columns."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "- J. Pd Cook Bill for Gardening &c for ye former year",
+      "amount_pounds": 19,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts legible; amount 19£ 11s 0d is crisply written and well-aligned."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "- 13. Tuerlis former Bill in full",
+      "amount_pounds": 15,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Surname spelling slightly uncertain ('Tuerlis'/'Teurlis'), but amount 15£ 0s 0d is clearly written in the columns."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "- 28. Townsends former Bill in full",
+      "amount_pounds": 10,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Entry text 'Townsends former Bill in full' is clear; amount 10£ 2s 6d is crisply formed and unambiguous."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "May 6. Pd Collins Chandler in part of his Bill",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Name and purpose legible; amount clearly 20£ 0s 0d."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 277,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Final ruled total at bottom right of page reads '£: 277 15 4 1/2' clearly. Note: to reconcile the written page total with line-by-line readings I interpreted the March 28 pence as 3d (rather than a possible 4d) because the totals add to the printed page sum only with that reading; the March 28 pence digit is faint and ambiguous so I explicitly chose 3d to match the ledger total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

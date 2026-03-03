@@ -1,0 +1,350 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title. No monetary amounts expected."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Brought over.",
+      "amount_pounds": 1202,
+      "amount_shillings": 10,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of 'Brought over'. Monetary amounts are distinct and well-aligned in their columns. All values in valid range."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "June 24 Disbursements for Repairs &c. at Beck's Farm",
+      "amount_pounds": 56,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The braced amount applies to this section. Pence fraction '1/2' is clearly written. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Little Tew. as phee.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Sub-item under a braced group, no amounts expected. Last word 'phee' is slightly ambiguous but legible within context."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Do...at Faulkner's. S. Newington as phew",
+      "amount_pounds": 25,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of amounts. Monetary amounts are distinct and well-aligned. Last word 'phew' is slightly ambiguous but legible within context. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bill for painting the Chancel at Do.",
+      "amount_pounds": 20,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Pd Mr Hony. 2/3. of a Bill for building Pews in the Chancel",
+      "amount_pounds": 33,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The braced amount applies to this section. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Feb. 20 Pd for Survey of L. Whittenham Vicarage for as-suring its annual Value of the wood. Leighton Bussard",
+      "amount_pounds": 15,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The braced amount applies to this section. Description text 'Leighton Bussard' is clear from context and crop. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "To make up a Deficiency in the Dividends at p. 61. 62. & 64. &c.",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. The braced amount applies to this section. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Do To Mr Dally. Int. of Library Fund. Mich. 1825",
+      "amount_pounds": 21,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Thorpe's Bill for Table linen",
+      "amount_pounds": 11,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Pardue's Do",
+      "amount_pounds": 14,
+      "amount_shillings": 15,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Hickman's - Do - Silversmith",
+      "amount_pounds": "",
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This entry has no Pounds amount, which is common. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Hayes's - Do - for Buttery Books",
+      "amount_pounds": 12,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Cranwell's - Do - for Oak Painting",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Knowles's - Do - Mason",
+      "amount_pounds": 60,
+      "amount_shillings": 6,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Leach's - Do - Carpenter",
+      "amount_pounds": 21,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Wyatt's - Do - pro labrinis expurgatis",
+      "amount_pounds": 163,
+      "amount_shillings": 2,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description and monetary amounts. The pence fraction is indicated by a trailing '1/2' or a looped 'd', interpreted as 0.5. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Do --- for plaistering",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. This appears to be a sub-entry with its own amount. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Robinson's. Do. Smith",
+      "amount_pounds": 54,
+      "amount_shillings": 13,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Dudley & Bowden. Plumbers &c",
+      "amount_pounds": 79,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bliss's Do Painter",
+      "amount_pounds": 64,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Payne's. Do Upholsterer",
+      "amount_pounds": 49,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Brooks's. Do. Ironmonger",
+      "amount_pounds": 19,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Hewlett's. Do. Glazier &c",
+      "amount_pounds": 41,
+      "amount_shillings": 5,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Walker's. Do. for City Water pipes. &c",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Rat catcher",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Oct. 6. 1824 To Mr Best. DW. p. 416-419",
+      "amount_pounds": 26,
+      "amount_shillings": 9,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Oct. 7. 1825 To Mr Williams. Do - Do",
+      "amount_pounds": 26,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. Pence fraction '3/4' is clearly written. All values in valid range."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "12. 1825 To Mr Harris. p. 410. 419",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Monetary amounts are distinct and well-aligned. All values in valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2058,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading of final total. Monetary amounts are distinct and well-aligned. Pence fraction '3/4' is clearly written. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

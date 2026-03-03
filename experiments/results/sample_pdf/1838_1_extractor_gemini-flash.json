@@ -1,0 +1,174 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Page year header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Receipts Varia.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Main title header for the page, underlined."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "By Dr. Shortridge's Trustees one years Rent (Charges to Xtmas 1837)",
+      "amount_pounds": 220,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of text and amounts. The description combines two lines visually grouped by a brace. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Interest on Shuttles' Deposit 2197.17.5 3/p C",
+      "amount_pounds": 5,
+      "amount_shillings": 18,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear, 'Shuttles'' and '3/p C' are slightly faint but legible. Amounts are clear, aligned, and in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "By The Receiver Interim = to Dimes to Mid 1837. 428",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear. No pounds digit is present, interpreting as an empty pounds field (0). Shillings and pence are clear, aligned, and in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "By Do. from Office of Biblect",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description is clear. Amounts '1', '6', '8' are clear and aligned in their respective columns. A faint '7' appears immediately after the 8 pence digit, but it does not correspond to any standard fraction symbol (ob, q, 3q) and is thus not interpreted as a fraction. Confidence reduced due to the ambiguous trailing '7'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "One fourth of improved Rent from Pickford (Norris & Swain, Due to Mich. 1834)",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "By Do. from Medenhain to Xtmas 1836",
+      "amount_pounds": 15,
+      "amount_shillings": 13,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description is clear. Amounts are clear, aligned, and in valid range. A brace starts here, visually grouping this item with the next two, but each has its own amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "By Mr. Reaton & Intintula, Mr. Snowden (fees for the Lease of his Estate)",
+      "amount_pounds": 5,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description is clear. Amounts are clear, aligned, and in valid range. This line is visually grouped with the previous and next lines by a brace."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "By Mr. Day on the Library Rent (as part of Mr. Snowdon's Bill)",
+      "amount_pounds": 84,
+      "amount_shillings": 5,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description is clear. Amounts are clear, aligned, and in valid range. This line is visually grouped with the previous ones by a brace."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Reimbursement to Durned from L. Bewington (Rents - 1/2 years to XDay 1837)",
+      "amount_pounds": 45,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is mostly clear, 'Durned' is somewhat faded. Amounts are clear, aligned, and in valid range. Brace groups two lines of text for a single amount."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "By Mr. Dayman Bursar, Incrementum to Midr. 1838",
+      "amount_pounds": 840,
+      "amount_shillings": 5,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical lines unambiguous. All values in valid range. Brace groups two lines of text for a single amount."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "By Do. Office of Biblect",
+      "amount_pounds": 26,
+      "amount_shillings": 0,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "By Mr. Dawson Dean's Fees 1 3/4 to Midr. 1838",
+      "amount_pounds": 38,
+      "amount_shillings": 17,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. The '1 3/4' is part of the descriptive text indicating a period, not a pence fraction. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Summa",
+      "amount_pounds": 1755,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total amount indicated by the '£' symbol and double underline. 'Summa' is implied by context. All values in valid range."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

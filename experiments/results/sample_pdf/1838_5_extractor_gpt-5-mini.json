@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1838.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Very clear centered date at top of page, distinct digits '1838' in darker ink; no monetary columns present on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Victoria Parish.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Centered title below the date. Handwriting is ornate; looks like 'Victoria Parish' though the first word's first letter is flourishy — interpretation as 'Victoria Parish' made from overall letter forms and context."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Pester Attended for repairs",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Rightmost figures clearly align to '3 0 0'. Description begins with a word that looks like 'Pester' or 'Pewter' — letters are faded and indistinct; chosen 'Pester' as best match to the visible loops."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Allowed for Countr?? at Shelton",
+      "amount_pounds": 6,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amounts clearly read as '6 0 0' aligned in the pounds/shillings/pence columns. Description is partially illegible — 'Allowed for' readable, following place/name uncertain (interpreted as 'Countr?? at Shelton'); low confidence because of multiple letter ambiguities."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Subscription to Chapel at Limerick",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Numeric columns clearly read as '2 0 0'. The place name looks like 'Limerick' — letters reasonably legible; moderate confidence in place reading."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bill for the Grann? ??? at Plumber & Hatter??",
+      "amount_pounds": 17,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Columns read '17 3 0' clearly. Description is heavily abbreviated/cursive; first words read 'Bill for the' then two words that are unclear ('Grann?' and another). Context suggests a bill for works; transcription of words is uncertain."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Bile to Pinder for Stones at the ???",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount columns read '2 12 10' and validate (shillings 12 < 20, pence 10 < 12). The description likely 'Bill to Pinder for stones at the ...' — 'Bill' letter looked like 'Bile' in the manuscript; chosen reading reflects ink shape uncertainty."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Gibbs - Tablet at the altar - A. W? Hutchinson",
+      "amount_pounds": 17,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '17 10 0' is clear. Description reads 'Gibbs - Tablet at the altar' fairly clearly; the name afterwards is cursive and uncertain (interpreted as 'A. W. Hutchinson' or similar)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Wollmer - Advertisements in the Ekes paper",
+      "amount_pounds": 3,
+      "amount_shillings": 10,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount reads '3 10 6' clearly. Surname 'Wollmer' (could be Vollmer/Wollmer) and phrase 'Advertisements in the ... paper' are readable; the newspaper name uncertain ('Ekes' interpreted from letters)."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ellis, Carpenter for repairs at Camper field",
+      "amount_pounds": 13,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount '13 14 0' clear and within valid ranges. 'Ellis' and 'Carpenter for repairs' legible; place looks like 'Camper field' or 'Comperfield' — reading chosen from visible letter shapes."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Spitford - Subscription to School at Woolston",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Large amount '50 0 0' is clear in pounds/shillings/pence. Name and purpose interpret as 'Mr Spitford - Subscription to School at Woolston' though first name/orthography uncertain."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Bills at King's Arms for Journey to L. Tec?",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amount reads '2 0 0'. Description starts 'Bills at King's Arms for journey to ...' remaining place badly faded and uncertain; low confidence on place/ending."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr W. Thomas for Garden services",
+      "amount_pounds": 1,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '1 10 0' clear. The name 'Mr W. Thomas' can be read; the trailing words look like 'for Gardiner Service' or 'for funeral services' — chosen conservative 'for Garden services' with moderate uncertainty."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Subscription to the … Culverts",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amount '5 0 0' clearly aligned. Description is fragmentary — reads 'Subscription to the ... Culverts' where the first word(s) before 'Culverts' are not fully legible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Portrait of Sir W. Morrice",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount '3 3 0' clear. 'Portrait of Sir W. Morrice' readable in script; surname could be 'Morrice' or 'Morrice' variant — letters are fairly distinct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Cash taken into the Rector's Count",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount '4 0 0' clear. Description reads 'Cash taken into the Rector's Count' (final word could be 'Court' or 'Count', appears as 'Count' in the manuscript)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Mr E. H. Cornish for the erection of a new Curbstone at Plimpton",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Aligned amount '50 0 0' is clear. The description is long and partly cursive; 'Mr E. H. Cornish' readable but later place 'Plimpton' or similar uncertain; interpreted from letter shapes and context."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Bill for repairs at Yarnton",
+      "amount_pounds": 3,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Amount '3 5 0' aligns clearly. Place reads as 'Yarnton' (letters legible enough); description short and interpretable."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Dormer Wine Bottles 2 1/2 to Nov 1838",
+      "amount_pounds": 9,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Amount read as '9 4 6'. Leading words appear to be 'Dormer Wine Bottles' followed by date reference — some letters (Dormer/Dormen) uncertain; chosen reading based on visible loops and context."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Mr Collins' Prize books",
+      "amount_pounds": 6,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '6 15 0' clear. 'Mr Collins' Prize books' legible though punctuation and possessive apostrophe inferred from context."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Mr W. Thornton - ??? in full in full",
+      "amount_pounds": 253,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Large amount appears as '253 15 3' (aligned columns). The description is long and smudged; looks like a name 'Mr W. Thornton' followed by '… in full in full' and possibly bracketed items. Reading of the amount columns is confident, but the description is poorly legible, hence low overall confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "All demands for the College & Library",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "This line of text is visible as a continuation/annotation 'All demands for the College & Library' but no clear amounts are aligned on this line — likely part of a grouped/bracketed set. Ink is faded and line may be connected to adjacent monetary lines."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Returned by Mr. S. Ashton on the College account April 1828 but then omitted",
+      "amount_pounds": 68,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Amount '68 0 0' readable and within valid ranges. The description is lengthy and the name 'Mr. S. Ashton' inferred from cursive letters; trailing phrase is legible though ink is lighter."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Pills for drain round the Chancel & Nannington",
+      "amount_pounds": 1,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Amount read as '1 4 8' though small and slightly blurred. Description appears to reference 'drain round the Chancel' and a place name that looks like 'Nannington' (uncertain spelling)."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr Dayman - Bills for Bridge Pumps &c",
+      "amount_pounds": 17,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount '17 1 6' clear and valid. Name 'Mr Dayman' and purpose 'Bills for Bridge Pumps &' readable though ampersand and final words are abbreviated; moderate confidence."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Pillage gardens at Little ???",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Final descriptive line before the total is faint and partially cut off on the scanned edge. No monetary figures are clearly aligned to this line; the place name is illegible ('Little' is clear, final word faded)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "L 538 19 9",
+      "amount_pounds": 538,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Large boxed total at bottom-right reads as '538 19 9' (pounds 538, shillings 19, pence 9). The 'L' (pounds sign) and boxed framing are clear but the last pence digit is slightly smudged — read as '9' based on shape; because the total is critical but slightly worn, confidence is moderate-low."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearages from 2d die Novembris 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered page title at top of sheet. Handwriting legible and no monetary figures on this line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents filed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear centered section header with no amounts; script easily read as 'Money Rents filed' (ornamental flourish on last word)."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory 1/2 year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds/shillings/pence columns are well aligned; numerals read clearly as '90 0 0'. All values within valid ranges."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhermott Do. 2 years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amount columns aligned; pounds read confidently as '40' and shillings/pence '0 0'. Handwritten place name slightly uncertain but amount is clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Riddington Do. 1 year",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '20 0 0' in amount columns; description legible as 'Riddington Do. 1 year'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do. Lishrows & Brown 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings read as '2 15'. The script of the place-name is a little uncertain ('Lishrows' is best reading), but the numeric columns are clear and valid."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do. Canal 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings align as '1 16'. Pence looks like '4' with a small trailing loop/mark interpreted as 'ob' (halfpenny) → 4½d. The fraction mark is faint and could be smudge; chose 0.5 based on a visible loop after the '4'."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Sicarge 1 year",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads as '4 0 0' clearly. The place-name 'Sicarge' (or similar) is somewhat uncertain but does not affect the amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Brampton Tenement 9 years",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear '9 0 0' in the amount columns; description 'Brampton Tenement 9 years' legible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mortuante Do. 6 years",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Amount '3 0 0' is clear. The place-name reads as 'Mortuante' (handwriting variant); numeric values unambiguous."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hart Halle",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The amount columns show ditto/quotation marks under the previous numeric line. Interpreted as repeating the previous amount '3 0 0'. This is plausible but not explicitly numeric, so confidence is moderate."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Back Gate Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount columns contain ditto marks (same pattern as previous lines). Interpreted as repeating '3 0 0' from the preceding numeric line; reading of text is clear but numeric interpretation depends on ditto usage."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "St. Martin's Do",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Ditto marks present in the amount columns; treated as '3 0 0' repeated. 'St. Martin's Do' handwriting legible; numeric duplication inferred from ditto marks."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amounts read clearly as '9 6 8'. Description 'Lad Lane. Norris 1 year' legible; columns well aligned."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Downishorne 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount reads '13 6 8' clearly. Place-name reads as 'Downishorne' (spelling uncertain) but the numeric values are unambiguous and in valid ranges."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Pickford 1 year",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amount columns show '1 13 4' clearly. Description is legible as 'Pickford 1 year'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Medenham 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Numerals read as '13 6 8'. Place-name reads as 'Medenham' (handwriting slightly ambiguous) but numbers are well aligned and clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Little Tew - Hicks 1 year",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount '1 6 1' readable in columns. Description 'Little Tew - Hicks 1 year' interpreted from script; minor ambiguity in surname but does not affect amounts."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Lymett 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts read as '1 11 8'; the place-name appears as 'Lymett' (handwriting a little indistinct), but numeric columns align well."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Lennard 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Pounds/shillings/pence look like '1 1 8' but the shillings digit is small and could be read differently; selected '1' for shillings based on alignment with the vertical ruling. Moderate ambiguity in the second digit."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Curnock 5 years",
+      "amount_pounds": 2,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount appears as '2 6 0' in columns. Description 'Curnock 5 years' legible; column alignment clear."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bushey Tenements 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear numeric '20 0 0' in amount columns; description easily read as 'Bushey Tenements 2 years'."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Walston Do. 5 yr to Mids 1831",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Amount '5 0 0' clear. Description 'Walston Do. 5 yr to Mids 1831' is legible; 'Mids' interpreted as 'Midsummer'."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Wild Arish",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This line has no numeric amounts visible. Description reads as 'Wild Arish' (handwriting could represent 'Wild Arable' or similar); left blank for amounts because no digits appear in the amount columns."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bodleam Episcopaist (To the Rector)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "No monetary figures on this line. Description reads 'Bodleam Episcopaist (To the Rector)' though spelling uncertain; phrase '(To the Rector)' clearly visible."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Gosford Tythes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Entry has no amounts. The place/subject reads as 'Gosford Tythes' (spelling of 'Tythes/tythes' inferred from handwriting)."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Ashfield in Tingley - Hants",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final entry on page; no amounts present. Description reads clearly as 'Ashfield in Tingley - Hants'."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

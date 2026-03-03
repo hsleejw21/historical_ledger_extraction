@@ -1,0 +1,240 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet 1895.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of page title. No amounts present. Layout detection confirmed as standard with a single set of amount columns."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of section header. No amounts present. The word is underlined, indicating a grouping label."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 3600,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. Vertical lines for pounds, shillings, and pence columns are unambiguous. All extracted values are within valid currency ranges (shillings 0-19, pence 0-11)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "do \" \" \" (Library acct:)",
+      "amount_pounds": 65,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of description and the primary amount (65 13 4). A second set of numbers (3666 11 10) appears on the same line, representing a running subtotal for 'Cash at Bankers'. This trailing total is not extracted due to the schema constraint of one amount per row for 'entry' type. All extracted values are in valid range."
+    },
+    {
+      "row_index": 5,
+      "row_type": "header",
+      "description": "Furniture",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of section header. The word is underlined and is not directly followed by an amount on the same line, indicating it's a structural label."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The description field is intentionally left empty as no text appears on this specific physical line. The amount (3000) is clearly associated with the 'Furniture' header above it. Shillings and pence columns contain periods ('.'), which are a common ledger notation interpreted as zero. All values are in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 5303,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of description and the primary amount (5303 6 6). A second set of numbers (8303 6 6) appears on the same line, representing a running subtotal for 'Furniture' and 'Investments'. This trailing total is not extracted due to the single-amount-per-row schema constraint. All extracted values are in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of section header. The phrase is underlined, indicating a new logical group. No amounts present."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 242,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description and amounts. The pence column contains a period ('.'), interpreted as zero pence. All values are in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 444,
+      "amount_shillings": 7,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. All values are in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Quit Rents.",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. All values are in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Houses on long leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. All values are in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 3,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of description. The amounts are written as '3. 3. 5.'. The periods are interpreted as typical column separators rather than decimals or fractions. All values are in valid range."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Dr Richards Exhibition",
+      "amount_pounds": 36,
+      "amount_shillings": 11,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. All values are in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Furniture Hire",
+      "amount_pounds": 17,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of description and amounts. All values are in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Private Bills",
+      "amount_pounds": 3,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Clear reading of description and the primary amount (3 8 4). A second set of numbers (977 19 7) appears on the same line, representing a running subtotal for 'Due to the College'. This trailing total is not extracted due to the single-amount-per-row schema constraint. Manual calculation of items under 'Due to the College' does not sum to 977 19 7, suggesting it may include other unlisted factors or be a balance brought forward/carried over. All extracted values are in valid range."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "£",
+      "amount_pounds": 12741,
+      "amount_shillings": 17,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total amount. The '£' symbol is present on the line before the numerical values, adhering to the 'description as it appears' rule. The amount is underlined, confirming its status as a total. All values are in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "duly kept in proper books of Account and that the account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Non-transactional explanatory text. Classified as 'header' as it functions as a descriptive structural element of the page, not an entry or total. No amounts present. Text is clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Lo. C. Jackson F.C.A. Auditor",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Non-transactional text representing the auditor's signature. Classified as 'header' as it's a descriptive structural element. No amounts present. Handwriting for 'Lo.' and 'Jackson' is somewhat stylized but legible, 'F.C.A. Auditor' is clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "(Jackson Pixley Browning Heasq + Co)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Non-transactional text representing the auditing firm's name. Classified as 'header' as it's a descriptive structural element. No amounts present. Handwriting is moderately ambiguous for 'Pixley', 'Browning', and 'Heasq', but contextually plausible. The 'q' in 'Heasq' is a best interpretation of the final character."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Feb. 17th 1896",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Non-transactional text representing the date of the audit/ledger entry. Classified as 'header' as it's a descriptive structural element. No amounts present. Text is clear."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

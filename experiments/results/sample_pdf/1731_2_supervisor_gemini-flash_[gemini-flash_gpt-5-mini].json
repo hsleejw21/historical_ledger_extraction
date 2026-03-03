@@ -1,0 +1,232 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Receipta Anni presentis",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Page title/header centered at top. Handwriting of heading is legible; no monetary figures appear on the same line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "E Treasurer",
+      "amount_pounds": 251,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'E Treasurer' is legible. Pounds (251) and shillings (6) align clearly in the first two money columns. A '6' is visible in the narrow pence column; there is a faint small annotation further at extreme margin but it is separate from the pence column and ignored."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long-Wittenham ad Annum",
+      "amount_pounds": 24,
+      "amount_shillings": 3,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description partially abbreviated but readable as Long-Wittenham ad Annum. Pounds (24) and shillings (3) are clearly placed. Pence reads as '11' in the pence column; minor ink smearing makes the second '1' slightly lighter but alignment into the pence column supports '11'."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Addington Vicar",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description interpreted as 'Addington Vicar' though the surname/word after Addington is slightly unclear. The pounds column shows '4' clearly. Shillings/pence appear to be zeros; there is a very small faint mark at the extreme right margin (not in the pence column) which I did not interpret as a fraction or extra pence."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Lucas Eaton",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Name 'Lucas Eaton' is clear. Pounds '2' is clearly inside the pounds column; shillings and pence columns contain zeros/blank and read as 0 and 0 with good alignment."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Bannister",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Surname 'Bannister' clear. Pounds column blank/zero; shillings '15' is clearly aligned between the second and third vertical lines. Pence is blank/zero."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Pentrinhul Napper ad Annum",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Name is partially unclear (transcribed here as 'Pentrinhul Napper ad Annum' to reflect the ink); pounds and shillings read as '1' and '16' respectively and align with columns. Pence column is blank. Because the description is uncertain and the first word may be mis-transcribed, confidence lowered."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Uddlington Augm:",
+      "amount_pounds": 62,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description 'Uddlington Augm:' is a best reading of a somewhat stylised place/term. Numerical columns show 62 pounds and 6 shillings clearly; pence blank. Some ink variation in the hundreds digit, but alignment supports 62."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Sad-lane, Sparkes & Merton ad Annum",
+      "amount_pounds": 8,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description with three names is legible. Pound (8), shillings (16) and pence (8) are all present and well aligned in their columns. Ink is consistent and values are within valid ranges."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Rev Mr Horner a Benefaction of his towards new painting the Chappel",
+      "amount_pounds": 45,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description read as a benefaction from 'Rev Mr Horner' toward the chapel painting; wording is slightly expanded for clarity but mirrors the original. Amount 45 pounds exactly fills the pounds column; shillings and pence are blank/zero."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Recd in part Mr Cooperat Incremnt for Mids: 1731",
+      "amount_pounds": 41,
+      "amount_shillings": 9,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description is partly abbreviated; read as 'Recd in part Mr Cooperat Incremnt for Mids: 1731'. Numbers in the three money columns read as 41, 9, 9 but the handwriting in the description and the tail of the pence digit are slightly indistinct, so moderate confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Mr Wrosetions Incremts for Mid: 1728 & Mid: 1729",
+      "amount_pounds": 115,
+      "amount_shillings": 5,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is difficult to parse (transcribed as 'Mr Wrosetions Incremts'); numerical alignment shows '115' in pounds, '5' in shillings and '4' pence. Slight ambiguity in the reading of the name and the placement of the hundreds digit causes reduced confidence."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "for Hancocks Battes formerly all to one off ???",
+      "amount_pounds": 2,
+      "amount_shillings": 18,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Description is poorly legible; appears to refer to 'Hancocks Battles' or similar. Money columns read 2 pounds, 18 shillings, 6 pence; these numbers align with the three columns but the description is very uncertain so confidence lowered."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Old Pits Battles at Xmas 1722",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Description reads as 'Old Pits Battles at Xmas 1722' (some words archaic/abbreviated). Amounts show blank/zero in pounds, '11' shillings clear, and pence blank/zero. Columns are well aligned."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mr Bayleys Increments mids? 1725",
+      "amount_pounds": 59,
+      "amount_shillings": 11,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Name reads as 'Mr Bayleys' and an increment date (mids 1725). Monetary columns show 59, 11, 9 clearly. Slight curl on the final pence digit but alignment and context make reading confident."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Gent: Commt Kehewitch",
+      "amount_pounds": 8,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is abbreviated and proper name uncertain ('Kehewitch' is best-effort). Amounts show 8 pounds and zeros for shillings/pence; description ambiguity reduces confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Commoners Library at Midst 1701",
+      "amount_pounds": 6,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description mostly legible as 'Commoners Library at Midst 1701' though the date/word is slightly abbreviated. Monetary columns read 6 pounds, 5 shillings, pence blank. Alignment is clear."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "all the other sums remaining due from Xmas 1723 to Xmas 1730",
+      "amount_pounds": 20,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This explanatory line is fully legible and reads as a summary of outstanding sums. Monetary values read as 20 pounds, 7 shillings, 6 pence; columns clear and values within valid ranges."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Recd from Mr William Talbot a Benefit towards building a new Library",
+      "amount_pounds": 21,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Readable donation entry from 'Mr William Talbot'. Pounds 21 is clear in the pounds column; shillings and pence are zero. Description and numbers are well aligned and legible."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Recd by order of Mr Charles Talbot Arb[?] towards building a library",
+      "amount_pounds": 52,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Recd by order of Mr Charles Talbot' followed by a short abbreviation is legible. Monetary columns show 52 pounds and 10 shillings; pence blank. Slight uncertainty over the final abbreviated word after 'Talbot' but numbers are clear."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

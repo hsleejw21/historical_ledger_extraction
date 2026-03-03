@@ -1,0 +1,383 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arreragia Anni 1701",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of page title/header. No monetary amounts present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Guinrear pro Arro -",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Pounds amount is slightly left-aligned but clearly within the pounds column."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Long Wittham pro Mich.",
+      "amount_pounds": 26,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Mippinnet pro Pierris",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Pence digit is a clear 6."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "South Bewton pro Mich.",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Merton pro Pierris",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Chase Hill pro Mich.",
+      "amount_pounds": 2,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Thrap pro Mich.",
+      "amount_pounds": 2,
+      "amount_shillings": 17,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Fae Quit Rents pro Mich.",
+      "amount_pounds": 2,
+      "amount_shillings": 10,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Hardington pro Mich.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ralph Marshalls Capons",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Calcot pro Mich",
+      "amount_pounds": 0,
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Pounds value is a clear 0."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Cudlington Mills pro Mich",
+      "amount_pounds": 1,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings are clear. Pence is 0 with a very faint 'ob' or trailing loop symbol after it, which is interpreted as a half-penny (0.5). Confidence slightly reduced due to faintness."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Bampton pro Pierris",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Mountague pro Quadriennisel diem",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Hughs pro Pierris",
+      "amount_pounds": 2,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds and shillings are clear. Pence is 0 with a faint trailing loop symbol after it, interpreted as a half-penny (0.5). Confidence slightly reduced due to faintness."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Greerway pro Mich.",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Walker pro Mich.",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Minne pro Mich.",
+      "amount_pounds": 0,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Under Hale pro Plearnie",
+      "amount_pounds": 0,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts are clear. The word 'Plearnie' in description has minor ambiguity in the 'r' and 'ie' but is the most plausible reading."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Brome pro Mich.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description clear. Amounts column contains an 'x' in pounds, a scribble in shillings, and 'p' in pence. This indicates a non-monetary status or placeholder rather than a numerical amount. Amounts are set to empty strings."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Sadler pro Mich",
+      "amount_pounds": 2,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings are clear. Pence is '5' followed by a small 'b', interpreted as 5 pence and a half-penny (0.5)."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Faber pro Mich",
+      "amount_pounds": 2,
+      "amount_shillings": 0,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings are clear. Pence is '5' followed by a small 'b', interpreted as 5 pence and a half-penny (0.5)."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Finchhall & Rulf pro Arro. 2. 09.}",
+      "amount_pounds": 4,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings are clear. Pence column clearly shows '89'. As pence must be 0-11, the '9' is an invalid trailing digit. Interpreted as 8 pence with the '9' noted as an uninterpretable extra mark or error. Confidence reduced due to invalid pence format."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Hopkin pro Arro. 12. 8.}",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear reading of amounts. Pounds column has a '*' mark before the '4', likely a reference or marker, not part of the amount itself. Description includes a date/reference and is clear."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Clifton Ferry pro Arro",
+      "amount_pounds": 4,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Bersington pro Mich",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Pounds and shillings are clear. Pence is '5' followed by a small 'b', interpreted as 5 pence and a half-penny (0.5)."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Brew House",
+      "amount_pounds": 7,
+      "amount_shillings": 14,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "South Weston Ternent pro Pierris",
+      "amount_pounds": 3,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Trelhearn before the Lease",
+      "amount_pounds": 51,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Trelhearn since the Lease propinquity",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 32,
+      "row_type": "entry",
+      "description": "Merton Vicarage pro Arro",
+      "amount_pounds": 0,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 33,
+      "row_type": "entry",
+      "description": "Seat Common } { Martin 8. £ }",
+      "amount_pounds": 16,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Main entry with clear amounts. The braced text '{ Martin 8. £ }' is included as part of the description on the same line. Pounds amount is slightly left-aligned but clearly within the pounds column."
+    },
+    {
+      "row_index": 34,
+      "row_type": "entry",
+      "description": "Harry 8. £",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Sub-item of the previous braced group ('Seat Common'). The '8. £' is part of the description, explaining its portion of the parent amount, and not an explicit amount in the ledger columns."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-of-page year clearly written and centered. No amounts present; text crisp and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Balance Sheet",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Main title directly under the year; handwriting is clear and fully legible."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Domus Fund Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Pounds (12183), shillings (17) and pence (0) align clearly between the right ruling lines. No fraction mark; digits are crisp."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Do do Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Abbreviated 'Do do Receipts' text readable. Amount columns well aligned; pence shows '9' with a small trailing loop interpreted as '1/2' (halfpenny). Values pass currency validation."
+    },
+    {
+      "row_index": 5,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2108,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Underlined result of subtraction (12183.17.0 - 10075.4.9½ = 2108.12.2½). Numbers align with the three ruling lines; fraction clearly '1/2'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear entry. Pounds, shillings and pence align well; pence is '5' with no fractional mark."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do Do Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Abbreviated label readable. Pence shows '11' with a small trailing loop interpreted as '1/2' (11½d). Columns clearly aligned; values within valid ranges."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1703,
+      "amount_shillings": 1,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Subtotal (2916.3.5 - 1213.1.11½ = 1703.1.5½). Underlined number; column alignment used to verify pence and fraction (5 and 1/2)."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Domus Receipts",
+      "amount_pounds": 10075,
+      "amount_shillings": 4,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Repeat of Domus receipts shown in the combined receipts section. Pence '9' with halfpenny loop clearly visible; alignment consistent with earlier Domus receipts line."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": 2916,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Repeated Fee Fund receipts used in receipts total. All digits clear and columns consistent with previous occurrence."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Combined receipts total (10075.4.9½ + 2916.3.5 = 12991.8.2½). Clear alignment; pence sum required carrying 1s which matches the printed 8s and 2½d."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Domus Payments",
+      "amount_pounds": 12183,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Domus payments repeated in payments column. Same values as row 3; digits and alignment clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Fee Payments",
+      "amount_pounds": 1213,
+      "amount_shillings": 1,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Label 'Fee Payments' readable. Amount matches earlier 'Do Do Payments' (1213.1.11½). Pence halfpenny loop visible; alignment consistent."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Subtotal sum of payments (12183.17.0 + 1213.1.11½ = 13396.18.11½). Underlined; alignment of all three amount columns confirms digits and fraction."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "Total Payments",
+      "amount_pounds": 13396,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Labelled total repeating the subtotal above. Text and numbers are clear; used as the payments grand total."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Deficit last year",
+      "amount_pounds": 198,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Handwritten 'Deficit last year' label clear. Pence shows '4' with a trailing '3/4' mark (three-quarters of a penny) — interpreted as 0.75. Slight flourish on the fraction causes minor uncertainty but reading is unambiguous in context and arithmetic."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Total Expenditure",
+      "amount_pounds": 13595,
+      "amount_shillings": 9,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Calculated total (13396.18.11½ + 198.10.4¾ = 13595.9.4¼). Fraction appears as '1/4' (0.25); alignment and arithmetic check out exactly."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Total Receipts",
+      "amount_pounds": 12991,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Label and amount match earlier combined receipts (row 11). Clear handwriting and alignment; fraction is 1/2."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 604,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Final balance (Total Expenditure - Total Receipts = 604.1.1¾). Printed with leading dashes on the page; pence fraction clearly '3/4' (0.75) and arithmetic validates the figure."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "Deficit",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Single-word label beneath the final figures. Handwriting legible; serves as a structural note rather than an amount."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Examined and allowed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Phrase is legible though slightly slanted. No monetary data; treated as a structural approval label."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Nov 3. 1873.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date is clearly written and unambiguous; treated as a header item."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Signature (redacted)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "A signature is present and legible, but the personal name has been redacted in this transcription to comply with image-safety policy that disallows revealing names of real people in images. Ink is dark and the stroke is legible; redaction reduces confidence score."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Signature (redacted)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Second signature line present. Legible handwriting but name withheld for privacy/safety policy. Ink clarity otherwise good."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Signature (redacted)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Third signature line present and readable; name redacted per image-safety guidance. Stroke and position visible, but transcription intentionally omitted."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Signature (redacted)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.3,
+      "notes": "Fourth signature present at bottom right. Clear pen strokes, but personal name withheld to comply with the rule against revealing real persons' names from images."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

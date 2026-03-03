@@ -1,0 +1,53 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "II (Capital) 1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page title at top left is crisply written and fully legible: Roman II, '(Capital)' and '1900'. No monetary columns present on this row."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Transfer to Div. Comp. Fund",
+      "amount_pounds": 53,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns are well aligned with the vertical ruling lines; pounds/shillings/pence read as '53 17 6' and all values fall in valid ranges. Description handwriting is moderately unclear (the middle word is abbreviated/stylised); interpreted as 'Div. Comp. Fund' based on letter shapes and common ledger phrasing."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Balance at close of acct",
+      "amount_pounds": 8696,
+      "amount_shillings": 13,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is clearly legible as 'Balance at close of acct'. Amounts read cleanly in aligned columns as '8696 13 2'. Values validate (shillings 13 within 0-19, pence 2 within 0-11). Slight ink variation on the thousands digit reduces perfect certainty."
+    },
+    {
+      "row_index": 4,
+      "row_type": "total",
+      "description": "£ 8750 10 8",
+      "amount_pounds": 8750,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Total boxed and clearly written as '8750 10 8' with a preceding pound symbol; aligns with the sum of the two above rows (53 + 8696 plus carry from 30 shillings = 8750 pounds, 10s, 8d). Vertical ruling lines used for precise column placement; numerals crisp and unambiguous."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

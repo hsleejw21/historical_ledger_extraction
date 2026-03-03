@@ -1,0 +1,287 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Title/year header.",
+      "side": "center"
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptorium et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Main page title header.",
+      "side": "center"
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2° die Novembris A.D. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Date header.",
+      "side": "center"
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Section header for receipts. Dashes are decorative."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Arrearagia",
+      "amount_pounds": 743,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/4' clearly visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Anni presentes",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. No fraction symbol."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 199,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/2' clearly visible."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "",
+      "amount_pounds": 2750,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.8,
+      "notes": "No explicit description for this amount, but it appears to be a distinct entry under 'Recepta'. Vertical lines unambiguous. All values in valid range. Fraction '3/4' clearly visible."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 1460,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/2' clearly visible."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Double-underlined total. Vertical lines unambiguous. All values in valid range. Fraction '3/4' clearly visible. This total is correctly computed from the preceding entries."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Section header for payments. Dashes are decorative."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno Rectori Schol: et Off:",
+      "amount_pounds": 711,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/4' clearly visible."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 399,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/2' clearly visible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '1/2' clearly visible."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Double-underlined total. Vertical lines unambiguous. All values in valid range. Fraction '3/4' clearly visible. This total is correctly computed from the preceding entries."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Ex Receptis",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '3/4' clearly visible. This brings forward the previous total."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Deductis Solutis",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Fraction '3/4' clearly visible. This brings forward the previous total."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restat",
+      "amount_pounds": 1440,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Double-underlined total. Vertical lines unambiguous. All values in valid range. No fraction symbol. This balance correctly results from the subtraction of the two preceding entries."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Header introducing the signatories."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "J. C. Jones. Rectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Signature entry."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "J. L. Richards. Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Signature entry."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "J. W. Tapper. Bursar. Senr.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reading of 'Tapper' and 'Senr' is clear but 'J. W.' slightly less distinct than other initials. No monetary amounts. Signature entry."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "J. P. Lightfoote Decanum.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Reading of 'Lightfoote' and 'Decanum' is clear, but the 'P' in 'J. P.' is slightly faint. No monetary amounts. Signature entry."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "H. D. Harrington.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Signature entry."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Mr. Falconer.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. No monetary amounts. Signature entry."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

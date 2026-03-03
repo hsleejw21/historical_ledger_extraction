@@ -1,0 +1,243 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Solata",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Top-centre title is legible but spelling uncertain (reads 'Solata'); no amounts present. Vertical ruling lines not needed for this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Dno Rectori Schol: & Officiarius",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear centred ledger heading beneath title. No monetary figures. Handwriting for 'Dno Rectori Schol: & Officiarius' is reasonably clear."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Mts ad Est Nature & Officiar. P.295",
+      "amount_pounds": 20,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description and page no. readable. Pound/shilling/pence columns aligned against vertical rules; reads as 20 pounds, 6 shillings, 8 pence. Columns unambiguous here."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Account of L. Newington Collector 296",
+      "amount_pounds": 27,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description legible. Amount reads '27' in pounds column with blank shillings/pence — interpreted as 27.0.0. Minor uncertainty because shillings/pence are blank rather than marked '0', but column alignment is clear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Attend in Choirs 297",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and page number readable. Pounds column clearly '30' with blanks in shillings/pence — taken as 30.0.0. Handwriting of description slightly slanted but unambiguous."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Augment of Commons Do 298",
+      "amount_pounds": 3,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description readable but smaller. Amount appears to read '3' in pounds and '4' in shillings (the shilling figure is a little compressed and could be '14' if misaligned). Chosen as 3 pounds 4 shillings 0 pence based on alignment with the pounds/shillings ruling; validation (shillings <20) satisfied. Moderate ambiguity due to tight handwriting."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Short description 'Dno Rectori' is clear. Amount aligned and reads 30 pounds, 9 shillings, 2 pence. This '30.9.2' appears repeatedly as a standard line and is written clearly."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Merton David to L. D. 1814 301",
+      "amount_pounds": 77,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description (Merton David ...) and page number 301 legible. Amount clearly '77.9.10' with consistent alignment to columns; digits are distinct."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Do Do to Michmas Do 302",
+      "amount_pounds": 77,
+      "amount_shillings": 9,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Abbreviated description ('Do Do ...') with page 302. Amount matches the previous 77.9.10 and is written clearly in the pounds/shillings/pence columns."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Attend ad Fest Annum 303",
+      "amount_pounds": 34,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and page no. readable. Amount reads as 34 pounds, 13 shillings, 4 pence; shillings and pence digits are a bit small but column alignment supports this reading."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Kidlington Augment prov 3rd Ann: p.304",
+      "amount_pounds": 13,
+      "amount_shillings": 17,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Place name and page 304 readable as 'Kidlington Augment ...'. Amount aligns to read 13.17.3; digits clear though the long descending tail of the '7' required checking alignment with ruling lines."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno Rectori ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Repeating 'Dno Rectori ut supra' phrase. Amount again clearly 30.9.2, alignment and handwriting crisp here."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Mr. Div. S. Bath & Officiaries",
+      "amount_pounds": 19,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description partly abbreviated and slightly smudged ('S. Bath' uncertain). Amount appears to be '19' in the pounds column with blanks for shillings/pence; chosen as 19.0.0 but there is moderate uncertainty because the shillings column contains a faint mark that could be another digit."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Do Mr Chiefs",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Short description 'Do Mr Chiefs' (abbreviation 'Do' for 'Ditto'). Pounds column reads '30' clearly; shillings/pence blank and interpreted as zero."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Augment: of Commons Do moderate & subdec 310",
+      "amount_pounds": 50,
+      "amount_shillings": 8,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description is longer and slightly cramped. Amount appears as '50.8.' (50 pounds, 8 shillings). Pence column blank. Moderate confidence due to script tightness; shillings digit is readable as '8'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Kidlington Augment: prov 4ta part 311",
+      "amount_pounds": 11,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description and page 311 legible. Amount reads clearly as 11 pounds, 12 shillings, 5 pence; digits align well with ruling lines."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Dno Rectori ut supra",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Again the repeated 'Dno Rectori ut supra'. Amount 30.9.2 is written clearly and consistently with earlier occurrences."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Sumner Stipend",
+      "amount_pounds": 25,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description reads like 'Sumner Stipend' (first word uncertain: 'Sumner' vs 'Sowner'); amount appears as 25 pounds 10 shillings. Shillings digit clear; description ambiguity lowers confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "W.H. & parson Corn Rent",
+      "amount_pounds": 35,
+      "amount_shillings": 1,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Description interpreted as 'W.H. & parson Corn Rent' (hand is compact; could be 'W.H. & parn. Corn Rent'). Amount reads as 35.1.7; digits are present but the text ambiguity reduces confidence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dno Rectori",
+      "amount_pounds": 30,
+      "amount_shillings": 9,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final occurrence of 'Dno Rectori' above the page total. Amount again clearly 30.9.2; alignment and repetition support high confidence."
+    },
+    {
+      "row_index": 21,
+      "row_type": "total",
+      "description": "Total",
+      "amount_pounds": 661,
+      "amount_shillings": 5,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Large final total written at right as '661.5.7'. Figures are bold and aligned to the pounds/shillings/pence columns; clear reading with good contrast."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

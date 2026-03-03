@@ -1,0 +1,108 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1801",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered page year at top. Numerals are crisp and unambiguous."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Fee Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear centered heading under the year. Handwriting legible and clearly a section title."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Dec 1",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Left-margin date. Legible but slightly faint; clearly a date/label with no monetary amounts."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "10 Entrance Fees",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and numeric columns are clear. Pounds '50' aligns between first and second ruling lines; shillings and pence read '0 0'. All fields valid."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "11 16 at 5s.",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description handwriting slightly ambiguous (the leading '11 16' looks like counts), but the monetary columns are clear: pounds '2', shillings '15', pence '0'. Column alignment unambiguous and values within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "15 Degree fees at 2/6",
+      "amount_pounds": 1,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description partly ambiguous (the '2/6' fraction in description is handwritten), but the amount is clearly '1 17 6' in the pounds/shillings/pence columns. Pence '6' is clear; all currency values validate."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "College dues",
+      "amount_pounds": 736,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Large pounds value '736' is clearly written and aligns well with the pounds column. The description is legible though the final letter of 'College' is slightly compressed; shillings '2' and pence '0' are unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "Balance of, now carried to account",
+      "amount_pounds": 7,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Phrase indicates a balance carried forward (classed as a total). Amount '7 15 0' is clearly aligned in the monetary columns; wording contains a small ampersand/comma ambiguity but meaning is clear."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 798,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total written lower on the page as '798 9 6'. Numbers align with the pounds/shillings/pence columns and match the sum of the line items above, confirming accuracy."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

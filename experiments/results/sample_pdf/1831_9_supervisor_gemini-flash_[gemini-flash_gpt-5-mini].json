@@ -1,0 +1,316 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia pro 2do die Novembris 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Chosen based on visual verification; gemini-flash's transcription of 'Arrearagia pro 2do die' is more accurate to the original script than gpt-5-mini's 'Arrearages from 2d die'. Amounts are clearly empty, confirming header type."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Money Rents filed",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus on row type and empty amounts. The final word's script is ambiguous; 'filed' (gpt-5-mini) is visually a better match to the flourish than 'fixed' (gemini-flash) when examining the image."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Gwinear Rectory 1/2 year",
+      "amount_pounds": 90,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent between extractors and visually clear. gpt-5-mini's description 'Gwinear' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Menhermott Do. 2 years",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gpt-5-mini's description 'Menhermott' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Riddington Do. 1 year",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gpt-5-mini's description 'Riddington' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Do. Leſſons & Brawn 1 year",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Leffons & Brawn' is a more accurate transcription from the image, correctly interpreting the long 's' as 'ff'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Do. Canal 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, row type, and amounts. Both extractors correctly interpreted the 'ob' symbol as 0.5 pence, and visual verification confirms this."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Do. Vicarage 1 year",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Vicarage' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Bampton Tenement 9 years",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Bampton' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Montacute Do. 6 years",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Montacute' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Hart Hale",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "The description 'Hart Hale' from gemini-flash is more accurate. For amounts, the clear ditto marks in the image indicate a repetition of the monetary values from the immediately preceding entry (Row 10), which was '3 0 0'. gpt-5-mini correctly inferred the repetition, while gemini-flash interpreted dittos as blank/zero."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Back Gate Tenement",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is consistent. The ditto marks in the amount columns visually indicate a repetition of the monetary values from the immediately preceding entry (Row 11), which was '3 0 0'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "St. Martin's Do.",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gpt-5-mini's description 'St. Martin's Do' is more accurate. The ditto marks in the amount columns visually indicate a repetition of the monetary values from the immediately preceding entry (Row 12), which was '3 0 0'."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Lad Lane. Norris 1 year",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, row type, and amounts. Visually very clear in the image."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Do. Donnithorne 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Do. Donnithorne' is more accurate, correctly identifying the leading 'Do.' symbol."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Do. Pickford 1 year",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gemini-flash's description 'Do. Pickford' is more accurate, correctly identifying the leading 'Do.' symbol."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Medenham 2 years",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, row type, and amounts. Visually very clear in the image."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Little Tew - Becks 1 year",
+      "amount_pounds": 1,
+      "amount_shillings": 6,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. The description 'Little Tew - Becks' is a more accurate transcription from the image compared to both extractor candidates."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Do. Lymett 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "The description 'Do. Lymett' from gemini-flash is more accurate for the text. For amounts, visual verification clearly shows '11' shillings, confirming gpt-5-mini's reading for that field. Both extractors agreed on pounds and pence."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Do. Lennard 2 years",
+      "amount_pounds": 1,
+      "amount_shillings": 11,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gemini-flash's description 'Do. Lennard' is more accurate for the text. For amounts, visual verification shows clear ditto marks in the pounds and shillings columns, indicating repetition of the values from the immediately preceding entry (Row 19), which was '1 11 8'. The pence value is a clear '8'."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Do. Curreck 5 years",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "gemini-flash's description 'Do. Curreck' is more accurate for the text. For amounts, visual verification shows a clear ditto mark in the pounds column, indicating repetition of the value from the immediately preceding entry (Row 20), which was '1'. The shillings are a clear '2' and pence are a clear '6'."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Bushey Tenements 2 years",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, row type, and amounts. Visually very clear in the image."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Walston Do. 5y\" to Mids: 1831",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts are consistent and visually clear. gpt-5-mini's description is more accurate, correctly identifying 'Walston' and 'Mids', with a slight refinement for '5y\"' and 'Mids:' punctuation from visual verification."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Wild Arish",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row type are consistent. gpt-5-mini's description 'Wild Arish' is a more accurate transcription from the image."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Bodleam Episcopaist (To the Rector)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row type are consistent. gpt-5-mini's description 'Bodleam Episcopaist' is a more accurate transcription from the image, specifically 'Bodleam' and 'Episcopaist'."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Gosford Tythes",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Full consensus on description, row type, and amounts. Visually very clear in the image."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Ashfield in Tingley - Hants",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts and row type are consistent. gpt-5-mini's description 'Ashfield in Tingley - Hants' is a more accurate transcription from the image."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 5,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 22,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

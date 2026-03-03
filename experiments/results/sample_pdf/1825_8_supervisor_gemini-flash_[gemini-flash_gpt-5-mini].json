@@ -1,0 +1,118 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1825",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Clear header from image, no associated monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "total",
+      "description": "Brought over",
+      "amount_pounds": 2050,
+      "amount_shillings": 12,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Consensus between gemini-flash and gpt-5-mini. Values are clearly legible and conform to ledger structure. Fraction 3/4 is evident."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "July 23 Advanced to Mr Inman on acc't of the purchase",
+      "amount_pounds": 5,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash's value. gpt-5-mini incorrectly merged this row with the subsequent sub-entry and extracted an incorrect amount (305 pounds instead of 5, and 8 pence instead of 0). Visual verification confirms the amount is £5, 16s, 0d."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "1825 Tenements at Bushey",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row, which was correctly identified as a distinct sub-entry by gemini-flash. gpt-5-mini missed this row by incorrectly merging it with the preceding entry. Visual verification confirms it's an indented sub-entry connected by a brace, with no direct monetary amount."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Letters & Parcels - for the year to Nov 2. 1825 -",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors and visually confirmed. Description chosen from gemini-flash as it more accurately reflects 'Nov 2.' and the trailing dash; gpt-5-mini incorrectly read 'Novr. 2'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Nov 2 Tomus Wine Battels. Mids. & Mich. 1825 -",
+      "amount_pounds": 0,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors and visually confirmed. Description chosen from gemini-flash as it is more accurate; gpt-5-mini misread 'Tomus' as 'Forms' and 'Battels' as 'Bottles'."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Repaid to Mr Clowes his Deposit for",
+      "amount_pounds": 150,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors and visually confirmed. Description chosen from gemini-flash as it correctly isolates the first line of the entry. gpt-5-mini incorrectly merged this row with its subsequent sub-entry in its description."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Whittenham Security",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Added this row, which was correctly identified as a distinct sub-entry by gemini-flash. gpt-5-mini missed this row by incorrectly merging it with the preceding entry. Visual verification confirms it's an indented sub-entry connected by a brace, with no direct monetary amount."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "2305 5 11¾",
+      "amount_pounds": 2305,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors and visually confirmed. Description chosen from gemini-flash as it correctly transcribes the total numbers as the line's description; gpt-5-mini provided an empty description."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 4,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 2,
+      "rows_dropped_extra": 0
+    }
+  }
+}

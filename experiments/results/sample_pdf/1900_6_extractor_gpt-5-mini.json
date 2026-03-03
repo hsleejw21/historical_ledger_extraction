@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Sheet.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Top-left page title 'Sheet.' is clearly written and contains no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "1900.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Year '1900.' is clearly written at top; no monetary values present."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Assets.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section header 'Assets.' centered and underlined; no amounts in this row."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Cash at Bankers",
+      "amount_pounds": 5715,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Handwritten pounds figure appears as '5715' or '5716' — the digit is slightly ambiguous. I read it as 5715 to make the visible group subtotal (5952 0s 4d) consistent. Shillings (4) and pence (6) are clearly aligned in the pound/shilling/pence columns."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Library Account",
+      "amount_pounds": 236,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of 'Library Account' with amounts 236£ 15s 10d; digits are legible and well aligned with column rules."
+    },
+    {
+      "row_index": 6,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5952,
+      "amount_shillings": 0,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Subtotal shown on the page as '5952 . 4' (i.e. £5952 0s 4d). The printed subtotal is legible. Because the first entry's hundreds digit was ambiguous (5715 vs 5716), I set that entry to 5715 to match this visible subtotal."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Furniture",
+      "amount_pounds": 3000,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Single clear amount '3000' pounds for Furniture; no shillings/pence shown; alignment with pounds column is unambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Investments",
+      "amount_pounds": 6511,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading '6511 14 2' aligned to £/s/d columns. All currency components are within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 9511,
+      "amount_shillings": 14,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal displayed on page as '9511 14 2', which matches the sum of Furniture (3000) and Investments (6511 14 2). Clear alignment with ruling lines."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Due to the College:-",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section label 'Due to the College:-' is underlined and introduces the following grouped entries; no amounts on this label row."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Rent of Lands",
+      "amount_pounds": 134,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear amount '134' with no shillings/pence indicated (interpreted as £134 0s 0d). Well aligned in the pounds column."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Tithes",
+      "amount_pounds": 224,
+      "amount_shillings": 15,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading '224 15 3' for Tithes; digits are legible and validate within currency ranges."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Houses on long Leases",
+      "amount_pounds": 53,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading '53 13 4'; descriptive text 'Houses on long Leases' is legible and aligns with the numeric columns."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Leaseholds",
+      "amount_pounds": 1,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount printed as '1 /15 .' — interpreted as £1 15s 0d (shillings clearly '15', pence blank/zero). This interpretation is supported by the group subtotal arithmetic on the page."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Senior Common Room",
+      "amount_pounds": 70,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear amount '70' (interpreted as £70 0s 0d); alignment with pounds column is unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 484,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Displayed subtotal '484 3 7' matches the sum: 134 0 0 + 224 15 3 + 53 13 4 + 1 15 0 + 70 0 0. Column alignment is clear and currency conversions validate."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "How Exhibition Fund",
+      "amount_pounds": 18,
+      "amount_shillings": 10,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '18 10 11' is legible. The descriptive word before 'Exhibition Fund' is somewhat unclear in handwriting (reads as 'How' or similar); the monetary figures and alignment are readable."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Mitchell",
+      "amount_pounds": 16,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Mitchell' is legible. Amount reads as '16 14 .' — interpreted as £16 14s 0d; pence blank implies zero. Minor trailing dot but numeric columns are clear."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Loscombe Richards Fund",
+      "amount_pounds": 19,
+      "amount_shillings": 12,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Handwritten name appears as 'Loscombe Richards Fund' (scripted; could be 'Loxcombe' variant). Amount '19 12 7' is clearly written and aligned to columns."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 54,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Subtotal displayed as '54 17 6' which matches the arithmetic of the three fund lines (18 10 11 + 16 14 0 + 19 12 7). Column alignment is clear."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "I certify that the Accounts of the College are duly kept in proper books of account and that the Abstracts and Balance Sheet contain a full & true account of the financial condition of the College.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Certification paragraph clearly written in the body of the page; treated as a header/statement (no monetary amounts). Text transcribed verbatim to the extent legible."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "March 8th 1901",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date 'March 8th 1901' is clearly written below the certification text; no monetary values."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "W.C. Taddard F.C.O.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Signature block appears as 'W.C. Taddard F.C.O.' — handwriting is a signature but legible enough to transcribe. No amounts present."
+    },
+    {
+      "row_index": 24,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 16002,
+      "amount_shillings": 15,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final balance at bottom-right reads as '16002 15 7' (£16,002 15s 7d); digits and alignment are mostly clear though the first digits are large script — interpreted as 16002 to match visible characters."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

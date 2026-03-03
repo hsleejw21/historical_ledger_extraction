@@ -1,0 +1,328 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1855",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the page year. No amounts associated with this header."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Soluta Ordinaria",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the section title. No amounts associated with this header."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Civitati Oxon",
+      "amount_pounds": 1,
+      "amount_shillings": 3,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Curia Hastings",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 1s 8d, within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Adis Kta Bursar",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 1s 4d, within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Coll Omn: Anim:",
+      "amount_pounds": "",
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 4s 6d, within valid ranges."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Coll Ball:",
+      "amount_pounds": 1,
+      "amount_shillings": 2,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Coll D. Jo. Bapt:",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 8s 2d, within valid ranges."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Supervisori Aedif:",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds and pence columns are blank, indicating 0. Shillings is clearly 10s, within valid range."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Sanitori",
+      "amount_pounds": 1,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Biblio: Cler: ad Fest Natio: 1854",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 6s 8d, within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Eidem ad J. D. Jo. Bapt: 1855",
+      "amount_pounds": "",
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Conccunatore ad Fest Cons: 1854",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Conccunatore' is slightly obscured by smudging but readable. Amounts are clear. Pounds column is blank, indicating 0."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Eidem Pasch: 1855",
+      "amount_pounds": "",
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Vicario Merton ad J Ann 1855",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Pence value appears as '13/4'. Interpreted as 1 pence and 3 farthings (0.75) following common historical notation for fractions."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Eidem ad J.S. Mich -",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Pence value appears as '13/4'. Interpreted as 1 pence and 3 farthings (0.75) following common historical notation for fractions."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Vicario S. Newton ad Fest Ann:",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "Pence value appears as '13/4'. Interpreted as 1 pence and 3 farthings (0.75) following common historical notation for fractions."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Eidem J. Mich -",
+      "amount_pounds": 3,
+      "amount_shillings": 7,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Land Tax for New Buildings",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Paving water from City Works",
+      "amount_pounds": "",
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description 'Paving' is slightly ambiguous but best interpretation. Amounts are clear. Pounds column is blank, indicating 0."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Insurance of College to Xmas 1855",
+      "amount_pounds": 48,
+      "amount_shillings": 17,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Do Kidlington School to Midw 1856",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Pounds column is blank, indicating 0. Shillings and pence are clearly 1s 10d, within valid ranges."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Do Kidlington & Yarnston Rectory",
+      "amount_pounds": 9,
+      "amount_shillings": 7,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Do Little Tew to Lady Day 1856",
+      "amount_pounds": 11,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Do Merton Vicarage Pro. Temp.",
+      "amount_pounds": "",
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. Pounds column is blank, indicating 0. All values in valid range."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Gas Lights ½ yr. to Lady Day 1855",
+      "amount_pounds": 28,
+      "amount_shillings": 7,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Do Michm",
+      "amount_pounds": "",
+      "amount_shillings": 13,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The original ledger shows '12' in shillings and '13' in pence. As pence values must be 0-11 for output, 13 pence has been converted to 1 shilling and 1 pence. This results in 12s + 1s = 13s and 1d."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Mr Falconer Int. on L247.14.2 to July 1855",
+      "amount_pounds": 6,
+      "amount_shillings": 19,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading. Vertical lines unambiguous. All values in valid range. Note that 'L247.14.2' is part of the description, not the extracted amount for this row."
+    },
+    {
+      "row_index": 29,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 312,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear reading of the final total. Vertical lines unambiguous. All values in valid range. No description provided for this total line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}

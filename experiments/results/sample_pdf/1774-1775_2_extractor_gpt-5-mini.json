@@ -1,0 +1,141 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Arrearagia recepta contin:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Page title / section heading at top. Handwriting is legible but the Latin/archaic spelling is slightly unclear (e.g. 'Arrearagia') so given less than perfect confidence."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Sayer (olim Myne) Capons incl: pro Anno -",
+      "amount_pounds": 1,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Numbers well aligned in the pounds/shillings/pence columns. Pounds appears as '01' read as 1; shillings 8 and pence 4 are clear and within valid ranges."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Hertford College (olim Hart Hall) pro Bien:",
+      "amount_pounds": 3,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amounts are clear. Pound = '03' (read as 3), shillings 6 and pence 8 are crisply written and valid."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Trethevan pro an: At dim:",
+      "amount_pounds": 9,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amounts aligned and clear: 09 0 0 (read as 9 pounds, 0s, 0d). Description legible enough to identify name and 'pro an'."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Medenham pro [scribbled] Biennio",
+      "amount_pounds": 13,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts (13 / 6 / 8) are clear and validate correctly. The word between 'pro' and 'Biennio' is heavily scratched out; description transcribed indicating the scribble. Slight uncertainty only in the crossed text, not the numbers."
+    },
+    {
+      "row_index": 6,
+      "row_type": "header",
+      "description": "Little Pew",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered small header introducing the following group of entries ('Little Pew'). No amounts present."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "William Taylor & Wife pro Bien.",
+      "amount_pounds": 11,
+      "amount_shillings": 19,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Pounds (11) and shillings (19) are clear. Pence reads as '10' with a small superscript/mark interpreted as a three‑quarters symbol (¾ => 0.75). The fractional symbol is faint/ambiguous, so confidence is moderate."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Tream Arundell (Minchin) pro An -",
+      "amount_pounds": 0,
+      "amount_shillings": 15,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Pounds 0 (written as '0'), shillings 15 and pence '10' are readable. As with the previous row there is a small fractional mark after the pence that appears to be ¾ (three farthings) but is faint — interpreted as 0.75 with moderate confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 308,
+      "amount_shillings": 13,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "A subtotal line (no left description) under the Little Pew entries. Pounds (308) and shillings (13) are legible; pence shows '6' with a small fractional mark similar to ¾ seen above — interpreted as 0.75. The fraction on this larger total is somewhat faint, so moderate confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Widow Ryman pro Bien",
+      "amount_pounds": 2,
+      "amount_shillings": 12,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear handwriting and numbers: 2 pounds, 12 shillings, 2 pence. All values fall within valid ranges and align with the ruling lines."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Thrup Annuity pro Bien. & dimd",
+      "amount_pounds": 12,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Description is legible though the first word might be 'Thorp' or 'Thrup' — amount 12 pounds, 10 shillings, 0 pence is clearly written and validates correctly. Slight uncertainty only in the exact spelling of the first word."
+    },
+    {
+      "row_index": 12,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 15,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total under the two small entries (Widow Ryman + Thrup Annuity). The sum (15 2 2) is clearly written, aligned and internally consistent with the two rows above (2 12 2 + 12 10 0 = 15 2 2)."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

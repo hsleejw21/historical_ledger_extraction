@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1873-4",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description, type, and no amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus Fund Receipts",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Visually verified 'Domus' in the description (gemini-flash was correct), not 'Donus' as gpt-5-mini extracted. No monetary amounts expected."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "10 per Cent on Estates",
+      "amount_pounds": 533,
+      "amount_shillings": 3,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 533 pounds, 3 shillings, 1 and a half pence. The pence column shows a '1' followed by a '½' symbol. `gpt-5-mini` incorrectly read the whole pence as 11."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "15 per Cent on Room Rent",
+      "amount_pounds": 235,
+      "amount_shillings": 18,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Busher Div as",
+      "amount_pounds": 7,
+      "amount_shillings": 4,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Visually verified description 'Busher Div as' (gemini-flash was more accurate than gpt-5-mini's 'Bushey Divs'). Pounds column clearly shows '7' (gpt-5-mini was correct here), not a dash as gemini-flash interpreted. Shillings and pence are consistent across both."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Masters Composition £150.10.0 Fee fund 24/6/0",
+      "amount_pounds": 175,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms 'Fee fund 24/6/0' (gemini-flash) over 'To fund 24/60' (gpt-5-mini)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "2d recd 58.19.0. Do 8.13.6",
+      "amount_pounds": 67,
+      "amount_shillings": 12,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms 'recd' without apostrophe or pounds symbol (gemini-flash) over 'rec't £' (gpt-5-mini)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "3d Do 59.6.0 Do 9.1.0",
+      "amount_pounds": 68,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Late Rectors Prize",
+      "amount_pounds": 13,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "1qr. to Xmas East warming Hall",
+      "amount_pounds": 2,
+      "amount_shillings": 2,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms '1qr.' and 'East' (gemini-flash) over '1 wr' and 'last' (gpt-5-mini)."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "3 sets of Rooms Butlers Lodgings",
+      "amount_pounds": "",
+      "amount_shillings": 3,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Butlers Lodgings' (gemini-flash) over 'Rectors Lodgings' (gpt-5-mini). Amounts are also from gemini-flash: a dash for pounds, 3 shillings, 0 pence. `gpt-5-mini` incorrectly read pounds as 3 and shillings as 0."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dickison Balance of Rent",
+      "amount_pounds": 43,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms 'Dickison' (with 'i', gemini-flash) over 'Dickenson' (gpt-5-mini)."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Room Rent excep of moiety",
+      "amount_pounds": 118,
+      "amount_shillings": 8,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms 'excep' (abbreviated except) and 'moiety' (gemini-flash) over 'except' and 'moisty' (gpt-5-mini)."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "J. Newton Cottages & day rent 1.6.0 Mid Do 3.19.8",
+      "amount_pounds": 5,
+      "amount_shillings": 5,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms 'J. Newton Cottages & day rent 1.6.0' (gemini-flash) over 'T. Newton Cottage 1 day. net 1.60' (gpt-5-mini)."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bursar Furniture Science Laboratory",
+      "amount_pounds": 34,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash description; amounts are consistent across both. Visual verification confirms the inclusion of 'Science Laboratory' (written as a smaller parenthetical note), which gpt-5-mini omitted."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Keys - Gamlen. Wilson Child. Willet. Broadbent",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Combined description from visual verification: 'Gamlen' and 'Willet' from gpt-5-mini are more accurate than gemini-flash's 'Jambin' and 'Willers'. 'Broadbent' from gemini-flash is more accurate than gpt-5-mini's 'Broadset'. Periods used as delimiters as they appear in the image. Amounts are consistent across both extractors."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Masters Compos. Fund. close of Aut. Sec – {",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms this is a distinct line of text ending with a brace, indicating a grouped entry. `gpt-5-mini` incorrectly merged this line with the subsequent line."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "caution Book July 11. 1857",
+      "amount_pounds": 15,
+      "amount_shillings": 8,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms this is a distinct line of text within the braced group, with the amounts clearly belonging to this line. Confirmed year is 1857 (gemini-flash), not 1867 (gpt-5-mini)."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "By sale of small Stones",
+      "amount_pounds": "",
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Selected gemini-flash. Visual verification confirms 'Stones' (capital S) and amounts: a dash for pounds, 10 shillings, 0 pence. `gpt-5-mini` incorrectly read pounds as 10 and shillings as 0."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Allowed for Chapel Steps",
+      "amount_pounds": 6,
+      "amount_shillings": 6,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Money advanced to Pelham. Return of",
+      "amount_pounds": 60,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for description and amounts."
+    },
+    {
+      "row_index": 22,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1391,
+      "amount_shillings": 7,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Consensus across all extractors for amounts and type. Visual confirmation of values and half-penny fraction."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 7,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 15,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    }
+  }
+}

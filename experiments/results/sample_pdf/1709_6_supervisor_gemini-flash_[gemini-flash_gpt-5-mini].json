@@ -1,0 +1,298 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Item de impensis Coll. et nota Domus to Mr Hutchins & wife & sister. 1708",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Top title line. Most words legible but a few (e.g. 'impensis' and part of the dedication) are abbreviated and slightly faded; no amounts in this header line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "pensioners",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Short label immediately under the title; the first letter(s) are faint/abbreviated but context clearly indicates a 'pensioners' heading. No amounts visible on same line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "To Michell Tinnnell 15",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Entry text legible enough to read the name and a trailing '15' (probably an annuity/years). The small aligned numerical column for this specific line is faint and ambiguous in the image, so no numeric amount reliably extracted."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Beard Annue. 15",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Name and 'Annue. 15' clear as another pensioner entry. Corresponding amount in the narrow pounds/shillings/pence columns is faint and not unambiguously readable for this row."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Blake Annue. 15",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Third pensioner line. Description legible; amount column for this specific small group is not distinct enough to separate from adjacent small figures so left blank."
+    },
+    {
+      "row_index": 6,
+      "row_type": "total",
+      "description": "Sum",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "There is a small 'Sum' printed below the three pensioner lines with a numeric total to the right. The rightmost cluster is smudged; the reading '6 10 10' (6 pounds, 10 shillings, 10 pence) is the best consistent interpretation but the pence digit and adjacent marks are blurred."
+    },
+    {
+      "row_index": 7,
+      "row_type": "header",
+      "description": "Anno Rti & Socijs",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Centered heading (Latinized) introducing the next block of festival/annual items. The heading is fairly clear though abbreviated; no amounts on this line."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Ad fest: nativ. & augm. Southern & merton Stipend. et Officiarys",
+      "amount_pounds": 23,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Description and amount align clearly. Right-hand columns show '23 00 00' (23 pounds, 0 shillings, 0 pence) with good pen strokes and unambiguous column alignment."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Ad fest Ann. & augm. Red. Cudling? 3d & ttes Stipend",
+      "amount_pounds": 17,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Text shows an annual/augment entry. Amount in right columns reads '17 13 04' clearly; a few letters in the place-name are uncertain (read as 'Cudling?'), hence 0.80 confidence."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Ad fest Bapt. & 4th pte red. augment. Cudlingt. Stipend et Officiarys",
+      "amount_pounds": 47,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Long entry for baptism/fourth part reduction & augment; amount column shows '47 02 08' aligned with this line. Handwriting of some words uncertain but numeric columns are well aligned and valid."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Ad fest. mich. & augm. Red. Longwitn? Solatum & quinnear",
+      "amount_pounds": 29,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This festival/michaelmas line corresponds to the next numeric line '29 06 08'. Some words in the description are abbreviated/obscure (e.g. 'Longwitn?') but the amount is clearly placed and within valid ranges."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Solatium & qui near (continuation of prior entry?)",
+      "amount_pounds": 14,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "The line and amount '14 10 02' are visible; there is also a faint small character after the pence that looks like an 'ob' or loop indicating a halfpenny, so pence fraction interpreted as 0.5. Because the fractional mark is faint, confidence lowered to 0.60."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Stipend et Officiarys (another festival/office payment)",
+      "amount_pounds": 18,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount '18 06 08' is clearly written in the pounds/shillings/pence columns for this entry. The description is a repeat formula 'Stipend et Officiarys' and legible."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Ad fest mich. (another line: red. longwtn?)",
+      "amount_pounds": 46,
+      "amount_shillings": 18,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The numeric entry '46 18 00' is clear and aligns with this descriptive line. Some of the descriptive words are abbreviated but do not affect numeric reading."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Solatum & quinnear (final line of this festival block)",
+      "amount_pounds": 24,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "The amount '24 05 00' is clearly visible and aligned with this concluding entry of the group."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 221,
+      "amount_shillings": 2,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Subtotal for the festival block appears as a boxed/ruled total showing '221 02 07'. Alignment is clear and digits pass currency validation rules."
+    },
+    {
+      "row_index": 17,
+      "row_type": "header",
+      "description": "Novemb. 5th 1709 (marginal note)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Small dated marginal note 'Novemb. 5th 1709' is legible; functions as a chronological header/annotation rather than an amount-bearing row."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Summa Omnium Redptorum",
+      "amount_pounds": 599,
+      "amount_shillings": 18,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Large final receipts total on the right reads '599 18 01' with a small fractional mark after the pence resembling a quarter (farthing) symbol; interpreted as 0.25. The numeric alignment is consistent though the fraction mark is small."
+    },
+    {
+      "row_index": 19,
+      "row_type": "total",
+      "description": "Summa Omnium Solutorum",
+      "amount_pounds": 415,
+      "amount_shillings": 2,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.7,
+      "notes": "The payments total reads '415 02 11' and there is a small notation after the pence that appears like '3q' or 'qd' indicating three farthings (0.75). The fractional mark is less clear than the previous line, so confidence lowered."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "Sir Introduxit hoc anno Dis computans",
+      "amount_pounds": 184,
+      "amount_shillings": 15,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "This explanatory line states the difference introduced this year; the numeric '184 15 2' is clear and in proper ranges. Description words are slightly abbreviated but identifiable."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Gul. Paynter R.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Signature/approval line. Name legible as 'Gul. Paynter R.' No amounts present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Geo. Verman Subrector",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Signature line; the surname is a little uncertain ('Verman' vs 'Vernon') but the 'Subrector' title is clear. No numeric values."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Ric. Hurland (or Hurle??)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Signature is heavily abbreviated and partly struck through; read as 'Ric. Hurland' tentatively. No amounts."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Sam: Adams",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Signature 'Sam: Adams' is clear and distinct. No numeric data."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "Dan. O?br?n? (uncertain)",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "A signature line appears but the name is heavily abbreviated/obscured by a blot; several letters unreadable so transcription is uncertain."
+    },
+    {
+      "row_index": 26,
+      "row_type": "header",
+      "description": "Robt. Rous.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Final signature 'Robt. Rous.' is reasonably clear; no amounts on the line."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

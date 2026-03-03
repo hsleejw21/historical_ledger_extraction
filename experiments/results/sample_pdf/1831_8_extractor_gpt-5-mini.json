@@ -1,0 +1,284 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear, centered year at top of page, no monetary columns present."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large, well-written page title. No amounts in same line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "2do die Novembris. A.D. 1831.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Date line directly under title; clearly legible and contains no monetary figures."
+    },
+    {
+      "row_index": 4,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading for receipts. No numeric amounts on the same text line."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Arrearagia",
+      "amount_pounds": 743,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Pounds '743', shillings '17', pence shows '0' with a small quarter-mark (rendered as '1/4') — alignment with vertical ruling lines is clear and digits are distinct."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Anni presentes",
+      "amount_pounds": 8,
+      "amount_shillings": 10,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "The figures appear as '8 10 4' to the right; however the hundreds-digit area is faint and could conceivably be '8' (small sum) or '8xx' if ink truncated. Chose 8 pounds, 10s, 4d based on spacing between the vertical column lines and the visible '8' in the pounds column."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 497,
+      "amount_shillings": 19,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.6,
+      "notes": "Pounds read as '497' (the first digit of the hundreds is somewhat compressed but legible), shillings '19' clear, pence '6' with a halfpenny sign (interpreted as 0.5). There is some ink faintness around the hundreds digit so moderate confidence."
+    },
+    {
+      "row_index": 8,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2750,
+      "amount_shillings": 6,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.9,
+      "notes": "Underlined subtotal number is clear: '2750' pounds, '6' shillings, '10' pence with '3/4' (three-quarters) mark. Vertical alignment with ruling lines is unambiguous."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentes",
+      "amount_pounds": 1460,
+      "amount_shillings": 3,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Clear reading: '1460' pounds, '3' shillings, '6' pence with a halfpenny sign (0.5). Column boundaries align well with other rows."
+    },
+    {
+      "row_index": 10,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Underlined grand total for the receipts block is clear: '4210' pounds, '10' shillings, '5' pence with a quarter-mark (1/4). Good alignment with ruling lines."
+    },
+    {
+      "row_index": 11,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Section heading for payments/expenditures. No monetary figures on the same line."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Dno Rectori. Scholi. et Off.",
+      "amount_pounds": 711,
+      "amount_shillings": 1,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Clear reading: pounds '711', shillings '1', pence '0' with a small quarter mark (1/4). Text abbreviation is faint but legible; numeric columns align well."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 399,
+      "amount_shillings": 10,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.85,
+      "notes": "Pounds '399' and shillings '10' are legible. Pence '2' shows a halfpenny sign (0.5). Minor flourish on the final digit introduced slight ambiguity but digits fall clearly within the pence column."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1659,
+      "amount_shillings": 2,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds read as '1659' though the '1' at left is somewhat faint; shillings '2' and pence '2' with a halfpenny mark (0.5) visible. Alignment with neighboring numeric lines supports this reading."
+    },
+    {
+      "row_index": 15,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Underlined subtotal for payments clearly reads '2769' pounds, '13' shillings, '5' pence with quarter mark (1/4). Well aligned and distinct."
+    },
+    {
+      "row_index": 16,
+      "row_type": "total",
+      "description": "Ex Receptis",
+      "amount_pounds": 4210,
+      "amount_shillings": 10,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "'Ex Receptis' is followed by the receipts total repeated: '4210 10 5 1/4' — clear and matches earlier total. Labeled row (treated as total)."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Deductis Solutis",
+      "amount_pounds": 2769,
+      "amount_shillings": 13,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Clear labeled deduction line: '2769 13 5 1/4' matching the payments subtotal. Numbers are underlined and well aligned."
+    },
+    {
+      "row_index": 18,
+      "row_type": "total",
+      "description": "Restat",
+      "amount_pounds": 1440,
+      "amount_shillings": 17,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "'Restat' (balance) reads '1440 17 0' clearly; no fraction indicated. Underline beneath value is visible and digits align correctly."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "Computus comprobatus per Nos.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Certification heading preceding signatures. Text is legible and contains no numbers."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "J. C. Jones. Rectorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "First signature-line. Handwriting is legible as a name and office; some flourish but no monetary amounts. Slight uncertainty on exact punctuation and title abbreviation."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "J. L. Richards Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Second signature appears to read 'J. L. Richards Subrectorem' — 'Subrectorem' is an inferred Latin office abbreviation; handwriting is cursive and a little compressed causing moderate uncertainty in exact spelling of surname."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "C. W. Tuffor, Bursar. Senr.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Third signature uncertain: letters look like 'C. W. Tuffor' followed by an abbreviation that may be 'Bursar' and 'Senr.' The surname and abbreviations are not fully clear due to flourishes—moderate to low confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "J. P. Lyttfort Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Fourth signature likely 'J. P. Lyttfort Decanum' (or similar). The surname and office are legible but have unusual letter-forms; moderate confidence."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "H. D. Harrington",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Fifth signature appears to be 'H. D. Harrington' — handwriting slightly faded but readable; no amounts present."
+    },
+    {
+      "row_index": 25,
+      "row_type": "header",
+      "description": "W. Falconer",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Final signature line reads 'W. Falconer' (or similar); letters are fairly clear though there is minor ink bleed at the end of the name."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

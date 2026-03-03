@@ -1,0 +1,287 @@
+{
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Computus Thoma Hinton, Rectoris, a 2d. die Novr. 1788 ad eundem diem resolutum 1789.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Page title at top. Handwriting clear and spans full width; no numerical columns on this line. Very legible year and names."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Arrearagia recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Section heading below title. Word is slightly ambiguous (handwritten 'Arrearagia' / 'Arrearagia' / 'Arreariagia'), but clearly a heading and contains no amounts."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Garrington Sadler pro annus",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description legible enough as a place/person and 'pro annus'. Amount columns well aligned; reads '05 19 0' clearly."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Tintinhull Napier pro annus",
+      "amount_pounds": 5,
+      "amount_shillings": 1,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.6,
+      "notes": "Description readable as 'Tintinhull Napier'. Amount appears as '05 1 1 1/4' — pence fraction looks like a small 'q' or '¼' after the 1; chosen as 0.25. Fraction recognition is moderately uncertain due to small loop."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Tintinhull olim Hobell and Saml. Beeton",
+      "amount_pounds": 10,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as a longer name entry referencing Tintinhull and Beeton; some letters uncertain ('olim Hobell') but overall entry clear. Amount clearly '10 6 0'."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "S. Newington Rect. pro anno",
+      "amount_pounds": 113,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Large amount clearly aligned in pounds column as '113 16 0'. 'S. Newington Rect.' description legible; numbers unambiguous and validate correctly."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "S. New. Tenem. do.",
+      "amount_pounds": 1,
+      "amount_shillings": 16,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Shortened description 'S. New. Tenem. do.' appears as a related entry ('do.'). Amount '01 16 0' relatively clear though the abbreviation makes the description slightly ambiguous."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Berrington pro annus",
+      "amount_pounds": 4,
+      "amount_shillings": 12,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.82,
+      "notes": "Place name reads as 'Berrington' (could be 'Berrington/Berrington'). Numbers read '04 12 11' with pence '11' clear and within valid range."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Gwinear Rect. pro dim. an. admid.",
+      "amount_pounds": 30,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "Description 'Gwinear Rect. pro dim. an. admid.' reasonably clear. Amount reads '30 0 0' unambiguously and aligns with pounds column."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Nodln Ric. pro annus",
+      "amount_pounds": 4,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Description is somewhat unclear ('Nodln/Nudln Ric.'); interpreted as a name plus 'pro annus'. Numeric '04 0 0' is clear in columns."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Tetherin pro dim. an.",
+      "amount_pounds": 3,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Place/name uncertain (reads 'Tetherin' or similar). Amount '03 0 0' is clear and columns are well aligned."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Lad Lane longus pro annus",
+      "amount_pounds": 9,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Description is hard to read ('Lad Lane longus' tentative). Amount reads '09 6 8' but handwriting of description and some of the digits is moderately ambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Downthorne Do.",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Shortened entry 'Do.' indicates same category. Amount '06 13 4' readable though the first digit of pounds is slightly faded; column alignment supports reading."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Greenhow Do.",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Entry 'Greenhow Do.' readable. Amount '01 13 4' clear; digits align with ruling columns and pence within valid range."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Bampton pro annus",
+      "amount_pounds": 7,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.78,
+      "notes": "Place appears as 'Bampton' (or 'Barrington/Bampton'); amount '07 0 0' is crisp and unambiguous."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Medenham pro annus",
+      "amount_pounds": 6,
+      "amount_shillings": 13,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Place name slightly uncertain ('Medenham' reading); numeric '06 13 4' clear but description ambiguity reduces confidence."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Sir G. P. Turner (Leven??) pro annus",
+      "amount_pounds": 6,
+      "amount_shillings": 10,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.72,
+      "notes": "Proper name 'Sir G. P. Turner' readable; parenthetical text uncertain. Amount '06 10 10' reads clearly in columns."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Kempston Hall (St. Mark Par.) pro 3 ann.",
+      "amount_pounds": 5,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.62,
+      "notes": "Description partly inferred ('Kempston Hall' variant and parish note). Amount '05 14 0' visible though some letters in description are indistinct."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Bromley olim Keck pro 2 ann.",
+      "amount_pounds": 2,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Reads 'Bromley olim Keck'; 'olim' (formerly) is visible. Amount '02 16 8' clear and validates (shillings <20, pence <12)."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Garington Rect. & Tenem. pro anno",
+      "amount_pounds": 18,
+      "amount_shillings": 14,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.5,
+      "notes": "Description reads as 'Garington Rect. & Tenem.' (could be 'Gardington/Garsington'). Amount appears as '18 14 5 1/2' — the pence has an obvious half-penny mark; fraction interpretation (0.5) is plausible but faint, so confidence is low."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Coll. Hertf. pro Canins",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.88,
+      "notes": "College entry 'Coll. Hertf.' (Hertford) readable. Amount '40 0 0' clearly written in pounds column; large and unambiguous."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Coll. Jesn pro anno",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.4,
+      "notes": "Description appears to be 'Coll. Jesn' (possibly 'Coll. Jesus' or similar). Amount is uncertain in the image: the characters could be '00 10 0' or another value; chosen '00 10 0' because '00 40 0' would violate shilling limits. Very low confidence due to faded/faint digits."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Taylor de parva Few pro annus",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.72,
+      "notes": "Description 'Taylor de parva Few' (parva = small) readable though somewhat old Latinized. Amount reads '05 0 8' clearly in columns."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Wild Anish pro annus",
+      "amount_pounds": 5,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Name looks like 'Wild Anish' (could be variant spelling). Amount '05 0 0' is clear."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "Summa ann. receptor.",
+      "amount_pounds": 258,
+      "amount_shillings": 5,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.82,
+      "notes": "Final total line at bottom reads 'Summa ann. receptor.' Amount appears as '258 5 1 3/4' (pence = 1 with three-quarters). Fraction '3/4' interpreted as 0.75; alignment with prior amounts supports reading."
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {}
+  }
+}

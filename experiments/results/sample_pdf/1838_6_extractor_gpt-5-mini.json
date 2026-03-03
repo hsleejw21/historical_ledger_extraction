@@ -1,0 +1,361 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1828.",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Page year at top center, clearly written '1828.' with no monetary columns present. Very legible."
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Soluta Paria - Brought up",
+      "amount_pounds": 538,
+      "amount_shillings": 19,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount columns (538 | 19 | 9) are well aligned and clear. The manuscript description is somewhat stylized; read as 'Soluta Paria - Brought up' (wording/spacing ambiguous), so lower confidence on text but high confidence on numbers."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bill, to Cols(?) for repairing at Campfield Farm",
+      "amount_pounds": 1,
+      "amount_shillings": 13,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns read clearly as 1 | 13 | 9. Description is partially ambiguous ('Cols' and 'Campfield' are best-effort readings from cursive; chosen based on letter shapes and context 'repairing at ... Farm')."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Wages - Journey to Marston Northampton",
+      "amount_pounds": 5,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 5 | 19 | 0 is clear. Description reads like 'Journey to Marston Northampton' though surname/place spelling uncertain; chosen reading matches letter patterns and common local place name."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Timber for repairing gates",
+      "amount_pounds": 1,
+      "amount_shillings": 18,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Columns show 1 | 18 | 4 clearly. Description interpreted as 'Timber for repairing gates' — individual letters readable though slightly stylized."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Faulkner & ??? Bills for repairs",
+      "amount_pounds": 36,
+      "amount_shillings": 18,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amounts 36 | 18 | 10 are well aligned. First name reads like 'Faulkner' but second word is uncertain in ink; kept generic '???' in description and note the uncertainty."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Franklin, Builder, on acct Manor House",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 50 | 0 | 0 is clear. Name/read as 'Franklin' (handwriting legible) and followed by 'Builder on acct Manor House' — wording inferred from common ledger phrasing; moderate confidence on description."
+    },
+    {
+      "row_index": 8,
+      "row_type": "header",
+      "description": "Open Scholarships to Middx 1838. Viz:",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "This line has no amounts and serves as an introducer for the following named scholarship recipients. The handwritten place/year 'Middx 1838. Viz:' is somewhat cramped and stylized, giving only moderate confidence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Mr Milman",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name and amount (40 | 0 | 0) are clearly written and well aligned. 'Mr Milman' reading is clear in cursive."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Mr Prime",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 40 | 0 | 0 clear. Name reads distinctly as 'Mr Prime' in the list of scholarship recipients."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Mr Dalgarno(s?)",
+      "amount_pounds": 40,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 40 | 0 | 0 is clear. Surname appears as 'Dalgarno' or similar; final letters are slightly ambiguous (could be plural or alternate spelling), so confidence reduced for the name."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Grove for Jenison",
+      "amount_pounds": 6,
+      "amount_shillings": 8,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 6 | 8 | 2 is legible. Description reads like 'Grove for Jenison' — letters reasonably clear though name 'Jenison' could be an alternative spelling; numeric columns unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Insurance - ??",
+      "amount_pounds": 7,
+      "amount_shillings": 6,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 7 | 6 | 0 is clear. The left description starts 'Insurance' but the rest of the text (a place or qualifier) is faint/abbreviated and unclear, so description flagged as uncertain."
+    },
+    {
+      "row_index": 14,
+      "row_type": "entry",
+      "description": "Little & Son",
+      "amount_pounds": 11,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary columns 11 | 8 | 4 are distinct. The name appears to be 'Little' with an abbreviation or '& Son' following; letters are somewhat compressed but readable enough."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Hile - Removing Stable &c",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 2 | 15 | 4 is legible. The name looks like 'Hile' (could be 'Hill') and the activity 'Removing Stable &c' is inferred from the script; some uncertainty in letters."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Knowles - Mason",
+      "amount_pounds": 13,
+      "amount_shillings": 10,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amounts 13 | 10 | 7 are clearly aligned. 'Knowles' followed by trade 'Mason' reads reasonably well in the cursive entry."
+    },
+    {
+      "row_index": 17,
+      "row_type": "entry",
+      "description": "Hewlett - Water &c",
+      "amount_pounds": 4,
+      "amount_shillings": 11,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 4 | 11 | 6 read clearly. Surname appears as 'Hewlett' (could be 'Hewlitt') and 'Water &c' is inferred from the following letters; moderate confidence on spelling."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Astord (or Astrod) Gera(l?)d",
+      "amount_pounds": 6,
+      "amount_shillings": 2,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Amount columns 6 | 2 | 8 are legible. The description is very uncertain: letters suggest 'Astord' or 'Astrod' and possibly a second name like 'Gerald' but ink/handwriting make this ambiguous; low-moderate confidence."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Brist & Pilcher - Ironmongers",
+      "amount_pounds": 100,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Monetary figures 100 | 3 | 7 are clear and well aligned. The names read like 'Bust & Pilcher' or 'Brist & Pilcher' with trade 'Ironmongers' — some uncertainty in first surname but the trade and amounts are clear."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Dudley & Howler - Glaziers &c",
+      "amount_pounds": 33,
+      "amount_shillings": 8,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 33 | 8 | 11 read clearly. Names/trade read as 'Dudley & Howler - Glaziers' though second name could differ slightly; letters for trade are legible."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Evans - Builder",
+      "amount_pounds": 41,
+      "amount_shillings": 6,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amounts 41 | 6 | 4 are clear. 'Evans - Builder' is a straightforward, legible entry with high confidence."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Crisps - Confectioner",
+      "amount_pounds": 4,
+      "amount_shillings": 6,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 4 | 6 | 2 is clear. Name reads like 'Crisps' and trade 'Confectioner' is legible — moderate-high confidence."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Hayes - Printing Books &c",
+      "amount_pounds": 16,
+      "amount_shillings": 8,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Numbers 16 | 8 | 6 are legible. Description looks like 'Hayes - Printing Books &c' and letter forms support that reading."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Painting - Carpenter",
+      "amount_pounds": 42,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount 42 | 8 | 4 is clear. The left text possibly reads 'Painting' or 'Painting - Carpenter' (trade and label ambiguous in the script); chosen reading based on common ledger items and visible letters."
+    },
+    {
+      "row_index": 25,
+      "row_type": "entry",
+      "description": "Wyatt - Carver & Gilder",
+      "amount_pounds": 2,
+      "amount_shillings": 4,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 2 | 4 | 6 is legible. Name appears as 'Wyatt' with trade 'Carver & Gilder' which matches the letter shapes."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Sutton - Glass &c",
+      "amount_pounds": 19,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Numbers 19 | 9 | 3 are clear. Surname looks like 'Sutton' (or 'Strton') and 'Glass &c' follows; slight uncertainty in the initial letter so moderate confidence."
+    },
+    {
+      "row_index": 27,
+      "row_type": "entry",
+      "description": "Watts - Painter",
+      "amount_pounds": 95,
+      "amount_shillings": 18,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Amount 95 | 18 | 11 is clearly written and aligned. 'Watts - Painter' is legible in the entry; high confidence for both text and numbers."
+    },
+    {
+      "row_index": 28,
+      "row_type": "entry",
+      "description": "Domnus - Wine Bottles",
+      "amount_pounds": 29,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Amount 29 | 10 | 0 clear. The name appears as 'Domnus' (could be 'Donnus' or similar) and 'Wine Bottles' inferred from the ending letters; name uncertain but numbers clear."
+    },
+    {
+      "row_index": 29,
+      "row_type": "entry",
+      "description": "Pundine - Domus Bill",
+      "amount_pounds": 8,
+      "amount_shillings": 14,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Amount 8 | 14 | 0 is legible. Left description is faint/abbreviated; read as 'Pundine - Domus Bill' but both words uncertain due to handwriting."
+    },
+    {
+      "row_index": 30,
+      "row_type": "entry",
+      "description": "Walsh - Annual Bill",
+      "amount_pounds": 26,
+      "amount_shillings": 17,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Amount 26 | 17 | 5 clearly visible. Surname reads like 'Walsh' and 'Annual Bill' follows; moderate-high confidence."
+    },
+    {
+      "row_index": 31,
+      "row_type": "entry",
+      "description": "Do. - Little Jew Suit",
+      "amount_pounds": 35,
+      "amount_shillings": 8,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Amount 35 | 8 | 1 is legible. The left reads 'Do' (ditto) followed by what looks like 'Little Jew Suit' or similar — wording is obscure in the manuscript, so description confidence is reduced though numbers are clear."
+    },
+    {
+      "row_index": 32,
+      "row_type": "total",
+      "description": "L 1265 / 16 / 10",
+      "amount_pounds": 1265,
+      "amount_shillings": 16,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Final total clearly set off with a ruled underline and reads as £1265 | 16s | 10d. Columns are centered and unmistakable."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

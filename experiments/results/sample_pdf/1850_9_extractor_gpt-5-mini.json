@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Summa Receptionum et Solutionum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Clear, large title at top of page. Legible Latin heading, no amounts present and well separated from numeral columns."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "2d de Novbr 1830",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Date line under the title. Handwriting slightly compressed but readable as '2d de Novbr 1830'; no monetary columns present on this line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Section heading at left of page introducing receipts. Word clearly separated from the numeric columns on the right."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Arrears p[?]",
+      "amount_pounds": 821,
+      "amount_shillings": 7,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Right-hand number group reads as '821 7 0' based on column alignment: pounds column contains '821', shillings column '7', pence '0'. Description is partially faded/abbreviated; transcribed as 'Arrears p[?]' because the hand on the label is unclear."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Anni praecedtes",
+      "amount_pounds": 195,
+      "amount_shillings": 10,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear alignment in pounds/shillings/pence columns: '195' in pounds column, '10' in shillings, '8' pence. Description reads as Latin 'Anni praecedtes' (preceding year); script legible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 4076,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds '4076' and shillings '10' are well aligned. The pence position contains only a halfpenny mark (loop like 'ob') with no whole pence digit — interpreted as 0 pence + 0.5 (halfpenny)."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5093,
+      "amount_shillings": 16,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.7,
+      "notes": "Underlined subtotal line (numerals only). Read as '5093' pounds, '16' shillings, '8' pence and a halfpenny sign. Column alignment for these digits is clear; minor uncertainty because the subtotal pence and fraction placement is slightly cramped."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Debita Anni praecedent.",
+      "amount_pounds": 119,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Text 'Debita Anni praecedent.' is legible. Amount columns read '119' (pounds), '7' (shillings), '6' (pence) with clear column separation."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 5243,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.75,
+      "notes": "Another totals line with only numerals visible. Read as '5243' pounds and '4' shillings with a halfpenny mark in the pence column (no whole pence digit) → interpreted as 0 pence + 0.5. Slight uncertainty because the fraction sign is small but consistent with other halfpenny marks on the page."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Soluta pro Ration, Scholariis, &c",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Section heading introducing payments/expenditures for rations/scholars. Handwriting slightly flourishy but readable as Latin phrase; no numeric entries on the heading line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Pro Rationes Scholariorum",
+      "amount_pounds": 520,
+      "amount_shillings": 16,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.6,
+      "notes": "Pounds and shillings align to '520' and '16' respectively. Pence area shows '2' with a following loop-like symbol interpreted as '3q' (three farthings) → 0.75. The fraction mark is somewhat ambiguous (could be 1/2), but the loop plus tail suggests three farthings; assigned moderate confidence."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ordinaris",
+      "amount_pounds": 619,
+      "amount_shillings": 3,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.85,
+      "notes": "Description 'Ordinaris' (ordinary expenses) is legible. Amount reads cleanly across the three columns as '619' / '3' / '7'."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 3804,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Pounds '3804' and shillings '0' are clear. Pence column shows '9' with a halfpenny sign (loop) after it → interpreted as 9 pence + 0.5. Alignment with the pounds/shillings lines is consistent."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4944,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Subtotal line for this expenditure block appears as numerals only: '4944' pounds, '0' shillings, '7' pence and a small 'q' like symbol indicating a farthing (0.25). The farthing sign is faint but positioned exactly in the pence fraction location."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ex Receptis",
+      "amount_pounds": 5243,
+      "amount_shillings": 4,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.8,
+      "notes": "Line labeled 'Ex Receptis' matches earlier total. Numeric group read as '5243' / '4' / (halfpenny). The halfpenny sign is consistent with earlier halfpenny markings on receipts side."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Sumta deductae",
+      "amount_pounds": 4944,
+      "amount_shillings": 0,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.7,
+      "notes": "Text appears to indicate amounts deducted; numeric columns mirror the '4944 0 7 1/4' subtotal above. Farthing (0.25) sign present and aligned in fraction location; the label is somewhat abbreviated in the manuscript."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Restet solvendum",
+      "amount_pounds": 299,
+      "amount_shillings": 3,
+      "amount_pence_whole": 5,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.8,
+      "notes": "Final balance line clearly written as 'Restet solvendum' with numerals '299' / '3' / '5' and a small farthing sign (0.25) after the pence digit. Column alignment is consistent; fraction sign is faint but distinct."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Computatus, computatores per nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "Section heading introducing the signatories. Handwritten phrase is somewhat flourishy but legible as a computation-certification line; no amounts present."
+    },
+    {
+      "row_index": 19,
+      "row_type": "header",
+      "description": "S. L. Richards, Rectorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "First signature/name line. Handwritten name is readable though surname abbreviation and title are slightly stylized; no numeric data on this line."
+    },
+    {
+      "row_index": 20,
+      "row_type": "header",
+      "description": "J. Sewell, Schrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Second signature/attesting name. Hand is less clear; interpreted as 'J. Sewell' and an office/title following that is somewhat abbreviated. No amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "J. Day, Socius",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Name line fairly clear: 'J. Day Socius' (or similar). No money values present."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "W. W. Wollocombe, Bursarium Seniorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Longer signature with several flourishes; surname reading 'Wollocombe' and title approximated as 'Bursarium Seniorum'. Handwriting moderately ornate causing some uncertainty in exact spelling."
+    },
+    {
+      "row_index": 23,
+      "row_type": "header",
+      "description": "Guiliman Andrew, Socius",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Handwritten name line; first name and surname are somewhat unclear (transcribed as 'Guiliman Andrew' based on letter shapes). No numeric content; moderate uncertainty due to script style."
+    },
+    {
+      "row_index": 24,
+      "row_type": "header",
+      "description": "Robertturn J. Sutton, Bursarium Seniorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.55,
+      "notes": "Final attesting name line is heavily flourishy and compressed. I transcribe as best-fit 'Robertturn J. Sutton, Bursarium Seniorum' — significant uncertainty in exact spelling of the first element; no amounts present."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

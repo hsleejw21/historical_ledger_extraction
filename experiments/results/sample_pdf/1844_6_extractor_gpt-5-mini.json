@@ -1,0 +1,273 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "Summa Receptorum et Solutiorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Title line at top of page. Very clear handwriting and no amounts present; vertical ruling lines used later for alignment."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "2do die Novbris 1844",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Date line directly under title. Text legible and contains no monetary figures."
+    },
+    {
+      "row_index": 3,
+      "row_type": "header",
+      "description": "Recepta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Section heading introducing receipts. Clear word and no amounts on this line."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Arrearagia",
+      "amount_pounds": 870,
+      "amount_shillings": 9,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.85,
+      "notes": "Description spelling slightly uncertain (handwritten) but clearly the first receipt item. Amount columns aligned to right ruling lines: 870£, 9s, 6d with a trailing loop interpreted as 3/4 (three farthings). Numbers validate (s 0-19, d 0-11 with fraction)."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Anni presentis",
+      "amount_pounds": 204,
+      "amount_shillings": 1,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Second receipt item. Text 'Anni presentis' read clearly. Amount aligned in the same £/s/d columns: 204£ 1s 2d, no fraction marker visible."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1931,
+      "amount_shillings": 1,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Third receipt item 'Varia' clearly legible. Amount reading 1931£ 1s 8d aligns with column lines; pence digit clear."
+    },
+    {
+      "row_index": 7,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3005,
+      "amount_shillings": 12,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.75,
+      "confidence_score": 0.95,
+      "notes": "Underlined subtotal of the three receipt lines. Number alignment is clear and the fractional pence (3/4) is visible. Verified by summing the three items above (870+204+1931 = 3005; pence/shilling carry confirmed)."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Debita Anni praecedentis",
+      "amount_pounds": 608,
+      "amount_shillings": 12,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 0.9,
+      "notes": "Debt of preceding year. Wording legible. Amount reads 608£ 12s 3d with a clear halfpenny symbol (interpreted as 1/2). Column alignment consistent with other rows."
+    },
+    {
+      "row_index": 9,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3614,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Total (combined receipts + prior debts). Underlined and aligns with columns. Verified by arithmetic: 3005£12s4 3/4d + 608£12s3 1/2d = 3614£4s8 1/4d (carries applied); fractional quarter (1/4) is visible and matches calculation."
+    },
+    {
+      "row_index": 10,
+      "row_type": "header",
+      "description": "Soluta",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.98,
+      "notes": "Section heading for payments ('Soluta'). Clear and contains no amounts on this line."
+    },
+    {
+      "row_index": 11,
+      "row_type": "entry",
+      "description": "Pro Rectori Scholaribus &c.",
+      "amount_pounds": 714,
+      "amount_shillings": 14,
+      "amount_pence_whole": 10,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Payment to rector/scholars line. Description read as 'Pro Rectori Scholaribus &c.' Amount 714£ 14s 10d aligned to £/s/d columns; digits legible."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Ordinaria",
+      "amount_pounds": 616,
+      "amount_shillings": 9,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Payment 'Ordinaria' clearly legible. Amount reads 616£ 9s 3d; digits and alignment clear."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Varia",
+      "amount_pounds": 1212,
+      "amount_shillings": 12,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.6,
+      "notes": "Third payment 'Varia' is written, but the pounds figure is less clearly spaced in the handwriting. The visible subtotal (next underlined line) forces this line to be 1212£ 12s 0d to reconcile: 714£14s10d + 616£9s3d + X = 2543£16s1d → X = 1212£12s0d. Pounds digits are partially smudged/close together; pence appears to be blank (interpreted as 0) to satisfy the subtotal arithmetic."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2543,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Underlined subtotal for Soluta. Amount 2543£16s1d is clearly written and aligns with columns; used to infer the ambiguous Varia line above."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Ex receptis",
+      "amount_pounds": 3614,
+      "amount_shillings": 4,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.95,
+      "notes": "Label 'Ex receptis' with amount equal to the earlier combined total of receipts and prior debts (3614£4s8 1/4d). Clear handwriting and aligns with the same £/s/d columns. Fraction 1/4 visible."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "Solutis deductus",
+      "amount_pounds": 2543,
+      "amount_shillings": 16,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.92,
+      "notes": "Label indicates payments deducted; amount 2543£16s1d matches the Soluta subtotal. Clear alignment and digits legible; no fractional pence visible on this line."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "Restat Solvendum",
+      "amount_pounds": 1070,
+      "amount_shillings": 8,
+      "amount_pence_whole": 7,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 0.9,
+      "notes": "Final balance 'Restat Solvendum' underlined. Amount 1070£8s7 1/4d is clearly written and arithmetically consistent: 3614£4s8 1/4d - 2543£16s1d = 1070£8s7 1/4d (carries checked). Fractional quarter clearly visible."
+    },
+    {
+      "row_index": 18,
+      "row_type": "header",
+      "description": "Computus comprobatus per nos",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.95,
+      "notes": "Confirmation heading above signatures. Clear Latin phrase and no amounts present."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "J. L. Richards Rectorum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.75,
+      "notes": "First signature line. Name and title read as 'J. L. Richards Rectorum' though signature flourishes reduce legibility slightly; no monetary data."
+    },
+    {
+      "row_index": 20,
+      "row_type": "entry",
+      "description": "Georgium Rawlinson Subrectorem",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Second signature; handwriting is cursive and somewhat ambiguous. Interpreted as 'Georgium Rawlinson Subrectorem' (given common Latinized signature forms), but several letters are uncertain (hence moderate confidence). No amounts."
+    },
+    {
+      "row_index": 21,
+      "row_type": "entry",
+      "description": "Joannem Ley S.T.B. Bursar Suo",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.45,
+      "notes": "Third signature line faint and tightly written; read as 'Joannem Ley S T B Bursar Suo' based on letter shapes and typical titulature. Several characters are unclear (low confidence). No monetary figures."
+    },
+    {
+      "row_index": 22,
+      "row_type": "entry",
+      "description": "Gulielmum Woollcombe Socium",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.7,
+      "notes": "Signature read as 'Gulielmum Woollcombe Socium' (Latinized W. Woollcombe). Handwriting moderately clear for this line; no amounts present."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Gulielmum Andrews Decanum",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.65,
+      "notes": "Signature appears to read 'Gulielmum Andrews Decanum' (Latinized William Andrews, Dean). Some letters ambiguous but overall plausible given context and spacing; no monetary data."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "Joannem Brande Morris Socium",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.5,
+      "notes": "Final signature line partly faded/ornate; interpreted as 'Joannem Brande Morris Socium' though the surname and middle letters are uncertain. No amounts on this line."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

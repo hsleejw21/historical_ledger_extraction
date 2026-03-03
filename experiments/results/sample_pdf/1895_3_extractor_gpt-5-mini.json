@@ -1,0 +1,75 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1895  General Account",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page title: the year '1895' is centered and 'General Account' is written at top right in large legible script. No amounts on this header line."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Dues Compositions",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "This appears to be a section label at the left introducing the subsequent lines. The first word could be 'Due' or 'Dues' — the trailing loop looks like an 's', so recorded as 'Dues'. No monetary figures aligned on this text line."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Total Receipts",
+      "amount_pounds": 67,
+      "amount_shillings": 11,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear description 'Total Receipts' and boxed amount '67 11' immediately to the right. Pounds and shillings columns clearly aligned; no pence column entry visible (treated as 0). Values pass validation (shillings 0–19)."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Balance from Genl A/c",
+      "amount_pounds": 897,
+      "amount_shillings": 6,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads as an abbreviation 'Genl A/c' (interpreted as 'General Account'); script for abbreviation is slightly stylized but legible. Numeric columns align under the pounds/shillings/pence rulings showing '897 6 8'. All currency parts within valid ranges."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Balance, at beginning of acct.",
+      "amount_pounds": 4564,
+      "amount_shillings": 1,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Description reads 'Balance, at beginning of acct.' (small abbreviation 'acct.'). Amount '4564 1 4' is well aligned in the three currency columns; digits are clear and within valid ranges."
+    },
+    {
+      "row_index": 6,
+      "row_type": "total",
+      "description": "£5528 19.",
+      "amount_pounds": 5528,
+      "amount_shillings": 19,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Large final total written with currency symbol and boxed/underlined. Pounds '5528' and shillings '19' are clearly written; no pence shown (treated as 0). Alignment with subtotal lines confirms this is the total."
+    }
+  ],
+  "_meta": {
+    "model_key": "gpt-5-mini",
+    "model_name": "gpt-5-mini"
+  }
+}

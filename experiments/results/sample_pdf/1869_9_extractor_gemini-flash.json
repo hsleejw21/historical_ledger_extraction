@@ -1,0 +1,339 @@
+{
+  "layout_type": "standard",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "header",
+      "description": "1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear page year / title. No monetary amounts."
+    },
+    {
+      "row_index": 2,
+      "row_type": "header",
+      "description": "Domus fund payment on aut of",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Clear header text. 'aut' is likely an older spelling or abbreviation for 'out'."
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Brought for",
+      "amount_pounds": 2774,
+      "amount_shillings": 7,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise. '½' symbol is unambiguous."
+    },
+    {
+      "row_index": 4,
+      "row_type": "entry",
+      "description": "Durham",
+      "amount_pounds": 7,
+      "amount_shillings": 7,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise."
+    },
+    {
+      "row_index": 5,
+      "row_type": "entry",
+      "description": "Walsh",
+      "amount_pounds": 6,
+      "amount_shillings": 14,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise."
+    },
+    {
+      "row_index": 6,
+      "row_type": "entry",
+      "description": "Hammond Domus private Bile",
+      "amount_pounds": 15,
+      "amount_shillings": 3,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text 'Bile' is likely 'Bill'. Numerical values are clear and well-aligned."
+    },
+    {
+      "row_index": 7,
+      "row_type": "entry",
+      "description": "Domus Battels",
+      "amount_pounds": 21,
+      "amount_shillings": 16,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise."
+    },
+    {
+      "row_index": 8,
+      "row_type": "entry",
+      "description": "Par Self for Stamps & Parcels",
+      "amount_pounds": 0,
+      "amount_shillings": 10,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text is clear. The number '10' is clearly positioned only within the shillings column, indicating 10 shillings and no pounds or pence."
+    },
+    {
+      "row_index": 9,
+      "row_type": "entry",
+      "description": "Baker",
+      "amount_pounds": 10,
+      "amount_shillings": 4,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise."
+    },
+    {
+      "row_index": 10,
+      "row_type": "entry",
+      "description": "Properly Tax for the year.",
+      "amount_pounds": 85,
+      "amount_shillings": 1,
+      "amount_pence_whole": 6,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Text 'Properly' is likely 'Property'. Numerical values are clear and well-aligned."
+    },
+    {
+      "row_index": 11,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 2921,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a double underline indicating sum. '£' symbol is present. '½' symbol is unambiguous."
+    },
+    {
+      "row_index": 12,
+      "row_type": "entry",
+      "description": "Domus fund Payments",
+      "amount_pounds": 2921,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values, matching the previous total. '½' symbol is unambiguous."
+    },
+    {
+      "row_index": 13,
+      "row_type": "entry",
+      "description": "Receipts",
+      "amount_pounds": 1659,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Column alignment is precise."
+    },
+    {
+      "row_index": 14,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 1261,
+      "amount_shillings": 19,
+      "amount_pence_whole": 3,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a single underline. '£' symbol is present. Shillings value (19) is valid. '½' symbol is unambiguous."
+    },
+    {
+      "row_index": 15,
+      "row_type": "entry",
+      "description": "Fees fund Receipts",
+      "amount_pounds": 1889,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Pence is a clear '0'."
+    },
+    {
+      "row_index": 16,
+      "row_type": "entry",
+      "description": "payments",
+      "amount_pounds": 1090,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Shillings is a clear '0'."
+    },
+    {
+      "row_index": 17,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 799,
+      "amount_shillings": 14,
+      "amount_pence_whole": 1,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a single underline. '£' symbol is present. All values are valid."
+    },
+    {
+      "row_index": 18,
+      "row_type": "entry",
+      "description": "Domus fund Receipts",
+      "amount_pounds": 1659,
+      "amount_shillings": 5,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Matches previous 'Receipts' entry."
+    },
+    {
+      "row_index": 19,
+      "row_type": "entry",
+      "description": "Fee Do Do",
+      "amount_pounds": 1889,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. 'Do Do' clearly refers to the 'Fees fund Receipts' entry."
+    },
+    {
+      "row_index": 20,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 3549,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a single underline. '£' symbol is present. Arithmetic confirms the sum."
+    },
+    {
+      "row_index": 21,
+      "row_type": "header",
+      "description": "Nov 2. 1869",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear date entry, functioning as a header for the following section."
+    },
+    {
+      "row_index": 22,
+      "row_type": "header",
+      "description": "Examined and",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear descriptive text. No monetary amounts."
+    },
+    {
+      "row_index": 23,
+      "row_type": "entry",
+      "description": "Allowed by us Domus fund payments",
+      "amount_pounds": 2921,
+      "amount_shillings": 5,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Matches previous 'Domus fund Payments' entry. '½' symbol is unambiguous."
+    },
+    {
+      "row_index": 24,
+      "row_type": "entry",
+      "description": "J P Lughtfoot Fee Do Do",
+      "amount_pounds": 1090,
+      "amount_shillings": 0,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Name 'Lughtfoot' is slightly indistinct, possibly 'Lightfoot'. Numerical values are clear. 'Do Do' clearly refers to the previous 'payments' entry."
+    },
+    {
+      "row_index": 25,
+      "row_type": "total",
+      "description": "",
+      "amount_pounds": 4011,
+      "amount_shillings": 5,
+      "amount_pence_whole": 11,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear total line with a single underline. '£' symbol is present. '½' symbol is unambiguous. Arithmetic confirms the sum."
+    },
+    {
+      "row_index": 26,
+      "row_type": "entry",
+      "description": "Rector deduct receipts",
+      "amount_pounds": 3549,
+      "amount_shillings": 0,
+      "amount_pence_whole": 9,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear text and numerical values. Matches previous 'total' for receipts."
+    },
+    {
+      "row_index": 27,
+      "row_type": "total",
+      "description": "Deficit",
+      "amount_pounds": 462,
+      "amount_shillings": 5,
+      "amount_pence_whole": 2,
+      "amount_pence_fraction": 0.5,
+      "confidence_score": 1.0,
+      "notes": "Clear final total line with a double underline. '£' symbol is present. '½' symbol is unambiguous. Arithmetic confirms the deficit."
+    },
+    {
+      "row_index": 28,
+      "row_type": "header",
+      "description": "C.W. Boose Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.9,
+      "notes": "Signature text. 'Boose' is somewhat indistinct, could be 'Bourne' or similar. Likely a person's name with title."
+    },
+    {
+      "row_index": 29,
+      "row_type": "header",
+      "description": "(S) Hammond Maser",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 0.8,
+      "notes": "Signature text. '(S)' is faint and 'Maser' is indistinct, could be 'Master' or similar."
+    },
+    {
+      "row_index": 30,
+      "row_type": "header",
+      "description": "J. Bywater. Fellow",
+      "amount_pounds": "",
+      "amount_shillings": "",
+      "amount_pence_whole": "",
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Clear signature text."
+    }
+  ],
+  "_meta": {
+    "model_key": "gemini-flash",
+    "model_name": "gemini-2.5-flash"
+  }
+}
