@@ -42,7 +42,7 @@ from dotenv import load_dotenv
 # Paths
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).parent.parent
-CACHE_DIR  = ROOT / "experiments" / "results" / "cache"
+CACHE_DIR  = ROOT / "pipeline" / "cache"
 OUTPUT_DIR = ROOT / "experiments" / "results" / "enriched"
 
 # ---------------------------------------------------------------------------
@@ -422,7 +422,7 @@ def validate_row(row: dict, page_id: str) -> dict:
             if val not in VALID_VALUES[field]:
                 if val is not None:
                     print(f"  [coerce] {page_id} row {row.get('row_index')}: "
-                          f"{field}={val!r} → {FALLBACK[field]!r}")
+                          f"{field}={val!r} -> {FALLBACK[field]!r}")
                 row[field] = FALLBACK[field]
 
         # Boolean fields
@@ -469,7 +469,7 @@ def process_file(
         print(f"  [skip] {page_id} — already enriched")
         return
 
-    with open(sup_file) as f:
+    with open(sup_file, encoding="utf-8") as f:
         data = json.load(f)
 
     rows: list[dict] = data.get("rows", [])
@@ -518,7 +518,7 @@ def process_file(
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"  [done] {page_id} → {out_path.name}  ({len(merged)} rows)")
+    print(f"  [done] {page_id} -> {out_path.name}  ({len(merged)} rows)")
 
 
 # ---------------------------------------------------------------------------
@@ -545,7 +545,7 @@ def main():
     if not sup_files:
         sys.exit(f"No supervisor files found matching {args.pages}")
 
-    print(f"Found {len(sup_files)} supervisor file(s). Output → {OUTPUT_DIR}")
+    print(f"Found {len(sup_files)} supervisor file(s). Output -> {OUTPUT_DIR}")
 
     for i, sup_file in enumerate(sup_files):
         print(f"Processing {sup_file.name} …")

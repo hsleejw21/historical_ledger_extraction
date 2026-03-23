@@ -1,0 +1,102 @@
+{
+  "page_id": "1743_7_image",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Kidlington Capons & Brawn ad Fst Nat. 1743",
+      "amount_pounds": 2,
+      "amount_shillings": 15,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount values (2 pounds, 15 shillings, 0 pence) are visually confirmed, aligning with gemini-flash's output. gpt-5-mini's interpretation of '62' for pounds and '13' for shillings was incorrect despite its detailed reasoning regarding a '6'. The description 'Kidlington Capons & Brawn ad Fst Nat. 1743' from gemini-flash was visually confirmed as more accurate than gpt-5-mini's reading, which had 'Brown' instead of 'Brawn' and 'Fest Nat' instead of 'Fst Nat'.",
+      "side": "right",
+      "section_header": "",
+      "direction": "expenditure",
+      "category": "domestic",
+      "language": "mixed",
+      "english_description": "Capons and brawn supplied for the Christmas feast, sourced from Kidlington.",
+      "english_description_with_amount": "Capons and brawn supplied for the Christmas feast, sourced from Kidlington, amounting to £2 15s 0d.",
+      "place_name": "Kidlington",
+      "person_name": null,
+      "payment_period": "one_off",
+      "is_signature": false,
+      "is_arrears": false
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Maynherritt pro anno",
+      "amount_pounds": 20,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Amount values (20 pounds, 0 shillings, 0 pence) agreed upon by both extractors and visually confirmed. The description 'Maynherritt pro anno' was constructed by correcting gemini-flash's 'Mayhenritt' to 'Maynherritt' and gpt-5-mini's capitalized 'Anno' to 'anno' based on visual inspection of the original handwriting.",
+      "side": "right",
+      "section_header": "",
+      "direction": "expenditure",
+      "category": "other",
+      "language": "mixed",
+      "english_description": "Annual payment to Maynherritt.",
+      "english_description_with_amount": "Annual payment to Maynherritt, amounting to £20 0s 0d.",
+      "place_name": "Maynherritt",
+      "person_name": null,
+      "payment_period": "annual",
+      "is_signature": false,
+      "is_arrears": false
+    },
+    {
+      "row_index": 3,
+      "row_type": "entry",
+      "description": "Bampton pro Anno",
+      "amount_pounds": 1,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All values and description agreed upon by both extractors and visually confirmed.",
+      "side": "right",
+      "section_header": "",
+      "direction": "expenditure",
+      "category": "land_rent",
+      "language": "mixed",
+      "english_description": "Annual payment relating to the Bampton property.",
+      "english_description_with_amount": "Annual payment relating to the Bampton property, amounting to £1 0s 0d.",
+      "place_name": "Bampton",
+      "person_name": null,
+      "payment_period": "annual",
+      "is_signature": false,
+      "is_arrears": false
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 2,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    },
+    "enrichment_model": "gpt-5-mini",
+    "enrichment_fields": [
+      "direction",
+      "category",
+      "language",
+      "english_description",
+      "english_description_with_amount",
+      "place_name",
+      "person_name",
+      "payment_period",
+      "is_signature",
+      "is_arrears"
+    ]
+  }
+}
