@@ -42,7 +42,7 @@ from dotenv import load_dotenv
 # Paths
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).parent.parent
-CACHE_DIR  = ROOT / "pipeline" / "cache"
+CACHE_DIR  = ROOT / "experiments" / "results" / "cache"
 OUTPUT_DIR = ROOT / "experiments" / "results" / "enriched"
 
 # ---------------------------------------------------------------------------

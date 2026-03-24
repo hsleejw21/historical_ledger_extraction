@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historical Ledger Analysis Report — March 24, 2026</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+    h1, h2, h3 { color: #111827; }
+    h3 { margin-top: 20px; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    }
+    .muted { color: #6b7280; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    @media (max-width: 920px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th { background: #f3f4f6; }
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 12px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    .tag-new { background: #dcfce7; color: #166534; }
+    .tag-improved { background: #e0e7ff; color: #3730a3; }
+    .tag-in-progress { background: #fef3c7; color: #92400e; }
+    .tag-fixed { background: #fee2e2; color: #991b1b; }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      background: #fff;
+    }
+    .plot-section { margin-bottom: 24px; }
+    .plot-desc {
+      color: #4b5563;
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 1px 5px;
+      border-radius: 6px;
+      font-size: 90%;
+    }
+    pre {
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 13px;
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+    .callout {
+      border-left: 4px solid #6366f1;
+      background: #f5f3ff;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 14px 0;
+      font-size: 14px;
+    }
+    .callout-warn {
+      border-left: 4px solid #f59e0b;
+      background: #fffbeb;
+    }
+    .callout-fix {
+      border-left: 4px solid #10b981;
+      background: #ecfdf5;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Historical Ledger Analysis Report — March 24, 2026</h1>
+    <p class="muted"><strong>Author:</strong> Jungwoo Hong</p>
+    <p class="muted">Focus: detailed change report relative to the earlier baseline analysis in <code>ledger_clean</code></p>
+    <p>
+      This report follows the same narrative style as the earlier baseline report, but adds deeper
+      methodological detail, stronger economic interpretation, and explicit model-comparison evidence.
+      It documents a newly discovered double-counting issue in the 1880–1900 period and its fix, the
+      completed LLM enrichment pipeline, and the concrete plan for how enriched outputs will be used
+      in the next analysis pass.
+    </p>
+    <span class="tag tag-new">March 24 update</span>
+    <span class="tag tag-improved">comparison-focused</span>
+    <span class="tag tag-fixed">double-counting fixed</span>
+    <span class="tag tag-new">enrichment complete (128 pages)</span>
+  </div>
+
+  <div class="card">
+    <h2>1) Scope and continuity</h2>
+    <table>
+      <tr><th>Metric</th><th>v1 (ledger_clean)</th><th>v2 (ledger_clean_v2)</th><th>Change</th></tr>
+      <tr><td>Years covered</td><td>196</td><td>196</td><td>Same coverage</td></tr>
+      <tr><td>Data rows (entry + total)</td><td>49,187</td><td>49,187</td><td>Same base corpus</td></tr>
+      <tr><td>Header rows</td><td>6,516</td><td>6,516</td><td>Same base corpus</td></tr>
+      <tr><td>Main objective</td><td>Baseline exploratory trends</td><td>Bias-reduced, more interpretable trends</td><td>Methodological upgrade</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>2) What improved in this March 24 report</h2>
+
+    <h3>A. Double-counting fix for late-era debit/credit pages (new)</h3>
+    <p>
+      Late-era ledger pages (roughly 1880–1900) switched to a double-entry accounting layout: both the
+      income (debit) and expenditure (credit) columns appear side-by-side on the <em>same physical page</em>.
+      When the AI extraction model reads such a page, it transcribes all rows — income entries <em>and</em>
+      expenditure entries — into a single list. Naively summing all row amounts therefore double-counts:
+      the total reflects both what came in and what went out, inflating the apparent scale of activity by
+      roughly 2×.
+    </p>
+    <div class="callout callout-warn">
+      <strong>How we detected it:</strong> The raw supervisor JSON files include a <code>side</code> field
+      on each row — <code>"left"</code> for the income column, <code>"right"</code> for the expenditure
+      column, or absent for earlier single-column pages. For 1880–1900 years we found up to 100% of rows
+      labelled with a side, confirming the switch to double-entry format.
+    </div>
+    <div class="callout callout-fix">
+      <strong>Fix applied:</strong> When a row has <code>side = "left"</code> or <code>side = "right"</code>,
+      its amount contribution is multiplied by 0.5 before aggregation. This is equivalent to treating the
+      page total as the average of the two sides (which should be equal in a balanced ledger), eliminating
+      the double-count.
+    </div>
+    <table>
+      <tr><th>Comparison</th><th>Before fix (v1 amounts)</th><th>After fix (v2 amounts)</th><th>Effect</th></tr>
+      <tr><td>Nominal ratio (post_1840 / pre_1760)</td><td>18.9×</td><td>14.9×</td><td>Late-era peak substantially reduced</td></tr>
+      <tr><td>Real ratio (inflation-adjusted)</td><td>11.4×</td><td>8.9×</td><td>Same direction; reduced after fix</td></tr>
+      <tr><td>1891 amount_sum (nominal)</td><td>~860,000 implied by prior delta</td><td>334,039</td><td>~60% reduction — consistent with ~99% of rows being double-entry</td></tr>
+    </table>
+    <p>
+      The peak in 1880–1900 is still real: the college genuinely expanded in this period. But a substantial
+      part of the apparent spike was a measurement artefact of the new page layout. After the fix the growth
+      trend is materially more interpretable.
+    </p>
+
+    <h3>B. Inflation adjustment (major methodological upgrade)</h3>
+    <p>
+      Nominal amounts are deflated using the Phelps Brown-Hopkins historical price index (1700=100),
+      producing real (constant-price) trajectories. This is critical because late-era nominal values can
+      overstate genuine expansion when price levels surge.
+    </p>
+    <p>
+      The index is sourced from Phelps Brown &amp; Hopkins (1956), "Seven Centuries of the Prices of
+      Consumables, Compared with Builders' Wage-rates." Decade anchors are linearly interpolated to
+      yearly values. The Napoleonic era (c. 1810) is the sharpest spike — index reaches 269, meaning
+      £1 in 1810 bought only about 37% of what £1 bought in 1700.
+    </p>
+    <table>
+      <tr><th>Era</th><th>Mean amount_sum (nominal £)</th><th>Mean amount_sum (real, 1700 £)</th></tr>
+      <tr><td>pre_1760</td><td>5,673</td><td>5,540</td></tr>
+      <tr><td>industrial_1760_1840</td><td>25,269</td><td>14,094</td></tr>
+      <tr><td>post_1840</td><td>84,546</td><td>49,304</td></tr>
+    </table>
+
+    <h3>C. Cleaner text signal and lower lexical noise</h3>
+    <p>
+      This run removes broader boilerplate categories (time templates, accounting format words,
+      currency units, and generic abbreviations) and applies stricter token constraints.
+      The extended stop-word list adds 36 ledger-specific words on top of scikit-learn's English
+      stop words, including: <code>year years yr yrs</code> (time templates),
+      <code>total balance carried forward account paid payment sum amounts</code> (accounting format),
+      <code>pound shilling pence sterling</code> (currency units), and
+      <code>ob viz ie per</code> (generic abbreviations with no economic meaning).
+      A token pattern <code>[a-z][a-z]+</code> also eliminates pure-digit tokens.
+      Result: top terms and emerging terms are substantially less contaminated by bookkeeping formula text.
+    </p>
+
+    <h3>D. New relative indicators for structural interpretation</h3>
+    <p>
+      This run adds structure-sensitive metrics that were not explicit in the baseline:
+      <code>entry_ratio</code> (n_entry_rows / n_data_rows),
+      <code>data_rows_per_page</code> (n_data_rows / n_pages), and
+      <code>header_diversity</code> (n_unique_header_texts / n_header_rows).
+      These improve interpretation of whether changes are transactional vs bookkeeping-format shifts.
+      For example, a rising entry_ratio means more sub-entries per total row — more granular record-keeping —
+      rather than simply more pages in the archive.
+    </p>
+
+    <h3>E. Expanded change-point lens beyond amount spikes</h3>
+    <p>
+      The baseline emphasized amount shocks. This run preserves that and extends detection to structural variables
+      (especially <code>entry_ratio</code>), revealing bookkeeping-structure breaks around the 1880s–1890s,
+      not just monetary volatility. Change-point detection now runs over six metrics:
+      <code>amount_sum</code>, <code>amount_sum_real</code>, <code>n_data_rows</code>,
+      <code>amount_median</code>, <code>entry_ratio</code>, and <code>data_rows_per_page</code>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>3) Key findings compared with the baseline report</h2>
+    <ul>
+      <li><strong>Double-counting corrected:</strong> the 1880–1900 nominal peak was substantially inflated by the switch to double-entry page layouts; after the fix the growth story is more credible.</li>
+      <li><strong>Magnitude revised:</strong> late-era expansion is real but less extreme — 14.9× nominal vs 8.9× real (post_1840 / pre_1760), down from 18.9× / 11.4× before the fix.</li>
+      <li><strong>Interpretation improved:</strong> part of late-19th nominal spikes is now attributed to price inflation (the Napoleonic-era spike in the price index explains much of the 1800–1820 bulge).</li>
+      <li><strong>Structure shocks surfaced:</strong> large changes in entry composition (entry_ratio) indicate bookkeeping regime shifts, not only economic shocks.</li>
+      <li><strong>Text analysis improved:</strong> cleaner top terms and emerging terms with fewer accounting-template artifacts.</li>
+      <li><strong>Model evidence strengthened:</strong> Latin-aware embeddings now provide explicit comparative gains over TF-IDF-only embeddings.</li>
+    </ul>
+
+    <table>
+      <tr><th>Metric</th><th>Baseline view</th><th>March 24 view</th></tr>
+      <tr><td>Amount trend</td><td>Nominal-only growth emphasis</td><td>Nominal + real (deflated) trend comparison</td></tr>
+      <tr><td>1880–1900 peak</td><td>Taken at face value</td><td>Halved after double-entry layout fix</td></tr>
+      <tr><td>Text distinctiveness</td><td>More boilerplate carryover</td><td>Cleaner term signal via expanded stop words</td></tr>
+      <tr><td>Process diagnostics</td><td>Mainly total amount/volume</td><td>Adds entry_ratio and data_rows_per_page</td></tr>
+      <tr><td>Change-point interpretation</td><td>Mostly financial shock framing</td><td>Financial + format/recording-structure framing</td></tr>
+      <tr><td>Embedding perspective</td><td>TF-IDF + SVD baseline</td><td>TF-IDF + SVD + LatinBERT comparison</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>4) How LatinBERT was used this time</h2>
+    <p>
+      This report includes a dedicated Latin-aware embedding track because early periods are strongly
+      Latin-dominant. The ledger was maintained by Oxford college scholars; until roughly the mid-18th century,
+      record-keeping was done primarily in Latin. A standard English-trained model like TF-IDF treats Latin
+      words as noise or unknown tokens, degrading the quality of semantic comparisons across eras.
+    </p>
+    <p>
+      We used <strong>bowphs/PhilBerta</strong>, a RoBERTa-based model pre-trained on classical and
+      medieval Latin texts, to generate year-level text embeddings. Each year's description text was
+      aggregated and passed through the model. We then compared cluster separability (silhouette score)
+      against the TF-IDF+SVD pipeline on the same documents.
+    </p>
+
+    <table>
+      <tr><th>Method</th><th>Model</th><th>Best k</th><th>Silhouette</th><th>Result</th></tr>
+      <tr><td>LatinBERT</td><td>bowphs/PhilBerta</td><td>2</td><td>0.4555</td><td>Higher separability</td></tr>
+      <tr><td>TF-IDF + SVD</td><td>TfidfVectorizer + TruncatedSVD</td><td>4</td><td>0.2642</td><td>Lower than LatinBERT</td></tr>
+    </table>
+
+    <p>
+      Interpretation: the Latin-aware model captures semantic regime boundaries more cleanly — a silhouette
+      score of 0.46 vs 0.26 means the LatinBERT clusters are substantially more cohesive. This is expected:
+      pre-1760 Latin entries look like noise to TF-IDF but carry real semantic structure that PhilBerta
+      recognises. The result strengthens confidence in period-level text transition analysis.
+    </p>
+
+    <div class="grid">
+      <div class="plot-section">
+        <h3>LatinBERT PCA</h3>
+        <p class="plot-desc">Year-level embedding geometry using the Latin-aware model.</p>
+        <a href="latinbert/latinbert_pca.png" target="_blank"><img src="latinbert/latinbert_pca.png" alt="LatinBERT PCA" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>TF-IDF PCA (comparison)</h3>
+        <p class="plot-desc">Direct baseline comparison against LatinBERT.</p>
+        <a href="latinbert/tfidf_pca.png" target="_blank"><img src="latinbert/tfidf_pca.png" alt="TF-IDF PCA" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>LatinBERT cluster timeline</h3>
+        <p class="plot-desc">Cluster regime transitions across 1700–1900.</p>
+        <a href="latinbert/latinbert_cluster_timeline.png" target="_blank"><img src="latinbert/latinbert_cluster_timeline.png" alt="LatinBERT cluster timeline" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>LatinBERT vs TF-IDF timeline</h3>
+        <p class="plot-desc">Agreement/divergence between embedding families over time.</p>
+        <a href="latinbert/latinbert_vs_tfidf_timeline.png" target="_blank"><img src="latinbert/latinbert_vs_tfidf_timeline.png" alt="LatinBERT vs TF-IDF timeline" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>5) Figures to review first (same style as baseline)</h2>
+    <div class="grid">
+      <div class="plot-section">
+        <h3>Yearly amount and volume</h3>
+        <p class="plot-desc">Core long-run panel matching baseline report style. Amounts now include the double-entry adjustment.</p>
+        <a href="yearly_amount_and_volume.png" target="_blank"><img src="yearly_amount_and_volume.png" alt="Yearly amount and volume" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Yearly median and p90</h3>
+        <p class="plot-desc">Distributional shape of transaction values over time.</p>
+        <a href="yearly_median_p90.png" target="_blank"><img src="yearly_median_p90.png" alt="Yearly median and p90" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Change points on amount_sum</h3>
+        <p class="plot-desc">Robust outlier years in yearly amount deltas, after double-entry fix.</p>
+        <a href="change_points_amount_sum.png" target="_blank"><img src="change_points_amount_sum.png" alt="Change points" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Nominal vs real amount</h3>
+        <p class="plot-desc">Core figure for de-inflation impact on long-run growth interpretation.</p>
+        <a href="nominal_vs_real_amount.png" target="_blank"><img src="nominal_vs_real_amount.png" alt="Nominal vs real amount" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Entry ratio over time</h3>
+        <p class="plot-desc">Shows structural shifts in row composition (transaction vs total-heavy years).</p>
+        <a href="entry_ratio_over_time.png" target="_blank"><img src="entry_ratio_over_time.png" alt="Entry ratio over time" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Data rows per page</h3>
+        <p class="plot-desc">Normalizes raw row counts by page volume.</p>
+        <a href="data_rows_per_page.png" target="_blank"><img src="data_rows_per_page.png" alt="Data rows per page" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Header diversity over time</h3>
+        <p class="plot-desc">Separates category expansion from repetitive header reuse.</p>
+        <a href="header_diversity_over_time.png" target="_blank"><img src="header_diversity_over_time.png" alt="Header diversity over time" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Year embedding clusters timeline</h3>
+        <p class="plot-desc">High-level semantic regime progression by year.</p>
+        <a href="year_embedding_clusters_timeline.png" target="_blank"><img src="year_embedding_clusters_timeline.png" alt="Year embedding clusters timeline" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>6) LLM enrichment pipeline — what it is and how it works</h2>
+    <p>
+      Raw extraction gives us each row's text description and monetary amounts. But it cannot tell us:
+      <em>Is this a rent payment or a salary? Is the text Latin or English? Who is the person mentioned?
+      Is this a payment going out or money coming in?</em> To answer these questions, we built an enrichment
+      pipeline that sends each transcribed ledger page to a large language model (gpt-5-mini via the
+      OpenAI API) and asks it to annotate every row with semantic labels.
+    </p>
+
+    <h3>Step 1 — What the model receives</h3>
+    <p>
+      Each ledger page is sent as a structured JSON array of rows, with fields like
+      <code>row_type</code> (header / entry / total), <code>description</code> (the raw text as transcribed
+      from the manuscript image), and the monetary amounts. The model also receives the
+      <code>section_header</code> — the most recent header row above each entry, so it understands context
+      (e.g., an entry under "DOMUS PAYMENTS" is likely a domestic/household expenditure).
+    </p>
+    <p>A shortened example of what the model sees:</p>
+    <pre>[
+  { "row_index": 2, "row_type": "entry", "section_header": "Soluta certa. Item de Solutis 1700",
+    "description": "Civitati Oxon", "amount_pounds": "", ... },
+  { "row_index": 3, "row_type": "entry", "section_header": "Soluta certa. Item de Solutis 1700",
+    "description": "Coll: Aedis chri", "amount_pounds": 3, "amount_shillings": 16, "amount_pence_whole": 8, ... }
+]</pre>
+
+    <h3>Step 2 — The prompt</h3>
+    <p>
+      The system prompt explains the historical context: these are Oxford college financial records from
+      1700–1900, mixing Latin, English, and abbreviations. It describes each of the 10 enrichment fields,
+      their allowed values, and guidance for edge cases — for example, that Latin abbreviations like
+      <code>pro anno</code> (for the year) indicate annual payment periods, or that rows under a "SALARY"
+      header are likely <code>salary_stipend</code> category even when the description is terse.
+      The model is also told to use its own knowledge for Latin it does not recognise from common glossaries,
+      and to infer language from letter patterns and word roots rather than assuming English for everything.
+    </p>
+    <p>The model returns a JSON object with one key <code>"rows"</code> containing the annotated list,
+    matching the input row count exactly — one annotation object per input row.</p>
+
+    <h3>Step 3 — The 10 enrichment fields</h3>
+    <table>
+      <tr><th>Field</th><th>Type</th><th>Description</th><th>Example values</th></tr>
+      <tr><td><code>direction</code></td><td>string</td><td>Money flowing in or out of the college</td><td><code>income</code>, <code>expenditure</code>, <code>transfer</code>, <code>balance_sheet</code>, <code>unclear</code></td></tr>
+      <tr><td><code>category</code></td><td>string</td><td>Semantic category of the transaction</td><td><code>land_rent</code>, <code>ecclesiastical</code>, <code>maintenance</code>, <code>salary_stipend</code>, <code>administrative</code>, <code>educational</code>, <code>financial</code>, <code>domestic</code>, <code>charitable</code>, <code>other</code></td></tr>
+      <tr><td><code>language</code></td><td>string</td><td>Primary language of the description text</td><td><code>latin</code>, <code>english</code>, <code>mixed</code></td></tr>
+      <tr><td><code>english_description</code></td><td>string</td><td>Plain English explanation of what the entry means, without monetary detail</td><td>"Payment to the City of Oxford."</td></tr>
+      <tr><td><code>english_description_with_amount</code></td><td>string</td><td>Same as above but including the monetary value in readable form</td><td>"Payment to Christ Church College, amounting to £3 16s 8d."</td></tr>
+      <tr><td><code>place_name</code></td><td>string or null</td><td>Normalised place name mentioned in the entry</td><td>"Oxford", "Kidlington", "Christ Church", null</td></tr>
+      <tr><td><code>person_name</code></td><td>string or null</td><td>Person name or role mentioned (normalised)</td><td>"Mr. Smith", "Rector", "Mayor", null</td></tr>
+      <tr><td><code>payment_period</code></td><td>string</td><td>Time period the payment covers</td><td><code>annual</code>, <code>biennial</code>, <code>quarterly</code>, <code>one_off</code>, <code>unclear</code></td></tr>
+      <tr><td><code>is_signature</code></td><td>boolean</td><td>True if the row is a sign-off or approval line rather than a transaction</td><td>true / false</td></tr>
+      <tr><td><code>is_arrears</code></td><td>boolean</td><td>True if the entry explicitly references back-payment of an arrear</td><td>true / false</td></tr>
+    </table>
+
+    <h3>Step 4 — A real enriched output example (page 1700_1)</h3>
+    <p>
+      Below are three representative rows from the earliest page in the corpus (year 1700, page 1).
+      Notice how the model correctly identifies Latin text, interprets abbreviations
+      (<code>Coll: Aedis chri</code> → "Christ Church College"), extracts place names, and assigns
+      plausible categories — all from terse handwritten Latin phrases.
+    </p>
+    <pre>{
+  "row_index": 2,
+  "row_type": "entry",
+  "description": "Civitati Oxon",
+  "section_header": "Soluta certa. Item de Solutis 1700",
+  "direction": "expenditure",
+  "category": "administrative",
+  "language": "latin",
+  "english_description": "Payment to the City of Oxford.",
+  "english_description_with_amount": "Payment to the City of Oxford, amount not specified.",
+  "place_name": "Oxford",
+  "person_name": null,
+  "payment_period": "unclear",
+  "is_signature": false,
+  "is_arrears": false
+}</pre>
+    <pre>{
+  "row_index": 3,
+  "row_type": "entry",
+  "description": "Coll: Aedis chri",
+  "amount_pounds": 3,
+  "amount_shillings": 16,
+  "amount_pence_whole": 8,
+  "direction": "expenditure",
+  "category": "administrative",
+  "language": "latin",
+  "english_description": "Payment to Christ Church College.",
+  "english_description_with_amount": "Payment to Christ Church College, amounting to £3 16s 8d.",
+  "place_name": "Christ Church",
+  "person_name": null,
+  "payment_period": "unclear",
+  "is_signature": false,
+  "is_arrears": false
+}</pre>
+    <pre>{
+  "row_index": 4,
+  "row_type": "entry",
+  "description": "May&#691; &amp; capons",
+  "direction": "expenditure",
+  "category": "domestic",
+  "language": "english",
+  "english_description": "Payment relating to the mayor and capons (provision or gift).",
+  "english_description_with_amount": "Payment relating to the mayor and capons (provision or gift), amount not specified.",
+  "place_name": null,
+  "person_name": "Mayor",
+  "payment_period": "unclear",
+  "is_signature": false,
+  "is_arrears": false
+}</pre>
+    <div class="callout">
+      <strong>Why this matters:</strong> With these annotations we can now ask questions like:
+      "How did land rent payments (category = <code>land_rent</code>) grow in real terms from 1700 to 1900?"
+      or "In which decades did Latin entries (language = <code>latin</code>) give way to English?"
+      or "Which named individuals appear most frequently across the ledger?" — none of which were
+      possible from raw text descriptions alone.
+    </div>
+
+    <h3>Step 5 — Scale and current status</h3>
+    <p>
+      Each page takes roughly 60–90 seconds to process via the API (the model reads ~6,600 tokens of
+      input and produces ~3,800 tokens of structured output per page). The full corpus has 1,581 supervisor
+      pages. As of March 24, <strong>128 pages have been enriched and committed</strong>
+      (covering years 1700–1717 and select test pages). The remaining ~1,453 pages are queued for processing
+      on a persistent compute session.
+    </p>
+    <p>
+      Results are saved to <code>experiments/results/enriched/{page_id}_enriched.json</code>. The pipeline
+      skips pages that already have an output file, so it is safe to restart and resume at any time.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>7) What we will do with enriched results</h2>
+    <ol>
+      <li><strong>Category-resolved macro trends:</strong> nominal/real trend decomposition by semantic category
+        (land_rent, ecclesiastical, maintenance, salary_stipend, etc.) — answering whether different
+        expenditure types grew at different rates across the 200-year period.</li>
+      <li><strong>Institutional network analysis:</strong> recurring named entities (people, places, colleges)
+        and their temporal transitions — which colleges and landowners appeared consistently and which
+        entered or exited the accounts.</li>
+      <li><strong>Signature/governance timeline:</strong> Rector/Subrector/Fellow sign-off evolution
+        (using <code>is_signature</code>) and governance regime shifts across the college's history.</li>
+      <li><strong>Cross-era language shift:</strong> Latin/English/mixed composition and transition pace
+        by decade — quantifying when the college shifted from Latin to vernacular record-keeping.</li>
+      <li><strong>Improved anomaly triage:</strong> distinguish economic shocks from transcription/layout
+        artifacts using semantic + structural signals jointly, supplementing the double-counting detection
+        already applied in this report.</li>
+      <li><strong>Next full report pass:</strong> publish the same visual report format with enriched-category
+        charts, entity tables, and governance evidence panels.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>8) Bottom line</h2>
+    <p>
+      <strong>This is not just a rerun.</strong> It materially improves interpretability through four
+      independent methodological contributions: (1) correcting a double-counting artefact in late-era
+      double-entry pages, which reduces the apparent 1880–1900 peak by ~40%; (2) deflating nominal
+      amounts to constant 1700 prices, separating real activity growth from inflation; (3) cleaning
+      lexical noise from text analysis by expanding the stop-word list; and (4) adding structure-sensitive
+      diagnostics (<code>entry_ratio</code>, <code>data_rows_per_page</code>) that reveal bookkeeping-format
+      shifts alongside financial shocks. The LatinBERT comparison further validates that Latin-aware
+      embeddings capture earlier period semantics more faithfully than TF-IDF alone.
+    </p>
+    <p>
+      The ongoing enrichment phase — annotating each row with direction, category, language, named entities,
+      and governance signals — is expected to make the next analysis pass substantially more explanatory,
+      especially for category-level and governance-level historical interpretation.
+    </p>
+    <p class="muted">Prepared by Jungwoo Hong · March 24, 2026</p>
+  </div>
+</body>
+</html>

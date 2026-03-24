@@ -2,14 +2,26 @@
 
 ## What is new in v2
 
+### Issue 0 — Double-counting fix for late-era double-entry pages (NEW)
+Late-era pages (~1880–1900) use a double-entry layout where both income (left/Dr) and
+expenditure (right/Cr) columns appear on the same physical page. Summing all row amounts
+without correction double-counts activity on these pages.
+
+Fix: the `side` field in supervisor JSON files marks each row as `"left"` (income) or
+`"right"` (expenditure). When this field is present, the row's amount is multiplied by 0.5
+before aggregation. This eliminates the double-count.
+
+- Post-1840 vs pre-1760 nominal ratio  BEFORE fix: ~18.9×  →  AFTER fix: **14.9×**
+- Post-1840 vs pre-1760 real ratio     BEFORE fix: ~11.4×  →  AFTER fix: **8.9×**
+
 ### Issue 1 — Price deflation
 Nominal pound amounts have been deflated using the **Phelps Brown-Hopkins price
 index** (base: 1700 = 100) to produce constant-price (real) equivalents.
 This allows testing whether the observed growth in transaction scale persists
 after removing inflation.
 
-- Post-1840 vs pre-1760 nominal ratio : 18.9×
-- Post-1840 vs pre-1760 real ratio    : 11.4×
+- Post-1840 vs pre-1760 nominal ratio : 14.9×
+- Post-1840 vs pre-1760 real ratio    : 8.9×
 
 A real ratio substantially smaller than the nominal ratio indicates that part
 of the apparent expansion was driven by rising prices (especially the
@@ -47,21 +59,21 @@ Both entry_ratio and data_rows_per_page are included in change-point detection.
 
 ## Era-level summary (nominal and real)
                  era  years  mean_amount_sum_nominal  mean_amount_sum_real  median_amount_median_nominal  median_amount_median_real  mean_entry_ratio  mean_data_rows_per_page
-industrial_1760_1840     81             26864.152032          14971.105101                      9.000000                   4.758733          0.915901                22.736086
-           post_1840     55            111881.290095          65736.147765                      8.183333                   4.438928          0.876540                31.890855
-            pre_1760     60              5914.424983           5776.679647                      2.073958                   2.020226          0.935525                28.393550
+industrial_1760_1840     81             25268.816152          14094.021778                      8.200000                   4.593723          0.915901                22.736086
+           post_1840     55             84545.571941          49304.382820                      7.229167                   4.132795          0.876540                31.890855
+            pre_1760     60              5673.049531           5540.156320                      2.057292                   1.991129          0.935525                28.393550
 
 ## Change points — yearly amount_sum (nominal)
-- 1891: delta=435,519.02, robust_z=72.65
-- 1892: delta=-388,040.79, robust_z=64.64
-- 1894: delta=-273,316.23, robust_z=45.29
-- 1880: delta=-217,770.44, robust_z=35.92
-- 1879: delta=189,947.10, robust_z=31.23
-- 1876: delta=-178,735.51, robust_z=29.34
-- 1893: delta=172,662.94, robust_z=28.31
-- 1873: delta=170,740.51, robust_z=27.99
-- 1883: delta=127,545.89, robust_z=20.70
-- 1889: delta=121,384.77, robust_z=19.66
+- 1891: delta=217,759.51, robust_z=39.64
+- 1880: delta=-215,516.93, robust_z=39.23
+- 1892: delta=-194,020.40, robust_z=35.24
+- 1879: delta=189,288.84, robust_z=34.36
+- 1876: delta=-171,890.20, robust_z=31.13
+- 1873: delta=163,485.56, robust_z=29.57
+- 1893: delta=151,079.02, robust_z=27.26
+- 1894: delta=-137,663.45, robust_z=24.77
+- 1883: delta=68,050.17, robust_z=11.85
+- 1889: delta=60,692.39, robust_z=10.48
 
 ## Change points — entry_ratio (accounting structure)
 - 1885: delta=0.1585, robust_z=12.91

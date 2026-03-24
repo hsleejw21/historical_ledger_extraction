@@ -15,6 +15,7 @@ Improvements over v1:
 from __future__ import annotations
 
 import re
+import json
 from pathlib import Path
 from typing import Any
 
@@ -36,6 +37,7 @@ from sklearn.preprocessing import StandardScaler
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK = ROOT / "experiments" / "results" / "ledger.xlsx"
 OUT_DIR = ROOT / "experiments" / "reports" / "ledger_clean_v2"
+CACHE_DIR = ROOT / "experiments" / "results" / "cache"
 
 # ---------------------------------------------------------------------------
 # 1. Price deflation: Phelps Brown-Hopkins basket-of-consumables index
@@ -191,9 +193,43 @@ def robust_zscore(x: pd.Series) -> pd.Series:
 # Data loading (unchanged)
 # ---------------------------------------------------------------------------
 
+def build_side_map(cache_dir: Path) -> dict[tuple[str, int], str]:
+    """Build (sheet, row_idx) -> side map from supervisor cache json.
+
+    If a row has side="left" or side="right", we treat that entry as potentially
+    coming from a debit/credit two-sided layout and later apply a 0.5 amount factor
+    to avoid double counting when both sides are recorded on the same page.
+    """
+    side_map: dict[tuple[str, int], str] = {}
+    if not cache_dir.exists():
+        return side_map
+
+    for fp in sorted(cache_dir.glob("*_image_supervisor_gemini-flash.json")):
+        page_id = fp.name.replace("_supervisor_gemini-flash.json", "")
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+        except Exception:
+            continue
+
+        rows = payload.get("rows") if isinstance(payload, dict) else None
+        if not isinstance(rows, list):
+            continue
+
+        for r in rows:
+            if not isinstance(r, dict):
+                continue
+            idx = r.get("row_index")
+            side = (r.get("side") or "").strip().lower()
+            if isinstance(idx, int) and side in {"left", "right"}:
+                side_map[(page_id, idx)] = side
+    return side_map
+
+
 def load_data(workbook_path: Path) -> pd.DataFrame:
     xl = pd.ExcelFile(workbook_path)
     rows: list[dict[str, Any]] = []
+    side_map = build_side_map(CACHE_DIR)
 
     for sheet in xl.sheet_names:
         parsed = parse_sheet_years(sheet)
@@ -217,6 +253,11 @@ def load_data(workbook_path: Path) -> pd.DataFrame:
             pence     = parse_money_number(r["d (Pence)"])
             frac      = parse_fraction(r["d Fraction"])
             amount_decimal = pounds + (shillings / 20.0) + ((pence + frac) / 240.0)
+            row_idx = int(i) + 1
+            side = side_map.get((sheet, row_idx), "")
+            # Heuristic: if side exists, treat value as one side of a debit/credit pair.
+            side_adjustment = 0.5 if side in {"left", "right"} else 1.0
+            amount_decimal_adjusted = amount_decimal * side_adjustment
 
             desc_raw  = "" if pd.isna(r["Description"]) else str(r["Description"])
             desc_norm = normalize_text(desc_raw)
@@ -230,13 +271,16 @@ def load_data(workbook_path: Path) -> pd.DataFrame:
                     ),
                     "year":            year,
                     "page":            page,
-                    "row_idx":         int(i) + 1,
+                    "row_idx":         row_idx,
                     "row_type":        row_type,
+                    "side":            side,
+                    "side_adjustment": side_adjustment,
                     "description_raw": desc_raw,
                     "description_norm": desc_norm,
                     "amount_decimal":  amount_decimal,
+                    "amount_decimal_adjusted": amount_decimal_adjusted,
                     "year_weight":     year_weight,
-                    "amount_weighted": amount_decimal * year_weight,
+                    "amount_weighted": amount_decimal_adjusted * year_weight,
                 })
 
     out = pd.DataFrame(rows)
@@ -265,10 +309,10 @@ def build_yearly_numeric(df: pd.DataFrame) -> pd.DataFrame:
                 s[data_rows.loc[s.index, "row_type"] == "total"].sum()
             )),
             amount_sum    = ("amount_weighted", "sum"),
-            amount_mean   = ("amount_decimal",  "mean"),
-            amount_median = ("amount_decimal",  "median"),
-            amount_p90    = ("amount_decimal",  lambda s: float(np.quantile(s, 0.90))),
-            amount_max    = ("amount_decimal",  "max"),
+            amount_mean   = ("amount_decimal_adjusted",  "mean"),
+            amount_median = ("amount_decimal_adjusted",  "median"),
+            amount_p90    = ("amount_decimal_adjusted",  lambda s: float(np.quantile(s, 0.90))),
+            amount_max    = ("amount_decimal_adjusted",  "max"),
         )
         .sort_values("year")
     )
@@ -278,6 +322,19 @@ def build_yearly_numeric(df: pd.DataFrame) -> pd.DataFrame:
         yearly[col] = yearly[col].round(3)
 
     yearly["era"] = yearly["year"].map(era_of_year)
+
+    # Side-aware diagnostic columns
+    yearly_side = (
+        data_rows.assign(has_side=data_rows["side"].isin(["left", "right"]).astype(float))
+        .groupby("year", as_index=False)
+        .agg(
+            n_side_rows=("has_side", "sum"),
+            side_row_ratio=("has_side", "mean"),
+        )
+    )
+    yearly = yearly.merge(yearly_side, on="year", how="left")
+    yearly["n_side_rows"] = yearly["n_side_rows"].fillna(0.0).round(3)
+    yearly["side_row_ratio"] = yearly["side_row_ratio"].fillna(0.0).round(4)
 
     # --- Relative variables (Issue 3) ---
     # entry_ratio: fraction of data rows that are entry rows (not total rows).
@@ -711,7 +768,7 @@ def main() -> None:
     df = load_data(WORKBOOK)
     df.to_csv(OUT_DIR / "all_rows_with_amounts.csv", index=False)
 
-    print("Building yearly numeric summary (with relative variables + deflation)…")
+    print("Building yearly numeric summary (with side-aware adjustment + relative variables + deflation)…")
     yearly = build_yearly_numeric(df)
     yearly.to_csv(OUT_DIR / "yearly_numeric_summary_v2.csv", index=False)
 
