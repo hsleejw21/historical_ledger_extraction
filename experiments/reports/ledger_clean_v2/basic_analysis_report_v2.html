@@ -515,7 +515,7 @@
   </div>
 
   <div class="card">
-    <h2>8) Bottom line</h2>
+    <h2>8) Bottom line and next steps</h2>
     <p>
       <strong>This is not just a rerun.</strong> It materially improves interpretability through four
       independent methodological contributions: (1) correcting a double-counting artefact in late-era
@@ -526,11 +526,28 @@
       shifts alongside financial shocks. The LatinBERT comparison further validates that Latin-aware
       embeddings capture earlier period semantics more faithfully than TF-IDF alone.
     </p>
+    <h3>The next analysis pass will be built entirely on the enriched data</h3>
     <p>
-      The ongoing enrichment phase — annotating each row with direction, category, language, named entities,
-      and governance signals — is expected to make the next analysis pass substantially more explanatory,
-      especially for category-level and governance-level historical interpretation.
+      Everything in this report — the trend lines, change points, clustering, and text analysis — was
+      produced from the raw extracted text and amounts alone. The enrichment pipeline described in
+      Section 6 adds a semantic layer on top of that: each row now carries a direction, a category,
+      a language label, named entities, and governance flags.
     </p>
+    <p>
+      <strong>The next report will re-run all of the same analyses on the enriched dataset.</strong>
+      This means instead of asking "how did total amounts change over time?" we will be able to ask
+      "how did <em>land rent income</em> change, separately from <em>maintenance expenditure</em>?"
+      Instead of seeing all Latin text as one undifferentiated mass, we will track when specific
+      transaction categories shifted from Latin to English record-keeping. Instead of a single
+      amount trend, we will see category-resolved trends that speak directly to what the college
+      was actually doing economically in each era.
+    </p>
+    <div class="callout callout-fix">
+      <strong>Immediate next step:</strong> complete enrichment for the remaining ~589 pages (years 1829–1900),
+      then run a full reanalysis pass that reads the enriched JSON files alongside the base rows.
+      The enriched analysis will replace all aggregate-level charts with category-stratified versions
+      and add entity, language, and governance panels.
+    </div>
     <p class="muted">Prepared by Jungwoo Hong · March 24, 2026</p>
   </div>
 </body>
