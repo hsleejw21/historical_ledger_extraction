@@ -116,7 +116,7 @@
     <span class="tag tag-new">March 24 update</span>
     <span class="tag tag-improved">comparison-focused</span>
     <span class="tag tag-fixed">double-counting fixed</span>
-    <span class="tag tag-new">enrichment complete (128 pages)</span>
+    <span class="tag tag-new">enrichment: 992 pages done (1700–1828)</span>
   </div>
 
   <div class="card">
@@ -158,7 +158,7 @@
       <tr><th>Comparison</th><th>Before fix (v1 amounts)</th><th>After fix (v2 amounts)</th><th>Effect</th></tr>
       <tr><td>Nominal ratio (post_1840 / pre_1760)</td><td>18.9×</td><td>14.9×</td><td>Late-era peak substantially reduced</td></tr>
       <tr><td>Real ratio (inflation-adjusted)</td><td>11.4×</td><td>8.9×</td><td>Same direction; reduced after fix</td></tr>
-      <tr><td>1891 amount_sum (nominal)</td><td>~860,000 implied by prior delta</td><td>334,039</td><td>~60% reduction — consistent with ~99% of rows being double-entry</td></tr>
+      <tr><td>1891 amount_sum (nominal)</td><td>~663,000 (back-calculated from side_row_ratio = 0.992)</td><td>334,039</td><td>~50% reduction — consistent with ~99% of rows being double-entry</td></tr>
     </table>
     <p>
       The peak in 1880–1900 is still real: the college genuinely expanded in this period. But a substantial
@@ -230,10 +230,32 @@
       <li><strong>Model evidence strengthened:</strong> Latin-aware embeddings now provide explicit comparative gains over TF-IDF-only embeddings.</li>
     </ul>
 
+    <h3>Top change points (amount_sum, after double-entry fix)</h3>
+    <table>
+      <tr><th>Year</th><th>Delta (£ nominal)</th><th>Robust z-score</th><th>Direction</th></tr>
+      <tr><td>1891</td><td>+217,760</td><td>39.6</td><td>Large spike up — likely major investment/sale event</td></tr>
+      <tr><td>1880</td><td>−215,517</td><td>39.2</td><td>Drop following 1870s expansion</td></tr>
+      <tr><td>1892</td><td>−194,020</td><td>35.2</td><td>Rapid reversal after 1891 peak</td></tr>
+      <tr><td>1879</td><td>+189,289</td><td>34.4</td><td>1870s run-up</td></tr>
+      <tr><td>1876</td><td>−171,890</td><td>31.1</td><td>Mid-decade correction</td></tr>
+    </table>
+
+    <h3>Top change points (entry_ratio — bookkeeping structure)</h3>
+    <table>
+      <tr><th>Year</th><th>Delta</th><th>Robust z-score</th><th>Interpretation</th></tr>
+      <tr><td>1885</td><td>+0.159</td><td>12.9</td><td>More granular sub-entries introduced</td></tr>
+      <tr><td>1883</td><td>−0.140</td><td>11.3</td><td>Consolidation of entries</td></tr>
+      <tr><td>1889</td><td>−0.137</td><td>11.0</td><td>Further consolidation</td></tr>
+    </table>
+    <p class="muted" style="font-size:13px">
+      The concentration of entry_ratio breaks in the 1883–1889 window, overlapping with the amount_sum shocks,
+      suggests the 1880s represent a genuine regime change in how the college organised its accounts — not purely a financial event.
+    </p>
+
     <table>
       <tr><th>Metric</th><th>Baseline view</th><th>March 24 view</th></tr>
       <tr><td>Amount trend</td><td>Nominal-only growth emphasis</td><td>Nominal + real (deflated) trend comparison</td></tr>
-      <tr><td>1880–1900 peak</td><td>Taken at face value</td><td>Halved after double-entry layout fix</td></tr>
+      <tr><td>1880–1900 peak</td><td>Taken at face value</td><td>~50% reduction on peak years after double-entry fix</td></tr>
       <tr><td>Text distinctiveness</td><td>More boilerplate carryover</td><td>Cleaner term signal via expanded stop words</td></tr>
       <tr><td>Process diagnostics</td><td>Mainly total amount/volume</td><td>Adds entry_ratio and data_rows_per_page</td></tr>
       <tr><td>Change-point interpretation</td><td>Mostly financial shock framing</td><td>Financial + format/recording-structure framing</td></tr>
@@ -461,9 +483,9 @@
     <p>
       Each page takes roughly 60–90 seconds to process via the API (the model reads ~6,600 tokens of
       input and produces ~3,800 tokens of structured output per page). The full corpus has 1,581 supervisor
-      pages. As of March 24, <strong>128 pages have been enriched and committed</strong>
-      (covering years 1700–1717 and select test pages). The remaining ~1,453 pages are queued for processing
-      on a persistent compute session.
+      pages. As of March 24, <strong>992 pages have been enriched and committed</strong>
+      (covering years 1700–1828 — more than half the corpus). The remaining ~589 pages (1829–1900)
+      are queued for processing on a persistent compute session.
     </p>
     <p>
       Results are saved to <code>experiments/results/enriched/{page_id}_enriched.json</code>. The pipeline
@@ -497,7 +519,7 @@
     <p>
       <strong>This is not just a rerun.</strong> It materially improves interpretability through four
       independent methodological contributions: (1) correcting a double-counting artefact in late-era
-      double-entry pages, which reduces the apparent 1880–1900 peak by ~40%; (2) deflating nominal
+      double-entry pages, which reduces peak years like 1891 by ~50% (from ~663k to 334k nominal £); (2) deflating nominal
       amounts to constant 1700 prices, separating real activity growth from inflation; (3) cleaning
       lexical noise from text analysis by expanding the stop-word list; and (4) adding structure-sensitive
       diagnostics (<code>entry_ratio</code>, <code>data_rows_per_page</code>) that reveal bookkeeping-format
