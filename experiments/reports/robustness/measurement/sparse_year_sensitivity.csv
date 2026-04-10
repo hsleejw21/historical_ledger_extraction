@@ -1,0 +1,13 @@
+min_pages_per_year,n_years_included,era,land_rent_share
+all_years,196,industrial_1760_1840,0.33
+all_years,196,post_1840,0.1228
+all_years,196,pre_1760,0.4062
+min_2_pages,194,industrial_1760_1840,0.33
+min_2_pages,194,post_1840,0.1223
+min_2_pages,194,pre_1760,0.4062
+min_3_pages,194,industrial_1760_1840,0.33
+min_3_pages,194,post_1840,0.1223
+min_3_pages,194,pre_1760,0.4062
+min_5_pages,191,industrial_1760_1840,0.3274
+min_5_pages,191,post_1840,0.1225
+min_5_pages,191,pre_1760,0.4062

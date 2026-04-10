@@ -1,0 +1,13 @@
+field,rater_a,rater_b,cohen_kappa,n_items
+direction,original,haiku45,0.8392,2795
+direction,original,gemini25flash,0.8276,2795
+direction,haiku45,gemini25flash,0.866,2795
+category,original,haiku45,0.7299,2795
+category,original,gemini25flash,0.7579,2795
+category,haiku45,gemini25flash,0.7564,2795
+language,original,haiku45,0.6223,2795
+language,original,gemini25flash,0.6278,2795
+language,haiku45,gemini25flash,0.6159,2795
+payment_period,original,haiku45,0.552,2795
+payment_period,original,gemini25flash,0.5635,2795
+payment_period,haiku45,gemini25flash,0.6072,2795

@@ -1,0 +1,14 @@
+scheme,era,financial_count_share
+baseline,industrial_1760_1840,0.081
+baseline,post_1840,0.1693
+baseline,pre_1760,0.0374
+alt_a_shifted,mid_1750_1850,0.0787
+alt_a_shifted,post_1850,0.1949
+alt_a_shifted,pre_1750,0.0328
+alt_b_late_start,industrial_1780_1840,0.0817
+alt_b_late_start,post_1840,0.1693
+alt_b_late_start,pre_1780,0.0471
+alt_c_finer,early_industrial_1760_1800,0.081
+alt_c_finer,late_industrial_1800_1840,0.081
+alt_c_finer,post_1840,0.1693
+alt_c_finer,pre_1760,0.0374

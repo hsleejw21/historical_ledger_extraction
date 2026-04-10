@@ -1,0 +1,277 @@
+Model config: Google Gemini 2.5 Flash via OpenAI-compatible endpoint
+Pages to process: 105
+[1/105] 1701_3_image
+  [coerce] 1701_3_image row 30: category='unclear' -> 'other'
+  [done] 1701_3_image -> 1701_3_image_enriched.json  (32 rows)
+[2/105] 1700_1_image
+  [done] 1700_1_image -> 1700_1_image_enriched.json  (31 rows)
+[3/105] 1704_7_image
+  [done] 1704_7_image -> 1704_7_image_enriched.json  (32 rows)
+[4/105] 1704_3_image
+  [done] 1704_3_image -> 1704_3_image_enriched.json  (18 rows)
+[5/105] 1703_6_image
+  [done] 1703_6_image -> 1703_6_image_enriched.json  (26 rows)
+[6/105] 1712_4_image
+  [done] 1712_4_image -> 1712_4_image_enriched.json  (28 rows)
+[7/105] 1711_7_image
+  [done] 1711_7_image -> 1711_7_image_enriched.json  (33 rows)
+[8/105] 1719_5_image
+  [coerce] 1719_5_image row 5: category='unclear' -> 'other'
+  [coerce] 1719_5_image row 14: category='unclear' -> 'other'
+  [coerce] 1719_5_image row 22: category='unclear' -> 'other'
+  [done] 1719_5_image -> 1719_5_image_enriched.json  (32 rows)
+[9/105] 1711_5_image
+  [done] 1711_5_image -> 1711_5_image_enriched.json  (38 rows)
+[10/105] 1717_4_image
+  [coerce] 1717_4_image row 20: category='unclear' -> 'other'
+  [done] 1717_4_image -> 1717_4_image_enriched.json  (31 rows)
+[11/105] 1720_5_image
+  [coerce] 1720_5_image row 4: category='unclear' -> 'other'
+  [coerce] 1720_5_image row 13: category='unclear' -> 'other'
+  [coerce] 1720_5_image row 25: category='unclear' -> 'other'
+  [coerce] 1720_5_image row 30: category='unclear' -> 'other'
+  [done] 1720_5_image -> 1720_5_image_enriched.json  (37 rows)
+[12/105] 1720_4_image
+  [done] 1720_4_image -> 1720_4_image_enriched.json  (26 rows)
+[13/105] 1721-1722_1_image
+  [done] 1721-1722_1_image -> 1721-1722_1_image_enriched.json  (37 rows)
+[14/105] 1724_1_image
+  [coerce] 1724_1_image row 11: category='unclear' -> 'other'
+  [coerce] 1724_1_image row 11: language='unclear' -> 'mixed'
+  [done] 1724_1_image -> 1724_1_image_enriched.json  (35 rows)
+[15/105] 1724_3_image
+  [done] 1724_3_image -> 1724_3_image_enriched.json  (13 rows)
+[16/105] 1734_4_image
+  [done] 1734_4_image -> 1734_4_image_enriched.json  (19 rows)
+[17/105] 1735_5_image
+  [done] 1735_5_image -> 1735_5_image_enriched.json  (9 rows)
+[18/105] 1730_2_image
+  [done] 1730_2_image -> 1730_2_image_enriched.json  (34 rows)
+[19/105] 1735_2_image
+  [done] 1735_2_image -> 1735_2_image_enriched.json  (43 rows)
+[20/105] 1731_4_image
+  [coerce] 1731_4_image row 5: category='unclear' -> 'other'
+  [coerce] 1731_4_image row 20: category='unclear' -> 'other'
+  [done] 1731_4_image -> 1731_4_image_enriched.json  (27 rows)
+[21/105] 1747_4_image
+  [coerce] 1747_4_image row 38: category='unclear' -> 'other'
+  [done] 1747_4_image -> 1747_4_image_enriched.json  (39 rows)
+[22/105] 1746_7_image
+  [done] 1746_7_image -> 1746_7_image_enriched.json  (6 rows)
+[23/105] 1747_3_image
+  [done] 1747_3_image -> 1747_3_image_enriched.json  (33 rows)
+[24/105] 1745_6_image
+  [done] 1745_6_image -> 1745_6_image_enriched.json  (30 rows)
+[25/105] 1744_5_image
+  [done] 1744_5_image -> 1744_5_image_enriched.json  (41 rows)
+[26/105] 1753_6_image
+  [coerce] 1753_6_image row 5: category='unclear' -> 'other'
+  [coerce] 1753_6_image row 6: category='unclear' -> 'other'
+  [done] 1753_6_image -> 1753_6_image_enriched.json  (7 rows)
+[27/105] 1757_5_image
+  [coerce] 1757_5_image row 7: category='unclear' -> 'other'
+  [coerce] 1757_5_image row 19: category='unclear' -> 'other'
+  [coerce] 1757_5_image row 24: category='unclear' -> 'other'
+  [coerce] 1757_5_image row 26: category='unclear' -> 'other'
+  [done] 1757_5_image -> 1757_5_image_enriched.json  (35 rows)
+[28/105] 1759-1760_5_image
+  [done] 1759-1760_5_image -> 1759-1760_5_image_enriched.json  (36 rows)
+[29/105] 1754_7_image
+  [done] 1754_7_image -> 1754_7_image_enriched.json  (21 rows)
+[30/105] 1750_1_image
+  [coerce] 1750_1_image row 21: category='unclear' -> 'other'
+  [done] 1750_1_image -> 1750_1_image_enriched.json  (26 rows)
+[31/105] 1763_5_image
+  [coerce] 1763_5_image row 18: category='unclear' -> 'other'
+  [done] 1763_5_image -> 1763_5_image_enriched.json  (22 rows)
+[32/105] 1767-1768_13_image
+  [done] 1767-1768_13_image -> 1767-1768_13_image_enriched.json  (6 rows)
+[33/105] 1766_2_image
+  [done] 1766_2_image -> 1766_2_image_enriched.json  (20 rows)
+[34/105] 1765_3_image
+  [coerce] 1765_3_image row 12: category='unclear' -> 'other'
+  [coerce] 1765_3_image row 12: language='unclear' -> 'mixed'
+  [coerce] 1765_3_image row 13: category='unclear' -> 'other'
+  [coerce] 1765_3_image row 13: language='unclear' -> 'mixed'
+  [coerce] 1765_3_image row 14: category='unclear' -> 'other'
+  [coerce] 1765_3_image row 14: language='unclear' -> 'mixed'
+  [coerce] 1765_3_image row 15: category='unclear' -> 'other'
+  [coerce] 1765_3_image row 15: language='unclear' -> 'mixed'
+  [done] 1765_3_image -> 1765_3_image_enriched.json  (21 rows)
+[35/105] 1763_4_image
+  [done] 1763_4_image -> 1763_4_image_enriched.json  (18 rows)
+[36/105] 1773-1774_2_image
+  [coerce] 1773-1774_2_image row 20: category='unclear' -> 'other'
+  [done] 1773-1774_2_image -> 1773-1774_2_image_enriched.json  (37 rows)
+[37/105] 1774-1775_7_image
+  [done] 1774-1775_7_image -> 1774-1775_7_image_enriched.json  (20 rows)
+[38/105] 1771-1772_8_image
+  [done] 1771-1772_8_image -> 1771-1772_8_image_enriched.json  (30 rows)
+[39/105] 1771-1772_6_image
+  [done] 1771-1772_6_image -> 1771-1772_6_image_enriched.json  (30 rows)
+[40/105] 1775-1776_3_image
+  [done] 1775-1776_3_image -> 1775-1776_3_image_enriched.json  (24 rows)
+[41/105] 1781-1782_3_image
+  [done] 1781-1782_3_image -> 1781-1782_3_image_enriched.json  (13 rows)
+[42/105] 1785-1786_3_image
+  [done] 1785-1786_3_image -> 1785-1786_3_image_enriched.json  (16 rows)
+[43/105] 1785-1786_2_image
+  [done] 1785-1786_2_image -> 1785-1786_2_image_enriched.json  (30 rows)
+[44/105] 1788-1789_5_image
+  [done] 1788-1789_5_image -> 1788-1789_5_image_enriched.json  (23 rows)
+[45/105] 1783-1784_6_image
+  [done] 1783-1784_6_image -> 1783-1784_6_image_enriched.json  (29 rows)
+[46/105] 1790-1791_5_image
+  [coerce] 1790-1791_5_image row 3: category='unclear' -> 'other'
+  [done] 1790-1791_5_image -> 1790-1791_5_image_enriched.json  (33 rows)
+[47/105] 1796-1797_2_image
+  [done] 1796-1797_2_image -> 1796-1797_2_image_enriched.json  (27 rows)
+[48/105] 1797-1798_4_image
+  [coerce] 1797-1798_4_image row 18: category='unclear' -> 'other'
+  [coerce] 1797-1798_4_image row 30: category='unclear' -> 'other'
+  [done] 1797-1798_4_image -> 1797-1798_4_image_enriched.json  (31 rows)
+[49/105] 1791-1792_6_image
+  [done] 1791-1792_6_image -> 1791-1792_6_image_enriched.json  (22 rows)
+[50/105] 1795-1796_1_image
+  [done] 1795-1796_1_image -> 1795-1796_1_image_enriched.json  (27 rows)
+[51/105] 1801_4_image
+  [done] 1801_4_image -> 1801_4_image_enriched.json  (27 rows)
+[52/105] 1809_1_image
+  [done] 1809_1_image -> 1809_1_image_enriched.json  (20 rows)
+[53/105] 1804_7_image
+  [done] 1804_7_image -> 1804_7_image_enriched.json  (25 rows)
+[54/105] 1805_8_image
+  [done] 1805_8_image -> 1805_8_image_enriched.json  (38 rows)
+[55/105] 1809_4_image
+  [done] 1809_4_image -> 1809_4_image_enriched.json  (29 rows)
+[56/105] 1813_2_image
+  [done] 1813_2_image -> 1813_2_image_enriched.json  (36 rows)
+[57/105] 1810_9_image
+  [coerce] 1810_9_image row 6: language='unclear' -> 'mixed'
+  [coerce] 1810_9_image row 8: language='unclear' -> 'mixed'
+  [done] 1810_9_image -> 1810_9_image_enriched.json  (24 rows)
+[58/105] 1810_6_image
+  [done] 1810_6_image -> 1810_6_image_enriched.json  (30 rows)
+[59/105] 1813_7_image
+  [done] 1813_7_image -> 1813_7_image_enriched.json  (28 rows)
+[60/105] 1815_1_image
+  [coerce] 1815_1_image row 2: payment_period='quarter' -> 'unclear'
+  [coerce] 1815_1_image row 10: payment_period='quarter' -> 'unclear'
+  [coerce] 1815_1_image row 23: payment_period='quarter' -> 'unclear'
+  [done] 1815_1_image -> 1815_1_image_enriched.json  (45 rows)
+[61/105] 1821_10_image
+  [done] 1821_10_image -> 1821_10_image_enriched.json  (8 rows)
+[62/105] 1829_8_image
+  [done] 1829_8_image -> 1829_8_image_enriched.json  (9 rows)
+[63/105] 1822_9_image
+  [done] 1822_9_image -> 1822_9_image_enriched.json  (30 rows)
+[64/105] 1829_9_image
+  [done] 1829_9_image -> 1829_9_image_enriched.json  (25 rows)
+[65/105] 1821_1_image
+  [done] 1821_1_image -> 1821_1_image_enriched.json  (24 rows)
+[66/105] 1834_11_image
+  [done] 1834_11_image -> 1834_11_image_enriched.json  (24 rows)
+[67/105] 1832_9_image
+  [coerce] 1832_9_image row 20: direction='administrative' -> 'unclear'
+  [coerce] 1832_9_image row 21: direction='administrative' -> 'unclear'
+  [coerce] 1832_9_image row 22: direction='administrative' -> 'unclear'
+  [coerce] 1832_9_image row 23: direction='administrative' -> 'unclear'
+  [coerce] 1832_9_image row 24: direction='administrative' -> 'unclear'
+  [coerce] 1832_9_image row 25: direction='administrative' -> 'unclear'
+  [done] 1832_9_image -> 1832_9_image_enriched.json  (25 rows)
+[68/105] 1834_6_image
+  [done] 1834_6_image -> 1834_6_image_enriched.json  (21 rows)
+[69/105] 1836_4_image
+  [done] 1836_4_image -> 1836_4_image_enriched.json  (25 rows)
+[70/105] 1838_7_image
+  [done] 1838_7_image -> 1838_7_image_enriched.json  (23 rows)
+[71/105] 1845_10_image
+  [done] 1845_10_image -> 1845_10_image_enriched.json  (28 rows)
+[72/105] 1842_3_image
+  [done] 1842_3_image -> 1842_3_image_enriched.json  (33 rows)
+[73/105] 1845_1_image
+  [done] 1845_1_image -> 1845_1_image_enriched.json  (25 rows)
+[74/105] 1844_8_image
+  [done] 1844_8_image -> 1844_8_image_enriched.json  (29 rows)
+[75/105] 1843_10_image
+  [done] 1843_10_image -> 1843_10_image_enriched.json  (28 rows)
+[76/105] 1859_3_image
+  [done] 1859_3_image -> 1859_3_image_enriched.json  (55 rows)
+[77/105] 1853_4_image
+  [done] 1853_4_image -> 1853_4_image_enriched.json  (33 rows)
+[78/105] 1859_5_image
+  [coerce] 1859_5_image row 15: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 16: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 17: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 18: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 19: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 20: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 21: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 22: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 23: category='unclear' -> 'other'
+  [coerce] 1859_5_image row 29: category='unclear' -> 'other'
+  [done] 1859_5_image -> 1859_5_image_enriched.json  (36 rows)
+[79/105] 1858_8_image
+  [done] 1858_8_image -> 1858_8_image_enriched.json  (26 rows)
+[80/105] 1850_8_image
+  [done] 1850_8_image -> 1850_8_image_enriched.json  (12 rows)
+[81/105] 1863_1_image
+  [done] 1863_1_image -> 1863_1_image_enriched.json  (19 rows)
+[82/105] 1869_5_image
+  [done] 1869_5_image -> 1869_5_image_enriched.json  (38 rows)
+[83/105] 1864_3_image
+  [done] 1864_3_image -> 1864_3_image_enriched.json  (34 rows)
+[84/105] 1862_7_image
+  [done] 1862_7_image -> 1862_7_image_enriched.json  (18 rows)
+[85/105] 1868_3_image
+  [coerce] 1868_3_image row 3: category='transfer' -> 'other'
+  [done] 1868_3_image -> 1868_3_image_enriched.json  (33 rows)
+[86/105] 1876_4_image
+  [coerce] 1876_4_image row 25: category='unclear' -> 'other'
+  [coerce] 1876_4_image row 28: category='unclear' -> 'other'
+  [coerce] 1876_4_image row 29: category='unclear' -> 'other'
+  [coerce] 1876_4_image row 30: category='unclear' -> 'other'
+  [done] 1876_4_image -> 1876_4_image_enriched.json  (37 rows)
+[87/105] 1873_17_image
+  [done] 1873_17_image -> 1873_17_image_enriched.json  (19 rows)
+[88/105] 1879_1_image
+  [done] 1879_1_image -> 1879_1_image_enriched.json  (29 rows)
+[89/105] 1873_11_image
+  [done] 1873_11_image -> 1873_11_image_enriched.json  (37 rows)
+[90/105] 1873_7_image
+  [done] 1873_7_image -> 1873_7_image_enriched.json  (31 rows)
+[91/105] 1880_4_image
+  [done] 1880_4_image -> 1880_4_image_enriched.json  (42 rows)
+[92/105] 1881_4_image
+  [coerce] 1881_4_image row 16: category='unclear' -> 'other'
+  [coerce] 1881_4_image row 17: category='unclear' -> 'other'
+  [done] 1881_4_image -> 1881_4_image_enriched.json  (51 rows)
+[93/105] 1880_3_image
+  [coerce] 1880_3_image row 16: category='unclear' -> 'other'
+  [done] 1880_3_image -> 1880_3_image_enriched.json  (52 rows)
+[94/105] 1882_10_image
+  [done] 1882_10_image -> 1882_10_image_enriched.json  (45 rows)
+[95/105] 1882_5_image
+  [done] 1882_5_image -> 1882_5_image_enriched.json  (50 rows)
+[96/105] 1893_5_image
+  [done] 1893_5_image -> 1893_5_image_enriched.json  (41 rows)
+[97/105] 1891_5_image
+  [done] 1891_5_image -> 1891_5_image_enriched.json  (106 rows)
+[98/105] 1893_1_image
+  [done] 1893_1_image -> 1893_1_image_enriched.json  (110 rows)
+[99/105] 1896_3_image
+  [done] 1896_3_image -> 1896_3_image_enriched.json  (9 rows)
+[100/105] 1899_5_image
+  [done] 1899_5_image -> 1899_5_image_enriched.json  (33 rows)
+[101/105] 1900_6_image
+  [done] 1900_6_image -> 1900_6_image_enriched.json  (30 rows)
+[102/105] 1900_3_image
+  [done] 1900_3_image -> 1900_3_image_enriched.json  (8 rows)
+[103/105] 1900_2_image
+  [done] 1900_2_image -> 1900_2_image_enriched.json  (33 rows)
+[104/105] 1900_5_image
+  [done] 1900_5_image -> 1900_5_image_enriched.json  (31 rows)
+[105/105] 1900_4_image
+  [done] 1900_4_image -> 1900_4_image_enriched.json  (4 rows)
+
+Done. Processed 105 pages -> /Users/jungwoo.hong/Documents/Miscellaneous/historical_ledger_extraction/historical_ledger_extraction/experiments/results/robustness/gemini25flash

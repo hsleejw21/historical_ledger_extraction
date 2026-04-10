@@ -1,0 +1,43 @@
+INTER-MODEL RELIABILITY SUMMARY
+============================================================
+
+Models compared: ['original', 'haiku45', 'gemini25flash']
+Pages sampled: 105
+Common entries: 2,795
+
+Interpretation guide (Landis & Koch 1977):
+  κ > 0.80 = Almost perfect
+  κ 0.60–0.80 = Substantial
+  κ 0.40–0.60 = Moderate
+  κ < 0.40 = Weak
+
+Fleiss' κ (all models):
+         field  fleiss_kappa
+     direction        0.8441
+      category        0.7480
+      language        0.6204
+payment_period        0.5705
+
+Cohen's κ (pairwise):
+         field  rater_a       rater_b  cohen_kappa
+     direction original       haiku45       0.8392
+     direction original gemini25flash       0.8276
+     direction  haiku45 gemini25flash       0.8660
+      category original       haiku45       0.7299
+      category original gemini25flash       0.7579
+      category  haiku45 gemini25flash       0.7564
+      language original       haiku45       0.6223
+      language original gemini25flash       0.6278
+      language  haiku45 gemini25flash       0.6159
+payment_period original       haiku45       0.5520
+payment_period original gemini25flash       0.5635
+payment_period  haiku45 gemini25flash       0.6072
+
+Exact agreement rates:
+         field  exact_agree_rate  n_items
+     direction            0.8744     2795
+      category            0.6970     2795
+      language            0.6923     2795
+payment_period            0.5549     2795
+    is_arrears            0.9098     2795
+  is_signature            1.0000     2795

@@ -1,0 +1,10 @@
+confidence_threshold,era,financial_count_share
+all_entries,industrial_1760_1840,0.081
+all_entries,post_1840,0.1693
+all_entries,pre_1760,0.0374
+conf_ge_0.90,industrial_1760_1840,0.0824
+conf_ge_0.90,post_1840,0.1705
+conf_ge_0.90,pre_1760,0.0394
+conf_ge_0.95,industrial_1760_1840,0.0812
+conf_ge_0.95,post_1840,0.1746
+conf_ge_0.95,pre_1760,0.0404

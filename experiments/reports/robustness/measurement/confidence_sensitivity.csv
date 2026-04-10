@@ -1,0 +1,10 @@
+confidence_threshold,era,n_entries,land_rent_share
+all_entries,industrial_1760_1840,15767,0.33
+all_entries,post_1840,11530,0.1228
+all_entries,pre_1760,10872,0.4062
+conf_ge_0.90,industrial_1760_1840,14374,0.3263
+conf_ge_0.90,post_1840,11371,0.123
+conf_ge_0.90,pre_1760,9503,0.4091
+conf_ge_0.95,industrial_1760_1840,13377,0.3286
+conf_ge_0.95,post_1840,10673,0.1232
+conf_ge_0.95,pre_1760,8654,0.4056

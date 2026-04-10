@@ -42,6 +42,10 @@ experiments/run_v2_no_claude.log
 pipeline/cache/
 pipeline/output/
 
+# Robustness pipeline intermediate cache and run logs
+experiments/results/cache/
+robustness.log
+
 # OS
 .DS_Store
 Thumbs.db

@@ -1,0 +1,11 @@
+label,n_items,n_agree,agree_rate,field
+annual,671,350,0.5216095380029806,payment_period
+biennial,68,60,0.8823529411764706,payment_period
+half_year,194,154,0.7938144329896907,payment_period
+multi_year,30,23,0.7666666666666667,payment_period
+one_off,809,680,0.8405438813349815,payment_period
+quadrennial,21,20,0.9523809523809523,payment_period
+quinquennial,10,10,1.0,payment_period
+sesquiannual,18,17,0.9444444444444444,payment_period
+triennial,38,33,0.868421052631579,payment_period
+unclear,936,204,0.21794871794871795,payment_period
