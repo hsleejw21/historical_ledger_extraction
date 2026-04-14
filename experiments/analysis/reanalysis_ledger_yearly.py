@@ -18,7 +18,7 @@ from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[2]
 WORKBOOK = ROOT / "experiments" / "results" / "ledger.xlsx"
-OUT_DIR = ROOT / "experiments" / "reports" / "ledger_clean"
+OUT_DIR = ROOT / "experiments" / "reports" / "analysis_v1"
 
 
 def parse_fraction(value: Any) -> float:

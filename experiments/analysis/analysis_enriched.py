@@ -39,7 +39,7 @@ from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[2]
 ENRICHED_DIR = ROOT / "experiments" / "results" / "enriched"
-OUT_DIR = ROOT / "experiments" / "reports" / "enriched_analysis"
+OUT_DIR = ROOT / "experiments" / "reports" / "analysis_v3"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------

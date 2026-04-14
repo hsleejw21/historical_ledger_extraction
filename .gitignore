@@ -44,6 +44,7 @@ pipeline/output/
 
 # Robustness pipeline intermediate cache and run logs
 experiments/results/cache/
+experiments/results/cache.zip
 robustness.log
 
 # OS

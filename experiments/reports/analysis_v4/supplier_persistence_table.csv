@@ -1,0 +1,137 @@
+person_norm,role,first_year,last_year,n_occurrences,total_amount_real,span_years
+smith,artisan_supplier,1710,1882,27.0,146.1919453306859,172
+gas company,industrial_supplier,1820,1868,23.0,449.9474029340624,48
+carpenter,artisan_supplier,1720,1879,15.0,66.45730123496641,159
+glazier,artisan_supplier,1702,1877,12.0,46.54062184224576,175
+mason,artisan_supplier,1721,1881,8.0,58.05153163248638,160
+carpenters,artisan_supplier,1720,1844,6.0,47.13664712204337,124
+painter,artisan_supplier,1738,1844,4.0,13.589494701850839,106
+joiner,artisan_supplier,1718,1752,4.0,33.94683943593995,34
+greene (painter),artisan_supplier,1767,1790,3.0,53.95050811529723,23
+osborne (mason),artisan_supplier,1833,1846,3.0,17.006268643366205,13
+mr smith,artisan_supplier,1703,1711,3.0,1.45432863206041,8
+college smith,artisan_supplier,1732,1732,3.0,44.25326728499157,0
+thatcher,artisan_supplier,1786,1857,3.0,4.516727006718735,71
+bolton (glazier),artisan_supplier,1764,1781,2.0,9.877271563193435,17
+thomas clark smith,artisan_supplier,1704,1710,2.0,1.234254727240315,6
+green (painter),artisan_supplier,1762,1766,2.0,4.178467256751666,4
+glaziers,artisan_supplier,1721,1845,2.0,1.2908635467581429,124
+smith (pavior),artisan_supplier,1794,1816,2.0,7.77746404317255,22
+j. mason,artisan_supplier,1718,1729,2.0,27.196219494960665,11
+hill (carpenter),artisan_supplier,1848,1849,2.0,0.4626488187033496,1
+day (smith),artisan_supplier,1700,1701,2.0,3.2809504832121155,1
+plumber,artisan_supplier,1752,1771,2.0,38.33778456123886,19
+thomas painter,artisan_supplier,1853,1859,2.0,24.417415494317495,6
+collison carpenter,artisan_supplier,1700,1701,2.0,46.43616369433097,1
+townsend (mason),artisan_supplier,1701,1789,2.0,12.019932504634294,88
+mr gasnier,industrial_supplier,1739,1739,2.0,2.0128824476650564,0
+townshend (mason),artisan_supplier,1708,1788,2.0,82.79628456597368,80
+watts (carpenter),artisan_supplier,1831,1831,2.0,13.129681514094573,0
+mr fifield the slater,artisan_supplier,1707,1707,1.0,44.83867823374598,0
+plasterer,artisan_supplier,1732,1732,1.0,23.081787521079256,0
+mason gardner,artisan_supplier,1756,1756,1.0,1.752021563342318,0
+"mr bolton, plumber",artisan_supplier,1804,1804,1.0,2.5311356906462286,0
+pittaway smith,artisan_supplier,1753,1753,1.0,13.518518518518517,0
+mr carpenter,artisan_supplier,1812,1812,1.0,93.19996898503528,0
+pavrier smith,artisan_supplier,1785,1786,1.0,7.389466129988456,1
+pavior smith,artisan_supplier,1793,1794,1.0,4.8282515446256795,1
+parrier smith,artisan_supplier,1792,1793,1.0,4.179790699400583,1
+mr gascoin,industrial_supplier,1737,1737,1.0,0.0,0
+oxford gas company,industrial_supplier,1821,1821,1.0,2.8589126602182304,0
+"mr hifield, slater",artisan_supplier,1703,1703,1.0,25.8423169485379,0
+mr wittington (painter),artisan_supplier,1755,1755,1.0,9.78145795523291,0
+mr torge (silversmith),artisan_supplier,1786,1787,1.0,6.1719028250397265,1
+mr thomson (carpenter),artisan_supplier,1786,1787,1.0,130.95960710672352,1
+mr smith's man,artisan_supplier,1721,1722,1.0,1.1982802294590873,1
+mr perry (carpenter),artisan_supplier,1786,1787,1.0,42.790400508260056,1
+mr loach (silversmith),artisan_supplier,1794,1795,1.0,0.2918164313746643,1
+mr lumly the plumber,artisan_supplier,1707,1707,1.0,4.9834291841310066,0
+saylor (slater),artisan_supplier,1767,1768,1.0,12.035153654704462,1
+robert smith,artisan_supplier,1789,1790,1.0,2.7613977356367005,1
+t. slater,artisan_supplier,1770,1771,1.0,18.3867720854242,1
+wildgoose (painter),artisan_supplier,1711,1711,1.0,0.3866228494104001,0
+widd clarke & smith,artisan_supplier,1723,1723,1.0,11.70572785129811,0
+william day smith,artisan_supplier,1705,1705,1.0,1.4768450335460646,0
+watts (painter),artisan_supplier,1831,1831,1.0,19.774334343492097,0
+two carpenters,artisan_supplier,1788,1789,1.0,0.06936536100430246,1
+townsend mason,artisan_supplier,1795,1796,1.0,23.511879678225608,1
+thomson (carpenter),artisan_supplier,1779,1780,1.0,12.949323568541079,1
+thompson (joiner),artisan_supplier,1757,1757,1.0,22.241992882562275,0
+tewler (slater),artisan_supplier,1786,1787,1.0,14.007155347607888,1
+tearles (late slater),artisan_supplier,1792,1793,1.0,1.0566886599608214,1
+teagler slater,artisan_supplier,1770,1771,1.0,15.867764475015493,1
+syren (builder),artisan_supplier,1851,1851,1.0,9.66978231459845,0
+robinson (smith),artisan_supplier,1820,1820,1.0,10.060832943378568,0
+soder (blacksmith),artisan_supplier,1845,1845,1.0,0.2513826043237808,0
+soden smith,artisan_supplier,1848,1848,1.0,0.0,0
+smithy,artisan_supplier,1720,1720,1.0,11.841888779203686,0
+smiths,artisan_supplier,1762,1762,1.0,0.6729570440893119,0
+smith pavell,artisan_supplier,1770,1771,1.0,8.687601050070981,1
+"william day, smith",artisan_supplier,1703,1703,1.0,0.2987670194177958,0
+lumley (plumber),artisan_supplier,1705,1705,1.0,8.619702176403207,0
+wright (goldsmith),artisan_supplier,1728,1728,1.0,0.5255413075467732,0
+slater,artisan_supplier,1862,1862,1.0,2.1867315001117817,0
+william day (smith),artisan_supplier,1701,1701,1.0,0.5977881837202351,0
+sansome (slater),artisan_supplier,1846,1846,1.0,15.388659710426271,0
+adam smith,artisan_supplier,1721,1722,1.0,0.1248208572353216,1
+king (painter & plumber),artisan_supplier,1846,1846,1.0,21.715501900833132,0
+long (silversmith),artisan_supplier,1763,1763,1.0,5.8700784082286495,0
+leonard (glazier),artisan_supplier,1832,1832,1.0,2.3440188094965015,0
+galgas company,industrial_supplier,1850,1850,1.0,3.4532671629445826,0
+g. smith,artisan_supplier,1794,1795,1.0,3.67688703532077,1
+fith (carpenter),artisan_supplier,1846,1846,1.0,92.36734611340289,0
+fifield (the slater),artisan_supplier,1704,1704,1.0,10.728715017737484,0
+fearles slater,artisan_supplier,1785,1786,1.0,21.112760371395588,1
+faken (mason),artisan_supplier,1848,1848,1.0,0.0,0
+eaton smith,artisan_supplier,1754,1754,1.0,0.45829514207149397,0
+dudley (plumber),artisan_supplier,1851,1851,1.0,6.4029639650719465,0
+dowd smith,artisan_supplier,1770,1771,1.0,9.99669161925976,1
+deeley smith,artisan_supplier,1882,1882,1.0,0.0,0
+day (the smith),artisan_supplier,1700,1700,1.0,0.23750000000000002,0
+davison smith,artisan_supplier,1793,1794,1.0,3.7130714433383085,1
+davies smith,artisan_supplier,1789,1790,1.0,18.733638648716582,1
+davies (locksmith),artisan_supplier,1767,1768,1.0,9.341474838406587,1
+cranwell (painter),artisan_supplier,1820,1820,1.0,6.562938699110903,0
+collison (carpenter),artisan_supplier,1701,1701,1.0,3.5244594998505527,0
+colifon (carpenter),artisan_supplier,1723,1723,1.0,20.452402599589185,0
+coal catcher,industrial_supplier,1827,1827,1.0,0.8026111616458881,0
+chapel mason,artisan_supplier,1844,1844,1.0,1.6500660026401057,0
+cavier smith,artisan_supplier,1787,1788,1.0,1.4636780919907308,1
+carpenter & hamblin,artisan_supplier,1812,1812,1.0,1.7445917655268666,0
+capel (slater),artisan_supplier,1846,1846,1.0,13.073283183693277,0
+bolton (plumber),artisan_supplier,1778,1779,1.0,5.09672972685363,1
+bolton (plumber and glazier),artisan_supplier,1767,1768,1.0,21.895034604926863,1
+blacksmith & sons,artisan_supplier,1860,1860,1.0,3.660680349676929,0
+blacksmith,artisan_supplier,1863,1863,1.0,7.005940520994761,0
+arrowsmith,artisan_supplier,1842,1842,1.0,0.6281655587211142,0
+gas fitter,industrial_supplier,1851,1851,1.0,3.2283851924732505,0
+gas light co,industrial_supplier,1823,1823,1.0,14.028320392990786,0
+glazier and plumber,artisan_supplier,1767,1767,1.0,20.409829373826433,0
+j. smithe,artisan_supplier,1725,1725,1.0,11.800923550538737,0
+leach (carpenter),artisan_supplier,1822,1822,1.0,32.8091632692681,0
+l. tew smith,artisan_supplier,1867,1867,1.0,4.135148092904326,0
+knowles (mason),artisan_supplier,1810,1810,1.0,13.713599752168527,0
+knowler (mason),artisan_supplier,1851,1851,1.0,0.34846062394949373,0
+ariss (blacksmith),artisan_supplier,1832,1832,1.0,0.033451848453568835,0
+joyce (silversmith),artisan_supplier,1767,1767,1.0,4.544588673905352,0
+john hackworth smith,artisan_supplier,1733,1733,1.0,6.569304857621441,0
+jasper (plumber & glazier),artisan_supplier,1762,1762,1.0,21.251275076504587,0
+james hilleard (glazier),artisan_supplier,1701,1701,1.0,1.154063299126565,0
+"james davy, joiner",artisan_supplier,1705,1705,1.0,5.453280968744886,0
+"james davey, joiner",artisan_supplier,1703,1703,1.0,0.04945109286915242,0
+jaguest (glazier),artisan_supplier,1733,1733,1.0,8.479899497487438,0
+j. smith,artisan_supplier,1718,1718,1.0,0.0,0
+glazier smith,artisan_supplier,1788,1789,1.0,1.4566725810903518,1
+j. slatery,artisan_supplier,1729,1729,1.0,16.212779485005832,0
+i. gashier,industrial_supplier,1823,1823,1.0,4.376638148459522,0
+howlett & smiths,artisan_supplier,1717,1717,1.0,0.6534666405280011,0
+honor glazier,artisan_supplier,1847,1847,1.0,0.03812602940279387,0
+hisfield (slater),artisan_supplier,1701,1701,1.0,0.547972501743549,0
+hillyard the glazier,artisan_supplier,1707,1707,1.0,0.34116385612632805,0
+hill carpenter,artisan_supplier,1842,1842,1.0,13.255777144666034,0
+hill (painter),artisan_supplier,1851,1851,1.0,30.784958799655637,0
+hill (organ builder),artisan_supplier,1865,1865,1.0,6.374411871154542,0
+hellyard & glazier,artisan_supplier,1723,1723,1.0,3.1779304306832343,0
+greens (painter),artisan_supplier,1816,1816,1.0,2.0407514205750146,0
+goldsmith,artisan_supplier,1799,1800,1.0,0.16213700525622568,1
+young (smith),artisan_supplier,1700,1700,1.0,1.075,0

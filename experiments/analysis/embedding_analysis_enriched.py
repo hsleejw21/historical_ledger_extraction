@@ -57,7 +57,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 ROOT = Path(__file__).resolve().parents[2]
 ENRICHED_CSV = ROOT / "experiments" / "reports" / "enriched_analysis" / "all_enriched_entries.csv"
 ENRICHED_DIR = ROOT / "experiments" / "results" / "enriched"
-OUT_DIR = ROOT / "experiments" / "reports" / "enriched_analysis" / "embeddings"
+OUT_DIR = ROOT / "experiments" / "reports" / "analysis_v3" / "embeddings"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------

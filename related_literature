@@ -1,0 +1,161 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{parskip}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!70!black,
+  citecolor=blue!70!black,
+  urlcolor=blue!70!black
+}
+
+\onehalfspacing
+
+\title{%
+  \Large\textbf{Contextualising the Enriched Ledger Analysis} \\[6pt]
+  \large Supporting Evidence from Published Research and Primary Sources
+}
+\author{Jungwoo Hong}
+\date{April 5, 2026}
+
+\begin{document}
+\maketitle
+
+
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Introduction}
+% ============================================================
+
+The \textit{Enriched Ledger Analysis Report} applied large language model (LLM) enrichment and TF-IDF embedding analysis to 1,581 digitised pages of an Oxford college's financial ledger, covering 53,901 individual transactions from 1700 to 1900. The analysis organised its findings around three chronological eras---pre-1760 (pre-industrial), 1760--1840 (industrial), and post-1840 (Victorian)---and demonstrated that the ledger records contain multi-dimensional evidence of the First Industrial Revolution and the subsequent Victorian transformation.
+
+\textbf{This literature review situates those findings within existing scholarship.} The purpose is not to repeat the statistical results of the original report, but to demonstrate that each major finding aligns with, and is supported by, published academic research, legislative records, and institutional archives. Where the ledger evidence offers new micro-level detail not previously available, this is noted.
+
+
+% ============================================================
+\section{Theme A: From Land to Financial Capital}
+\label{sec:land-to-capital}
+% ============================================================
+
+The strongest quantitative finding in the ledger analysis is the near-complete reversal of the college's income structure over two centuries. Land rent fell from 36.9\% of real income in the pre-1760 era to just 4.7\% by post-1840, while financial instruments rose from 21.6\% to 51.7\% over the same period. In absolute real terms, financial income grew approximately 23-fold while land rent grew only 1.2-fold.
+
+\subsection{Sovereign debt and the reallocation of elite wealth}
+
+\citet{ventura2015debt} provide a theoretical model that directly parallels this pattern. They argue that the massive issuance of liquidly traded government bonds (consols) during the eighteenth century allowed the English nobility and institutional investors to switch out of low-return investments---particularly agricultural land improvements---and into financial instruments. Their model predicts precisely the kind of portfolio rebalancing that the ledger data reveal at the institutional level: a gradual but accelerating shift from land income toward dividends, stocks, and trust fund distributions.
+
+The ledger vocabulary analysis reinforces this connection. The financial category's characteristic terms shift from ``benefaction'' and ``chest recorded'' in the pre-1760 era, to ``dividend'' and ``stock'' during the industrial period, and finally to ``fund,'' ``trust,'' and ``balance'' post-1840. This progressive formalisation of financial language mirrors the maturation of English capital markets that \citet{dickson1967financial} documented in his foundational study.
+
+\subsection{Financial underdevelopment and institutional evidence}
+
+\citet{hodgson2021financial} examines the role of financial institutions in the British Industrial Revolution and argues that the main store of wealth during much of the eighteenth century remained land, and that the slow evolution of mortgaging and financial instruments constrained growth until the nineteenth century. The ledger data provide concrete micro-institutional evidence for this macro-level argument: the crossover from land rent dominance to financial instrument dominance occurs within the college's own accounts in a manner entirely consistent with the timeline Hodgson describes.
+
+Furthermore, \citet{hodgson2021financial} notes that the volume of financial services approximately tripled between 1750 and 1800, citing estimates from \citet{broadberry2015british}. The ledger shows a corresponding acceleration: financial real amounts begin rising noticeably from the 1770s onward, with high volatility through the Napoleonic period before surging post-1840.
+
+\subsection{Oxford and Cambridge colleges as landlords}
+
+\citet{dunbabin1975oxford} provides the most directly comparable study of Oxford and Cambridge college finances in the period 1871--1913. His analysis of Cleveland Commission data confirms that the colleges were heavily exposed to the agricultural depression of the later nineteenth century. He documents that in 1871 the colleges and universities of Oxford and Cambridge collectively held approximately 309,600 acres and had no general power to sell land until the later 1850s. The declining yield on landed property that Dunbabin reports is consistent with the ledger's declining land rent share.
+
+Dunbabin further notes that the Cleveland Commission projected substantial increases in college income through the discontinuance of beneficial leases, but these projections proved overly optimistic as the agricultural depression deepened in the 1880s. The ledger's arrears analysis independently confirms this pattern: arrears rates spike during periods of known agricultural distress and decline from the mid-nineteenth century as the portfolio shifts toward financial instruments.
+
+\citet{thompson1963landed} provides the broader socio-economic context for this transition. His study of the English landed class in the nineteenth century documents the systematic decline of land as a source of wealth and social power, precisely the macro-historical trend that the ledger captures at the institutional level.
+
+\subsection{Institutional confirmation from Oxford's own records}
+
+The University of Oxford Finance Division's own published history confirms these patterns from the institutional side. Its account of the eighteenth century notes that benefactions and rents were the primary income sources during this period, while the nineteenth century saw the Press and other sources increasingly supplementing land-based income \citep{oxfordfinancehistory}. The Finance Division's history further records that in the first half of the nineteenth century, the University's surplus income was largely generated by Bible sales from the Press, reflecting a diversification away from land that parallels the college ledger's shift toward financial instruments.
+
+
+% ============================================================
+\section{Theme B: Victorian University Reform and the Educational Reversal}
+\label{sec:education}
+% ============================================================
+
+The ledger analysis found that educational spending grew approximately 59-fold from the pre-1760 to the post-1840 era, making it the fastest-growing spending category. Equally significant is the directional reversal: educational entries were primarily \textit{income} in the pre-1760 era (reflecting fines and fees collected) but became primarily \textit{expenditure} post-1840 (reflecting scholarships, exhibitions, and bursaries awarded).
+
+\subsection{The Oxford University Act of 1854 and subsequent reforms}
+
+The legislative framework for this transformation is well documented. The Oxford University Act of 1854 \citep{oxfordact1854} was enacted following the 1850 Royal Commission and established the Hebdomadal Council as the university's governing body, appointed Commissioners to deal with endowments, and opened the university to students outside the Church of England. The Act marked a fundamental shift from an ecclesiastical to a more secularised administrative approach.
+
+The reform process continued with the Universities Tests Act of 1871 \citep{testsact1871}, which abolished religious tests for degrees (other than divinity) at Oxford, Cambridge, and Durham. This was followed by a new Royal Commission in 1872 (the Cleveland Commission), whose report in 1874 \citep{clevelandcommission1874} investigated the financial resources of Oxford and Cambridge colleges. The findings of this commission led directly to the Universities of Oxford and Cambridge Act of 1877 \citep{oxcamact1877}, which empowered Commissioners to redistribute college endowments and create new statutes encouraging the support of scientific teaching and open competitive examinations.
+
+The University of Oxford's own governance records confirm that the 1877 legislation specifically required colleges to redirect some of their funds toward the creation of scientific professorships and university institutions \citep{oxfordgovernance}. The ledger vocabulary finding---the appearance of ``open'' (open competitions) and ``exhibition'' (competitive awards) as top educational terms only in the post-1840 era---is a direct textual trace of these legislative reforms.
+
+\subsection{College finances and the depression}
+
+\citet{dunbabin1975oxford} provides quantitative context for these educational changes. He documents that the number of university posts grew substantially between 1871 and 1913, from approximately 15 in 1871 to about 80 by 1913, and that college fellowship numbers also increased. This expansion required corresponding increases in educational expenditure, which is exactly what the ledger shows.
+
+Dunbabin further notes that the great wave of university and college reforms in the 1870s and early 1880s was predicated on the expectation of rising income from landed property. When the agricultural depression instead reduced these revenues, colleges faced the difficult position of having committed to expanded educational spending while their primary income source was declining---a tension visible in the ledger's simultaneous rise in educational expenditure and fall in land rent income.
+
+
+% ============================================================
+\section{Theme C: Technology and Administrative Modernisation}
+\label{sec:technology}
+% ============================================================
+
+The TF-IDF vocabulary analysis detected several specific vocabulary transitions that correspond to known technological and administrative changes of the industrial and Victorian periods.
+
+\subsection{Gas lighting}
+
+The most concrete industrial-technology signal is the appearance of ``gas'' as a recurring domestic expenditure term post-1840, displacing the ``candles'' and ``oil'' vocabulary that had dominated domestic accounts for 140 years. \citet{falkus1967gas} documents the early development of the British gas industry, establishing that gas infrastructure expanded rapidly in the first half of the nineteenth century. \citet{tomory2011gas} provides a detailed account of the first gas network built between 1812 and 1820. Gas street-lighting was introduced in Oxford in 1819, and supply to colleges would have become routine by the 1830s--1840s, exactly when the ledger vocabulary shows the shift.
+
+\subsection{Victorian fiscal and regulatory state}
+
+The appearance of ``insurance,'' ``stamps,'' ``rate,'' and ``premium'' as top administrative vocabulary terms only in the post-1840 era reflects the expansion of the Victorian regulatory and fiscal state. Property insurance products, stamp duties (formalised through successive Stamp Acts), and new local government rates all became standard institutional obligations during this period. The pre-1840 administrative vocabulary is confined to internal college obligations such as ``plate money'' and ``land tax,'' with no reference to the broader commercial regulatory framework that characterises Victorian public finance.
+
+\subsection{Latin to English: administrative rationalisation}
+
+The ledger's language transition from Latin to English, concentrated between approximately 1740 and 1780, provides a linguistic marker of administrative modernisation. By 1780 English was overwhelmingly dominant and Latin entries had virtually disappeared. This transition predates the industrial peak, suggesting it was an early institutional modernisation consistent with the broader standardisation of English as the language of commerce and public administration during the eighteenth century.
+
+
+% ============================================================
+\section{Theme D: The Professionalisation of Charity}
+\label{sec:charity}
+% ============================================================
+
+The charitable category shows the most volatile vocabulary cohesion of all ten spending categories (mean cohesion 0.293), reflecting a fundamental transformation in the college's approach to poor relief. Pre-1760 charitable entries use direct, personal language: ``alms to beggars,'' ``prisoners in Bocardo,'' ``alms given to poor.'' By post-1840 the vocabulary has become institutional: ``subscription,'' ``donation,'' ``infirmary,'' ``widows and orphans fund.''
+
+\subsection{The Poor Law Amendment Act of 1834}
+
+The Poor Law Amendment Act of 1834 \citep{poorlaw1834} is the key legislative event underlying this transformation. The Act replaced the parish-based system of outdoor relief with a centralised structure of Poor Law Unions and workhouses. It was grounded in the principle that the condition of paupers receiving relief should be less desirable than that of the lowest independent labourer. The Act fundamentally restructured the relationship between institutions and poverty, encouraging a shift from direct personal almsgiving toward formalised, institutional channels of charitable support.
+
+The ledger's vocabulary transition from personal ``alms'' language to institutional ``subscription'' language mirrors this macro-level shift. The college moved from giving alms directly to individuals to paying subscriptions to intermediary charitable organisations---hospitals, infirmaries, and relief funds---reflecting the classic Victorian professionalisation of welfare that followed the 1834 Act and the subsequent growth of voluntary charitable organisations.
+
+\subsection{Arrears and portfolio diversification}
+
+The arrears rate analysis complements the charity story. Arrears (tenant non-payment) are highest in the early eighteenth century and during the post-Napoleonic agricultural depression, and decline from the mid-nineteenth century as the portfolio shifts toward financial instruments that carry no equivalent credit risk. This is consistent with the hypothesis, supported by \citet{dunbabin1975oxford}, that portfolio diversification was partly a rational institutional response to the volatility of land-based income.
+
+
+% ============================================================
+\section{Theme E: Semantic Confirmation of Three Historical Eras}
+\label{sec:eras}
+% ============================================================
+
+The embedding analysis provides structural confirmation for the three-era framework used throughout the analysis. Year-level cosine similarity heatmaps show clear block structure, with years within each era more semantically similar to each other than to years in other eras.
+
+The categories most embedded in medieval institutional life---land rent (cohesion 0.579), maintenance (0.557), ecclesiastical (0.537)---show the most stable vocabulary over 200 years. Those most sensitive to external economic change---charitable (0.293), educational (0.326), financial (0.347)---are the most volatile. This structural finding aligns with the broader historiography of the period. \citet{mokyr2009enlightened} characterises the period 1700--1850 as one of gradual but accelerating institutional transformation driven by Enlightenment ideas and technological innovation. The ledger's semantic eras correspond to this periodisation: a stable pre-industrial baseline, a transitional industrial period of increasing heterogeneity, and a post-1840 reconsolidation around a modernised institutional vocabulary.
+
+The financial history literature, including \citet{temin2013prometheus}, \citet{neal1994finance}, and \citet{kindleberger1984financial}, broadly agrees on the periodisation of England's financial development, with the key institutional innovations of the eighteenth century (the Bank of England's evolution, the growth of the consol market, the expansion of country banking) producing their full economic effects in the nineteenth century. The ledger's three-era structure captures this trajectory at the micro-institutional level.
+
+% ============================================================
+\section{Conclusion}
+% ============================================================
+
+The findings of the \textit{Enriched Ledger Analysis Report} are well supported by existing published research across all five major themes. The shift from land to financial capital is consistent with the models of \citet{ventura2015debt}, the institutional analysis of \citet{hodgson2021financial}, and the empirical findings of \citet{dunbabin1975oxford} and \citet{thompson1963landed}. The educational reversal maps directly onto the legislative timeline from the Oxford University Act of 1854 through the 1877 Act. Technological vocabulary signals align with documented histories of gas infrastructure and Victorian fiscal expansion. The professionalisation of charity corresponds to the institutional transformation inaugurated by the Poor Law Amendment Act of 1834. Finally, the semantic three-era structure reflects the broad consensus periodisation of England's economic transition from an agrarian to an industrial and then post-industrial society.
+
+The ledger analysis contributes to this existing literature by providing micro-level, vocabulary-grounded evidence from a single institutional archive---evidence that complements the macro-economic and legislative perspectives of the published scholarship. The convergence between the ledger's statistical patterns and the established historical record provides confidence in both the enrichment methodology and the substantive findings.
+
+\newpage
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

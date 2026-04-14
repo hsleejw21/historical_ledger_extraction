@@ -15,9 +15,9 @@ from sklearn.preprocessing import StandardScaler
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SRC_DIR = ROOT / "experiments" / "reports" / "ledger_clean"
+SRC_DIR = ROOT / "experiments" / "reports" / "analysis_v1"
 SRC_FILE = SRC_DIR / "all_rows_with_amounts.csv"
-OUT_DIR = ROOT / "experiments" / "reports" / "ledger_clean"
+OUT_DIR = ROOT / "experiments" / "reports" / "analysis_v1"
 EMB_DIR = OUT_DIR / "embeddings"
 
 

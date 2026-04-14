@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analysis Report</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+    h1, h2, h3 { color: #111827; }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .muted { color: #6b7280; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      background: white;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background: #f3f4f6;
+    }
+    .tag {
+      display: inline-block;
+      background: #e5f0ff;
+      color: #1d4ed8;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+    .plot-section {
+      margin-bottom: 28px;
+    }
+    .plot-section h3 {
+      margin-bottom: 4px;
+    }
+    .plot-desc {
+      color: #4b5563;
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+    .plot-section a {
+      display: block;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Historical Ledger Analysis</h1>
+    <p class="muted">Jungwoo Hong &nbsp;·&nbsp; <a href="https://github.com/hsleejw21/historical_ledger_extraction" target="_blank">github.com/hsleejw21/historical_ledger_extraction</a></p>
+    <p>An exploratory analysis of a multi-century accounting ledger (c. 1700–1900), examining how transaction volumes, monetary amounts, account categories, and recorded vocabulary changed across the First Industrial Revolution (1760–1840).</p>
+  </div>
+
+  <div class="card">
+    <h2>1) What data was analyzed</h2>
+    <ul>
+      <li>Source workbook: <code>experiments/results/ledger.xlsx</code></li>
+      <li>Unit interpretation: sheet names include both <code>year_page_image</code> and <code>year-year_page_image</code></li>
+      <li>Row types considered: <code>header</code>, <code>entry</code>, <code>total</code></li>
+      <li>Main quantitative/text analysis used <code>entry + total</code> rows</li>
+    </ul>
+
+    <h3>Dataset summary</h3>
+    <table>
+      <tr><th>Metric</th><th>Value</th></tr>
+      <tr><td>Years covered</td><td>196</td></tr>
+      <tr><td>Data rows (entry + total)</td><td>49,187</td></tr>
+      <tr><td>Header rows</td><td>6,516</td></tr>
+      <tr><td>Unique normalized header/account texts</td><td>2,917</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>2) Step-by-step: what we did</h2>
+
+    <h3>Step 1 — Data parsing &amp; normalization</h3>
+    <p>Sheet names encode both the year and page number (e.g., <code>1760_3_image</code> = year 1760, page 3). Some sheets span two years (e.g., <code>1759-1760_1_image</code>), so rows from those sheets are assigned a fractional weight of 0.5 when aggregating by year, so that no year is double-counted. Each row carries a type tag — <code>header</code>, <code>entry</code>, or <code>total</code>. Currency values were parsed from historical formats (pounds, shillings, pence) and converted to decimal pounds. Text fields were lowercased and stripped of punctuation for downstream analysis.</p>
+
+    <h3>Step 2 — Yearly numeric profiling</h3>
+    <p>For each calendar year we computed four complementary metrics: <strong>total amount</strong> (sum of all transaction values, capturing overall scale), <strong>median transaction amount</strong> (capturing the typical individual entry, robust to outliers), <strong>90th-percentile amount</strong> (capturing the upper tail of the distribution), and <strong>row count</strong> (the number of entry and total rows, a proxy for recording activity). Using several metrics together guards against any single outlier distorting the picture.</p>
+
+    <h3>Step 3 — Change-point detection</h3>
+    <p>Year-over-year deltas were computed for each numeric metric. Rather than a standard z-score (which assumes a normal distribution and is pulled by outliers), we applied a <strong>robust z-score</strong> based on the median and median absolute deviation (MAD). This is more appropriate for historical time series that may have long stable stretches interrupted by sudden structural breaks. Years whose robust z-score exceeded a threshold were flagged as candidate change points.</p>
+
+    <h3>Step 4 — Header/account evolution</h3>
+    <p>Rows of type <code>header</code> label account sections within the ledger (e.g., names of merchants, commodity types, or ledger categories). We recorded the first and last year each unique header text appeared, the total number of occurrences, and how many distinct header texts appeared in each year. A growing count of unique headers per year is used as a proxy for increasing organizational complexity — reflecting the opening of new account types to track new economic activities.</p>
+
+    <h3>Step 5 — Text embeddings &amp; clustering</h3>
+    <p><strong>Why TF-IDF + SVD?</strong> The ledger text is a mixture of Latin and early modern English, which poses a challenge for off-the-shelf embedding models. The ideal approach would be a <em>hybrid neural embedding</em> — for example, <a href="https://github.com/dbamman/latin-bert" target="_blank">LatinBERT</a> for Latin phrases combined with a multilingual sentence-transformer for English content. This is scaffolded in <code>experiments/hybrid_year_text_embeddings_ledger.py</code> in the repository. However, downloading pretrained transformer weights was blocked by network constraints during this analysis run, so we used <strong>TF-IDF</strong> (Term Frequency–Inverse Document Frequency) as a robust, network-free baseline. TF-IDF weights each term by how frequently it appears in a document relative to how common it is across the whole corpus, which works well for surfacing historically distinctive vocabulary. <strong>Truncated SVD</strong> (Latent Semantic Analysis) then reduces the high-dimensional TF-IDF matrix to a dense 50-dimensional embedding, capturing latent co-occurrence patterns before clustering.</p>
+    <p><strong>Year-level vs page-level aggregation:</strong> We tested clustering both at the year level (all text in a given year merged into one document) and at the page level (each individual ledger page as its own document). Year-level aggregation is more stable: averaging across many pages within a year smooths out page-specific noise and OCR artefacts. The silhouette scores confirm this — year-level achieves 0.007 while page-level reaches −0.029.</p>
+    <p><strong>Cluster count selection:</strong> The optimal number of clusters <em>k</em> was chosen by computing the average silhouette score for <em>k</em> = 2 … 10 and selecting the value that maximised it.</p>
+  </div>
+
+  <div class="card">
+    <h2>3) Key numerical results</h2>
+
+    <h3>Era-level numeric summary</h3>
+    <table>
+      <tr>
+        <th>Era</th><th>Years</th><th>Mean amount_sum</th><th>Median of amount_median</th><th>Mean data rows</th>
+      </tr>
+      <tr>
+        <td>pre_1760</td><td>60</td><td>5,914.42</td><td>2.07</td><td>191.52</td>
+      </tr>
+      <tr>
+        <td>industrial_1760_1840</td><td>81</td><td>26,864.15</td><td>9.00</td><td>213.86</td>
+      </tr>
+      <tr>
+        <td>post_1840</td><td>55</td><td>111,881.29</td><td>8.18</td><td>238.98</td>
+      </tr>
+    </table>
+
+    <h3>Top change points on yearly amount_sum</h3>
+    <table>
+      <tr><th>Year</th><th>Delta</th><th>Robust Z</th></tr>
+      <tr><td>1891</td><td>+435,519.02</td><td>72.65</td></tr>
+      <tr><td>1892</td><td>-388,040.79</td><td>64.64</td></tr>
+      <tr><td>1894</td><td>-273,316.23</td><td>45.29</td></tr>
+      <tr><td>1880</td><td>-217,770.44</td><td>35.92</td></tr>
+      <tr><td>1879</td><td>+189,947.10</td><td>31.23</td></tr>
+    </table>
+
+    <h3>Embedding clustering comparison</h3>
+    <table>
+      <tr><th>Unit</th><th>n_units</th><th>k</th><th>Silhouette</th><th>Embedding</th></tr>
+      <tr><td>year</td><td>196</td><td>2</td><td>0.0066</td><td>TF-IDF + SVD</td></tr>
+      <tr><td>page</td><td>1580</td><td>12</td><td>-0.0288</td><td>TF-IDF + SVD</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>4) Plots</h2>
+
+    <div class="plot-section">
+      <h3>Yearly transaction volume and total amount</h3>
+      <p class="plot-desc">The top panel shows the total monetary amount recorded each year (in decimal pounds). The bottom panel shows the number of data rows (entry + total) per year. Together, they reveal how both the scale of transactions and the volume of recorded activity changed over the 196-year span. A clear upward trend in amount from the Industrial Revolution period onward is visible, with the sharpest growth in the late 19th century. Notably, row count grows more slowly than total amount, suggesting that the increase in monetary scale reflects larger individual transactions rather than simply more entries being recorded.</p>
+      <a href="yearly_amount_and_volume.png" target="_blank"><img src="yearly_amount_and_volume.png" alt="Yearly amount and volume" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Yearly median and 90th-percentile transaction amount</h3>
+      <p class="plot-desc">While total amount captures overall scale, median and p90 describe the shape of the transaction distribution. The median is robust to outliers — a rising median means that <em>typical</em> transactions grew larger, not just a handful of extreme entries. The 90th percentile (p90) shows how the upper tail evolved: if p90 grows faster than the median, the distribution is becoming more right-skewed (a few very large transactions pulling up the total). Comparing these two lines helps distinguish broad-based growth from outlier-driven spikes.</p>
+      <a href="yearly_median_p90.png" target="_blank"><img src="yearly_median_p90.png" alt="Median and p90 trend" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Change-point detection on yearly total amount</h3>
+      <p class="plot-desc">This chart flags years where the year-over-year change in total amount was statistically unusual. The grey line shows the raw year-over-year delta; the coloured markers highlight years whose <strong>robust z-score</strong> (delta − median delta) / MAD exceeded the detection threshold. Using MAD instead of standard deviation makes the detector resistant to the long-run upward trend in amounts. The most prominent breaks appear in the 1870s–1890s — specifically, a large positive spike in 1891 followed by reversals in 1892 and 1894 — suggesting either economic disruptions (e.g., commodity price volatility, a major single transaction) or a reorganisation of how the accounts were structured in those years.</p>
+      <a href="change_points_amount_sum.png" target="_blank"><img src="change_points_amount_sum.png" alt="Change points on amount sum" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Era comparison — amount distribution (boxplot)</h3>
+      <p class="plot-desc">Boxplots compare the distribution of yearly total amounts across three historical eras: pre-Industrial Revolution (before 1760), the Industrial Revolution period (1760–1840), and the post-Industrial period (after 1840). The box spans the interquartile range (25th–75th percentile), the line inside is the median, and the whiskers extend to 1.5× IQR. The post-1840 era has a dramatically higher median and much wider spread, consistent with industrialisation and expanding commerce. The Industrial Revolution era itself shows a roughly 4.5× increase over the pre-1760 era in mean total amount, indicating that economic growth during 1760–1840 was already substantial, even before the post-1840 acceleration.</p>
+      <a href="viz_era_amount_sum_boxplot.png" alt="Era amount boxplot" target="_blank"><img src="viz_era_amount_sum_boxplot.png" alt="Era amount boxplot" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Header/account diversity timeline</h3>
+      <p class="plot-desc">This plot tracks two quantities per year: the total number of <code>header</code> rows (grey bars) and the number of <em>unique</em> header texts (line). A growing number of unique headers suggests that bookkeeping categories were expanding — new types of accounts, merchants, or commodity categories were being opened and recorded. A gap between total header rows and unique headers indicates that the same categories were re-used many times within a year (i.e., recurring accounts). This is a proxy for organisational complexity and the diversification of economic activity over time. A sharp rise in diversity around or after 1760 would be consistent with the Industrial Revolution prompting new forms of commercial organisation.</p>
+      <a href="viz_header_diversity_timeline.png" target="_blank"><img src="viz_header_diversity_timeline.png" alt="Header diversity timeline" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Top TF-IDF terms per era (heatmap)</h3>
+      <p class="plot-desc">This heatmap shows the most distinctive words (from entry and total row text) in each historical era, scored by TF-IDF. Each column is one era; each row is a term. Darker cells indicate that a term is more distinctive for that era relative to the corpus overall. The ledger mixes Latin and early modern English, so terms may include Latin accounting phrases (e.g., <em>recepi</em>, <em>solvi</em>) alongside English commodity or place names. Terms that appear dark in the Industrial Revolution column but light in the pre-1760 column suggest genuinely new economic vocabulary, whereas terms dark in all columns are general ledger boilerplate.</p>
+      <a href="era_top_terms_heatmap.png" target="_blank"><img src="era_top_terms_heatmap.png" alt="Era top terms heatmap" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Emerging terms across eras (bar chart)</h3>
+      <p class="plot-desc">This chart highlights terms whose relative frequency increased the most between successive eras. The emergence score is computed as the ratio of normalised term frequency in the later era to the earlier era (log-scaled). Terms with the highest scores in the pre→industrial transition may indicate new economic activities or vocabulary entering the ledger during industrialisation. Terms emerging in the industrial→post transition capture the linguistic footprint of later 19th-century commerce. Because TF-IDF is used, common stop-words and ledger boilerplate are down-weighted; the most prominent emerging terms tend to be substantive nouns or verbs tied to specific economic activities.</p>
+      <a href="viz_emerging_terms_bars.png" target="_blank"><img src="viz_emerging_terms_bars.png" alt="Emerging terms bars" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Year-level text cluster labels over time</h3>
+      <p class="plot-desc">Using TF-IDF+SVD embeddings aggregated at the year level, KMeans clustering (k=2, selected by silhouette score) assigns each year to one of two text clusters. This timeline shows how cluster membership evolved over the 196-year span. Persistent membership in one cluster across a stretch of years suggests stable recording conventions and vocabulary; a switch to the other cluster signals a shift in the types of descriptions used. The fact that only k=2 clusters are needed at the year level — rather than many — indicates that, at this level of aggregation, the ledger's text separates into two broad regimes rather than many fine-grained categories. Whether this split aligns with the historical era boundary (1760 or 1840) can be checked against the cluster-by-era heatmap below.</p>
+      <a href="year_embedding_clusters_timeline.png" target="_blank"><img src="year_embedding_clusters_timeline.png" alt="Year embedding cluster timeline" /></a>
+    </div>
+
+    <div class="plot-section">
+      <h3>Cluster distribution by era (heatmap)</h3>
+      <p class="plot-desc">This heatmap cross-tabulates text cluster membership (rows) against historical eras (columns). Each cell shows the count of years falling into that cluster–era combination. Strong diagonal concentration (most of one cluster in one era) would indicate that the TF-IDF vocabulary shifts align neatly with the historical turning points of 1760 and 1840. Spread across clusters within a single era suggests that textual variation within that era is larger than the variation between eras — which may reflect gradual change rather than sharp transitions, or may reflect limitations of the current TF-IDF approach (motivating the planned LatinBERT hybrid embedding).</p>
+      <a href="viz_cluster_by_era_heatmap.png" target="_blank"><img src="viz_cluster_by_era_heatmap.png" alt="Cluster by era heatmap" /></a>
+    </div>
+
+    <div class="grid">
+      <div class="plot-section">
+        <h3>Year-level embedding PCA</h3>
+        <p class="plot-desc">Principal Component Analysis (PCA) projects the 50-dimensional TF-IDF+SVD year embeddings down to 2D for visual inspection. Each point is one year, coloured by KMeans cluster. The two axes capture the directions of greatest variance in the embedding space. Tight, well-separated clusters would indicate strong textual differentiation between groups of years; heavily overlapping points reflect continuous or gradual change. The spread along the first principal component often corresponds to the dominant long-run trend in vocabulary.</p>
+        <a href="embeddings/year_embedding_pca.png" target="_blank"><img src="embeddings/year_embedding_pca.png" alt="Year embedding PCA" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Page-level embedding PCA</h3>
+        <p class="plot-desc">The same PCA projection applied at the page level — each of the 1,580 pages becomes a separate document. The substantially lower silhouette score (−0.029 vs 0.007 at year level) tells us that individual pages cluster poorly by text content alone. This makes sense: a single ledger page contains only a small number of entries, so its TF-IDF vector is sparse and dominated by whichever few terms happen to appear. Aggregating to the year level averages over this sparsity, producing denser and more comparable embeddings. This finding supports the choice to use year-level aggregation as the primary analysis unit.</p>
+        <a href="embeddings/page_embedding_pca.png" target="_blank"><img src="embeddings/page_embedding_pca.png" alt="Page embedding PCA" /></a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="plot-section">
+        <h3>Year-level cluster timeline (embeddings/)</h3>
+        <p class="plot-desc">Cluster label per year over time, produced by the <code>compare_unit_text_clustering_ledger.py</code> script which ran the year-level and page-level experiments side by side. This version uses the same TF-IDF+SVD pipeline but is computed independently, providing a cross-check on the main analysis. Comparing this with the timeline above confirms that the cluster assignments are stable across script runs.</p>
+        <a href="embeddings/year_cluster_timeline.png" target="_blank"><img src="embeddings/year_cluster_timeline.png" alt="Year cluster timeline (embeddings)" /></a>
+      </div>
+      <div class="plot-section">
+        <h3>Page-level cluster timeline (embeddings/)</h3>
+        <p class="plot-desc">Cluster label per page over time, from the page-level TF-IDF clustering run in the comparison script. At the page level the silhouette-optimal k is 12 — far more clusters than at the year level — yet the silhouette score is still negative (−0.029), meaning the clusters are not well-separated. The rapid switching of cluster labels from page to page reinforces that individual pages are too short and sparse for stable TF-IDF clustering. This timeline illustrates why page-level text analysis alone is insufficient, and motivates either year-level aggregation or a better embedding (e.g., the planned LatinBERT hybrid).</p>
+        <a href="embeddings/page_cluster_timeline.png" target="_blank"><img src="embeddings/page_cluster_timeline.png" alt="Page cluster timeline (embeddings)" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>5) Conclusions</h2>
+    <ul>
+      <li>The simple analysis shows a strong long-run scale increase from pre-1760 to post-1840.</li>
+      <li>Major structural numeric shifts are concentrated in the late 19th century (especially around 1870s–1890s).</li>
+      <li>Account/header diversity grows over time, suggesting expansion and differentiation of bookkeeping categories.</li>
+      <li>For text clustering under current settings, year-level aggregation is more stable than page-level clustering.</li>
+      <li>Overall, this provides a practical first-pass baseline for deeper historical/economic interpretation.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

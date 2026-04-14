@@ -1,0 +1,11 @@
+OXFORD INDUSTRIAL REVOLUTION — FINANCIAL RESTRUCTURING SUMMARY
+=================================================================
+First year HHI (5-yr rolling) < 0.35:  1783
+Lead-lag k_max: 0 years  →  Oxford's diversification was REACTIVE (land fell first)
+Expenditure reallocation OLS: slope=0.368, p=0.047 → confirmed: cutting traditional funded modern
+Land rent arrears rate first fell below 5%: 1701
+Payment modernity trend post-1820: mixed
+
+Agricultural shock reference lines in figures: 1793, 1822, 1846, 1873
+Era boundaries: 1780, 1820, 1860
+Price deflation: Phelps Brown-Hopkins index (1700=100)

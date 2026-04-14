@@ -36,7 +36,7 @@ from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[2]
 WORKBOOK = ROOT / "experiments" / "results" / "ledger.xlsx"
-OUT_DIR = ROOT / "experiments" / "reports" / "ledger_clean_v2"
+OUT_DIR = ROOT / "experiments" / "reports" / "analysis_v2"
 CACHE_DIR = ROOT / "experiments" / "results" / "cache"
 
 # ---------------------------------------------------------------------------

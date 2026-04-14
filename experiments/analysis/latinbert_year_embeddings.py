@@ -47,7 +47,7 @@ from transformers import AutoModel, AutoTokenizer
 
 ROOT    = Path(__file__).resolve().parents[2]
 WORKBOOK = ROOT / "experiments" / "results" / "ledger.xlsx"
-OUT_DIR  = ROOT / "experiments" / "reports" / "ledger_clean_v2" / "latinbert"
+OUT_DIR  = ROOT / "experiments" / "reports" / "analysis_v2" / "latinbert"
 
 # Priority-ordered model list
 _CANDIDATE_MODELS = [

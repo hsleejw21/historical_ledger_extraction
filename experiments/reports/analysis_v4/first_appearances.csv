@@ -1,0 +1,24 @@
+term,label,year,era,category,direction,english_desc
+tuition,Tuition as a formal category,1711.0,pre_industrial,educational,income,"Tuition income from the Hall, noted per annum."
+prize,Academic prize awarded,1725.0,pre_industrial,educational,expenditure,Prizes awarded for Castle and Bocardo (student prizes)
+gas,Gas lighting installed,1730.0,pre_industrial,other,income,"Arrears due from Mrs Betty relating to the previous year (reference to ""magasins"" unclear)."
+mortgage,Mortgage transaction,1740.0,pre_industrial,financial,expenditure,Payment to Mr Shippen of the remainder due on his mortgage.
+private,Private tuition / students,1741.0,pre_industrial,administrative,expenditure,Payment to private Oxonians at Michaelmas.
+consols,3% consols investment,1745.0,pre_industrial,financial,transfer,Instruction or note to purchase three percent stock (3% consols).
+moderator,Exam moderator role emerges,1775.0,pre_industrial,administrative,unclear,"Signature of Ioh. De Grato, the Moderator."
+choir,Choir / choral service,1787.0,transition,salary_stipend,expenditure,Choir stipend paid to Thiers.
+rack rent,Market-rate rents begin,1788.0,transition,land_rent,income,Annual rent received from the Kidlington estate (quit/rack rent).
+bankers,Banking relationship formalised,1788.0,transition,financial,income,Sum received from bankers.
+insurance,Oxford buys property insurance,1797.0,transition,land_rent,expenditure,Insurance premium for barns and related buildings at Wittm (Witney).
+income tax,Government taxes the college,1799.0,transition,administrative,expenditure,Payment of the college income tax (first three instalments).
+drainage,Agricultural drainage works,1809.0,transition,maintenance,expenditure,Payment to Meadowcraft for making a drain (work on drainage)
+canal,Industrial canal investment,1809.0,transition,financial,income,Canal dividend received (quarterly/generic canal dividend)
+loan,Loan income or payment,1811.0,transition,financial,income,Interest received on a loan relating to Whittonh rectory (interest due).
+widows,Widows fund / charity,1820.0,early_industrial,administrative,expenditure,Payment to Mr French of Merton to correct an error in the widows' (or will) account.
+railway,Railway era arrives,1845.0,early_industrial,administrative,expenditure,"Sundry expenses (lighting, gold, fee for inducting railway plan, and repairs to stoves) related to the Rector (ditto)"
+deficit,First institutional deficit,1858.0,early_industrial,financial,expenditure,Deficit brought forward from 1857.
+composition fee,Composition fee income,1861.0,late_industrial,educational,income,Composition fees paid to the Master.
+exhibitioner,Exhibition scholarships paid out,1866.0,late_industrial,educational,expenditure,Payment to the St. Richard's exhibitioner (scholarship recipient).
+undergraduate,Students labelled 'undergraduates',1871.0,late_industrial,charitable,income,Contributions from undergraduates towards the chapel mosaic.
+percentage,Percentage-based accounting,1871.0,late_industrial,administrative,expenditure,Commission or percentage fees paid.
+competition,Open competition for awards,,,,,NOT FOUND
