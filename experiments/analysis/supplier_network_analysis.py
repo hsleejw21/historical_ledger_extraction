@@ -1048,7 +1048,7 @@ def generate_html_report() -> None:
         "Five unstudied angles confirmed: payment period modernisation, supplier networks, "
         "arrears by category, curriculum reform timing, proactive vs reactive diversification.</li>",
         "<li><strong>Built four new analysis scripts</strong> (all writing to <code>analysis_v4/</code>): "
-        "<code>industrial_revolution_response.py</code> (A1–A4), "
+        "<code>analysis_v4.py</code> (A1–A4),"
         "<code>innovation_vocabulary_analysis.py</code> (B1–B3), "
         "<code>supplier_network_analysis.py</code> (C1–C3), "
         "<code>text_trend_analysis.py</code> (T0–T10).</li>",
