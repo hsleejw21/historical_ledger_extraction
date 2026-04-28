@@ -5,6 +5,7 @@ Automated extraction and analysis of 18th–19th century English parish accounti
 **Table of Contents:**
 - [Project Overview](#-project-overview)
 - [Project Structure](#-project-structure)
+- [Archive Review Materials](#-archive-review-materials)
 - [Evolution & Results](#-evolution--results)
 - [Current SOTA](#-current-sota-v2_no_claude)
 - [Evaluation Metrics](#-evaluation-metrics)
@@ -95,6 +96,13 @@ historical_ledger_extraction/
 │       ├── clip_embeddings.json       # CLIP visual feature vectors (1,581 pages)
 │       └── visual_features.json       # Additional CV features
 │
+├── archive_review/                    # Paper-preparation materials for the archival corpus
+│   ├── README.md                      # Guide to review memos, audits, and figures
+│   ├── data_source/                   # Draft Data Source text, tables, and freeze notes
+│   ├── audits/                        # Coverage, time-range, and page-count audits
+│   ├── memos/                         # Review memos and next-step checklists
+│   └── figures/                       # Annotated example ledger page
+│
 ├── src/                               # Core library (shared by pipeline & experiments)
 │   ├── agents/
 │   │   ├── standalone_extractor.py    # V2 extractor (direct from image)
@@ -158,6 +166,14 @@ historical_ledger_extraction/
         ├── ledger_clean/              # Output from analysis/reanalysis_ledger_yearly.py
         └── ledger_clean_v2/           # Output from analysis/reanalysis_ledger_yearly_v2.py
 ```
+
+---
+
+## 🗂️ Archive Review Materials
+
+The repository now includes an `archive_review/` directory containing paper-preparation materials focused on the archival source itself rather than on model development. These materials include source-coverage audits, file-level time-convention checks, a draft `Data Source` subsection, and supporting memos for a journal-style data-preparation discussion.
+
+See [archive_review/README.md](archive_review/README.md) for a guide to the contents.
 
 ---
 
