@@ -24,6 +24,7 @@ env/
 
 # Claude Code
 .claude/
+CLAUDE.md
 
 # Large data files (images, PDFs, ground truth — stored locally or via LFS)
 data/images/
