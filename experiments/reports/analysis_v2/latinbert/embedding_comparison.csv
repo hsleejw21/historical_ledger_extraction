@@ -1,3 +1,0 @@
-method,model,best_k,silhouette
-LatinBERT,bowphs/PhilBerta,2,0.4555
-TF-IDF+SVD (v2),TfidfVectorizer+TruncatedSVD,4,0.2642

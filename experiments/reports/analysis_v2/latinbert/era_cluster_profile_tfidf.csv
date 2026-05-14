@@ -1,7 +1,0 @@
-era,cluster,n_years,method
-industrial_1760_1840,0,32,tfidf
-industrial_1760_1840,1,49,tfidf
-post_1840,1,16,tfidf
-post_1840,2,24,tfidf
-post_1840,3,15,tfidf
-pre_1760,0,60,tfidf
