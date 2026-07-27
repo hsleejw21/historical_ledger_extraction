@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Transformation as a Resource-Allocation Problem</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; background:#ffffff; color:#000000; font-family:Arial, Helvetica, sans-serif; line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:56px 28px 90px; }
+  h1 { font-size:1.85rem; line-height:1.25; margin:0 0 14px; font-weight:bold; }
+  .standfirst { font-size:1.08rem; margin:0 0 8px; }
+  hr.rule { border:0; border-top:1px solid #cccccc; margin:38px 0; }
+  h2 { font-size:1.18rem; font-weight:bold; margin:38px 0 10px; }
+  h3 { font-size:1.0rem; font-weight:bold; margin:20px 0 4px; }
+  p { margin:13px 0; }
+  .secnum { color:#888; font-weight:bold; margin-right:8px; }
+  .pull { font-size:1.18rem; line-height:1.5; font-style:italic; margin:24px 0; padding-left:18px; border-left:3px solid #000; }
+  .box { background:#f6f7f8; border:1px solid #d8dce0; border-left:3px solid #1f3b5c; padding:16px 20px; margin:24px 0; font-size:.9rem; line-height:1.6; }
+  .box h3 { margin:0 0 8px; font-size:.82rem; letter-spacing:.04em; text-transform:uppercase; color:#1f3b5c; }
+  .box p { margin:6px 0; }
+  .caveat { color:#5a6b7b; font-size:.85rem; font-style:italic; }
+  table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.9rem; }
+  th { text-align:left; font-weight:bold; padding:0 10px 8px; border-bottom:2px solid #000; vertical-align:bottom; }
+  td { text-align:left; padding:9px 10px; border-bottom:1px solid #ccc; vertical-align:top; line-height:1.5; }
+  .num { text-align:right; }
+  figure { margin:26px 0; }
+  img { max-width:100%; display:block; margin:0 auto; border:1px solid #ccc; }
+  figcaption { font-size:.85rem; margin-top:10px; text-align:center; font-style:italic; }
+  ul { margin:13px 0; padding-left:22px; }
+  li { margin:7px 0; }
+  strong { font-weight:bold; }
+  @media print {
+    @page { margin: 12mm; }
+    .wrap { max-width:100%; padding:0; }
+    h2, h3, figure, table, .pull { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>The Transformation as a Resource-Allocation Problem</h1>
+  <p class="standfirst">Every organisation with limited resources must choose how much to invest in
+  automation, personalisation, operational innovation and business-model innovation. Oxford is a rare
+  case where we can watch both sides of that choice: how the college <em>generated</em> resources and
+  how it <em>deployed</em> them. This note builds the two portfolios, studies the reallocation, and
+  connects them.</p>
+
+  <div class="box">
+    <h3>Data &amp; method, in brief</h3>
+    <p>Full Oxford ledger corpus, <strong>1700&ndash;1900</strong> (1,581 pages), entry-level rows
+    tagged by economic category and direction, all money deflated to constant pounds. Each level is an
+    annual <em>share</em> of income or of expenditure, built from one rule fixed in the coding
+    protocol. Both sides are first <strong>cleaned</strong> the same way: opening and closing balances,
+    arrears, carry-forwards, aggregate "total" rows, recorded losses and one-off asset sales are
+    book-keeping entries, not real money in or out, and are removed (about 75% of income and 87% of
+    spending kept). Every number is reproduced by <code>analysis_v15.py</code>.</p>
+    <p class="caveat">Coverage note: the eighteenth-century bands rest on sparse data (only 16 of the
+    50 years 1750&ndash;1799 have records); the dense, reliable period is <strong>1800&ndash;1900</strong>,
+    where the story sits.</p>
+  </div>
+
+  <figure>
+    <img src="synthesis.png" alt="Both portfolios, early versus late, by level">
+    <figcaption>The whole story in one view: on the revenue side (left) the higher-order level (L4,
+    darkest) jumps dramatically from early (solid) to late (hatched); on the spending side (right) it
+    rises too, but far less. Oxford re-made its income more than its outgoings.</figcaption>
+  </figure>
+
+  <hr class="rule">
+
+  <h2><span class="secnum">1</span>The revenue portfolio: how Oxford generated resources</h2>
+  <p>We classified every genuine income line into the four levels. Revenue does not fill all four
+  evenly &mdash; personalisation and operational innovation are ways of spending, not earning &mdash;
+  so the real shape is <strong>traditional versus new business</strong>.</p>
+
+  <table>
+    <tr><th>Era</th><th class="num">L1 traditional<br>(land, church)</th><th class="num">L2</th><th class="num">L3 admin</th><th class="num">L4 new business<br>(fees, investment)</th><th class="num">other</th></tr>
+    <tr><td>1700&ndash;1779</td><td class="num">66.7</td><td class="num">0.0</td><td class="num">1.6</td><td class="num">7.3</td><td class="num">24.4</td></tr>
+    <tr><td>1780&ndash;1819</td><td class="num">48.8</td><td class="num">0.0</td><td class="num">3.2</td><td class="num">2.9</td><td class="num">45.1</td></tr>
+    <tr><td>1820&ndash;1859</td><td class="num">33.6</td><td class="num">0.0</td><td class="num">2.7</td><td class="num">3.4</td><td class="num">60.3</td></tr>
+    <tr><td><strong>1860&ndash;1900</strong></td><td class="num">18.6</td><td class="num">0.0</td><td class="num">7.2</td><td class="num"><strong>42.7</strong></td><td class="num">31.5</td></tr>
+  </table>
+
+  <p>The revenue model changed only in the last era, and it changed sharply. Traditional
+  land-and-church income falls steadily from about <strong>two-thirds to under a fifth</strong>.
+  New-business income sits at
+  a few per cent for a century and a half, then jumps to <strong>42.7%</strong> after 1860, driven by
+  the sale of education for fees. Personalisation (L2) generates essentially no revenue: it is a way
+  of spending, not earning. So Oxford moved from living on its endowment to earning from a new
+  activity, within a single generation.</p>
+
+  <p><strong>Timing of the new revenue.</strong> Both new sources exist as occasional entries much
+  earlier (a securities line in 1709, a fee line in 1700), but they only become a <em>sustained</em>
+  revenue model late: the emergence change-point is <strong>1870 for fees</strong> and
+  <strong>1889 for investment income</strong>, and a change-point test on the whole new-business
+  income share dates the break to <strong>1870</strong> (a very sharp break, <em>t</em>&nbsp;=&nbsp;14).
+  The new revenue model is a phenomenon of the reform decades, not of the eighteenth century.</p>
+
+  <p class="caveat">A note on "other": with the current data categories, roughly a third of income
+  (more in the mid-1800s) is miscellaneous receipts we cannot assign to a level. If we set that part
+  aside and look only at the income we <em>can</em> classify, the shift is even clearer &mdash;
+  new-business income rises from about <strong>10% to 62%</strong>, while traditional falls from about
+  88% to 29%. So the traditional-versus-new story does not depend on how we handle the leftover.</p>
+
+  <figure>
+    <img src="revenue_portfolio.png" alt="Revenue portfolio: income share by level over time">
+    <figcaption>Income share by level, 1700&ndash;1900. New-business revenue (dark band) is negligible
+    until it surges after the 1854 and 1877 reforms.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">2</span>The investment portfolio: how Oxford deployed resources</h2>
+  <p>The same exercise for expenditure, with every category assigned so the shares sum to one.</p>
+
+  <table>
+    <tr><th>Era</th><th class="num">L1 upkeep<br>+ personnel</th><th class="num">L2 awards</th><th class="num">L3 admin</th><th class="num">L4 mission<br>+ business</th><th class="num">other</th></tr>
+    <tr><td>1700&ndash;1779</td><td class="num">67.1</td><td class="num">2.0</td><td class="num">14.7</td><td class="num">3.7</td><td class="num">12.4</td></tr>
+    <tr><td>1780&ndash;1819</td><td class="num">30.6</td><td class="num">24.3</td><td class="num">14.1</td><td class="num">2.0</td><td class="num">29.0</td></tr>
+    <tr><td>1820&ndash;1859</td><td class="num">33.1</td><td class="num">13.9</td><td class="num">14.6</td><td class="num">0.9</td><td class="num">37.5</td></tr>
+    <tr><td><strong>1860&ndash;1900</strong></td><td class="num">37.8</td><td class="num">9.2</td><td class="num">15.4</td><td class="num"><strong>10.0</strong></td><td class="num">27.6</td></tr>
+  </table>
+
+  <p>Deployment shifts too, but much more <em>modestly</em> than revenue. Higher-order spending
+  (L3 + L4) runs <strong>18% &rarr; 16% &rarr; 15% &rarr; 25%</strong>: a real rise late, driven by
+  <strong>L4 rising from about 1% to 10%</strong> (a change-point dates the L4-spending break to
+  <strong>1860</strong>). Here L4 covers two things &mdash; money put into investments and money spent
+  on the teaching mission &mdash; and it grows only in the last era. But the college still spends most
+  of its money the old way: upkeep and personnel (L1) remain the largest block at about 38%, and
+  administration (L3) is flat at ~15% throughout. So spending moves in the same direction as revenue,
+  but far less sharply.</p>
+
+  <p class="caveat">On the "other" block (about 28% late): as with income, some spending lines carry
+  no clear category in the data (general or unspecified payments, internal transfers between funds).
+  We keep them visible as "other" rather than force them into a level.</p>
+
+  <p class="caveat">Correction from the first draft: an earlier version counted the whole "financial"
+  spending category as L4 investment, which inflated L4 deployment to ~30% by including accounting
+  artefacts (aggregate totals, carried-forward balances, recorded losses). Restricting L4 to
+  <em>genuine investment purchases</em> and cleaning those artefacts brings it to ~10%. The revenue
+  figures are unaffected.</p>
+
+  <figure>
+    <img src="investment_portfolio.png" alt="Investment portfolio: expenditure share by level over time">
+    <figcaption>Expenditure share by level, 1700&ndash;1900. The higher-order band (dark) expands
+    after the reforms; administration (mid-blue) stays roughly constant.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">3</span>Reallocation: where did each additional pound go?</h2>
+  <p>Rather than raw growth, we ask where the <em>extra</em> money went. Comparing spending per year,
+  early (1780&ndash;1853) versus late (1854&ndash;1900):</p>
+
+  <table>
+    <tr><th>Level</th><th class="num">Share of the marginal pound</th><th class="num">Relative share change (pp)</th></tr>
+    <tr><td>L1 upkeep + personnel</td><td class="num">38.0%</td><td class="num">+3.8</td></tr>
+    <tr><td><strong>L4 mission + business</strong></td><td class="num">25.7%</td><td class="num"><strong>+16.8</strong></td></tr>
+    <tr><td>other</td><td class="num">21.9%</td><td class="num">&minus;8.4</td></tr>
+    <tr><td>L3 admin</td><td class="num">7.8%</td><td class="num">&minus;4.5</td></tr>
+    <tr><td>L2 awards</td><td class="num">6.6%</td><td class="num">&minus;7.8</td></tr>
+  </table>
+
+  <p>The largest share of new spending simply scaled the old operation: <strong>38 pence of each
+  additional pound went to upkeep and personnel (L1)</strong>. But the next-largest share,
+  <strong>26 pence, went to L4</strong> &mdash; and because L4 started from almost nothing, it is the
+  level that gained by far the most in <em>relative</em> terms (<strong>+16.8 points</strong> of
+  share). Personalisation, administration and the unclassified "other" all lost relative ground. So
+  the marginal pound tells a two-part story: most of it kept the existing operation running at a
+  larger scale, but the fastest-growing claimant was higher-order transformation.</p>
+
+  <figure>
+    <img src="reallocation.png" alt="Marginal capture and relative share change by level">
+    <figcaption>Left: share of the spending growth taken by each level &mdash; L1 and L4 take the
+    most. Right: change in each level's relative share &mdash; L4 gains by far the most.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">4</span>Connecting the two portfolios</h2>
+  <p>This is the new question: did Oxford change how it earned and how it spent at the same time?</p>
+
+  <table>
+    <tr><th>Measure</th><th class="num">Early (1780&ndash;1853)</th><th class="num">Late (1854&ndash;1900)</th></tr>
+    <tr><td>New-business income share</td><td class="num">2.5%</td><td class="num">37.9%</td></tr>
+    <tr><td>Higher-order spend share (L3+L4)</td><td class="num">16.1%</td><td class="num">23.6%</td></tr>
+    <tr><td>Traditional land income share</td><td class="num">41.2%</td><td class="num">17.5%</td></tr>
+    <tr><td>Number of income sources that really mattered</td><td class="num">about 2</td><td class="num">about 2</td></tr>
+  </table>
+
+  <ul>
+    <li><strong>The change was lop-sided.</strong> Revenue moved a great deal (2.5% &rarr; 38% new
+    business) while spending moved much less (16% &rarr; 24% higher-order). Oxford changed <em>how it
+    earned</em> far more than <em>how it spent</em>. Both moved in the same late window (the
+    1860s&ndash;70s), but by very different amounts.</li>
+    <li><strong>The business model grew just before the teaching mission.</strong> New-business
+    revenue rises about six years ahead of mission spending &mdash; the same order last week's report
+    found. (This is the one clear ordering; the two portfolios as a whole move together too closely to
+    say which came first.)</li>
+    <li><strong>The new revenue did not pay for administration.</strong> Administration (L3) sat
+    steady at about 15% of spending across the whole period, so it was not something the new revenue
+    built &mdash; it was already there.</li>
+    <li><strong>The old income did not pay for the change either.</strong> Land income <em>fell</em>
+    (41% &rarr; 18%) as the new revenue rose, so the new spending lines up with the new revenue, not
+    the old.</li>
+    <li><strong>This was a swap, not a spread.</strong> Throughout, only about two income sources
+    really mattered at a time: Oxford swapped one main source (land) for another (fees) rather than
+    spreading across many. It renewed its income base, it did not widen it.</li>
+  </ul>
+
+  <p class="pull">Oxford re-made how it earned far more than how it spent: the revenue side changed
+  sharply, the spending side only gradually.</p>
+
+  <figure>
+    <img src="income_expenditure_link.png" alt="New revenue versus higher-order spend, and business model versus mission">
+    <figcaption>Left: new-business income (solid) surges after 1854, while L4 spending (dashed) rises
+    far less &mdash; the same lop-sided pattern. Right: business-model revenue (solid) rises just
+    ahead of mission spending (dashed).</figcaption>
+  </figure>
+
+  <p class="caveat">One limit to keep in mind: we do not try to pin down which side moved first
+  year-by-year, because both change in the same short window and the measures are close. The one
+  ordering we do rely on is that new-business revenue rises just ahead of mission spending.</p>
+
+  <h2><span class="secnum">5</span>Does the answer change if we classify differently?</h2>
+  <p>The portfolios rest on judgment calls, so we re-computed the two headline numbers &mdash; the
+  late-period (1860&ndash;1900) L4 share of income and of spending &mdash; under alternative choices.
+  These use the same measure as the tables above, so they line up with them.</p>
+
+  <table>
+    <tr><th>Classification choice</th><th class="num">L4 income %</th><th class="num">L4 spend %</th></tr>
+    <tr><td>Our choice (base)</td><td class="num">42.7</td><td class="num">10.0</td></tr>
+    <tr><td>Count personnel pay as L3, not L1</td><td class="num">42.7</td><td class="num">10.0</td></tr>
+    <tr><td>Skip the income cleaning step</td><td class="num">38.6</td><td class="num">10.0</td></tr>
+    <tr><td><em>Count all financial spending as L4 (the earlier error)</em></td><td class="num">42.7</td><td class="num"><em>30.3</em></td></tr>
+    <tr><td>Count fees as personalisation (L2), not new business</td><td class="num"><strong>4.2</strong></td><td class="num">10.0</td></tr>
+  </table>
+
+  <p>The numbers barely move when we reroute personnel pay or skip the income cleaning &mdash; so most
+  choices do not affect the story. Two rows matter. The italic row shows the earlier mistake:
+  counting <em>all</em> financial spending as L4 (rather than only real investment purchases) trebles
+  the L4 spending share, from 10% to 30%. That is the error we corrected. And the last row shows the
+  one choice the revenue story truly depends on: if fees are called personalisation rather than a new
+  business, the new-revenue share collapses to 4%. We treat fees as new business because selling
+  education for a price is a genuinely new way of earning. Either way, the core fact holds &mdash;
+  Oxford replaced its old revenue source with a new one.</p>
+
+  <h2><span class="secnum">6</span>What this suggests for organisations investing in AI</h2>
+  <p>Oxford is one organisation that came through the last great technological upheaval still relevant.
+  Three things about how it allocated its resources turn into concrete questions for a company
+  investing in AI today.</p>
+  <ul>
+    <li><strong>Look at the revenue side, not just costs.</strong> Oxford's clearest sign of real
+    adaptation was not running its old activities more cheaply &mdash; it was building a new way to
+    earn (selling education for fees, which grew from a few per cent of income to over 40%). <em>For
+    AI:</em> if the effort shows up only as automation and cost-cutting, that may be the smaller half;
+    the bigger question is whether AI changes how the organisation makes money.</li>
+    <li><strong>Aim the new money at higher-order change.</strong> Oxford still spent most of its
+    budget the old way, but the fastest-growing slice of its <em>new</em> spending went to new business
+    and mission (L4), not to efficiency (L1) or personalisation (L2), which were merely kept up. <em>For
+    AI:</em> watch where the incremental investment goes, not the whole budget.</li>
+    <li><strong>Let new bets pay their own way.</strong> Oxford's new spending grew alongside its new
+    income, not off the old land endowment, which was shrinking. <em>For AI:</em> initiatives that come
+    with a new revenue stream look more durable than ones subsidised indefinitely by the legacy
+    business.</li>
+  </ul>
+  <p>A single case cannot prove what makes an organisation survive such a shift. But the pattern is
+  clear and consistent: <strong>Oxford changed how it earned far more than how it spent, aimed its new
+  spending at higher-order change, and funded that change with new income rather than old.</strong></p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+label,n_items,n_agree,agree_rate,field
+balance_sheet,62,56,0.9032258064516129,direction
+expenditure,1434,1310,0.9135285913528591,direction
+income,1146,1052,0.9179755671902269,direction
+transfer,26,9,0.34615384615384615,direction
+unclear,127,17,0.13385826771653545,direction

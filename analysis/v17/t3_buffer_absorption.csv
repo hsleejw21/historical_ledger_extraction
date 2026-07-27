@@ -1,0 +1,4 @@
+era,n_years_with_arrears,mean_arrears_real,corr_gap_vs_darrears
+1800-1819 (tight),19,588.2623941445089,-0.3262329590252872
+"1820-1853 (loose, pre-reform)",33,871.6508343175014,-0.171525655472091
+"1854-1900 (loose, post-reform)",6,692.800655471272,

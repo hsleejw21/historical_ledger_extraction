@@ -1,0 +1,4 @@
+income_definition,lambda_1800_1819,p_1800_1819,lambda_1820_1853,p_1820_1853,lambda_1854_1900,p_1854_1900
+total cleaned income (v16 baseline),0.948,0.0,0.159,0.437,0.185,0.017
+L1 endowment income only (land + church),0.898,0.01,0.388,0.037,0.132,0.019
+"classifiable income only (L1+L3+L4, drops 'other')",0.797,0.003,0.314,0.067,0.083,0.093

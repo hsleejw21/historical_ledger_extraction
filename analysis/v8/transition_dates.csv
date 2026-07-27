@@ -1,0 +1,5 @@
+Level,Code,Baseline mean,Baseline SD,Threshold (+1.5σ),Transition year
+L1: Efficiency / Standardisation,L1_inv,0.6742,0.1875,0.9555,Not detected
+L2: Process Modernisation,L2,0.7307,0.0842,0.8571,Not detected
+L3: Organisational Redesign,L3,0.2314,0.1334,0.4314,1802
+L4: Mission Transformation,L4,0.0186,0.0323,0.0671,1873

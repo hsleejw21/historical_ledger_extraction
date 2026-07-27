@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<title>Research Inventory — Historical Ledger Project</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1300px;margin:40px auto;padding:0 20px;color:#222}
+h1{font-size:1.6em;border-bottom:2px solid #2c3e50;padding-bottom:8px}
+h2{font-size:1.2em;color:#2c3e50;margin-top:32px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:0.84em}
+th{background:#2c3e50;color:white;padding:7px 10px;text-align:left;vertical-align:top}
+td{border:1px solid #ddd;padding:7px 10px;vertical-align:top}
+tr:nth-child(even){background:#f9f9f9}
+.callout{background:#eaf4fb;border-left:4px solid #2980b9;padding:12px 16px;margin:16px 0;border-radius:4px}
+.todo{color:#b9770e;font-weight:bold;font-style:italic}
+.high{color:#117a65;font-weight:bold}
+.medium{color:#1f618d}
+.low{color:#909497}
+.unrated{color:#b9770e;font-style:italic}
+code{background:#f4f4f4;padding:2px 5px;border-radius:3px;font-size:0.9em}
+</style>
+</head>
+<body>
+
+<h1>Research Inventory: Preserved Findings for Future Papers</h1>
+<p><em>Companion to <a href="analysis_v10_core.html">analysis_v10_core.html</a> (the leapfrogging core
+evidence package). Generated 2026-05-26 in response to advisor feedback.</em></p>
+
+<div class="callout">
+<strong>Purpose:</strong> The Oxford ledger corpus is unusually rich and supports several
+distinct research questions beyond the leapfrogging core story. This inventory catalogues
+each preserved finding with its empirical support, methodological approach, and source
+artifact, so the archive can serve as a long-term research platform rather than a
+single-paper project.
+<br><br>
+<strong>How to fill in:</strong> The last three columns (Confidence, Theory angle, Future-paper direction)
+are deliberately left as <span class="todo">TODO</span> — they require theoretical judgment
+that belongs with the authors, not auto-extraction.
+Suggested ratings for Confidence: <span class="high">HIGH</span> /
+<span class="medium">MEDIUM</span> / <span class="low">LOW</span>.
+</div>
+
+<h2>Preserved Findings</h2>
+
+<table>
+<thead><tr>
+<th style="width:13%">Finding</th>
+<th style="width:22%">Empirical support</th>
+<th style="width:14%">Method</th>
+<th style="width:14%">Source artifact</th>
+<th style="width:10%">Theme</th>
+<th style="width:7%">Confidence</th>
+<th style="width:10%">Theory angle</th>
+<th style="width:10%">Future-paper direction</th>
+</tr></thead>
+<tbody>
+<tr><td><strong>Capability expansion precedes mission transformation (L3 → L4)</strong></td><td>Rolling 30-yr correlation shows L3 leading L4 by 5 yr in pre-1750 windows (advantage 0.5–0.7). First-difference cross-correlation peak directionally consistent but NOT statistically significant. First-entry timing threshold-sensitive.</td><td>Cross-lag with bootstrap CI; distributed lag (levels &amp; first-differences); rolling correlation; state-transition entry timing</td><td>v9 Section C; <code>analysis_v9/bootstrap_crosscorr_L3_L4.csv</code>, <code>distributed_lag.csv</code>, <code>rolling_correlation.csv</code>, <code>state_transitions.csv</code></td><td>Sequencing within strategic axis</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Strict L1 → L2 → L3 → L4 ordering across transformation dimensions</strong></td><td>Change-point ordering partial (B3 confirms L4 has largest break, but break <em>year</em> ordering is mixed). Transition-date crossings sensitive to threshold choice; no robust strict ordering.</td><td>Binary segmentation change-point detection; transition-date crossings at quantile thresholds</td><td><code>analysis_v6/level_sequencing.csv</code>, <code>analysis_v6/structural_breaks.csv</code>, <code>analysis_v8/break_ordering.csv</code>, <code>analysis_v8/transition_dates.csv</code></td><td>Sequencing across all four dimensions</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Granger-causal chaining across levels (L_k predicts L_{k+1})</strong></td><td>Mostly insignificant across lag specifications and pairwise tests. No evidence of predictive chaining.</td><td>Sequential Granger causality (HAC-robust); local projections</td><td><code>analysis_v7/granger_results.csv</code>, <code>analysis_v7/local_projections_results.csv</code>, <code>analysis_v8/sequential_granger.csv</code></td><td>Sequencing — predictive structure</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Semantic / language modernisation (Latin → English shift, vocabulary evolution)</strong></td><td>English-share rises from low base across 18th century. Vocabulary diversification trends documented in standalone analyses.</td><td>Per-row language classification; vocabulary type-token ratios; text-trend analysis over enriched corpus</td><td><code>analysis/analysis_text_trends.py</code>, <code>analysis/analysis_vocabulary.py</code>, language fields in <code>experiments/results/enriched/</code></td><td>Linguistic/cultural modernisation</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Income diversification dynamics (concentration → diversification over time)</strong></td><td>Income-source concentration (HHI) declines across the 19th century as new categories enter; documented in v6.</td><td>Annual HHI of income categories; entry/exit accounting of revenue streams</td><td><code>analysis_v6/income_diversification.csv</code></td><td>Revenue / portfolio diversification</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Charity institutionalisation (informal alms → formal endowment)</strong></td><td>Charity-related categories shift from ad-hoc disbursements to recurring/formalised payments over the 18th–19th centuries.</td><td>Category share decomposition; hypothesis-driven longitudinal analysis</td><td><code>analysis/analysis_hypotheses.py</code>; enriched <code>category</code> field</td><td>Institutional formalisation</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Corporate / market transition (in-kind &amp; ad-hoc → cash &amp; market-mediated)</strong></td><td>Direction of payment composition shifts toward salaried/regular money flows; decline of in-kind and one-off disbursements.</td><td>Payment-type composition over time; supplier-network structure</td><td><code>analysis/analysis_supplier_networks.py</code>; enriched <code>category</code>/<code>direction</code>/<code>payment_period</code> fields</td><td>Market formation</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Payment modernisation (irregular → periodic, salary-based)</strong></td><td>L2 (payment-modernity index) rises smoothly across 1700–1900. Used as a transformation proxy throughout v9.</td><td>Payment-period regularity index aggregated per year; rolling 10-yr smoothing</td><td><code>analysis_v6/four_level_proxies.csv</code> (L2 column); payment_period field in enriched data</td><td>Process modernisation</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr><tr><td><strong>Resource slack enables leapfrogging (endowment / land-rent income)</strong></td><td>Rising land-rent income provides financial capacity for capability investment during reform shock periods. Documented as a mechanism in v7.</td><td>Income composition decomposition; ITS on land-rent income alongside expenditure dimensions</td><td><code>analysis_v7/its_results.csv</code>, <code>analysis_v7/event_study_results.csv</code></td><td>Enabling mechanism for leapfrogging (links back to main paper)</td><td class='todo'>TODO</td><td class='todo'>TODO</td><td class='todo'>TODO</td></tr>
+</tbody>
+</table>
+
+<h2>How to use this inventory</h2>
+<ul>
+<li><strong>Each row = one candidate paper or supplementary contribution.</strong>
+Group rows by Theme when scoping new papers.</li>
+<li><strong>"Source artifact" columns are reproducible:</strong> the CSVs and scripts
+listed exist in <code>experiments/reports/</code> and <code>experiments/analysis/</code>.</li>
+<li><strong>Treat the three TODO columns as a working document.</strong> Update Confidence
+when new evidence comes in; refine Theory angle and Future-paper direction as the
+research programme matures.</li>
+<li><strong>Capability-before-mission (row 1)</strong> is the most paper-ready candidate
+beyond the core leapfrogging story — the rolling-correlation finding of pre-1750 lead-lag
+shifting to post-1750 synchronicity is a distinctive empirical contribution in its own right.</li>
+</ul>
+
+</body>
+</html>

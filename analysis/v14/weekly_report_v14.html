@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construct Protocol, the L4 Boundary, and the Three-Phase Story</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; background:#ffffff; color:#000000; font-family:Arial, Helvetica, sans-serif; line-height:1.7; }
+  .wrap { max-width:740px; margin:0 auto; padding:56px 28px 90px; }
+  h1 { font-size:1.85rem; line-height:1.25; margin:0 0 14px; font-weight:bold; }
+  .standfirst { font-size:1.08rem; margin:0 0 8px; }
+  hr.rule { border:0; border-top:1px solid #cccccc; margin:38px 0; }
+  h2 { font-size:1.18rem; font-weight:bold; margin:38px 0 10px; }
+  h3 { font-size:1.0rem; font-weight:bold; margin:20px 0 4px; }
+  p { margin:13px 0; }
+  .pull { font-size:1.18rem; line-height:1.5; font-style:italic; margin:24px 0; padding-left:18px; border-left:3px solid #000; }
+  .secnum { color:#888; font-weight:bold; margin-right:8px; }
+  .box { background:#f6f7f8; border:1px solid #d8dce0; border-left:3px solid #1f3b5c; padding:16px 20px; margin:24px 0; font-size:.9rem; line-height:1.6; }
+  .box h3 { margin:0 0 8px; font-size:.82rem; letter-spacing:.04em; text-transform:uppercase; color:#1f3b5c; }
+  .box p { margin:6px 0; }
+  .box ul { margin:6px 0 0; padding-left:18px; }
+  .box li { margin:3px 0; }
+  .caveat { color:#5a6b7b; font-size:.85rem; font-style:italic; }
+  table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.9rem; }
+  th { text-align:left; font-weight:bold; padding:0 10px 8px; border-bottom:2px solid #000; vertical-align:bottom; }
+  td { text-align:left; padding:9px 10px; border-bottom:1px solid #ccc; vertical-align:top; line-height:1.5; }
+  .num { text-align:right; }
+  figure { margin:26px 0; }
+  img { max-width:100%; display:block; margin:0 auto; border:1px solid #ccc; }
+  figcaption { font-size:.85rem; margin-top:10px; text-align:center; font-style:italic; }
+  strong { font-weight:bold; }
+  @media print {
+    @page { margin: 12mm; }
+    .wrap { max-width:100%; padding:0; }
+    h2, h3, figure, table, .pull { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Construct Protocol, the L4 Boundary, and the Three-Phase Story</h1>
+  <p class="standfirst">This week had two priorities: finalising the conceptual mapping between the
+  Oxford archive and the Four-Level Framework, and producing stronger empirical evidence for the
+  transformation story. This note reports both, and states where the work still needs to improve.</p>
+
+  <div class="box">
+    <h3>Data &amp; method, in brief</h3>
+    <p>The evidence base is the full Oxford ledger corpus, <strong>1700&ndash;1900</strong> (1,581
+    extracted pages; entry-level rows tagged by economic category and direction). All money is
+    deflated to constant pounds (Phelps&ndash;Brown&ndash;Hopkins index), so changes are real, not
+    price-driven. Each L1&ndash;L4 series is an annual income- or expenditure-<em>share</em> built
+    from one proxy fixed in advance in the coding protocol. Dating uses a Welch-<em>t</em>
+    change-point; reform effects use an interrupted time series (segmented OLS, HAC errors) with
+    breaks at the <strong>1854</strong> and <strong>1877</strong> reforms. Every number below is
+    reproduced by <code>analysis_v14.py</code>.</p>
+    <p class="caveat">Scope of the claim: Oxford is one institution that survived, so the evidence
+    speaks to the <em>timing and concentration</em> of change&mdash;which levels move, and
+    when&mdash;not to a counterfactual test of survival.</p>
+  </div>
+
+  <hr class="rule">
+
+  <h2><span class="secnum">1</span>The question we are really asking</h2>
+  <p>The project is not ultimately about Oxford. It is about how organisations respond when a
+  technology fundamentally changes their environment. Oxford is useful because the Industrial
+  Revolution has already run its full course, while AI transformation is still unfolding, so a
+  completed case can offer lessons for an unfinished one. The question is which kinds of
+  transformation actually matter when the environment changes.</p>
+
+  <p>The working hypothesis is that the lower levels, automation and personalisation, help an
+  organisation improve, while the higher levels, operational innovation and business-model
+  innovation, are what let it stay relevant through a major disruption. This remains a hypothesis.
+  This week's task was to make the measures defensible and the evidence strong enough to test it.</p>
+
+  <h2><span class="secnum">2</span>Making the mapping defensible: the coding protocol</h2>
+  <p>The first priority was the conceptual mapping. Our earlier measures had been attached to the
+  framework after the fact, so we rebuilt each one around a single rule. For every historical proxy
+  we answer four questions: what is the original AI definition, what is the historical analogue in
+  the ledger, what evidence supports the mapping, and, most importantly, what evidence would force us
+  to reject it. A construct we cannot imagine rejecting is a label, not a measurement. The table
+  records the definition, the proxy, and the rejection rule for each level.</p>
+
+  <table>
+    <tr><th>Level</th><th>Original AI definition (Q1)</th><th>Oxford proxy (Q2)</th><th>What would reject it (Q4)</th></tr>
+    <tr><td><strong>L1 Automation</strong></td><td>The same activity performed more efficiently; substitution without redesign. Value: cost.</td><td>Routine upkeep that always existed: maintenance, domestic service, provisioning.</td><td>If it redesigned the workflow (then L3), created new revenue (L4A), or followed a purpose shift (L4B).</td></tr>
+    <tr><td><strong>L2 Personalisation</strong></td><td>Different outputs to individuals, within an unchanged process. Value: revenue.</td><td>Provision by named individual: scholarships, exhibitions, prizes, individual fees.</td><td>If it required workflow redesign (L3), or became a new fee market (L4A).</td></tr>
+    <tr><td><strong>L3 Operational innovation</strong></td><td>The workflow itself is redesigned; roles move from doing to coordinating. Value: process.</td><td>Administration plus accounting-structure formalisation: more managed accounts, sub-totals, double-entry.</td><td>If it is only more clerks doing the same thing (L1 headcount), or merely cosmetic structure.</td></tr>
+    <tr><td><strong>L4A Business model</strong></td><td>A genuinely new business that did not exist before. Value: new markets.</td><td>Income absent in 1700: securities investment (consols, canal, railway) and fee income, with a first-appearance check.</td><td>If the "new" income is relabelled old rent or interest, or is internally funded with no market (then L4B).</td></tr>
+    <tr><td><strong>L4B Mission</strong></td><td>A shift in the institution's purpose. No direct AI counterpart. Value: relevance.</td><td>Educational expenditure, scientific instruction, scholarship systems.</td><td>If it is only scaling an old function (volume, not purpose), or really a revenue play (L4A).</td></tr>
+  </table>
+
+  <p>We then ran concrete historical categories through the same four questions, not only the
+  abstract levels, as the gas-lighting example asks.</p>
+
+  <table>
+    <tr><th>Historical item</th><th>Level</th><th>Why it qualifies</th><th>What would re-classify it</th></tr>
+    <tr><td>Gas lighting</td><td>L1</td><td>Lighting existed; purpose unchanged; only the means improved.</td><td>If it changed how teaching was delivered (L3), or was sold on (L4A).</td></tr>
+    <tr><td>Waterworks</td><td>L1</td><td>Same need, supplied more efficiently.</td><td>If it enabled a new service the college charged for (L4A).</td></tr>
+    <tr><td>Property insurance</td><td>L1</td><td>An existing risk handled more efficiently.</td><td>If underwriting became a revenue activity (L4A).</td></tr>
+    <tr><td>Externalised services</td><td>L1</td><td>Same task, cheaper provider, process unchanged.</td><td>If outsourcing redesigned the workflow (L3).</td></tr>
+    <tr><td>Scholarships, exhibitions, prizes</td><td>L2</td><td>Provision differs by named individual.</td><td>If they reorganised teaching (L3), or were a fee market (L4A).</td></tr>
+    <tr><td>Administration and double-entry</td><td>L3</td><td>The operating model itself is restructured.</td><td>If it is only more clerks doing the same thing (L1).</td></tr>
+    <tr><td>Examination system</td><td>L3 / L4A</td><td>Redesigns assessment and coordination.</td><td>Its fees are L4A; its process redesign is L3, so we split it.</td></tr>
+    <tr><td>Consols, canal, railway investment</td><td>L4A</td><td>The college becomes an investor, a business absent in 1700.</td><td>If the income is recategorised old interest or rent.</td></tr>
+    <tr><td>Composition and tuition fees</td><td>L4A</td><td>Education sold as a paid service.</td><td>If purely internal support with no market, it leans L4B.</td></tr>
+    <tr><td>Educational expansion, scientific chairs</td><td>L4B</td><td>The institution's purpose shifts toward teaching and science.</td><td>If it is a revenue play (L4A), or just scaling an old function.</td></tr>
+    <tr><td>Land-rent income, financial slack</td><td>enabler</td><td>A precondition that funds higher-order change.</td><td>Outside L1 to L4 by construction.</td></tr>
+  </table>
+
+  <p>The last row addresses the question of resource slack. Slack, meaning land-rent income and a
+  diversified revenue base, is not a kind of transformation but a precondition that makes
+  higher-order change affordable. We therefore place it outside the four levels, as an enabling
+  mechanism, which keeps "what changed" separate from "what made change possible."</p>
+
+  <h2><span class="secnum">3</span>The L4 boundary: business model and mission are not the same</h2>
+  <p>The most important conceptual issue was Level 4. It contained two different ideas, so we split
+  them and measured each separately.</p>
+
+  <table>
+    <tr><th>L4A: Business-model innovation</th><th>L4B: Mission transformation</th></tr>
+    <tr><td>New revenue streams, fee-based education, investment income, canal, railway, and
+      financial investments, and other new ways of capturing value.</td>
+      <td>Educational expansion, scientific instruction, scholarship systems, change in the
+      educational portfolio, and shifts in the institution's purpose.</td></tr>
+  </table>
+
+  <p>We then tested the three questions: do they move together, does one appear earlier, and does
+  one drive the other.</p>
+
+  <p>They do not move together tightly: their year-to-year movements correlate only 0.26. One is
+  clearly earlier, with the business model turning first, around 1876, and the mission following
+  around 1889. The lead also runs in one direction. To check that this does not depend on a single
+  smoothing choice, we ran the lead&ndash;lag test three ways &mdash; on the levels, on raw yearly
+  changes, and on smoothed changes. All three place the business model ahead by the same eight
+  years.</p>
+
+  <table>
+    <tr><th>Lead&ndash;lag, run three ways</th><th class="num">L4A leads by</th><th class="num">peak corr.</th><th class="num">same-year corr.</th></tr>
+    <tr><td>Levels (trended)</td><td class="num">8 yrs</td><td class="num">0.76</td><td class="num">0.67</td></tr>
+    <tr><td>Raw year-to-year changes</td><td class="num">8 yrs</td><td class="num">0.38</td><td class="num">0.03</td></tr>
+    <tr><td>Smoothed changes</td><td class="num">8 yrs</td><td class="num">0.36</td><td class="num">0.26</td></tr>
+  </table>
+
+  <p>The change-points point the same way (1876 against 1889, a thirteen-year gap). The
+  <em>direction</em> &mdash; business model first &mdash; is therefore well supported, though the
+  exact gap of eight to thirteen years should be read as approximate. The result confirms that the
+  two belong apart, and the order is itself informative.</p>
+
+  <p class="pull">Oxford first found new ways to earn, and only afterward expanded what it was for.</p>
+
+  <p class="caveat">On rigour: both series are short, and the smoothed versions are autocorrelated,
+  which can inflate a lead&ndash;lag peak. We therefore rely on the agreement across the three
+  transforms and the independent change-points, and treat a formal causal (Granger-type) test as the
+  next step before this becomes a headline claim.</p>
+
+  <figure>
+    <img src="l4_split.png" alt="L4A business model rises before L4B mission">
+    <figcaption>L4A, the new business model, climbs from the late 1850s. L4B, the mission, climbs
+    only after the late 1870s. The dotted lines mark the 1854 and 1877 reforms.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">4</span>The pre-reform story, in three phases</h2>
+  <p>You asked three questions: which dimensions begin moving <em>before</em> 1854, which
+  <em>only</em> accelerate after 1854, and which accelerate <em>again</em> after 1877. Because the
+  questions are about acceleration, we measure each dimension by its <strong>trend (slope)</strong>
+  within three windows &mdash; before 1854, between the Acts (1854&ndash;77), and after 1877 &mdash;
+  rather than by a one-off level jump. A rising, statistically clear slope in a window means the
+  dimension is accelerating in that phase.</p>
+
+  <table>
+    <tr><th>Dimension</th><th class="num">Pre-1854 trend</th><th class="num">1854&ndash;77 trend</th><th class="num">Post-1877 trend</th><th>Accelerates in</th></tr>
+    <tr><td>L1 cost</td><td class="num">&minus;0.16 (n.s.)</td><td class="num">+0.54 (n.s.)</td><td class="num">&minus;0.04 (n.s.)</td><td>&mdash; (no clear phase)</td></tr>
+    <tr><td>L2 personalisation</td><td class="num"><strong>+0.81</strong></td><td class="num">+0.17</td><td class="num"><strong>+0.93</strong></td><td>Phase 1 &amp; Phase 3</td></tr>
+    <tr><td>L3 operational</td><td class="num"><strong>+0.55</strong></td><td class="num">+0.06 (n.s.)</td><td class="num">&minus;0.37</td><td>Phase 1, then fades</td></tr>
+    <tr><td>L4A business model</td><td class="num">&minus;0.02 (n.s.)</td><td class="num"><strong>+0.98</strong></td><td class="num">&minus;0.14 (n.s.)</td><td><strong>Phase 2 (1854&ndash;77)</strong></td></tr>
+    <tr><td>L4B mission</td><td class="num">+0.04 (n.s.)</td><td class="num"><strong>+0.26</strong></td><td class="num"><strong>+0.99</strong></td><td><strong>Phase 3 (post-1877)</strong></td></tr>
+  </table>
+  <p class="caveat">Trend = change in the income/expenditure share per year (&times;100), from an OLS
+  fit within each window; bold = statistically clear (|t|&nbsp;&ge;&nbsp;2), "n.s." = not
+  significant.</p>
+
+  <p>This answers the three questions directly:</p>
+  <ul>
+    <li><strong>Begin before 1854:</strong> personalisation (L2) and the operating model (L3). Both
+    have a clear upward trend already in the 1820s&ndash;1830s, a full generation before Parliament
+    acted.</li>
+    <li><strong>Only accelerate after 1854:</strong> the business model (L4A). It is flat before 1854
+    and then climbs steeply between the two Acts (1854&ndash;77), and is the dimension that the first
+    reform most clearly switched on.</li>
+    <li><strong>Accelerate again after 1877:</strong> the mission (L4B) above all, joined by a second
+    surge in personalisation (L2). The operating model (L3), by contrast, peaks mid-century and then
+    declines.</li>
+  </ul>
+
+  <h3>What the L2 and L3 curves mean</h3>
+  <p>The L2 and L3 shapes are not just noise. Each one follows from what the measure counts.</p>
+
+  <p><strong>Operational innovation (L3)</strong> is the share spent on administration &mdash; the
+  cost of running the college. It rises towards the reforms, peaks around 1854&ndash;77, then falls as
+  a share after 1877. The fall is not a retreat. In real money, administrative spending more than
+  doubles into 1854&ndash;77 (about &pound;545 to &pound;1,150 a year), so the college genuinely
+  rebuilds how it is run. After that the administration stays about the same size while the business
+  model and the mission grow much faster, so its <em>share</em> goes down even though the activity
+  does not. This is what a one-off reorganisation looks like: a build-up at the reforms, then a
+  smaller share once it is done. That is why we read L3 as the college settling its new structure,
+  not as steady growth.</p>
+
+  <p><strong>Personalisation (L2)</strong> is money given to named individuals: scholarships,
+  exhibitions, and prizes. Its path is a U. Award spending is high early, almost disappears during
+  the reform decades (the award share falls from about 18% before 1854 to under 2% in 1854&ndash;77),
+  then climbs back to about 14% after 1877. The dip and recovery match the old award system being
+  replaced by the modern, competitive scholarship system: support for individuals shrinks while the
+  rules are rewritten, then grows again once the new system is in place. So the late rise is not new
+  personalisation; it is the old kind returning in a reformed form.</p>
+
+  <p>So the three phases are real, but they are cleaner when read as acceleration rather than as a
+  single step. The order is the important part: <strong>the business model accelerates first, between
+  the Acts, and the mission accelerates afterward.</strong> This is the same sequence the
+  lead&ndash;lag test found in Section 3 &mdash; new ways of earning come before the expansion of
+  purpose &mdash; and the two analyses now reinforce each other. The reforms confirmed and scaled
+  changes that were already under way rather than starting them.</p>
+
+  <figure>
+    <img src="phases.png" alt="When each dimension accelerates across the three phases">
+    <figcaption>Each dimension over 1800 to 1900, with the three phase windows shaded: Phase 1
+    (pre-1854), Phase 2 (1854&ndash;77), Phase 3 (post-1877). The orange dot marks the pre-1854
+    onset. L4A climbs in the Phase 2 band and then plateaus; L4B climbs only in the Phase 3 band.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">5</span>Does the story survive the definitions?</h2>
+  <p>This test decides how much to trust the result. We computed each level three ways &mdash; old,
+  new, and an alternative &mdash; and re-checked three conclusions: does the level carry the late
+  change, does it respond to the reforms, and does it have a pre-1854 precursor.</p>
+
+  <p>The Level 4 conclusions hold. Under every definition the top level grows late, responds strongly
+  to 1877, and already turns in the late 1820s.</p>
+
+  <table>
+    <tr><th>L4 definition</th><th class="num">late minus early</th><th class="num">reform response (1877)</th><th class="num">precursor year</th></tr>
+    <tr><td>old: educational spend</td><td class="num">+0.12</td><td class="num">1.25</td><td class="num">1827</td></tr>
+    <tr><td>new: new revenue (L4A)</td><td class="num">+0.29</td><td class="num">1.34</td><td class="num">1826</td></tr>
+    <tr><td>alternative: L4A plus L4B</td><td class="num">+0.40</td><td class="num">1.33</td><td class="num">1827</td></tr>
+  </table>
+
+  <p>The central claim therefore does not depend on how we measure Level 4. The exception is Level 3,
+  the operating model, which is definition-sensitive: the old salary measure shows a strong reform
+  response, the new administrative measure does not, and whether Level 3 carries the late change
+  changes sign between definitions. We report this openly. The lower levels show no consistent late
+  concentration under any definition.</p>
+
+  <figure>
+    <img src="sensitivity.png" alt="Late minus early by level across three definitions">
+    <figcaption>Late period minus early period, by level, under the old, new, and alternative
+    definitions. Level 4 stays clearly positive across all three; the lower levels do not.</figcaption>
+  </figure>
+
+  <h2><span class="secnum">6</span>What this says about the hypothesis</h2>
+  <p>The hypothesis is that the lower levels (automation and personalisation) help an organisation
+  improve, while the higher levels (operational and business-model innovation) are what let it stay
+  relevant through disruption. We cannot test this on outcomes, because Oxford is a single
+  institution that survived. What we can test is simpler: <strong>if the higher levels are what carry
+  an organisation through disruption, the lasting change late in the period should sit in those
+  levels, and it should hold whichever reasonable definition we use.</strong> Reading the results
+  level by level:</p>
+
+  <ul>
+    <li><strong>Level 4 (business model and mission) &mdash; supported.</strong> It is the only level
+    whose late-period share is clearly above its early-period share, and that holds under all three
+    definitions. This is the most robust result in the analysis.</li>
+    <li><strong>Level 3 (operational) &mdash; partly supported.</strong> Its change concentrates at
+    the 1854 reform itself, not in the late century, and it depends on how we measure it. This fits
+    the idea that the operating model was reorganised at the first Act, but the construct needs a
+    firmer single measure.</li>
+    <li><strong>Levels 1 and 2 (cost and personalisation) &mdash; no lasting late change</strong>
+    under any definition, consistent with their role being improvement rather than transformation.</li>
+  </ul>
+
+  <p>So the evidence supports the hypothesis clearly for Level 4, more tentatively for Level 3, and
+  not at all for the lower levels.</p>
+
+  <p>One limit is worth stating plainly. Oxford is a single institution, and it survived. We can
+  therefore show <em>which</em> changes happened and <em>when</em>, but not that the higher-level
+  changes are what <em>caused</em> the survival. To show cause we would need a comparable institution
+  that skipped those changes and failed, which we do not have. The evidence fits the hypothesis and
+  makes it credible; it does not prove it.</p>
+
+  <p>Even so, the pattern carries a clear lesson for organisations facing AI today. Efficiency and
+  personalisation were not where lasting adaptation came from. The institution that stayed relevant
+  changed how it operated and what business it was in, and it began doing so quietly, long before the
+  reforms forced the issue.</p>
+
+</div>
+</body>
+</html>

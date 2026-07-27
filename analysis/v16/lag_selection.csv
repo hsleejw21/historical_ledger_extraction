@@ -1,0 +1,4 @@
+system,label,adf_level_p,adf_diff_p,aic_lag,bic_lag,hqic_lag,chosen_lag
+A,Aggregate resources (real £),income=0.068;expenditure=0.052,income=0.0000;expenditure=0.0000,3,2,2,2
+B,Higher-order mix (L4 share),rev_L4=0.438;exp_L4=0.628,rev_L4=0.0000;exp_L4=0.0000,1,1,1,1
+C,Transformation intensity (full L1-L4 scale),rev_int=0.552;exp_int=0.000,rev_int=0.0050;exp_int=0.0000,6,1,2,1

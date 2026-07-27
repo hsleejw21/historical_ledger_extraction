@@ -1,0 +1,158 @@
+\documentclass[11pt]{article}
+
+\usepackage[landscape,margin=0.7in]{geometry}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue!60!black}
+
+% Confidence colour coding
+\newcommand{\confhigh}[1]{\textcolor{green!45!black}{\textbf{#1}}}
+\newcommand{\confmed}[1]{\textcolor{blue!55!black}{#1}}
+\newcommand{\conflow}[1]{\textcolor{gray}{#1}}
+
+% Ragged-right paragraph columns (avoid ugly justification in narrow cells)
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\title{\textbf{Research Inventory:\\ Preserved Findings for Future Papers}}
+\author{Oxford University Ledger Project, 1700--1900}
+\date{Companion to \texttt{paper.tex} (core leapfrogging evidence package). May 2026.}
+
+\begin{document}
+
+\maketitle
+
+\noindent
+\textbf{Purpose.} The Oxford ledger corpus (1{,}581 enriched pages, 1700--1900) supports several
+distinct research questions beyond the central leapfrogging story developed in the main paper.
+This inventory catalogues each preserved finding with its empirical support, methodological
+approach, a working confidence rating, a candidate theoretical angle, and a possible future-paper
+direction. The intent, following advisor guidance, is to treat the archive as a long-term research
+platform rather than a single-paper project. Confidence ratings and theoretical/future-direction
+columns are working judgments grounded in the current results and are expected to be revised by the
+authors as the research programme matures.
+
+\medskip
+\noindent\textbf{Confidence legend:}\quad
+\confhigh{HIGH} = robust across specifications;\quad
+\confmed{MEDIUM} = directionally clear but with caveats;\quad
+\conflow{LOW} = suggestive / specification-sensitive.
+
+\bigskip
+
+\footnotesize
+\setlength{\extrarowheight}{3pt}
+\begin{longtable}{P{2.4cm} P{4.2cm} P{3.2cm} P{1.5cm} P{4.0cm} P{4.2cm}}
+\toprule
+\textbf{Finding} & \textbf{Empirical support} & \textbf{Methodological approach} &
+\textbf{Confidence} & \textbf{Theoretical angle} & \textbf{Future-paper direction} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Finding} & \textbf{Empirical support} & \textbf{Methodological approach} &
+\textbf{Confidence} & \textbf{Theoretical angle} & \textbf{Future-paper direction} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{6}{r}{\textit{continued on next page}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+% ---- 1. Capability before mission ----
+Capability expansion precedes mission transformation (L3 $\rightarrow$ L4)
+& Rolling 30-yr correlation shows L3 leading L4 by 5 yr in pre-1750 windows (advantage 0.5--0.7); the relationship turns synchronous after $\sim$1750. First-difference cross-correlation peak is directionally consistent but \emph{not} statistically significant; first-entry timing is threshold-sensitive.
+& Cross-lag correlation with block-bootstrap CIs; distributed-lag models (levels and first differences); rolling-window correlation; state-transition entry timing.
+& \confmed{MEDIUM}
+& Dynamic-capabilities / organisational-learning view: capability stocks accumulate before strategic redeployment. The shift from pre-1750 lead--lag to post-1750 synchrony is itself a distinctive object of study.
+& ``Capability accumulation as a precursor to mission change'': a focused lead--lag paper exploiting the time-varying structure (sequential in calm periods, simultaneous under shocks). \\
+
+% ---- 2. Strict ordering ----
+Strict L1 $\rightarrow$ L2 $\rightarrow$ L3 $\rightarrow$ L4 stage ordering
+& Change-point ordering is only partial (L4 has the largest relative break, but break-\emph{year} ordering is mixed); transition-date crossings are sensitive to the chosen threshold. No robust strict ordering emerges.
+& Binary-segmentation change-point detection; transition-date crossings at multiple quantile thresholds.
+& \conflow{LOW}
+& Critique of stage / maturity models: transformation dimensions are not traversed in a fixed universal sequence.
+& ``Against stage models'': reframing four-stage frameworks as heterogeneous, shock-contingent pathways rather than deterministic sequences. \\
+
+% ---- 3. Granger chaining ----
+Granger-causal chaining across levels ($L_k$ predicts $L_{k+1}$)
+& Mostly insignificant across lag specifications and pairwise tests; no evidence of predictive chaining between adjacent levels.
+& Sequential Granger causality (HAC-robust); local-projection impulse responses.
+& \conflow{LOW}
+& Useful null result: undermines mechanistic ``each stage triggers the next'' accounts of organisational modernisation.
+& Methodological / robustness companion, or a short note on the limits of Granger logic for slow-moving institutional series. \\
+
+% ---- 4. Language modernisation ----
+Semantic / language modernisation (Latin $\rightarrow$ English; vocabulary evolution)
+& English-language share of entries rises from a low base across the 18th century; vocabulary diversification trends documented in standalone text analyses.
+& Per-row language classification (Latin / English / mixed); vocabulary type--token ratios; text-trend analysis over the enriched corpus.
+& \confmed{MEDIUM}--\confhigh{HIGH}
+& Cultural-cognitive institutional legitimacy: vernacularisation as a marker of administrative and cultural modernisation.
+& ``Language as a marker of institutional modernisation'': vernacularisation of record-keeping as a window on cultural change in a conservative institution. \\
+
+% ---- 5. Income diversification ----
+Income diversification dynamics (concentration $\rightarrow$ diversification)
+& Income-source concentration (HHI) declines across the 19th century as new revenue categories enter.
+& Annual Herfindahl index of income categories; entry/exit accounting of revenue streams.
+& \confmed{MEDIUM}
+& Resource-dependence and portfolio / risk-diversification theory: broadening the revenue base alters institutional autonomy.
+& ``Revenue diversification and institutional resilience'': linking income-base breadth to capacity for transformation. \\
+
+% ---- 6. Charity institutionalisation ----
+Charity institutionalisation (informal alms $\rightarrow$ formal endowment)
+& Charity-related categories shift from ad-hoc disbursements toward recurring, formalised payments over the 18th--19th centuries.
+& Category-share decomposition; hypothesis-driven longitudinal analysis of the enriched \texttt{category} field.
+& \confmed{MEDIUM}
+& Institutionalisation theory (DiMaggio \& Powell): the routinisation and formalisation of previously discretionary giving.
+& ``From alms to endowment'': the institutionalisation of charitable activity within a corporate body. \\
+
+% ---- 7. Corporate-market transition ----
+Corporate / market transition (in-kind \& ad-hoc $\rightarrow$ cash \& market-mediated)
+& Payment composition shifts toward salaried, regular money flows; in-kind and one-off disbursements decline.
+& Payment-type composition over time; supplier-network structure from the enriched \texttt{category} / \texttt{direction} / \texttt{payment\_period} fields.
+& \conflow{LOW}--\confmed{MEDIUM}
+& Market formation and monetisation (Polanyian ``great transformation'' at the level of a single institution).
+& ``Monetisation of an institution'': the transition from in-kind, relational exchange to cash, market-mediated provisioning. \\
+
+% ---- 8. Payment modernisation ----
+Payment modernisation (irregular $\rightarrow$ periodic, salary-based)
+& The payment-modernity index (L2) rises smoothly across 1700--1900 and serves as a stable transformation proxy throughout the main analysis.
+& Payment-period regularity index aggregated per year; 10-yr rolling smoothing.
+& \confhigh{HIGH}
+& Weberian bureaucratisation / administrative rationalisation: the regularisation of payment as a core modernising process.
+& Measurement companion paper, or supporting evidence integrated into the operational-axis discussion of the main paper. \\
+
+% ---- 9. Resource slack ----
+Resource slack enables leapfrogging (endowment / land-rent income)
+& Rising land-rent income provides the financial capacity for capability investment during reform-shock periods; documented as an enabling mechanism in the income-composition analyses.
+& Income-composition decomposition; interrupted time series on land-rent income alongside the expenditure dimensions.
+& \confmed{MEDIUM}--\confhigh{HIGH}
+& Organisational-slack theory (Cyert \& March): slack as the precondition that permits investment ahead of strategic certainty.
+& Slack as a moderator of leapfrogging --- strongest as an integrated mechanism \emph{within} the main paper, but extendable to a comparative study of resource-constrained vs.\ well-endowed institutions. \\
+
+\end{longtable}
+
+\normalsize
+\bigskip
+
+\noindent\textbf{How to use this inventory.}
+\begin{itemize}
+\item Each row is a candidate paper or supplementary contribution; group rows by theoretical angle
+      when scoping new projects.
+\item Source artifacts are reproducible: the CSVs and scripts behind each finding live under
+      \texttt{experiments/reports/} and \texttt{experiments/analysis/} in the project repository.
+\item Treat the Confidence, Theoretical angle, and Future-paper columns as a working document;
+      update them as new evidence accrues.
+\item The capability-before-mission row is the most paper-ready candidate beyond the core
+      leapfrogging story --- the pre-1750 lead--lag shifting to post-1750 synchrony is a
+      distinctive empirical contribution in its own right.
+\end{itemize}
+
+\end{document}

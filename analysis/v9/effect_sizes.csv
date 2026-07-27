@@ -1,0 +1,9 @@
+Level,Code,Reform,Coef,SE,p,Sig,Pre-reform mean,Norm. effect size
+L1: Efficiency / Standardisation,L1_inv,1854,0.0175,0.0581,0.7637,,0.6778,0.0258
+L1: Efficiency / Standardisation,L1_inv,1877,0.0273,0.0705,0.699,,0.6778,0.0402
+L2: Process Modernisation,L2,1854,-0.1067,0.0332,0.0013,***,0.7297,-0.1463
+L2: Process Modernisation,L2,1877,0.0189,0.0186,0.3093,,0.7297,0.0259
+L3: Capability Expansion,L3,1854,-0.2348,0.0469,0.0,***,0.2347,-1.0006
+L3: Capability Expansion,L3,1877,0.0701,0.0404,0.0824,*,0.2347,0.2987
+L4: Mission Transformation,L4,1854,-0.0126,0.0051,0.0131,**,0.0186,-0.6792
+L4: Mission Transformation,L4,1877,0.0447,0.0144,0.0019,***,0.0186,2.4079

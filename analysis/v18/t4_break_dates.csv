@@ -1,0 +1,19 @@
+mechanism,proxy,description,break_year,wald,significant_break,distance_from_1820,timing
+M1 decision rule (REFERENCE),income-spending coupling,v16 sup-Wald scan of the error-correction speed,1819,16.81366070235646,True,0.0,THE break being explained
+M3 governance,distinct_persons_per_page,distinct named people per page,1818,18.250662920994642,True,2.0,consistent with 1820
+M6 accounting,rows_per_year,rows per YEAR (information actually recorded),1823,3.7983841263449,False,3.0,NO detectable break
+M2 diversification,new_income_share,non-endowment share of income,1846,60.74931511491979,True,26.0,between 1826 and 1850
+M6 accounting,rows_per_page,rows per page (physical layout),1848,7.133335976601204,False,28.0,NO detectable break
+M3 governance,institutional_pay_share,share of spending to institutional (non-personal) payees,1849,10.616104296137056,True,29.0,between 1826 and 1850
+M5 financial mgmt,invest_spend_share,investment purchases / total spending,1850,5.328009632464424,False,30.0,NO detectable break
+M5 financial mgmt,sec_income_share,securities & annuity income / total income,1854,25.332949694175895,True,34.0,too late (post-reform)
+M6 accounting,arrears_share,arrears-flagged share of entries,1857,92.26080348462904,True,37.0,too late (post-reform)
+M3 governance,sig_per_page,signature rows per page,1868,106.19181765134965,True,48.0,too late (post-reform)
+M4 planning horizon,mean_horizon_yrs,value-weighted commitment length,1872,6.389178741190323,False,52.0,NO detectable break
+M2 diversification,eff_income_sources,effective no. of income sources (1/HHI),1881,15.039000472088636,True,61.0,too late (post-reform)
+M6 accounting,latin_share,Latin/mixed-language share of rows,1882,281.0955575301045,True,62.0,too late (post-reform)
+M3 governance,persons_per_row,named people per ROW (page layout divided out),1882,135.9946715717276,True,62.0,too late (post-reform)
+M6 accounting,pages_per_year,pages per year,1882,24.039991172737306,True,62.0,too late (post-reform)
+M6 accounting,sections_per_page,sections per page,1882,20.943124886099834,True,62.0,too late (post-reform)
+M6 accounting,subtotal_ratio,subtotal rows per entry,1882,38.302258326796235,True,62.0,too late (post-reform)
+M4 planning horizon,multiyear_share,share of spend on >1-year commitments,1883,30.894241158692843,True,63.0,too late (post-reform)

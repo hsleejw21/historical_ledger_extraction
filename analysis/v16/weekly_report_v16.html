@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Income and Expenditure as a Coupled Dynamic System</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; background:#ffffff; color:#000000; font-family:Arial, Helvetica, sans-serif; line-height:1.7; }
+  .wrap { max-width:800px; margin:0 auto; padding:56px 28px 90px; }
+  h1 { font-size:1.85rem; line-height:1.25; margin:0 0 14px; font-weight:bold; }
+  .standfirst { font-size:1.08rem; margin:0 0 8px; }
+  hr.rule { border:0; border-top:1px solid #cccccc; margin:42px 0; }
+  h2 { font-size:1.2rem; font-weight:bold; margin:42px 0 10px; }
+  h3 { font-size:1.0rem; font-weight:bold; margin:26px 0 4px; }
+  h4 { font-size:.94rem; font-weight:bold; margin:20px 0 2px; color:#1f3b5c; }
+  p { margin:13px 0; }
+  .secnum { color:#888; font-weight:bold; margin-right:8px; }
+  .box { background:#f6f7f8; border:1px solid #d8dce0; border-left:3px solid #1f3b5c; padding:16px 20px; margin:24px 0; font-size:.9rem; line-height:1.6; }
+  .box h3 { margin:0 0 8px; font-size:.82rem; letter-spacing:.04em; text-transform:uppercase; color:#1f3b5c; }
+  .box p { margin:6px 0; }
+  .what { background:#fbfcfd; border:1px dashed #b9c4ce; padding:14px 18px; margin:18px 0; font-size:.9rem; }
+  .what h3 { margin:0 0 6px; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:#5a6b7b; }
+  .what p { margin:6px 0; }
+  .caveat { color:#5a6b7b; font-size:.85rem; }
+  table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+  th { text-align:left; font-weight:bold; padding:0 10px 8px; border-bottom:2px solid #000; vertical-align:bottom; }
+  td { text-align:left; padding:9px 10px; border-bottom:1px solid #ccc; vertical-align:top; line-height:1.5; }
+  .num { text-align:right; }
+  .key { background:#eef2f6; }
+  figure { margin:28px 0; }
+  img { max-width:100%; display:block; margin:0 auto; border:1px solid #ccc; }
+  figcaption { font-size:.85rem; margin-top:10px; text-align:center; font-style:italic; }
+  ul { margin:13px 0; padding-left:22px; }
+  li { margin:8px 0; }
+  strong { font-weight:bold; }
+  code { font-family:"SFMono-Regular",Consolas,monospace; font-size:.86em; background:#f0f2f4; padding:1px 4px; }
+  @media print {
+    @page { margin: 12mm; }
+    .wrap { max-width:100%; padding:0; }
+    h2, h3, figure, table { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Income and Expenditure as a Coupled Dynamic System</h1>
+  <p class="standfirst">The question for this week: <strong>how did the relationship between resource
+  generation (income) and resource deployment (expenditure) evolve through the Industrial
+  Revolution?</strong> Rather than studying the two sides separately, we treat them as one system in
+  which each side responds to the other, and estimate the three models set out in the feedback.</p>
+
+  <div class="box">
+    <h3>Summary</h3>
+    <p>The two sides are linked, and the link changes fundamentally across historical periods. Before
+    1820, spending closed <strong>95%</strong> of any gap between income and expenditure within a single
+    year. Oxford spent what the estate yielded. From 1820 that falls to <strong>16%</strong>, and
+    is no longer statistically distinguishable from zero. The change happens <strong>34 years before the
+    1854 Reform Act</strong>. When we hide all historical dates and let the data search for its own
+    turning point, it selects <strong>1819&ndash;1822</strong>. Separately, the <em>composition</em> of
+    spending, which is what v15 measured, does not move until <strong>1870</strong>. So the mechanism changed roughly fifty years before the
+    portfolio did.</p>
+  </div>
+
+  <hr class="rule">
+
+  <h2>What changed between v15 and this week</h2>
+
+  <p>v15 measured <strong>composition</strong>: what share of income came from land versus fees, what
+  share of spending went to upkeep versus new activity. It found that the composition pivots in the
+  1860s&ndash;70s: traditional land income falls from 66% to 18%, while new fee and investment
+  income, stuck at 3&ndash;7% for a century and a half, jumps to 43%.</p>
+
+  <p>This week measures something different: <strong>the relationship between the two series over
+  time</strong>. Concretely, one question:</p>
+
+  <div class="box" style="border-left-color:#b5530f;">
+    <p><strong>If income fell last year, did spending fall this year?</strong> And how much of the
+    shortfall did spending absorb: all of it, or none of it?</p>
+  </div>
+
+  <p>This cannot be answered by looking at portfolio shares. Two organisations can have identical
+  spending portfolios while one rigidly matches its spending to last year's earnings and the other
+  ignores them entirely. <strong>That difference does not appear in the levels at all; it appears only
+  in the relationship between the two series</strong>, which is what a coupled dynamic model is
+  built to measure.</p>
+
+  <hr class="rule">
+
+  <h2>Data and methods</h2>
+
+  <h3>Data</h3>
+
+  <p>Annual series built from the ledgers over <strong>1800&ndash;1900</strong> (95 of the 101 years have
+  records; 6 interior gaps filled by linear interpolation), plus <strong>1700&ndash;1749</strong> (48 of
+  50 years) as a pre-Industrial-Revolution baseline. All money is inflation-adjusted using the
+  Phelps&nbsp;Brown&ndash;Hopkins price index. Entries are classified into L1&ndash;L4 exactly as in v15.
+  <span class="caveat">(1750&ndash;99 has only 16 of 50 years and remains unusable.)</span></p>
+
+  <p>Because "resources" can mean three things, we model three pairs of series rather than arguing about
+  which is correct:</p>
+
+  <table>
+    <tr><th>System</th><th>The two series</th><th>The question it answers</th></tr>
+    <tr><td><strong>A</strong></td><td>total real income &nbsp;vs&nbsp; total real expenditure</td><td>Does resource <em>acquisition</em> drive resource <em>deployment</em>?</td></tr>
+    <tr><td><strong>B</strong></td><td>L4 share of income &nbsp;vs&nbsp; L4 share of spending</td><td>Does the transformation spread from one portfolio to the other?</td></tr>
+    <tr><td><strong>C</strong></td><td>transformation-intensity index, each side</td><td>The same, using the <strong>full L1&ndash;L4 scale</strong> rather than only the top level</td></tr>
+  </table>
+
+  <p class="caveat">System C weights every entry by its level (L1 = 1, L2 = 2, L3 = 3, L4 = 4) and takes
+  a money-weighted average, giving one number between 1 and 4 per year per side. A rising index means
+  money is moving up the transformation ladder. Unclassified entries are excluded rather than assigned a
+  weight, so the index cannot be dragged by the residual bucket.</p>
+
+  <h3>Methods</h3>
+
+  <p>Every method used is standard. We name each one and say plainly what it does.</p>
+
+  <table>
+    <tr><th>Method</th><th>What it actually does</th><th>Where we use it</th></tr>
+    <tr><td><strong>Vector autoregression (VAR)</strong></td><td>Fits two equations at once, letting this year's income depend on past income <em>and</em> past spending, and vice versa.</td><td>Model 1 (the baseline system)</td></tr>
+    <tr><td><strong>Granger causality test</strong></td><td>Asks whether the past of one series improves the forecast of the other. <em>This is prediction, not proof of cause</em>, and we report it that way throughout.</td><td>Models 1 and 2</td></tr>
+    <tr><td><strong>Impulse-response functions</strong></td><td>Traces how a one-off shock to one side feeds into the other over the following decade.</td><td>Model 1</td></tr>
+    <tr><td><strong>Error-correction model</strong></td><td>Measures how fast spending closes the gap when income and spending drift apart. Produces the <strong>adjustment speed</strong>, the central number in this report.</td><td>Model 2 (the core)</td></tr>
+    <tr><td><strong>Chow test</strong></td><td>Tests whether a relationship is different before and after a given date. We interact <em>every</em> term with the period, not just the one we care about. This is the stricter version.</td><td>Model 2 (break tests)</td></tr>
+    <tr><td><strong>Bai&ndash;Perron structural break</strong></td><td>Finds the year at which a <em>relationship's coefficients</em> change, with no date supplied.</td><td>Model 3</td></tr>
+    <tr><td><strong>Quandt&ndash;Andrews (sup-Wald) search</strong></td><td>Tries <em>every</em> year as a candidate break, then compares the best one against a threshold that already accounts for having searched many years.</td><td>Model 3</td></tr>
+    <tr><td><strong>Markov-switching model</strong></td><td>Assumes two hidden "states of the world" with different coupling strengths, and infers which years belong to which.</td><td>Model 3 (reported as a negative result)</td></tr>
+    <tr><td><strong>PELT change-point detection</strong></td><td>Finds shifts in the <em>level</em> of a series (a different and easier question than a shift in a relationship).</td><td>Model 3 (the 1870 portfolio break)</td></tr>
+  </table>
+
+  <p class="caveat">On stationarity: both series in each system need one difference before they are
+  stable enough to model (confirmed by ADF tests), so the VARs are estimated on growth rates (System A)
+  and year-on-year changes (B and C). Standard errors are HAC (Newey&ndash;West) throughout, which
+  corrects for the autocorrelation you always get in annual accounting data.</p>
+
+  <figure>
+    <img src="model1_overview.png" alt="The three systems plotted, 1800-1900">
+    <figcaption>The three systems. Left: income and expenditure track each other closely in size.
+    Middle and right: the transformation measures stay flat for most of the century and climb late.</figcaption>
+  </figure>
+
+  <hr class="rule">
+
+  <h2>Model 1: Is there a dynamic link at all?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>Fitted a <strong>bivariate VAR</strong> on each of the three systems. The number of past years to
+    include is chosen by the BIC criterion (2 years for System A, 1 for B and C). We then ran
+    <strong>Granger causality tests</strong> in both directions, and computed
+    <strong>impulse-response functions</strong> over a 10-year horizon.</p>
+  </div>
+
+  <h3>Result</h3>
+
+  <table>
+    <tr><th>System</th><th>Direction tested</th><th class="num">F</th><th class="num">p</th><th>Helps predict?</th></tr>
+    <tr><td>A (money)</td><td>income &rarr; expenditure</td><td class="num">1.51</td><td class="num">0.224</td><td>no</td></tr>
+    <tr><td>A (money)</td><td>expenditure &rarr; income</td><td class="num">0.64</td><td class="num">0.530</td><td>no</td></tr>
+    <tr><td>B (L4 share)</td><td>new revenue &rarr; higher-order spending</td><td class="num">0.18</td><td class="num">0.669</td><td>no</td></tr>
+    <tr><td>B (L4 share)</td><td>higher-order spending &rarr; new revenue</td><td class="num">0.44</td><td class="num">0.510</td><td>no</td></tr>
+    <tr><td>C (full L1&ndash;L4)</td><td>income intensity &rarr; spending intensity</td><td class="num">0.08</td><td class="num">0.784</td><td>no</td></tr>
+    <tr><td>C (full L1&ndash;L4)</td><td>spending intensity &rarr; income intensity</td><td class="num">0.11</td><td class="num">0.735</td><td>no</td></tr>
+  </table>
+
+  <p>Over the full century, <strong>neither side predicts the other, in any of the three systems.</strong>
+  The impulse responses agree: a shock to income produces a cumulative response in expenditure of
+  <strong>0.069</strong> after five years, with a standard error of 0.043, which is indistinguishable from zero. The reverse direction is likewise indistinguishable from zero (&minus;0.111, s.e. 0.096).</p>
+
+  <h3>What it means</h3>
+
+  <p>Read alone, this says there is no dynamic interaction. But <strong>a century-long average of zero is
+  also what you get when the relationship is strong in some periods, absent in others, and the two
+  cancel out.</strong> The flat result is therefore not a dead end. It is the first piece of
+  evidence that the relationship is not constant over time, which is precisely what Model 2 tests.</p>
+
+  <hr class="rule">
+
+  <h2>Model 2: Does the relationship change across periods?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>A college cannot outspend its income indefinitely, nor hoard a growing surplus forever. So we fit
+    an <strong>error-correction model</strong>, which measures the quantity that actually matters:</p>
+    <p><strong>When income and spending drift apart, what share of that gap does spending close within a
+    year?</strong> We call this the <strong>adjustment speed</strong>.</p>
+    <ul>
+      <li><strong>Near 1.0.</strong> Spending snaps straight back to what was earned. Good year on
+      the estate, spending rises next year; bad year, spending is cut. The classic endowment rule:
+      <em>spend what the land yields</em>.</li>
+      <li><strong>Near 0.</strong> Spending has come loose from last year's earnings. It is free to
+      run ahead of, or behind, what the core business produced.</li>
+    </ul>
+    <p>We estimate this speed separately for each period, then run <strong>Chow tests</strong> at each
+    candidate break date, rather than assuming the 1854 reform is the right place to split.</p>
+  </div>
+
+  <h3>Result 1: the adjustment speed collapses in 1820, not at the reform</h3>
+
+  <table>
+    <tr><th>Period</th><th class="num">Adjustment speed</th><th class="num">p</th><th>Reading</th></tr>
+    <tr><td>1700&ndash;1749 &nbsp;<span class="caveat">(pre-Industrial-Revolution)</span></td><td class="num">0.46</td><td class="num">&lt;0.001</td><td>tightly tied to income</td></tr>
+    <tr><td>1800&ndash;1819</td><td class="num"><strong>0.95</strong></td><td class="num">&lt;0.001</td><td>almost perfectly tied: spending closes 95% of any gap in one year</td></tr>
+    <tr class="key"><td>1820&ndash;1853</td><td class="num"><strong>0.16</strong></td><td class="num">0.44</td><td><strong>tie is broken, and this is still before the reform</strong></td></tr>
+    <tr><td>1854&ndash;1900 &nbsp;<span class="caveat">(after the Reform Act)</span></td><td class="num">0.19</td><td class="num">0.017</td><td>remains broken</td></tr>
+  </table>
+
+  <p>The p-value of 0.44 in 1820&ndash;1853 matters: it means that in that period the adjustment speed is
+  <strong>not statistically distinguishable from zero</strong>. Spending had stopped responding to last
+  year's income altogether, and this is <strong>34 years before the 1854 Reform Act</strong>.</p>
+
+  <h3>Result 2: formal break tests confirm the date</h3>
+
+  <p>Here we let <em>every</em> term in the relationship shift at the break, not just the adjustment
+  speed. This is the strict version of the test; allowing only the one coefficient of interest to move
+  would overstate the evidence.</p>
+
+  <table>
+    <tr><th>Break tested</th><th>What this date is</th><th class="num">Change in adjustment speed</th><th class="num">p</th><th class="num">Joint test</th></tr>
+    <tr class="key"><td><strong>1820</strong></td><td>the date the data itself selects (Model 3)</td><td class="num"><strong>&minus;0.76</strong></td><td class="num"><strong>0.0008</strong></td><td class="num"><strong>&lt;0.0001</strong></td></tr>
+    <tr><td>1854</td><td>the Oxford University Act</td><td class="num">&minus;0.37</td><td class="num">0.049</td><td class="num">0.047</td></tr>
+    <tr><td>1870</td><td>when the spending portfolio visibly shifts</td><td class="num">&minus;0.25</td><td class="num">0.55</td><td class="num">0.84</td></tr>
+  </table>
+
+  <p>The 1820 break is far stronger than the reform. The 1854 break does scrape past the 5% threshold
+  (p = 0.049), but it appears <em>only because 1854 sits after the real break</em>. Split the
+  century anywhere after 1820 and the already-loose era lands on the right-hand side of the split. The
+  1870 break, tested the same way, shows nothing at all (p = 0.55).</p>
+
+  <p class="caveat">A note on the 1854 p-value, because it looks different in Model 3. A test of a
+  <em>single date chosen in advance</em> is a weaker standard than a <em>search across all dates</em>: if
+  you try every year, you will find something eventually, so the threshold has to be raised. Judged as
+  one pre-chosen date, 1854 just clears the bar (p = 0.049). Judged against a search that considered
+  every year, it does not (Model 3). Both statements are correct, and the second is the more demanding
+  test.</p>
+
+  <h3>Result 3: the direction of influence also flips</h3>
+
+  <p>Running the Granger tests separately within each period, rather than over the whole century, gives
+  a result the full-sample test in Model 1 completely hides:</p>
+
+  <table>
+    <tr><th>Era</th><th>Which side leads</th><th class="num">F</th><th class="num">p</th></tr>
+    <tr><td>1800&ndash;1819 &nbsp;<span class="caveat">(tight)</span></td><td><strong>expenditure leads income</strong></td><td class="num">9.93</td><td class="num">0.004</td></tr>
+    <tr><td>1820&ndash;1853 &nbsp;<span class="caveat">(loose)</span></td><td><strong>income leads expenditure</strong></td><td class="num">7.30</td><td class="num">0.009</td></tr>
+    <tr><td>1854&ndash;1900</td><td>neither leads</td><td class="num">0.13 / 0.06</td><td class="num">0.72 / 0.81</td></tr>
+  </table>
+
+  <p>In the early period, <strong>spending came first and income followed</strong>: the college committed
+  to its obligations, and the estate was worked to meet them. After 1820 this reverses, with income
+  leading and spending responding to it. After 1854 the predictive link disappears in both directions. This
+  is a direct answer to the question of whether the <em>direction</em> of influence changes: it does, and
+  it changes at the same moment the adjustment speed collapses.</p>
+
+  <figure>
+    <img src="model2_regime.png" alt="Rolling coupling, adjustment speed by era, and the placebo test">
+    <figcaption>Left: how tightly spending tracks last year's income gap, in a moving 21-year window.
+    The loosening happens around 1820, well before the reform line. Middle: the adjustment speed
+    by era. Right: the placebo test described below.</figcaption>
+  </figure>
+
+  <h3>Result 4: four tests that this is real, not a data artefact</h3>
+
+  <p>The most serious threat to this result is a boring one. <strong>Income is recorded far more coarsely
+  later in the century</strong>: about 80 income line-items a year before 1854, only 47 after
+  (expenditure line-items stay flat at roughly 122 &rarr; 127). Any relationship estimated from noisier
+  records is dragged toward zero. So a "collapse" in the adjustment speed could, in principle, be nothing
+  more than sloppier bookkeeping. We tested this four ways.</p>
+
+  <table>
+    <tr><th>The worry</th><th>The test</th><th>The result</th></tr>
+    <tr><td>Coarser records fake the collapse</td><td>Does the drop in recording detail happen at the <em>same date</em> as the break?</td><td><strong>No. The two are 34 years apart.</strong> Records are equally detailed either side of the 1820 break (83 &rarr; 78 items/yr), yet the adjustment speed collapses there. The records thin out at <strong>1854</strong>, where the adjustment speed barely moves (0.16 &rarr; 0.19).</td></tr>
+    <tr><td>Coarser records fake the collapse</td><td><strong>Placebo test.</strong> Randomly delete early income records until the early period is as sparse as the late one, then re-estimate. Repeated 200 times.</td><td>The adjustment speed falls only from 0.95 to <strong>0.76</strong> (90% range: 0.50&ndash;1.13). <strong>None of the 200 runs</strong> comes near the loose-era value of 0.19.</td></tr>
+    <tr><td>1820 is the post-Napoleonic price collapse. Is this an inflation-adjustment artefact?</td><td>Re-run everything on <strong>raw nominal pounds</strong>, with no price index at all.</td><td>0.92 / 0.15 / 0.18, versus 0.95 / 0.16 / 0.19 with the adjustment. Essentially identical.</td></tr>
+    <tr><td>The 6 interpolated years create the break</td><td>Re-run using only years with real records.</td><td>1.02 / 0.16 / 0.20. Unchanged.</td></tr>
+  </table>
+
+  <p class="caveat">We also attempted the textbook instrumental-variables correction for measurement
+  error (instrumenting each year's terms with those from two years earlier). We <strong>discarded
+  it</strong>: the first-stage F statistics are 2.7 and 0.6, far below the usual threshold of 10, because
+  the income&ndash;spending gap is strongly mean-reverting and its own lag carries almost no signal. We
+  report this rather than quietly presenting a weak-instrument estimate.</p>
+
+  <hr class="rule">
+
+  <h2>Model 3: Can the data find the turning points on its own?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>So far we chose which dates to test. The stronger test is to supply <strong>no historical
+    information at all</strong>. Three methods, all searching for a change in the <em>relationship</em>
+    between the two series, not a change in the level of either one, which is a different and much
+    easier question:</p>
+    <ul>
+      <li><strong>Bai&ndash;Perron structural break test</strong> on the error-correction regression:
+      finds the year at which the regression's coefficients change.</li>
+      <li><strong>Quandt&ndash;Andrews (sup-Wald) search</strong>: tries every single year as a candidate
+      break, records the strength of evidence for each, then compares the winner against a threshold
+      (8.85) that already accounts for the fact that we searched over many years. Without that
+      correction, searching hard enough will always turn something up.</li>
+      <li><strong>Markov-switching model</strong>: assumes two hidden states with different coupling
+      strengths and lets the model infer which years belong to which.</li>
+    </ul>
+  </div>
+
+  <h3>Result: the data selects ~1820 and rejects 1854</h3>
+
+  <table>
+    <tr><th>What we search for</th><th>Method</th><th>What it finds</th></tr>
+    <tr class="key"><td><strong>a change in the relationship</strong></td><td>Bai&ndash;Perron structural break</td><td><strong>1822</strong></td></tr>
+    <tr class="key"><td><strong>a change in the relationship</strong></td><td>Quandt&ndash;Andrews search over every year</td><td><strong>1819</strong> (statistic 16.8, above the 8.85 threshold). <strong>1854 scores only 8.0, below the threshold.</strong> 1870 scores 0.9.</td></tr>
+    <tr><td>a change in the relationship</td><td>Markov-switching (hidden states)</td><td>no lasting periods (see below)</td></tr>
+    <tr><td>a change in the <em>level</em> of the L4 mix</td><td>PELT change-point detection</td><td><strong>1870</strong></td></tr>
+  </table>
+
+  <p><strong>Two independent methods, given no historical information, both land on 1819&ndash;1822.</strong>
+  The reform year scores 8.0, below the 8.85 threshold: once we account for having searched across every
+  candidate year, <strong>the evidence for a break at 1854 does not survive</strong>. This is the stricter
+  standard referred to in Model 2: 1854 clears the bar only if you decide in advance to test that
+  one date and no other.</p>
+
+  <p>The last row is a different question and gets a different answer. The <em>level</em> of higher-order
+  spending clearly shifts around <strong>1870</strong>, which is when the transformation becomes
+  visible in the accounts, and it independently reproduces the date v15 found. But the mechanism linking
+  earning to spending had already changed fifty years earlier.</p>
+
+  <figure>
+    <img src="model3_breaks.png" alt="Break search, hidden-state model, and the level break">
+    <figcaption>Left: evidence for a break in the relationship, year by year. The peak is at 1819; the
+    reform year falls below the significance threshold (red line). Middle: the hidden-state model
+    flickers rather than settling into historical periods. Right: the <em>level</em> of the
+    transformation mix breaks at 1870, a different quantity at a different date.</figcaption>
+  </figure>
+
+  <h3>One method that did not work, reported as such</h3>
+
+  <p>The <strong>Markov-switching model failed to recover any historical periods.</strong> It does
+  identify a "tight" state (adjustment speed 0.67) and a "loose" one (0.08), but it assigns them in
+  bursts of one to three years that flicker back and forth across the whole century. The tight state
+  covers 15% of pre-1854 years and 19% of post-1854 years, which is to say it found nothing
+  historical at all. With only about 100 annual observations, a model that must simultaneously infer
+  hidden states, transition probabilities and coefficients has too little to work with.</p>
+
+  <p>This does not undermine the finding, since the two methods that <em>are</em> suited to a sample this
+  size both land on ~1820, but it is a real limit on the "let the data decide" approach, and we
+  would rather report it than drop the model that disagreed.</p>
+
+  <hr class="rule">
+
+  <h2>How this connects to v15</h2>
+
+  <p>v15's headline was that Oxford's portfolio pivots in the 1860s&ndash;70s. This week's headline is
+  that the coupling breaks in 1820. These do not contradict each other: they are measurements of two
+  different quantities, which changed fifty years apart. The clearest way to see this is to ask what
+  v15's portfolio measures were doing at the moment the coupling broke.</p>
+
+  <table>
+    <tr><th>Era</th><th class="num">L4 income share</th><th class="num">L4 spending share</th><th class="num">L1 (land) income share</th></tr>
+    <tr><td>1800&ndash;1819 &nbsp;<span class="caveat">(coupling tight)</span></td><td class="num">2.9%</td><td class="num">2.4%</td><td class="num">48.8%</td></tr>
+    <tr class="key"><td>1820&ndash;1853 &nbsp;<span class="caveat">(coupling broken)</span></td><td class="num">2.4%</td><td class="num">0.9%</td><td class="num">37.6%</td></tr>
+    <tr><td>1854&ndash;1869</td><td class="num">9.8%</td><td class="num">3.5%</td><td class="num">20.4%</td></tr>
+    <tr><td>1870&ndash;1900</td><td class="num">56.5%</td><td class="num">13.1%</td><td class="num">15.7%</td></tr>
+  </table>
+
+  <p><strong>At the 1820 break, the portfolio has not moved at all.</strong> L4 income goes 2.9% &rarr;
+  2.4%; L4 spending goes 2.4% &rarr; 0.9%. Nothing. The portfolio only moves after 1854, and decisively
+  after 1870. <strong>This is why v15 could not have seen the 1820 event: it does not exist in the
+  levels.</strong> It exists only in the relationship between the two series.</p>
+
+  <p>So the sequence, with each date established by a different measurement:</p>
+
+  <figure>
+    <img src="timeline.png" alt="Timeline: coupling breaks ~1820, reform 1854, portfolio shifts 1870">
+    <figcaption>Three things change, at three different times, in a definite order.</figcaption>
+  </figure>
+
+  <h4>The coupling break survives alternative definitions of "income"</h4>
+
+  <p>v15 flagged that a large share of income falls into an unclassifiable "other" bucket, especially
+  mid-century. We therefore re-estimated the adjustment speed under three definitions of income:</p>
+
+  <table>
+    <tr><th>Definition of "income"</th><th class="num">1800&ndash;1819</th><th class="num">1820&ndash;1853</th><th class="num">1854&ndash;1900</th></tr>
+    <tr><td>Total cleaned income <span class="caveat">(the baseline above)</span></td><td class="num">0.95</td><td class="num">0.16</td><td class="num">0.19</td></tr>
+    <tr><td>Land and church income only (L1)</td><td class="num">0.90</td><td class="num"><strong>0.39</strong></td><td class="num">0.13</td></tr>
+    <tr><td>Classifiable income only, dropping "other"</td><td class="num">0.80</td><td class="num">0.31</td><td class="num">0.08</td></tr>
+  </table>
+
+  <p><strong>The collapse at 1820 appears under all three definitions</strong>, so it is not an artefact
+  of the unclassified bucket. But the middle column contains a genuine refinement. Against
+  <em>total</em> income the adjustment speed after 1820 is 0.16 and not statistically significant; against
+  <em>land and church income specifically</em> it is 0.39 and <strong>still significant (p = 0.037)</strong>.</p>
+
+  <p>In other words: after 1820, spending stopped tracking Oxford's <em>total</em> income but kept
+  partially tracking its <em>traditional endowment</em> income. The decoupling is more precisely
+  described as <strong>spending continuing to follow the old core business while new income streams grew
+  that spending did not respond to</strong>. That fits v15's finding that this was substitution of one
+  revenue source for another, not diversification.</p>
+
+  <h4>One v15 result that this week's analysis retracts</h4>
+
+  <p>v15 reported that new-business revenue (L4A income) leads mission spending (L4B expenditure) by
+  <strong>about 6 years</strong>, and stated that this was the one ordering claim it relied on.
+  <strong>That result does not survive.</strong> It came from cross-correlating two series that were both
+  trending upward; once the shared trend is removed by differencing, there is no statistically
+  significant lead in either direction, in any period (see Model 1, System B and C). We report this
+  plainly because v15 leaned on it.</p>
+
+  <p>v15's main quantitative claim (that revenue changed far more than spending: 2.5% &rarr; 38%
+  new-business income versus 16% &rarr; 24% higher-order spending) is a comparison of magnitudes,
+  not of timing, and is unaffected.</p>
+
+  <hr class="rule">
+
+  <h2>The three questions, answered</h2>
+
+  <h3>Does new revenue enable later transformation investment?</h3>
+  <p><strong>No measurable lead.</strong> In both the L4 mix (System B) and the full L1&ndash;L4 intensity
+  index (System C), new revenue and higher-order spending move together, with neither reliably ahead of
+  the other, either over the full century or within any individual period. The lowest p-value
+  any of these tests produces is 0.09; none reaches significance. The two portfolios shift
+  simultaneously.</p>
+
+  <h3>Does higher-order investment generate a later change in the revenue model?</h3>
+  <p><strong>No measurable lead in that direction either.</strong> The relationship between the two
+  portfolios is one of simultaneous movement, not lead-and-follow.</p>
+
+  <h3>Does the interaction become fundamentally different across phases?</h3>
+  <p><strong>Yes, and this is the central result of the week.</strong> The adjustment speed runs
+  0.46 (1700&ndash;49) &rarr; 0.95 (1800&ndash;19) &rarr; 0.16 (1820&ndash;53) &rarr; 0.19
+  (1854&ndash;1900). The direction of influence flips from expenditure-leads-income to
+  income-leads-expenditure at the same moment, then dissolves entirely after 1854. The break is dated to
+  1819&ndash;1822 by two independent methods that were given no historical information.</p>
+
+  <p><strong>The Reform Acts are therefore not the point at which Oxford's resource-allocation mechanism
+  changed. The mechanism had already changed, a generation earlier.</strong> The reform coincides with a
+  change in <em>levels</em>, not in the underlying mechanism.</p>
+
+  <hr class="rule">
+
+  <h2>Implications for organisations investing in AI</h2>
+
+  <p>Studied as a coupled system rather than as two separate portfolios, the case yields three concrete
+  observations.</p>
+
+  <ul>
+    <li><strong>The old rule was "spend what the core business yields", and it was near-absolute.</strong>
+    An adjustment speed of 0.95 means that in 1800&ndash;1819, 95% of any gap between income and spending
+    was closed within a single year. An organisation that funds new capability only out of what the
+    existing business happens to throw off is running exactly this rule.</li>
+    <li><strong>The rule loosened before anything else changed, and the change was invisible in the
+    budget.</strong> At the point the adjustment speed collapsed, L4 spending was 0.9% of the budget,
+    lower than it had been twenty years earlier. Nothing in the spending levels announced the
+    change. It is only visible in how strongly this year's spending responds to last year's earnings.</li>
+    <li><strong>The visible transformation arrived roughly fifty years later.</strong> L4 spending does
+    not exceed 10% of the budget until after 1870. An organisation that waits for the budget to visibly
+    move before believing a transformation is underway is reading the last signal in the sequence, not
+    the first.</li>
+  </ul>
+
+  <p>A single institution does not establish a general rule. But it identifies which measurement carries
+  the earliest signal: not the size of the transformation budget, but the strength of the link between
+  what an organisation earns and what it is willing to spend.</p>
+
+  <div class="box">
+    <h3>Limits, stated plainly</h3>
+    <p><strong>Sample size.</strong> Annual data, about 100 observations in the main window. A
+    two-variable system is as much as it will support. We claim prediction and timing, not proven
+    causation; Granger tests establish precedence, not mechanism.</p>
+    <p><strong>The tight era is short.</strong> 1800&ndash;1819 rests on only 18 usable years. The estimate
+    there is precise (p &lt; 0.001) and survives every robustness re-run, but it is a short window.</p>
+    <p><strong>The break date is a range, not a year.</strong> The Quandt&ndash;Andrews search peaks at
+    1819, Bai&ndash;Perron gives 1822. We therefore say "~1820" throughout. The peak is a genuine interior
+    maximum, not an artefact of where the search window begins (the statistic rises from 8.2 at 1817 to
+    16.8 at 1819, then falls away).</p>
+    <p><strong>We do not claim to know what caused the 1820 break.</strong> The date coincides with the
+    post-Napoleonic agricultural depression and Britain's return to the gold standard in 1821. We have
+    ruled out the inflation adjustment, the interpolated years, and the recording density as explanations.
+    Identifying the underlying cause is the natural next question, not something this analysis
+    settles.</p>
+    <p><strong>The unclassified income bucket remains large</strong>, between 21% and 66% of income
+    depending on the era, and worst (66%) in 1854&ndash;69. This is inherited from v15 and is the single
+    biggest data-quality weakness in both analyses. The 1820 break survives dropping the bucket entirely,
+    but the size of the post-1820 adjustment speed moves (0.16 to 0.31) depending on the definition of
+    income. The direction of the finding is robust; its exact magnitude is less so.</p>
+    <p class="caveat">Every number in this report is reproduced by <code>analysis_v16.py</code>, which
+    runs deterministically from the ledger data. Supporting tables: <code>adjustment_speed.csv</code>,
+    <code>chow.csv</code>, <code>breaks.csv</code>, <code>confounds.csv</code>,
+    <code>v15_portfolio_at_break.csv</code>, <code>v15_income_definitions.csv</code>.</p>
+  </div>
+
+</div>
+</body>
+</html>

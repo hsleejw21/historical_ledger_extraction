@@ -1,0 +1,114 @@
+FIRST APPEARANCES OF MODERN CONCEPTS IN OXFORD COLLEGE ACCOUNTS
+====================================================================
+Each entry shows the FIRST time a modern concept appeared in the
+enriched english_description, with the actual description text.
+
+[1711] TUITION
+  Significance: Tuition as a formal category
+  Era: pre_industrial  |  Category: educational  |  Direction: income
+  First entry: "Tuition income from the Hall, noted per annum."
+
+[1725] PRIZE
+  Significance: Academic prize awarded
+  Era: pre_industrial  |  Category: educational  |  Direction: expenditure
+  First entry: "Prizes awarded for Castle and Bocardo (student prizes)"
+
+[1730] GAS
+  Significance: Gas lighting installed
+  Era: pre_industrial  |  Category: other  |  Direction: income
+  First entry: "Arrears due from Mrs Betty relating to the previous year (reference to "magasins" unclear)."
+
+[1740] MORTGAGE
+  Significance: Mortgage transaction
+  Era: pre_industrial  |  Category: financial  |  Direction: expenditure
+  First entry: "Payment to Mr Shippen of the remainder due on his mortgage."
+
+[1741] PRIVATE
+  Significance: Private tuition / students
+  Era: pre_industrial  |  Category: administrative  |  Direction: expenditure
+  First entry: "Payment to private Oxonians at Michaelmas."
+
+[1745] CONSOLS
+  Significance: 3% consols investment
+  Era: pre_industrial  |  Category: financial  |  Direction: transfer
+  First entry: "Instruction or note to purchase three percent stock (3% consols)."
+
+[1775] MODERATOR
+  Significance: Exam moderator role emerges
+  Era: pre_industrial  |  Category: administrative  |  Direction: unclear
+  First entry: "Signature of Ioh. De Grato, the Moderator."
+
+[1787] CHOIR
+  Significance: Choir / choral service
+  Era: transition  |  Category: salary_stipend  |  Direction: expenditure
+  First entry: "Choir stipend paid to Thiers."
+
+[1788] RACK RENT
+  Significance: Market-rate rents begin
+  Era: transition  |  Category: land_rent  |  Direction: income
+  First entry: "Annual rent received from the Kidlington estate (quit/rack rent)."
+
+[1788] BANKERS
+  Significance: Banking relationship formalised
+  Era: transition  |  Category: financial  |  Direction: income
+  First entry: "Sum received from bankers."
+
+[1797] INSURANCE
+  Significance: Oxford buys property insurance
+  Era: transition  |  Category: land_rent  |  Direction: expenditure
+  First entry: "Insurance premium for barns and related buildings at Wittm (Witney)."
+
+[1799] INCOME TAX
+  Significance: Government taxes the college
+  Era: transition  |  Category: administrative  |  Direction: expenditure
+  First entry: "Payment of the college income tax (first three instalments)."
+
+[1809] DRAINAGE
+  Significance: Agricultural drainage works
+  Era: transition  |  Category: maintenance  |  Direction: expenditure
+  First entry: "Payment to Meadowcraft for making a drain (work on drainage)"
+
+[1809] CANAL
+  Significance: Industrial canal investment
+  Era: transition  |  Category: financial  |  Direction: income
+  First entry: "Canal dividend received (quarterly/generic canal dividend)"
+
+[1811] LOAN
+  Significance: Loan income or payment
+  Era: transition  |  Category: financial  |  Direction: income
+  First entry: "Interest received on a loan relating to Whittonh rectory (interest due)."
+
+[1820] WIDOWS
+  Significance: Widows fund / charity
+  Era: early_industrial  |  Category: administrative  |  Direction: expenditure
+  First entry: "Payment to Mr French of Merton to correct an error in the widows' (or will) account."
+
+[1845] RAILWAY
+  Significance: Railway era arrives
+  Era: early_industrial  |  Category: administrative  |  Direction: expenditure
+  First entry: "Sundry expenses (lighting, gold, fee for inducting railway plan, and repairs to stoves) related to the Rector (ditto)"
+
+[1858] DEFICIT
+  Significance: First institutional deficit
+  Era: early_industrial  |  Category: financial  |  Direction: expenditure
+  First entry: "Deficit brought forward from 1857."
+
+[1861] COMPOSITION FEE
+  Significance: Composition fee income
+  Era: late_industrial  |  Category: educational  |  Direction: income
+  First entry: "Composition fees paid to the Master."
+
+[1866] EXHIBITIONER
+  Significance: Exhibition scholarships paid out
+  Era: late_industrial  |  Category: educational  |  Direction: expenditure
+  First entry: "Payment to the St. Richard's exhibitioner (scholarship recipient)."
+
+[1871] UNDERGRADUATE
+  Significance: Students labelled 'undergraduates'
+  Era: late_industrial  |  Category: charitable  |  Direction: income
+  First entry: "Contributions from undergraduates towards the chapel mosaic."
+
+[1871] PERCENTAGE
+  Significance: Percentage-based accounting
+  Era: late_industrial  |  Category: administrative  |  Direction: expenditure
+  First entry: "Commission or percentage fees paid."

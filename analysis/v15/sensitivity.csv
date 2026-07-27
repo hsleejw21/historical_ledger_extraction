@@ -1,0 +1,6 @@
+variant,late_L4_income_pct,late_L4_exp_pct
+Base,42.7,10.0
+Salary to L3 (not L1),42.7,10.0
+Income not cleaned,38.6,10.0
+"L4A = all financial (old, inflated)",42.7,30.3
+Fees counted as L2 (not L4),4.2,10.0

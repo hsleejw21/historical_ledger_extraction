@@ -1,0 +1,5 @@
+pair,best_lag,best_corr,contemp_corr,verdict
+new_revenue -> higher_spend (levels),-8,0.25,0.08,spend leads
+new_revenue -> higher_spend (smoothed d),-8,0.16,-0.1,spend leads
+L4A_income -> L4B_spend (levels),6,0.54,0.37,income leads
+L4A_income -> L4B_spend (smoothed d),11,0.16,-0.02,income leads

@@ -1,0 +1,6 @@
+test,stat,p_or_crit,reads_as
+ADF on the IMPOSED gap (income - expenditure),-8.16,0.0,gap is stationary -> the error-correction term is legitimate
+ADF on log income (level),-2.73,0.0683,borderline unit root
+ADF on log expenditure (level),-2.85,0.0515,borderline unit root
+"Johansen trace, null rank <= 0",23.69,15.49,rejected
+"Johansen trace, null rank <= 1",5.24,3.84,"ALSO rejected -> full rank -> levels stationary, i.e. NOT cointegrated. Johansen and ADF disagree; we rely on the imposed-gap ADF."

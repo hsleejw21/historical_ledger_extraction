@@ -1,0 +1,5 @@
+field,n_raters,n_items,n_categories,fleiss_kappa
+direction,3,2795,5,0.8441
+category,3,2795,10,0.748
+language,3,2795,3,0.6204
+payment_period,3,2795,10,0.5705

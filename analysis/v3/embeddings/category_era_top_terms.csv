@@ -1,0 +1,241 @@
+era,category,rank,term,tfidf
+industrial_1760_1840,administrative,1,payment,0.5551297492660032
+industrial_1760_1840,administrative,2,tax,0.33766697116141287
+industrial_1760_1840,administrative,3,mr,0.23885126151850855
+industrial_1760_1840,administrative,4,college,0.23744349376889062
+industrial_1760_1840,administrative,5,land tax,0.20953625425606015
+industrial_1760_1840,administrative,6,land,0.185936098405765
+industrial_1760_1840,administrative,7,plate money,0.15994464869216093
+industrial_1760_1840,administrative,8,plate,0.13035964275131692
+industrial_1760_1840,charitable,1,alms,0.4714856428731404
+industrial_1760_1840,charitable,2,beggars,0.308220401177896
+industrial_1760_1840,charitable,3,subscription,0.2844298807329054
+industrial_1760_1840,charitable,4,poor,0.26891364473423807
+industrial_1760_1840,charitable,5,payment,0.23628763816094955
+industrial_1760_1840,charitable,6,infirmary,0.1949354395256807
+industrial_1760_1840,charitable,7,poor alms,0.16755549880467246
+industrial_1760_1840,charitable,8,beadle,0.1668989631512458
+industrial_1760_1840,domestic,1,payment,0.5743694915168677
+industrial_1760_1840,domestic,2,wine,0.3401703772687676
+industrial_1760_1840,domestic,3,capons,0.18810315659118995
+industrial_1760_1840,domestic,4,corn,0.18623433986114535
+industrial_1760_1840,domestic,5,candles,0.15119998187322026
+industrial_1760_1840,domestic,6,provisions,0.14988585537618188
+industrial_1760_1840,domestic,7,purchase,0.14935081417436394
+industrial_1760_1840,domestic,8,mayor,0.1423880135092603
+industrial_1760_1840,ecclesiastical,1,payment,0.5356552456629567
+industrial_1760_1840,ecclesiastical,2,augmentation,0.4264611585628307
+industrial_1760_1840,ecclesiastical,3,vicar,0.2092430030007443
+industrial_1760_1840,ecclesiastical,4,payment vicar,0.20736994855304547
+industrial_1760_1840,ecclesiastical,5,augmentation payment,0.18814319228246243
+industrial_1760_1840,ecclesiastical,6,newington,0.15560569870915364
+industrial_1760_1840,ecclesiastical,7,kidlington,0.13656883131388486
+industrial_1760_1840,ecclesiastical,8,south newington,0.12335858051938108
+industrial_1760_1840,educational,1,payment,0.5642534681755941
+industrial_1760_1840,educational,2,mr,0.27442600437324177
+industrial_1760_1840,educational,3,scholar,0.2512224922682721
+industrial_1760_1840,educational,4,scholarship,0.2403710209066844
+industrial_1760_1840,educational,5,books,0.20964284322313495
+industrial_1760_1840,educational,6,fine,0.13447774727223696
+industrial_1760_1840,educational,7,scholarship payment,0.12374805570044842
+industrial_1760_1840,educational,8,fees,0.11568956598376547
+industrial_1760_1840,financial,1,dividend,0.32191463034407536
+industrial_1760_1840,financial,2,received,0.27777778750760984
+industrial_1760_1840,financial,3,year,0.252116673226189
+industrial_1760_1840,financial,4,mr,0.24122981688233083
+industrial_1760_1840,financial,5,payment,0.23721886980827783
+industrial_1760_1840,financial,6,receipts,0.22916021273758883
+industrial_1760_1840,financial,7,benefaction,0.19746839944428907
+industrial_1760_1840,financial,8,stock,0.19609215525017976
+industrial_1760_1840,land_rent,1,rent,0.6484395414294795
+industrial_1760_1840,land_rent,2,annual rent,0.31870206865504547
+industrial_1760_1840,land_rent,3,rent received,0.22769284498332734
+industrial_1760_1840,land_rent,4,annual,0.2024701597557605
+industrial_1760_1840,land_rent,5,payment,0.1778254663239788
+industrial_1760_1840,land_rent,6,received,0.15767353552797622
+industrial_1760_1840,land_rent,7,rectory,0.15184103315344713
+industrial_1760_1840,land_rent,8,years rent,0.13323034574564
+industrial_1760_1840,maintenance,1,payment,0.6351702615272201
+industrial_1760_1840,maintenance,2,work,0.4396812453808564
+industrial_1760_1840,maintenance,3,work payment,0.26118707012925024
+industrial_1760_1840,maintenance,4,mr,0.1349232524486191
+industrial_1760_1840,maintenance,5,repairs,0.11693543256693525
+industrial_1760_1840,maintenance,6,payment mr,0.11203342724866731
+industrial_1760_1840,maintenance,7,paving,0.1115280560336798
+industrial_1760_1840,maintenance,8,painting work,0.09153059890269684
+industrial_1760_1840,other,1,signature,0.3785023574426357
+industrial_1760_1840,other,2,payment,0.32765699318692737
+industrial_1760_1840,other,3,unclear,0.24184206639987496
+industrial_1760_1840,other,4,miscellaneous payments,0.17469339574275494
+industrial_1760_1840,other,5,entry,0.17032962741066462
+industrial_1760_1840,other,6,miscellaneous,0.15350175866354485
+industrial_1760_1840,other,7,transcription,0.15106646679269195
+industrial_1760_1840,other,8,payments,0.14822578263218142
+industrial_1760_1840,salary_stipend,1,payment,0.5665980661012925
+industrial_1760_1840,salary_stipend,2,stipend,0.41120883444599987
+industrial_1760_1840,salary_stipend,3,stipend paid,0.2753067996554659
+industrial_1760_1840,salary_stipend,4,paid,0.17692621604312392
+industrial_1760_1840,salary_stipend,5,rector,0.14749625748924486
+industrial_1760_1840,salary_stipend,6,stipend payment,0.1449794911350913
+industrial_1760_1840,salary_stipend,7,wages,0.12955614101433688
+industrial_1760_1840,salary_stipend,8,payment rector,0.1290132826949958
+post_1840,administrative,1,payment,0.5644871947122009
+post_1840,administrative,2,insurance,0.2808831689971863
+post_1840,administrative,3,tax,0.2538885395640535
+post_1840,administrative,4,college,0.21372028548461935
+post_1840,administrative,5,rate,0.15317389580916957
+post_1840,administrative,6,stamps,0.12918282011045415
+post_1840,administrative,7,local,0.12136906110618989
+post_1840,administrative,8,premium,0.12123452714119742
+post_1840,charitable,1,subscription,0.6190510055329771
+post_1840,charitable,2,donation,0.2633747307588615
+post_1840,charitable,3,infirmary,0.21166204591126675
+post_1840,charitable,4,poor,0.19098994388877835
+post_1840,charitable,5,payment,0.1893851587351321
+post_1840,charitable,6,widows orphans,0.1863200778618754
+post_1840,charitable,7,orphans,0.1863200778618754
+post_1840,charitable,8,subscription paid,0.18295196701027108
+post_1840,domestic,1,payment,0.4819698951957074
+post_1840,domestic,2,gas,0.3083750343303758
+post_1840,domestic,3,household,0.24714374450746052
+post_1840,domestic,4,wine,0.21724243435586246
+post_1840,domestic,5,payment gas,0.18743193332633398
+post_1840,domestic,6,college,0.16414916720433512
+post_1840,domestic,7,purchase,0.16099366522491054
+post_1840,domestic,8,inn,0.15624335072739037
+post_1840,ecclesiastical,1,payment,0.4884871816389795
+post_1840,ecclesiastical,2,vicar,0.36579161111415603
+post_1840,ecclesiastical,3,payment vicar,0.3345407498902344
+post_1840,ecclesiastical,4,augmentation,0.18487756613907266
+post_1840,ecclesiastical,5,vicar merton,0.16673059981109092
+post_1840,ecclesiastical,6,feast,0.147743476335505
+post_1840,ecclesiastical,7,diocesan,0.12658298644495355
+post_1840,ecclesiastical,8,church,0.12481129847586706
+post_1840,educational,1,scholarship,0.4101245685202112
+post_1840,educational,2,payment,0.3878493162611187
+post_1840,educational,3,scholarship payment,0.2393642310583066
+post_1840,educational,4,fees,0.20736325181683624
+post_1840,educational,5,school,0.1744881681728348
+post_1840,educational,6,exhibition,0.16119925606576896
+post_1840,educational,7,fund,0.1527829109802307
+post_1840,educational,8,open,0.15071081214782267
+post_1840,financial,1,fund,0.46570727916809496
+post_1840,financial,2,balance,0.26468501990573545
+post_1840,financial,3,trust,0.2518917596028624
+post_1840,financial,4,fund balance,0.21931478844048635
+post_1840,financial,5,trust fund,0.2033588188198409
+post_1840,financial,6,received,0.16248559790308706
+post_1840,financial,7,exhibition,0.16105191180810163
+post_1840,financial,8,fund distribution,0.15790164179991045
+post_1840,land_rent,1,rent,0.6297781253523216
+post_1840,land_rent,2,payment,0.24218647752276748
+post_1840,land_rent,3,annual rent,0.20056433530550305
+post_1840,land_rent,4,rent received,0.19934426055960747
+post_1840,land_rent,5,rents,0.15378472236071952
+post_1840,land_rent,6,property,0.14826571919650688
+post_1840,land_rent,7,relating,0.1458190833252265
+post_1840,land_rent,8,year rent,0.14196878431251142
+post_1840,maintenance,1,payment,0.6132767179851625
+post_1840,maintenance,2,work,0.4235877177463303
+post_1840,maintenance,3,repairs,0.24810512700250392
+post_1840,maintenance,4,repair,0.1832677217125962
+post_1840,maintenance,5,works,0.16853935478235554
+post_1840,maintenance,6,thatching,0.158152069997199
+post_1840,maintenance,7,tradesman,0.13959068021356558
+post_1840,maintenance,8,work payment,0.1254826674370299
+post_1840,other,1,payment,0.4623622795049573
+post_1840,other,2,unclear,0.2635688356598307
+post_1840,other,3,purpose specified,0.22050692158116617
+post_1840,other,4,signature,0.21118325217118716
+post_1840,other,5,purpose,0.2110035562720016
+post_1840,other,6,transcription,0.18964503398445637
+post_1840,other,7,possible,0.1811902601778078
+post_1840,other,8,possible transcription,0.1764055372649329
+post_1840,salary_stipend,1,payment,0.6858724597568133
+post_1840,salary_stipend,2,stipend,0.2868989336592822
+post_1840,salary_stipend,3,paid,0.18399546580234147
+post_1840,salary_stipend,4,stipend paid,0.18356815180744215
+post_1840,salary_stipend,5,rector,0.17511818327940798
+post_1840,salary_stipend,6,college gardener,0.14794563059115773
+post_1840,salary_stipend,7,gardener,0.1461571560619542
+post_1840,salary_stipend,8,college,0.1432815754971425
+pre_1760,administrative,1,payment,0.40914242725047867
+pre_1760,administrative,2,mr,0.2063381434934036
+pre_1760,administrative,3,college,0.1670730353119757
+pre_1760,administrative,4,payment abbreviated,0.14539660687617792
+pre_1760,administrative,5,recorded coll,0.14479826693018544
+pre_1760,administrative,6,coll,0.12298431192240099
+pre_1760,administrative,7,collegiate recipient,0.11786747120565923
+pre_1760,administrative,8,attendance recorded,0.11786747120565923
+pre_1760,charitable,1,alms,0.45784395423559004
+pre_1760,charitable,2,beggars,0.2661824896612026
+pre_1760,charitable,3,prisoners,0.19343839496085605
+pre_1760,charitable,4,payment,0.17939831443791884
+pre_1760,charitable,5,alms given,0.17689001615489958
+pre_1760,charitable,6,beggars alms,0.1759884229164976
+pre_1760,charitable,7,beadle,0.1707834478032783
+pre_1760,charitable,8,given poor,0.1587989917754212
+pre_1760,domestic,1,payment,0.5135294564699322
+pre_1760,domestic,2,candles,0.23888858648974565
+pre_1760,domestic,3,capons,0.20117982629867504
+pre_1760,domestic,4,corn,0.18481458149247126
+pre_1760,domestic,5,mr lawrence,0.15185987083624344
+pre_1760,domestic,6,mr,0.12709737230193044
+pre_1760,domestic,7,purchase,0.11892231313381532
+pre_1760,domestic,8,mayor,0.11810438131705296
+pre_1760,ecclesiastical,1,payment,0.4087911183279941
+pre_1760,ecclesiastical,2,augmentation,0.3759347585486355
+pre_1760,ecclesiastical,3,riddling augmentation,0.1857872032841767
+pre_1760,ecclesiastical,4,sermon,0.1721924154295291
+pre_1760,ecclesiastical,5,riddling,0.16976272357056113
+pre_1760,ecclesiastical,6,augmentation payment,0.15435595697228105
+pre_1760,ecclesiastical,7,sermon payment,0.1424120625508596
+pre_1760,ecclesiastical,8,newington,0.13063514318430902
+pre_1760,educational,1,payment,0.2885378478131796
+pre_1760,educational,2,mr,0.26027073887769253
+pre_1760,educational,3,fines relating,0.1950553938233436
+pre_1760,educational,4,respect fines,0.1950553938233436
+pre_1760,educational,5,fines,0.17029511544767018
+pre_1760,educational,6,little payment,0.15069328017531256
+pre_1760,educational,7,collected,0.1481894014524837
+pre_1760,educational,8,fees,0.13739074294552886
+pre_1760,financial,1,mr,0.35535285921817983
+pre_1760,financial,2,mr morbridge,0.2464960165476977
+pre_1760,financial,3,morbridge,0.2464960165476977
+pre_1760,financial,4,payment,0.18044781239328714
+pre_1760,financial,5,received,0.17574367823393117
+pre_1760,financial,6,benefaction,0.1525494244577087
+pre_1760,financial,7,1770,0.15047440337385704
+pre_1760,financial,8,chest recorded,0.12530214174507967
+pre_1760,land_rent,1,rent,0.5595690064985472
+pre_1760,land_rent,2,annual rent,0.4461270963505569
+pre_1760,land_rent,3,annual,0.25977787000316815
+pre_1760,land_rent,4,rent received,0.17257162846792531
+pre_1760,land_rent,5,arrears,0.15263547483529355
+pre_1760,land_rent,6,michaelmas,0.13702908315180493
+pre_1760,land_rent,7,received,0.13474985063018227
+pre_1760,land_rent,8,payment,0.13468123281742822
+pre_1760,maintenance,1,payment,0.4778037933754295
+pre_1760,maintenance,2,work,0.3337725361728777
+pre_1760,maintenance,3,rubbish,0.17140655747394892
+pre_1760,maintenance,4,work payment,0.16302036516201354
+pre_1760,maintenance,5,plummer,0.14424320700819168
+pre_1760,maintenance,6,john hart,0.1395902003305081
+pre_1760,maintenance,7,plummer settling,0.1395902003305081
+pre_1760,maintenance,8,settling remainder,0.1395902003305081
+pre_1760,other,1,tills,0.276400282033195
+pre_1760,other,2,unclear,0.23824932156113468
+pre_1760,other,3,payment,0.17885963560676488
+pre_1760,other,4,error unclear,0.1683735077700864
+pre_1760,other,5,possible transcription,0.14502601889186922
+pre_1760,other,6,possible,0.14421913546000675
+pre_1760,other,7,transcription error,0.14130740302284694
+pre_1760,other,8,brocards,0.1382001410165975
+pre_1760,salary_stipend,1,payment,0.3832183648250731
+pre_1760,salary_stipend,2,stipend,0.24777174752109854
+pre_1760,salary_stipend,3,john thiess,0.20093610990151506
+pre_1760,salary_stipend,4,barton fund,0.20093610990151506
+pre_1760,salary_stipend,5,thiess,0.20093610990151506
+pre_1760,salary_stipend,6,john barton,0.20093610990151506
+pre_1760,salary_stipend,7,fund scholar,0.1836050098045694
+pre_1760,salary_stipend,8,stipend payment,0.1612184188827721

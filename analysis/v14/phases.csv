@@ -1,0 +1,6 @@
+dimension,onset_year,onset_t,pre1854_slope,pre1854_t,mid_slope,mid_t,post1877_slope,post1877_t,accelerates_in
+L1 cost,1824,2.8,-0.155,-1.4,0.54,1.3,-0.043,-0.1,none
+L2 personalisation,1844,2.5,0.81,3.0,0.165,2.2,0.927,2.7,post1877
+L3 operational,1832,2.1,0.553,2.0,0.059,0.1,-0.367,-1.6,pre1854
+L4A business model,1826,1.9,-0.024,-0.3,0.982,2.4,-0.137,-0.3,mid_1854_77
+L4B mission,1827,4.6,0.041,1.4,0.262,4.1,0.992,2.8,post1877

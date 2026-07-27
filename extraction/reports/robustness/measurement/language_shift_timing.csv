@@ -1,0 +1,10 @@
+coverage,era,english_share,first_decade_over_50pct
+all_years,industrial_1760_1840,0.612,1790
+all_years,post_1840,0.8595,1790
+all_years,pre_1760,0.4135,1790
+min_2_pages,industrial_1760_1840,0.612,1790
+min_2_pages,post_1840,0.8579,1790
+min_2_pages,pre_1760,0.4135,1790
+min_3_pages,industrial_1760_1840,0.612,1790
+min_3_pages,post_1840,0.8579,1790
+min_3_pages,pre_1760,0.4135,1790

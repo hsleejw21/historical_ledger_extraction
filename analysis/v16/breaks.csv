@@ -1,0 +1,7 @@
+target,method,result
+COUPLING (ECM regression coefficients),"PELT (linear cost, pen=12)",none
+COUPLING (ECM regression coefficients),"Dynp (linear cost, 1 break)",1822
+COUPLING (adjustment speed),"trimmed sup-Wald, 15% trim; Andrews 5% crit = 8.85",argmax 1819 (Wald 16.8 -> SIGNIFICANT); Wald@1854=8.0 (below the critical value); Wald@1870=0.9
+COUPLING (latent state),"Markov-switching, switching lambda (common variance -- the switching-variance version does not identify at n~100; see _ms_fit)","finds a tight state (lambda=0.67) and a loose one (lambda=0.08) -- BUT the states last only 1.5-2.5 years and the tight state covers 15% of pre-1854 years vs 19% of post-1854 years. It fragments into short bursts instead of recovering a persistent historical phase. HONEST NEGATIVE: at ~100 annual points the latent-state approach has too little to work with; the single-break methods (sup-Wald, Bai-Perron) do recover ~1820."
+LEVEL of the transformation mix (NOT the coupling),PELT rbf pen=5,1870
+LEVEL of the transformation mix (NOT the coupling),Dynp l2 (2 breaks),1870;1880

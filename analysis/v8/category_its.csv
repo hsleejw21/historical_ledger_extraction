@@ -1,0 +1,17 @@
+Category,Code,Param,Coef,SE,p-value,Sig
+L1_inv (Efficiency — traditional decline),L1_inv,D54,0.01746,0.05809,0.7637,
+L1_inv (Efficiency — traditional decline),L1_inv,t_post54,-0.01096,0.00457,0.0164,**
+L1_inv (Efficiency — traditional decline),L1_inv,D77,0.05911,0.064,0.3557,
+L1_inv (Efficiency — traditional decline),L1_inv,t_post77,0.00612,0.00626,0.3285,
+L2 (Process Modernisation — payment modernity),L2,D54,-0.10673,0.0332,0.0013,***
+L2 (Process Modernisation — payment modernity),L2,t_post54,-0.00125,0.00075,0.0954,*
+L2 (Process Modernisation — payment modernity),L2,D77,0.01886,0.01855,0.3093,
+L2 (Process Modernisation — payment modernity),L2,t_post77,0.00306,0.00148,0.0379,**
+L3 (Capability Expansion — salary share),L3,D54,-0.23479,0.04692,0.0,***
+L3 (Capability Expansion — salary share),L3,t_post54,0.00012,0.00211,0.9537,
+L3 (Capability Expansion — salary share),L3,D77,0.12716,0.0699,0.0689,*
+L3 (Capability Expansion — salary share),L3,t_post77,0.00114,0.003,0.7031,
+L4 (Mission Change — educational share),L4,D54,-0.01262,0.00508,0.0131,**
+L4 (Mission Change — educational share),L4,t_post54,0.00237,0.00024,0.0,***
+L4 (Mission Change — educational share),L4,D77,0.03568,0.01904,0.0609,*
+L4 (Mission Change — educational share),L4,t_post77,0.00774,0.00147,0.0,***

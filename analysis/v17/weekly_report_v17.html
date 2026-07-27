@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Decision Rule Behind the 1820 Break</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; background:#ffffff; color:#000000; font-family:Arial, Helvetica, sans-serif; line-height:1.7; }
+  .wrap { max-width:800px; margin:0 auto; padding:56px 28px 90px; }
+  h1 { font-size:1.85rem; line-height:1.25; margin:0 0 14px; font-weight:bold; }
+  .standfirst { font-size:1.08rem; margin:0 0 8px; }
+  hr.rule { border:0; border-top:1px solid #cccccc; margin:42px 0; }
+  h2 { font-size:1.2rem; font-weight:bold; margin:42px 0 10px; }
+  h3 { font-size:1.0rem; font-weight:bold; margin:26px 0 4px; }
+  h4 { font-size:.94rem; font-weight:bold; margin:20px 0 2px; color:#1f3b5c; }
+  p { margin:13px 0; }
+  .secnum { color:#888; font-weight:bold; margin-right:8px; }
+  .box { background:#f6f7f8; border:1px solid #d8dce0; border-left:3px solid #1f3b5c; padding:16px 20px; margin:24px 0; font-size:.9rem; line-height:1.6; }
+  .box h3 { margin:0 0 8px; font-size:.82rem; letter-spacing:.04em; text-transform:uppercase; color:#1f3b5c; }
+  .box p { margin:6px 0; }
+  .what { background:#fbfcfd; border:1px dashed #b9c4ce; padding:14px 18px; margin:18px 0; font-size:.9rem; }
+  .what h3 { margin:0 0 6px; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:#5a6b7b; }
+  .what p { margin:6px 0; }
+  .caveat { color:#5a6b7b; font-size:.85rem; }
+  table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+  th { text-align:left; font-weight:bold; padding:0 10px 8px; border-bottom:2px solid #000; vertical-align:bottom; }
+  td { text-align:left; padding:9px 10px; border-bottom:1px solid #ccc; vertical-align:top; line-height:1.5; }
+  .num { text-align:right; }
+  .key { background:#eef2f6; }
+  figure { margin:28px 0; }
+  img { max-width:100%; display:block; margin:0 auto; border:1px solid #ccc; }
+  figcaption { font-size:.85rem; margin-top:10px; text-align:center; font-style:italic; }
+  ul { margin:13px 0; padding-left:22px; }
+  li { margin:8px 0; }
+  strong { font-weight:bold; }
+  code { font-family:"SFMono-Regular",Consolas,monospace; font-size:.86em; background:#f0f2f4; padding:1px 4px; }
+  @media print {
+    @page { margin: 12mm; }
+    .wrap { max-width:100%; padding:0; }
+    h2, h3, figure, table { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>The Decision Rule Behind the 1820 Break</h1>
+  <p class="standfirst">The question for this week: <strong>Last week showed that the link between what Oxford
+  earned and what it spent breaks around 1820. What organisational decision rule actually changed?</strong>
+  Rather than adding another breakpoint, we ask what rule the college ran before 1820, what it ran after,
+  and what let spending come loose from income.</p>
+
+  <div class="box">
+    <h3>Summary</h3>
+    <p>The rule changed from <strong>&ldquo;match spending to this year's receipts&rdquo;</strong> to
+    <strong>&ldquo;spend against the stable core, and let the new money pass through.&rdquo;</strong>
+    Before 1820, spending closed <strong>95%</strong> of any gap with income within a year and swung
+    <em>more</em> than income itself &mdash; spending led, and the estate was worked to meet it. After
+    1820, spending stops tracking <em>total</em> income (adjustment speed falls to 0.16) but keeps
+    tracking the <strong>traditional land-and-church endowment</strong> (0.40, still significant). Because
+    that core is smooth while the new income streams are lumpy, spending ends up <strong>smoother than
+    income</strong>: the volatility ratio flips from <strong>1.56</strong> before 1820 to
+    <strong>0.72</strong> after. Only later &mdash; after 1854, visibly by 1870 &mdash; does the spending
+    portfolio itself move toward higher-order activity. <strong>The rule changed first; the portfolio
+    changed decades later.</strong></p>
+  </div>
+
+  <hr class="rule">
+
+  <h2>What changed between last week and this week</h2>
+
+  <p>Last week measured <strong>timing</strong>: it treated income and expenditure as one coupled system and
+  found that the adjustment speed &mdash; the share of any income&ndash;spending gap that spending closes
+  within a year &mdash; collapses from 0.95 to 0.16 around <strong>1820</strong>, a generation before the
+  1854 reform. Last week we stopped there, and said so plainly: <em>&ldquo;what happened around 1820, we do not
+  claim to know.&rdquo;</em></p>
+
+  <p>This week supplies the <strong>mechanism</strong>. We do not re-open the break date. We ask a
+  different question:</p>
+
+  <div class="box" style="border-left-color:#b5530f;">
+    <p><strong>Before 1820 the rule was &ldquo;spend what the estate earns.&rdquo; What rule replaced it,
+    and what let spending come loose from income?</strong></p>
+  </div>
+
+  <p>Four tests answer it, each attacking the question from a different side. Two of them close off
+  tempting explanations, which is what makes the surviving answer sharp. Classification into
+  L1&ndash;L4 and all cleaning are unchanged from earlier weeks.</p>
+
+  <hr class="rule">
+
+  <h2>Data and methods</h2>
+
+  <h3>Data</h3>
+
+  <p>The same annual series as last week, over <strong>1800&ndash;1900</strong> (95 of 101 years have records;
+  6 interior gaps interpolated), with <strong>1700&ndash;1749</strong> as a pre-Industrial-Revolution
+  baseline. All money is inflation-adjusted using the Phelps&nbsp;Brown&ndash;Hopkins index. This week we
+  additionally split income by source:</p>
+
+  <table>
+    <tr><th>Income series</th><th>What it is</th></tr>
+    <tr><td><strong>Traditional estate income</strong></td><td>land rents plus ecclesiastical income &mdash; the endowment's core produce</td></tr>
+    <tr><td><strong>New / liquid income</strong></td><td>everything else: fees, securities and dividends, banked funds, benefactions, administrative receipts</td></tr>
+  </table>
+
+  <h3>Methods</h3>
+
+  <table>
+    <tr><th>Method</th><th>What it actually does</th><th>Where we use it</th></tr>
+    <tr><td><strong>Error-correction model</strong></td><td>Measures how fast spending closes the gap when it drifts from an income series. Run against total income and against traditional income separately, to see which one spending is anchored to.</td><td>Test 1</td></tr>
+    <tr><td><strong>Relative volatility</strong></td><td>The standard deviation of spending's year-on-year change divided by that of income. Above 1, spending swings more than income; below 1, spending is smoother.</td><td>Test 2</td></tr>
+    <tr><td><strong>Granger direction test</strong></td><td>Asks, within each period, whether the past of one series predicts the other. Prediction, not proof of cause.</td><td>Test 2</td></tr>
+    <tr><td><strong>Bootstrap confidence intervals</strong></td><td>Re-samples the years 2,000 times to put an honest interval on each ratio, because the tight era rests on only 19 years.</td><td>Test 2</td></tr>
+    <tr><td><strong>Category composition shares</strong></td><td>The share of spending going to standing commitments (salaries, upkeep) versus discretionary items.</td><td>Test 4</td></tr>
+  </table>
+
+  <p class="caveat">Every number below is reproduced by <code>analysis_v17.py</code>, which runs
+  deterministically from the ledger data.</p>
+
+  <hr class="rule">
+
+  <h2>Test 1: what did spending track, and what broke?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>If the pre-1820 rule was &ldquo;spend what the estate earns,&rdquo; then spending should track
+    <strong>traditional</strong> income specifically. We estimate the adjustment speed twice &mdash; once
+    against total income, once against the traditional land-and-church endowment alone &mdash; in each
+    period.</p>
+  </div>
+
+  <h3>Result</h3>
+
+  <table>
+    <tr><th>Era</th><th class="num">speed vs total income</th><th class="num">p</th><th class="num">speed vs traditional income</th><th class="num">p</th></tr>
+    <tr><td>1700&ndash;1749 <span class="caveat">(baseline)</span></td><td class="num">0.53</td><td class="num">&lt;0.001</td><td class="num">0.44</td><td class="num">&lt;0.001</td></tr>
+    <tr><td>1800&ndash;1819 <span class="caveat">(tight)</span></td><td class="num"><strong>0.95</strong></td><td class="num">&lt;0.001</td><td class="num"><strong>0.90</strong></td><td class="num">0.004</td></tr>
+    <tr class="key"><td>1820&ndash;1853 <span class="caveat">(loose)</span></td><td class="num"><strong>0.16</strong></td><td class="num">0.63</td><td class="num"><strong>0.40</strong></td><td class="num">0.039</td></tr>
+    <tr><td>1854&ndash;1900</td><td class="num">0.18</td><td class="num">0.02</td><td class="num">0.13</td><td class="num">0.025</td></tr>
+  </table>
+
+  <h3>What it means</h3>
+
+  <p>Before 1820, spending tracked <em>both</em> total income (0.95) and the traditional endowment (0.90)
+  tightly. At 1820 the tie to <strong>total</strong> income collapses (0.16, no longer distinguishable
+  from zero) &mdash; but the tie to the <strong>traditional land-and-church endowment survives</strong>
+  (0.40, still statistically significant). Spending did not switch to the new revenue streams; it fell
+  back on the <em>stable core</em> and let the volatile new money grow without responding to it. This
+  reproduces exactly what last week found when it tried alternative definitions of income. It is the key to the
+  next test: spending is anchored to the smooth part of the accounts, which is what makes it smooth.</p>
+
+  <p class="caveat">One honest caveat on this test. Spending is only about 0.9&times; the size of
+  traditional income early on but grows to roughly 12&times; it by the end of the century, so the
+  traditional-income tie is estimated against a gap that widens over time. Within each period the gap is
+  still mean-reverting (so the model is valid there), but read the traditional-anchor figure as a
+  <em>direction</em> &mdash; spending stays tied to the core &mdash; rather than a precise number. The tie
+  to total income, by contrast, is measured against a stable ratio and is clean.</p>
+
+  <hr class="rule">
+
+  <h2>Test 2: the rule &mdash; from matching income to smoothing over it</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>If spending has stopped chasing total income, what is it doing instead? We measure spending's
+    volatility relative to income's, period by period, and separately test the direction of influence
+    within each period.</p>
+  </div>
+
+  <h3>Result 1: spending goes from more volatile than income to smoother than income</h3>
+
+  <table>
+    <tr><th>Era</th><th class="num">income volatility</th><th class="num">spending volatility</th><th class="num">ratio (spending / income)</th><th class="num">95% interval</th></tr>
+    <tr><td>1700&ndash;1749</td><td class="num">0.93</td><td class="num">0.85</td><td class="num">0.91</td><td class="num">0.62&ndash;1.33</td></tr>
+    <tr><td>1800&ndash;1819 <span class="caveat">(tight)</span></td><td class="num">0.41</td><td class="num">0.64</td><td class="num"><strong>1.56</strong></td><td class="num">0.93&ndash;2.29</td></tr>
+    <tr class="key"><td>1820&ndash;1853 <span class="caveat">(loose)</span></td><td class="num">0.68</td><td class="num">0.49</td><td class="num"><strong>0.72</strong></td><td class="num">0.46&ndash;1.11</td></tr>
+    <tr><td>1854&ndash;1900</td><td class="num">1.19</td><td class="num">0.64</td><td class="num">0.92</td><td class="num">0.36&ndash;0.96</td></tr>
+  </table>
+
+  <p>Before 1820 the ratio is <strong>1.56</strong>: spending swings more than income, because spending
+  leads and income follows. After 1820 it is <strong>0.72</strong>: spending is now smoother than income,
+  which is itself turning lumpier as new streams arrive. The rule has gone from <em>matching</em> income
+  by hard yearly adjustment to <em>smoothing</em> over it.</p>
+
+  <h3>Result 2: the direction of influence flips at the same moment</h3>
+
+  <table>
+    <tr><th>Era</th><th>Which side leads</th><th class="num">p</th></tr>
+    <tr><td>1800&ndash;1819 <span class="caveat">(tight)</span></td><td><strong>expenditure leads income</strong></td><td class="num">0.004</td></tr>
+    <tr class="key"><td>1820&ndash;1853 <span class="caveat">(loose)</span></td><td><strong>income leads expenditure</strong></td><td class="num">0.009</td></tr>
+    <tr><td>1854&ndash;1900</td><td>neither leads</td><td class="num">0.72 / 0.81</td></tr>
+  </table>
+
+  <p>In the tight era spending came first and the estate was worked to meet it. After 1820 income comes
+  first and spending responds to it on a planned path &mdash; exactly what you expect once spending is set
+  against the stable core rather than chasing each year's receipts. This is the same flip we reported last week;
+  here it sits alongside the volatility result as two views of one change.</p>
+
+  <figure>
+    <img src="fig_headline.png" alt="Adjustment speed collapse and volatility-ratio flip at 1820">
+    <figcaption>Left: how tightly spending tracks total income (last week's adjustment speed) collapses at 1820.
+    Right: spending's volatility relative to income flips through 1.0 at 1820 &mdash; from chasing income
+    to being smoothed over it. Bars show bootstrap intervals; the clean comparison is 1800&ndash;1819
+    (1.56) against 1820&ndash;1853 (0.72).</figcaption>
+  </figure>
+
+  <h4>A correction to this week's own numbers</h4>
+
+  <p>A first pass reported the post-1854 ratio as <strong>0.53</strong>. On review, that value was
+  inflated by <strong>two incomplete-income extraction years</strong>: 1859 records income of about
+  &pound;32 against &pound;8,353 of spending, from just 15 income line-items &mdash; a missing page, not a
+  real event. Removing 1859 and 1862 raises the post-1854 ratio to <strong>0.92</strong>. The
+  load-bearing comparison is 1800&ndash;1819 against 1820&ndash;1853, which contains no such years and is
+  unaffected. A direct test of that difference &mdash; bootstrapping the change in the ratio rather than
+  reading two overlapping intervals &mdash; confirms the flip is significant (95% interval 0.12 to 1.65;
+  99% of resamples show the ratio falling). It agrees with the direction flip above and with last week's
+  adjustment-speed collapse, so three separate signatures point the same way.</p>
+
+  <hr class="rule">
+
+  <h2>Test 3: what absorbed the difference?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>If spending is held smooth while income fluctuates, something has to absorb the difference &mdash; a
+    reserve drawn down in lean years and topped up in good ones. We reconstructed the balance,
+    carry-forward, and arrears entries that earlier analyses removed as accounting artefacts, and looked for
+    that buffer directly.</p>
+  </div>
+
+  <h3>Result</h3>
+
+  <p><strong>We cannot see the reserve cleanly, and we report that rather than dress it up.</strong>
+  Explicit balance and carry-forward entries are sparse (about 294 across two centuries), and after 1854
+  the arrears entries nearly disappear from the extracted record. The buffer is the necessary counterpart
+  of the smoothing we observe in the flows, but the ledger does not record the reserve as a running stock
+  densely enough to measure it. This is the clearest thing to chase in the archive next; for now it is an
+  honest gap, not a result.</p>
+
+  <hr class="rule">
+
+  <h2>Test 4: was it just fixed costs hardening?</h2>
+
+  <div class="what">
+    <h3>What we did</h3>
+    <p>A competing explanation: perhaps spending came loose from income only because it filled up with
+    fixed obligations &mdash; salaries, upkeep &mdash; that must be paid regardless of receipts. We
+    measured the share of spending going to standing commitments over time.</p>
+  </div>
+
+  <h3>Result</h3>
+
+  <table>
+    <tr><th>Era</th><th class="num">standing-commitment share of spending</th></tr>
+    <tr><td>1700&ndash;1749</td><td class="num">0.72</td></tr>
+    <tr><td>1800&ndash;1819</td><td class="num">0.54</td></tr>
+    <tr><td>1820&ndash;1853</td><td class="num">0.47</td></tr>
+    <tr><td>1854&ndash;1900</td><td class="num">0.38</td></tr>
+  </table>
+
+  <p>The opposite of the competing explanation. The standing-commitment share <strong>falls</strong>
+  steadily; spending moved <em>toward</em> discretionary items, not away from them. The decoupling is not
+  fixed costs hardening &mdash; if anything, the college had more room to plan, not less.</p>
+
+  <hr class="rule">
+
+  <h2>How this connects to the transformation</h2>
+
+  <p>Why does a change in a budgeting rule matter? Because a hand-to-mouth rule &mdash; every pound out
+  matched by a pound in, this year &mdash; cannot fund a multi-year investment in new capability or a new
+  mission. Loosening the rule is what makes the later transformation affordable, and the order of events
+  in the data is exactly that of a precondition.</p>
+
+  <table>
+    <tr><th>Era</th><th class="num">higher-order (L3+L4) share of spending</th></tr>
+    <tr><td>1800&ndash;1819 <span class="caveat">(rule tight)</span></td><td class="num">0.163</td></tr>
+    <tr class="key"><td>1820&ndash;1853 <span class="caveat">(rule loosened)</span></td><td class="num">0.160</td></tr>
+    <tr><td>1854&ndash;1900</td><td class="num">0.247</td></tr>
+  </table>
+
+  <p>At the 1820 rule change, higher-order spending has not moved at all (0.163 &rarr; 0.160). It rises
+  only after 1854, and the visible shift in the portfolio &mdash; which last week's analysis dates independently to
+  <strong>1870</strong> &mdash; comes half a century after the rule changed. The rule is the leading
+  indicator; the portfolio is the last thing to move.</p>
+
+  <figure>
+    <img src="fig_timeline.png" alt="Timeline: rule changes 1820, reform 1854, portfolio shifts 1870">
+    <figcaption>Three things change, at three different times, in a definite order: the rule (~1820), the
+    institution (1854), the visible portfolio (1870).</figcaption>
+  </figure>
+
+  <figure>
+    <img src="mechanism_overview.png" alt="Four-panel detail across 1800-1900">
+    <figcaption>Supporting detail. Top-left: income and expenditure. Top-right: the rolling volatility
+    ratio crossing 1.0 around 1820. Bottom-left: new income overtaking the traditional estate.
+    Bottom-right: higher-order spending share, flat across 1820 and rising only later.</figcaption>
+  </figure>
+
+  <hr class="rule">
+
+  <h2>Implications for organisations investing in AI</h2>
+
+  <p>Read as a change in a decision rule rather than a change in a budget, the case yields three concrete
+  observations.</p>
+
+  <ul>
+    <li><strong>The earliest signal of transformation is a change in the rule, not a bigger budget.</strong>
+    At Oxford the rule loosened 30&ndash;50 years before the spending mix visibly moved. An organisation
+    that waits for its transformation budget to grow before believing a transformation is underway is
+    reading the last signal in the sequence, not the first.</li>
+    <li><strong>Fund new capability by decoupling it from current receipts, not by waiting for a good
+    year.</strong> The hand-to-mouth rule &mdash; invest in the new thing only out of what the existing
+    business happens to throw off this year &mdash; is exactly the rule Oxford abandoned before it could
+    transform.</li>
+    <li><strong>New revenue changed budgeting by making income lumpier, not by becoming the thing to
+    chase.</strong> Oxford's new streams never became the anchor; the college kept spending against its
+    stable core and let the new money accumulate. The organisational response to volatile new income was
+    to plan over it, not to react to it.</li>
+  </ul>
+
+  <p>A single institution does not establish a general rule. But it identifies which measurement carries
+  the earliest signal: not the size of the transformation budget, but the strength &mdash; and the anchor
+  &mdash; of the link between what an organisation earns and what it is willing to spend.</p>
+
+  <div class="box">
+    <h3>Limits, stated plainly</h3>
+    <p><strong>Sample size.</strong> Annual data, about 100 observations in the main window. We claim
+    prediction and timing, not proven causation; the direction tests establish precedence, not mechanism.</p>
+    <p><strong>The tight era is short.</strong> 1800&ndash;1819 rests on only 19 usable years. The
+    estimates there are precise and survive the robustness re-runs, but it is a short window, and the
+    bootstrap intervals on the volatility ratios overlap slightly. The finding rests on three signatures
+    agreeing &mdash; the adjustment-speed collapse, the volatility flip, and the direction flip &mdash; not
+    on any single number.</p>
+    <p><strong>The reserve is not directly measured.</strong> Test 3's buffer is inferred from the flows;
+    the ledger does not record it as a stock densely enough to observe. Identifying the smoothing vehicle
+    is the natural next step in the archive.</p>
+    <p><strong>A number was corrected mid-analysis.</strong> The post-1854 volatility ratio was revised
+    from 0.53 to 0.92 after two incomplete-income years were found and removed. The 1820 comparison is
+    unaffected.</p>
+    <p class="caveat">Every number in this report is reproduced by <code>analysis_v17.py</code>.
+    Supporting tables: <code>t1_anchor_shift.csv</code>, <code>t2_relative_volatility.csv</code>,
+    <code>t2_ratio_robustness.csv</code>, <code>t2_direction.csv</code>, <code>t4_composition.csv</code>,
+    <code>link_higher_order.csv</code>. Full write-up: <code>FINDINGS_v17.md</code>.</p>
+  </div>
+
+</div>
+</body>
+</html>

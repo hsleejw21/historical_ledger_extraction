@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which Mechanism? Testing the Competing Explanations</title>
+<style>
+* { box-sizing:border-box; }
+body { margin:0; background:#ffffff; color:#000000; font-family:Arial, Helvetica, sans-serif; line-height:1.7; }
+.wrap { max-width:800px; margin:0 auto; padding:56px 28px 90px; }
+h1 { font-size:1.85rem; line-height:1.25; margin:0 0 14px; font-weight:bold; }
+.standfirst { font-size:1.08rem; margin:0 0 8px; }
+hr.rule { border:0; border-top:1px solid #cccccc; margin:42px 0; }
+h2 { font-size:1.2rem; font-weight:bold; margin:42px 0 10px; }
+h3 { font-size:1.0rem; font-weight:bold; margin:26px 0 4px; }
+h4 { font-size:.94rem; font-weight:bold; margin:20px 0 2px; color:#1f3b5c; }
+p { margin:13px 0; }
+.box { background:#f6f7f8; border:1px solid #d8dce0; border-left:3px solid #1f3b5c; padding:16px 20px; margin:24px 0; font-size:.9rem; line-height:1.6; }
+.box h3 { margin:0 0 8px; font-size:.82rem; letter-spacing:.04em; text-transform:uppercase; color:#1f3b5c; }
+.box p { margin:6px 0; }
+.box-warning { border-left-color:#b5530f; }
+.what { background:#fbfcfd; border:1px dashed #b9c4ce; padding:14px 18px; margin:18px 0; font-size:.9rem; }
+.what h3 { margin:0 0 6px; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:#5a6b7b; }
+.what p { margin:6px 0; }
+.caveat { color:#5a6b7b; font-size:.85rem; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { text-align:left; font-weight:bold; padding:0 10px 8px; border-bottom:2px solid #000; vertical-align:bottom; }
+td { text-align:left; padding:9px 10px; border-bottom:1px solid #ccc; vertical-align:top; line-height:1.5; }
+.num { text-align:right; }
+.key { background:#eef2f6; }
+figure { margin:28px 0; }
+img { max-width:100%; display:block; margin:0 auto; border:1px solid #ccc; }
+figcaption { font-size:.85rem; margin-top:10px; text-align:center; font-style:italic; }
+ul { margin:13px 0; padding-left:22px; }
+li { margin:8px 0; }
+strong { font-weight:bold; }
+code { font-family:"SFMono-Regular",Consolas,monospace; font-size:.86em; background:#f0f2f4; padding:1px 4px; }
+@media print {
+  @page { margin: 12mm; }
+  .wrap { max-width:100%; padding:0; }
+  h2, h3, figure, table { page-break-inside:avoid; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Which Mechanism? Testing the Competing Explanations</h1>
+<p class="standfirst">The question for this week: <strong>last week proposed that Oxford's budgeting
+rule changed around 1820. But several other explanations would fit the same evidence. Which of them
+does the archive actually support?</strong> This week treats the budgeting rule as one candidate
+among six, works out what each one would have left behind in the ledger, and goes looking.</p>
+
+<div class="box">
+  <h3>Summary</h3>
+  <p><strong>One candidate survives, one is a partial contributor, and four are contradicted.</strong>
+  The decision-rule explanation survives because it makes a prediction the others do not: that
+  what spending is <em>anchored to</em> should switch from this year's income to a multi-year average.
+  That switch is exactly what we find (0.76 to current income before 1820,
+  0.67 to five-year income after). Revenue diversification turns out to
+  be real but partial: simulating the unchanged old rule against the actual later income reproduces
+  <strong>only about 29%</strong> of the smoothing, leaving
+  roughly <strong>71%</strong> that needs the rule itself
+  to have changed. Governance, planning horizon, financial management and accounting practice all
+  leave datable traces in the ledger, and <strong>none of them moves at 1820</strong>: they move
+  between 1846 and 1883, following the 1854 reform rather than preceding the 1820 change.</p>
+  <p>Two things this week did <em>not</em> deliver, stated up front: one of the tests I built
+  <strong>failed</strong> (a meaningless time trend absorbs 93% of the effect, so that design cannot
+  attribute anything), and the transitory versus permanent income test came back <strong>inconclusive</strong>.
+  Both are reported as such below.</p>
+</div>
+
+<hr class="rule">
+
+<h2>What changed between last week and this week</h2>
+
+<p>Last week's answer was a mechanism: the rule changed from "match spending to this year's
+receipts" to "hold spending on a smoothed path." The instruction this week was to stop building
+support for that answer and start trying to break it. So the budgeting rule goes back on the table
+as one candidate among several, and each candidate is asked the same three questions:</p>
+
+<div class="box box-warning">
+  <p><strong>What would we observe if this mechanism were true? Can we test that in the archive?
+  Does the evidence support it, contradict it, or fail to speak?</strong></p>
+</div>
+
+<table>
+  <tr><th></th><th>Candidate mechanism</th><th>What it would predict</th></tr>
+  <tr><td><strong>M1</strong></td><td>Decision rule</td><td>spending stops being anchored to current receipts and becomes anchored to longer-run income; the change is abrupt</td></tr>
+  <tr><td><strong>M2</strong></td><td>Revenue diversification</td><td>nothing organisational changed: income simply became lumpier, and any fixed rule fed lumpier income looks like this</td></tr>
+  <tr><td><strong>M3</strong></td><td>Governance</td><td>who authorises and receives spending changes at 1820</td></tr>
+  <tr><td><strong>M4</strong></td><td>Planning horizon</td><td>commitments lengthen, so spending mechanically stops tracking the single year</td></tr>
+  <tr><td><strong>M5</strong></td><td>Financial management</td><td>real reserves and securities appear and absorb the swings</td></tr>
+  <tr><td><strong>M6</strong></td><td>Accounting practice</td><td>the college did not change; the ledger changed how it records</td></tr>
+</table>
+
+<hr class="rule">
+
+<h2>Test 1: Is spending driven by current income, or by permanent income?</h2>
+
+<div class="what">
+  <h3>What we did</h3>
+  <p>If the decision rule changed, then what spending corrects <em>back to</em> should change. Before
+  1820 spending should be pulled back toward this year's receipts; afterwards toward a multi-year
+  average. We estimate both anchors in the same model, era by era, and let them compete.</p>
+</div>
+
+<h3>Result</h3>
+
+<table>
+  <tr><th>Era</th><th class="num">Pull toward <strong>current</strong> income</th><th class="num">Pull toward <strong>5-year</strong> income</th></tr>
+  <tr class="key"><td>1800-1819</td><td class="num"><strong>0.76</strong> (p = 0.020)</td><td class="num">0.06 (not significant)</td></tr>
+  <tr class="key"><td>1820-1853</td><td class="num">0.26 (not significant)</td><td class="num"><strong>0.67</strong> (p = 0.021)</td></tr>
+  <tr><td>1854-1900</td><td class="num">0.14 (not significant)</td><td class="num">0.08 (not significant)</td></tr>
+</table>
+
+<p><strong>The two anchors swap places at 1820, exactly as the decision-rule explanation predicts.</strong>
+This is the clearest single result of the week, and it holds whether permanent income is measured over
+three, five or seven years. None of the rival mechanisms predicts this particular pattern.</p>
+
+<p>The third row was not predicted by anyone. After 1854 spending is anchored to <strong>neither</strong>
+income concept. That is either a third regime beginning at the reform, or a sign that the post-1854 income
+data are too compromised to detect an anchor. The two are currently indistinguishable.</p>
+
+<p class="caveat">Honest limit: the pre-1820 era supplies only 15 usable observations, because a five-year
+trailing average cannot begin before 1805 and 1750-99 is an archive gap.</p>
+
+<hr class="rule">
+
+<h2>Test 2: How does spending respond to income shocks?</h2>
+
+<div class="what">
+  <h3>What we did</h3>
+  <p>Two versions. First, split income into its permanent and temporary parts and ask which one moves
+  spending. Second, split shocks by <em>sign</em>: do good years and bad years get treated
+  differently, and does that treatment change at 1820?</p>
+</div>
+
+<h3>Result 1: the transitory/permanent split is inconclusive</h3>
+
+<p>Reported plainly because it is the honest answer. Two reasonable ways of writing the same test
+disagree with each other, and the pre-1820 era has too few observations to separate them (p = 0.17 on
+the change). This is the professor's test (2) in its first form, and this archive does not settle it.</p>
+
+<h3>Result 2: what changed was the treatment of windfalls</h3>
+
+<table>
+  <tr><th>Era</th><th class="num">Response to a <strong>positive</strong> shock</th><th class="num">Response to a <strong>negative</strong> shock</th></tr>
+  <tr class="key"><td>1800-1819</td><td class="num"><strong>1.76</strong> (p = 0.004)</td><td class="num">-0.33 (not significant)</td></tr>
+  <tr><td>1820-1853</td><td class="num">0.77 (p = 0.012)</td><td class="num">0.05 (not significant)</td></tr>
+  <tr><td>1854-1900</td><td class="num">0.76 (p = 0.000)</td><td class="num">0.31 (not significant)</td></tr>
+</table>
+
+<p>Before 1820 an unexpectedly good year was spent, and then some. After 1820, less than half as much of
+it was. Meanwhile <strong>bad years were never passed through to spending, in any era</strong>.</p>
+
+<p>This matters for telling two stories apart. If the mechanism were "a reserve appeared"
+(M5), the first thing we should see is protection on the <em>downside</em>: that is what reserves
+are for. The downside is precisely where nothing changes. What changed is that the college stopped
+automatically spending money it happened to receive. That is a rule, not a buffer.</p>
+
+<p class="caveat">Strength: suggestive. The direction is consistent across all three eras, but the formal
+test of the change in the windfall response is p = 0.12.</p>
+
+<hr class="rule">
+
+<h2>Test 3: Is spending smoother than income, and is that the rule or just lumpier income?</h2>
+
+<div class="what">
+  <h3>What we did</h3>
+  <p>The smoothing ratio itself was established last week (1.56 before
+  1820, 0.72 after). The real question this week is <em>why</em> it moves.
+  Look at the two halves separately: spending volatility falls modestly (0.64
+  to 0.49), but income volatility rises sharply (0.41
+  to 0.68). Most of the ratio's movement comes from the income side, which is
+  exactly what the diversification rival predicts, and the reason it has to be taken seriously.</p>
+  <p>So we test it directly. Estimate the pre-1820 rule once. Then run that <strong>fixed, unchanged</strong>
+  rule forward from 1820, driven by the <strong>actual</strong> 1820-53 income. If lumpier income
+  alone explains the smoothing, the simulation should reproduce it.</p>
+</div>
+
+<h3>Result</h3>
+
+<table>
+  <tr><th></th><th class="num">Smoothing ratio</th><th>Reading</th></tr>
+  <tr><td>Calibration check: the rule fed its <em>own</em> 1800-19 income</td><td class="num">1.87 [1.14, 3.21]</td><td>against an observed 1.56: the simulator reproduces the era it was fitted to</td></tr>
+  <tr class="key"><td><strong>Placebo: the unchanged rule fed the actual 1820-53 income</strong></td><td class="num"><strong>1.32 [0.86, 2.22]</strong></td><td>against an observed <strong>0.72</strong>; 100% of simulations are less smooth than what Oxford actually did</td></tr>
+</table>
+
+<p>Breaking the fall from 1.56 to 0.72
+into its parts: <strong>income composition accounts for about 29%
+of it; the remaining 71% requires the rule itself to have changed.</strong></p>
+
+<p>This is a more useful answer than either "diversification explains it" or "diversification is irrelevant."
+Diversification is a real contributor of roughly three-tenths. It is not sufficient.</p>
+
+<figure>
+  <img src="mechanism_discrimination.png" alt="Four-panel figure: growth horse race, anchor switch, composition placebo, break-date horse race">
+  <figcaption>The four discriminating tests. Panel B is the anchor switch (Test 1); panel C is the
+  composition placebo (Test 3); panel D is the break-date race below.</figcaption>
+</figure>
+
+<hr class="rule">
+
+<h2>Test 4: Whose trace actually moves at 1820?</h2>
+
+<div class="what">
+  <h3>What we did</h3>
+  <p>Every rival mechanism, if true, leaves something datable in the ledger. A mechanism whose own
+  trace only moves in 1868 cannot explain a change in 1820. So we run the same break-detection scan on
+  each proxy and compare the dates.</p>
+</div>
+
+<h3>Result</h3>
+
+<table>
+  <tr><th>Mechanism</th><th>Trace in the ledger</th><th class="num">Break</th></tr>
+  <tr class="key"><td><em>the thing being explained</em></td><td>income-spending coupling</td><td class="num"><strong>1819</strong></td></tr>
+  <tr><td>M2 diversification</td><td>non-endowment share of income</td><td class="num">1846</td></tr>
+  <tr><td>M3 governance</td><td>institutional payee share</td><td class="num">1849</td></tr>
+  <tr><td>M5 financial management</td><td>securities income</td><td class="num">1854</td></tr>
+  <tr><td>M6 accounting</td><td>arrears share</td><td class="num">1857</td></tr>
+  <tr><td>M3 governance</td><td>signature rows per page</td><td class="num">1868</td></tr>
+  <tr><td>M2 diversification</td><td>effective number of income sources</td><td class="num">1881</td></tr>
+  <tr><td>M3 governance</td><td>named people per row</td><td class="num">1882</td></tr>
+  <tr><td>M6 accounting</td><td>Latin share, sections, subtotals, pages per year</td><td class="num">1882</td></tr>
+  <tr><td>M4 planning horizon</td><td>multi-year share of spending</td><td class="num">1883</td></tr>
+  <tr><td colspan="3" class="caveat">Rows per year, rows per page, investment purchases and commitment length show no statistically detectable break anywhere.</td></tr>
+</table>
+
+<p><strong>Nothing comes near 1820.</strong> Every rival's trace moves between 1846 and 1883, clustered
+on the 1854 reform and the 1870s-80s. The change in how Oxford <em>spent</em> has no observable
+companion in how it was governed, how long it committed, what it invested in, or how it kept its books.</p>
+
+<hr class="rule">
+
+<h2>A test that failed, reported as failed</h2>
+
+<p>The natural next move is to put each rival proxy into the model as a control and see whether the 1820
+effect survives. I built that test, and then added a <strong>linear time trend</strong> as a meaningless
+placebo rival, to check the test's power.</p>
+
+<div class="box box-warning">
+  <p>The meaningless trend absorbs <strong>93% of the effect</strong>: the 1820 coefficient goes from
+  -0.42 (p = 0.021) to -0.03 (p = 0.95). Not one real rival comes close.</p>
+</div>
+
+<p>With a single 99-year series, any smoothly-moving variable can soak up a step change. So the test has
+essentially no power, and the fact that the Latin-share proxy also reduces the effect by 68% is
+<strong>not</strong> evidence for an accounting explanation: the meaningless trend does better.</p>
+
+<p>I am reporting this rather than deleting it because the failure is itself informative. <strong>This
+archive cannot discriminate mechanisms by controlling for them.</strong> It can discriminate only by
+distinctive predictions (Test 1), by break-date coincidence (Test 4), and by simulation (Test 3).</p>
+
+<h3>What the shape of the change can still tell us</h3>
+
+<p>A drift is what most rivals imply: diversification, lengthening horizons and the shift from Latin to
+English are all gradual. An abrupt change is what a <em>rule</em> implies: rules are adopted, not
+drifted into. Comparing model fit: a single abrupt change at <strong>1819</strong>
+is preferred over a smooth trend, and a second change is decisively rejected.</p>
+
+<figure>
+  <img src="absorption_horserace.png" alt="Bar chart of how much of the 1820 effect survives each rival control">
+  <figcaption>The failed test. Read the placebo bar alongside every other bar: a meaningless trend
+  absorbs more than any real rival does.</figcaption>
+</figure>
+
+<hr class="rule">
+
+<h2>Where this leaves the six candidates</h2>
+
+<table>
+  <tr><th>Mechanism</th><th>Verdict</th><th>Confidence</th></tr>
+  <tr class="key"><td><strong>M1 decision rule</strong></td><td><strong>Supported</strong>: the only candidate whose distinctive prediction (the anchor switch) is confirmed, and the change is abrupt as a rule change implies</td><td>strong</td></tr>
+  <tr class="key"><td><strong>M2 diversification</strong></td><td><strong>Partial</strong>: a real contributor of about 29% of the smoothing, but insufficient on its own</td><td>strong</td></tr>
+  <tr><td>M3 governance</td><td>Not supported at 1820: the markers move with the 1854 reform; the single 1818 hit is a page-layout artefact</td><td>medium (proxies are indirect)</td></tr>
+  <tr><td>M4 planning horizon</td><td>Contradicted: horizons lengthen half a century too late, and multi-year commitments are only 2-4% of spending</td><td>strong</td></tr>
+  <tr><td>M5 financial management</td><td>Not supported as the cause: what changed is the response to windfalls, not to shortfalls; financial assets arrive with the reform</td><td>medium (the reserve stock is unobserved)</td></tr>
+  <tr><td>M6 accounting practice</td><td>Not supported: the ledger's form changes between 1854 and 1882, never at 1820</td><td>strong</td></tr>
+</table>
+
+<hr class="rule">
+
+<h2>Summary</h2>
+
+<div class="box">
+  <h3>The question</h3>
+  <p>Last week we proposed that Oxford's budgeting rule changed around 1820. This week the task was to
+  stop confirming that story and try to break it, by testing six competing explanations.</p>
+</div>
+
+<div class="box box-warning">
+  <h3>The answer</h3>
+  <p><strong>One candidate survives, one is a partial contributor, and four are ruled out.</strong></p>
+  <ul>
+    <li><strong>M1 (decision rule):</strong> Supported. The anchor switched from current-year income
+    (0.76) to 5-year permanent income (0.67)
+    exactly at 1820. No other mechanism predicts this.</li>
+    <li><strong>M2 (diversification):</strong> Partial. Explains about 29%
+    of the smoothing, but the remaining 71% requires a rule change.</li>
+    <li><strong>M3, M4, M5, M6:</strong> Not supported. Their traces all break between 1846 and 1883,
+    not at 1820. They follow the change, they do not cause it.</li>
+  </ul>
+</div>
+
+<p>In one sentence: <strong>around 1820, Oxford changed from "spend what we earn this year" to
+"spend according to our long-run average income." The other explanations either come too late
+or explain too little.</strong></p>
+
+</div>
+</body>
+</html>

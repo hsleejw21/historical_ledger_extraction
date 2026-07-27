@@ -1,0 +1,7 @@
+system,direction,scope,lag,F,p,granger
+A,income -> expenditure,full 1800-1900,2,1.51,0.2237,no
+A,expenditure -> income,full 1800-1900,2,0.64,0.5302,no
+B,rev_L4 -> exp_L4,full 1800-1900,1,0.18,0.6685,no
+B,exp_L4 -> rev_L4,full 1800-1900,1,0.44,0.5097,no
+C,rev_int -> exp_int,full 1800-1900,1,0.08,0.7844,no
+C,exp_int -> rev_int,full 1800-1900,1,0.11,0.7349,no

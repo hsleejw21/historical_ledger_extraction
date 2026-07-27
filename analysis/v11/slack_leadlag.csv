@@ -1,0 +1,5 @@
+Driver,Target,"Best lag (yr, +=driver leads)",Peak corr,CI low,CI high,Driver leads
+Financial slack (income − expenditure),L3,4,0.08316441944109115,-0.13361101572655484,0.1831251658800314,yes
+Financial slack (income − expenditure),L4,-1,0.1758043029062848,-0.08482797426401119,0.2932633442542686,no
+Land-rent income (real),L3,6,-0.1852611517767861,-0.14211812500244408,0.1570972460302593,yes
+Land-rent income (real),L4,-1,0.3274651451646674,0.017206260669878595,0.4354923766544528,no

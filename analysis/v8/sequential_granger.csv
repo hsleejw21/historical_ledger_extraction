@@ -1,0 +1,16 @@
+Chain,From,To,Lag,F-stat,p-value,Sig,Differenced
+L1_inv→L2 (1st-diff),L1_inv,L2,1,0.0896,0.7651,,True
+L1_inv→L2 (1st-diff),L1_inv,L2,2,0.0039,0.9961,,True
+L1_inv→L2 (1st-diff),L1_inv,L2,3,0.4634,0.7082,,True
+L1_inv→L2 (1st-diff),L1_inv,L2,4,0.4771,0.7525,,True
+L1_inv→L2 (1st-diff),L1_inv,L2,5,0.4814,0.7899,,True
+L2→L3,L2,L3,1,1.6293,0.2034,,False
+L2→L3,L2,L3,2,0.7846,0.4578,,False
+L2→L3,L2,L3,3,1.909,0.1297,,False
+L2→L3,L2,L3,4,1.8728,0.1172,,False
+L2→L3,L2,L3,5,1.7645,0.1225,,False
+L3→L4 (1st-diff),L3,L4,1,2.2648,0.1341,,True
+L3→L4 (1st-diff),L3,L4,2,1.0606,0.3484,,True
+L3→L4 (1st-diff),L3,L4,3,0.9168,0.434,,True
+L3→L4 (1st-diff),L3,L4,4,0.9775,0.4212,,True
+L3→L4 (1st-diff),L3,L4,5,0.9625,0.4423,,True

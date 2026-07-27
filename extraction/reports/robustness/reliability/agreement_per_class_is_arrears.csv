@@ -1,0 +1,3 @@
+label,n_items,n_agree,agree_rate,field
+False,2366,2148,0.907861369399831,is_arrears
+True,429,395,0.9207459207459208,is_arrears

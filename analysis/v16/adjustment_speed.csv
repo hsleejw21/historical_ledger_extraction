@@ -1,0 +1,6 @@
+period,n,income_rows_per_yr,adjustment_speed,p,reading
+pre-Industrial-Rev 1700-1749,48,64.0,0.463,0.0002,baseline: tight
+1800-1819,18,83.0,0.948,0.0,tight
+1820-1853,34,78.0,0.159,0.437,ALREADY LOOSE -- before any reform
+1854-1900 (post-reform),47,47.0,0.185,0.0173,loose
+[imposed] 1800-1853 'pre-reform',52,80.0,0.56,0.0013,a MIXTURE of the tight and loose eras -- this is what the first draft reported

@@ -1,0 +1,4 @@
+transform,best_lag,best_corr,contemp_corr,verdict
+levels,8,0.76,0.67,L4A leads L4B
+raw_diffs,8,0.38,0.03,L4A leads L4B
+smoothed_diffs,8,0.36,0.26,L4A leads L4B

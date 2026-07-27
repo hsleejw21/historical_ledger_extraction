@@ -58,59 +58,44 @@ ANTHROPIC_API_KEY=sk-ant-...  # optional
 ```
 historical_ledger_extraction/
 │
-├── pipeline/                       # Production pipeline (start here)
-│   ├── run_pipeline.py             # v2_no_claude runner → Excel output
-│   ├── cache/                      # Intermediate extractor/supervisor JSONs
-│   └── output/                     # Final Excel files
+├── extraction/                    # OCR & extraction pipeline
+│   ├── pipeline/                  # Production pipeline (start here)
+│   │   └── run_pipeline.py        # v2_no_claude runner → Excel output
+│   ├── src/                       # Core library
+│   │   ├── agents/                # Extractor & supervisor agents
+│   │   ├── prompts/               # System prompts
+│   │   ├── evaluation/            # Axis1/Axis2 scoring
+│   │   ├── clients.py             # Unified LLM client
+│   │   ├── config.py              # Model registry & pipeline configs
+│   │   └── validation.py          # Currency rule checks (£/s/d)
+│   ├── enrichment/                # LLM enrichment of extracted rows
+│   ├── experiments/               # Extraction experiments
+│   │   ├── run_experiment.py      # Benchmark runner (v1–v6)
+│   │   ├── robustness/            # Robustness testing
+│   │   └── v6_loocv/              # CLIP-based adaptive routing
+│   ├── results/                   # Extraction outputs
+│   │   ├── enriched/              # 1,581 enriched JSON files
+│   │   └── cache/                 # Intermediate JSONs
+│   ├── tools/                     # Utility scripts (Excel export)
+│   ├── run_all.py                 # One-shot: PDF → extraction
+│   └── run_robustness.sh
 │
-├── run_all.py                      # One-shot: PDF conversion + full extraction
-│
-├── tools/
-│   └── export_to_excel.py          # Convert any results dir → Excel
+├── analysis/                      # Downstream analysis (versioned)
+│   ├── v1/ ~ v18/                 # Each version: script + results together
+│   │   ├── analysis_v{n}.py
+│   │   └── *.csv, *.png, *.html   # Outputs
+│   ├── shared/                    # Common analysis scripts
+│   │   ├── analysis_embeddings.py
+│   │   ├── analysis_vocabulary.py
+│   │   ├── analysis_text_trends.py
+│   │   └── paper_figures.py
+│   └── README.md                  # Script documentation
 │
 ├── data/
-│   ├── ground_truth/
-│   │   └── ground_truth.xlsx       # Manual annotations (33 pages)
-│   └── visual_features/
-│       ├── clip_embeddings.json    # CLIP visual feature vectors (1,581 pages)
-│       └── visual_features.json    # Additional CV features
+│   ├── ground_truth/              # Manual annotations (33 pages)
+│   └── visual_features/           # CLIP embeddings (1,581 pages)
 │
-├── src/                            # Core library
-│   ├── agents/                     # Extractor & supervisor agents
-│   ├── prompts/                    # System prompts
-│   ├── evaluation/                 # Axis1/Axis2 scoring
-│   ├── clients.py                  # Unified LLM client (OpenAI, Google, Anthropic)
-│   ├── config.py                   # Model registry & pipeline configurations
-│   └── validation.py               # Currency rule checks (£/s/d)
-│
-└── experiments/                    # Research & analysis
-    ├── run_experiment.py           # Extraction benchmark runner (v1–v6)
-    │
-    ├── enrichment/
-    │   └── enrich_supervisor_rows.py  # LLM enrichment of extracted rows
-    │
-    ├── analysis/                   # Downstream analysis & visualisation
-    │   ├── analysis_v4.py          # Financial restructuring, vocabulary, networks
-    │   ├── analysis_v5.py          # Outcome variables, OLS, income composition
-    │   ├── analysis_v6.py          # Four-level proxy construction (L1–L4)
-    │   ├── analysis_v7.py          # ITS / RDD / Granger / placebo multi-method
-    │   ├── analysis_v8.py          # L1–L4 operationalization + sequential testing
-    │   ├── analysis_embeddings.py
-    │   ├── analysis_hypotheses.py
-    │   ├── analysis_supplier_networks.py
-    │   ├── analysis_text_trends.py
-    │   ├── analysis_vocabulary.py
-    │   ├── reanalysis_ledger_yearly_v2.py  # Yearly aggregation (feeds v4–v8)
-    │   └── misc/                   # Experimental / one-off scripts
-    │
-    ├── robustness/                 # Robustness testing framework
-    ├── v6_loocv/                   # CLIP-based adaptive routing (active research)
-    │
-    ├── results/                    # Experiment outputs (large files gitignored)
-    │   ├── enriched/               # LLM-enriched rows (1,581 pages)
-    │   └── sample_pdf/             # JSON cache for sample pages (tracked)
-    │
-    └── reports/                    # Generated HTML/CSV/PNG reports (gitignored)
+└── requirements.txt
 ```
 
 ---
@@ -121,41 +106,38 @@ historical_ledger_extraction/
 
 ```bash
 # Process images → Excel
-python pipeline/run_pipeline.py --images data/images/
-python pipeline/run_pipeline.py --images data/images/ --use-cache
+python extraction/pipeline/run_pipeline.py --images data/images/
+python extraction/pipeline/run_pipeline.py --images data/images/ --use-cache
 
 # Full pipeline: PDF conversion + extraction
-python run_all.py
-python run_all.py --no-cache  # force re-extraction
+python extraction/run_all.py
 ```
 
 ### Extraction Experiments
 
 ```bash
-python -m experiments.run_experiment --pipeline v2_no_claude
-python -m experiments.run_experiment --pipeline v2_no_claude --pages 1700_7
-python -m experiments.run_experiment --compare-ablations
+python -m extraction.experiments.run_experiment --pipeline v2_no_claude
+python -m extraction.experiments.run_experiment --pipeline v2_no_claude --pages 1700_7
+python -m extraction.experiments.run_experiment --compare-ablations
 ```
 
 ### Enrichment
 
 ```bash
-python experiments/enrichment/enrich_supervisor_rows.py
+python extraction/enrichment/enrich_supervisor_rows.py
 ```
 
 ### Analysis
 
 ```bash
-# Versioned analysis pipeline (run latest)
-python experiments/analysis/analysis_v8.py
+# Run latest analysis (v18)
+python analysis/v18/analysis_v18.py
 
-# Topic-specific analyses
-python experiments/analysis/analysis_embeddings.py
-python experiments/analysis/analysis_text_trends.py
-python experiments/analysis/analysis_supplier_networks.py
+# Run specific version
+python analysis/v15/analysis_v15.py
 
-# Yearly aggregation (prerequisite for v4–v8)
-python experiments/analysis/reanalysis_ledger_yearly_v2.py
+# Shared scripts
+python analysis/shared/analysis_embeddings.py
 ```
 
 ---
@@ -204,41 +186,26 @@ After extraction, each row is enriched with semantic metadata:
 | `place_name`, `person_name` | normalised names |
 | `english_description` | plain-English gloss |
 
-**Status:** 1,581 pages enriched (1700–1900), stored in `experiments/results/enriched/`.
+**Status:** 1,581 pages enriched (1700–1900), stored in `extraction/results/enriched/`.
 
 ---
 
-## Analysis Progression (v4–v8)
+## Analysis Versions (v4–v18)
 
-The versioned analysis pipeline applies a Four-Level Transformation Framework to Oxford University's financial records (1700–1900), testing whether the institution underwent a sequential institutional transformation analogous to AI adoption patterns.
+The versioned analysis pipeline applies a Four-Level Transformation Framework to Oxford University's financial records (1700–1900).
 
 | Version | Focus |
 |---------|-------|
-| v4 | Financial restructuring, vocabulary change, supplier networks, text trends |
-| v5 | Outcome variables, OLS regression specs, robustness, income composition |
-| v6 | Four-level proxy construction (L1 efficiency, L2 process, L3 capability, L4 mission) |
-| v7 | ITS / RDD / Granger causality / placebo multi-method causal analysis |
-| v8 | Explicit L1–L4 operationalization, sequential transformation testing, capability vs mission decomposition |
+| v4–v8 | Foundation: Financial restructuring, OLS, four-level proxies (L1–L4) |
+| v9–v11 | Event-time plots, Reform Acts, strength assessment |
+| v14–v15 | L4 split, portfolio analysis, reallocation |
+| v16–v17 | Spending-income gap, organizational decision rules |
+| v18 | **Current** — Latest analysis |
 
-Reports generated to `experiments/reports/analysis_v{n}/`.
-
----
-
-## Git Workflow
-
-```bash
-# Always branch from main for new experiments
-git checkout main
-git checkout -b experiments/new-feature-name
-
-# Test on one page before full run
-python -m experiments.run_experiment --pipeline <name> --pages 1700_7
-
-# Merge to main only if improvement ≥ 0.01 on combined score
-```
+See `analysis/README.md` for full documentation.
 
 ---
 
-**Last Updated:** 2026-05-14
-**SOTA:** v2_no_claude (0.8385 combined, 0.8515 axis2)
-**Status:** Active — enrichment complete (1,581 pages), analysis v8 in progress
+**Last Updated:** 2026-07-28
+**SOTA:** v2_no_claude (0.8385 combined)
+**Analysis:** v18 (latest)

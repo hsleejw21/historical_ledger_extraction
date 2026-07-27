@@ -1,0 +1,41 @@
+======================================================================
+V12 VARIABLE VALIDATION — VERDICT
+======================================================================
+
+PART A — L1 boundary sensitivity
+  base L1 vs v6 traditional share .. |r| = 0.9969 (sanity; expect ~1.0) ✓
+  base vs +charitable ........... r = 0.9872, mean era Δ = 0.012
+  base vs +charitable+admin ..... r = 0.8194, mean era Δ = 0.153
+  era means (L1 by boundary):
+                      L1[base{eccl,maint,dom}]  L1[+charitable]  L1[+charitable+admin]
+    era                                                                               
+    pre_industrial                       0.529            0.511                  0.367
+    transition                           0.839            0.832                  0.696
+    early_industrial                     0.798            0.789                  0.653
+    late_industrial                      0.801            0.789                  0.639
+  VERDICT: charitable is IMMATERIAL (Δ=0.012); administrative is MATERIAL (Δ=0.153).
+    → LOCK L1 = 1 − {ecclesiastical, maintenance, domestic}. Charitable may be
+      added without consequence; administrative is NOT a legacy function and is
+      EXCLUDED (its inclusion would mechanically depress L1).
+
+PART B — L4 textual triangulation
+  L4 (spend) vs textual mission index: r = 0.453 (p = 2.8e-11); TREND (10yr) r = 0.746
+  core mission signals, trend (10yr) correlation with L4:
+    signal
+    scholarships_prizes          0.910
+    scientific_professorships    0.831
+    lectures_teaching            0.543
+  all per-signal correlations:
+                       signal  pearson_r  pearson_p  spearman_r  spearman_p  pearson_r_10yr
+        scholarship_intensity      0.185      0.010       0.364       0.000           0.173
+              prize_intensity      0.074      0.303       0.393       0.000           0.149
+     competitive_examinations     -0.032      0.655       0.011       0.879           0.016
+            lectures_teaching      0.237      0.001       0.022       0.759           0.543
+    scientific_professorships      0.313      0.000       0.242       0.001           0.831
+          scholarships_prizes      0.721      0.000       0.462       0.000           0.910
+        textual_mission_index      0.453      0.000       0.424       0.000           0.746
+  VERDICT: CORROBORATED at the trend level (composite trend r = 0.75).
+    → Independent textual mission signals (scholarships/prizes, scientific
+      professorships, teaching) track the educational-spend share: L4 reflects a
+      real mission shift, not an accounting artifact. Sparse indicators
+      (exams, prize_intensity) are too thin to be informative — exclude from triangulation.

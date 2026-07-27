@@ -33,33 +33,29 @@ data/sample_pdf/
 # 800 MB PDFs — upload to EC2 separately via scp/S3
 data/annual_accounts_1700-1900/
 
-# Pipeline artifacts
-pipeline/cache/
-pipeline/output/
-pipeline/cache.zip
+# Extraction pipeline artifacts
+extraction/pipeline/cache/
+extraction/pipeline/output/
+extraction/pipeline/cache.zip
 
-# Experiment results — large generated data, not needed in source control
-experiments/results/enriched/
-experiments/results/robustness/
-experiments/results/v1/
-experiments/results/v2/
-experiments/results/v3/
-experiments/results/v4/
-experiments/results/v5/
-experiments/results/ledger.xlsx
-experiments/results/sample_pdf.zip
-experiments/results/sample_pdf_results.xlsx
-experiments/run_v2_no_claude.log
-# NOTE: experiments/results/sample_pdf/ (JSON) is tracked — run_all.py seeds
+# Extraction results — large generated data, not needed in source control
+extraction/results/enriched/
+extraction/results/robustness/
+extraction/results/v1/
+extraction/results/v2/
+extraction/results/v3/
+extraction/results/v4/
+extraction/results/v5/
+extraction/results/ledger.xlsx
+extraction/results/sample_pdf.zip
+extraction/results/sample_pdf_results.xlsx
+extraction/results/cache/
+extraction/results/cache.zip
+# NOTE: extraction/results/sample_pdf/ (JSON) is tracked — run_all.py seeds
 #       pipeline/cache/ from it to skip re-extracting already-processed pages.
-experiments/results/cache/
-experiments/results/cache.zip
-
-# Generated analysis reports (reproducible from analysis scripts)
-experiments/reports/
 
 # LOOCV experiment outputs
-experiments/v6_loocv/outputs/
+extraction/experiments/v6_loocv/outputs/
 
 # Run logs
 robustness.log

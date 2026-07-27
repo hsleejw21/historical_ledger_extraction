@@ -1,0 +1,4 @@
+era,p_exp_to_inc,p_inc_to_exp,leads
+1800-1819 (tight),0.0065834035841633165,0.25388045919238955,expenditure->income
+"1820-1853 (loose, pre-reform)",0.5631231944298458,0.011295771659715181,income->expenditure
+"1854-1900 (loose, post-reform)",0.8065503163584665,0.7239732029698485,neither / both

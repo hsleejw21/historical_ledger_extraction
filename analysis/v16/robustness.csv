@@ -1,0 +1,4 @@
+specification,p_tight_1800_1819,p_loose_1820_1853,p_post_1854_1900
+"differenced VAR, lag 1",0.2447,0.009,0.719
+"levels VAR, lag 2",0.7424,0.0433,0.2835
+"differenced VAR lag 1, observed years only",0.2404,0.009,0.773

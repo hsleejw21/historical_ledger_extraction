@@ -1,0 +1,2 @@
+page,supervisor_model,extractor_models,ext_gemini-flash_axis1,ext_gemini-flash_axis2,ext_gemini-flash_combined,ext_gpt-5-mini_axis1,ext_gpt-5-mini_axis2,ext_gpt-5-mini_combined,supervisor_axis1,supervisor_axis2,supervisor_combined,debates_triggered,rows_revised
+1881_1,gemini-flash,gemini-flash|gpt-5-mini,0.6182,0.5323,0.5753,0.6016,0.6727,0.6371,0.6289,0.5323,0.5806,2,1
