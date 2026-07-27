@@ -38,8 +38,8 @@ extraction/pipeline/cache/
 extraction/pipeline/output/
 extraction/pipeline/cache.zip
 
-# Extraction results — large generated data, not needed in source control
-extraction/results/enriched/
+# Extraction results — large generated data
+# NOTE: enriched/ is tracked (46MB, 1581 files) — core analysis data
 extraction/results/robustness/
 extraction/results/v1/
 extraction/results/v2/

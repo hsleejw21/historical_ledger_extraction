@@ -1,0 +1,99 @@
+{
+  "page_id": "1781-1782_4_image",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "Exchequer Annuity",
+      "amount_pounds": 50,
+      "amount_shillings": 0,
+      "amount_pence_whole": 0,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "All extractors agreed on this row's description and monetary values, which are clearly visible in the image.",
+      "section_header": "",
+      "direction": "income",
+      "category": "financial",
+      "language": "english",
+      "english_description": "Annuity payment received from the Exchequer.",
+      "english_description_with_amount": "Annuity payment received from the Exchequer, amounting to £50 0s 0d.",
+      "place_name": null,
+      "person_name": null,
+      "payment_period": "annual",
+      "is_signature": false,
+      "is_arrears": false
+    },
+    {
+      "row_index": 2,
+      "row_type": "entry",
+      "description": "Interest of Stock, in the 3 pr Cent: Consol.",
+      "amount_pounds": 63,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors. The description punctuation after 'Cent' was visually verified to be a colon (':') in the image, aligning with gpt-5-mini's output, while gemini-flash used a period ('.').",
+      "section_header": "",
+      "direction": "income",
+      "category": "financial",
+      "language": "english",
+      "english_description": "Interest received on three percent Consols stock.",
+      "english_description_with_amount": "Interest received on three percent Consols stock, amounting to £63 8s 4d.",
+      "place_name": null,
+      "person_name": null,
+      "payment_period": "annual",
+      "is_signature": false,
+      "is_arrears": false
+    },
+    {
+      "row_index": 3,
+      "row_type": "total",
+      "description": "113: 8: 4.",
+      "amount_pounds": 113,
+      "amount_shillings": 8,
+      "amount_pence_whole": 4,
+      "amount_pence_fraction": "",
+      "confidence_score": 1.0,
+      "notes": "Monetary values agreed by both extractors. gemini-flash correctly captured '113: 8: 4.' as the description text for the total line, which is visibly present on the page in the description column. gpt-5-mini left the description empty, despite its notes acknowledging the numerals.",
+      "section_header": "",
+      "direction": null,
+      "category": null,
+      "language": null,
+      "english_description": null,
+      "english_description_with_amount": null,
+      "place_name": null,
+      "person_name": null,
+      "payment_period": null,
+      "is_signature": null,
+      "is_arrears": null
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 1,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 2,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    },
+    "enrichment_model": "gpt-5-mini",
+    "enrichment_fields": [
+      "direction",
+      "category",
+      "language",
+      "english_description",
+      "english_description_with_amount",
+      "place_name",
+      "person_name",
+      "payment_period",
+      "is_signature",
+      "is_arrears"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "page_id": "1738_4_image",
+  "rows": [],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {},
+    "enrichment_model": "gpt-5-mini",
+    "enrichment_fields": [
+      "direction",
+      "category",
+      "language",
+      "english_description",
+      "english_description_with_amount",
+      "place_name",
+      "person_name",
+      "payment_period",
+      "is_signature",
+      "is_arrears"
+    ]
+  }
+}

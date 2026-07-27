@@ -1,0 +1,55 @@
+{
+  "page_id": "1714_7_image",
+  "rows": [
+    {
+      "row_index": 1,
+      "row_type": "entry",
+      "description": "March 21 1714 Memd. the Same last mention'd of forty one pound nineteen shillings & eight pence farthing was this day taken out of this Accot. & paid to Mr Hutchins in part of a bond of one hundred pounds wch was cancell'd at the Same time. Hen'y S. Addams Subscr.",
+      "amount_pounds": 41,
+      "amount_shillings": 19,
+      "amount_pence_whole": 8,
+      "amount_pence_fraction": 0.25,
+      "confidence_score": 1.0,
+      "notes": "Both extractors correctly identified the single row. Amounts (£41, 19s, 8d, 0.25) were in consensus and clearly visible and accurate upon visual inspection. The description from 'gemini-flash' was more comprehensive and accurate than 'gpt-5-mini' (e.g., 'Memd.', 'Same', 'pound' singular, 'cancelled' vs 'casht', and inclusion of 'Herr[y] Sr. Addams Subcr.'). However, a final direct visual transcription was performed to ensure maximum accuracy for the description, refining details such as 'mention'd', 'Accot.', 'wch', 'cancell'd', and 'Hen'y S. Addams Subscr.' to match the visual evidence more precisely. The 'q' for farthing is distinctly visible.",
+      "section_header": "",
+      "direction": "expenditure",
+      "category": "financial",
+      "language": "english",
+      "english_description": "Payment to Mr Hutchins as part settlement of a £100 bond which was then cancelled.",
+      "english_description_with_amount": "Payment to Mr Hutchins as part settlement of a £100 bond which was then cancelled, amounting to £41 19s 8¼d.",
+      "place_name": null,
+      "person_name": "Mr Hutchins",
+      "payment_period": "one_off",
+      "is_signature": false,
+      "is_arrears": false
+    }
+  ],
+  "_meta": {
+    "supervisor_model": "gemini-flash",
+    "candidate_models": [
+      "gemini-flash",
+      "gpt-5-mini"
+    ],
+    "supervisor_meta": {
+      "total_candidates_received": 2,
+      "rows_by_consensus": 0,
+      "rows_by_note_assessment": 0,
+      "rows_by_visual_override": 1,
+      "rows_added_missing": 0,
+      "rows_dropped_extra": 0
+    },
+    "enrichment_model": "gpt-5-mini",
+    "enrichment_fields": [
+      "direction",
+      "category",
+      "language",
+      "english_description",
+      "english_description_with_amount",
+      "place_name",
+      "person_name",
+      "payment_period",
+      "is_signature",
+      "is_arrears"
+    ]
+  }
+}
