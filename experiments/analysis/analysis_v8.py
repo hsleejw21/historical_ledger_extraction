@@ -822,7 +822,7 @@ def section_e_html():
 # ---------------------------------------------------------------------------
 
 CSS = """
-body{font-family:Arial,sans-serif;max-width:1200px;margin:40px auto;padding:0 20px;color:#222}
+body{font-family:Arial,sans-serif;max-width:1300px;margin:40px auto;padding:0 20px;color:#222}
 h1{font-size:1.6em;border-bottom:2px solid #2c3e50;padding-bottom:8px}
 h2{font-size:1.3em;color:#2c3e50;margin-top:36px}
 h3{font-size:1.1em;color:#34495e}
@@ -830,13 +830,20 @@ table{border-collapse:collapse;width:100%;margin:16px 0;font-size:0.88em}
 th{background:#2c3e50;color:white;padding:7px 10px;text-align:left}
 td{border:1px solid #ddd;padding:6px 10px}
 tr:nth-child(even){background:#f9f9f9}
-figure{margin:20px 0}
-figcaption{font-size:0.85em;color:#555;margin-top:4px}
-figure img{border:1px solid #ddd;border-radius:4px}
+figure{margin:8px 0}
+figcaption{font-size:0.82em;color:#555;margin-top:4px}
+figure img{border:1px solid #ddd;border-radius:4px;width:100%}
 .callout{background:#eaf4fb;border-left:4px solid #2980b9;padding:12px 16px;margin:16px 0;border-radius:4px}
 .warn{background:#fef9e7;border-left:4px solid #f39c12;padding:12px 16px;margin:16px 0;border-radius:4px}
 .missing{color:#888;font-style:italic}
 code{background:#f4f4f4;padding:2px 5px;border-radius:3px;font-size:0.9em}
+.section{background:#fafafa;border:1px solid #e0e0e0;border-radius:6px;padding:16px 20px;margin:24px 0}
+.fig-row{display:flex;gap:12px;align-items:flex-start;margin:12px 0}
+.fig-row figure{flex:1;min-width:0;margin:0}
+.fig-col{display:flex;flex-direction:column;gap:12px}
+.fig-table-row{display:flex;gap:16px;align-items:flex-start;margin:12px 0}
+.fig-table-row figure{flex:1;min-width:0;margin:0}
+.fig-table-row .tbl-wrap{flex:1;min-width:0}
 """
 
 
@@ -862,6 +869,7 @@ in 200 years of Oxford accounting data. We (A) explicitly operationalize each le
 
 <!-- ========================================================= SECTION A -->
 <h2>Section A: L1–L4 Explicit Operationalization</h2>
+<div class="section">
 
 <h3>A1. Proxy Definitions</h3>
 {a["op_table"]}
@@ -871,14 +879,20 @@ Here we use <strong>L1_inv = 1 − L1</strong> so that all four levels increase 
 enabling direct comparison. L2, L3, L4 already increase with modernisation.
 </div>
 
-<h3>A2. 200-Year Trends</h3>
-{_img(a["b64_trends"], "Figure A1. L1_inv through L4 (1700–1900). Dots = annual values; line = 10-yr rolling mean. Dashed L1_alt = English-language entry share (robustness check). Vertical red dashes = 1854 & 1877 Reform Acts. Era bands: blue=pre-industrial, green=transition, orange=early-industrial, pink=late-industrial.")}
-
-<h3>A3. L1 Robustness: Traditional Share vs Language Shift</h3>
-{_img(a["b64_l1corr"], f"Figure A2. Scatter of L1_inv vs English-language entry share (L1_alt). Pearson r = {a['l1_r']:.3f} (p = {a['l1_p']:.3f}). High correlation validates using traditional-function decline as an accounting-standardisation proxy.")}
+<h3>A2–A3. 200-Year Trends &amp; L1 Robustness</h3>
+<div class="fig-row">
+  <figure>
+    {_img(a["b64_trends"], "Figure A1. L1_inv through L4 (1700–1900). Dots = annual values; line = 10-yr rolling mean. Dashed L1_alt = English-language entry share (robustness check). Vertical red dashes = 1854 &amp; 1877 Reform Acts.")}
+  </figure>
+  <figure>
+    {_img(a["b64_l1corr"], f"Figure A2. Scatter of L1_inv vs English-language entry share (L1_alt). Pearson r = {a['l1_r']:.3f} (p = {a['l1_p']:.3f}). High correlation validates using traditional-function decline as an accounting-standardisation proxy.")}
+  </figure>
+</div>
 
 <h3>A4. Era-Level Descriptives</h3>
 {a["era_table"]}
+
+</div>
 
 <!-- ========================================================= SECTION B -->
 <h2>Section B: Sequential Transformation Testing</h2>
@@ -887,31 +901,49 @@ enabling direct comparison. L2, L3, L4 already increase with modernisation.
 Three complementary methods test this. Convergence across methods strengthens the sequencing claim.
 </div>
 
-<h3>B1. Change-Point Detection & Ordering</h3>
+<div class="section">
+<h3>B1. Change-Point Detection &amp; Ordering</h3>
 <p>Binseg algorithm (RBF cost, n_bkps=2) detects two structural breaks per level.
 Ordering test: is Break₁(L1) ≤ Break₁(L2) ≤ Break₁(L3) ≤ Break₁(L4)?</p>
-{b1["table_html"]}
-<p><strong>{ordered_flag}</strong> — {b1["order_str"]}</p>
+<div class="fig-table-row">
+  <div class="tbl-wrap">
+    {b1["table_html"]}
+    <p><strong>{ordered_flag}</strong> — {b1["order_str"]}</p>
+  </div>
+  {_img(b1["b64_timeline"], "Figure B1b. Break-year timeline. Dots mark Break 1 and Break 2 per level. Red lines = Oxford Reform Acts.")}
+</div>
 {_img(b1["b64_bkp"], "Figure B1a. Detected structural breaks (red lines) per level with 10-yr rolling mean.")}
-{_img(b1["b64_timeline"], "Figure B1b. Break-year timeline. Dots mark Break 1 and Break 2 per level. Red lines = Oxford Reform Acts.")}
+</div>
 
+<div class="section">
 <h3>B2. Sequential Granger Causality Chain</h3>
 <p>Tests whether past values of each level help predict the <em>next</em> level beyond its own history:
 L1_inv → L2, L2 → L3, L3 → L4. Series are first-differenced if ADF test indicates non-stationarity (p > 0.05).</p>
-{b2["table_html"]}
-{_img(b2["b64_granger"], "Figure B2. Granger p-value heatmap by chain × lag. Green cells (p < 0.05) indicate temporal predictive power from the earlier to the later level.")}
+<div class="fig-table-row">
+  <div class="tbl-wrap">{b2["table_html"]}</div>
+  {_img(b2["b64_granger"], "Figure B2. Granger p-value heatmap by chain × lag. Green cells (p < 0.05) indicate temporal predictive power from the earlier to the later level.")}
+</div>
+</div>
 
+<div class="section">
 <h3>B3. Cross-Lagged Correlation</h3>
 <p>Pearson r between L_k(t) and L_{{k+1}}(t + lag) for lag ∈ [−15, +15].
 A positive peak lag means the earlier level leads the later level.</p>
-{b3["table_html"]}
-{_img(b3["b64_crosslag"], "Figure B3. Cross-lagged correlation for adjacent level pairs. Bar = correlation at each lag; red vertical = peak lag.")}
+<div class="fig-table-row">
+  <div class="tbl-wrap">{b3["table_html"]}</div>
+  {_img(b3["b64_crosslag"], "Figure B3. Cross-lagged correlation for adjacent level pairs. Bar = correlation at each lag; red vertical = peak lag.")}
+</div>
+</div>
 
+<div class="section">
 <h3>B4. Transition Date Estimation</h3>
 <p>Each level's 10-yr rolling mean is compared to its pre-1850 baseline (mean + 1.5 SD threshold).
 Transition year = first year the rolling mean stays above threshold for ≥5 consecutive years.</p>
-{b4["table_html"]}
-{_img(b4["b64_trans"], "Figure B4. Transition timeline. Coloured bars show pre-transition period; dot marks the estimated transition year.")}
+<div class="fig-table-row">
+  <div class="tbl-wrap">{b4["table_html"]}</div>
+  {_img(b4["b64_trans"], "Figure B4. Transition timeline. Coloured bars show pre-transition period; dot marks the estimated transition year.")}
+</div>
+</div>
 
 <!-- ========================================================= SECTION C -->
 <h2>Section C: Capability Expansion vs Mission Change</h2>
@@ -921,25 +953,30 @@ institutional mission transformation (L4: educational expenditure). This would m
 AI transformation pattern of "invest in people and tools before pivoting strategy."
 </div>
 
-<h3>C1. Category-Level Interrupted Time Series</h3>
+<div class="section">
+<h3>C1–C2. Category-Level ITS &amp; Coefficient Comparison</h3>
 <p>Separate ITS models for each level around the 1854 and 1877 Oxford Reform Acts.
 HAC standard errors (Newey-West, maxlags=10). Counterfactual = pre-reform trend extended.</p>
-{_img(c["b64_its"], "Figure C1. ITS fitted lines and counterfactuals for each level. Annotated with 1854 and 1877 level-shift coefficients (*** p<0.01, ** p<0.05, * p<0.10).")}
-
-<h3>C2. Coefficient Comparison</h3>
-{_img(c["b64_coef"], "Figure C2. 1854 and 1877 level-shift coefficients (95% CI) across levels. Positive = increase after reform; negative = decline. Compare L3 (capability) vs L4 (mission) magnitude and direction.")}
+<div class="fig-row">
+  {_img(c["b64_its"], "Figure C1. ITS fitted lines and counterfactuals for each level. Annotated with 1854 and 1877 level-shift coefficients (*** p&lt;0.01, ** p&lt;0.05, * p&lt;0.10).")}
+  {_img(c["b64_coef"], "Figure C2. 1854 and 1877 level-shift coefficients (95% CI) across levels. Positive = increase after reform; negative = decline. Compare L3 (capability) vs L4 (mission) magnitude and direction.")}
+</div>
 {c["table_html"]}
+</div>
 
 <!-- ========================================================= SECTION D -->
 <h2>Section D: Mechanism Attribution — What We Can and Cannot Claim</h2>
+<div class="section">
 <div class="warn">
 <strong>Important:</strong> The evidence supports different strength of claims for different findings.
 This table explicitly distinguishes them to avoid over-stating causality.
 </div>
 {d_html}
+</div>
 
 <!-- ========================================================= SECTION E -->
 <h2>Section E: AI Transformation Framework — Systematic Mapping</h2>
+<div class="section">
 <p>For each empirical finding, we assess whether it is generalizable beyond Oxford's historical context
 or whether it reflects historically specific institutional constraints.</p>
 {e_html}
@@ -947,6 +984,7 @@ or whether it reflects historically specific institutional constraints.</p>
 <strong>Key distinction:</strong> The <em>mechanism</em> (reform as trigger, capability before mission)
 may be generalizable. The <em>pace</em> (200 years), <em>scale</em> (parish ledgers), and
 <em>institutional form</em> (Oxbridge endowment) are historically specific.
+</div>
 </div>
 
 </body>

@@ -64,6 +64,13 @@ experiments/v6_loocv/outputs/
 # Run logs
 robustness.log
 
+# Reference materials & manuscripts (not part of codebase)
+*.pdf
+manuscript/
+ANCHOR_NARRATIVE.md
+related_literature
+ai-transformation-in-business.txt
+
 # OS
 .DS_Store
 Thumbs.db
